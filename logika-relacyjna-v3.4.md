@@ -2029,6 +2029,29 @@ Logarytmy pojawiły się w v3.4 **wszędzie**: entropia po obcięciu (C4a.16), l
   - **Zastrzeżenie [A] — ZDJĘTE przez etap11:** po redukcji był to tylko test wyprowadzenia; pełny sprinkling 3+1 (wyżej) potwierdził redukcję.
   - **Wniosek dla mostu:** w 1+1 δη ∝ n^(−1), w 3+1 δη ∝ n^(−1/3) na promień w H³, ale **liczba ram rozróżnialnych przez trajektorię ∝ n w obu** → **koszt wskazania ramy = ln n + const, współczynnik 1 niezależnie od wymiaru**. W odróżnieniu od §F2 (ln N — specyfika 1+1) ten logarytm **przenosi się na 3+1**. Masa pod logarytmem: n = ρπτ⁴/24 ∝ (skala tyknięcia/skala dyskretności)⁴ = ρ/m⁴ (tempo ≡ masa ∝ 1/τ).
 
+**SKĄD ε — SKAN ε → 0 (v3.4, `etap12_eps_granica.py`, CPU) [H][P][A].**
+- **Pytanie [H] (użytkownik):** w sumie Fokkera (C4a.14–15) stała zależała od szerokości warstwy Δ, a okazało się, że to błąd przybliżenia δ(s²), który znika przy cienkiej warstwie. Tu r1 rośnie z ε, a stała od ε zależy, więc ε może grać tę samą rolę. Test: skan ε w dół. Skończona granica → ε jest regularyzacją i pytanie „skąd ε” znika. Brak granicy → ε niesie prawdziwą skalę.
+- **Różnica wobec Fokkera, zapisana przed rachunkiem [A]:** tam zależność od Δ była błędem przybliżenia. Tu zależność od ε jest **dokładna**: ε wchodzi wyłącznie przez λ = εn (liczba kandydatów na jednostkę pchnięcia). Przewidywanie: test rozdzieli dwie rzeczy. Stała przy stałym n granicy nie ma, a artefakty ε (r1, odchyłka surowego współczynnika) znikają jak Δ u Fokkera.
+- **Warunki:** redukcja lokalna potwierdzona pełnym sprinklingiem (etap10, etap11), łańcuch tref jak w etap11 (krok 0 + 3 kroki pamięci), n = 2000, ε ∈ {0,2; 0,1; 0,05; 0,02; 0,01; 0,005} (1,6 dekady), K = 20 000 × 3 przyrosty, d = 1+1 i 3+1.
+
+| ε | 1+1: surowy/wzór | 1+1: r1 | 1+1: E4 iloczyn (0,1021) | 3+1: surowy/wzór | 3+1: r1 | σ(tk/tref) = ε/√3 |
+|---|---|---|---|---|---|---|
+| 0,2 | 1,101 | +0,075 | 0,112 ✗ | 0,974 | +0,216 | ✓ (1+1), 0,1127 wobec 0,1155 (3+1) |
+| 0,1 | 1,016 | +0,015 | 0,104 | 0,991 | +0,065 | ✓ |
+| 0,05 | 1,008 | +0,003 | 0,103 | 0,999 | +0,014 | ✓ |
+| 0,02 | 0,996 | −0,003 | 0,102 | 0,999 | +0,009 | ✓ |
+| 0,01 | 1,003 | −0,004 | 0,102 | 1,001 | −0,003 | ✓ |
+| 0,005 | 1,001 | +0,002 | 0,102 | 0,999 | −0,001 | ✓ |
+
+- **E1 — stała przy stałym n NIE ma granicy (PRZESZŁO, na granicy tolerancji):** wykładnik skoku wobec ε: **−0,980** w 1+1 (przewidywane −1,00 ± 0,02) i **−0,342** w 3+1 (−0,333 ± 0,01). Oba na krawędzi pasma. Odchyłkę ciągnie punkt ε = 0,2, gdzie surowy współczynnik niesie artefakt tref (1,10 / 0,97). Po lokalnym normowaniu wszystkie punkty dają 0,995–1,006.
+- **E2 — artefakt znika (PRZESZŁO):** surowy współczynnik przy ε ≤ 0,01: 1,003 / 1,001 (1+1), 1,001 / 0,999 (3+1). Odchyłka < 1%.
+- **E3 — r1 → 0 (PRZESZŁO):** przy ε ≤ 0,02 |r1| ≤ 0,009 (maksimum 0,0090 w 3+1 przy ε = 0,02, na granicy). Czyli r1 zachowuje się jak Δ u Fokkera: to artefakt, który znika.
+- **E4 — iloczyn niezależny od ε (1+1): PRZESZŁO dla ε ≤ 0,1** (0,102–0,104 przy przewidywanym 0,1021), **UPADŁO przy ε = 0,2** (0,112, +10%; ten sam artefakt tref). σ(tk/tref) = ε/√3 dokładnie.
+- **3+1, PO FAKCIE (nie było zdania):** odpowiednik E4 to σ(tk/tref)·rms³·n = Γ(5/3)^(3/2)/(64√3) = 0,00774. Wyszło 0,00767–0,00775 dla ε ≤ 0,05 i 0,0067 przy ε = 0,2.
+- **Odpowiedź na pytanie [A]: ε NIE jest regularyzacją, ale też nie niesie osobnej skali.** Stała nie ma granicy (E1), więc według kryterium użytkownika ε jest prawdziwym parametrem. Tyle że jest to **rozdzielczość tempa** trajektorii, czyli ostrość masy: σ(tk/tref) = ε/√3. Za każde zaostrzenie tempa trajektoria płaci rozmyciem ramy, a iloczyn obu rozdzielczości ustala samo n: w 1+1 σ_tempo·δη = 1/(4√6·n), w 3+1 σ_tempo·rms³ = 0,00774/n. **Budżet rozróżnialności jest jeden (n); ε mówi tylko, jak trajektoria dzieli go między masę a ramę.** Pytanie „skąd ε” zmienia się w „co ustala ten podział”. Nie znika, ale przestaje być pytaniem o nową skalę.
+- **Pułapka nazewnicza [A]:** iloczyn stały przy wymianie ostrości masy na ostrość ramy **wygląda** jak relacja nieoznaczoności. Ta nazwa jest pułapką (nr 5 z listy: etykieta zamiast rachunku). To zdanie o liczbie kandydatów w paśmie, a nie o operatorach. Porównanie z mechaniką kwantową byłoby osobnym krokiem, z literaturą najpierw.
+- **Artefakty ε znikają jak u Fokkera:** r1 i surowa odchyłka współczynnika. Oba biorą się z dziedziczenia tref.
+
 - **Test:** sprawdzić, czy współczynniki przy ln N z C4a.19 i 22 (1 dla linków, ½ dla ścian, 0,57 dla defektów) dają się wyprowadzić z liczby stopni swobody wskazania, zamiast być dopasowane.
 
 # §E — DYSCYPLINA
@@ -2186,6 +2209,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 100 | **skan ε → 0 (pytanie użytkownika, analogia z Δ Fokkera): stała przy stałym n bez granicy (−0,980 / −0,342, na krawędzi tolerancji), artefakty (r1, surowy współczynnik) znikają; ε = rozdzielczość tempa (ε/√3); iloczyn rozdzielczości tempa i ramy ustala samo n (1+1: 0,102 wobec 0,1021)**; E4 upadło przy ε = 0,2; odpowiednik 3+1 po fakcie | §F2 | **użytkownik** (pytanie, test) + asystent (v3.4) |
 | 99 | **pełny sprinkling 3+1 (A100, 183 mln punktów): Q1 −0,331 / −0,331 / −0,333, Q2 0,990–1,009, Q3 < 2,4% — redukcja z etap10c potwierdzona; most przez ramę w 3+1 stoi**; r1 = dziedziczenie tref (po fakcie, MC odtwarza 0,02/0,07/0,21, po normowaniu ~0) | §F2 | **użytkownik** (przebieg GPU) + asystent (v3.4) |
 | 98 | etap11 v1: OutOfMemory przy n = 3 (okno pchnięć rośnie wykładniczo przy małym n) — rozmiar siatki nie sprawdzony przed wysłaniem; v2 z bezpiecznikiem, n ≥ 10, większe pudło | §F2 | asystent (v3.4), wykryte na Colabie użytkownika |
 | 97 | **most przez ramę w 3+1: rms(r) ∝ n^(−0,332), współczynnik 0,98–1,01 wzoru; liczba ram ∝ n w 1+1 i 3+1 → koszt wskazania ramy = ln n ze współczynnikiem 1 niezależnie od wymiaru** (redukcja do lokalnego losowania; pełny sprinkling 3+1 niepoliczony) | §F2 | asystent (v3.4) |
