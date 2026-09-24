@@ -36,7 +36,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Pamięć/zapis** (trajektoria, „dym za samolotami” [72, 134]) = dostęp do innych układów struktury niż bieżący = **czwarty punkt odniesienia** = czas. Bez dynamiki nie ma czego pamiętać, bez pamięci nie ma zmiany: **wszystko naraz** [392, 402].
 - **3 wymiary przestrzenne = 4 punkty odniesienia** (3 węzły relacji + 1 punkt informacji o dynamicznej strukturze; ten punkt jest w superpozycji, dopóki pole nie jest wzbudzone). **3D jest warunkiem koniecznym i wystarczającym do ustalenia każdej pozycji.** „4D” w pliku = 3D + dynamika + pamięć [98]; **3+1 = punkty, nie osie** [400].
 - **Dlaczego nie więcej [511]:** wyższy wymiar wymagałby pięciu punktów odniesienia w jednym atomowym kroku; odczyt generuje informację już przy czterech; każdy kolejny element to węzeł w istniejącym 3D, zmiana gęstości, nie nowa oś [72]. 3D to strukturalne minimum.
-- **Rysunki 25.09:** punkty zapisu leżą na trajektoriach, **każdy łączy się naraz z całą triadą** (odczyt = czworościan), jest ich wiele, bez kolejności. Drugi rysunek: triada **współliniowa** (X, Z, Y na prostej), zapisy nad i pod nią: kształt triady nie ma znaczenia, trójwymiarowość dają zapisy. **„To nie znaczy, że płaskość w ogóle istnieje.”** Płaskość ≡ Ø, nieosiągalna [543].
+- **Rysunki 25.09:** punkty zapisu leżą na trajektoriach, **każdy łączy się naraz z całą triadą** (odczyt = czworościan), jest ich wiele, bez kolejności. Drugi rysunek to **statyczny wycięty kadr**: odbiorca przed ekranem jest czwartym punktem odniesienia, triada widziana z własnej płaszczyzny. **Współliniowości tam nie ma — istnieje tylko w 2D (≡ Ø), w 3D nie ma racji bytu** (poprawka 117). Rysunek na ekranie sam jest projekcją 2D: nie czytać go jak konfiguracji w strukturze. **„To nie znaczy, że płaskość w ogóle istnieje.”** Płaskość ≡ Ø, nieosiągalna [543].
 - **Dowód ma być strukturalny** (nie dopuszcza innych przypadków), nie przez przykłady [66, 148].
 
 **Węzły i „obserwator” [404–408]:** jądro atomu to węzeł interakcji; węzeł, który jako całość jest w relacji z innym węzłem, zyskuje punkt odniesienia (patrzy sam na siebie). Słowo „świadomość” do kosza. Henry Molaison: zmieniony aparat odczytu, ten sam mechanizm; przy 100% c i 0 s „przeskok fazowy” = stan nierozróżnialny od osobliwości.
@@ -65,7 +65,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 116)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 117)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
