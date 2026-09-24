@@ -67,7 +67,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 130)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 131)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
@@ -87,6 +87,6 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 **Najbliższe kroki:**
 1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. ~~Płaskość jako średnia po odczytach~~ — źle postawione (poprawka 113): krzywizna 0 = Planck / nieoznaczoność / osobliwość ≡ Ø, opisywalne tylko nie wprost, przez bezpośrednie otoczenie. Dowód strukturalny, nie przykłady. **Stan (poprawki 114–119):** Müller–Masanes 2013 + Masanes i in. 2014 (arXiv:1111.4060) dają bez przestrzeni tła: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa (d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). Wszystkie założenia przechodzą przez filtr; **„okrągłość” = Wheeler–DeWitt dla zbioru odczytów** (poprawka 120: sfera 2D ≡ Ø, dla całości t=0, 3D tylko lokalnie z relacji; formalnie puryfikacja). Lokalny odczyt ma dowolny kształt; suma wszystkich odczytów wokół punktu odniesienia = sfera (poprawka 121). **Dowód 3D bez przestrzeni tła: wszystkie założenia przełożone — zebrany w sekcji R1b dokumentu, z zapisem formalnym R1b-F na początku (czytać ją przy każdym temacie 3D/czasu). Po audycie (123–125) R1b nie ma punktów otwartych; granice dowodu opisane w sekcji.**
-1a. **R1c (25.09): most R1b ↔ światło** — stożek stanów nośnika = stożek przyczynowy (det ρ = norma Minkowskiego), stany czyste = kierunki zerowe = foton, ∂B³ = sfera niebieska, Lorentz z komunikacji (Höhn–Müller 2016). Stożek stanów ≡ stożek przyczynowy punktu (pytanie „ten sam obiekt czy struktura” źle postawione — słowa „obiekt” nie używać: zakłada zawartość poza strukturą; poprawka 130). Otwarte: translacje = przejście między czytającymi.
+1a. **R1c (25.09): most R1b ↔ światło** — stożek stanów nośnika = stożek przyczynowy (det ρ = norma Minkowskiego), stany czyste = kierunki zerowe = foton, ∂B³ = sfera niebieska, Lorentz z komunikacji (Höhn–Müller 2016). Stożek stanów ≡ stożek przyczynowy punktu (pytanie „ten sam obiekt czy struktura” źle postawione — słowa „obiekt” nie używać: zakłada zawartość poza strukturą; poprawka 130). Translacje = zmiana czytającego = porządek między elementami (A1) + Malament; R1c bez punktów otwartych (poprawka 131).
 2. Czarne dziury po oczyszczeniu OTW z interpretacji (pytania P-K1–P-K3 w C5).
 3. α i transmutacja wymiarowa w języku liczebności; dokończenie H₂; pasmo o bezwzględnej szerokości ~ℓ [?].
