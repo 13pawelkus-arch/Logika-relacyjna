@@ -1992,7 +1992,31 @@ Logarytmy pojawiły się w v3.4 **wszędzie**: entropia po obcięciu (C4a.16), l
 - **Niewyprowadzone:** ranga/F = 0,857 (ułamek niezależnych ścian nad GF(2)) — zostaje wielkością zmierzoną.
 - **W języku informacji:** ln N = liczba bitów potrzebna, żeby **wskazać pchnięcie** (układ odniesienia) z rozdzielczością wyznaczoną przez dyskretność. **Hipoteza „koszt wskazania” potwierdzona, z doprecyzowaniem: wskazuje się RAMĘ, nie miejsce.**
 - **Wyjaśnia przegląd wymiarowy (§E):** w 1+1 grupa pchnięć jest jednowymiarowa, jej objętość to dη → logarytm; w 3+1 trzy wymiary, objętość rośnie wykładniczo z rapidity → **potęga** (zgodnie z linkami ~N^½). **Logarytm jest specyfiką 1+1, bo tam grupa pchnięć ma jeden wymiar.**
-- **Most masa ↔ logarytmy:** przez szerokość zamknięty (§F1); przez ramę — **otwarty**: masa jest niesiona przez trajektorię, która wyznacza ramę; logarytm liczy koszt wskazania ramy. Do zbadania.
+- **Most masa ↔ logarytmy:** przez szerokość zamknięty (§F1); przez ramę — **otwarty** (stan przed etap10): masa jest niesiona przez trajektorię, która wyznacza ramę; logarytm liczy koszt wskazania ramy. Do zbadania.
+
+**MOST MASA ↔ LOGARYTMY PRZEZ RAMĘ — WYNIK (v3.4, `etap10_most_rama.py`, `etap10b_regula_mc.py`, CPU) [P][A].** Pytanie: z jaką rozdzielczością trajektoria **sama** wyznacza swoją ramę (pchnięcie η kolejnych kroków) i czy ta rozdzielczość zależy od liczby elementów na tyknięcie n = ρτ²/2 (1+1).
+- **Literatura [L]:** swerves (Dowker–Henson–Sorkin; Philpott–Dowker–Sorkin) mają dyfuzję pędu ze **współczynnikiem wolnym**; wyprowadzenia skoku pchnięcia z liczenia elementów nie znaleziono.
+- **Wyprowadzenie przed rachunkiem [A]:** w paśmie [τ(1−ε), τ(1+ε)] miara elementów to ρτ dτ dη, więc kandydaci w pchnięciu tworzą proces Poissona o gęstości λ = 2ερτ² = 4εn. Nadwyżka z odwrotnej nierówności trójkąta rośnie z |Δη|, więc reguła bierze najbliższego w pchnięciu; odległość ~ Exp(2λ) → **std(Δη) = 1/(4√2·ε·n)**.
+- **Zdania do upadku:** P1 std·4√2εn = 1,00 ± 0,10 dla każdego n, ε; P2 wykładnik wobec n = −1,00 ± 0,05 (szum Poissona / dyfuzja dałyby −½); P3 przyrosty nieskorelowane (|r₁| < 0,05); kontrola: wybór losowy w paśmie → brak zależności od n.
+- **Warunki:** d = 1+1, τ = 1, ρ = 2n, n ∈ {5, 15, 50, 150, 500} (2 dekady), ε ∈ {0,05; 0,10; 0,20}, K = 200 trajektorii × L = 16 kroków, 2 ziarna, okno |η| < 2,2, pudło 60 × 120 (do 7,2 mln elementów).
+
+| ε | P2: wykładnik | P1: std·4√2εn (n = 5…500) | P3: r₁ | kontrola losowa |
+|---|---|---|---|---|
+| 0,05 | **−1,005** | 1,01–1,07 ✓ | −0,15 (n=5), potem ≤ 0,05 | 1,78–1,80, stała |
+| 0,10 | **−1,004** | 1,10–1,13 — **upadło o włos** | −0,10 (n=5), potem ≤ 0,04 | 1,77–1,80 |
+| 0,20 | **−0,989** | 1,34–1,59 — **upadło** | do ±0,09 | 1,75–1,79 |
+
+- **P2 przeszło w całości** (trzy ε, dwie dekady). **Kontrola przeszła:** bez pamięci kierunku std nie zależy od n.
+- **P1 upadło dla ε ≥ 0,1. Diagnoza PO FAKCIE [A] (oznaczona jako taka):** (i) sama reguła wyboru przy stałym tref daje 0,993–1,003 (`etap10b`, Monte Carlo bez przestrzeni) — to nie ona; (ii) pasmo liczone względem poprzedniego kroku sprawia, że tref błądzi multiplikatywnie (±ε na krok), a lokalna gęstość kandydatów to 4ε·ρ·tref²/2. **Po znormowaniu każdego kroku jego własnym tref: 0,997–1,034 dla wszystkich ε** (n = 50, 150; ziarno 1). Czyli prawo trzyma się **lokalnego** n; odchyłka P1 = rozrzut tref, parametr konstrukcji (ten sam mechanizm co poprawka 94).
+- **P3:** przeszło dla n ≥ 15 przy ε ≤ 0,1; przy n = 5 ujemna korelacja (−0,10…−0,15) — dyskretność, kandydatów za mało; przy ε = 0,2 rozchwiane.
+- **Odczyt — most [A][O]:** trajektoria rozróżnia ramy z rozdzielczością δη ∝ 1/n, więc liczba ram rozróżnialnych w zakresie R to ~R·n, a **koszt wskazania ramy = ln n + ln(4√2εR), współczynnik przy ln n równy 1**. Masa wchodzi pod logarytm: n = ρτ²/2 = (skala tyknięcia / skala dyskretności)², czyli w 1+1 **bity ramy = ln(ρ/m²) + const**. To ten sam typ zdania co §F2 (współczynnik = waga konfiguracji), z drugiej strony: tam ln N liczy ramy dostępne w strukturze, tu ln n liczy ramy, które trajektoria o danej masie sama wyróżnia.
+- **Zgodność z literaturą [L]:** w propagatorach Johnstona (1+1) masa wchodzi przez m²/ρ — ten sam stosunek skal co 1/n.
+- **Czego to NIE mówi:** skąd bierze się ε (pasmo tolerancji jest wyborem; współczynnik zależy od niego jak 1/ε, wykładnik nie). Wykładnik −1 jest wynikiem strukturalnym; stała nie.
+- **Przewidywanie dla 3+1 (zapisane przed rachunkiem, niepoliczone):** kandydaci w H³ pchnięć, λ ∝ εn na jednostkę objętości pchnięć → **δη na składową ∝ (εn)^(−1/3)**, liczba ram ∝ n, więc **współczynnik przy ln n znów 1**. Zdanie do upadku: wykładnik std(Δη) wobec n w 3+1 = −0,33 ± 0,03.
+- **3+1 — WYNIK (`etap10c_rama_3p1.py`, CPU, bez pudła) [P].** **Redukcja:** reguła patrzy tylko na pasmo wokół końca trajektorii; pasma kolejnych kroków są rozłączne (punkty nowego pasma leżą ~2τ od poprzedniego elementu), a sprinkling jest niezależny na rozłącznych obszarach i niezmienniczy względem pchnięć → każdy krok to niezależne losowanie w lokalnym układzie poprzedniego kroku, z miarą ρτ³dτ·sinh²r dr dΩ. W 1+1 ta redukcja zgadza się z pełnym przebiegiem (1,00–1,03 po lokalnym normowaniu). Wzór: rms(r) = √Γ(5/3)·((4π/3)λ₃)^(−1/3), λ₃ = ρτ⁴((1+ε)⁴−(1−ε)⁴)/4, n = ρπτ⁴/24. Warunki: n ∈ {3 … 3000} (3 dekady), ε ∈ {0,05; 0,1; 0,2}, 20 000 kroków na punkt.
+  - **Q1 (wykładnik): −0,3315 / −0,3322 / −0,3326 — PRZESZŁO.** **Q2 (współczynnik): 0,983–1,006 — PRZESZŁO** (odchyłka tylko przy n = 3).
+  - **Zastrzeżenie [A]:** po redukcji to jest sprawdzenie wyprowadzenia (reguła + Poisson + niezmienniczość), nie niezależny pomiar struktury; pełny przebieg 3+1 na sprinklingu (GPU) potwierdziłby samą redukcję, tak jak w 1+1. Niekonieczny, dopóki redukcja nie jest kwestionowana.
+  - **Wniosek dla mostu:** w 1+1 δη ∝ n^(−1), w 3+1 δη ∝ n^(−1/3) na promień w H³, ale **liczba ram rozróżnialnych przez trajektorię ∝ n w obu** → **koszt wskazania ramy = ln n + const, współczynnik 1 niezależnie od wymiaru**. W odróżnieniu od §F2 (ln N — specyfika 1+1) ten logarytm **przenosi się na 3+1**. Masa pod logarytmem: n = ρπτ⁴/24 ∝ (skala tyknięcia/skala dyskretności)⁴ = ρ/m⁴ (tempo ≡ masa ∝ 1/τ).
 
 - **Test:** sprawdzić, czy współczynniki przy ln N z C4a.19 i 22 (1 dla linków, ½ dla ścian, 0,57 dla defektów) dają się wyprowadzić z liczby stopni swobody wskazania, zamiast być dopasowane.
 
@@ -2151,6 +2175,8 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 97 | **most przez ramę w 3+1: rms(r) ∝ n^(−0,332), współczynnik 0,98–1,01 wzoru; liczba ram ∝ n w 1+1 i 3+1 → koszt wskazania ramy = ln n ze współczynnikiem 1 niezależnie od wymiaru** (redukcja do lokalnego losowania; pełny sprinkling 3+1 niepoliczony) | §F2 | asystent (v3.4) |
+| 96 | **most masa ↔ logarytmy przez ramę: std(Δη) ∝ n^(−1,00) (−1,005 / −1,004 / −0,989 przy ε = 0,05/0,1/0,2), przewidziane przed rachunkiem; koszt wskazania ramy = ln n, współczynnik 1**; P1 upadło dla ε ≥ 0,1 — po fakcie: rozrzut tref (pasmo względem poprzedniego kroku), po normowaniu lokalnym 1,00–1,03 | §F2 | **użytkownik** (kierunek) + asystent (v3.4) |
 | 95 | **§F2: wszystkie logarytmy z C4a = ∫du/u (zakres pchnięć) × waga konfiguracji; współczynniki 1, ½, 0,834, 1/6 wyprowadzone; przewidywanie dla pętli (0,834) trafione (zmierzone 0,84)**; ln N = bity na wskazanie ramy | §F2 | **użytkownik** (kierunek) + asystent (wyprowadzenie) (v3.4) |
 | 93 | skan N przy stałym KAND to tautologia (niezmienniczość skali Poissona); właściwy stosunek skal = elementy na tyknięcie | §F1 | asystent (v3.4) |
 | 94 | „naturalna szerokość masy” = pasmo tolerancji konstrukcji (±5/10/20% → 0,045/0,10/0,19); most masa–logarytmy przez szerokość zamknięty | §F1 | **użytkownik** (pytanie o skalę) + asystent (test) (v3.4) |
@@ -2223,6 +2249,8 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 5. **$k^*=d$ w d=2, 3, 4**, z jawnym falsyfikatorem „jeśli trzy tory wystarczą w d=4, przekład jest zły". Nie zadziałał. (A9d)
 6. **Nadwyżka przez cięcie da prawo objętościowe, nie powierzchniowe.** Wypisane przed rachunkiem z uzasadnieniem (nielokalność relacji przyczynowych). Wyszło 1,08 i 1,17. (A4e)
 7. **Próg $k^*$ nie drgnie pod odkształceniem konforemnym.** Wyszło 2, 3, 4 przy każdym λ, przy wartościach zmieniających się 1,6–2,7×. (A9c)
+
+8. **std(Δη) ∝ 1/n przy kontynuacji pamięcią (1+1).** Wyszło −1,005 / −1,004 / −0,989. Wypisane przed rachunkiem, razem ze współczynnikiem 1/(4√2εn), który trzymał się tylko dla ε = 0,05 (dla większych ε — po lokalnym normowaniu, po fakcie). (§F2, most przez ramę)
 
 Wszystko inne w tym pliku jest albo dowodem, albo pomiarem z kontrolą, albo obserwacją strukturalną — nie przewidywaniem.
 
