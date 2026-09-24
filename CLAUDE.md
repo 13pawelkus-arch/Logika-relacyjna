@@ -45,6 +45,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 ## Zasady pracy (pełne w dokumencie: „Jak czytać”, „Przed liczeniem”, §E)
 
+- **Nie przejmować interpretacji (25.09).** Nie wymyślamy teorii ani matematyki; jedyna różnica to sposób patrzenia, którego w literaturze nie ma. Przed każdym rachunkiem i pytaniem z literatury **10 razy zastanowić się, co właściwie chcemy policzyć** i co dana wielkość/pytanie zakłada (kierunek, cechę, zewnętrzny parametr, gotową czasoprzestrzeń). Z literatury bierzemy formalizm i wynik, **nie pytanie**. Złamane w poprawkach 105, 106, 110 (§E).
 - **Najpierw porządek, potem liczenie** [144]. **Najpierw literatura** („nie kosztuje, a pozwala zadać dobre pytanie”).
 - **Przed rachunkiem zdanie, które może przez niego upaść**, i kontrole. Liczba bez warunków (n, d, estymator, próby) nie jest wynikiem. Wniosek z zakresu < dekady nie jest wnioskiem. Każdy parametr ustawiony ręcznie skanować.
 - **Kryterium „sztuki czy miara”** [288–290]: liczba jest dopuszczalna tylko, gdy nie rośnie z gęstością; inaczej wymaga miary.
@@ -63,7 +64,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 111)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 112)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
