@@ -12,6 +12,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 |---|---|
 | `logika-relacyjna-v3.4.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
+| `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
 | `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09). |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
 
@@ -54,6 +55,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Rachunki dłuższe niż kilka minut na CPU: od razu na GPU** (Colab A100 40 GB, 80 GB możliwe, ale jednostki drogie). Kod gotowy do wklejenia, parametry na górze, checkpointy, bezpiecznik pamięci liczony przed alokacją (było OOM). Lokalnie tylko sprawdzenie, że kod działa. Nie liczyć wszystkiego z automatu [96].
 - **Nie wpisywać do plików** „problem czasu” ani nazwiska Kuchař [272–276] (życzenie użytkownika).
 - Na koniec sesji: zaktualizować dokument (albo podbić wersję), rejestr, sekcję „Gdzie skończyliśmy” tutaj; commit + push.
+- **Zapis rozmowy z Claude Code:** przed końcem każdej sesji zamienić jej transkrypt (`~/.claude/projects/-home-user-Logika-relacyjna/*.jsonl`) na `rozmowa/claude-code-sesja-RRRR-MM-DD.md` (jak w pliku z 24.09) i wypchnąć — w Claude Code nie ma eksportu, a kontener znika po sesji.
 
 ## Oś projektu (podsumowanie użytkownika, 25.09.2026)
 
