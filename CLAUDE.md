@@ -84,6 +84,6 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Regge (etap18):** w sztywnym kompleksie średnia liczba czworościanów wokół krawędzi przechodzi przez płaskie 5,104 i dryfuje jak ln W; lokalnie 4 albo 8, nigdy „pomiędzy”. Sztywny kompleks = zero absolutne (wykluczone); **dynamika niemierzona**.
 
 **Najbliższe kroki:**
-1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. Zmierzyć, czy płaskość jako średnia po odczytach (dynamika) zamyka lukę z Regge. Dowód strukturalny, nie przykłady.
+1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. ~~Płaskość jako średnia po odczytach~~ — źle postawione (poprawka 113): krzywizna 0 = Planck / nieoznaczoność / osobliwość ≡ Ø, opisywalne tylko nie wprost, przez bezpośrednie otoczenie. Dowód strukturalny, nie przykłady.
 2. Czarne dziury po oczyszczeniu OTW z interpretacji (pytania P-K1–P-K3 w C5).
 3. α i transmutacja wymiarowa w języku liczebności; dokończenie H₂; pasmo o bezwzględnej szerokości ~ℓ [?].
