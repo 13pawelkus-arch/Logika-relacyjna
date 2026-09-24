@@ -162,7 +162,7 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 
 ### R1b-F. Zapis formalny [T][L] (poprawka 127; słowa niżej = glosa, [418])
 
-**Obiekty.** Układ A: Ω_A ⊂ ℝ^{K_A} — zbiór stanów (wypukły, domknięty, dim < ∞); odczyt = efekt E: Ω_A → [0,1] afiniczny, wynik p = E(ω); G_A — domknięta grupa przekształceń odwracalnych Ω_A → Ω_A; ∂ₑΩ_A — stany czyste (ekstremalne). Układ złożony: p(x,y) = (E_x ⊗ E_y)·ω_AB — bez kolejności odczytów.
+**Oznaczenia.** Układ A: Ω_A ⊂ ℝ^{K_A} — zbiór stanów (wypukły, domknięty, dim < ∞); odczyt = efekt E: Ω_A → [0,1] afiniczny, wynik p = E(ω); G_A — domknięta grupa przekształceń odwracalnych Ω_A → Ω_A; ∂ₑΩ_A — stany czyste (ekstremalne). Układ złożony: p(x,y) = (E_x ⊗ E_y)·ω_AB — bez kolejności odczytów.
 
 **Definicje.**
 - **D0** (wymiar): d := dim Ω_A, gdy Ω_A ≅ Bᵈ = {r ∈ ℝᵈ : |r| ≤ 1}. Przestrzeń := Bᵈ (zbiór wszystkich odczytów); innej nie ma.
@@ -291,7 +291,7 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 ### Stan i granice
 
 - **[T]:** tożsamości algebraiczne (det = norma Minkowskiego; dodatniość = stożek; SL(2,ℂ) → SO⁺(3,1); czyste = zerowe). **[L]:** Höhn–Müller — grupa Lorentza z komunikacji, bez tła.
-- **[O][?] do sprawdzenia:** czy stożek stanów jednego nośnika to **ten sam** obiekt co stożek przyczynowy punktu w porządku (a nie tylko ta sama struktura). Höhn–Müller sami zaznaczają, że brakuje translacji (grupy Poincarégo), więc to jeszcze nie rekonstrukcja czasoprzestrzeni. W ramie: translacje = przejście między czytającymi wzdłuż relacji (linków) — kandydat na następny krok.
+- ~~**[O][?] do sprawdzenia:** czy stożek stanów jednego nośnika to „ten sam obiekt” co stożek przyczynowy punktu (a nie tylko ta sama struktura).~~ **ŹLE POSTAWIONE (użytkownik [H]: „nie używaj słowa obiekt”, poprawka 130).** Rozróżnienie „ten sam obiekt / ta sama struktura” zakłada zawartość poza strukturą; logika relacyjna = struktura bez zawartości, zawartość bez struktury = Ro, niedostępna [18]. Struktury bez żadnej różnicy relacji są nierozróżnialne: **stożek stanów nośnika ≡ stożek przyczynowy punktu** (≡ jak w łańcuchu Ø), a zgodność struktur jest [T]. Nic więcej do sprawdzenia. **Zostaje otwarte:** translacje (grupa Poincarégo; Höhn–Müller ich nie mają) — w ramie przejście między czytającymi wzdłuż relacji (linków).
 - Punkt 3 (det ρ ↔ masa) — tylko forma, nie wynik.
 
 ## R2. Retrospekcja 
@@ -2471,6 +2471,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 130 | **„ten sam obiekt czy ta sama struktura” (stożek stanów vs stożek przyczynowy) — źle postawione:** „obiekt” zakłada zawartość poza strukturą; struktury bez różnicy relacji są ≡; stożek stanów ≡ stożek przyczynowy. W R1b-F „Obiekty” → „Oznaczenia” | R1c | **użytkownik** (v3.4) |
 | 129 | **R1c: most R1b ↔ światło:** det ρ = norma Minkowskiego, dodatniość = stożek przyczynowy, stany czyste = kierunki zerowe (foton, t=0), ∂B³ = sfera niebieska, SL(2,ℂ) → SO⁺(3,1); [L] Höhn–Müller 2016 (Lorentz z komunikacji, bez tła), Penrose–Rindler, Malament; c ⇔ dodatniość; porządek + liczność = Lorentz + skala [O]; otwarte: tożsamość stożka stanów ze stożkiem przyczynowym, translacje | R1c | asystent (v3.4), krok 1 planu użytkownika |
 | 128 | **test wierności przekładu:** dla P0–P6 i dwóch założeń tła ¬P wyklucza się ze zdaniem ramy ([354], [270], [258], [36, 94], [394], sesja 25.09, [10], [80], [110]) → rama ⇒ P0–P6 ⇒ d = 3; zastrzeżenie „o ile przekład jest wierny” zastąpione (użytkownik wskazał, asystent wykonał) | R1b-F | **użytkownik** + asystent (v3.4) |
 | 127 | **R1b-F: zapis formalny dowodu 3D** (obiekty, D0–D3, P0–P6, lemat, twierdzenie, 3 wnioski) — formalizacja zgodna z ramą (struktura bez zawartości [18], „bez interpretacji” [16], §E „nazwa”); warunek: każdy symbol definiowany relacją (np. 𝒫_X bez ≺) | R1b | **użytkownik** (propozycja) + asystent (v3.4) |
