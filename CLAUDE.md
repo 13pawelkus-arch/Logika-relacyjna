@@ -46,6 +46,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 ## Zasady pracy (pełne w dokumencie: „Jak czytać”, „Przed liczeniem”, §E)
 
 - **Filtr na rachunki (25.09):** mamy definicję czasu ze wszystkimi konsekwencjami i strukturę, przez którą czas daje 3D; reszta to konsekwencja logiczna. **Każdy rachunek i każde pytanie przepuszczać przez ten filtr:** odczyt zawsze teraz, bez kierunku; przeszłość = zapis (ostry/rozproszony); odczyt = wzbudzenie = foton = link, c nieskończone bez odczytu; 3D = triada + zapis (4 punkty, nie osie), więcej = skróty, nie oś; 2D/płaskość ≡ Ø, nieosiągalne; struktura zawsze w ruchu (sztywna migawka = zero absolutne, wykluczone); nic nie jest cechą. Pytanie, które zakłada coś sprzecznego z filtrem, jest źle postawione, zanim cokolwiek policzymy.
+- **Nie pytać o ocenę — rozstrzygać strukturą (25.09).** „Moja ocena i każda inna jest figę warta. Użyj logiki relacyjnej.” Ocena to projekcja stanu jednego aparatu (opinia). Zamiast pytać użytkownika „czy to trafne”, sprawdzić zgodność z definicjami ramy i kontrolą (np. co zostaje po usunięciu składnika).
 - **Nie przejmować interpretacji (25.09).** Nie wymyślamy teorii ani matematyki; jedyna różnica to sposób patrzenia, którego w literaturze nie ma. Przed każdym rachunkiem i pytaniem z literatury **10 razy zastanowić się, co właściwie chcemy policzyć** i co dana wielkość/pytanie zakłada (kierunek, cechę, zewnętrzny parametr, gotową czasoprzestrzeń). Z literatury bierzemy formalizm i wynik, **nie pytanie**. Złamane w poprawkach 105, 106, 110 (§E).
 - **Najpierw porządek, potem liczenie** [144]. **Najpierw literatura** („nie kosztuje, a pozwala zadać dobre pytanie”).
 - **Przed rachunkiem zdanie, które może przez niego upaść**, i kontrole. Liczba bez warunków (n, d, estymator, próby) nie jest wynikiem. Wniosek z zakresu < dekady nie jest wnioskiem. Każdy parametr ustawiony ręcznie skanować.
@@ -65,7 +66,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 123)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 124)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
