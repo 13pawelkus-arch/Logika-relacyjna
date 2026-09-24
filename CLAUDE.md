@@ -65,7 +65,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 119)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 120)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
@@ -84,6 +84,6 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Regge (etap18):** w sztywnym kompleksie średnia liczba czworościanów wokół krawędzi przechodzi przez płaskie 5,104 i dryfuje jak ln W; lokalnie 4 albo 8, nigdy „pomiędzy”. Sztywny kompleks = zero absolutne (wykluczone); **dynamika niemierzona**.
 
 **Najbliższe kroki:**
-1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. ~~Płaskość jako średnia po odczytach~~ — źle postawione (poprawka 113): krzywizna 0 = Planck / nieoznaczoność / osobliwość ≡ Ø, opisywalne tylko nie wprost, przez bezpośrednie otoczenie. Dowód strukturalny, nie przykłady. **Stan (poprawki 114–119):** Müller–Masanes 2013 + Masanes i in. 2014 (arXiv:1111.4060) dają bez przestrzeni tła: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa (d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). Wszystkie założenia przechodzą przez filtr poza jednym: **„okrągłość” (zbiór stanów = kula) — do przełożenia albo wyprowadzenia**.
+1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. ~~Płaskość jako średnia po odczytach~~ — źle postawione (poprawka 113): krzywizna 0 = Planck / nieoznaczoność / osobliwość ≡ Ø, opisywalne tylko nie wprost, przez bezpośrednie otoczenie. Dowód strukturalny, nie przykłady. **Stan (poprawki 114–119):** Müller–Masanes 2013 + Masanes i in. 2014 (arXiv:1111.4060) dają bez przestrzeni tła: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa (d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). Wszystkie założenia przechodzą przez filtr; **„okrągłość” = Wheeler–DeWitt dla zbioru odczytów** (poprawka 120: sfera 2D ≡ Ø, dla całości t=0, 3D tylko lokalnie z relacji; formalnie puryfikacja). Do domknięcia na kartce: czy to wyklucza wszystkie nieokrągłe zbiory stanów układu binarnego.
 2. Czarne dziury po oczyszczeniu OTW z interpretacji (pytania P-K1–P-K3 w C5).
 3. α i transmutacja wymiarowa w języku liczebności; dokończenie H₂; pasmo o bezwzględnej szerokości ~ℓ [?].
