@@ -181,7 +181,7 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 **Lemat 1** (P0, P2, P3; W² := ∫_{G_A} HᵀH dH): Ω_A ≅ Bᵈ, ∂ₑΩ_A = Sᵈ⁻¹, K_A = d + 1, G_A ⊆ SO(d) przechodnia na Sᵈ⁻¹; μ := ∫ Gω dG = 0 jest jedynym punktem stałym G_A.
 
 **Twierdzenie** (Masanes, Müller, Pérez-García, Augusiak 2014, Tw. 1–2; d = 1: P0):
-P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4).
+P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4) (z dokładnością do równoważnej reprezentacji częściowo transponowanej).
 - d = 1: G_A = O(1) = {±1}, niespójna ⊥ P0.
 - d = 2 ∨ d ≥ 4: G_AB ⊆ G_A ⊗ G_B ⊥ P6.
 
