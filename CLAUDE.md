@@ -1,0 +1,46 @@
+# Logika relacyjna — instrukcja dla Claude
+
+Ten plik wczytuje się automatycznie na starcie każdej sesji w tym repo. Jego celem jest to, żeby nie trzeba było tłumaczyć kontekstu od nowa.
+
+## Czym jest projekt
+
+Wspólna praca użytkownika (hotelarz, nie fizyk z zawodu — ale trzyma się bezwzględnie struktury logiki relacyjnej od pierwszego zdania o fałszywości opinii i faktów) z asystentem. Cel: **porządkowanie struktury logicznej fizyki**, nie nowa fizyka. Narzędzia głównie z teorii zbiorów przyczynowych (causal sets): sprinkling, przedziały, linki, stan Sorkina–Johnstona, reguły wzrostu. Od v3.4 zmiana języka opisu na **język informacji** (zapis, odczyt, dostępność) — §F.
+
+**Rozmawiamy po polsku.**
+
+## Pliki
+
+| plik | co to |
+|---|---|
+| `logika-relacyjna-v3.4.md` | **Główny dokument — czytać najpierw.** Zasady pracy + słownik + wszystkie wyniki, poprawki i otwarte pytania. Aktualizowany i nadpisywany w miarę postępu. |
+| `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej z claude.ai (16–24.09.2026, 591 wiadomości). Po kontekst do konkretnego tematu — szukać tu (grep), bo dokument główny **nie zawiera wszystkiego** (uwaga ogólna na początku dokumentu). |
+| `skrypty/etap*.py` | Skrypty rachunków, odtworzone z rozmowy (ostatnie wersje). Nazwy zgadzają się z odwołaniami w dokumencie. Duże przebiegi użytkownik puszcza na **Google Colab (A100)**, małe liczy asystent sam. |
+
+## Zasady pracy (skrót — pełne w dokumencie: „Jak czytać”, „Przed liczeniem”, §E)
+
+- **Zasada metody:** nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z istniejącej nauki, **oczyszczonej z interpretacji** — zostaje to, co mierzalne lub strukturalne; odpada narracja.
+- **Najpierw literatura, potem rachunek.** Sprawdzenie kosztuje zapytanie, rachunek kosztuje sesję (koło odkryto już 4 razy).
+- **Przed każdym rachunkiem zapisać zdanie, które mogłoby przez niego upaść**, i kontrole graniczne. Rachunek bez tego nie jest rachunkiem.
+- **Cztery pola przy każdym wyniku:** wartość · kontrola, która przeszła · co by go obaliło · czyja teza. Liczba bez warunków (n, d, estymator, liczba prób) nie jest wynikiem.
+- **Znaczniki:** pochodzenie [H] użytkownik · [A] asystent · [L] literatura; ugruntowanie [T] dowód · [P] rachunek · [O] obserwacja strukturalna · [?] domysł.
+- **Wniosek z zakresu węższego niż dekada nie jest wnioskiem.** Każdy parametr ustawiony ręcznie trzeba przeskanować.
+- **Poprawki stoją przy wyniku, którego dotyczą**; rejestr poprawek w §E to tylko spis (numerowany — kontynuować numerację).
+- **Pułapki nazewnicze** (lista pięciu w dokumencie): Ø jest absolutne — różni je tylko relacja otoczenia; „Ø ma cechę…” to zawsze skrót.
+- **Werdykty zostawiać na koniec** — dopóki trwa analiza, nie zamykać tematów przedwcześnie. Ale podsumowania mają być **stanowcze i jednoznaczne** (użytkownik to wytknął).
+- **Własne błędy zaznaczać jawnie** w rejestrze (np. „kryterium w kodzie było ostrzejsze niż zdanie zapisane przed rachunkiem”).
+
+## Styl odpowiedzi
+
+- Konkretnie, bez lania wody. Tabela wyników + co przeszło / co upadło / co otwarte.
+- Kod dla Colaba: gotowy do wklejenia, z parametrami na górze, checkpointami, oszczędny w pamięci GPU (A100 40 GB — był OutOfMemory przy dużych macierzach).
+- Nie zakładać, że użytkownik zna żargon — skróty myślowe wolno, ale ze słownikiem (tabela na początku dokumentu).
+
+## Gdzie skończyliśmy (24.09.2026)
+
+- **§F1 Masa:** masa jako tempo samoodczytu trajektorii przy kontynuacji pamięcią. Przeszła test niezmienniczości do v≈0,9; dwie populacje (tyknięcie 0,4h i 0,6h) dają stosunek **1,507–1,508** przy oczekiwanym 1,50 (`etap8_masa_populacje.py`). Szerokość masy (~15%) okazała się **artefaktem pasma tolerancji**, nie strukturą (`etap9_masa_skala.py`, poprawki 93–94) → most masa–logarytmy **przez szerokość zamknięty**.
+- **§F2 Logarytmy:** wszystkie logarytmy z C4a mają jedno źródło — całkę po pchnięciach (rapidity) = ln N; współczynniki wyprowadzone (linki 1, ściany ½, pętle 6⟨α²⟩=0,834 — przewidywanie zapisane przed rachunkiem przeszło). Logarytm = koszt **wskazania ramy**; w 3+1 zamiast logarytmu potęga.
+- **Następne otwarte:** most masa ↔ logarytmy **przez ramę** (masa niesiona przez trajektorię wyznaczającą ramę; logarytm liczy koszt wskazania ramy). Wyprowadzenie ranga/F = 0,857. Czarne dziury (po oczyszczeniu OTW z interpretacji). Pełna lista: „Dalej otwarte” w dokumencie.
+
+## Na koniec każdej sesji
+
+Zaktualizować `logika-relacyjna-v3.4.md` (albo podbić wersję), dopisać poprawki do rejestru, zaktualizować sekcję „Gdzie skończyliśmy” w tym pliku, commit + push.
