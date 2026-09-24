@@ -160,6 +160,39 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 
 ## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T] (v3.4, 25.09; po audycie, poprawka 123)
 
+### R1b-F. Zapis formalny [T][L] (poprawka 127; słowa niżej = glosa, [418])
+
+**Obiekty.** Układ A: Ω_A ⊂ ℝ^{K_A} — zbiór stanów (wypukły, domknięty, dim < ∞); odczyt = efekt E: Ω_A → [0,1] afiniczny, wynik p = E(ω); G_A — domknięta grupa przekształceń odwracalnych Ω_A → Ω_A; ∂ₑΩ_A — stany czyste (ekstremalne). Układ złożony: p(x,y) = (E_x ⊗ E_y)·ω_AB — bez kolejności odczytów.
+
+**Definicje.**
+- **D0** (wymiar): d := dim Ω_A, gdy Ω_A ≅ Bᵈ = {r ∈ ℝᵈ : |r| ≤ 1}. Przestrzeń := Bᵈ (zbiór wszystkich odczytów); innej nie ma.
+- **D1** (pojemność): N_A := max{n : ∃ ω₁…ωₙ, E₁…Eₙ, Σ Eᵢ = 1, Eᵢ(ωⱼ) = δᵢⱼ}.
+- **D2** (zapis, przeszłość): 𝒫_X := {Y ≠ X : I(M_X : Y) > 0} — Y *inny* układ, nie „wcześniejszy” (brak ≺ w definicji).
+- **D3** (relacja): T ∈ G_AB jest relacją ⇔ T ∉ G_A ⊗ G_B.
+
+**Przesłanki** (glosa ramy w tabeli niżej).
+- **P0:** Ĥ|Ψ⟩ = 0 ⇒ e^{−iĤs}|Ψ⟩ = |Ψ⟩ ∀s ∈ ℝ; brak aktora zewnętrznego ⇒ G_A = ⟨{e^{sX}}_{s∈ℝ}⟩ ⇒ **G_A spójna**.
+- **P1:** N_A = 2.
+- **P2:** ∀ ω, φ ∈ ∂ₑΩ_A ∃ G ∈ G_A : Gω = φ.
+- **P3:** ∂Ω_A nie zawiera odcinków (ścisła wypukłość).
+- **P5:** span{ω_A ⊗ ω_B} = ℝ^{K_A} ⊗ ℝ^{K_B}, tj. K_AB = K_A·K_B.
+- **P6:** G_AB ⊄ G_A ⊗ G_B.
+
+**Lemat 1** (P0, P2, P3; W² := ∫_{G_A} HᵀH dH): Ω_A ≅ Bᵈ, ∂ₑΩ_A = Sᵈ⁻¹, K_A = d + 1, G_A ⊆ SO(d) przechodnia na Sᵈ⁻¹; μ := ∫ Gω dG = 0 jest jedynym punktem stałym G_A.
+
+**Twierdzenie** (Masanes, Müller, Pérez-García, Augusiak 2014, Tw. 1–2; d = 1: P0):
+P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4).
+- d = 1: G_A = O(1) = {±1}, niespójna ⊥ P0.
+- d = 2 ∨ d ≥ 4: G_AB ⊆ G_A ⊗ G_B ⊥ P6.
+
+**Wniosek 1** (4 punkty): stan bez szumu r ∈ B³ wyznaczony przez trzy odczyty komplementarne: rᵢ = 2E_{eᵢ}(ω) − 1, i = 1, 2, 3; E_{eᵢ}(ω_{eⱼ}) = ½ dla i ≠ j. Dwa odczyty: rząd 2 < 3 (stan nieustalony); czwarty: liniowo zależny (K_A = 4 = 1 + 3). {e₁, e₂, e₃} = triada, ω = czwarty punkt.
+
+**Wniosek 2** (pamięć, kontrola bez niej): czytający bez zapisu ma jeden odczyt E_y na bieżącym stanie; dostępne Ω_A/∼, gdzie ω ∼ φ ⇔ E_y(ω) = E_y(φ): Ω_A/∼ ≅ B¹, G(B¹) = O(1) niespójna ⇒ brak ciągłego przekształcenia („ruchu nie da się zauważyć” [400]). Z zapisem M odczytów wzdłuż e₁, e₂, e₃ (I(M : ωᵢ) > 0, D2): dostępne Ω_A = B³.
+
+**Wniosek 3** (Ø): ∂B³ = S², dim 2 (sfera sama ≡ Ø; całość bez relacji, t = 0); μ = 0 — brak informacji o kierunku; ∀ ω ∈ int B³ ∃ czysty Ψ_AB : Tr_B Ψ_AB = ω (puryfikacja; Chiribella–D’Ariano–Perinotti 2011) — wnętrze B³ tylko z relacji.
+
+### Glosa (słowa, źródła w rozmowie)
+
 **Teza:** trzy wymiary przestrzenne (= 4 punkty odniesienia) są jedynym przypadkiem, w którym najmniejsze nośniki informacji mogą w ogóle wejść ze sobą w relację. Dowód nie przegląda przypadków, tylko nie dopuszcza innych [148]. Nie używa przestrzeni tła, zewnętrznego czasu ani kierunku.
 
 **Skąd:** rama użytkownika (R1a, synteza czasu) + formalizm uogólnionych teorii probabilistycznych, wzięty bez interpretacji: Müller–Masanes, New J. Phys. 15, 053040 (2013), arXiv:1206.0630; **Masanes, Müller, Pérez-García, Augusiak, J. Math. Phys. 55, 122203 (2014), arXiv:1111.4060** (twierdzenie o d = 3; bez przestrzeni fizycznej). Przekład założenie po założeniu i historia dochodzenia: C5, poprawki 114–121. Numery [n] = rozmowa źródłowa; „sesja 25.09” = rozmowa w Claude Code z 25.09.
@@ -2389,6 +2422,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 127 | **R1b-F: zapis formalny dowodu 3D** (obiekty, D0–D3, P0–P6, lemat, twierdzenie, 3 wnioski) — formalizacja zgodna z ramą (struktura bez zawartości [18], „bez interpretacji” [16], §E „nazwa”); warunek: każdy symbol definiowany relacją (np. 𝒫_X bez ≺) | R1b | **użytkownik** (propozycja) + asystent (v3.4) |
 | 126 | **propozycja zewnętrzna (schemat + tekst „Formalny most”) przez filtr:** wzięty tylko zapis przeszłości {Y : I(M_X:Y) > 0} z „inny” zamiast „wcześniejszy”; reszta już w R1b albo sprzeczna z ramą (ciąg zamiast naraz, kierunek, przestrzeń tła, „uporządkowane” korelacje, r₀ = 2) | R1b | asystent (v3.4) |
 | 125 | **spójność grupy przekształceń (ostatni punkt otwarty R1b) zamknięta strukturą:** brak zewnętrznych aktorów [354] → każde przekształcenie jest dynamiką wewnętrzną (P0, ciągła) → grupa spójna; „skok” wymagałby aktora spoza całości. d = 1 wykluczone twierdzeniem | R1b | **użytkownik** [354] + asystent (v3.4) |
 | 124 | **pamięć w dowodzie 3D rozstrzygnięta strukturą, nie oceną (użytkownik: „ocena każdego jest figę warta, użyj logiki relacyjnej”):** stan nośnika = zapis o innym układzie = definicja pamięci z [400]; „wiele odczytów” = ten sam mechanizm; kontrola bez pamięci: rzut kuli na jedną oś = bit klasyczny, bez ciągłych przekształceń = „ruchu nie da się zauważyć” | R1b | **użytkownik** + asystent (v3.4) |
