@@ -66,8 +66,9 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 1. **Definicja czasu i c** (największa zmiana), zawsze razem z 3D.
 2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
+4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa; szukać jednej relacji między końcami hierarchii (Planck ≡ Ø, całość ≡ Ø).
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 135)
+## Gdzie skończyliśmy (25.09.2026, rejestr do 136)
 
 **Masa i logarytmy (§F1, §F2):**
 - Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
