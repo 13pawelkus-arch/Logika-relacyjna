@@ -32,6 +32,7 @@ Wspólna praca użytkownika (hotelarz, nie fizyk z zawodu — ale trzyma się be
 ## Styl odpowiedzi
 
 - Konkretnie, bez lania wody. Tabela wyników + co przeszło / co upadło / co otwarte.
+- **Rachunki dłuższe niż kilka minut na CPU (tu ~pół godziny i więcej) — od razu na GPU (Colab), nie liczyć lokalnie** (użytkownik, 25.09). Lokalnie tylko szybkie sprawdzenie, że kod działa.
 - Kod dla Colaba: gotowy do wklejenia, z parametrami na górze, checkpointami, oszczędny w pamięci GPU (A100 40 GB — był OutOfMemory przy dużych macierzach).
 - Nie zakładać, że użytkownik zna żargon — skróty myślowe wolno, ale ze słownikiem (tabela na początku dokumentu).
 
@@ -39,12 +40,13 @@ Wspólna praca użytkownika (hotelarz, nie fizyk z zawodu — ale trzyma się be
 
 - **§F1 Masa:** masa jako tempo samoodczytu trajektorii przy kontynuacji pamięcią. Przeszła test niezmienniczości do v≈0,9; dwie populacje (tyknięcie 0,4h i 0,6h) dają stosunek **1,507–1,508** przy oczekiwanym 1,50 (`etap8_masa_populacje.py`). Szerokość masy (~15%) okazała się **artefaktem pasma tolerancji**, nie strukturą (`etap9_masa_skala.py`, poprawki 93–94) → most masa–logarytmy **przez szerokość zamknięty**.
 - **§F2 Logarytmy:** wszystkie logarytmy z C4a mają jedno źródło — całkę po pchnięciach (rapidity) = ln N; współczynniki wyprowadzone (linki 1, ściany ½, pętle 6⟨α²⟩=0,834 — przewidywanie zapisane przed rachunkiem przeszło). Logarytm = koszt **wskazania ramy**; w 3+1 zamiast logarytmu potęga.
-- **Most masa ↔ logarytmy przez ramę (etap10, 10b, 10c — policzone na CPU):** trajektoria rozróżnia ramy z rozdzielczością δη ∝ n^(−1) w 1+1 i n^(−1/3) w 3+1 (przewidziane przed rachunkiem, przeszło); liczba ram ∝ n w obu → koszt wskazania ramy = ln n, współczynnik 1, **niezależnie od wymiaru**. P1 w 1+1 upadło dla ε ≥ 0,1 — po fakcie: rozrzut tref (poprawka 96). **Pełny sprinkling 3+1 na A100 (etap11 v2) potwierdził redukcję: Q1–Q3 przeszły w 18/18 punktach**; r1 wyjaśnione dziedziczeniem tref (etap11b, po fakcie). Rejestr do 102.
+- **Most masa ↔ logarytmy przez ramę (etap10, 10b, 10c — policzone na CPU):** trajektoria rozróżnia ramy z rozdzielczością δη ∝ n^(−1) w 1+1 i n^(−1/3) w 3+1 (przewidziane przed rachunkiem, przeszło); liczba ram ∝ n w obu → koszt wskazania ramy = ln n, współczynnik 1, **niezależnie od wymiaru**. P1 w 1+1 upadło dla ε ≥ 0,1 — po fakcie: rozrzut tref (poprawka 96). **Pełny sprinkling 3+1 na A100 (etap11 v2) potwierdził redukcję: Q1–Q3 przeszły w 18/18 punktach**; r1 wyjaśnione dziedziczeniem tref (etap11b, po fakcie). Rejestr do 103.
 - **Skan ε → 0 (etap12):** ε nie jest regularyzacją (stała bez granicy), ale nie niesie nowej skali: ε = rozdzielczość tempa (ε/√3), a iloczyn rozdzielczości tempa i ramy ustala samo n. Artefakty (r1, surowy współczynnik) znikają przy ε → 0, jak Δ u Fokkera.
 - **Podział budżetu (etap13):** informacyjnie zdegenerowany (suma bitów niezależna od ε). Kandydat „trwałość” upadł, bo reguła ma dryf tempa ∝ ε² (tyknięcie się wydłuża; w 3+1 czynnik ~e^1,7 w czasie rozmycia), więc n nie jest zachowane wzdłuż trajektorii.
 - **H₂ (etap14):** rozpięte przez ośmiościany z 4 ścian (typy 2-2-2 i 1-2-2-1); typ II prosty = 1/24·ln N wyprowadzony; pełne ranga/F wymaga włączeń–wyłączeń (754 zależności na 1782 powierzchnie przy N = 3000). Cel to granica ~0,84, a nie 0,857.
 - **Reguła R-KĄT (etap15):** najmniejsze względne pchnięcie + pasmo logarytmiczne przesunięte o δ = −(ε·cth dε − 1/d) usuwa dryf tempa (D1–D3 przeszły). Podział budżetu: stała ε* jest umowna, zostaje skalowanie ε*τ ∝ ρ^(−1/d).
-- **Następne otwarte:** (1) powtórzyć §F1 (niezmienniczość, A/B) z regułą R-KĄT na GPU; pasmo o bezwzględnej szerokości ~ℓ [?]; (2) dokończenie rachunku H₂: współczynniki typu I, typu II z dodatkowymi elementami i zależności; czarne dziury (po oczyszczeniu OTW z interpretacji). Pełna lista: „Dalej otwarte” w dokumencie.
+- **etap16 (R-KĄT, 20 kroków) — F4 przeszło, F1/F3 upadły:** przy gęstości z etap8 (n_A ≈ 0,3, n_B ≈ 1,5 el./tykn.) okno w układzie pudła kształtuje trajektorie od ~7. kroku (etap16b). **Wyniki §F1 z etap7–9 mają obniżony status** (poprawka 103). Zamiast długich łańcuchów: walidacja redukcji lokalnej dla R-KĄT na krótkich łańcuchach (etap17 v2, GPU, zdania G1–G4).
+- **Następne otwarte:** (1) wynik etap17 v2; pasmo o bezwzględnej szerokości ~ℓ [?]; (2) dokończenie rachunku H₂: współczynniki typu I, typu II z dodatkowymi elementami i zależności; czarne dziury (po oczyszczeniu OTW z interpretacji). Pełna lista: „Dalej otwarte” w dokumencie.
 
 ## Na koniec każdej sesji
 
