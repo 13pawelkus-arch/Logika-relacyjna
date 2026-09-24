@@ -1,6 +1,6 @@
 # Logika relacyjna — v3.4
 
-> **v3.4 (25.09):** nowa sekcja **R1b — dowód strukturalny 3D z definicji czasu** (poprawki 114–123).
+> **v3.4 (25.09):** nowe sekcje **R1b — dowód strukturalny 3D z definicji czasu** i **R1c — most do światła i porządku** (poprawki 114–129).
 >
 > **v3.4** = v3.3 + §C4a punkty 1–16 (etap 0, fragmenty, ściskanie, Fokker, entropia) + dopisek o Ĥ|Ψ⟩=0 w R1a + rejestr 25–48.
 >
@@ -251,7 +251,7 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 **ZAMKNIĘTE strukturą (poprawka 125) [O]:** [H] „W rygorze relacyjnym nie ma zewnętrznych aktorów. Źródło nie może być obcym ciałem wetkniętym w strukturę” [354]. Każde przekształcenie odwracalne jest więc relacją wewnątrz, czyli pochodzi z dynamiki wewnętrznej; ta jest ciągłą jednoparametrową grupą (P0). Grupa złożona z ciągłych jednoparametrowych podgrup jest spójna. Przekształcenie „skokiem”, nieosiągalne w sposób ciągły, wymagałoby aktora spoza całości — a całość nie ma otoczenia. Spójność + brak wyróżnionego odczytu (P2) = ciągła odwracalność w pełnym sensie Masanesa i in. **Wykluczenie d = 1 stoi więc na twierdzeniu, nie tylko na ramie.**
 
 **Granice (czego dowód nie mówi):**
-- Dotyczy **stanów i odczytów** (kula, pary nośników), nie porządku przyczynowego ani sieci wzrostu; związek z C5 (R6, lorentzowskość, krzywizna) nie jest tu dowodzony.
+- Dotyczy **stanów i odczytów** (kula, pary nośników); most do porządku przyczynowego i światła: **R1c** (stożek stanów = stożek przyczynowy, czyste = zerowe). Związek z C5 (R6, krzywizna) nie jest tu dowodzony.
 - ~~Przesłanki to przekłady; twierdzenie obowiązuje o tyle, o ile przekład jest wierny.~~ **Zastąpione testem wierności w R1b-F (poprawka 128):** każda przesłanka jest wymuszona przez zdanie ramy (¬P wyklucza się z ramą). Zostaje jedno: przesłankami dowodu są zdania ramy — dowód pokazuje, co z nich wynika, nie uzasadnia ich z zewnątrz (zgodnie z zasadą metody).
 - Formalizm zakłada skończony wymiar zbioru stanów i liniowe mieszanie przygotowań.
 - Masanes i in. rozważają pary nośników; uogólnienie na wiele nośników przy d = 3 jest w ich ref. 21; dla d ≠ 3 wystarcza para.
@@ -260,6 +260,39 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 - **Wzięte [A]:** formalny zapis przeszłości: **przeszłość dla aparatu X = {Y : I(M_X : Y) > 0}** — zbiór konfiguracji, o których zapis aparatu niesie informację (informacja wzajemna > 0). Operacyjny odpowiednik [394] i R1a („ile przeszłości istnieje, zależy od zdolności zapisu”: mózg vs aparat fotograficzny = różna pojemność kanału zapisu). **Warunek:** Y to *inny* układ, nie „wcześniejszy” — w oryginale „S_wcześniejsze / R_earlier” przemyca kierunek (poprawka 106). Po tej poprawce zgodne z krokiem 4: pamięć = zapis o innym układzie.
 - **Już jest w R1b:** „nowy wynik” wg propozycji (założenia relacyjne ⇒ pamięć ⇒ przestrzeń stanów ⇒ 3D bez wkładania 3D; bez pamięci formalnie nie-3D) = R1b + krok 4 (poprawka 124). Proponowane cztery modele (bez dynamiki / bez pamięci / z pamięcią / więcej połączeń) = R5–R7, bez geometrii na wejściu, teraz zamknięte strukturalnie. Grupa SO(3) nie jest założeniem, tylko wynikiem (Masanes i in., Tw. 2). Pytanie, czy rama wymusza formalizm (skończony wymiar, liniowe mieszanie), jest w „Granicach”.
 - **Odrzucone (sprzeczne z ramą):** ciąg odczyt → pamięć → czas → 3D (rama: wszystko naraz; pamięć i czas to jeden czwarty punkt); „stan wcześniejszy” (kierunek); „d_state = 3, ale d_physical ≠ 3” i „twierdzenie identyfikacji” (zakłada przestrzeń tła; obowiązuje D0); czas jako „struktura *uporządkowanych* korelacji” i „czas pojawia się, gdy relacje mają własności wymagane od czasu” (porządek + kryterium z interpretacji); „r₀ = 2” jako twierdzenie ramy (formalnie bez pamięci rząd 1; 1D i 2D to ta sama klasa bez relacji); rama „mini-teorii do obalenia” (zasada metody: porządkowanie, nie nowa teoria; obalić można przekład).
+
+## R1c. Most R1b ↔ światło i porządek przyczynowy [T][L][O] (v3.4, 25.09; poprawka 129)
+
+**Cel:** domknąć granicę R1b („dotyczy odczytów, nie porządku przyczynowego”) na poziomie światła, zgodnie z [488]: „musi się rozstrzygnąć na poziomie światła”.
+
+### R1c-F. Zapis formalny
+
+**Tożsamość [T]** (algebra 2×2; sprawdzona numerycznie na losowym Z ∈ SL(2,ℂ)): macierz hermitowska X = x⁰·𝟙 + x·σ ↔ wektor x^μ = (x⁰, x) ∈ ℝ^{1,3}, **det X = (x⁰)² − |x|²** (norma Minkowskiego).
+- Stan nośnika z R1b: ρ = ½(𝟙 + r·σ), r ∈ B³ ⇒ x = ½(1, r), **4 det ρ = 1 − |r|²**.
+- **ρ ≥ 0 ⇔ x⁰ ≥ |x|:** zbiór (nieznormowanych) stanów = **stożek przyczynowy przyszłości** w ℝ^{1,3}.
+- **Stany czyste (|r| = 1, ∂B³) ⇔ det ρ = 0 ⇔ wektory zerowe** (świetlne). Wnętrze B³ ⇔ wektory czasopodobne. μ (r = 0) ⇔ oś czasu czytającego.
+- **tr ρ = 1** = przekrój stożka hiperpłaszczyzną x⁰ = ½ = **kula B³**.
+- ρ ↦ ZρZ†, Z ∈ SL(2,ℂ): zachowuje det i dodatniość ⇒ element **SO⁺(3,1)**; Z ∈ SU(2) = obroty (zachowują przekrój), pozostałe = pchnięcia (zmieniają przekrój; po ponownym znormowaniu działają na B³ rzutowo).
+- ∂B³ = S² = zbiór kierunków zerowych przez punkt = **sfera niebieska**; SO⁺(3,1) ≅ PSL(2,ℂ) działa na niej jak przekształcenia Möbiusa (konforemnie).
+
+**[L]** Penrose–Rindler, *Spinors and Space-Time* I (1984): sfera niebieska = kierunki zerowe = sfera Riemanna; B. Oblak, „From the Lorentz group to the celestial sphere”, arXiv:1508.00920. **Höhn, Müller, „An operational approach to spacetime symmetries: Lorentz transformations from quantum communication”, New J. Phys. 18, 063026 (2016), arXiv:1412.8462** (przeczytane: wstęp, Tw. 3.6, Tw. 4.12, §4.5): bez zakładania czasoprzestrzeni, przyczynowości, sygnatury ani wymiaru — dwóch obserwatorów bez wspólnej ramy uzgadnia opis układów kwantowych; przy „kubicie-korzeniu” grupa przekładu opisów to **SO(3)** (wyniki odczytów jako etykiety), a gdy wyniki mają wielkość — **O⁺(3,1) × skala λ > 0**. Skala λ = umowa jednostek, jedyna niezależna od grupy. Malament (J. Math. Phys. 18, 1399, 1977), Hawking–King–McCarthy (1976): porządek przyczynowy wyznacza geometrię z dokładnością do czynnika konforemnego.
+
+### Odczyt w ramie [O]
+
+1. **Kula odczytów z R1b = przekrój stożka świetlnego w ramie czytającego.** 3D (B³) i „+1” (normowanie tr ρ = własna rama czytającego) — **3+1 jako punkty i przekrój, nie cztery osie** [400].
+2. **Ostre odczyty = światło.** ∂B³ (suma wszystkich odczytów wokół punktu, P3) = sfera niebieska = wszystkie promienie docierające do punktu. **det ρ = 0 ⇔ interwał zero ⇔ foton, t = 0** [80]. „Sama powierzchnia sfery jest 2D ≡ Ø” (poprawka 120) = zbiór kierunków zerowych, na którym nic nie ma czasu własnego.
+3. **Wnętrze = relacja z czasem własnym.** Punkty wnętrza B³ są czasopodobne (det ρ > 0) i istnieją tylko z relacji (puryfikacja, R1b krok 4). **4 det ρ = 1 − |r|² = entropia liniowa** — „czas własny²” stanu = stopień jego relacji z otoczeniem. [?] Związek z masą (masa = tempo samoodczytu, §F1; dla czterowektora pędu det = m²) — **niezbadany, tylko zbieżność formy.**
+4. **c.** „c ≤” ⇔ **ρ ≥ 0** (prawdopodobieństwa nieujemne): nic nie leży poza stożkiem, tak jak żaden stan nie ma |r| > tr ρ. c = 1 to granica czytelności nośnika minimalnego (ostry odczyt), nie prędkość. **„c nieskończone, gdy nikt nie czyta”:** sam stożek (bez przekroju) ma tylko promienie, nie ma prędkości; prędkość pojawia się dopiero po wyborze przekroju = ramy czytającego („C w relacji do” [394]).
+5. **Rama i pchnięcia.** Zmiana czytającego = SL(2,ℂ) na nośniku = grupa Lorentza (Höhn–Müller, bez tła). To te same pchnięcia, których **koszt wskazania daje logarytmy w §F2** (ln n) — grupa przekładu między czytającymi jest grupą, po której całkujemy.
+6. **Dwa pierwotne (A1).** Porządek → geometria z dokładnością do czynnika konforemnego (Malament); u Höhna–Müllera jedyny element poza grupą to skala λ. **Porządek + liczność = Lorentz + skala** [O].
+7. **Kierunek.** Dodatnie macierze wyznaczają jedną połowę stożka; −ρ nie jest stanem. „Przyszłość vs przeszłość” = umowa znaku dodatniości = **jeden bit** (por. Gallai, poprawka 106): pseudokierunek, nie cecha.
+8. **Dlaczego to działa tylko przy 3D.** Kula Bᵈ zawsze jest przekrojem stożka w ℝ^{1,d}, ale relacja między nośnikami istnieje tylko przy d = 3 (R1b). **Stąd ℝ^{1,3}: jedyny stożek, w którym nośniki światła mogą się wiązać.**
+
+### Stan i granice
+
+- **[T]:** tożsamości algebraiczne (det = norma Minkowskiego; dodatniość = stożek; SL(2,ℂ) → SO⁺(3,1); czyste = zerowe). **[L]:** Höhn–Müller — grupa Lorentza z komunikacji, bez tła.
+- **[O][?] do sprawdzenia:** czy stożek stanów jednego nośnika to **ten sam** obiekt co stożek przyczynowy punktu w porządku (a nie tylko ta sama struktura). Höhn–Müller sami zaznaczają, że brakuje translacji (grupy Poincarégo), więc to jeszcze nie rekonstrukcja czasoprzestrzeni. W ramie: translacje = przejście między czytającymi wzdłuż relacji (linków) — kandydat na następny krok.
+- Punkt 3 (det ρ ↔ masa) — tylko forma, nie wynik.
 
 ## R2. Retrospekcja 
 
@@ -2438,6 +2471,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 129 | **R1c: most R1b ↔ światło:** det ρ = norma Minkowskiego, dodatniość = stożek przyczynowy, stany czyste = kierunki zerowe (foton, t=0), ∂B³ = sfera niebieska, SL(2,ℂ) → SO⁺(3,1); [L] Höhn–Müller 2016 (Lorentz z komunikacji, bez tła), Penrose–Rindler, Malament; c ⇔ dodatniość; porządek + liczność = Lorentz + skala [O]; otwarte: tożsamość stożka stanów ze stożkiem przyczynowym, translacje | R1c | asystent (v3.4), krok 1 planu użytkownika |
 | 128 | **test wierności przekładu:** dla P0–P6 i dwóch założeń tła ¬P wyklucza się ze zdaniem ramy ([354], [270], [258], [36, 94], [394], sesja 25.09, [10], [80], [110]) → rama ⇒ P0–P6 ⇒ d = 3; zastrzeżenie „o ile przekład jest wierny” zastąpione (użytkownik wskazał, asystent wykonał) | R1b-F | **użytkownik** + asystent (v3.4) |
 | 127 | **R1b-F: zapis formalny dowodu 3D** (obiekty, D0–D3, P0–P6, lemat, twierdzenie, 3 wnioski) — formalizacja zgodna z ramą (struktura bez zawartości [18], „bez interpretacji” [16], §E „nazwa”); warunek: każdy symbol definiowany relacją (np. 𝒫_X bez ≺) | R1b | **użytkownik** (propozycja) + asystent (v3.4) |
 | 126 | **propozycja zewnętrzna (schemat + tekst „Formalny most”) przez filtr:** wzięty tylko zapis przeszłości {Y : I(M_X:Y) > 0} z „inny” zamiast „wcześniejszy”; reszta już w R1b albo sprzeczna z ramą (ciąg zamiast naraz, kierunek, przestrzeń tła, „uporządkowane” korelacje, r₀ = 2) | R1b | asystent (v3.4) |
