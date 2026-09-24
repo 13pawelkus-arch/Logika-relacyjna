@@ -1,6 +1,6 @@
 # Logika relacyjna — v3.4
 
-> **v3.4 (25.09):** nowa sekcja **R1b — dowód strukturalny 3D z definicji czasu** (poprawki 114–122).
+> **v3.4 (25.09):** nowa sekcja **R1b — dowód strukturalny 3D z definicji czasu** (poprawki 114–123).
 >
 > **v3.4** = v3.3 + §C4a punkty 1–16 (etap 0, fragmenty, ściskanie, Fokker, entropia) + dopisek o Ĥ|Ψ⟩=0 w R1a + rejestr 25–48.
 >
@@ -158,45 +158,48 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 
 **Konsekwencja, której plik do v3.1 nie wyciągał:** program jest **porównawczy z definicji**, więc wymaga co najmniej dwóch otoczeń. Wszystkie liczby w §A pochodzą ze sprinklingu do diamentu w płaskim Minkowskim. 
 
-## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T] (v3.4, 25.09)
+## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T] (v3.4, 25.09; po audycie, poprawka 123)
 
 **Teza:** trzy wymiary przestrzenne (= 4 punkty odniesienia) są jedynym przypadkiem, w którym najmniejsze nośniki informacji mogą w ogóle wejść ze sobą w relację. Dowód nie przegląda przypadków, tylko nie dopuszcza innych [148]. Nie używa przestrzeni tła, zewnętrznego czasu ani kierunku.
 
-**Skąd:** rama użytkownika (R1a, synteza czasu) + formalizm uogólnionych teorii probabilistycznych, wzięty bez interpretacji: Müller–Masanes, New J. Phys. 15, 053040 (2013), arXiv:1206.0630; **Masanes, Müller, Pérez-García, Augusiak, J. Math. Phys. 55, 122203 (2014), arXiv:1111.4060** (twierdzenie o d = 3; bez przestrzeni fizycznej). Przekład założenie po założeniu i historia dochodzenia: C5, poprawki 114–121.
+**Skąd:** rama użytkownika (R1a, synteza czasu) + formalizm uogólnionych teorii probabilistycznych, wzięty bez interpretacji: Müller–Masanes, New J. Phys. 15, 053040 (2013), arXiv:1206.0630; **Masanes, Müller, Pérez-García, Augusiak, J. Math. Phys. 55, 122203 (2014), arXiv:1111.4060** (twierdzenie o d = 3; bez przestrzeni fizycznej). Przekład założenie po założeniu i historia dochodzenia: C5, poprawki 114–121. Numery [n] = rozmowa źródłowa; „sesja 25.09” = rozmowa w Claude Code z 25.09.
 
-**Przesłanki (każda z ramy, obok odpowiednik formalny):**
+**Definicja D0 (użytkownik, sesja 25.09):** „Kula stanów to zbiór wszystkich możliwych kierunków / odczytów / pozycji — wtedy to faktycznie jest 3D.” **Wymiar przestrzeni := wymiar kuli wszystkich możliwych odczytów.** Bez D0 twierdzenie mówi o kubitach, nie o przestrzeni. [L] Müller–Masanes (2013, §V i Przykład 39) pokazują, że struktura euklidesowa przestrzeni może być odziedziczona z prawdopodobieństw odczytów, a nie odwrotnie.
 
-| # | rama [H] | formalizm [L] |
+**Przesłanki twierdzenia (lewa kolumna: zdanie ramy; [H] = słowa użytkownika, [A] = mój przekład):**
+
+| # | rama | formalizm [L] |
 |---|---|---|
-| P0 | Całość nie ma otoczenia → Ĥ\|Ψ⟩=0; czas tylko jako relacja wewnątrz; odczyt zawsze teraz [270, 334, 394; sesja CC 72] | niezmienniczość względem reparametryzacji = **ciągła jednoparametrowa grupa** e^(−iĤt), względem której całość stoi; części zmieniają się tylko względem czytającego (Page–Wootters). Parametr t = dowolna etykieta, nie czas (poprawka 118) |
-| P1 | Foton = minimalne wzbudzenie = minimalna informacja [242–268] | **układ binarny**: dokładnie dwa stany doskonale rozróżnialne |
-| P2 | Stan nie niesie etykiety przed/po; żaden ostry odczyt nie jest wyróżniony; nic nie jest cechą | **ciągła odwracalność**: każde dwa stany czyste łączy ciągłe przekształcenie odwracalne; wyniki odczytów części **nie zależą od kolejności w czasie** |
-| P3 | Suma wszystkich odczytów wokół jednego punktu odniesienia daje sferę; lokalny odczyt może mieć dowolny kształt; sfera sama jest 2D ≡ Ø, dla całości t=0 [150, 270, 402; poprawki 120–121] | **okrągłość**: zbiór stanów (= suma odczytów) ściśle wypukły; ze średniej Haara W² = ∫HᵀH dH → elipsoida → **kula** |
-| P4 | 3D istnieje tylko lokalnie, jako wynik relacji wewnątrz (poprawka 120) | **puryfikacja**: stan wnętrza kuli (mieszany) jest częścią stanu czystego większego układu (Chiribella–D’Ariano–Perinotti 2011) |
-| P5 | Całość znana tylko przez odczyty wewnątrz | **tomografia lokalna**: stan pary wyznaczony przez odczyty części i ich korelacje |
-| P6 | Relacja: jedno z dwóch zdań prawdziwych [10]; bez relacji nikt nic nie czyta | **oddziaływanie**: istnieje przekształcenie pary nierozkładalne na lokalne (⇔ splątanie) |
+| P0 | [H] Całość nie ma otoczenia, „dla całości t=0; wzbudzenia i relacje są lokalne” [270]; czytanie „zawsze teraz” [334, 394]; „niezmienniczość względem reparametryzacji: Ĥ\|Ψ⟩=0” (sesja CC 72) | ciągła jednoparametrowa grupa e^(−iĤt), względem której całość stoi; części zmieniają się tylko względem czytającego (Page–Wootters). Parametr t = dowolna etykieta, nie czas (poprawka 118) |
+| P1 | [H] „Foton — minimalne wzbudzenie. Minimalna różnica. Minimalna informacja.” [258] | **układ binarny**: dokładnie dwa stany doskonale rozróżnialne ([A]: minimalna różnica = 1 bit) |
+| P2 | [H] stan nie niesie etykiety przed/po (klocki) [394]; [A] żaden ostry odczyt nie jest wyróżniony — wyróżniony byłby „cechą” [36, 94] | **ciągła odwracalność**: każde dwa stany czyste łączy ciągłe przekształcenie odwracalne; wyniki odczytów części **nie zależą od kolejności w czasie** (w samej definicji układu złożonego) |
+| P3 | [H] „Suma wszystkich kierunków 3 takich węzłów — objętość sfery” [150]; „lokalny odczyt może mieć dowolny kształt; suma wszystkich odczytów wokół jednego punktu odniesienia daje sferę”; „sama powierzchnia sfery jest 2D ≡ Ø; dla całej sfery t=0” (sesja 25.09; poprawki 120–121) | **okrągłość**: zbiór stanów (= suma odczytów) ściśle wypukły; z ciągłą odwracalnością i średnią Haara W² = ∫HᵀH dH → elipsoida → **kula** |
+| P5 | [H] „Wzbudzenia i relacje są lokalne” [270] — nie ma odczytu całości z zewnątrz | **tomografia lokalna**: stan pary wyznaczony przez odczyty części i ich korelacje |
+| P6 | [H] „Istnieją tylko dwa zdania prawdziwe: milczenie i relacja” [10] | **oddziaływanie**: istnieje przekształcenie pary nierozkładalne na lokalne (⇔ splątanie) |
 
-**Tło:** stan = prawdopodobieństwa odczytów, mieszanie przygotowań liniowe; prawdopodobieństwo zawsze względem dekoherencji w otoczeniu, nigdy „samej superpozycji” (poprawka 114).
+**Tło:** stan = prawdopodobieństwa odczytów, mieszanie przygotowań liniowe; prawdopodobieństwo nigdy nie dotyczy „samej superpozycji”, tylko relacji otoczenia [110, 244] (poprawka 114).
 
-**Krok 1 — zbiór odczytów jest kulą [T][L].** Z P1–P3: stany czyste (ostre odczyty) tworzą sferę, której żaden punkt nie jest wyróżniony; wszystkie inne stany są mieszaninami. W środku stan μ, jedyny niezmienniczy względem wszystkich przekształceń, bez informacji o kierunku. Wymiar kuli d = liczba **wzajemnie komplementarnych** odczytów potrzebnych do ustalenia stanu (odczyt jednego nic nie mówi o pozostałych).
+**Krok 1 — zbiór odczytów jest kulą [T][L].** Z P1–P3: stany czyste (ostre odczyty) tworzą sferę, której żaden punkt nie jest wyróżniony; wszystkie inne stany są mieszaninami. W środku stan μ, jedyny niezmienniczy względem wszystkich przekształceń, bez informacji o kierunku. Wymiar kuli d = liczba **wzajemnie komplementarnych** odczytów potrzebnych do ustalenia stanu (przy stanie ostrym wzdłuż jednego kierunku odczyt wzdłuż prostopadłego daje 1/2, czyli nic).
 
 **Krok 2 — relacja istnieje tylko przy d = 3 [T][L].** Z P2, P5, P6 (Masanes i in. 2014, Tw. 1–2):
-- **d = 1** (bit klasyczny): przekształcenia odwracalne to permutacje, grupa niespójna — sprzeczne z P0/P2. **1D nie istnieje.**
-- **d = 2 i d ≥ 4:** każde przekształcenie odwracalne pary rozkłada się na lokalne — **relacji między nośnikami nie ma**. Dla 2D zgodne z „relacja przestrzeni = 0” [76]; dla więcej niż 3 zgodne z [511] i mocniej: nie „skróty”, tylko brak relacji w ogóle.
+- **d = 1** (bit klasyczny, odcinek): przekształcenia odwracalne to {1, −1}, grupa niespójna — sprzeczne z ciągłą odwracalnością. Zgodne z [H] „1D nie istnieje” (sesja CC 82). *Zastrzeżenie: patrz „Otwarte” niżej.*
+- **d = 2 i d ≥ 4:** każde przekształcenie odwracalne pary rozkłada się na lokalne — **relacji między nośnikami nie ma**. Dla 2D zgodne z [H] „relacja pomiędzy dwoma węzłami jest = 0” [76]. Dla d ≥ 4 zgodne z [H] [511] („nic nie wymaga piątego punktu”) i mocniej: nie tylko „skróty zamiast osi” (symulacja R7), lecz brak relacji w ogóle.
 - **d = 3:** relacja istnieje i jest dokładnie relacją dwóch kubitów (splątanie, ewolucja unitarna).
-- Powód grupowy (Müller–Masanes 2013): obroty zostawiające jeden kierunek w miejscu są przemienne tylko przy d = 3.
+- Powód grupowy (Müller–Masanes 2013): **dla d ≥ 3** obroty zostawiające jeden kierunek w miejscu, SO(d−1), są przemienne tylko przy d = 3; d = 1 i d = 2 wypadają z innych powodów (wyżej).
 
-**Krok 3 — przekład na punkty odniesienia [O].** Stan w kuli 3D ustalają odczyty wzdłuż **trzech** komplementarnych kierunków (dwa nie wystarczają, czwarty nic nie dokłada) = **triada, trzy węzły relacji**; ustalany stan = **czwarty punkt**, w superpozycji do odczytu = „punkt informacji o dynamicznej strukturze, w superpozycji, dopóki pole nie jest wzbudzone”. **3 wymiary = 4 punkty, nie osie** [400]. Trzy odczyty nie leżą w jednej płaszczyźnie, bo płaszczyzna ≡ Ø (współliniowość istnieje tylko w 2D; poprawka 117).
+**Krok 3 — przekład na punkty odniesienia [O].** Stan w kuli 3D ustalają odczyty wzdłuż **trzech** komplementarnych kierunków (dwa nie wystarczają, czwarty nic nie dokłada) = **triada, trzy węzły relacji**. Ustalany stan = **czwarty punkt**: [H] „1 punkt odniesienia to informacja o dynamicznej strukturze, w superpozycji, dopóki pole nie jest wzbudzone” (sesja CC 82). **3 wymiary = 4 punkty, nie osie** [400]. Trzy odczyty nie leżą w jednej płaszczyźnie, bo płaszczyzna ≡ Ø (współliniowość istnieje tylko w 2D; poprawka 117).
 
-**Krok 4 — czas i 3D są jednym [O].** Ciągłość (P0) jest tym, co wyklucza d = 1; brak kierunku (P2) jest w definicji układu złożonego; przestrzeń (wnętrze kuli) istnieje tylko z relacji (P4). Definicja czasu nie jest więc dodatkiem do 3D ani odwrotnie: te same przesłanki dają oba. Zgodnie z [511] i CLAUDE.md: **definicji czasu nie wolno oddzielać od wyprowadzenia 3D.**
+**Krok 4 — czas, pamięć i 3D [O][?].** [H] „Samo 3 jest płaskie. Nawet jak jest dynamika — bez pamięci ruchu nie da się zauważyć… nie powstaje dodatkowy punkt odniesienia. Nie ma 3D” [400]; pamięć = dostęp do innych układów struktury. W formalizmie pamięć wchodzi dwa razy [O]: (a) stan nośnika **jest zapisem** informacji o innym układzie (u Müllera–Masanesa: kierunek Alicji, bez wspólnego układu współrzędnych) — to jest „dostęp do innego układu”; (b) ustalenie stanu wymaga **wielu odczytów zebranych razem** (statystyka z wielu kopii) — bez przechowania odczytów stanu nie ma. Ciągłość (P0) wyklucza d = 1; brak kierunku (P2) siedzi w definicji układu złożonego. **[?]** czy (a)–(b) to dokładnie „pamięć” z [400], czy tylko jej ślad — do potwierdzenia przez użytkownika. Łącznik (nie przesłanka twierdzenia): [H] „3D jest tylko lokalne jako wynik świata relacji wewnątrz” (sesja 25.09) ↔ [L] puryfikacja: stan mieszany (wnętrze kuli) jest częścią stanu czystego większego układu (Chiribella, D’Ariano, Perinotti, Phys. Rev. A 84, 012311, 2011, arXiv:1011.6451). Stąd: **definicji czasu nie wolno oddzielać od wyprowadzenia 3D** [511; CLAUDE.md].
 
-**Wniosek (stanowczo):** przy przesłankach P0–P6, z których każda jest zdaniem ramy, **3D jest jedyną możliwością**; 1D, 2D i każde d ≥ 4 są wykluczone strukturalnie, nie przez przykłady. Symulacje R5–R7 (triada 2, triada + pamięć 3, więcej połączeń = brak rozmaitości) są z tym zgodne, ale nie są częścią dowodu.
+**Wniosek (stanowczo):** przy D0 i P0–P6 **3D jest jedyną możliwością**; 2D i każde d ≥ 4 są wykluczone strukturalnie, brakiem relacji, nie przez przykłady; 1D — ciągłością (z zastrzeżeniem niżej) i niezależnie ramą. Symulacje R5–R7 (triada 2, triada + pamięć 3, więcej połączeń = brak rozmaitości) są z tym zgodne, ale nie są częścią dowodu.
+
+**Otwarte (jedno, formalne) [?]:** aksjomat ciągłej odwracalności u Masanesa i in. jest równoważny **spójności całej grupy** przekształceń odwracalnych (każde przekształcenie osiągalne w sposób ciągły). Przekład P0 (poprawka 118) daje ciągłość jednej rodziny (ewolucji względem czytającego), P2 daje brak wyróżnionego odczytu. Czy rama daje spójność całej grupy — czyli wyklucza przekształcenie „skokiem”, bez niczego pomiędzy — nie jest jeszcze pokazane. Od tego zależy formalnie tylko wykluczenie d = 1.
 
 **Granice (czego dowód nie mówi):**
 - Dotyczy **stanów i odczytów** (kula, pary nośników), nie porządku przyczynowego ani sieci wzrostu; związek z C5 (R6, lorentzowskość, krzywizna) nie jest tu dowodzony.
-- Przesłanki P0–P6 to **przekłady** [H]/[A]; twierdzenie [T] obowiązuje o tyle, o ile przekład jest wierny. Każdy przekład jest jawnie w C5 (poprawki 114–121).
+- Przesłanki to **przekłady** ([H] słowa użytkownika, [A] mój przekład — oznaczone w tabeli); twierdzenie [T] obowiązuje o tyle, o ile przekład jest wierny. Każdy przekład jest jawnie w C5 (poprawki 114–121).
 - Formalizm zakłada skończony wymiar zbioru stanów i liniowe mieszanie przygotowań.
-- Masanes i in. rozważają pary nośników; przejście do wielu nośników dla d = 3 jest u nich (ref. 21), dla d ≠ 3 wystarcza para.
+- Masanes i in. rozważają pary nośników; uogólnienie na wiele nośników przy d = 3 jest w ich ref. 21; dla d ≠ 3 wystarcza para.
 
 ## R2. Retrospekcja 
 
@@ -2375,6 +2378,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 123 | **audyt R1b przez asystenta (na prośbę użytkownika), 9 poprawek:** (1) brak jawnej definicji D0 (wymiar przestrzeni := wymiar kuli odczytów) — bez niej twierdzenie dotyczy kubitów; (2) P4 (puryfikacja) nie jest przesłanką twierdzenia Masanesa i in. — przeniesiona do kroku 4 jako łącznik; (3) pamięć [400] nieobecna w dowodzie — krok 4 przepisany, pamięć w formalizmie [O][?]; (4) P1: zakres [242–268] → dokładne słowa [258]; (5) P2: „żaden odczyt nie wyróżniony” to przekład [A], nie słowa użytkownika; (6) P5: „całość znana przez odczyty wewnątrz” nie było w rozmowie → [270]; (7) powód grupowy tylko dla d ≥ 3; (8) „skróty” pochodzą z R7, nie z [511]; (9) ciągła odwracalność = spójność całej grupy — przekład 118 tego nie pokrywa w pełni, otwarte, od tego zależy formalnie tylko d = 1 | R1b | asystent (v3.4) |
 | 122 | **nowa sekcja R1b: dowód strukturalny 3D z definicji czasu** — przesłanki P0–P6 z ramy z odpowiednikami formalnymi (Müller–Masanes 2013, Masanes i in. 2014, Chiribella i in. 2011), kroki 1–4, wniosek, granice; zebrane z poprawek 114–121 | R1b | **użytkownik** + asystent (v3.4) |
 | 121 | **lokalny odczyt ma dowolny kształt; suma wszystkich odczytów wokół punktu odniesienia = sfera (użytkownik)** — pytanie „czy wykluczone są wszystkie nieokrągłe zbiory stanów” źle postawione (asystent pomylił odczyt ze zbiorem stanów); formalnie średnia Haara W² = ∫HᵀH dH w Masanes i in. 2014 | C5 | **użytkownik** (v3.4) |
 | 120 | **„okrągłość” = Wheeler–DeWitt dla zbioru odczytów: powierzchnia sfery 2D ≡ Ø, dla całości t=0, 3D tylko lokalnie z relacji wewnątrz (użytkownik); [L] puryfikacja (Chiribella–D’Ariano–Perinotti 2011) jako formalny odpowiednik** | C5 | **użytkownik** + asystent (v3.4) |
