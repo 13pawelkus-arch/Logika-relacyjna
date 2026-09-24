@@ -191,6 +191,22 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 
 **Wniosek 3** (Ø): ∂B³ = S², dim 2 (sfera sama ≡ Ø; całość bez relacji, t = 0); μ = 0 — brak informacji o kierunku; ∀ ω ∈ int B³ ∃ czysty Ψ_AB : Tr_B Ψ_AB = ω (puryfikacja; Chiribella–D’Ariano–Perinotti 2011) — wnętrze B³ tylko z relacji.
 
+**Test wierności przekładu (poprawka 128) [O].** Kryterium jak w łańcuchu Ø: wykluczenie, nie ocena. Przekład P jest wierny ⇔ ¬P wyklucza się ze zdaniem ramy. Wtedy rama ⇒ P i zastrzeżenie „o ile przekład jest wierny” znika.
+
+| przesłanka | ¬P | wyklucza się z |
+|---|---|---|
+| P0: G_A spójna | ∃ przekształcenie nieosiągalne w sposób ciągły = skok bez niczego pomiędzy, niegenerowany relacją wewnątrz | „nie ma zewnętrznych aktorów” [354]; „całość nie ma otoczenia, dla całości t=0” [270] |
+| P1: N_A = 2 | N_A = 1: brak dwóch rozróżnialnych stanów = brak różnicy; N_A ≥ 3: zawiera różnicę dwustanową, więc nie jest najmniejsza | N_A = 1: „wzbudzenie = różnica = informacja”, brak różnicy ≡ Ø [258, 242]; N_A ≥ 3: „foton = minimalna różnica” [258] |
+| P2a: G_A przechodnia na ∂ₑΩ_A | ∃ ω, φ czyste, nieprzekształcalne: stan czysty różni się od innego sam z siebie, bez relacji | „nic nie jest cechą” [36, 94] |
+| P2b: p(x,y) niezależne od kolejności odczytów | wynik zależy od „przed/po” = stan niesie etykietę kolejności | klocki: stan nie niesie etykiety przed/po [394] |
+| P3: ∂Ω_A bez odcinków | na sumie wszystkich odczytów wyróżnione są punkty brzegu (ekstremalne vs nieekstremalne) | „dla całej sfery t=0”, sfera ≡ Ø: na całości nic nie wyróżnione (sesja 25.09, poprawka 120) |
+| P5: tomografia lokalna | ∃ różnica stanów pary nieodczytywalna przez odczyty części i korelacje = różnica nieodczytywalna lokalnie | „wzbudzenia i relacje są lokalne” [270] |
+| P6: G_AB ⊄ G_A ⊗ G_B | nośniki nigdy nie wchodzą w relację | „dwa zdania prawdziwe: milczenie i relacja” [10]; foton t=0 = warunek, żeby przestrzeń była relacją [80] |
+| tło: liniowe mieszanie | prawdopodobieństwo zależy od tego, czy etykietę przygotowania pominięto przed czy po odczycie (tak liniowość wyprowadzają Masanes i in., §III) | [394] (brak przed/po) |
+| tło: dim Ω_A < ∞ | ustalenie stanu wymaga nieskończenie wielu niezależnych odczytów = stanu nie da się ustalić odczytem | „o superpozycji nic nie można powiedzieć” [110]: nieodczytywalne ≡ Ø, nie nośnik informacji |
+
+**Wynik:** każda przesłanka i oba założenia tła są **wymuszone** przez zdanie ramy (¬P ⊥ rama). Łańcuch: **rama ⇒ P0 ∧ … ∧ P6 ⇒ d = 3.** D0 jest definicją, nie przekładem: nie może być niewierna, najwyżej niespójna, a spójności nic nie przeczy. Status wynikania rama ⇒ P: [O] asystenta, sprawdzalny wierszem tabeli, bez oceny.
+
 ### Glosa (słowa, źródła w rozmowie)
 
 **Teza:** trzy wymiary przestrzenne (= 4 punkty odniesienia) są jedynym przypadkiem, w którym najmniejsze nośniki informacji mogą w ogóle wejść ze sobą w relację. Dowód nie przegląda przypadków, tylko nie dopuszcza innych [148]. Nie używa przestrzeni tła, zewnętrznego czasu ani kierunku.
@@ -236,7 +252,7 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 
 **Granice (czego dowód nie mówi):**
 - Dotyczy **stanów i odczytów** (kula, pary nośników), nie porządku przyczynowego ani sieci wzrostu; związek z C5 (R6, lorentzowskość, krzywizna) nie jest tu dowodzony.
-- Przesłanki to **przekłady** ([H] słowa użytkownika, [A] mój przekład — oznaczone w tabeli); twierdzenie [T] obowiązuje o tyle, o ile przekład jest wierny. Każdy przekład jest jawnie w C5 (poprawki 114–121).
+- ~~Przesłanki to przekłady; twierdzenie obowiązuje o tyle, o ile przekład jest wierny.~~ **Zastąpione testem wierności w R1b-F (poprawka 128):** każda przesłanka jest wymuszona przez zdanie ramy (¬P wyklucza się z ramą). Zostaje jedno: przesłankami dowodu są zdania ramy — dowód pokazuje, co z nich wynika, nie uzasadnia ich z zewnątrz (zgodnie z zasadą metody).
 - Formalizm zakłada skończony wymiar zbioru stanów i liniowe mieszanie przygotowań.
 - Masanes i in. rozważają pary nośników; uogólnienie na wiele nośników przy d = 3 jest w ich ref. 21; dla d ≠ 3 wystarcza para.
 
@@ -2422,6 +2438,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 128 | **test wierności przekładu:** dla P0–P6 i dwóch założeń tła ¬P wyklucza się ze zdaniem ramy ([354], [270], [258], [36, 94], [394], sesja 25.09, [10], [80], [110]) → rama ⇒ P0–P6 ⇒ d = 3; zastrzeżenie „o ile przekład jest wierny” zastąpione (użytkownik wskazał, asystent wykonał) | R1b-F | **użytkownik** + asystent (v3.4) |
 | 127 | **R1b-F: zapis formalny dowodu 3D** (obiekty, D0–D3, P0–P6, lemat, twierdzenie, 3 wnioski) — formalizacja zgodna z ramą (struktura bez zawartości [18], „bez interpretacji” [16], §E „nazwa”); warunek: każdy symbol definiowany relacją (np. 𝒫_X bez ≺) | R1b | **użytkownik** (propozycja) + asystent (v3.4) |
 | 126 | **propozycja zewnętrzna (schemat + tekst „Formalny most”) przez filtr:** wzięty tylko zapis przeszłości {Y : I(M_X:Y) > 0} z „inny” zamiast „wcześniejszy”; reszta już w R1b albo sprzeczna z ramą (ciąg zamiast naraz, kierunek, przestrzeń tła, „uporządkowane” korelacje, r₀ = 2) | R1b | asystent (v3.4) |
 | 125 | **spójność grupy przekształceń (ostatni punkt otwarty R1b) zamknięta strukturą:** brak zewnętrznych aktorów [354] → każde przekształcenie jest dynamiką wewnętrzną (P0, ciągła) → grupa spójna; „skok” wymagałby aktora spoza całości. d = 1 wykluczone twierdzeniem | R1b | **użytkownik** [354] + asystent (v3.4) |
