@@ -10,8 +10,9 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 | plik | co to |
 |---|---|
-| `logika-relacyjna-v3.4.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
+| `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
+| `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
 | `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09). |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
@@ -59,36 +60,30 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Rachunki dłuższe niż kilka minut na CPU: od razu na GPU** (Colab A100 40 GB, 80 GB możliwe, ale jednostki drogie). Kod gotowy do wklejenia, parametry na górze, checkpointy, bezpiecznik pamięci liczony przed alokacją (było OOM). Lokalnie tylko sprawdzenie, że kod działa. Nie liczyć wszystkiego z automatu [96].
 - **Nie wpisywać do plików** „problem czasu” ani nazwiska Kuchař [272–276] (życzenie użytkownika).
 - Na koniec sesji: zaktualizować dokument (albo podbić wersję), rejestr, sekcję „Gdzie skończyliśmy” tutaj; commit + push.
-- **Zapis rozmowy z Claude Code:** przed końcem każdej sesji zamienić jej transkrypt (`~/.claude/projects/-home-user-Logika-relacyjna/*.jsonl`) na `rozmowa/claude-code-sesja-RRRR-MM-DD.md` (jak w pliku z 24.09) i wypchnąć — w Claude Code nie ma eksportu, a kontener znika po sesji.
+- **Zapis rozmowy z Claude Code:** przed końcem każdej sesji (zewnętrznych ocen nie włączać — życzenie użytkownika) zamienić jej transkrypt (`~/.claude/projects/-home-user-Logika-relacyjna/*.jsonl`) na `rozmowa/claude-code-sesja-RRRR-MM-DD.md` (jak w pliku z 24.09) i wypchnąć — w Claude Code nie ma eksportu, a kontener znika po sesji.
 
 ## Oś projektu (podsumowanie użytkownika, 25.09.2026)
 
 1. **Definicja czasu i c** (największa zmiana), zawsze razem z 3D.
-2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: niedokończone. R6 z pamięcią wyłączną dał 3,11 / 3,01; krzywizna nie schodziła do zera → pustynia, czarne dziury, „przywrócenie trójkątowi statusu”.
+2. **3D z triady + czwarty punkt (pamięć/zapis/czas)**: **domknięte strukturalnie w R1b/R1c** (sesja CC 2). Wcześniej: R6 z pamięcią wyłączną 3,11 / 3,01; krzywizna — pytania o płaskość źle postawione (poprawka 113).
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa; szukać jednej relacji między końcami hierarchii (Planck ≡ Ø, całość ≡ Ø).
 
-## Gdzie skończyliśmy (25.09.2026, rejestr do 136)
+## Gdzie skończyliśmy (sesja CC 2, 24/25.09.2026; dokument v3.5, rejestr do 136)
 
-**Masa i logarytmy (§F1, §F2):**
-- Wszystkie logarytmy z C4a = całka po pchnięciach = ln N = **koszt wskazania ramy** (1+1).
-- **Most masa ↔ logarytmy przez ramę** (etap10–11): trajektoria o n elementach na tyknięcie rozróżnia ~n ram; koszt wskazania ramy = ln n, współczynnik 1, w 1+1 i 3+1. Pełny sprinkling 3+1 na A100: 18/18.
-- **ε = rozdzielczość tempa** (etap12); iloczyn rozdzielczości tempa i ramy ustala samo n; podział „budżetu” jest informacyjnie zdegenerowany (etap13).
-- **Reguła R-KĄT** (najmniejsze względne pchnięcie + pasmo logarytmiczne z δ) usuwa dryf tempa (etap15). **Redukcja lokalna R-KĄT to twierdzenie [T]** (pasma rozłączne dla ε < 1/3, miara τ³dτ·dV_H, znakowanie Poissona).
-- **Wyniki §F1 z etap7–9 mają obniżony status** (poprawka 103): przy n ≈ 0,3–1,5 elementu na tyknięcie trajektorie kształtowało okno pudła (etap16/16b).
-- α w A2 to już logarytm liczebności: 1/α = (2/3πd)·ln(N_Λ/N) → N = N_Λ·e^(−(3πd/2)/α), forma transmutacji wymiarowej [O]; niezbadane.
+**Oś 1–2: czas, c, 3D — domknięte strukturalnie (czytać R1b, R1c w dokumencie):**
+- **R1b — dowód 3D z definicji czasu, bez przestrzeni tła.** Rama ⇒ P0–P6 ⇒ d = 3 (Masanes, Müller, Pérez-García, Augusiak 2014: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa; d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). D0: wymiar przestrzeni := wymiar kuli wszystkich odczytów. Test wierności (poprawka 128): ¬P każdej przesłanki wyklucza się ze zdaniem ramy. Pamięć w dowodzie: kontrola bez zapisu = bit klasyczny, bez ciągłego ruchu („ruchu nie da się zauważyć” [400]). Spójność grupy z „brak zewnętrznych aktorów” [354]. Zapis formalny R1b-F. Brak punktów otwartych.
+- **R1c — most do światła i porządku.** det ρ = norma Minkowskiego: zbiór stanów nośnika = stożek przyczynowy; kula odczytów = przekrój w ramie czytającego; stany czyste = kierunki zerowe = foton, t=0; ∂B³ = sfera niebieska; Lorentz z komunikacji (Höhn–Müller 2016); c ⇔ dodatniość prawdopodobieństw; translacje = porządek między czytającymi + Malament. Stożek stanów ≡ stożek przyczynowy.
+- Krzywizna: „płaskość jako średnia” i P-K1, P-K3, P-K4 źle postawione (poprawka 113): krzywizna 0 = Planck/nieoznaczoność/osobliwość ≡ Ø, opisywalne tylko przez otoczenie. Obserwowana płaskość = nierozróżnialność przy danej rozdzielczości odczytu.
 
-**H₂ i ranga/F (etap14):** rozpięte przez ośmiościany z 4 ścian (typy 2-2-2 i 1-2-2-1); typ II prosty = 1/24·ln N; granica ~0,84, a nie 0,857; pełne wyprowadzenie wymaga włączeń–wyłączeń.
+**R1d — elektron, pole EM, kwark (pogawędka 25.09):** faza w punkcie ≡ Ø, pole EM = relacja faz (koneksja), ładunek = siła wiązania; elektron = zygzak dwóch struktur t=0 (L↔R), masa = tempo przechodzenia (Penrose); odległość = ½ tyknięć obiegu odczytu, energia = częstość odczytu na tyknięcie, E·r = α; przeciwne funkcje sprzężenia od obiegu: elektron = relacja (abelowa), kwark = relacja relacji (nieabelowa) [94]; masa elektronu = jednostronna relacja z nierozróżnialnym tłem (Higgs ≡ Ø); asymetria [126] = Sacharow, faza nieusuwalna tylko przy ≥ 3 pokoleniach [?]; faza na linkach: diament = elektryczne, korona = magnetyczne.
 
-**Krzywizna i 3D (C5, 25.09):**
-- Literatura: krzywizna Olliviera zbiega tylko mezoskopowo (van der Hoorn i in. 2021), więc pomiary na skali ogniwa nie mogły zejść do zera; krzywizna dla zbiorów przyczynowych wzdłuż łańcuchów (Barton–Borza–Röhrig 2026), czasopodobna à la Raychaudhuri (Braun–Li 2026), horyzonty przez ogniskowanie (Eichhorn i in. 2026), molekuły horyzontu ∝ pole.
-- Diament nie potrzebuje kierunku (I[p,q] = I[q,p]; Gallai: strzałka = jeden bit umowy).
-- Z rysunków: **odczyt = czworościan (triada + zapis)**, odczyty = wzbudzenia = fotony = linki (t=0), więc czworościan jest „zbudowany ze światła”.
-- **Regge (etap18):** w sztywnym kompleksie średnia liczba czworościanów wokół krawędzi przechodzi przez płaskie 5,104 i dryfuje jak ln W; lokalnie 4 albo 8, nigdy „pomiędzy”. Sztywny kompleks = zero absolutne (wykluczone); **dynamika niemierzona**.
+**Oś 3–4: masa — hipoteza nadrzędna [H] (§F1):** układ samopodobny aż do całości; masa nie jest ostatnim krokiem, ustalana wszystko naraz. Logarytmy w dokumencie (ln n, ln W, ln(n₀/n), ln(N_Λ/N)) = ślad samopodobieństwa (miara du/u); masa = łamanie samopodobieństwa (transmutacja). Zdanie do upadku: wyróżniona skala pośrodku niezapisywalna jako wykładnik logarytmu liczebności.
+
+**Wcześniejsze wyniki (bez zmian, szczegóły w §F2, C4a, C5):** most masa ↔ logarytmy przez ramę (ln n, współczynnik 1, 1+1 i 3+1); ε = rozdzielczość tempa; R-KĄT i redukcja lokalna [T]; §F1 z etap7–9 obniżone (poprawka 103); H₂: typ II = 1/24·ln N, granica ~0,84; Regge na sztywnym kompleksie (etap18) = zero absolutne, dynamika niemierzona.
 
 **Najbliższe kroki:**
-1. **3D z czasem razem, na poziomie światła:** jak odczyty-linki (fotony) wokół triady dają 3D i dlaczego nie więcej. ~~Płaskość jako średnia po odczytach~~ — źle postawione (poprawka 113): krzywizna 0 = Planck / nieoznaczoność / osobliwość ≡ Ø, opisywalne tylko nie wprost, przez bezpośrednie otoczenie. Dowód strukturalny, nie przykłady. **Stan (poprawki 114–119):** Müller–Masanes 2013 + Masanes i in. 2014 (arXiv:1111.4060) dają bez przestrzeni tła: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa (d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). Wszystkie założenia przechodzą przez filtr; **„okrągłość” = Wheeler–DeWitt dla zbioru odczytów** (poprawka 120: sfera 2D ≡ Ø, dla całości t=0, 3D tylko lokalnie z relacji; formalnie puryfikacja). Lokalny odczyt ma dowolny kształt; suma wszystkich odczytów wokół punktu odniesienia = sfera (poprawka 121). **Dowód 3D bez przestrzeni tła: wszystkie założenia przełożone — zebrany w sekcji R1b dokumentu, z zapisem formalnym R1b-F na początku (czytać ją przy każdym temacie 3D/czasu). Po audycie (123–125) R1b nie ma punktów otwartych; granice dowodu opisane w sekcji.**
-1a. **R1c (25.09): most R1b ↔ światło** — stożek stanów nośnika = stożek przyczynowy (det ρ = norma Minkowskiego), stany czyste = kierunki zerowe = foton, ∂B³ = sfera niebieska, Lorentz z komunikacji (Höhn–Müller 2016). Stożek stanów ≡ stożek przyczynowy punktu (pytanie „ten sam obiekt czy struktura” źle postawione; obiekt = struktura relacji jako całość w relacji z inną; poprawki 130, 132). Translacje = zmiana czytającego = porządek między elementami (A1) + Malament; R1c bez punktów otwartych (poprawka 131).
-1b. **R1d (25.09): elektron i pole EM** — faza w punkcie ≡ Ø, pole EM = relacja faz; elektron = zygzak dwóch struktur t=0, masa = tempo przechodzenia; przeciwne funkcje sprzężenia od obiegu (elektron/kwark) = relacja vs relacja relacji [94]; odległość = ½ tyknięć obiegu odczytu, energia = częstość odczytu na tyknięcie, E·r = α (poprawka 134); zespół logarytmów dla masy = biegnące sprzężenia (A2). Rozpisane (135): masa = jednostronna relacja z nierozróżnialnym tłem (Higgs ≡ Ø), y_e otwarte → krok masy; asymetria = Sacharow, faza nieusuwalna tylko przy ≥ 3 pokoleniach [?]; przekład faz na porządek jest (linki, diament/korona), otwarte „działanie”.
-2. Czarne dziury po oczyszczeniu OTW z interpretacji (pytania P-K1–P-K3 w C5).
-3. α i transmutacja wymiarowa w języku liczebności; dokończenie H₂; pasmo o bezwzględnej szerokości ~ℓ [?].
+1. **Hipoteza samopodobieństwa (§F1):** jedna relacja między końcami hierarchii (Planck ≡ Ø, całość ≡ Ø), z której skale wychodzą jako wykładniki logarytmów liczebności; zebrać wszystkie logarytmy dokumentu w jeden zapis i sprawdzić zdanie do upadku. Najpierw literatura (grupa renormalizacji jako samopodobieństwo), bez rachunków.
+2. Definicje z listy [94] wynikające z R1b–R1d: spin (kierunek jako relacja nośnika), fala EM (polaryzacja = B³), potem „działanie” (wagi obiegów faz na linkach) i energia w pełni.
+3. Czarne dziury po oczyszczeniu OTW z interpretacji — pytania do postawienia na nowo (P-K w C5 po filtrze).
+4. Otwarte liczby: y_e (co ustala częstość zygzaka), asymetria 10⁻⁹, H₂ (włączenia–wyłączenia), α jako transmutacja.

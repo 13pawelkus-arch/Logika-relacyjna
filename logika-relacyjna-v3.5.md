@@ -1,4 +1,6 @@
-# Logika relacyjna — v3.4
+# Logika relacyjna — v3.5
+
+> **v3.5 (sesja CC 2, 24/25.09.2026)** = v3.4 + **R1b** (dowód strukturalny 3D z definicji czasu, z zapisem formalnym R1b-F i testem wierności), **R1c** (most do światła i porządku: stożek stanów ≡ stożek przyczynowy), **R1d** (elektron, pole EM, kwark; energia i odległość jako relacje), **hipoteza nadrzędna samopodobieństwa** (§F1), słownik: „obiekt”; poprawki 110–136. Oznaczenia „v3.4” w treści zostają jako historia.
 
 > **v3.4 (25.09):** nowe sekcje **R1b — dowód strukturalny 3D z definicji czasu** i **R1c — most do światła i porządku**, **R1d — elektron, pole EM, kwark** (poprawki 114–133).
 >
