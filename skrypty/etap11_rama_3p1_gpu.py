@@ -13,7 +13,9 @@ Wzor (etap10c): rms(r) = sqrt(Gamma(5/3)) * ((4pi/3) lam3)^(-1/3),
 
 ZDANIA DO UPADKU (zapisane przed przebiegiem):
   Q1. wykladnik rms(r) wobec n = -0,333 +- 0,03 (dla kazdego eps)
-  Q2. rms(r / wzor_lokalny) = 1,00 +- 0,05 (dla n >= 10; przy n = 3 dyskretnosc)
+  Q2. rms(r / wzor_lokalny) = 1,00 +- 0,05 (dla n >= 10)
+  v2: n = 3 usuniete — przy rms ~0,45 okno pchniec 4-5 rms siega eta ~4, komorka siatki ~ pudlo,
+      kubelek 46 mln miejsc (49 GB; OutOfMemory na A100 40 GB w v1).
   Q3. niezmienniczosc: Q2 liczone osobno dla v_cel < 0,3 i >= 0,3 rozni sie o < 5%
   Jesli Q2 upadnie, a etap10c przeszedl -> redukcja do lokalnego losowania jest bledna
   (wspolne punkty / korelacje miedzy krokami maja znaczenie) i wynik 3+1 z etap10c nie stoi.
@@ -30,17 +32,18 @@ except ImportError:
     XP = np; GPU = False
 
 # ---------------- PARAMETRY ----------------
-NS     = [3, 10, 30, 100, 300, 1000, 3000]      # elementow na tykniecie: 3 dekady
+NS     = [10, 30, 100, 300, 1000, 3000]         # elementow na tykniecie: 2,5 dekady (n=3: okno pchniec wykladniczo za duze, patrz nizej)
 EPSS   = [0.05, 0.10, 0.20]
 NMAX   = 3000                                   # przy tau = 1; rho = 24*NMAX/pi ~ 22 900
 K      = 2000                                   # trajektorii na (n, eps)
 L      = 5                                      # kroki: 0 (cel zewn.) + 3 kroki pamieci -> 3 przyrosty r
 VMAX   = 0.6
-T_, S_ = 7.0, 8.0                               # pudlo w jednostkach tau(NMAX) = 1  -> ~82 mln punktow
+T_, S_ = 8.0, 10.0                              # pudlo w jednostkach tau(NMAX) = 1  -> ~183 mln punktow (2,9 GB)
 SEED   = 1
 PAMIEC = 1.2e8                                  # elementow kandydatow na porcje (~8 GB na A100 40 GB; przy 80 GB mozna 2.5e8)
+LIMIT_SIATKI = 10e9                             # bajtow na siatke kubelkow (A100 40 GB); przy 80 GB mozna 25e9
 CKPT   = "etap11_rama.json"
-WERSJA = "v1"
+WERSJA = "v2"
 if len(sys.argv) > 1 and sys.argv[1] == "test":                 # szybki test logiki na CPU
     NS, NMAX, K, EPSS, CKPT = [30, 100, 300], 300, 100, [0.10], "test11.json"
 # -------------------------------------------
@@ -80,13 +83,20 @@ def czterop(dt, dx):
 
 def przebieg(t, x, n, eps, rng):
     tau0 = (n/NMAX)**0.25
-    rw = 5*wzor(tau0, eps)                           # okno wzglednego pchniecia: 5 x przewidywane rms (ogon ~ e^-100)
+    rw = 4*wzor(tau0, eps)                           # okno wzglednego pchniecia: 4 x przewidywane rms (ogon ~ e^-75)
     etamax = np.arctanh(VMAX) + 3*wzor(tau0, eps)    # predkosc startu + dryf przez 3 kroki
     c = (1+eps)**1.3*tau0*np.cosh(etamax + rw)       # okno czasu pokrywa cale okno pchniec (z zapasem na dryf tref)
+    # BEZPIECZNIK (v2): pamiec siatki i miejsce w pudle sprawdzane PRZED alokacja
+    lam = RHO*c**4; bucket_est = lam + 6*np.sqrt(lam) + 10
+    ncell_est = (int(np.ceil(T_/c))+2)*(int(np.ceil(S_/c))+2)**3
+    if ncell_est*bucket_est*4 > LIMIT_SIATKI or 2*c > S_ - 2.5:
+        log(f"  eps={eps} n={n}: POMINIETE — okno c={c:.2f}, siatka {ncell_est*bucket_est*4/1e9:.1f} GB "
+            f"(limit {LIMIT_SIATKI/1e9:.0f} GB) lub pudlo za male")
+        return None
     buck, nt, ns, bucket, obc = siatka(t, x, c)
     P = max(1, int(PAMIEC/(54*bucket)))
     # starty: nisko w czasie, w srodku przestrzeni
-    low = XP.where((t < 0.15*T_) & (XP.abs(x - S_/2).max(1) < 1.0))[0]
+    low = XP.where((t < 0.15*T_) & (XP.abs(x - S_/2).max(1) < 0.5))[0]
     tips = low[XP.asarray(rng.choice(int(len(low)), K, replace=False))].astype(XP.int32)
     vcel = rng.uniform(0, VMAX, K).astype(np.float32)
     kier = rng.normal(size=(K,3)).astype(np.float32); kier /= np.linalg.norm(kier, axis=1)[:,None]
@@ -119,7 +129,7 @@ def przebieg(t, x, n, eps, rng):
         # brzeg pudla: trajektoria musi miec cale okno w srodku
         tn, xn = t[nxt], x[nxt]
         wbrzeg = (tn < T_ - c) & (xn.min(1) > c) & (xn.max(1) < S_ - c)
-        zyje &= ok_all & wbrzeg
+        zyje &= ok_all & (wbrzeg if krok < L-2 else True)       # ostatni koniec juz nie szuka -> nie potrzebuje okna
         if krok > 0: R.append(rk); TR.append(tref.copy())
         tref = XP.where(ok_all, tk_all, tref); tips = XP.where(ok_all, nxt, tips).astype(XP.int32); ch.append(tips.copy())
         if GPU: cp.get_default_memory_pool().free_all_blocks()
@@ -139,7 +149,9 @@ for eps in EPSS:
         key = f"{WERSJA}|{eps}|{n}"
         if key in res: log(f"eps={eps} n={n}: z checkpointu"); continue
         t0 = time.time()
-        R, TR, vc, info = przebieg(t, x, n, eps, rng)
+        out = przebieg(t, x, n, eps, rng)
+        if out is None: continue
+        R, TR, vc, info = out
         if len(R) < 20: log(f"eps={eps} n={n}: za malo zywych ({len(R)})"); continue
         Z = R / wzor(TR, eps)                                              # znormowane lokalnym tref
         a, b = R[:,:-1].ravel(), R[:,1:].ravel()
