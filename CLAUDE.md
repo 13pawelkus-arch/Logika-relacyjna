@@ -37,6 +37,12 @@ Wspólna praca użytkownika (hotelarz, nie fizyk z zawodu — ale trzyma się be
 - Kod dla Colaba: gotowy do wklejenia, z parametrami na górze, checkpointami, oszczędny w pamięci GPU (A100 40 GB — był OutOfMemory przy dużych macierzach).
 - Nie zakładać, że użytkownik zna żargon — skróty myślowe wolno, ale ze słownikiem (tabela na początku dokumentu).
 
+## Oś projektu (podsumowanie użytkownika, 25.09.2026)
+
+1. **Definicja czasu** — największa zmiana: czas = odczyt informacji ze struktury, zawsze teraz; odczyt tworzy czwarty punkt odniesienia (R1a, „Warunki muszą zachodzić razem”). **Prędkość c** = tempo przekazu informacji, nie pokonywania dystansu (C5; metr od 1983, Reichenbach). Bez porządnej definicji czasu nikt nie ruszy z miejsca.
+2. **3D z trzech punktów odniesienia + czwarty jako pamięć/czas/trajektoria** — próba wyprowadzenia niedokończona (R6: pamięć wyłączna, najświeższa → 3,11 / 3,01; potem krzywizna ujemna i „przywrócenie trójkątowi statusu”, §C5).
+3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → definicja masy** — boczna droga podjęta, bo na tym etapie dało się do niej wrócić. Bez porządnej definicji masy też nikt nie ruszy z miejsca. Stan: §F1/§F2.
+
 ## Gdzie skończyliśmy (24.09.2026)
 
 - **§F1 Masa:** masa jako tempo samoodczytu trajektorii przy kontynuacji pamięcią. Przeszła test niezmienniczości do v≈0,9; dwie populacje (tyknięcie 0,4h i 0,6h) dają stosunek **1,507–1,508** przy oczekiwanym 1,50 (`etap8_masa_populacje.py`). Szerokość masy (~15%) okazała się **artefaktem pasma tolerancji**, nie strukturą (`etap9_masa_skala.py`, poprawki 93–94) → most masa–logarytmy **przez szerokość zamknięty**.
