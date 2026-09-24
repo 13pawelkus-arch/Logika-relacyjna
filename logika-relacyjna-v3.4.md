@@ -1,6 +1,6 @@
 # Logika relacyjna — v3.4
 
-> **v3.4 (25.09):** nowe sekcje **R1b — dowód strukturalny 3D z definicji czasu** i **R1c — most do światła i porządku** (poprawki 114–129).
+> **v3.4 (25.09):** nowe sekcje **R1b — dowód strukturalny 3D z definicji czasu** i **R1c — most do światła i porządku**, **R1d — elektron, pole EM, kwark** (poprawki 114–133).
 >
 > **v3.4** = v3.3 + §C4a punkty 1–16 (etap 0, fragmenty, ściskanie, Fokker, entropia) + dopisek o Ĥ|Ψ⟩=0 w R1a + rejestr 25–48.
 >
@@ -294,6 +294,37 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 - **[T]:** tożsamości algebraiczne (det = norma Minkowskiego; dodatniość = stożek; SL(2,ℂ) → SO⁺(3,1); czyste = zerowe). **[L]:** Höhn–Müller — grupa Lorentza z komunikacji, bez tła.
 - ~~**[O][?] do sprawdzenia:** czy stożek stanów jednego nośnika to „ten sam obiekt” co stożek przyczynowy punktu (a nie tylko ta sama struktura).~~ **ŹLE POSTAWIONE (użytkownik [H], poprawki 130, 132).** „Obiekt” w pytaniu użyty jako nośnik zawartości poza strukturą; w ramie obiekt = (stabilna) struktura relacji, która jako całość jest w relacji z inną (słownik). Rozróżnienie „ten sam obiekt / ta sama struktura” zakładało zawartość poza strukturą; logika relacyjna = struktura bez zawartości, zawartość bez struktury = Ro, niedostępna [18]. Struktury bez żadnej różnicy relacji są nierozróżnialne: **stożek stanów nośnika ≡ stożek przyczynowy punktu** (≡ jak w łańcuchu Ø), a zgodność struktur jest [T]. Nic więcej do sprawdzenia. ~~Zostaje otwarte: translacje~~ **Translacje rozstrzygnięte strukturą (poprawka 131) [O][L]:** „translacja” = przesunięcie położenia, zakłada pojemnik; po D0 położenie to relacja, więc translacja = zmiana punktu odniesienia na innego czytającego; relacja między czytającymi = porządek między ich elementami (linki = światło) = jeden z dwóch pierwotnych (A1). Stożek w każdym punkcie: R1c; relacje między punktami: porządek; sklejenie: **Malament (1977)** — porządek między wszystkimi punktami wyznacza geometrię (z translacjami) z dokładnością do czynnika konforemnego, który uzupełnia liczność. Höhn–Müller nie mają translacji, bo badają dwa laboratoria bez porządku między nimi. **R1c nie ma punktów otwartych**; zostaje tylko [?] det ρ ↔ masa (forma).
 - Punkt 3 (det ρ ↔ masa) — tylko forma, nie wynik.
+
+## R1d. Elektron, pole elektronowe i relacja z polem EM; kwark — zapis relacyjny [L][O] (v3.4, 25.09; poprawka 133)
+
+**Skąd:** pogawędka 25.09 (użytkownik: „brakuje pogawędki o samym elektronie, polu elektronowym i tej dziwnej relacji z polem EM”; „zyg-zak… mógłby mieć związek z przeciwnymi funkcjami energii do odległości dla kwarków i elektronów”). Lista pojęć [94] i kolejność przed masą (A3): … → pole → próżnia → energia → ładunek, spin → elektron, kwark, gluon → masa.
+
+### R1d-F. Zapis formalny [L]
+
+- **Nośnik i światło (z R1c):** ξ ∈ ℂ² (spinor, spin ½) = nośnik minimalny z R1b; kierunek zerowy = ξξ† (wektor, spin 1). Obrót o 2π: ξ ↦ −ξ, ξξ† ↦ ξξ†.
+- **Faza w punkcie ≡ Ø:** ψ(x) ↦ e^{iθ(x)}ψ(x) nie zmienia żadnego odczytu. Odczytywalne tylko **porównania**: ψ̄(x)·U(x,y)·ψ(y), U(x,y) = P exp(i e ∫ₓʸ A). Pole EM = koneksja A = **relacja faz między punktami**; natężenie F = obieg fazy po małej pętli (holonomia). Ładunek e = siła sprzężenia fazy z relacją; α = e²/4π.
+- **Relacja vs relacja relacji:** F = dA (abelowa: relacja nie niesie ładunku, foton neutralny) vs F = dA − i g [A, A] (nieabelowa, kolor: relacja niesie ładunek, gluony wiążą się ze sobą).
+- **Zygzak (Penrose, *The Road to Reality*, §25.2):** ψ = (ψ_L, ψ_R), każde bezmasowe (t = 0, porusza się z c); masa sprzęga je: −m(ψ̄_L ψ_R + ψ̄_R ψ_L); przechodzenie L ↔ R z częstością ~ m. Wektor czasopodobny = suma dwóch zerowych (R1c).
+- **Biegnące sprzężenia:** 1/α_i(μ) = 1/α_i(μ₀) + (b_i/2π)·ln(μ/μ₀); wkład pola o spinie s do b ∝ (−1)^{2s}[(2s)² − ⅓] (A2): −⅓ „orbitalny” (ekranuje), (2s)² „spinowy” (antyekranuje, działa tylko gdy relacja niesie ładunek) — Nielsen, Am. J. Phys. 49, 1171 (1981).
+  - QED: 1/α(μ) = 1/α(μ₀) − (2/3π)·Σ N_c Q²·ln(μ/μ₀) (A2: nachylenie ΣN_cQ² = 8) → sprzężenie **rośnie** przy małej odległości; energia ~ 1/r.
+  - QCD: b₀ = 11 − ⅔ n_f > 0 → sprzężenie **maleje** przy małej odległości (swoboda asymptotyczna), rośnie z odległością (uwięzienie, energia ~ r).
+- **Transmutacja:** Λ_QCD = μ·exp(−2π / (b₀ α_s(μ))) — tu logarytm QCD sięga jedności → większość masy protonu. Dla QED analogiczna skala poza zasięgiem → masa elektronu nie z tego mechanizmu.
+
+### Odczyt w ramie [O]
+
+1. **Pole elektronowe bez wzbudzenia ≡ Ø**, jak pole EM [242, 258]. Elektron = wzbudzenie = odczyt, nie „cząstka z polem wokół”.
+2. **„Dziwna relacja” z polem EM:** pole EM nie jest drugim bytem obok elektronu, tylko **relacją między fazami pola elektronowego w różnych punktach** (faza w punkcie ≡ Ø). Foton = minimalne wzbudzenie tej relacji. Zgodne z „Dalej otwarte”: pole jako faza na zamkniętych drogach (Giles, Sverdlov–Bombelli, Pellegrin).
+3. **Ładunek nie jest cechą:** siła, z jaką faza jest związana relacją.
+4. **Elektron = relacja dwóch struktur świetlnych (L, R, każda t = 0); masa = tempo ich wzajemnego przechodzenia** = „tempo samoodczytu” (§F1). Hoyle–Narlikar w A3: „ten sam zygzak”.
+5. **Przeciwne funkcje energii od odległości:** znak z (−1)^{2s} = **nośnik (spinor, zygzak) vs jego złożenie (wektor, światło)** + to, czy relacja niesie ładunek. W języku [94]: **elektron — relacja (abelowa); kwark — relacja relacji (nieabelowa, kolor wiąże się sam ze sobą)**. Tempo zygzaka (masa) nie ustala znaku, tylko skalę, od której nośnik wchodzi do rachunku.
+6. **Zespół funkcji logarytmicznych dla masy [94] = zespół biegnących sprzężeń**, każde z współczynnikiem wyznaczonym przez spin i przez to, czy relacja wiąże się sama ze sobą (liczby z A2). Dwa typy logarytmu (relacja / relacja relacji) — stąd „jedna funkcja nie wystarczy, kwarki i elektrony na to nie pozwalają”.
+
+### Otwarte [?]
+
+- Co ustala częstość zygzaka elektronu (m_e/m_P ~ 1 zwrot na 2,39·10²² elementów, A2 — przepisanie, nie wynik). Rama każe pytać „co ustala”, nie „ile”.
+- Asymetria [126] („miliard elektronów + 1”) w języku zygzaka: asymetria między dwiema częściami.
+- Przekład koneksji (relacji faz) na porządek przyczynowy: pętle w porządku = łańcuchy w przód i wstecz (Dalej otwarte) — bez rozstrzygnięcia.
+- Pkt 5–6 to zestawienie formalizmu z ramą, nie wyprowadzenie z P0–P6.
 
 ## R2. Retrospekcja 
 
@@ -2472,6 +2503,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 133 | **R1d: elektron, pole elektronowe, relacja z polem EM, kwark:** faza w punkcie ≡ Ø, pole EM = relacja faz (koneksja); ładunek = siła wiązania; elektron = zygzak dwóch struktur t=0, masa = tempo przechodzenia (Penrose); przeciwne funkcje energii od odległości = (−1)^{2s} + czy relacja niesie ładunek = relacja vs relacja relacji [94] (Nielsen 1981); zespół logarytmów = biegnące sprzężenia | R1d | **użytkownik** (pytania, zygzak ↔ przeciwne funkcje) + asystent (v3.4) |
 | 132 | **„obiekt” zdefiniowany zamiast zakazany (użytkownik):** obiekt = (stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą (jądro ↔ elektron; atom ↔ atom); dopisany do słownika; zasada z 130 poprawiona | słownik, R1c, CLAUDE.md | **użytkownik** (v3.4) |
 | 131 | **translacje (Poincaré) nie brakują:** translacja zakłada pojemnik; po D0 = zmiana czytającego = porządek między elementami (A1); sklejenie stożków R1c przez porządek = Malament; skala = liczność. R1c bez punktów otwartych | R1c | asystent (v3.4) |
 | 130 | **„ten sam obiekt czy ta sama struktura” (stożek stanów vs stożek przyczynowy) — źle postawione:** „obiekt” zakłada zawartość poza strukturą; struktury bez różnicy relacji są ≡; stożek stanów ≡ stożek przyczynowy. W R1b-F „Obiekty” → „Oznaczenia” | R1c | **użytkownik** (v3.4) |
