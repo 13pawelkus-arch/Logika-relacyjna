@@ -337,6 +337,35 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 
 Pkt 5–6 odczytu to zestawienie formalizmu z ramą, nie wyprowadzenie z P0–P6.
 
+## R1e. Spin i fala EM — zapis relacyjny [T][L][O] (v3.5, 25.09; poprawki 143–144)
+
+**Skąd:** lista pojęć [94] (spin, fala EM) po R1b–R1d; potrzebne przed §F1, bo czynnik spinowy (−1)^{2s}[(2s)² − ⅓] jest na liście wejść (poprawka 139). **Filtr:** „spin = wewnętrzny moment pędu” = cecha; pytanie „ile wynosi spin elektronu” źle postawione. Pytanie w ramie: **jaką relację tworzy nośnik z kierunkiem czytającego.**
+
+### R1e-F. Zapis formalny
+
+- **Spin ½ [T]:** stan nośnika minimalnego = punkt kuli B³ (R1b), wektor n; wg D0 ta kula jest przestrzenią kierunków. Odczyt wzdłuż osi czytającego m: p = (1 + n·m)/2 — **relacja dwóch kierunków**.
+- **Znak [T][L]:** obrót o 2π: ξ ↦ −ξ; znak nieodczytywalny w punkcie, odczytywalny tylko jako relacja dwóch dróg (interferometria neutronowa: Rauch i in., Phys. Lett. A 54, 425 (1975); Werner i in., PRL 35, 1053 (1975)). Ten sam znak = (−1)^{2s} we współczynniku b biegnących sprzężeń (spin–statystyka).
+- **s(s+1) [T]:** S² = Sx² + Sy² + Sz² wymaga trzech osi czytającego (triady) i jest ten sam dla każdej triady — niezmiennik relacji nośnik–triada (jak norma Minkowskiego).
+- **Masa a spin [L] (Wigner 1939, §F1):** masywny — SO(3), wszystkie kierunki dostępne; bezmasowy — E(2), odczytywalna tylko helicność.
+- **Fala EM — dwie różne kule, obie B³, obie ze stożkiem Minkowskiego [T][L]:**
+  - (a) **sfera niebieska** = kierunki propagacji = stany czyste spinora (R1c);
+  - (b) **kula Poincarégo** = polaryzacja: macierz koherencji J ≥ 0, det J = (S₀² − S₁² − S₂² − S₃²)/4 ≥ 0 — ta sama forma co det ρ w R1c (Han, Kim, Noz, Phys. Rev. E 56, 6065 (1997)); polaryzacja pełna = brzeg. **Kula (b) nie jest przestrzenią kierunków:** kąt polaryzacji liniowej θ ↦ 2θ na kuli.
+- **Liczba polaryzacji [T]:** bezmasowe pole wektorowe w d wymiarach przestrzennych ma d − 1 polaryzacji; kubit (nośnik minimalny R1b) tylko przy d = 3; przy d = 4 — trzy stany, przestrzeń stanów wymiaru 8.
+
+### Odczyt w ramie [O]
+
+1. **Spin nie jest cechą:** każda odczytywalna wielkość spinowa to relacja — dwóch kierunków (nośnik, czytający), dwóch dróg (znak) albo nośnika i triady (s(s+1)). „Spin wzdłuż z” bez czytającego ≡ Ø (superpozycja, [110]).
+2. **Znak 2π ma postać „faza w punkcie ≡ Ø” z R1d:** odczytywalne tylko porównanie. **Część (−1)^{2s} listy wejść §F1 jest już w ramie:** nośnik (ξ) vs jego złożenie (ξξ†, światło) — R1d pkt 5.
+3. **Polaryzacja = relacja fotonu z osiami czytającego w płaszczyźnie prostopadłej do kierunku;** od czytającego nie zależy tylko helicność (E(2)).
+4. **Fala EM** = regularny wzór relacji faz na linkach (R1d); bez odczytu ≡ Ø [264]; odczytywalna przez interferencję (relację dwóch dróg); częstość = częstość odczytu (E := ν, R1d).
+5. **„Foton = minimalne wzbudzenie = minimalna informacja” [258] działa tylko w 3D:** polaryzacja fotonu jest kubitem wyłącznie przy d = 3. **Spójność z R1b, nie niezależny dowód** (R1b zakłada już, że nośnik minimalny to kubit).
+
+### Stan i granice
+
+- **Zdanie do upadku:** każda odczytywalna wielkość spinowa jest relacją (dwóch kierunków, dwóch dróg, nośnika i triady). Upada, jeśli jakąś da się odczytać z jednego nośnika bez odniesienia.
+- **[?] Skąd ⅓ w (2s)² − ⅓:** u Nielsena (Am. J. Phys. 49, 1171 (1981)) część orbitalna — suma po poziomach Landaua (ruch w płaszczyźnie prostopadłej do pola). Nie ustalone, czy zależy od d, czy pochodzi z regularyzacji sumy. **Do literatury; nie twierdzić.**
+- Otwarte dalej: „działanie” (wagi obiegów faz na linkach) i energia w pełni.
+
 ## R2. Retrospekcja 
 
 Wersja w B2 („działa na rozkładach, nie na epizodach") jest prawdziwa, ale gubi ruch, który tam wykonano.
@@ -435,7 +464,7 @@ Otoczenie ma **dwa** stany: pełne i częściowe. **Całkowity brak otoczenia wy
 **Stan v3.5 (poprawka 142).** Oś 1–2 (czas, c, 3D) domknięta strukturalnie w R1a–R1c; R1d = przekład elektronu, pola EM i kwarka. Kolejność pracy (bez rachunków):
 
 1. **Porządek po poprawce 136** — zrobione w 142.
-2. **Spin i fala EM z R1b/R1c:** spin = kierunek jako stan nośnika (kula odczytów = kula kierunków, D0); polaryzacja: S₀² − S₁² − S₂² − S₃² ≥ 0 = ta sama norma Minkowskiego co det ρ (R1c). Potrzebne przed §F1, bo czynnik (−1)^{2s}[(2s)² − ⅓] jest na liście wejść (poprawka 139).
+2. **Spin i fala EM z R1b/R1c — zrobione w R1e (143):** spin = kierunek jako stan nośnika (kula odczytów = kula kierunków, D0); polaryzacja (kula Poincarégo — **inna kula niż kierunki**, θ ↦ 2θ; poprawka 144): S₀² − S₁² − S₂² − S₃² ≥ 0 = ta sama norma Minkowskiego co det ρ (R1c). Potrzebne przed §F1, bo czynnik (−1)^{2s}[(2s)² − ⅓] jest na liście wejść (poprawka 139).
 3. **§F1: tabela wszystkich logarytmów** (po czym biegnie du/u, współczynnik, policzony czy dopasowany) → lista wejść przed rachunkiem. Literatura: grupa renormalizacji jako samopodobieństwo („przepływ” po filtrze = relacja rozdzielczości odczytu).
 4. Później: energia w pełni i „działanie”; czarne dziury po oczyszczeniu OTW; liczby otwarte (y_e, 10⁻⁹, H₂, α).
 
@@ -2553,6 +2582,8 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 144 | **korekta skrótu asystenta „polaryzacja = B³”:** dwie różne kule B³ ze stożkiem Minkowskiego — sfera niebieska (kierunki) i kula Poincarégo (polaryzacja, θ ↦ 2θ, nie kierunki) | R1e, Gdzie zaczynać, CLAUDE.md | asystent (v3.5) |
+| 143 | **R1e: spin i fala EM jako relacje** — odczyt spinu = relacja dwóch kierunków; znak 2π = relacja dwóch dróg = (−1)^{2s} w b; s(s+1) = niezmiennik nośnik–triada; Wigner; det J (Stokes) = forma det ρ; d − 1 polaryzacji → foton jest kubitem tylko w 3D (spójność z R1b, nie niezależny dowód); [?] pochodzenie ⅓ | R1e | asystent (v3.5), na liście [94] użytkownika |
 | 142 | **porządek po poprawce 136:** R1d pkt 1 bez „na końcu” ([94] = kolejność definiowania); stary plan krokowy §F1 oznaczony jako historia; Dalej otwarte — „co odróżnia pola” i grupa cechowania wg R1d (U(1) nadal niewyprowadzona); Poisson/CMB rozstrzygnięte (dotyczyło everpresent Λ, ograniczone, nie obalone); „Gdzie zaczynać” v3.5 | R1d, §F1, Dalej otwarte, Gdzie zaczynać | asystent (v3.5) |
 | 141 | **A5c: kosmologia, GPS, ruch nieustający w ramie** — CMB = granica zapisu ostrego/rozproszonego; horyzont z dwóch stron (Gibbons–Hawking); „przed WW” = R2; Λ (Bianchi–Rovelli, Sorkin); ciemna materia [?] (timescape dotyczy energii); przesunięcie ku czerwieni = stosunek temp; GPS; ruch nieustający tak, pobieranie pracy nie (A4d) | A5c | **użytkownik** + asystent (v3.5) |
 | 140 | **§F1: sfera fotonowa = samoodczyt przez pętlę światła; „ile temu” zależy od czytającego (7 d vs 4 d M87*); lustro ƛ_C ↔ r_s (m → m_P²/m) dokładne tylko w 3D (Carr)** | §F1 | **użytkownik** + asystent (v3.5) |
