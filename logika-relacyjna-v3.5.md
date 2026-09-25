@@ -563,6 +563,8 @@ Podział pracy: **porządek daje liczbę ($d_{MM}$, wolną od n), założenie ro
 
 α **nie jest przelicznikiem** — jest bezwymiarowa od początku. [H]
 
+→ Cały zespół (sprzężenia, masy, λ) z tych przekształceń: **§F1, „Zespół funkcji [94]” (poprawka 152).**
+
 ---
 
 ## A3. Ø
@@ -2215,6 +2217,30 @@ Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwi
   - **Zdanie do upadku (doprecyzowane):** dla każdej skali **jedna** kombinacja wejść, zapisana przed rachunkiem; przeszukiwanie kombinacji = numerologia (Eddington). Upada, gdy któraś skala wymaga wejścia spoza listy.
   - ~~**Pytanie właściwe §F1**~~ **Pytanie poboczne (poprawka 151; cel = zespół funkcji, nie wartości [88]) [A][O]:** biegnące sprzężenia potrzebują **wartości brzegowej** (1/α(n₀)). W hipotezie „wszystko naraz” może ona pochodzić tylko z **warunku na obu końcach** (oba ≡ Ø). Pytanie brzmi: **jaki warunek na końcach ustala wartości brzegowe** — pytania o y_e czy α z osobna są źle postawione.
 - **Grupa renormalizacji po filtrze [L][O]:** Kadanoff (1966, bloki spinów), Wilson–Kogut (1974); „przepływ UV → IR” przemyca kierunek — w ramie **relacja między rozdzielczościami odczytu**; zgrubienie = odczyt przy mniejszej rozdzielczości = więcej nierozróżnialnych = zapis rozproszony. [?] monotoniczność c/a (Zamolodchikov 1986; Komargodski–Schwimmer 2011) ↔ A4d/138 — A4d dotyczy dokładania elementów, nie zgrubienia.
+- **ZESPÓŁ FUNKCJI [94] — wypisany (poprawka 152) [L][P][O].** Jedna pętla, zakres bez skal pośrednich (pustynia [545]); współczynniki sprawdzone rachunkiem na ułamkach z ładunków A2 (N_c = 3, 3 pokolenia). Zmienna: **t = ln(n₀/n)** — logarytm stosunku liczebności obiegu (R1d); znak t = konwencja (który czytający jest odniesieniem), bez kierunku.
+  - **Poziom 1 — sprzężenia (relacje), 3 funkcje:** 1/α_i(t) = 1/α_i(0) − (b_i/2π)·t, wszystkie b z jednego wzoru A2: **b = −Σ (−1)^{2s}(4s² − ⅓)·T(R)** (wektor × C_A, każdy fermion Weyla, każdy skalar zespolony).
+
+| relacja | b_i | skład | typ |
+|---|---|---|---|
+| U(1)_Y | **41/6** | fermiony 20/3 + Higgs 1/6 (ΣY² z hiperładunków A2) | **relacja** (b > 0, tylko ekranowanie) |
+| SU(2) | **−19/6** | wektor −22/3 + fermiony 4 + Higgs 1/6 | **relacja relacji** |
+| SU(3) | **−7** | wektor −11 + kwarki 4 | **relacja relacji** |
+
+    Każda funkcja to prosta w t: przesunięcie punktu odniesienia zmienia tylko punkt odczytu — **samopodobieństwo dosłownie**. Łamie się, gdzie 1/α₃ → 0 (transmutacja, R1d).
+  - **Poziom 2 — masy (stosunek stosunków), 9 funkcji fermionów naładowanych:** m_f/v = y_f/√2; bez samosprzężenia Yukawy (dobre dla wszystkich poza top): **y_f(t)/y_f(0) = Π_i [α_i(t)/α_i(0)]^{p_i}, p_i = −c_i/(2b_i)** — stosunek mas = iloczyn stosunków sprzężeń do potęg będących stosunkami dwóch policzonych współczynników = [94] w pełnej postaci. c_i = 3·[C_i(L) + C_i(R)] (Casimiry i hiperładunki).
+
+| typ | c₁ | c₂ | c₃ | p₁ | p₂ | p₃ |
+|---|---|---|---|---|---|---|
+| u, c, t | 17/12 | 9/4 | 8 | −17/164 | 27/76 | **4/7** |
+| d, s, b | 5/12 | 9/4 | 8 | −5/164 | 27/76 | **4/7** |
+| e, μ, τ | 15/4 | 9/4 | **0** | −45/164 | 27/76 | **—** |
+
+    Kontrola: p₃ = 4/7 = znane 12/(33 − 2n_f) przy n_f = 6; poniżej progów 12/23, 12/25, 4/9. **Kwark: 3 czynniki, elektron: 2 (bez relacji relacji koloru) — dwa kształty funkcji, nie jedna [94].**
+  - **Poziom 3 — czego zespół nie przenosi:** stosunki mas wewnątrz typu (u:c:t, d:s:b, e:μ:τ) mają identyczne wykładniki → czynniki sprzężeń się skracają → **prawie nie biegną** (tylko samosprzężenie Yukawy, istotne dla top). Stosunki między typami biegną: m_b/m_τ — p(d) − p(e): 4/7 od koloru, +40/164 od U(1) (znany bieg b/τ). CKM (4 liczby): jednopętlowo tylko przez Yukawy, prawie stoi.
+  - **Poziom 4 — relacja tła z samym sobą, 1 funkcja:** 16π²·dλ/dt = 24λ² + 12λy_t² − 6y_t⁴ − 3λ(3g₂² + g′²) + ⅜[2g₂⁴ + (g₂² + g′²)²]. W ramie: nierozróżnialne tło (Higgs ≡ Ø, R1d) w relacji z sobą i z nośnikami; tu krytyczność z 148 (λ, β_λ ≈ 0 przy Plancku).
+  - **Stosunek ustalony przez sam zespół [L]:** R = y_t²/g₃²: dR/dt ∝ R·(9/2·R − (8 + b₃)) → **R\* = 2(8 + b₃)/9 = 2/9** (Pendleton–Ross 1981) — z samych współczynników, bez wartości początkowej. **W naturze niezrealizowany:** R(m_t) ≈ 0,65. Zespół umie ustalić stosunek strukturą — akurat nie ten.
+  - **Wnioski [O]:** (1) **kształt zespołu jest w całości policzony** — wykładniki i nachylenia to liczby wymierne z listy 147 (spin, N_c, hiperładunki, 3 pokolenia); dopasowania nie ma nigdzie. (2) **~17–19 „wolnych danych” ze 149 = dokładnie jeden odczyt na funkcję** (3 sprzężenia, 9 mas, 4 CKM, λ, μ²) — dosłownie [88]: „wynik funkcji w jednym stanie”; wartość = odczyt, nie brak w strukturze. (3) **Pokolenia = trzy kopie tych samych funkcji;** zespół ich nie odróżnia — hierarchię między pokoleniami niosą wyłącznie odczyty; jedyne, co zespół mówi o pokoleniach: faza nieusuwalna wymaga ≥ 3 kopii (R1d, Kobayashi–Maskawa).
+  - **Zastrzeżenia:** jedna pętla; progi mas zmieniają n_f; brak neutrin; G i Λ poza zespołem (G ustala jednostkę).
 - > **Uwaga (poprawka 151):** 148–150 szukały warunków ustalających **wartości** — skutek błędu z [105] (jedna relacja zamiast zespołu). Liczenie w 149–150 doszło okrężną drogą do [94]. **Zostaje:** typy S/K (146), ⅓ (145), „Ĥ|Ψ⟩ = 0 nie ustala stałych” (150, zgodne z [88]: stała = wartość funkcji w jednym stanie = odczyt), forma „stała = relacja lokalnego z całością” (150). Wątek wartości brzegowych — poboczny.
 - **WARUNEK NA KOŃCU PLANCKA — literatura i filtr (poprawka 148) [L][O][T]:**
   - **Trzy precedensy [L]:** (1) **punkt stały = dokładne samopodobieństwo na końcu:** Shaposhnikov–Wetterich, Phys. Lett. B 683, 196 (2010), arXiv:0912.0208 — λ przy skali Plancka w punkcie stałym w zerze → m_H ≈ 126 GeV (kilka GeV), przed odkryciem; założenie: brak skal pośrednich między Fermim a Planckiem = **pustynia [545]**. Eichhorn–Held–Wetterich, Phys. Lett. B 782, 198 (2018), arXiv:1711.02949 — to samo dla sprzężenia cechowania, α obliczalne, zależne od zawartości materii GUT i od niepewnej siły wkładu grawitacji. (2) **nierozróżnialność próżni (zasada wielu punktów):** Froggatt–Nielsen, Phys. Lett. B 368, 96 (1996), hep-ph/9511371 — dwie próżnie (elektrosłaba i planckowska) o równej energii → m_t = 173 ± 5, m_H = 135 ± 9 GeV. (3) **obserwacja:** zmierzone m_H ≈ 125, m_t ≈ 173 stawiają MS tuż przy granicy stabilności; przy skali Plancka λ i β_λ bliskie zera (Buttazzo i in., JHEP 12 (2013) 089).
@@ -2640,6 +2666,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 152 | **zespół funkcji wypisany:** b = 41/6, −19/6, −7 z jednego wzoru A2 (U(1) relacja, SU(2)/SU(3) relacja relacji); masy y ∝ Π α_i^{−c_i/2b_i}, wykładniki wymierne (4/7, 27/76, −17/164, −5/164, −45/164); kwark 3 czynniki, elektron 2; stosunki wewnątrz typu nie biegną; λ; Pendleton–Ross R\* = 2/9 (w naturze nie); ~17–19 danych = jeden odczyt na funkcję [88]; pokolenia = kopie | §F1, A2 | asystent, na [94] użytkownika (v3.5) |
 | 151 | **błąd asystenta z sesji CC 2 [105]:** hipotezę użytkownika [104] („samopodobny, wszystko na raz”) zapisałem jako „jedna relacja między końcami … to jest Twój zespół funkcji” — przeczy [94]; stąd 147 („pytanie właściwe” = wartości brzegowe) i 148–150 szukały wartości, wbrew [88]. Poprawione: cel = zespół funkcji (β, γ) jako relacje stosunków, samopodobny, ustalany naraz; wartości = odczyty w jednym stanie; przekształcenia sprzężeń już w A2 [86] i R1d, jawnie brakował bieg mas m ∝ α_s^{γ₀/2b₀} = „stosunek dwóch stosunków do stosunku” | §F1, Gdzie zaczynać, CLAUDE.md | **użytkownik** (wskazał, porównanie z rozmowami) + asystent (v3.5) |
 | 150 | **(b) upadło: Ĥ\|Ψ⟩ = 0 nie ustala wartości stałych (Henneaux–Teitelboim, Magueijo: stałe zachowane, sprzężone z liczebnością; ≤ 1 warunek — Λ)**; jedyna forma z warunkiem na stałą: wielolokalna (Coleman; Kawai i in.; Bennett–Nielsen) — (a) i (b) jedno; po filtrze: stała = relacja lokalnego z całością (jak R1d); zasada wielu punktów w ramie [?] do testu wierności; liczenie ~6 wobec ~15–19, brak w zapachach; [H] „dlatego szukamy zespołu funkcji” | §F1 | asystent + **użytkownik** (v3.5) |
 | 149 | **zliczenie kierunków: zdanie z 148 upadło w postaci „punkt stały AS przy Plancku + jedna relacja z całości” (~15–19 wolnych danych wobec 1 warunku)**; hipoteza §F1 stoi, wymaga (a) nierozróżnialności próżni jako dodatkowych równań przy Plancku albo (b) więcej niż jednego warunku z całości (Ĥ|Ψ⟩ = 0); nowe zdanie do upadku: #równań z obu końców ≥ #wolnych danych | §F1 | asystent (v3.5) |
