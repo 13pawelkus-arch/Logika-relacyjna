@@ -4565,3 +4565,550 @@ def clean(s):
     s=re.sub(r'<system-reminder>.*?</system-reminder>','',s,flags=re.S)
 ````
 </details>
+
+<details><summary>wynik</summary>
+
+````
+111 wiadomości; pominięte tury: 3
+  4567 231682 rozmowa/claude-code-sesja-2026-09-24-2.md
+3
+1
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check context around excluded turns
+grep -n -B2 -A6 'pominięto: zewnętrzna' rozmowa/claude-code-sesja-2026-09-24-2.md | cut -c1-120 | head -50
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+3214----
+3215-
+3216:*[pominięto: zewnętrzna ocena i odpowiedź asystenta — 2026-09-24 19:22]*
+3217-
+3218----
+3219-
+3220:*[pominięto: zewnętrzna ocena i odpowiedź asystenta — 2026-09-24 19:28]*
+3221-
+3222----
+3223-
+3224-## [70] Użytkownik — 2026-09-24 19:33
+3225-
+3226-A sama propozycja większej formalizacji tego co juz jest? W sensie mniej słów, więcej symboli matematycznych
+--
+3362----
+3363-
+3364:*[pominięto: zewnętrzna ocena i odpowiedź asystenta — 2026-09-24 19:56]*
+3365-
+3366----
+3367-
+3368-## [76] Użytkownik — 2026-09-24 20:14
+3369-
+3370-Ok, koniec ocen. Teraz trzeba ustalić dalsze kroki.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check for personal data, commit and push housekeeping
+grep -c '13pawel' rozmowa/claude-code-sesja-2026-09-24-2.md; git add -A && git commit -qm "v3.5: przemianowanie dokumentu, 'Gdzie skonczylismy' w CLAUDE.md, zapis sesji CC 2 (bez zewnetrznych ocen)
+
+Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+Claude-Session: https://claude.ai/code/session_01Sm6NkDi62FMTCTd8YV6UpW" && git push -q origin claude/quirky-hawking-os26y5 2>&1|tail -1; git log --oneline -1; git status -sb | head -2
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+2
+f98d185 v3.5: przemianowanie dokumentu, 'Gdzie skonczylismy' w CLAUDE.md, zapis sesji CC 2 (bez zewnetrznych ocen)
+## claude/quirky-hawking-os26y5...origin/claude/quirky-hawking-os26y5
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check what the '13pawel' matches are
+grep -o '13pawel[^ )`]*' rozmowa/claude-code-sesja-2026-09-24-2.md | sort | uniq -c
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1 13pawelkus-arch/Logika-relacyjna
+      1 13pawelkus-arch/Logika-relacyjna"}}],"outcomes":[{"git_repository":{"git_info":{"repo":"13pawelkus-arch/Logika-relacyjna","branches":["claude/quirky-hawking-os26y5"]}}}],"model":"claude-opus-5-5","effort_level":"medium","permission_mode":"auto"},"origin":"web_claude_ai","permission_mode":"PERMISSION_MODE_AUTO","connection_status":"connected","tags":["config:auto-create-pr:off"],"task_summary":"Look
+````
+</details>
+
+---
+
+## [112] Asystent — 2026-09-24 21:32
+
+Porządki zrobione, wszystko jest wypchnięte na `claude/quirky-hawking-os26y5`.
+
+- **Dokument ma teraz wersję v3.5.** Plik nazywa się `logika-relacyjna-v3.5.md`. W nagłówku jest lista zmian: R1b (dowód 3D), R1c (most do światła), R1d (elektron, pole EM, kwark), hipoteza samopodobieństwa i słownikowe znaczenie „obiektu”. Rejestr kończy się na poprawce 136.
+- **CLAUDE.md:**
+  - „Gdzie skończyliśmy” napisane od nowa: czas, c i 3D są domknięte strukturalnie, dalej R1d i hipoteza nadrzędna;
+  - najbliższe kroki: samopodobieństwo (najpierw literatura, bez rachunków), definicje z listy [94], czarne dziury, otwarte liczby;
+  - w osi projektu punkt 2 ma status „domknięte strukturalnie”;
+  - reguła zapisu rozmowy mówi teraz wprost, że zewnętrznych ocen się nie włącza.
+- **Transkrypt:** `rozmowa/claude-code-sesja-2026-09-24-2.md`, 111 wiadomości. Trzy tury z zewnętrznymi ocenami (schemat, `propozycja_zewnetrzna.pdf`, `report.pdf`) są zastąpione jednolinijkową adnotacją. Twój e-mail w pliku nie występuje, jest tylko nazwa repozytorium.
+
+Następna sesja zacznie od CLAUDE.md i R1b/R1c. Pierwszym krokiem jest hipoteza samopodobieństwa: jedna relacja między końcami hierarchii, a zdanie, które może ją obalić, jest zapisane w §F1.
+
+---
+
+## [113] Użytkownik — 2026-09-25 00:38
+
+Jeszcze kilka - narazie luźnych przemyśleń. Najpierw analiza zanim coś wpiszesz
+__________________________________________________________________________ 
+# Czas
+1. Orientacja nie jest wbudowana. W regułach wzrostu jedyną asymetrią jest ta między czytającym a czytanym, czyli samo czytanie. Odwrócenie ≺ tylko zamienia nazwy. 
+2. log e(C) nie ma orientacji. Liczba rozszerzeń liniowych porządku i porządku odwróconego jest taka sama. Miara „zapomnianego” z A4 zgadza się więc z definicją czasu. Do sprawdzenia: czy „rozproszone” z R1a to właśnie log e(C), co połączyłoby definicję czasu z twierdzeniem A4d.
+3. Definicja czasu powstała razem z warunkami koniecznymi i wystarczającymi dla 3D, a osobno by się nie udała. Numeracja 1–5 w syntezie w R1a  to kolejność czytania, a nie wyprowadzania. 
+4. P5 dźwiga wykluczenie rzeczywistej (d = 2) i kwaternionowej (d = 5) mechaniki kwantowej. ¬P5 oznacza różnicę pary niesioną przez nic poza nią samą, czyli „cechę” Eksperymenty z lat 2021–2022 (Renou i in.; Chen i in.; Li i in.) są wtedy potwierdzeniem, a nie podporą.
+5. Tytuł R1b  d = 3 wymuszają P1, P5 i P6, a pamięć decyduje o dostępie do kuli.
+__________________________________________________________________________ 
+# Masa
+- Masy nie da się wyprowadzić krokami, tylko wszystko naraz. Precedens z literatury: bootstrap konforemny, czyli wykładniki z samej spójności. Ostrzeżenie: numerologia Diraca i Eddingtona. Przykład pułapki z pliku: ln(R_H/l_P) ≈ 140 wobec 1/α ≈ 137.
+- Zdanie do upadku w §F1 Każdą skalę da się zapisać jako exp(ln). Wykładniki muszą pochodzić z policzonych współczynników, bez dopasowania.
+- „Kula to suma wszystkich odczytów w relacji do środka”. Wigner (1939): cząstka masywna ma grupę SO(3) wokół środka, bezmasowa ma E(2) i nie ma układu spoczynkowego. Środek, własna oś czasu, kula 3D i masa to jeden warunek.
+- Promień Schwarzschilda : r_s/ƛ_C = 2(m/m_P)², czyli dwa promienie wokół jednego środka. To tożsamość, która sama niczego nie wyprowadza. Na dole skali (masa Plancka) promienie się spotykają. Na górze r_s = R_H dla sfery Hubble'a dokładnie, a dla obserwowalnego wszechświata w rzędzie wielkości.
+- Sfera fotonowa: tył własnej głowy. Tempo samoodczytu przez pętlę światła rośnie jak 1/M, częstość Comptona jak m. Przecinają się przy masie Plancka.
+- Domysł [?]: definicja masy może powstać razem z warunkiem stabilności węzła.
+- Literatura do §F1: Meissner–Nicolai (2007), konforemny Model Standardowy, w którym skale biorą się z logarytmów.
+__________________________________________________________________________
+ # Kosmologia
+- Chwila zero leży na obwodzie (A5b). Obserwowalny wszechświat to kula odczytów wokół nas, a jej brzeg, czyli sfera promieniowania tła, to sfera światła ≡ ∂B³ ≡ Ø. Żeby zobaczyć, co jest z tyłu, wystarczy patrzeć do przodu.
+- Horyzont to brzeg odczytywalności, raz oglądany z zewnątrz (osobliwość), raz ze środka (chwila zero). Gibbons–Hawking.
+- „Co było przed Wielkim Wybuchem” to druga strona tej samej relacji (§R2). Planck zamyka regres od dołu, całość bez otoczenia od góry. Wieloświaty i cykle potrzebują pojemnika albo zewnętrznego czasu.
+- Ślady „poprzednich eonów” są ≡ śladom obecnym. Rozstrzygnąć da się liczby, ale nie historię.
+- Ciemna energia i materia to interpretacja na interpretacji. Stała kosmologiczna to po prostu stała, a rozbieżność o 120 rzędów bierze się z interpretacji (Bianchi–Rovelli). Sorkin przewidział Λ ~ 1/√N przed 1998 rokiem. Ciemna materia jest Ø od strony światła, ale nie od strony porządku.
+- Rozbieżność jest z interpretacją OTW, nie z samą OTW: z przybliżeniem newtonowskim i z globalnym czasem kosmicznym. Timescape (Wiltshire; Seifert i in., 2024).
+- „Fotony straciły energię” to też interpretacja. Energia to relacja (R1d). 99,9083% w A5b to po prostu 1 − 1/(1 + z).
+__________________________________________________________________________
+- GPS : cztery satelity dają 3+1 punkty odniesienia, a czas odbiornika wychodzi jako niewiadoma. Dylatacja zależy od potencjału, a nie od natężenia pola (w środku Ziemi pole jest zerowe), a potencjał da się odczytać tylko jako stosunek dwóch zegarów .
+- Perpetuum mobile „się da”: ruch nieustający to fundament ramy. Zakaz pobierania pracy stoi na symetrii przesunięcia w czasie, której całość nie ma.
+
+---
+
+## [114] Asystent — 2026-09-25 00:39
+
+Zanim cokolwiek wpiszę, sprawdzam w dokumencie miejsca, do których się odwołujesz: A4/A4d, A5b, R2 i przykład 140 wobec 137.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read A4, A4d, A5b, and search the 140 vs 137 example
+f=logika-relacyjna-v3.5.md; awk '/^## A4\. /,/^### A4b/' $f | cut -c1-400 | head -30; echo ======; awk '/^### A4d/,/^### A4e/' $f | cut -c1-600; echo ======; awk '/^### A5b/,/^## A6/' $f | cut -c1-500 | head -25; echo =====; grep -n '140' $f | grep -i 'ln\|R_H\|137' | cut -c1-250
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## A4. Pamięć i druga zasada
+
+**Pamięć = niedomiar symetrii etykietowania.** [A]
+
+$$\text{zapomniane}=\log e(C),\qquad \text{zapamiętane}=\log n!-\log e(C)$$
+
+**Kontrole, które przeszły.** Łańcuch → 0,0000. Antyłańcuch → 1,0000. Estymator SIS sprawdzony wobec dokładnego zliczania przy n=16–24: SIS-60 myli się o 0,1–2,3%.
+
+> **POPRAWKA nr 11 (asystent, v3.2) — o zakresie walidacji SIS.** SIS-60 był walidowany przy n=16–24, a używany przy n=80–1280. Obciążenie **rośnie z n i zależy od struktury**:
+>
+> | punkt | 60 prób | 500 | 5000 | 20000–50000 |
+> |---|---|---|---|---|
+> | sprinkling d=4, n=80 (S) | 208,69 | 211,03 | 212,29 | 213,51 |
+> | sprinkling d=4, n=320 (f) | 0,6520 | 0,6603 | 0,6620 | 0,6713 |
+> | KR, n=320 (f) | 0,6473 | 0,6500 | 0,6490 | 0,6498 |
+>
+> Przy n=320 sprinkling nie saturuje nawet przy 20000 prób (3%), a KR saturuje przy 0,4%. **Porównywanie f między strukturami przy stałej liczbie prób jest samo obciążone.**
+
+### A4a. Ułamek zapomniany — wielkość ZALEŻNA OD n
+
+| n | d=2 | d=3 | d=4 |
+|---|---|---|---|
+| 20 | 0,504 | 0,723 | 0,841 |
+| 80 | 0,489 | 0,695 | 0,819 |
+| 320 | 0,463 | 0,653 | 0,772 |
+| 1280 | 0,454 | 0,635 | 0,740 |
+
+estymator SIS-60. Odtworzone niezależną implementacją.
+
+### A4b. Niezmiennikiem jest f(d), nie ułamek [P]
+======
+### A4d. Druga zasada jako twierdzenie [T][A]
+
+$e(C')\ge e(C)$, bo nowy element **zawsze** można dopisać na końcu. Równość **tylko** dla czystego łańcucha.
+
+**Kontrole, które przeszły.** Wzrost łańcuchowy → S = 0,000000 p
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search Hubble/140 example and read R2
+grep -n -i 'R_H\|hubble' logika-relacyjna-v3.5.md | cut -c1-200 | head; grep -n '≈ 140\|~140\|140,\|≈140' rozmowa/*.md logika-relacyjna-v3.5.md | cut -c1-200 | head; awk '/^## R2\. Retrospekcja/,/^## R3\./' logika-relacyjna-v3.5.md | cut -c1-400
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+508:| płaskość | $R_s/R=(R/R_H)^2$ — tożsamość algebraiczna | [T] |
+510:**POPRAWKA do $R_s/R_H$** Dla kuli o promieniu $R$ przy gęstości krytycznej $R_s/R=(R/R_H)^2$; redukuje się do $\Omega$ tylko gdy $R=R_H$. Przy $R_H=14{,}5$ Gly i $R_p=46{,}1$ Gly: $R_p/R_H=3{,
+1152:Trzej członkowie o różnym pochodzeniu: sfera fotonowa (geodezyjne), molekuły horyzontu (zliczanie par), sfera Hubble'a (gęstość krytyczna).
+## R2. Retrospekcja 
+
+Wersja w B2 („działa na rozkładach, nie na epizodach") jest prawdziwa, ale gubi ruch, który tam wykonano.
+
+**Retrospekcja zwraca rozkłady, nie epizody.** Chwila zero wydarzyła się raz, więc estymator dostaje jeden pomiar na jeden nieznany parametr i rozrzut przekracza odstęp między k=1 a k=3. To jest granica metody, nie estymatora — więcej świadectwa nie ma i nie będzie.
+
+**Wyjście znalezione:** późne zdarzenia Ø są tego samego typu, więc pierwsza chwila zero jest **najstarszym egzemplarzem rodziny**, nie jedynym. Dostęp nie prowadzi wstecz — prowadzi **na drugą stronę tej samej relacji, którą już zajmujemy**: dzisiejsze zdarzenie Ø ma częściowe otoczenie, a my **jesteśmy** tym otoczeniem.
+
+**Skutek dla porządkowania:** pytanie „co było przed" zostało zamienione na „**jaki jest stosunek otoczenia do zdarzenia Ø**". A to jest **dokładnie C2**. Retrospekcja chwili zero, warunek niezmienniczości wzrostu i C2 to **jedno pytanie w trzech miejscach pliku**, nie trzy sprawy. [A]
+
+## R3. Stosunek otoczenia do Ø już ma nazwy [L]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search numerology notes and verify numbers
+grep -n -i 'eddington\|dirac.*liczb\|numerolog' logika-relacyjna-v3.5.md rozmowa/logika-relacyjna-rozmowa.md | cut -c1-220 | head; python3 -c "
+import math
+c=2.998e8; H0=67.4e3/3.0857e22; lP=1.616e-35
+RH=c/H0; print('R_H=%.3e m  ln(R_H/l_P)=%.2f'%(RH,math.log(RH/lP)))
+print('1-1/(1+z), z=1089.9:',1-1/1090.9, ' z=1089:',1-1/1090)
+mP=2.176e-8; print('m=m_P/sqrt(2) r_s=lambdaC; foton-orbita vs Compton: m/m_P=',1/math.sqrt(6*math.pi))
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rozmowa/logika-relacyjna-rozmowa.md:13357:Obserwację z 6/7 i 3/5 zapisałem wyłącznie jako post hoc. Jeśli chcesz ją zamienić w coś więcej, uczciwa droga jest jedna: wpisać „F/β₁ → 7/15” jako zdanie do 
+rozmowa/logika-relacyjna-rozmowa.md:13364:co masz do numerologów ;p
+rozmowa/logika-relacyjna-rozmowa.md:13375:Ale numerologia ma też dobrą historię, gdy robi się ją uczciwie. Balmer zgadł wzór na linie wodoru z samych liczb, zanim ktokolwiek wiedział, skąd się bierze. Różnica
+rozmowa/logika-relacyjna-rozmowa.md:13384:Nikt z nas nie ma uprawnień numerologicznych, więc musimy sprawdzić tradycyjnie.
+rozmowa/logika-relacyjna-rozmowa.md:13398:Jeśli choć jedno wyjdzie poza ± 0,01 w pudle, obserwacja jest albo numerologią, albo własnością diamentu, i tak ją zapiszę.
+R_H=1.373e+26 m  ln(R_H/l_P)=140.29
+1-1/(1+z), z=1089.9: 0.9990833256943807  z=1089: 0.9990825688073395
+m=m_P/sqrt(2) r_s=lambdaC; foton-orbita vs Compton: m/m_P= 0.23032943298089034
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+WebSearch: Meissner Nicolai 2007 "Conformal symmetry and the Standard Model" Physics Letters B
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+WebSearch: Seifert Lane Galoppo Ridden-Harper Wiltshire "Supernovae evidence for foundational change to cosmological models" timescape
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Web search results for query: "Meissner Nicolai 2007 "Conformal symmetry and the Standard Model" Physics Letters B"
+
+Links: [{"title":"Physics Letters B 648 (2007) 312–317 www.elsevier.com/locate/physletb","url":"https://pure.mpg.de/rest/items/item_150188/component/file_150186/content"},{"title":"Conformal realization of the neutrino option | Phys. Rev. D","url":"https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.055014"},{"title":"(PDF) Conformal symmetry and the Standard Model","url":"https://www.researchgate.net/publication/222431249_Conformal_symmetry_and_the_Standard_Model"},{"title":"Classical conformality in the Standard Model from Coleman's theory","url":"https://arxiv.org/pdf/1605.00436"},{"title":"bla Conformal Standard Model MPI f¨ur Kernphysik, Heidelberg, 25 January 2016","url":"https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Talk_Nicolai_250116.pdf"},{"title":"Conformal Standard Model Krzysztof A. Meissner University of Warsaw AEI Potsdam","url":"https://workshops.aei.mpg.de/nicolai60th/wp-content/uploads/sites/3/2014/10/Meissner.pdf"},{"title":"Conformal symmetry and the Standard Model (Journal Article) | ETDEWEB","url":"https://www.osti.gov/etdeweb/biblio/21003355"},{"title":"Quantum scale symmetry","url":"https://arxiv.org/pdf/1901.04741"},{"title":"Local Conformal Symmetry in Physics and Cosmology","url":"https://arxiv.org/pdf/1307.1848"},{"title":"Conformal symmetry and the Standard Model - ScienceDirect","url":"https://www.sciencedirect.com/scien
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Web search results for query: "Seifert Lane Galoppo Ridden-Harper Wiltshire "Supernovae evidence for foundational change to cosmological models" timescape"
+
+Links: [{"title":"Supernovae evidence for foundational change to cosmological models | Monthly Notices of the Royal Astronomical Society: Letters | Oxford Academic","url":"https://academic.oup.com/mnrasl/article/537/1/L55/7926647"},{"title":"[2412.15143] Supernovae evidence for foundational change to cosmological models","url":"https://arxiv.org/abs/2412.15143"},{"title":"[PDF] Supernovae evidence for foundational change to cosmological models | Semantic Scholar","url":"https://www.semanticscholar.org/paper/b9173d0ec48a9a96b4e1176559aaa1d6e05a8026"},{"title":"Evaluating the Extraordinary Claim of Timescape Cosmology Superseding the Standard Cosmological Model | by Boris (Bruce) Kriger | GLOBAL SCIENCE NEWS | Medium","url":"https://medium.com/global-science-news/evaluating-the-extraordinary-claim-of-timescape-cosmology-superseding-the-standard-cosmological-513cd5ff6f4f"},{"title":"Supernovae evidence for foundational change to cosmological models - ADS","url":"https://ui.adsabs.harvard.edu/abs/2025MNRAS.537L..55S/abstract"},{"title":"Scientists Claim Dark Energy does not Exist, and Accelerated Expansion of Universe is an Illusion Caused by Gravity slowing down time","url":"https://www.labrujulaverde.com/en/2024/12/scientists-claim-dark-energy-does-not-exist-and-accelerated-expansion-of-universe-is-an-illusion-caused-by-gra
+…[ucięto]
+````
+</details>
+
+---
+
+## [115] Asystent — 2026-09-25 00:40
+
+Przeszedłem wszystkie punkty. Sprawdziłem je z dokumentem, literaturą i rachunkiem. Niczego jeszcze nie wpisałem.
+
+## Czas
+
+**1. Orientacja nie jest wbudowana. Trzyma się.** To jest to samo co poprawka 106 i jeden bit z Gallaia. Asymetria czytający/czytany to właśnie ten jeden bit.
+
+**2. log e(C) nie ma orientacji. Trzyma się, i sięga dalej:**
+- **Liczby się zgadzają.** e(C) = e(C odwróconego), bo każde rozszerzenie liniowe odwraca się w rozszerzenie liniowe porządku odwróconego.
+- **Uzupełnienie:** log e(C) to liczba uporządkowań „przed/po”, których struktura nie ustala. To jest ilościowa postać zdania z R1a: „stan nie niesie etykiety przed/po”.
+- **Czy „rozproszone” = log e(C).** A4 już dzieli całość na dwie części: zapomniane = log e(C) oraz zapamiętane = log n! − log e(C). To odpowiada rozproszonemu i ostremu zapisowi z R1a.
+- **Jedna różnica.** W R1a rozproszenie zależy od czytającego (mózg a aparat fotograficzny), a log e(C) jest wielkością całej struktury. Wychodzą z tego dwa poziomy:
+  - log e(C) to część, której nie odczyta żaden czytający;
+  - część zależna od czytającego to 𝒫_X z D2 (R1b-F).
+- **Przy okazji wykryłem słabość w A4d.** Dowód mówi „nowy element zawsze można dopisać **na końcu**”, co przemyca kierunek (poprawka 106). Twierdzenie zachodzi jednak bez kierunku. Każde rozszerzenie liniowe większego porządku obcięte do mniejszego daje rozszerzenie mniejszego, i każde rozszerzenie mniejszego da się tak otrzymać. Stąd e(C′) ≥ e(C). Trzeba to przepisać w A4d.
+
+**3. Numeracja 1–5 w R1a to kolejność czytania, nie wyprowadzania. Trzyma się.** To samo dotyczy P0–P6 w R1b. Dopisałbym to w obu miejscach.
+
+**4. P5 dźwiga wykluczenie d = 2 i d = 5. Trzyma się.**
+- Teoria kwantowa na liczbach rzeczywistych (kula wymiaru 2) i na kwaternionach (kula wymiaru 5) **mają** relację, czyli splątanie. Odpadają tylko na tomografii lokalnej.
+- Twoje „¬P5 = różnica pary, której nie niesie nic poza nią samą, czyli cecha” jest ostrzejsze niż mój wiersz w teście wierności, który odsyłał do [270]. Zastąpiłbym go Twoim.
+- Eksperymenty to potwierdzenie, nie podpora:
+  - Renou i in., Nature 600, 625 (2021);
+  - Chen i in., PRL 128, 040403 (2022);
+  - Li i in., PRL 128, 040402 (2022).
+
+**5. Teza R1b. Trzyma się, z doprecyzowaniem:**
+- P0, P2 i P3 dają kulę dowolnego wymiaru, a P0 dodatkowo wyklucza d = 1;
+- **P1, P5 i P6 wybierają d = 3**;
+- pamięć decyduje o dostępie do kuli (krok 4).
+
+## Masa
+
+- **Bootstrap i ostrzeżenie przed numerologią. Trzyma się.**
+  - **Przykładu 140 wobec 137 nie ma w pliku.** Szukałem w dokumencie i w rozmowie źródłowej. Sama liczba się zgadza: ln(R_H/l_P) = 140,3 przy H₀ = 67,4. Nadaje się na przykład pułapki, tylko nie „z pliku”.
+- **Moje zdanie do upadku w §F1 jest puste. To mój błąd.** Każdą liczbę da się zapisać jako exp(ln x), więc tak postawione zdanie nie może upaść. Poprawna wersja brzmi: **wykładniki pochodzą wyłącznie z policzonych współczynników**, takich jak b₀, 2π, ΣN_cQ², (−1)^{2s}[(2s)² − ⅓] czy liczebności. Listę dozwolonych wejść trzeba zapisać przed rachunkiem, bez żadnej stałej dopasowywanej.
+- **Wigner (1939). Trzyma się i jest mocne [T][L].**
+  - Masa istnieje wtedy i tylko wtedy, gdy istnieje układ spoczynkowy. Wtedy obroty wokół środka tworzą SO(3), a dostępne kierunki kulę wokół μ.
+  - Cząstka bez masy ma tylko grupę E(2) i brzeg kuli.
+  - To spina R1b (kula, środek μ), R1c (wnętrze jest czasopodobne, brzeg zerowy) i R1d (masa). „Środek, własna oś czasu, kula 3D i masa to jeden warunek” jest dosłownie prawdziwe.
+- **r_s/ƛ_C = 2(m/m_P)². Sprawdzone.**
+  - Oba promienie spotykają się przy m = m_P/√2.
+  - Dla sfery Hubble'a przy gęstości krytycznej r_s = R_H dokładnie. To zgadza się z tożsamością w A2: R_s/R = (R/R_H)².
+  - **[O]:** oba końce hierarchii z hipotezy samopodobieństwa to właśnie miejsca, w których te dwa promienie się pokrywają: na dole Planck, na górze sfera Hubble'a. Tożsamość nic nie wyprowadza, ale te końce nazywa.
+- **Sfera fotonowa. Sprawdzone.** Częstość obiegu światła po sferze fotonowej maleje jak 1/M, a częstość Comptona rośnie jak m. Przecinają się przy m ≈ 0,23 m_P, czyli w skali Plancka.
+- **Masa razem ze stabilnością węzła [?]:** zgodne ze słownikiem, bo obiekt to stabilna struktura.
+- **Meissner–Nicolai.** [Phys. Lett. B 648, 312 (2007)](https://www.sciencedirect.com/science/article/pii/S0370269307003486): hierarchia skal z łamania radiacyjnego, czyli z logarytmów. Pasuje do §F1.
+
+## Kosmologia
+
+- **Chwila zero na obwodzie i CMB. Trzyma się, z uściśleniem.** CMB to nie jest ∂B³ w sensie R1c (sfera kierunków), tylko **granica, na której zapis zmienia się z ostrego w rozproszony**: wcześniej plazma rozprasza światło. Za nią nie ma więc Ø, tylko zapis nieczytelny. Dokładnie to przewiduje R1a.
+  - 99,9083% to 1 − 1/(1 + z) przy z = 1089,9. Sprawdzone.
+- **Horyzont oglądany z dwóch stron (Gibbons–Hawking 1977), „przed Wielkim Wybuchem” (§R2) i eony. Wszystko trzyma się i zgadza z R2 i R1a.**
+- **Λ. Trzyma się.**
+  - Bianchi–Rovelli, „Why all these prejudices against a constant?” (2010);
+  - Sorkin przewidział Λ ~ 1/√N przed 1998.
+- **Ciemna materia. Tu trzeba uważać.**
+  - Timescape ([Seifert i in., MNRAS Lett. 537, L55, 2025](https://arxiv.org/abs/2412.15143)) zastępuje ciemną **energię**, nie ciemną materię. Wynik jest też sporny.
+  - Świadectwa ciemnej materii (soczewkowanie, piki CMB) nie opierają się tylko na przybliżeniu newtonowskim.
+  - Samo zdanie relacyjne się trzyma: **Ø od strony światła, ale nie od strony porządku.** Nic nie przesądza.
+  - Zdanie „interpretacja na interpretacji” zapisałbym jako [?].
+- **„Fotony straciły energię” to interpretacja. Trzyma się.** Z R1d: energia to częstość odczytu względem czytającego, a przesunięcie ku czerwieni to stosunek temp odczytu.
+
+## GPS i perpetuum mobile
+
+- **GPS. Trzyma się.** Było już w rozmowie [151]. Dylatacja zależy od potencjału, a potencjał da się odczytać tylko jako stosunek dwóch zegarów. To jest R1d.
+- **Perpetuum mobile. Trzeba rozdzielić dwie rzeczy:**
+  - **Ruch nieustający: tak.** Nie przeczy nawet fizyce: orbity, prądy w nadprzewodniku.
+  - **Pobieranie pracy: lokalnie nie.** Tylko że zakaz nie stoi na symetrii przesunięcia w czasie. Stoi na drugiej zasadzie, a ta w dokumencie jest twierdzeniem (A4d), niezależnym od globalnej symetrii.
+  - **Dla całości pytanie jest źle postawione:** całość nie ma otoczenia, więc nie ma komu oddać pracy.
+  - Hasło „perpetuum mobile się da” przeczyłoby A4d, jeśli znaczy perpetuum mobile II rodzaju.
+
+## Co bym wpisał, jeśli dasz znak
+
+1. **R1a i R1b:** numeracja to kolejność czytania. W R1b teza doprecyzowana (P1, P5, P6 wybierają 3) i wiersz P5 w teście wierności zastąpiony Twoim sformułowaniem (¬P5 = cecha), razem z trzema eksperymentami.
+2. **A4 i A4d:** log e(C) = brak etykiety przed/po; zapomniane i zapamiętane = rozproszone i ostre, na dwóch poziomach (całość i czytający). Dowód A4d przepisany bez „na końcu”.
+3. **§F1:** poprawione zdanie do upadku; bootstrap, ostrzeżenie przed numerologią z przykładem 140; Wigner; dwa promienie jako końce hierarchii; sfera fotonowa; Meissner–Nicolai.
+4. **Kosmologia**, w nowym punkcie C6 albo przy A5b: CMB jako granica ostrego zapisu; Λ; ciemna materia jako [?]; przesunięcie ku czerwieni jako stosunek temp.
+5. **GPS i ruch nieustający** z rozróżnieniem od pobierania pracy.
+
+---
+
+## [116] Użytkownik — 2026-09-25 00:54
+
+na sferze fotonowej, półtora promienia Schwarzschilda od środka. Tam światło może krążyć po okręgu, więc patrząc poziomo przed siebie, widzi się tył własnej głowy. Plik ma nawet te liczby w A5b: opóźnienia 9,3 × 10⁻⁵ s dla masy Słońca i 7 dni dla M87* to dokładnie czas jednego okrążenia, 3π r_s / c. Czyli przy M87* zobaczylibyśmy tył swojej głowy sprzed tygodnia. Dosłownie przeszłość jako zapis czytany teraz, tylko tym razem zapis nas samych.
+
+Tu jest coś, co wiąże się z rozmową o masie. Na sferze fotonowej struktura czyta samą siebie przez pętlę światła, a tempo tego samoodczytu maleje z masą: im cięższa dziura, tym dłuższe okrążenie. Dla cząstki według hipotezy z §F1 jest odwrotnie: tempo samoodczytu, czyli częstość Comptona, rośnie z masą. Te dwie funkcje, jedna jak m, druga jak 1/m, przecinają się w okolicy masy Plancka. To są te same dwa promienie co wcześniej, długość Comptona i promień Schwarzschilda, tylko zapisane jako dwa tempa odczytu siebie. Formalnie nic nowego to nie wnosi, to ta sama tożsamość, ale w języku ramy wychodzi obraz: poniżej masy Plancka nośnik czyta siebie przez zygzak, powyżej przez pętlę światła, a na granicy oba sposoby się spotykają.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Verify photon-sphere loop times and crossover mass
+python3 -c "
+import math
+G=6.674e-11;c=2.998e8;Ms=1.989e30;hbar=1.0546e-34
+for n,M in [('Slonce',Ms),('Sgr A*',4.3e6*Ms),('M87*',6.5e9*Ms)]:
+  rs=2*G*M/c**2; T=3*math.pi*rs/c; Tw=T*math.sqrt(1/3)
+  print(n,'dalekiego: %.3g s (%.2f dni) | wlasny zegar na sferze: %.3g s (%.2f dni)'%(T,T/86400,Tw,Tw/86400))
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+WebSearch: Carr "black hole uncertainty principle correspondence" Compton-Schwarzschild correspondence arXiv
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Slonce dalekiego: 9.29e-05 s (0.00 dni) | wlasny zegar na sferze: 5.36e-05 s (0.00 dni)
+Sgr A* dalekiego: 399 s (0.00 dni) | wlasny zegar na sferze: 231 s (0.00 dni)
+M87* dalekiego: 6.04e+05 s (6.99 dni) | wlasny zegar na sferze: 3.48e+05 s (4.03 dni)
+przeciecie (czas dalekiego): m/m_P=0.230 | (czas wlasny): m/m_P=0.303
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Web search results for query: "Carr "black hole uncertainty principle correspondence" Compton-Schwarzschild correspondence arXiv"
+
+Links: [{"title":"[1402.1427] The Black Hole Uncertainty Principle Correspondence","url":"https://arxiv.org/abs/1402.1427"},{"title":"The Black Hole Uncertainty Principle Correspondence B. J. Carr","url":"https://arxiv.org/pdf/1402.1427"},{"title":"[1611.01913] The Compton-Schwarzschild relations in higher dimensions","url":"https://arxiv.org/abs/1611.01913"},{"title":"The Compton-Schwarzschild correspondence from extended de Broglie relations","url":"https://ouci.dntb.gov.ua/en/works/7PLoR5G7/"},{"title":"The Black Hole Uncertainty Principle Correspondence | Springer Nature Link","url":"https://link.springer.com/chapter/10.1007/978-3-319-20046-0_19"},{"title":"The Compton−Schwarzschild correspondence from extended de Broglie relations","url":"https://arxiv.org/pdf/1505.06994"},{"title":"[2205.09502] The Compton/Schwarzschild duality, black hole entropy and quantum information","url":"https://arxiv.org/abs/2205.09502"},{"title":"[1705.05330] I Introduction","url":"https://ar5iv.labs.arxiv.org/html/1705.05330"},{"title":"www.arxiv.org","url":"https://www.arxiv.org/pdf/2405.04977"}]
+
+The search results show a comprehensive collection of work on this topic. Here's what I found:
+
+## Primary Source
+
+The Black Hole Uncertainty Principle correspondence proposes a connection between the Uncertainty Principle on microscopic scales and black holes on macros
+…[ucięto]
+````
+</details>
+
+---
+
+## [117] Asystent — 2026-09-25 00:55
+
+Liczby się zgadzają. Twój obraz ma przy tym dwa uzupełnienia z samej ramy i jedno z literatury, które wiąże go bezpośrednio z R1b.
+
+**Liczby.** Jedno okrążenie po sferze fotonowej to 3π r_s/c. Wychodzi 9,3·10⁻⁵ s dla Słońca, 399 s dla Sgr A* i 7,0 dnia dla M87*. To dokładnie wartości z A5b.
+
+**Uzupełnienie 1: „sprzed tygodnia” dla kogo.** 7 dni to czas na zegarze **dalekiego** czytającego. Ten, kto sam stoi na sferze fotonowej i patrzy na tył swojej głowy, liczy własnym zegarem i dostaje 3π r_s/c · √(1/3), czyli **około 4 dni** dla M87*.
+
+To jest rama w czystej postaci: tempo odczytu nie należy do pętli, tylko do relacji z czytającym (R1d: energia to częstość odczytu względem czytającego, dylatacja to stosunek temp). Zapis jest ten sam, a „ile temu” zależy od tego, kto czyta.
+
+**Uzupełnienie 2: gdzie dokładnie przecinają się dwa tempa samoodczytu.** Przy zegarze dalekim przecięcie wypada przy m ≈ 0,23 m_P. Przy zegarze własnym wypada przy m ≈ 0,30 m_P. W obu przypadkach to skala Plancka. Dokładna liczba zależy od czytającego, rząd wielkości nie.
+
+**Z literatury: to lustro istnieje tylko w 3D [L][T].**
+- Długość Comptona i promień Schwarzschilda przechodzą w siebie przy zamianie **m → m_P²/m** (Carr, [„The Black Hole Uncertainty Principle Correspondence”](https://arxiv.org/abs/1402.1427), 2014; [wersja w wyższych wymiarach](https://arxiv.org/abs/1611.01913)).
+- W d wymiarach przestrzennych r_s ∝ m^{1/(d−2)}, a ƛ_C ∝ 1/m. Dokładnym lustrem są dla siebie **tylko przy d = 3**.
+- W Twoim obrazie oznacza to, że zygzak (poniżej m_P) i pętla światła (powyżej m_P) są dokładnymi odbiciami tylko w trzech wymiarach.
+- To samo 3D, które R1b wyprowadza z relacji minimalnych nośników, jest jedynym wymiarem, w którym dwa sposoby czytania samego siebie są symetryczne względem Plancka. Oba wyniki stoją niezależnie od siebie, a dają ten sam wymiar.
+
+**Oba końce w ramie [O]:**
+- **Na dole, przy masie Plancka,** oba sposoby samoodczytu są nierozróżnialne, czyli ≡. Zgadza się to z (l_P t_P) ≡ Ø w łańcuchu.
+- **Na górze, na sferze Hubble'a,** r_s = R_H. Pętla światła obejmuje wtedy całość, a całość nie ma otoczenia, więc t = 0 (Wheeler–DeWitt).
+- Oba końce hierarchii z §F1 to miejsca, w których samoodczyt przestaje odróżniać się od Ø.
+- **[?]:** jeśli hipoteza samopodobieństwa jest trafna, lustro m ↔ m_P²/m to jej najprostszy formalny przypadek.
+
+Nie wpisuję tego jeszcze. Dopisuję jako punkt 3a do listy z poprzedniej wiadomości (§F1):
+- sfera fotonowa jako samoodczyt przez pętlę światła;
+- zależność „ile temu” od czytającego (7 dni wobec 4 dni);
+- lustro Comptona i Schwarzschilda, które jest dokładne tylko w 3D.
+
+Czekam na znak do wpisania całej listy.
+
+---
+
+## [118] Użytkownik — 2026-09-25 00:57
+
+wpisuj
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate insertion points for all items
+f=logika-relacyjna-v3.5.md; grep -n 'Synteza\|synteza definicji' $f | head -5; awk '/^## R1a/,/^## R1b/' $f | grep -n '^\*\*\|^[0-9]\.\|^- \*\*' | cut -c1-120 | head -30; grep -n '^\*\*Teza:\*\* trzy wymiary\|^| P5: tomografia\|^### A4\. \|^\$\$\\text{zapomniane\|^\$e(C.)\\ge\|ZDANIE DO UPADKU\|\*\*Zdanie do upadku:\*\* istnieje skala\|^### A5b\|^## A6\.' $f | cut -c1-120
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+2550:| 107 | **synteza definicji czasu (Ĥ|Ψ⟩=0 → relacja wewnątrz → odczyt zawsze teraz → zapis ostry/rozproszony → kierunek → dostęp do innych układów → 3+1 jako punkty); kierunek w relacji stan–zapis; „odczyt nie może być treścią własnego odczytu”; Augustyn XI,20 i Rovelli 2015 jako [L]; otwarte: zgodność kierunku między czytającymi, porażki wyjaśnione po fakcie** | R1a | **użytkownik** + asystent (uwagi) (v3.4) |
+20:**Cel zapisu:** różne zjawiska mają różne otoczenia i różne formalizmy, które nigdy nie traktują ich jako ni
+22:**Ĥ|Ψ⟩ = 0 — konsekwencja, nie zagadka [L][H].** Więz hamiltonianowy wynika wprost z niezmienniczości względ
+23:**Uwaga [A]:** zero w Ĥ|Ψ⟩=0 („nie ma parametru”) to inne zero niż τ=0 fotonu („interwał znika”); w ł
+25:**SYNTEZA: CZAS BEZ DOKŁADANIA CZEGOKOLWIEK [H] (użytkownik, 25.09.2026).**
+26:1. Całość nie ma otoczenia → brak zewnętrznego parametru → Ĥ|Ψ⟩ = 0 (standardowa konsekwencja niezmiennic
+27:2. Całość nie ewoluuje → czas może być tylko relacją wewnątrz, między podukładami (Page–Wootters).
+28:3. Relacja wewnątrz = czytanie jednego przez drugie; czytanie odbywa się w jednym stanie → **zawsze teraz**.
+29:4. Przeszłość zostaje tylko jako **zapis** w strukturze; zapis jest ostry albo rozproszony → stąd **kierunek**.
+30:5. Zapis = dostęp do innych układów struktury niż bieżący → punkt odniesienia, którego triada nie ma → **3
+32:- **Kierunek siedzi w relacji stan–zapis, nie w stanie.** Rozłączone klocki mogą być przed złożeniem i po roz
+33:- **Nieu
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check exact anchor lines
+grep -n '^\*\*Twierdzenie\*\* (Masanes' logika-relacyjna-v3.5.md; sed -n 206p logika-relacyjna-v3.5.md | cut -c1-300; sed -n 25,31p logika-relacyjna-v3.5.md | cut -c1-60
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+186:**Twierdzenie** (Masanes, Müller, Pérez-García, Augusiak 2014, Tw. 1–2; d = 1: P0):
+| P5: tomografia lokalna | ∃ różnica stanów pary nieodczytywalna przez odczyty części i korelacje = różnica nieodczytywalna lokalnie | „wzbudzenia i relacje są lokalne” [270] |
+
+**ZASADA METODY (użytkownik, v3.4).** **Nie tworzymy nowych
+- **Przykład z historii [L]:** transformacje Lorentza istni
+- **Dyscyplina czyszczenia (asystent):** **zostaje to, co mi
+- **W praktyce v3.4:** prawie każde narzędzie było gotowe
+
+**Skróty myślowe są dozwolone** (użytkownik: „jeszcze
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Write all agreed items into the document, registry 137–141, push
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+def rep(old,new,cnt=1):
+    global t
+    assert old in t, old[:60]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+CLAUDE.md                |  4 ++--
+ logika-relacyjna-v3.5.md | 33 ++++++++++++++++++++++++++++++---
+ 2 files changed, 32 insertions(+), 5 deletions(-)
+019d9ab v3.5: numeracja jako kolejnosc czytania, P5 i eksperymenty (137); log e(C) i A4d bez kierunku (138); SF1: poprawione zdanie do upadku, Wigner, dwa promienie, sfera fotonowa, lustro 3D (139-140); A5c kosmologia/GPS (141)
+````
+</details>
+
+---
+
+## [119] Asystent — 2026-09-25 00:59
+
+Dopisuję też tę część rozmowy do zapisu sesji, żeby transkrypt był kompletny.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Regenerate session transcript and push
+python3 - <<'EOF'
+import json,re
+src='/root/.claude/projects/-home-user-Logika-relacyjna/922e7b73-0339-570a-8b7c-caea2f9e8ef9.jsonl'
+out='rozmowa/claude-code-sesja-2026-09-24-2.md'
+def clean(s): return re.sub(r'<system-reminder>.*?</system-reminder>','',s,flags=re.S).strip()
+def ts(d): return d.get('timestamp','')[:16].replace('T',' ')
+````
+</details>
