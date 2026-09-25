@@ -69,7 +69,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa; szukać jednej relacji między końcami hierarchii (Planck ≡ Ø, całość ≡ Ø).
 
-## Gdzie skończyliśmy (sesja CC 2, 24/25.09.2026; dokument v3.5, rejestr do 141)
+## Gdzie skończyliśmy (sesja CC 2, 24/25.09.2026; dokument v3.5, rejestr do 142)
 
 **Oś 1–2: czas, c, 3D — domknięte strukturalnie (czytać R1b, R1c w dokumencie):**
 - **R1b — dowód 3D z definicji czasu, bez przestrzeni tła.** Rama ⇒ P0–P6 ⇒ d = 3 (Masanes, Müller, Pérez-García, Augusiak 2014: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa; d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). D0: wymiar przestrzeni := wymiar kuli wszystkich odczytów. Test wierności (poprawka 128): ¬P każdej przesłanki wyklucza się ze zdaniem ramy. Pamięć w dowodzie: kontrola bez zapisu = bit klasyczny, bez ciągłego ruchu („ruchu nie da się zauważyć” [400]). Spójność grupy z „brak zewnętrznych aktorów” [354]. Zapis formalny R1b-F. Brak punktów otwartych.
@@ -82,7 +82,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 **Wcześniejsze wyniki (bez zmian, szczegóły w §F2, C4a, C5):** most masa ↔ logarytmy przez ramę (ln n, współczynnik 1, 1+1 i 3+1); ε = rozdzielczość tempa; R-KĄT i redukcja lokalna [T]; §F1 z etap7–9 obniżone (poprawka 103); H₂: typ II = 1/24·ln N, granica ~0,84; Regge na sztywnym kompleksie (etap18) = zero absolutne, dynamika niemierzona.
 
-**Najbliższe kroki:**
+**Najbliższe kroki** (kolejność z 25.09, poprawka 142: porządek zrobiony; teraz 2 → 1, bo czynnik spinowy (−1)^{2s}[(2s)² − ⅓] jest na liście wejść §F1):
 1. **Hipoteza samopodobieństwa (§F1):** jedna relacja między końcami hierarchii (Planck ≡ Ø, całość ≡ Ø), z której skale wychodzą jako wykładniki logarytmów liczebności; zebrać wszystkie logarytmy dokumentu w jeden zapis i sprawdzić zdanie do upadku. Najpierw literatura (grupa renormalizacji jako samopodobieństwo), bez rachunków.
 2. Definicje z listy [94] wynikające z R1b–R1d: spin (kierunek jako relacja nośnika), fala EM (polaryzacja = B³), potem „działanie” (wagi obiegów faz na linkach) i energia w pełni.
 3. Czarne dziury po oczyszczeniu OTW z interpretacji — pytania do postawienia na nowo (P-K w C5 po filtrze).

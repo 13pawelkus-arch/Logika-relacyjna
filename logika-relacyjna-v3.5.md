@@ -329,7 +329,7 @@ P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4
 
 ### Trzy punkty otwarte — rozpisane (poprawka 135)
 
-**1. Co ustala częstość zygzaka elektronu.** [L] L i R nie przechodzą w siebie wprost; łączy je relacja z polem Higgsa: m = y·v/√2, v — wartość w próżni, wszędzie ta sama. [O] Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie odczyta → **jednostronna relacja z Ø** [122–124]. **Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.** Status: m_e/m_P = y_e·(v/m_P)/√2 — stosunek stosunków; „co ustala y_e” otwarte także w fizyce → krok masy (na końcu, [94]). Masa protonu głównie z transmutacji, nie z Higgsa: dwa mechanizmy, zgodnie z „kwarki i elektrony nie pozwolą na jedną funkcję”.
+**1. Co ustala częstość zygzaka elektronu.** [L] L i R nie przechodzą w siebie wprost; łączy je relacja z polem Higgsa: m = y·v/√2, v — wartość w próżni, wszędzie ta sama. [O] Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie odczyta → **jednostronna relacja z Ø** [122–124]. **Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.** Status: m_e/m_P = y_e·(v/m_P)/√2 — stosunek stosunków; „co ustala y_e” otwarte także w fizyce → **nie osobny krok na końcu, tylko jeden z wykładników ustalanych razem z resztą (§F1, poprawka 136); „masa na końcu” z [94] = kolejność definiowania, nie wyprowadzania (por. 137; poprawka 142).** Masa protonu głównie z transmutacji, nie z Higgsa: dwa mechanizmy, zgodnie z „kwarki i elektrony nie pozwolą na jedną funkcję”.
 
 **2. Asymetria [126].** ~~„asymetria między dwiema częściami zygzaka”~~ — **błąd asystenta:** L i R to składniki tego samego elektronu, nie materia/antymateria. [L] Sacharow (1967): potrzebne naraz — relacja rozróżniająca połówki zygzaka (oddziaływanie słabe czyta tylko L), faza nieusuwalna (naruszenie CP), brak równowagi. [O] Faza w punkcie ≡ Ø, więc każda faza przerzucalna w punkt jest usuwalna; **nieusuwalna istnieje tylko jako relacja faz ≥ 3 pokoleń** (Kobayashi–Maskawa 1973: przy dwóch wszystkie usuwalne) — zbieżność z triadą [?], ta sama liczba, nie wyprowadzenie. Brak równowagi = pseudokierunek z zapisu; „+1” = zapis, który przetrwał. Status: struktura przełożona; wielkość 10⁻⁹ otwarta także w fizyce (faza MS daje za mało).
 
@@ -432,7 +432,14 @@ Otoczenie ma **dwa** stany: pełne i częściowe. **Całkowity brak otoczenia wy
 
 ## Gdzie zaczynać
 
-**Zmienione w v3.2.** C1 i C2 mają odpowiedzi w literaturze (§C). Najtańsze otwarte rzeczy są teraz inne:
+**Stan v3.5 (poprawka 142).** Oś 1–2 (czas, c, 3D) domknięta strukturalnie w R1a–R1c; R1d = przekład elektronu, pola EM i kwarka. Kolejność pracy (bez rachunków):
+
+1. **Porządek po poprawce 136** — zrobione w 142.
+2. **Spin i fala EM z R1b/R1c:** spin = kierunek jako stan nośnika (kula odczytów = kula kierunków, D0); polaryzacja: S₀² − S₁² − S₂² − S₃² ≥ 0 = ta sama norma Minkowskiego co det ρ (R1c). Potrzebne przed §F1, bo czynnik (−1)^{2s}[(2s)² − ⅓] jest na liście wejść (poprawka 139).
+3. **§F1: tabela wszystkich logarytmów** (po czym biegnie du/u, współczynnik, policzony czy dopasowany) → lista wejść przed rachunkiem. Literatura: grupa renormalizacji jako samopodobieństwo („przepływ” po filtrze = relacja rozdzielczości odczytu).
+4. Później: energia w pełni i „działanie”; czarne dziury po oczyszczeniu OTW; liczby otwarte (y_e, 10⁻⁹, H₂, α).
+
+**Techniczne, nadal otwarte (z v3.2):**
 
 1. Czy prawo $n^{k-(k-1)d}$ z A3a jest gdzieś opublikowane — Minz 2406.14533 pod kątem wykładnika. **Dopisek v3.3 [L]:** Johnston, doktorat (arXiv:1010.5514, §4.2.1) opisuje pomysł Rideouta: materia jako klasy elementów o identycznych relacjach („pary niehegelowskie”) — to są bliźniaki z A3a, kilkanaście lat przed Minzem.
 2. Wzór asymptotyczny na średnią liczbę rozszerzeń liniowych n-elementowego porządku (z rozszerzenia dowodu Kleitmana–Rothschilda na pary (P, ≺)) — narzędzie analityczne na dryf f(KR) z A9b.
@@ -2001,6 +2008,8 @@ Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być sto
 
 **Grupa cechowania z porządku.** Nadmiar w samym porządku wymiera jak $n^{2-d}$, więc w d=4 znika. Grupa musiałaby siedzieć w czymś **dołożonym** do elementów — a wtedy nie jest wyprowadzona.
 
+> **Dopisek v3.5 (R1d pkt 3; poprawka 142):** fazy na linkach = definicja pola EM jako relacji, więc zarzut „dołożone do elementów” przestaje działać (relacja faz nie jest treścią dołożoną do elementów). **Sama grupa U(1) nadal nie jest wyprowadzona z porządku** — otwarte.
+
 > **Dopisek v3.4 [H]:** brakującym składnikiem we wszystkich pięciu miejscach jest **odległość przestrzenna z porządku** (nakładanie przyczynowe, Boguñá–Krioukov 2024/2025), a nie skala nielokalności — patrz C4a.12.
 
 > **Dopisek v3.3 — pole jako faza na zamkniętych drogach [H][L].** W kontinuum fazy na wszystkich pętlach wyznaczają pole (Giles 1981). W porządku nie ma zamkniętych łańcuchów (antysymetria), więc pętla = łańcuchy w przód i wstecz.
@@ -2021,6 +2030,8 @@ Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być sto
 
 **Co odróżnia pola: czy relacja wraca do siebie [H].** „Pole = struktura, w której wzbudzenia są możliwe” nie odróżnia pól. Hipoteza (rozmowa 5, niepoliczona): nie wraca do siebie → grupa abelowa U(1) (foton, rozchodzi się swobodnie); wraca → nieabelowa SU(3) (gluon, zamyka się). Kontekst: C4a.13.
 
+> **Dopisek v3.5 (R1d; poprawka 142) [L][O]:** przełożone. Nie wraca: F = dA — relacja nie niesie ładunku, abelowa (elektron = relacja). Wraca: F = dA − ig[A,A] — relacja relacji, nieabelowa (kwark). Rozstrzygnięte przekładem; na porządku niepoliczone (wagi obiegów = „działanie”).
+
 **Stałe wzrostu $(t_n)$.** Przestrzeń nieskończenie wymiarowa. Rideout i Sorkin stawiają jako otwarte; 25 lat później struktury generowane dynamicznie nie dają porządków przybliżalnych rozmaitościami.
 
 **Czy stosunek otoczenia do Ø jest niezmiennikiem wzrostu.** Warunek wstępny dla przenoszenia między otoczeniami. **Po §R2 wiadomo, że to jest to samo pytanie co retrospekcja chwili zero.** Niebadane.
@@ -2033,7 +2044,7 @@ Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być sto
 
 **Zmiękczony stan SJ** — bez niego liczby z A10 są poprawne, ale nie o próżni.
 
-**Weryfikacja twierdzenia z rozmowy 1**, że Poisson Sorkina został częściowo obalony przez CMB. Wisi od rozmowy 1, nietknięte w v3.2–v3.4. **Decyzja: sprawdzić jednym zapytaniem albo skreślić przy najbliższym porządkowaniu.**
+~~**Weryfikacja twierdzenia z rozmowy 1**, że Poisson Sorkina został częściowo obalony przez CMB.~~ **ROZSTRZYGNIĘTE (v3.5; poprawka 142) [L]:** zdanie z rozmowy 1 było nieprecyzyjne. CMB nie dotyczy rozkładu Poissona (sprinklingu), tylko scenariusza **„everpresent Λ”** (Λ fluktuuje jak 1/√N). CMB ogranicza amplitudę tych fluktuacji (Barrow 2007, gr-qc/0612128; Zwane–Afshordi–Sorkin, CQG 35, 194002 (2018), arXiv:1703.06265); część wersji przechodzi (Das–Nasiri–Yazdi 2023, arXiv:2304.03819). Status: ograniczone, nie obalone; do ramy nic nie wnosi.
 
 **Optymalizacja wyboru obserwatorów** (A9f) — czy trzy dobrze wybrane tory dorównują czterem ustawionym ręcznie.
 
@@ -2243,6 +2254,8 @@ Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwi
 - **Most masa ↔ logarytmy przez szerokość: ZAMKNIĘTY (brak).** Jeśli most istnieje, musi iść inną drogą (§F2: wyprowadzenie współczynników 1, ½, 0,57 z liczby kierunków wskazywania).
 
 - **Stan:** dwie masy różniące się o połowę są **rozróżnialne w średniej z dokładnością ~0,5%**, niesione pamięcią i niezależne od ruchu; **pojedyncza trajektoria ma rozrzut ~15%**, więc na ogonach populacje się mieszają.
+
+> **HISTORIA — plan krokowy sprzed poprawki 136; nie realizować jako następnego kroku (poprawka 142).** Wyniki etap6–9 wyżej bez zmian (status z poprawki 103).
 
 - **Do przebiegu na Colab:** `etap7_masa_gpu.py` (N=12 mln, K=20 tys., L=20, 2 ziarna) ze zdaniami M0a, M0, M1, M2, M3 w nagłówku.
 
@@ -2540,6 +2553,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 142 | **porządek po poprawce 136:** R1d pkt 1 bez „na końcu” ([94] = kolejność definiowania); stary plan krokowy §F1 oznaczony jako historia; Dalej otwarte — „co odróżnia pola” i grupa cechowania wg R1d (U(1) nadal niewyprowadzona); Poisson/CMB rozstrzygnięte (dotyczyło everpresent Λ, ograniczone, nie obalone); „Gdzie zaczynać” v3.5 | R1d, §F1, Dalej otwarte, Gdzie zaczynać | asystent (v3.5) |
 | 141 | **A5c: kosmologia, GPS, ruch nieustający w ramie** — CMB = granica zapisu ostrego/rozproszonego; horyzont z dwóch stron (Gibbons–Hawking); „przed WW” = R2; Λ (Bianchi–Rovelli, Sorkin); ciemna materia [?] (timescape dotyczy energii); przesunięcie ku czerwieni = stosunek temp; GPS; ruch nieustający tak, pobieranie pracy nie (A4d) | A5c | **użytkownik** + asystent (v3.5) |
 | 140 | **§F1: sfera fotonowa = samoodczyt przez pętlę światła; „ile temu” zależy od czytającego (7 d vs 4 d M87*); lustro ƛ_C ↔ r_s (m → m_P²/m) dokładne tylko w 3D (Carr)** | §F1 | **użytkownik** + asystent (v3.5) |
 | 139 | **zdanie do upadku w §F1 było puste (błąd asystenta: exp(ln x))** — poprawione: wykładniki tylko z policzonych współczynników, lista wejść przed rachunkiem; bootstrap, numerologia (140,3 vs 137), Wigner, dwa promienie, Meissner–Nicolai | §F1 | **użytkownik** + asystent (v3.5) |
