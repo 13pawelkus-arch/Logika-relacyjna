@@ -2219,6 +2219,22 @@ Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwi
   - **Po filtrze (forma warunku, bez mechanizmu) [O]:** (1) na końcu Plancka bezwymiarowe relacje nie zależą od rozdzielczości odczytu = dokładne samopodobieństwo ≡ Ø — zgodne z §F1 bez dokładania. Nie bierzemy: metryki jako fluktuującego pola (przestrzeń jako pojemnik) ani „punktu stałego osiąganego przy obniżaniu skali” (przepływ = kierunek). (2) próżnia ≡ Ø [242–258], więc dwie próżnie o równej energii = łańcuch Ø zastosowany do próżni. **Pułapka nazewnicza:** „płaski potencjał” (λ ≈ 0) ≠ płaskość 2D; przenosi się tylko ≡ (próżnia nie rozróżnia wartości pola).
   - **Dlaczego oba końce [T] (RG) / [O]:** warunek punktu stałego na jednym końcu ustala tylko sprzężenia **nierelewantne** w tym punkcie (u S–W λ — dlatego przewidziane); kierunki **relewantne i marginalne** zostają wolne, po jednej liczbie na kierunek (sprzężenie cechowania dążące do zera zostawia wolną skalę — transmutacja, R1d). **Sam koniec Plancka nie wystarcza; wolne dane musi ustalić drugi koniec (całość ≡ Ø).** „Oba końce” to wymóg liczenia danych, nie styl. Na drugim końcu literatura ma jedną relację: Λ ~ N^{−1/2} (Sorkin, ½ z Poissona).
   - **Zdanie do upadku (przed rachunkiem):** liczba kierunków relewantnych i marginalnych punktu stałego na końcu Plancka ≤ liczba warunków z końca całości. Upada, gdy wolnych danych jest więcej, niż drugi koniec może ustalić.
+- **ZLICZENIE KIERUNKÓW — ZDANIE Z 148 UPADŁO w tej postaci (poprawka 149) [L][P]:** punkt stały przy Plancku wg asymptotic safety (wyniki warunkowe: zależne od przybliżenia, dla szerokiego, nie dowolnego zakresu sprzężeń grawitacji; wariant najbardziej przewidujący, Eichhorn–Held, arXiv:1707.01107, PRL 121, 151302 (2018)):
+
+| sektor | w punkcie stałym | wolne dane |
+|---|---|---|
+| grawitacja | ≤ 3 kierunki relewantne (G, Λ, trzeci; przybliżenia f(R), arXiv:1805.09656) | 2–3 (G ustala jednostkę) |
+| Higgs μ² | relewantne (= hierarchia v/m_P) | 1 |
+| Higgs λ | nierelewantne → przewidziane (Shaposhnikov–Wetterich) | 0 |
+| cechowanie U(1), SU(2), SU(3) | swoboda asymptotyczna = marginalnie relewantne; U(1) w innym wariancie przewidziane (JHEP 01 (2018) 030) | 2–3 |
+| Yukawa top | punkt stały oddziałujący → przewidziane; także m_t − m_b ≈ 170 GeV | 0 |
+| pozostałe Yukawy, CKM, θ_QCD | swoboda asymptotyczna → wolne | ~12 |
+
+  - **Liczenie:** koniec Plancka zostawia **~15–19 wolnych danych**; koniec całości w literaturze daje **1 warunek** (Λ ~ N^{−1/2}). **15–19 > 1 → upadło** zestawienie „punkt stały AS przy Plancku + jedna relacja z całości”.
+  - **Nie upadła hipoteza §F1** — liczenie mówi, czego od niej trzeba: koniec Plancka musi w ramie ustalać więcej niż punkt stały **albo** koniec całości musi dawać więcej niż jeden warunek. Trzeciej drogi nie ma.
+    - **(a) Koniec Plancka:** punkt stały = samopodobieństwo = połowa „≡ Ø”; druga połowa = **nierozróżnialność próżni** (Froggatt–Nielsen) — każda równość energii próżni to dodatkowe równanie, niezależne od punktu stałego (precedens: m_t trafione).
+    - **(b) Koniec całości:** literatura ma tylko Λ. W ramie całość bez otoczenia → Ĥ|Ψ⟩ = 0 — więz w każdym punkcie, nie jedna liczba. **Ile warunków na bezwymiarowe relacje z tego wychodzi — niesprawdzone przez nikogo.**
+  - **Nowe zdanie do upadku:** suma niezależnych równań z obu końców ≥ liczba wolnych danych (~15–19). Kolejność: najpierw (b) (tego w literaturze nie ma, rama ma tu własne zdanie), potem (a).
 - **Domysł [?]:** definicja masy może powstać razem z warunkiem stabilności węzła (obiekt = stabilna struktura relacji, słownik).
 
 **Hipoteza (v3.4):** masa = **częstość, z jaką trajektoria czyta samą siebie**. Zdanie o odczycie, nie o geometrii — **nie wymaga rozstrzygnięcia sprawy przestrzeni**, więc można je testować teraz, na strukturze z zadania A (sprinkling + trajektorie + odczyty).
@@ -2612,6 +2628,7 @@ Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmen
 | 80 | rodzina „powielanie węzła” nie daje rozmaitości przy żadnej liczbie połączeń — teza o triadzie wciąż oparta na jednej rodzinie; potwierdza: rozmaitość wymaga wstawiania pomiędzy, nie doklejania | C5 | **użytkownik** (przebieg) + asystent (v3.4) |
 | 79 | test „więcej partnerów”: przy >3 połączeniach dwa pomiary wymiaru przestają się zgadzać — struktura przestaje być rozmaitością; zgodność tylko dla triady (2) i triady z pamięcią (3) | C5 | asystent (v3.4) |
 | 91 | piąta pułapka: minimum τ(p,c) preferuje małe kroki; prostota = nadwyżka z odwrotnej nierówności trójkąta | §F1 | asystent (v3.4) |
+| 149 | **zliczenie kierunków: zdanie z 148 upadło w postaci „punkt stały AS przy Plancku + jedna relacja z całości” (~15–19 wolnych danych wobec 1 warunku)**; hipoteza §F1 stoi, wymaga (a) nierozróżnialności próżni jako dodatkowych równań przy Plancku albo (b) więcej niż jednego warunku z całości (Ĥ|Ψ⟩ = 0); nowe zdanie do upadku: #równań z obu końców ≥ #wolnych danych | §F1 | asystent (v3.5) |
 | 148 | **§F1: warunek na końcu Plancka** — trzy precedensy (punkt stały: Shaposhnikov–Wetterich, Eichhorn–Held–Wetterich; zasada wielu punktów: Froggatt–Nielsen; bliskość krytyczności: Buttazzo i in.), żaden na liście wejść; po filtrze: punkt stały = samopodobieństwo ≡ Ø, próżnie równej energii = łańcuch Ø; pułapka „płaski potencjał ≠ płaskość”; jeden koniec ustala tylko kierunki nierelewantne → oba końce z liczenia danych; zdanie do upadku: #relewantnych ≤ #warunków z całości | §F1 | asystent (v3.5) |
 | 147 | **§F1: lista dozwolonych wejść przed rachunkiem; zdanie do upadku doprecyzowane (jedna kombinacja na skalę); pytanie właściwe = warunek na obu końcach ustalający wartości brzegowe sprzężeń; RG po filtrze = relacja rozdzielczości odczytu** | §F1 | asystent (v3.5) |
 | 146 | **„każdy logarytm = ślad samopodobieństwa” za szerokie (błąd uogólnienia asystenta):** dwa typy — S (∫du/u, skala) i K (kombinatoryka); tabela logarytmów; jedyny logarytm przechodzący do 3+1: koszt wskazania ramy ln n, współczynnik 1 | §F1 | asystent (v3.5) |
