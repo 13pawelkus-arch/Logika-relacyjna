@@ -16,7 +16,7 @@ ROZMOWA = os.path.join(KAT, 'rozmowa', 'logika-relacyjna-rozmowa.md')
 ZNACZNIKI = '/tmp/logika-rama'
 
 CZESCI = {
-    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Pięć pułapek', '## Dopuszczalne stany',
+    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Sześć pułapek', '## Dopuszczalne stany',
           '## Gdzie zaczynać', '## A0.', '## A1.', '## Sito', '## Reguła językowa', '## Sztuki czy miara', '## Reguły'],
     '2': ['## R1a.'],
     '3': ['## R1b.', '## R1c.'],

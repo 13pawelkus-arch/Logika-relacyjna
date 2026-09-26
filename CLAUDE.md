@@ -62,10 +62,11 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 |---|---|
 | `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
+| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167). |
 | `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25–26.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161), R1f działanie, energia, pęd i masa z fazy, przyspieszenie (162–164), Pendleton–Ross bez kierunku (165), diagnoza CLAUDE.md i protokół z hookami. |
 | `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
-| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross). |
+| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23 z sesji 4: dwa odczyty stosunków leptonów). |
 | `narzedzia/` | `rama.py` (rama z pliku i rozmów, 4 części), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach), `filtr.py` (sformułowania wobec R1a/R1b), `transkrypt.py` (zapis sesji), `start.sh` i `przypomnienie.py` (hooki). |
 | `.claude/settings.json` | Hooki: SessionStart (protokół startu, numpy), UserPromptSubmit (protokół przy każdej wiadomości), PostToolUse (filtr na diffie pliku głównego i CLAUDE.md). |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
@@ -122,7 +123,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (26.09.2026, sesja CC 3; dokument v3.5, rejestr do 165)
+## Gdzie skończyliśmy (26.09.2026, sesja CC 4; dokument v3.5, rejestr do 167)
 
 Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym numerze i we wskazanej sekcji pliku.
 
@@ -144,20 +145,21 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym num
   - Warunki przy osobliwości (160).
   - Hawking; krzywa Page'a jako funkcja liczebności; wyspy; firewall wykluczony (161).
   - „+1” za punktem Page'a: [?].
-- **§F1, zespół funkcji [94] (151–158, 165).**
-  - Wypisany (152–153): 3 sprzężenia (b = 41/6, −19/6, −7), masy tylko jako stosunki, λ; 19 odczytów.
+- **§F1, zespół funkcji [94] (151–158, 165–167).**
+  - **Stan zespołu: zestawienie „STAN ZESPOŁU” w §F1 (167).**
+  - Wypisany (152–153): 3 sprzężenia (b = 41/6, −19/6, −7), Yukawy tylko jako stosunki (odczyt B, 166), λ; 19 odczytów.
   - Wyprowadzony (155): −⅓ = „sztuki czy miara”; logarytm tylko przy d = 3.
   - Zasada wielu punktów tylko dla λ na końcu Plancka (154). Jedyne trafienie struktury: m_H i m_t na granicy stabilności.
   - Grupa cechowania oraz ≤ 3 i ≥ 3 pokolenia: warunkowo z J₃(𝕆) (156–158).
   - Pendleton–Ross i Hill jako stosunek stosunków: (1/R − 9/2) ∝ α₃^{1/b₃}. „Za wolno” = wykładnik −1/7 wobec pustyni (165, etap22).
+  - Leptony e : μ : τ (166, etap23): „masa” ma dwa odczyty — A = faza na własne tyknięcie (masa biegunowa, R1f-3), B = Yukawy przy wspólnej rozdzielczości; różnica 1–3%. Rama nie daje żadnego warunku na dwa stosunki. Koide i δ = 2/9 zachodzą tylko na A. Pułapka nazewnicza nr 6.
   - Wątek poboczny: 146–150 (typy logarytmów S/K, ⅓, warunek na końcach, Ĥ|Ψ⟩ = 0 nie ustala stałych).
 - **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolutne.
 
 ## Najbliższe kroki
 
-1. **Zespół: zestawienie stanu.** Zakres: funkcje policzone / 19 odczytów / co ustala struktura / co otwarte. Tabelę przedstawiono użytkownikowi 26.09 (koniec zapisu sesji 3); nie jest wpisana do pliku. Proponowane dalej:
-   - (a) stosunki leptonów e : μ : τ, jedyne bez skali: czy relacja ramy ustala je bez dopasowania; Koide tylko jako kontrola;
-   - (b) krytyczność λ liczona wprost na porządku;
+1. **Zespół.** Zestawienie stanu jest w pliku (167); (a) stosunki leptonów zrobione (166: rama ich nie ustala). Dalej:
+   - (b) krytyczność λ liczona wprost na porządku (jedyne trafienie struktury w zespole);
    - (c) sztywność (A11d).
 2. **Otwarte liczby i pytania:** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1.
 3. **Czarne dziury:** pytania P-K w C5 po filtrze.
