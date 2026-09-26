@@ -14,7 +14,9 @@ PLIKI = sorted(glob.glob(os.path.join(KAT, '*.md')), key=lambda f: ('logika-rela
 
 
 def wiadomosci(plik):
-    t = open(plik, encoding='utf-8').read()
+    # <details> (wyniki i wywołania narzędzi w zapisach sesji CC) usuwane PRZED podziałem: wydruki narzędzi
+    # zawierają linie „## [n] Użytkownik …” (np. rama.py 4), które inaczej udawałyby wypowiedzi użytkownika
+    t = re.sub(r'<details>.*?</details>', '', open(plik, encoding='utf-8').read(), flags=re.S)
     for k in re.split(r'\n(?=## \[\d+\] )', t):
         m = re.match(r'## \[(\d+)\] Użytkownik[^\n]*', k)
         if m:

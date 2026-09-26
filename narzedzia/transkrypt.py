@@ -19,6 +19,9 @@ def clean(s):
     return re.sub(r'<user-prompt-submit-hook>.*?</user-prompt-submit-hook>', '', s, flags=re.S).strip()
 def ts(d): return d.get('timestamp', '')[:16].replace('T', ' ')
 def cut(s, n=1500): return s if len(s) <= n else s[:n] + '\n…[ucięto]'
+def neutral(s):  # wydruk narzędzia nie może udawać nagłówka wiadomości ani zamknąć bloku <details>
+    s = s.replace('<details>', '&lt;details&gt;').replace('</details>', '&lt;/details&gt;')
+    return re.sub(r'(?m)^## \[', ' ## [', s)
 
 
 L = [f'# {a.tytul}', '', (a.opis + ' ' if a.opis else '') + 'Wiadomości użytkownika i odpowiedzi asystenta w całości; '
@@ -38,7 +41,7 @@ for line in open(src, encoding='utf-8'):
             elif b.get('type') == 'tool_result':
                 r = b.get('content')
                 if isinstance(r, list): r = '\n'.join(x.get('text', '') for x in r if isinstance(x, dict))
-                L += ['<details><summary>wynik</summary>', '', '````', cut(clean(str(r or ''))), '````', '</details>', '']
+                L += ['<details><summary>wynik</summary>', '', '````', neutral(cut(clean(str(r or '')))), '````', '</details>', '']
     elif t == 'assistant' and isinstance(c, list):
         for b in c:
             if b.get('type') == 'text' and b['text'].strip():
@@ -47,6 +50,6 @@ for line in open(src, encoding='utf-8'):
                 i = b.get('input', {})
                 desc = i.get('description') or i.get('query') or i.get('url') or i.get('file_path') or ''
                 body = i.get('command') or i.get('prompt') or ''
-                L += ['<details><summary>narzędzie</summary>', '', '````', f"{b['name']}: {desc}", cut(body, 800), '````', '</details>', '']
+                L += ['<details><summary>narzędzie</summary>', '', '````', neutral(f"{b['name']}: {desc}"), neutral(cut(body, 800)), '````', '</details>', '']
 open(a.out, 'w', encoding='utf-8').write('\n'.join(L))
 print(f'{a.out}: {n} wiadomości (źródło {src})')
