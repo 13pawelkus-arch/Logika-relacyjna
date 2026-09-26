@@ -1,6 +1,50 @@
 # Logika relacyjna — instrukcja dla Claude
 
-Ten plik wczytuje się automatycznie na starcie każdej sesji w tym repo. Cel: nie tłumaczyć kontekstu od nowa. **Rozmawiamy po polsku.**
+Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po polsku.** Zacząć od sekcji PROTOKÓŁ.
+
+## PROTOKÓŁ — czytać przed wszystkim innym
+
+**Ten plik to indeks i protokół, nie rama.** Rama = `logika-relacyjna-v3.5.md` + wypowiedzi użytkownika w `rozmowa/`. Streszczenia niżej („Indeks ramy”, „Gdzie skończyliśmy”) służą do znalezienia sekcji pliku i numeru [n], **nie do wnioskowania ani do testu wierności**.
+
+**1. Start sesji i po każdej kompresji kontekstu.** Hook SessionStart to przypomina. Hook UserPromptSubmit przypomina przy każdej wiadomości, dopóki rama nie zostanie przeczytana. Całość, nie fragmenty:
+```
+python3 narzedzia/rama.py 1   # Jak czytać, Cel, Przed liczeniem, pułapki, Dopuszczalne stany, Gdzie zaczynać, A0, A1, Sito, Reguły
+python3 narzedzia/rama.py 2   # R1a — definicja czasu
+python3 narzedzia/rama.py 3   # R1b + R1c — 3D z definicji czasu, światło
+python3 narzedzia/rama.py 4   # wypowiedzi użytkownika o czasie, 3D, świetle (rozmowa źródłowa)
+```
+Stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru §E w pliku.
+
+**2. Przed każdym tematem, rachunkiem i wpisem.** Dotyczy każdego kroku, także po „Ok”, „Wpisuj”, „Zaczynaj”: to zgoda na treść, nie zwolnienie z kroków.
+1. **Wypowiedzi użytkownika na ten temat.**
+   - Polecenie: `python3 narzedzia/wypowiedzi.py 'regex'` (przeszukuje wszystkie rozmowy; opcje `--pelne`, `--nr 94,104`).
+   - W odpowiedzi podać numery [n], na których się opieram.
+   - Te same słowa nie znaczą tego samego pojęcia: „relacja relacji” u użytkownika jest szersza niż u asystenta (158).
+2. **Co już jest w pliku.** Grep tematu w `logika-relacyjna-v3.5.md`: przekształcenia, wcześniejsze wyniki, wiersze rejestru §E (czy ten temat miał już błąd). Nie wypisywać od nowa tego, co już jest.
+3. **Test wierności robić wobec pliku, nie wobec CLAUDE.md.** Sekcje: Dopuszczalne stany, Sito, A0, A1, Cel, Dalej otwarte oraz R1a i R1b.
+4. **Sformułowania przepuścić przez R1a i R1b.**
+   - Odczyt jest zawsze teraz. Zamiast przebiegu: stosunek dwóch punktów odniesienia. Nic nie jest cechą.
+   - Hook PostToolUse sam uruchamia `narzedzia/filtr.py` na diffie pliku głównego i CLAUDE.md. Ostrzeżenie w zdaniu merytorycznym oznacza: przeformułować.
+   - Szkic można sprawdzić przed wpisem: `echo '…' | python3 narzedzia/filtr.py`.
+5. **Formalizm z literatury: pełny i ze źródła, nie z pamięci.** Wszystkie człony, dane i parametry. Do tego pytanie: co zakłada pytanie wzięte z literatury.
+
+**Dlaczego tak (diagnoza sesji 3, 25–26.09.2026).**
+- CLAUDE.md miał 26 KB streszczeń i dawał złudzenie znajomości ramy.
+- Instrukcja „czytać wypowiedzi użytkownika (grep)” nie miała wyzwalacza.
+- „Wpisuj” było wykonywane od razu, bez sprawdzeń.
+
+Interwencje użytkownika:
+
+| wypowiedź użytkownika | co się stało | pominięty krok |
+|---|---|---|
+| „Najpierw wróć do plików poprzednich rozmów i porównaj…” | Wpis o zespole zrobiony bez ani jednego grepa rozmów. Zdanie [104] wzięte ze streszczenia jako „jedna relacja między końcami”, co przeczy [94] (poprawka 151). | 2.1 |
+| „A przekształcenia są chyba wszystkie już w pliku” | Przed wypisaniem nie sprawdzono A2 i R1d. | 2.2 |
+| „Zweryfikuj te uwagi” | Równania wypisane z pamięci, niepełne: brak członu śladowego T, −3/2·y_t², θ_QCD (153). | 2.5 |
+| „Rama to plik logika relacyjna. Przejrzyj go…” | Test wierności zrobiony wobec CLAUDE.md. Dopuszczalne stany, Sito, A0, A1 nieprzeczytane. „Dlaczego 𝕆” rozstrzygane od strony Ø (157). | 1, 2.3 |
+| „Przejrzyj jeszcze rozmowy zanim zaczniesz” | Pominięte [104] R ⊗ R (158). | 2.1 |
+| „Zapoznaj się dokładnie z definicją czasu, oraz wyprowadzenia wymiaru 3D…” | R1a przeczytane pierwszy raz dopiero po 25 wymianach. Analiza czarnych dziur z „ostatnim odczytem”, „powstają”, „przepływem” (159). | 1, 2.4 |
+
+Hooki są w `.claude/settings.json`, znaczniki w `/tmp/logika-rama/`. Jeśli komunikat „PROTOKÓŁ STARTU” nie pojawił się na starcie sesji, hook nie zadziałał. Protokół obowiązuje wtedy tak samo.
 
 ## Czym jest projekt
 
@@ -12,13 +56,15 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 |---|---|
 | `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
-| `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161). |
+| `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25–26.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161), R1f działanie, energia, pęd i masa z fazy, przyspieszenie (162–164), Pendleton–Ross bez kierunku (165), diagnoza CLAUDE.md i protokół z hookami. |
 | `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
-| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09). |
+| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross). |
+| `narzedzia/` | `rama.py` (rama z pliku i rozmów, 4 części), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach), `filtr.py` (sformułowania wobec R1a/R1b), `transkrypt.py` (zapis sesji), `start.sh` i `przypomnienie.py` (hooki). |
+| `.claude/settings.json` | Hooki: SessionStart (protokół startu, numpy), UserPromptSubmit (protokół przy każdej wiadomości), PostToolUse (filtr na diffie pliku głównego i CLAUDE.md). |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
 
-## FUNDAMENT: rama użytkownika (czytać przed każdym krokiem, nie przeinaczać)
+## Indeks ramy (streszczenie do szukania; źródło: plik i wypowiedzi [n] — `narzedzia/rama.py`, `narzedzia/wypowiedzi.py`)
 
 **Punkt wyjścia [0–26]:** fakt jest zawsze fałszywy. Fakty wypowiada wspólny aparat poznawczy, opinie pojedynczy; jedno i drugie jest fałszywe. Opinia to nieuprawniona projekcja stanu jednego aparatu na obiekt. Tylko dwa zdania są prawdziwe: **milczenie i relacja**. **Logika relacyjna = struktura bez zawartości; obiektywna rzeczywistość (Ro) = zawartość bez struktury.** Wszechświat (R) to wycinek Ro objęty relacją, nie Ro [104–108].
 
@@ -61,7 +107,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Rachunki dłuższe niż kilka minut na CPU: od razu na GPU** (Colab A100 40 GB, 80 GB możliwe, ale jednostki drogie). Kod gotowy do wklejenia, parametry na górze, checkpointy, bezpiecznik pamięci liczony przed alokacją (było OOM). Lokalnie tylko sprawdzenie, że kod działa. Nie liczyć wszystkiego z automatu [96].
 - **Nie wpisywać do plików** „problem czasu” ani nazwiska Kuchař [272–276] (życzenie użytkownika).
 - Na koniec sesji: zaktualizować dokument (albo podbić wersję), rejestr, sekcję „Gdzie skończyliśmy” tutaj; commit + push.
-- **Zapis rozmowy z Claude Code:** przed końcem każdej sesji (zewnętrznych ocen nie włączać — życzenie użytkownika) zamienić jej transkrypt (`~/.claude/projects/-home-user-Logika-relacyjna/*.jsonl`) na `rozmowa/claude-code-sesja-RRRR-MM-DD.md` (jak w pliku z 24.09) i wypchnąć — w Claude Code nie ma eksportu, a kontener znika po sesji.
+- **Zapis rozmowy z Claude Code:** przed końcem każdej sesji `python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-RRRR-MM-DD.md --tytul '…' --opis '…'` (zewnętrznych ocen nie włączać — życzenie użytkownika; usunąć ręcznie, jeśli były), dopisać wiersz w tabeli „Pliki”, commit + push. W Claude Code nie ma eksportu, a kontener znika po sesji.
 
 ## Oś projektu (podsumowanie użytkownika, 25.09.2026)
 
@@ -70,23 +116,42 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (sesja CC 2, 24/25.09.2026; dokument v3.5, rejestr do 165)
+## Gdzie skończyliśmy (26.09.2026, sesja CC 3; dokument v3.5, rejestr do 165)
 
-**Oś 1–2: czas, c, 3D — domknięte strukturalnie (czytać R1b, R1c w dokumencie):**
-- **R1b — dowód 3D z definicji czasu, bez przestrzeni tła.** Rama ⇒ P0–P6 ⇒ d = 3 (Masanes, Müller, Pérez-García, Augusiak 2014: kula odczytów, w której dwa minimalne nośniki informacji wchodzą w relację, jest tylko 3-wymiarowa; d=1 wypada na ciągłości, d=2 i d≥4 — brak relacji). D0: wymiar przestrzeni := wymiar kuli wszystkich odczytów. Test wierności (poprawka 128): ¬P każdej przesłanki wyklucza się ze zdaniem ramy. Pamięć w dowodzie: kontrola bez zapisu = bit klasyczny, bez ciągłego ruchu („ruchu nie da się zauważyć” [400]). Spójność grupy z „brak zewnętrznych aktorów” [354]. Zapis formalny R1b-F. Brak punktów otwartych.
-- **R1c — most do światła i porządku.** det ρ = norma Minkowskiego: zbiór stanów nośnika = stożek przyczynowy; kula odczytów = przekrój w ramie czytającego; stany czyste = kierunki zerowe = foton, t=0; ∂B³ = sfera niebieska; Lorentz z komunikacji (Höhn–Müller 2016); c ⇔ dodatniość prawdopodobieństw; translacje = porządek między czytającymi + Malament. Stożek stanów ≡ stożek przyczynowy.
-- Krzywizna: „płaskość jako średnia” i P-K1, P-K3, P-K4 źle postawione (poprawka 113): krzywizna 0 = Planck/nieoznaczoność/osobliwość ≡ Ø, opisywalne tylko przez otoczenie. Obserwowana płaskość = nierozróżnialność przy danej rozdzielczości odczytu.
+Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym numerze i we wskazanej sekcji pliku.
 
-**R1d — elektron, pole EM, kwark (pogawędka 25.09):** faza w punkcie ≡ Ø, pole EM = relacja faz (koneksja), ładunek = siła wiązania; elektron = zygzak dwóch struktur t=0 (L↔R), masa = tempo przechodzenia (Penrose); odległość = ½ tyknięć obiegu odczytu, energia = częstość odczytu na tyknięcie, E·r = α; przeciwne funkcje sprzężenia od obiegu: elektron = relacja (abelowa), kwark = relacja relacji (nieabelowa) [94]; masa elektronu = jednostronna relacja z nierozróżnialnym tłem (Higgs ≡ Ø); asymetria [126] = Sacharow, faza nieusuwalna tylko przy ≥ 3 pokoleniach [?]; faza na linkach: diament = elektryczne, korona = magnetyczne.
+- **Czas, c, 3D: domknięte strukturalnie.**
+  - R1a: definicja czasu.
+  - R1b: dowód 3D (P0–P6, Masanes i in. 2014; poprawki 123, 128).
+  - R1c: det ρ = norma Minkowskiego, stożek stanów ≡ stożek przyczynowy (129).
+  - Krzywizna: pytania o płaskość źle postawione (113).
+- **R1d:** elektron, pole EM, kwark. **R1e:** spin i fala EM (143–145).
+- **R1f, działanie i energia (162–164).**
+  - S/ħ = obroty fazy. Wspólny nośnik obu sektorów = obiegi (etap19). Dwie wagi = dwie rodziny R4.
+  - Energia = obroty fazy na tyknięcie w miejscu czytającego.
+  - m² = det P = 2k₁·k₂; faza na własne tyknięcie = m (etap20).
+  - Przyspieszenie a·τ = 2√(E/τ) z odwrotnej nierówności trójkąta; Unruh (etap21). Porządek 3+1 niepoliczony.
+  - Audyt: wszystkie pojęcia §F1 i A5d mają definicje.
+- **A5d, czarne dziury (159–161).**
+  - Z zewnątrz brzeg 2D ≡ Ø.
+  - Horyzont zdarzeń odpada (teleologia), zostaje brzeg lokalny [460].
+  - Warunki przy osobliwości (160).
+  - Hawking; krzywa Page'a jako funkcja liczebności; wyspy; firewall wykluczony (161).
+  - „+1” za punktem Page'a: [?].
+- **§F1, zespół funkcji [94] (151–158, 165).**
+  - Wypisany (152–153): 3 sprzężenia (b = 41/6, −19/6, −7), masy tylko jako stosunki, λ; 19 odczytów.
+  - Wyprowadzony (155): −⅓ = „sztuki czy miara”; logarytm tylko przy d = 3.
+  - Zasada wielu punktów tylko dla λ na końcu Plancka (154). Jedyne trafienie struktury: m_H i m_t na granicy stabilności.
+  - Grupa cechowania oraz ≤ 3 i ≥ 3 pokolenia: warunkowo z J₃(𝕆) (156–158).
+  - Pendleton–Ross i Hill jako stosunek stosunków: (1/R − 9/2) ∝ α₃^{1/b₃}. „Za wolno” = wykładnik −1/7 wobec pustyni (165, etap22).
+  - Wątek poboczny: 146–150 (typy logarytmów S/K, ⅓, warunek na końcach, Ĥ|Ψ⟩ = 0 nie ustala stałych).
+- **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolutne.
 
-**R1e — spin i fala EM (25.09, sesja CC 3):** odczyt spinu = relacja dwóch kierunków (nośnik, czytający); znak 2π = relacja dwóch dróg = (−1)^{2s} we współczynniku b (część listy wejść §F1 już w ramie); s(s+1) = niezmiennik nośnik–triada. Dwie kule B³ ze stożkiem Minkowskiego: sfera niebieska (kierunki) ≠ kula Poincarégo (polaryzacja, θ ↦ 2θ) (144). Foton jest kubitem tylko w 3D (d − 1 polaryzacji; spójność z R1b). ⅓ w (2s)² − ⅓ = stała na stan, nie 1/d; D wchodzi przez liczbę stanów → (26 − D)/3 (145).
+## Najbliższe kroki
 
-**Oś 3–4: masa — hipoteza nadrzędna [H] (§F1):** układ samopodobny aż do całości; masa nie jest ostatnim krokiem, ustalana wszystko naraz. Logarytmy w dokumencie (ln n, ln W, ln(n₀/n), ln(N_Λ/N)) = ślad samopodobieństwa (miara du/u); masa = łamanie samopodobieństwa (transmutacja). Zdanie do upadku (poprawione, 139): wykładniki tylko z policzonych współczynników, lista wejść przed rachunkiem, bez dopasowania. Sfera fotonowa = samoodczyt pętlą światła; lustro ƛ_C ↔ r_s (m → m_P²/m) dokładne tylko w 3D (140). A4: log e(C) = brak etykiety przed/po; A4d bez „na końcu” (138). A5c: kosmologia, GPS, ruch nieustający (141).
-
-**Wcześniejsze wyniki (bez zmian, szczegóły w §F2, C4a, C5):** most masa ↔ logarytmy przez ramę (ln n, współczynnik 1, 1+1 i 3+1); ε = rozdzielczość tempa; R-KĄT i redukcja lokalna [T]; §F1 z etap7–9 obniżone (poprawka 103); H₂: typ II = 1/24·ln N, granica ~0,84; Regge na sztywnym kompleksie (etap18) = zero absolutne, dynamika niemierzona.
-
-**Najbliższe kroki** (kolejność z 25.09, poprawka 142: porządek zrobiony; teraz 2 (zrobione: R1e) → 1, bo czynnik spinowy (−1)^{2s}[(2s)² − ⅓] jest na liście wejść §F1):
-1. **§F1 — zespół funkcji [94] (poprawka 151):** cel to zespół funkcji biegu bezwymiarowych stosunków (β dla sprzężeń, γ dla mas) od logarytmu liczebności, dwóch typów (relacja / relacja relacji), samopodobny i ustalany naraz [104]; liczby = wartości w jednym stanie [88]. Przekształcenia sprzężeń są już w A2 ([86] użytkownika) i R1d; bieg mas m(μ₁)/m(μ₂) = [α_s(μ₁)/α_s(μ₂)]^{γ₀/(2b₀)} = „stosunek dwóch stosunków do stosunku” dopisany w §F1. **Zespół wypisany (152):** 3 sprzężenia (b = 41/6, −19/6, −7; U(1) relacja, SU(2)/SU(3) relacja relacji), masy **tylko jako stosunki** (153: człon śladowy T ≈ 3y_t² i bieg v skracają się tylko w stosunkach) — Π α_i^{p_i(f)−p_i(f′)}, p_i = −c_i/2b_i wymierne z listy 147 (kwark 3 czynniki, elektron 2), λ; kształt w całości policzony; 19 danych (z θ_QCD) = N równań → N odczytów (spójność [88] z matematyką, nie odkrycie); wewnątrz typu biegnie tylko 3. pokolenie przez ±3/2·y_t², leptony stoją; pokolenia = kopie tych samych funkcji; Pendleton–Ross/Hill: struktura ustala stosunek, ale za wolno. **154:** zasada wielu punktów tylko na końcu Plancka i tylko dla λ (λ = 0: Ø z Ø nie jest relacją; β_λ = 0: sąsiedztwo nieodróżnialne) → m_H, m_t, natura na granicy stabilności (kilka σ); pokolenia = trzy odczyty jednostronnej relacji z Ø (liczb brak), CKM = relacja relacji; leptony jedyne stosunki bez skali, Koide = kąt 45° [L][O] z ostrzeżeniem. **155 — funkcje wyprowadzone:** b z poziomów Landaua; **−⅓ = suma po obiegach − całka = „sztuki czy miara”**; logarytm tylko przy d = 3; (−1)^{2s} = znak 2π; εμ = 1 = c; masy: zygzak, c = 3[C(L)+C(R)]; λ: β_λ(λ=0) = supertrace, warunek 154 = bilans (−1)^{2s}. **156 — grupa i pokolenia warunkowo:** G_SM = część Spin(9) zachowująca 𝕆 = ℂ ⊕ ℂ³ (ℂ wybrane przez R1b); pokolenia ≤ 3 (J_n(𝕆) tylko n ≤ 3) i ≥ 3 ([126], Sacharow, KM); jedno założenie: odczyty wewnętrzne oktonionowe, w napięciu z P5/P6 — (a) wykluczone / (b) algebra punktu ≡ Ø. **157 — test wierności (b) według pliku:** w punkcie ≡ Ø przeszło („Dopuszczalne stany”: brak otoczenia wypada z układu; J₃(𝕆) bez złożeń); „dlaczego 𝕆” źle postawione (rozstrzygane od strony Ø — błąd jak 65; postać ustala otoczenie); grupa nie wynika z dwóch pierwotnych — wg „Sita” wynik: trzeci element w postaci milczenia w punkcie; 𝕆 vs Connes rozróżnia A0 (≤ 3 pokolenia). **Zasada z tej rundy: „rama” = plik — przed wpisem przejrzeć plik (Dopuszczalne stany, Sito, A0, A1, Cel, Dalej otwarte) i rozmowy (wypowiedzi użytkownika), nie tylko CLAUDE.md.** 158: [104] świat = R ⊗ R wspiera (b); „relacja relacji” u użytkownika szersze (przestrzeń [78], masa [94], świat [104]) niż odczyt asystenta (nieabelowa); droga 𝕆 nie z rozmów — nie rozwijać bez potrzeby. **159 — A5d, czarne dziury (przez definicję czasu i 3D):** z zewnątrz obszar bez odczytywalnego zapisu nie ma „+1” → brzeg 2D ≡ Ø; entropia ∝ pole = liczba relacji przez brzeg; Jacobson = bilans (S = molekuły); osobliwość tylko nie wprost, ≡ chwila zero; horyzont zdarzeń odpada (teleologia), zostaje brzeg lokalny = [460] (przesłanka Penrose'a); bez „powstawania”, „przepływu”, „ostatniego odczytu”. **160 — (a):** otoczenie osobliwości w literaturze = koniec Plancka w ramie (cisza asymptotyczna = [76], potencjał skalarny nieistotny = λ ≡ 0, spokojny Kasner przy polu skalarnym = samopodobny koniec); z zewnątrz brak włosów (M, J, Q) i brak włosów skalarnych → warunki obowiązują, ale nie ustalają odczytu (pustynia za brzegiem). **161 — (b):** „czy informacja ginie” źle postawione (R1a); Hawking = Ø od strony czytającego z zewnątrz, T_H = jak szybko stosunek tempa odczytu znika na brzegu; krzywa Page'a = funkcja liczebności (Page 1993), punkt Page'a = stosunek 1, nie chwila; wyspy = najtańszy brzeg, zapis wnętrza należy do posiadacza R (R1a: ile przeszłości zależy od zdolności zapisu); firewall wykluczony (niezmienniczość od środka); „+1” za punktem Page'a [?]. **162 — R1f, działanie i energia** (użytkownik: „niedokończona energia zawali F1”; „+1” za Page'em zostaje [?]): energia i działanie weszły cicho do 148–155 i A5d (audyt w R1f); działanie S/ħ = obroty fazy (relacja faz); wspólny nośnik obu sektorów = obiegi (etap19: holonomia = deficyt, S_Wilson niezmiennicze przy fazie w punktach, sumy po zamkniętym brzegu 2D = 2π·liczba); dwie wagi = dwie rodziny R4 (cechowanie: faza, kwadratowo, bez skali; grawitacja: liczność/kąt×pole, liniowo, ze skalą; w porządku oba na diamentach); energia = obroty fazy na tyknięcie (= ν z R1d), pęd i masa z tej samej fazy; energia próżni tylko jako różnica względem otoczenia; energia grawitacyjna tylko przez brzeg. **163 — R1f-3/4:** etap20: m² = det P, m² = 2·k₁·k₂ (masa = relacja dwóch części t = 0), faza na własne tyknięcie = m (niezależnie od v), zero fazy ustala Lorentz; cztery odczyty jednej fazy (m; m·√(1−v²) = dylatacja; E = γm w miejscu czytającego; |p|); audyt po kolei §F1/A5d: cicho weszły **przyspieszenie** (A5d, T_H) i **S_bulk** (wyspy → entropia uogólniona, Susskind–Uglum). **164 — R1f-5, przyspieszenie:** a·τ = 2√(E/τ), E = nadwyżka z odwrotnej nierówności trójkąta (w porządku L(p,c) − L(p,q) − L(q,c) ≥ 0 zawsze), τ = L(p,q) (cięciwa) — stosunek liczebności, od środka; etap21: kontinuum 1+1/3+1 zbieżność δ², porządek 1+1 (1,8 dekady) stosunki 0,995/1,005/1,011; Unruh T·τ = √(E/τ)/π; trzy błędy konstrukcji w A3 jawnie; porządek 3+1 niepoliczony. **Audyt R1f-4: wszystkie pojęcia §F1/A5d mają definicje (S_bulk → entropia uogólniona).** **165 — zespół po kolei:** Pendleton–Ross bez kierunku: (1/R − 9/2) ∝ α₃^{1/b₃} (stosunek stosunków, dowolne dwa punkty; etap22), „za wolno” = mały wykładnik −1/7 wobec pustyni; Hill ≈ 203 GeV tą samą postacią; „wartości początkowe” → w jednym punkcie odniesienia. **Następne w zespole: zestawienie stanu (funkcje policzone / 19 odczytów / co ustala struktura / co otwarte).** **Zasada: przed każdym krokiem sprawdzić sformułowania wobec definicji czasu (R1a) i 3D (R1b) — nie przemycać „potem”, „powstaje”, „foton robi”.** Wątek „warunek na końcach / wartości brzegowe” (147–150) poboczny: zostają typy S/K (146), ⅓ (145), Ĥ|Ψ⟩ = 0 nie ustala stałych (150), stała = relacja lokalnego z całością (150).
-2. Definicje z listy [94] wynikające z R1b–R1d: spin (kierunek jako relacja nośnika), fala EM — **zrobione w R1e (143–144)**; potem „działanie” (wagi obiegów faz na linkach) i energia w pełni.
-3. Czarne dziury po oczyszczeniu OTW z interpretacji — pytania do postawienia na nowo (P-K w C5 po filtrze).
-4. Otwarte liczby: y_e (co ustala częstość zygzaka), asymetria 10⁻⁹, H₂ (włączenia–wyłączenia), α jako transmutacja.
+1. **Zespół: zestawienie stanu.** Zakres: funkcje policzone / 19 odczytów / co ustala struktura / co otwarte. Tabelę przedstawiono użytkownikowi 26.09 (koniec zapisu sesji 3); nie jest wpisana do pliku. Proponowane dalej:
+   - (a) stosunki leptonów e : μ : τ, jedyne bez skali: czy relacja ramy ustala je bez dopasowania; Koide tylko jako kontrola;
+   - (b) krytyczność λ liczona wprost na porządku;
+   - (c) sztywność (A11d).
+2. **Otwarte liczby i pytania:** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1.
+3. **Czarne dziury:** pytania P-K w C5 po filtrze.
