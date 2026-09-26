@@ -65,11 +65,11 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 |---|---|
 | `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
-| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167); temat (b) krytyczność λ na porządku (168): pojedynczy element = miejsce relacji jednostronnych (Johnston), porządek nie wybiera λ, warunek Veltmana nie jest warunkiem ramy (etap24) — trzy błędy asystenta wykryte przez użytkownika (3+1 jako 4D, relacja bez jednostronnych, x jako obiekt); protokół: cały plik główny i rozmowy na starcie sesji i po kompresji, filtr podstawowy. |
+| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167); temat (b) krytyczność λ na porządku (168): pojedynczy element = miejsce relacji jednostronnych (Johnston), porządek nie wybiera λ, warunek Veltmana nie jest warunkiem ramy (etap24) — trzy błędy asystenta wykryte przez użytkownika (3+1 jako 4D, relacja bez jednostronnych, x jako obiekt); protokół: cały plik główny i rozmowy na starcie sesji i po kompresji, filtr podstawowy; temat (c) sztywność (169): druga wariacja = rozróżnialność sąsiednich konfiguracji, cztery poziomy w pliku, dosłowne ≡ = entropia względna 0, pułapki 7–8 (trzy uwagi użytkownika). |
 | `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25–26.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161), R1f działanie, energia, pęd i masa z fazy, przyspieszenie (162–164), Pendleton–Ross bez kierunku (165), diagnoza CLAUDE.md i protokół z hookami. |
 | `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
-| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23–24 z sesji 4: dwa odczyty stosunków leptonów; trzy warunki ciszy tła — λ, β_λ, Veltman). |
+| `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23–24 z sesji 4: dwa odczyty stosunków leptonów; trzy warunki ciszy tła — λ, β_λ, Veltman; etap25: kontrole tożsamości do sztywności, 169). |
 | `narzedzia/` | `rama.py` (cały plik główny i wszystkie wypowiedzi użytkownika kawałkami: `plik K`, `rozmowy K`; części 1–4 do powrotu w trakcie sesji), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach), `filtr.py` (sformułowania wobec R1a/R1b), `transkrypt.py` (zapis sesji), `start.sh` i `przypomnienie.py` (hooki). |
 | `.claude/settings.json` | Hooki: SessionStart (protokół startu, numpy), UserPromptSubmit (protokół przy każdej wiadomości; brakujące kawałki pliku i rozmów), PostToolUse (filtr na diffie pliku głównego i CLAUDE.md). |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
@@ -126,7 +126,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (26.09.2026, sesja CC 4; dokument v3.5, rejestr do 168)
+## Gdzie skończyliśmy (26.09.2026, sesja CC 4; dokument v3.5, rejestr do 169)
 
 Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym numerze i we wskazanej sekcji pliku.
 
@@ -158,11 +158,17 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym num
   - Leptony e : μ : τ (166, etap23): „masa” ma dwa odczyty — A = faza na własne tyknięcie (masa biegunowa, R1f-3), B = Yukawy przy wspólnej rozdzielczości; różnica 1–3%. Rama nie daje żadnego warunku na dwa stosunki. Koide i δ = 2/9 zachodzą tylko na A. Pułapka nazewnicza nr 6.
   - Krytyczność λ na porządku (168, 154 pkt 1a): pojedynczy element = miejsce relacji jednostronnych (Johnston: końce drogi, zatrzymania = relacja dwóch części t = 0); porządek nie wybiera λ i nie daje liczby. Warunek Veltmana nie jest warunkiem ramy (etap24 [T]: przy λ = 0 wyklucza się z β_λ = 0; człon Λ² = opis samego końca). Bieg λ na porządku niepoliczony (Jubb 2023). B1 poprawione: ℝ^{1,3} = 3D ramy.
   - Wątek poboczny: 146–150 (typy logarytmów S/K, ⅓, warunek na końcach, Ĥ|Ψ⟩ = 0 nie ustala stałych).
+- **Sztywność, temat (c) (169, A11d).**
+  - „Opór przeciw zmianie” źle postawione; druga wariacja = rozróżnialność sąsiednich konfiguracji.
+  - Cztery poziomy już w pliku: nośnik m (różnica faz drogi zgiętej i prostej = m·E dokładnie, etap25), relacje faz 1/g² (poziom 1 zespołu), tło m_H² = V″, struktura 1/G = liczność.
+  - Kierunek zerowy formy = ≡ tylko do drugiego rzędu; dosłowne ≡ = entropia względna 0 (uwagi użytkownika; Watanabe, Witten).
+  - Entropia względna (Araki) na porządku niepoliczona, wersji względnej entropii SJ w literaturze brak; test zapisany w A11d.
+  - Pułapki nazewnicze 7 („sztywny”) i 8 („stabilna”: część rzeczywista bieguna = węzeł, urojona = trwanie).
 - **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolutne.
 
 ## Najbliższe kroki
 
-1. **Zespół.** Zestawienie stanu jest w pliku (167); (a) stosunki leptonów zrobione (166: rama ich nie ustala); (b) krytyczność λ na porządku zrobiona (168: porządek nie daje odpowiednika warunków ze 154 ani liczby). Dalej:
-   - (c) sztywność (A11d). Przed nią PROTOKÓŁ 1: cały plik główny i rozmowy.
+1. **Zespół.** Zestawienie stanu jest w pliku (167); (a) stosunki leptonów zrobione (166: rama ich nie ustala); (b) krytyczność λ na porządku zrobiona (168: porządek nie daje odpowiednika warunków ze 154 ani liczby); (c) sztywność zrobiona (169: druga wariacja, już w ramie na czterech poziomach). Dalej:
+   - test entropii względnej na porządku (A11d, 169): najpierw informacja wzajemna dwóch poddiamentów w literaturowym 1+1, CPU — do decyzji użytkownika.
 2. **Otwarte liczby i pytania:** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1.
 3. **Czarne dziury:** pytania P-K w C5 po filtrze.
