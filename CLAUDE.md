@@ -1,6 +1,6 @@
 # Logika relacyjna — instrukcja dla Claude
 
-Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po polsku.** Zacząć od sekcji PROTOKÓŁ.
+Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po polsku.** Zacząć od sekcji „Jak pracujemy”.
 
 > **Waga (użytkownik, 26.09.2026, dosłownie):** „Chodzi mi głównie o to, żebyś widział i zdawał sobie sprawę z wagi tego, co tu jest robione. Może brzmi niewinnie — »definicja czasu«. Ale to m.in. ta definicja wywala cały świat do góry nogami w taki sposób, że nic nie jest już takie samo jak było. Łącznie z matematyką i teoriami. Trudność polega na tym, że my nie tworzymy nowych, tylko odrzucamy interpretacje, uwarunkowania i zmienia to nasz sposób patrzenia diametralnie.”
 >
@@ -8,52 +8,23 @@ Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po p
 >
 > **Wniosek dla pracy:** rama czytana w pełnym tekście (plik + rozmowy), nie ze streszczeń — także nie ze streszczeń w tym pliku. Formuły z literatury zostają, ich pytania odpadają; ponieważ matematyka wygląda tak samo, dawne odczytanie wraca niezauważone (sesja 3: poprawki 151, 159, 161, 165). `filtr.py` łapie tylko słowa; złe pytanie bez złego słowa („czy informacja ginie”) łapie tylko R1a przeczytane w całości.
 
-## PROTOKÓŁ — czytać przed wszystkim innym
+## Jak pracujemy (użytkownik, 26.09.2026, po sesji 4)
 
-**Ten plik to indeks i protokół, nie rama.** Rama = `logika-relacyjna-v3.5.md` + wypowiedzi użytkownika w `rozmowa/`. Streszczenia niżej („Indeks ramy”, „Gdzie skończyliśmy”) służą do znalezienia sekcji pliku i numeru [n], **nie do wnioskowania ani do testu wierności**.
+**Ten plik to indeks, nie rama.** Rama = `logika-relacyjna-v3.5.md` + rozmowy w `rozmowa/`. Streszczenia niżej („Indeks ramy”, „Gdzie skończyliśmy”) służą do znalezienia sekcji pliku i numeru [n], nie do wnioskowania.
 
-**1. Start sesji i po każdej kompresji kontekstu: cały plik główny.** Użytkownik (26.09, po poprawce 168): „Wystarczyło czytać plik główny i rozmowy na początku + na bieżąco. To nie jest tanie, ale jak widać konieczne.” I dalej: „Proponuję czytać sam plik, a rozmowy w razie wątpliwości niech służą — jak pojawia się jakakolwiek wątpliwość. Nie tylko moje wiadomości tam są, ale i Twoje odpowiedzi. Cały tok rozumowania. Plik główny jest ich bieżącym zapisem od samego początku. Poszerzony o obliczenia. Wszystkie kody są do wglądu w osobnym pliku też.” Hook SessionStart to przypomina; hook UserPromptSubmit przypomina przy każdej wiadomości i wypisuje brakujące kawałki. Po kolei, w całości:
-```
-python3 narzedzia/rama.py plik          # liczba kawałków (~24 tys. znaków; Read ucina długie linie)
-python3 narzedzia/rama.py plik K        # K = 1…N: cały plik główny
-```
-**Rozmowy — przy każdej wątpliwości, całe wymiany** (wypowiedź + odpowiedź = tok rozumowania): `python3 narzedzia/wypowiedzi.py 'regex'` i `python3 narzedzia/wypowiedzi.py --nr N --wymiana`; całość wypowiedzi: `python3 narzedzia/rama.py rozmowy K`. Kody rachunków: `skrypty/`. Na bieżąco: krok 2 przy każdym temacie. Części `rama.py 1–4` służą do powrotu w trakcie sesji.
+Protokół z sesji 3–4 (czytanie wszystkiego co kawałek, lista kroków przed każdym tematem i wpisem, przypomnienia przy każdej wiadomości, automatyczny filtr) — **wycofany**. Użytkownik: „Nie masz żadnej swobody i znowu jest przesadzone wszystko z drugą stronę za bardzo. Jak wcześniej co chwilę gubiłeś i nie brałeś pod uwagę tego, co jest w pliku głównym, tak teraz znowu za bardzo. […] Ze skrajności w skrajność. Kompresować źle, czytać co kawałek wszystko źle.”
 
-**Filtr podstawowy (użytkownik, 26.09):** „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” W pliku: §E, Reguły (poprawka 168). Nowych wzorców do `filtr.py` nie dopisywać: „Filtry sobie daruj, bo w końcu przepiszesz cały plik główny w formie filtrów.”
-
-Stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru §E w pliku.
-
-**2. Przed każdym tematem, rachunkiem i wpisem.** Dotyczy każdego kroku, także po „Ok”, „Wpisuj”, „Zaczynaj”: to zgoda na treść, nie zwolnienie z kroków.
-1. **Wypowiedzi użytkownika na ten temat.**
-   - Polecenie: `python3 narzedzia/wypowiedzi.py 'regex'` (przeszukuje wszystkie rozmowy; opcje `--pelne`, `--nr 94,104`, `--wymiana` — z odpowiedzią asystenta).
-   - W odpowiedzi podać numery [n], na których się opieram.
-   - Te same słowa nie znaczą tego samego pojęcia: „relacja relacji” u użytkownika jest szersza niż u asystenta (158).
-2. **Co już jest w pliku.** Grep tematu w `logika-relacyjna-v3.5.md`: przekształcenia, wcześniejsze wyniki, wiersze rejestru §E (czy ten temat miał już błąd). Nie wypisywać od nowa tego, co już jest.
-3. **Test wierności robić wobec pliku, nie wobec CLAUDE.md.** Sekcje: Dopuszczalne stany, Sito, A0, A1, Cel, Dalej otwarte oraz R1a i R1b.
-4. **Sformułowania przepuścić przez R1a i R1b.**
-   - Odczyt jest zawsze teraz. Zamiast przebiegu: stosunek dwóch punktów odniesienia. Nic nie jest cechą.
-   - Hook PostToolUse sam uruchamia `narzedzia/filtr.py` na diffie pliku głównego i CLAUDE.md. Ostrzeżenie w zdaniu merytorycznym oznacza: przeformułować.
-   - Szkic można sprawdzić przed wpisem: `echo '…' | python3 narzedzia/filtr.py`.
-5. **Formalizm z literatury: pełny i ze źródła, nie z pamięci.** Wszystkie człony, dane i parametry. Do tego pytanie: co zakłada pytanie wzięte z literatury.
-
-**Dlaczego tak (diagnoza sesji 3, 25–26.09.2026).**
-- CLAUDE.md miał 26 KB streszczeń i dawał złudzenie znajomości ramy.
-- Instrukcja „czytać wypowiedzi użytkownika (grep)” nie miała wyzwalacza.
-- „Wpisuj” było wykonywane od razu, bez sprawdzeń.
-
-Interwencje użytkownika:
-
-| wypowiedź użytkownika | co się stało | pominięty krok |
-|---|---|---|
-| „Najpierw wróć do plików poprzednich rozmów i porównaj…” | Wpis o zespole zrobiony bez ani jednego grepa rozmów. Zdanie [104] wzięte ze streszczenia jako „jedna relacja między końcami”, co przeczy [94] (poprawka 151). | 2.1 |
-| „A przekształcenia są chyba wszystkie już w pliku” | Przed wypisaniem nie sprawdzono A2 i R1d. | 2.2 |
-| „Zweryfikuj te uwagi” | Równania wypisane z pamięci, niepełne: brak członu śladowego T, −3/2·y_t², θ_QCD (153). | 2.5 |
-| „Rama to plik logika relacyjna. Przejrzyj go…” | Test wierności zrobiony wobec CLAUDE.md. Dopuszczalne stany, Sito, A0, A1 nieprzeczytane. „Dlaczego 𝕆” rozstrzygane od strony Ø (157). | 1, 2.3 |
-| „Przejrzyj jeszcze rozmowy zanim zaczniesz” | Pominięte [104] R ⊗ R (158). | 2.1 |
-| „Zapoznaj się dokładnie z definicją czasu, oraz wyprowadzenia wymiaru 3D…” | R1a przeczytane pierwszy raz dopiero po 25 wymianach. Analiza czarnych dziur z „ostatnim odczytem”, „powstają”, „przepływem” (159). | 1, 2.4 |
-| „3+1 to nie znaczy 4D… samo x jest relacją / zbiorem relacji… Przeczytaj plik główny cały” (sesja 4) | Analiza (b) po kompresji, z ramą 1–4, bez całego pliku: 3+1 wzięte za cztery wymiary; „relacja wymaga dwóch różnych elementów” bez relacji jednostronnych (154 miało to dobrze); x jako obiekt (x ≺ x). Żadne z trzech zdań nie dało ostrzeżenia filtra (168). | 1 (cały plik), 2.3, 2.4 |
-
-Hooki są w `.claude/settings.json`, znaczniki w `/tmp/logika-rama/`. Jeśli komunikat „PROTOKÓŁ STARTU” nie pojawił się na starcie sesji, hook nie zadziałał. Protokół obowiązuje wtedy tak samo.
+- **Na początku nowej sesji, raz: całość** — plik główny i rozmowy, „całe rozmowy z twoimi odpowiedziami, a nie tylko to, co ja piszę”, żeby mieć ogólny pogląd, co robimy:
+  ```
+  python3 narzedzia/rama.py calosc      # liczba kawałków (~25 tys. znaków każdy, razem ~1,6 mln znaków)
+  python3 narzedzia/rama.py calosc K    # K = 1…N, po kolei: plik główny, potem rozmowy chronologicznie
+  ```
+  Potem stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru §E w pliku.
+- **Zawsze „z tyłu głowy”: wyprowadzenie czasu i wymiarów** (R1a, R1b, R1c; `python3 narzedzia/rama.py 2` i `3`). „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” (§E, Reguły).
+- **Resztę — przed konkretnym krokiem:** wracać do fragmentów, które mają coś wspólnego z tym krokiem — sekcje pliku (grep) i wymiany w rozmowach (`python3 narzedzia/wypowiedzi.py 'regex'`, `--nr N --wymiana`); kody rachunków w `skrypty/`.
+- **Na końcu sesji, ewentualnie, całość jeszcze raz** — sprawdzić, czy coś nieuprawnionego się nie wkradło (`python3 narzedzia/rama.py plik K`).
+- **Po kompresji kontekstu** (w trakcie sesji): czas i wymiary (`rama.py 2`, `3`) oraz fragmenty bieżącego kroku; całości od nowa nie trzeba. Przypomina o tym hook SessionStart.
+- `narzedzia/filtr.py` (sformułowania wobec R1a/R1b; łapie tylko słowa) — do użycia z własnej decyzji, bez automatu.
 
 ## Czym jest projekt
 
@@ -65,13 +36,13 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 |---|---|
 | `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
-| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167); temat (b) krytyczność λ na porządku (168): pojedynczy element = miejsce relacji jednostronnych (Johnston), porządek nie wybiera λ, warunek Veltmana nie jest warunkiem ramy (etap24) — trzy błędy asystenta wykryte przez użytkownika (3+1 jako 4D, relacja bez jednostronnych, x jako obiekt); protokół: cały plik główny i rozmowy na starcie sesji i po kompresji, filtr podstawowy; temat (c) sztywność (169): druga wariacja = rozróżnialność sąsiednich konfiguracji, cztery poziomy w pliku, dosłowne ≡ = entropia względna 0, pułapki 7–8 (trzy uwagi użytkownika); temat (d) entropia względna na porządku (170): doprecyzowanie użytkownika (informacja wzajemna = przypadek szczególny), Arias i in., bliźniaki = zera iΔ, centrum algebry, etap26/26b na GPU — nie niesie obcięcia, rośnie jak ln N ze współczynnikiem zależnym od πR/σ. |
+| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167); temat (b) krytyczność λ na porządku (168): pojedynczy element = miejsce relacji jednostronnych (Johnston), porządek nie wybiera λ, warunek Veltmana nie jest warunkiem ramy (etap24) — trzy błędy asystenta wykryte przez użytkownika (3+1 jako 4D, relacja bez jednostronnych, x jako obiekt); protokół: cały plik główny i rozmowy na starcie sesji i po kompresji, filtr podstawowy; temat (c) sztywność (169): druga wariacja = rozróżnialność sąsiednich konfiguracji, cztery poziomy w pliku, dosłowne ≡ = entropia względna 0, pułapki 7–8 (trzy uwagi użytkownika); temat (d) entropia względna na porządku (170): doprecyzowanie użytkownika (informacja wzajemna = przypadek szczególny), Arias i in., bliźniaki = zera iΔ, centrum algebry, etap26/26b na GPU — nie niesie obcięcia, rośnie jak ln N ze współczynnikiem zależnym od πR/σ; luźna rozmowa o balansie oznaczoności i nieoznaczoności (niewpisana); procedury z sesji 3–4 wycofane („Jak pracujemy”). |
 | `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25–26.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161), R1f działanie, energia, pęd i masa z fazy, przyspieszenie (162–164), Pendleton–Ross bez kierunku (165), diagnoza CLAUDE.md i protokół z hookami. |
 | `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
 | `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23–24 z sesji 4: dwa odczyty stosunków leptonów; trzy warunki ciszy tła — λ, β_λ, Veltman; etap25: kontrole tożsamości do sztywności, 169; etap26–26c: entropia względna stanu koherentnego wobec SJ — rachunek CPU/GPU, test mechanizmu, kontrole wzorów w bazie Focka, 170). |
-| `narzedzia/` | `rama.py` (cały plik główny i wszystkie wypowiedzi użytkownika kawałkami: `plik K`, `rozmowy K`; części 1–4 do powrotu w trakcie sesji), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach), `filtr.py` (sformułowania wobec R1a/R1b), `transkrypt.py` (zapis sesji), `start.sh` i `przypomnienie.py` (hooki). |
-| `.claude/settings.json` | Hooki: SessionStart (protokół startu, numpy), UserPromptSubmit (protokół przy każdej wiadomości; brakujące kawałki pliku i rozmów), PostToolUse (filtr na diffie pliku głównego i CLAUDE.md). |
+| `narzedzia/` | `rama.py` (`calosc K`: plik główny i wszystkie rozmowy z odpowiedziami, kawałkami — raz na początku sesji; `plik K`: sam plik główny; części 2–3: czas i wymiary, 1 i 4: zasady i wypowiedzi o czasie), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach; `--wymiana` z odpowiedzią), `filtr.py` (sformułowania wobec R1a/R1b, opcjonalnie), `transkrypt.py` (zapis sesji), `start.sh` (hook). |
+| `.claude/settings.json` | Hook SessionStart: przypomnienie, jak pracujemy (nowa sesja: całość; po kompresji: czas i wymiary + fragmenty bieżącego kroku), numpy. |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
 
 ## Indeks ramy (streszczenie do szukania; źródło: plik i wypowiedzi [n] — `narzedzia/rama.py`, `narzedzia/wypowiedzi.py`)
@@ -103,7 +74,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 ## Zasady pracy (pełne w dokumencie: „Jak czytać”, „Przed liczeniem”, §E)
 
-- **Filtr na rachunki (25.09; 26.09 „filtr podstawowy”, poprawka 168 — patrz PROTOKÓŁ):** mamy definicję czasu ze wszystkimi konsekwencjami i strukturę, przez którą czas daje 3D; reszta to konsekwencja logiczna. **Każdy rachunek i każde pytanie przepuszczać przez ten filtr:** odczyt zawsze teraz, bez kierunku; przeszłość = zapis (ostry/rozproszony); odczyt = wzbudzenie = foton = link, c nieskończone bez odczytu; 3D = triada + zapis (4 punkty, nie osie), więcej = skróty, nie oś; 2D/płaskość ≡ Ø, nieosiągalne; struktura zawsze w ruchu (sztywna migawka = zero absolutne, wykluczone); nic nie jest cechą. Pytanie, które zakłada coś sprzecznego z filtrem, jest źle postawione, zanim cokolwiek policzymy.
+- **Filtr na rachunki (25.09; 26.09 „filtr podstawowy”, poprawka 168 — patrz „Jak pracujemy”):** mamy definicję czasu ze wszystkimi konsekwencjami i strukturę, przez którą czas daje 3D; reszta to konsekwencja logiczna. **Każdy rachunek i każde pytanie przepuszczać przez ten filtr:** odczyt zawsze teraz, bez kierunku; przeszłość = zapis (ostry/rozproszony); odczyt = wzbudzenie = foton = link, c nieskończone bez odczytu; 3D = triada + zapis (4 punkty, nie osie), więcej = skróty, nie oś; 2D/płaskość ≡ Ø, nieosiągalne; struktura zawsze w ruchu (sztywna migawka = zero absolutne, wykluczone); nic nie jest cechą. Pytanie, które zakłada coś sprzecznego z filtrem, jest źle postawione, zanim cokolwiek policzymy.
 - **Nie pytać o ocenę — rozstrzygać strukturą (25.09).** „Moja ocena i każda inna jest figę warta. Użyj logiki relacyjnej.” Ocena to projekcja stanu jednego aparatu (opinia). Zamiast pytać użytkownika „czy to trafne”, sprawdzić zgodność z definicjami ramy i kontrolą (np. co zostaje po usunięciu składnika).
 - **„Obiekt” tylko w znaczeniu ramy (25.09, poprawka 132):** obiekt = (stabilna) struktura relacji, która **jako całość** jest w relacji z inną strukturą. Np. jądro atomu: struktura relacji, która jako całość tworzy relację przestrzeni z elektronem; atom: struktura, która jako całość tworzy relację przestrzeni z innym atomem (węzły [404–408]). Nigdy jako nośnik zawartości poza strukturą — pytanie „ten sam obiekt czy tylko ta sama struktura” jest wtedy źle postawione (struktury bez różnicy relacji są ≡).
 - **Nie przejmować interpretacji (25.09).** Nie wymyślamy teorii ani matematyki; jedyna różnica to sposób patrzenia, którego w literaturze nie ma. Przed każdym rachunkiem i pytaniem z literatury **10 razy zastanowić się, co właściwie chcemy policzyć** i co dana wielkość/pytanie zakłada (kierunek, cechę, zewnętrzny parametr, gotową czasoprzestrzeń). Z literatury bierzemy formalizm i wynik, **nie pytanie**. Złamane w poprawkach 105, 106, 110 (§E).

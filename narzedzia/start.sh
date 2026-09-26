@@ -1,22 +1,18 @@
 #!/bin/bash
-# start.sh — hook SessionStart. Na starcie, po /clear i po kompresji kontekstu kasuje znaczniki przeczytania
-# ramy (rama znika z kontekstu razem z rozmową); przy wznowieniu zostawia. Doinstalowuje numpy, jeśli brak.
+# start.sh — hook SessionStart: krótkie przypomnienie, jak pracujemy (CLAUDE.md, „Jak pracujemy”). Doinstalowuje numpy.
 wejscie=$(cat)
 zrodlo=$(printf '%s' "$wejscie" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("source",""))' 2>/dev/null)
-mkdir -p /tmp/logika-rama
-[ "$zrodlo" != "resume" ] && rm -f /tmp/logika-rama/czesc* /tmp/logika-rama/plik* /tmp/logika-rama/rozmowy* /tmp/logika-rama/filtr_zgloszone
-git -C "$CLAUDE_PROJECT_DIR" rev-parse HEAD > /tmp/logika-rama/head 2>/dev/null
 python3 -c 'import numpy' 2>/dev/null || pip install -q numpy >/dev/null 2>&1
+if [ "$zrodlo" = "compact" ]; then
 cat <<'TXT'
-LOGIKA RELACYJNA — PROTOKÓŁ STARTU (hook SessionStart; szczegóły i powód: CLAUDE.md, sekcja PROTOKÓŁ).
-Pierwsze działanie sesji, przed jakąkolwiek odpowiedzią merytoryczną — CAŁY plik główny, po kolei, w całości:
-  python3 narzedzia/rama.py plik          (liczba kawałków)
-  python3 narzedzia/rama.py plik K        (K = 1…N)
-Rozmowy — przy każdej wątpliwości, całe wymiany (wypowiedź + odpowiedź): python3 narzedzia/wypowiedzi.py 'REGEX',
-  python3 narzedzia/wypowiedzi.py --nr N --wymiana. Kody rachunków: skrypty/.
-Użytkownik (26.09): „Proponuję czytać sam plik, a rozmowy w razie wątpliwości niech służą… Plik główny jest ich
-bieżącym zapisem od samego początku. Poszerzony o obliczenia.” „Filtr podstawowy to definicja czasu i powstawanie
-wymiarów” — R1a–R1c; §E, Reguły.
-Potem stan: sekcja „Gdzie skończyliśmy” w CLAUDE.md i ostatnie wiersze rejestru §E w pliku.
-CLAUDE.md to indeks i protokół, NIE rama. Streszczenie nie zastępuje pliku ani wypowiedzi użytkownika.
+LOGIKA RELACYJNA — po kompresji kontekstu: wrócić do definicji czasu i wyprowadzenia wymiarów
+(python3 narzedzia/rama.py 2 i 3 — R1a, R1b, R1c) oraz do fragmentów pliku i rozmów związanych z bieżącym krokiem.
+Całości nie trzeba czytać od nowa. Zasady: CLAUDE.md, „Jak pracujemy”.
 TXT
+elif [ "$zrodlo" != "resume" ]; then
+cat <<'TXT'
+LOGIKA RELACYJNA — nowa sesja: raz, na początku, całość — plik główny i wszystkie rozmowy z odpowiedziami
+(python3 narzedzia/rama.py calosc — liczba kawałków; python3 narzedzia/rama.py calosc K — po kolei), żeby mieć
+ogólny pogląd, co robimy. Potem stan: „Gdzie skończyliśmy” w CLAUDE.md. Zasady: CLAUDE.md, „Jak pracujemy”.
+TXT
+fi

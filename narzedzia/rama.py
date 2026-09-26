@@ -1,5 +1,5 @@
 # rama.py — wypisuje ramę z PLIKU (nie ze streszczenia w CLAUDE.md), w czterech częściach mieszczących się
-# w jednym wyniku narzędzia. Czytać w całości na starcie sesji i po każdej kompresji kontekstu.
+# w jednym wyniku narzędzia. Definicja czasu i wyprowadzenie wymiarów (2, 3) — do powrotu w każdej chwili.
 #
 #   python3 narzedzia/rama.py 1   Jak czytać, Cel, Przed liczeniem, pułapki, Dopuszczalne stany, Gdzie zaczynać,
 #                                 A0, A1, Sito, Reguła językowa, Sztuki czy miara, Reguły
@@ -7,24 +7,25 @@
 #   python3 narzedzia/rama.py 3   R1b + R1c — 3D z definicji czasu; most do światła
 #   python3 narzedzia/rama.py 4   wypowiedzi użytkownika o czasie, 3D i świetle (rozmowa źródłowa, [n])
 #
-# Na starcie i po kompresji CAŁY plik główny i WSZYSTKIE wypowiedzi użytkownika (26.09, użytkownik: „Wystarczyło
-# czytać plik główny i rozmowy na początku + na bieżąco. To nie jest tanie, ale jak widać konieczne.”), kawałkami
-# po ~24 tys. znaków (Read ucina długie linie):
-#   python3 narzedzia/rama.py plik          liczba kawałków pliku głównego i wypowiedzi
-#   python3 narzedzia/rama.py plik K        kawałek K pliku głównego (K = 1…N), po kolei
-#   python3 narzedzia/rama.py rozmowy K     kawałek K wypowiedzi użytkownika ze wszystkich zapisów (rozmowa źródłowa
-#                                           pierwsza; bez powtórzeń i bez streszczeń kompresji wklejonych jako wiadomość)
+# Całość — raz na początku nowej sesji (użytkownik, 26.09): plik główny, a po nim wszystkie rozmowy chronologicznie,
+# z odpowiedziami asystenta (cały tok rozumowania), bez wywołań narzędzi, bez bloków kodu i bez streszczeń kompresji;
+# kawałkami po ~24 tys. znaków (Read ucina długie linie):
+#   python3 narzedzia/rama.py calosc        liczba kawałków
+#   python3 narzedzia/rama.py calosc K      kawałek K (K = 1…N), po kolei
+#   python3 narzedzia/rama.py plik [K]      sam plik główny (np. sprawdzenie całości na końcu sesji)
 #
-# Sekcje wybierane po nagłówkach, nie po numerach linii (plik rośnie). Znacznik przeczytania: /tmp/logika-rama/.
+# Sekcje wybierane po nagłówkach, nie po numerach linii (plik rośnie).
 import os, re, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from wypowiedzi import PLIKI as ZAPISY, wiadomosci
+from wypowiedzi import wszystkie
 
 KAT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLIK = os.path.join(KAT, 'logika-relacyjna-v3.5.md')
 ROZMOWA = os.path.join(KAT, 'rozmowa', 'logika-relacyjna-rozmowa.md')
-ZNACZNIKI = '/tmp/logika-rama'
+# rozmowy chronologicznie: źródłowa (16–24.09), sesje CC 24.09, 24/25.09 („rozmowa 2”), 25.09, 26.09, dalsze wg daty
+ROZMOWY = [os.path.join(KAT, 'rozmowa', f) for f in (
+    'logika-relacyjna-rozmowa.md', 'claude-code-sesja-2026-09-24.md', 'claude-code-sesja-2026-09-24-2.md')]
 
 CZESCI = {
     '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Osiem pułapek', '## Dopuszczalne stany',
@@ -67,14 +68,21 @@ def kawalki_pliku():
     return kawalki(open(PLIK, encoding='utf-8').read())
 
 
-def kawalki_rozmow():
-    widziane, czesci = set(), []
-    for f in ZAPISY:
-        for n, nagl, tresc in wiadomosci(f):
-            if not tresc or tresc in widziane or tresc.startswith('This session is being continued'):
-                continue
-            widziane.add(tresc)
-            czesci.append(f'=== {os.path.basename(f)} {nagl}\n{tresc}')
+def rozmowy():
+    import glob
+    reszta = sorted(f for f in glob.glob(os.path.join(KAT, 'rozmowa', '*.md')) if f not in ROZMOWY)
+    return ROZMOWY + reszta
+
+
+def kawalki_calosci():
+    czesci = ['# PLIK GŁÓWNY\n\n' + open(PLIK, encoding='utf-8').read()]
+    for f in rozmowy():
+        czesci.append(f'# ROZMOWA: {os.path.basename(f)}')
+        for n, kto, nagl, tresc in wszystkie(f):
+            if tresc.startswith('This session is being continued'):
+                continue                                        # streszczenie kompresji, nie wypowiedź
+            tresc = re.sub(r'(?ms)^(`{3,}).*?^\1[ \t]*$', lambda m: f'[blok kodu: {m.group(0).count(chr(10)) - 1} linii]', tresc)
+            czesci.append(f'{nagl}\n{tresc}')
     return kawalki('\n\n'.join(czesci))
 
 
@@ -90,27 +98,21 @@ def wypowiedzi(numery):
 
 if __name__ == '__main__':
     cz = sys.argv[1] if len(sys.argv) > 1 else ''
-    if cz in ('plik', 'rozmowy'):
+    if cz in ('plik', 'calosc'):
+        kaw = kawalki_pliku() if cz == 'plik' else kawalki_calosci()
         if len(sys.argv) < 3:
-            print(f'plik główny: {len(kawalki_pliku())} kawałków (rama.py plik K); '
-                  f'wypowiedzi: {len(kawalki_rozmow())} kawałków (rama.py rozmowy K)')
+            print(f'{cz}: {len(kaw)} kawałków (rama.py {cz} K)')
             sys.exit(0)
-        kaw = kawalki_pliku() if cz == 'plik' else kawalki_rozmow()
         k = int(sys.argv[2])
         a, b, s = kaw[k - 1]
-        print(f'=== {cz} {k}/{len(kaw)} (linie {a}–{b})\n{s}')
-        os.makedirs(ZNACZNIKI, exist_ok=True)
-        open(os.path.join(ZNACZNIKI, f'{cz}{k}'), 'w').close()
+        print(f'=== {cz} {k}/{len(kaw)}\n{s}')
         sys.exit()
     if cz in CZESCI:
         tekst = sekcje(CZESCI[cz])
     elif cz == '4':
-        tekst = ('# Wypowiedzi użytkownika [H] o czasie, 3D i świetle (rozmowa źródłowa). To jest rama; '
-                 'plik ją zapisuje, CLAUDE.md tylko streszcza.\n\n' + wypowiedzi(NR_4))
+        tekst = ('# Wypowiedzi użytkownika [H] o czasie, 3D i świetle (rozmowa źródłowa).\n\n' + wypowiedzi(NR_4))
     else:
-        sys.exit('użycie: python3 narzedzia/rama.py 1|2|3|4 | plik [K] | rozmowy K')
+        sys.exit('użycie: python3 narzedzia/rama.py 1|2|3|4 | calosc [K] | plik [K]')
     print(tekst)
     if len(tekst) > 28000:
         print(f'\n!!! część {cz} ma {len(tekst)} znaków — wynik narzędzia może być ucięty; podzielić część w rama.py.')
-    os.makedirs(ZNACZNIKI, exist_ok=True)
-    open(os.path.join(ZNACZNIKI, f'czesc{cz}'), 'w').close()
