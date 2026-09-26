@@ -2,6 +2,12 @@
 
 Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po polsku.** Zacząć od sekcji PROTOKÓŁ.
 
+> **Waga (użytkownik, 26.09.2026, dosłownie):** „Chodzi mi głównie o to, żebyś widział i zdawał sobie sprawę z wagi tego, co tu jest robione. Może brzmi niewinnie — »definicja czasu«. Ale to m.in. ta definicja wywala cały świat do góry nogami w taki sposób, że nic nie jest już takie samo jak było. Łącznie z matematyką i teoriami. Trudność polega na tym, że my nie tworzymy nowych, tylko odrzucamy interpretacje, uwarunkowania i zmienia to nasz sposób patrzenia diametralnie.”
+>
+> „Za każdym razem, jak próbowałem to kompresować do jakiejś skróconej esencji, nic dobrego z tego nie wynikło. Jest tam bardzo dużo istotnych przejść logicznych, które nie są ani oczywiste, ani nie znajdziesz ich w żadnej bazie danych w takiej formie.”
+>
+> **Wniosek dla pracy:** rama czytana w pełnym tekście (plik + rozmowy), nie ze streszczeń — także nie ze streszczeń w tym pliku. Formuły z literatury zostają, ich pytania odpadają; ponieważ matematyka wygląda tak samo, dawne odczytanie wraca niezauważone (sesja 3: poprawki 151, 159, 161, 165). `filtr.py` łapie tylko słowa; złe pytanie bez złego słowa („czy informacja ginie”) łapie tylko R1a przeczytane w całości.
+
 ## PROTOKÓŁ — czytać przed wszystkim innym
 
 **Ten plik to indeks i protokół, nie rama.** Rama = `logika-relacyjna-v3.5.md` + wypowiedzi użytkownika w `rozmowa/`. Streszczenia niżej („Indeks ramy”, „Gdzie skończyliśmy”) służą do znalezienia sekcji pliku i numeru [n], **nie do wnioskowania ani do testu wierności**.
