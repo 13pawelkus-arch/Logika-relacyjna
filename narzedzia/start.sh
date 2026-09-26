@@ -9,13 +9,14 @@ git -C "$CLAUDE_PROJECT_DIR" rev-parse HEAD > /tmp/logika-rama/head 2>/dev/null
 python3 -c 'import numpy' 2>/dev/null || pip install -q numpy >/dev/null 2>&1
 cat <<'TXT'
 LOGIKA RELACYJNA — PROTOKÓŁ STARTU (hook SessionStart; szczegóły i powód: CLAUDE.md, sekcja PROTOKÓŁ).
-Pierwsze działanie sesji, przed jakąkolwiek odpowiedzią merytoryczną — CAŁY plik główny i WSZYSTKIE wypowiedzi
-użytkownika, po kolei, w całości:
+Pierwsze działanie sesji, przed jakąkolwiek odpowiedzią merytoryczną — CAŁY plik główny, po kolei, w całości:
   python3 narzedzia/rama.py plik          (liczba kawałków)
-  python3 narzedzia/rama.py plik K        (K = 1…N: cały plik główny)
-  python3 narzedzia/rama.py rozmowy K     (K = 1…M: wypowiedzi użytkownika ze wszystkich rozmów)
-Użytkownik (26.09): „Wystarczyło czytać plik główny i rozmowy na początku + na bieżąco. To nie jest tanie, ale jak
-widać konieczne.” „Filtr podstawowy to definicja czasu i powstawanie wymiarów” — R1a–R1c; §E, Reguły.
+  python3 narzedzia/rama.py plik K        (K = 1…N)
+Rozmowy — przy każdej wątpliwości, całe wymiany (wypowiedź + odpowiedź): python3 narzedzia/wypowiedzi.py 'REGEX',
+  python3 narzedzia/wypowiedzi.py --nr N --wymiana. Kody rachunków: skrypty/.
+Użytkownik (26.09): „Proponuję czytać sam plik, a rozmowy w razie wątpliwości niech służą… Plik główny jest ich
+bieżącym zapisem od samego początku. Poszerzony o obliczenia.” „Filtr podstawowy to definicja czasu i powstawanie
+wymiarów” — R1a–R1c; §E, Reguły.
 Potem stan: sekcja „Gdzie skończyliśmy” w CLAUDE.md i ostatnie wiersze rejestru §E w pliku.
 CLAUDE.md to indeks i protokół, NIE rama. Streszczenie nie zastępuje pliku ani wypowiedzi użytkownika.
 TXT

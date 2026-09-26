@@ -12,13 +12,12 @@ Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po p
 
 **Ten plik to indeks i protokół, nie rama.** Rama = `logika-relacyjna-v3.5.md` + wypowiedzi użytkownika w `rozmowa/`. Streszczenia niżej („Indeks ramy”, „Gdzie skończyliśmy”) służą do znalezienia sekcji pliku i numeru [n], **nie do wnioskowania ani do testu wierności**.
 
-**1. Start sesji i po każdej kompresji kontekstu: cały plik główny i wszystkie wypowiedzi użytkownika.** Użytkownik (26.09, po poprawce 168): „Wystarczyło czytać plik główny i rozmowy na początku + na bieżąco. To nie jest tanie, ale jak widać konieczne.” Hook SessionStart to przypomina; hook UserPromptSubmit przypomina przy każdej wiadomości i wypisuje brakujące kawałki. Po kolei, w całości:
+**1. Start sesji i po każdej kompresji kontekstu: cały plik główny.** Użytkownik (26.09, po poprawce 168): „Wystarczyło czytać plik główny i rozmowy na początku + na bieżąco. To nie jest tanie, ale jak widać konieczne.” I dalej: „Proponuję czytać sam plik, a rozmowy w razie wątpliwości niech służą — jak pojawia się jakakolwiek wątpliwość. Nie tylko moje wiadomości tam są, ale i Twoje odpowiedzi. Cały tok rozumowania. Plik główny jest ich bieżącym zapisem od samego początku. Poszerzony o obliczenia. Wszystkie kody są do wglądu w osobnym pliku też.” Hook SessionStart to przypomina; hook UserPromptSubmit przypomina przy każdej wiadomości i wypisuje brakujące kawałki. Po kolei, w całości:
 ```
 python3 narzedzia/rama.py plik          # liczba kawałków (~24 tys. znaków; Read ucina długie linie)
 python3 narzedzia/rama.py plik K        # K = 1…N: cały plik główny
-python3 narzedzia/rama.py rozmowy K     # K = 1…M: wypowiedzi użytkownika ze wszystkich rozmów, bez powtórzeń
 ```
-Na bieżąco: krok 2 przy każdym temacie. Części `rama.py 1–4` (Jak czytać … Reguły; R1a; R1b + R1c; wypowiedzi o czasie, 3D, świetle) służą do powrotu w trakcie sesji; w całości zawierają się w powyższym.
+**Rozmowy — przy każdej wątpliwości, całe wymiany** (wypowiedź + odpowiedź = tok rozumowania): `python3 narzedzia/wypowiedzi.py 'regex'` i `python3 narzedzia/wypowiedzi.py --nr N --wymiana`; całość wypowiedzi: `python3 narzedzia/rama.py rozmowy K`. Kody rachunków: `skrypty/`. Na bieżąco: krok 2 przy każdym temacie. Części `rama.py 1–4` służą do powrotu w trakcie sesji.
 
 **Filtr podstawowy (użytkownik, 26.09):** „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” W pliku: §E, Reguły (poprawka 168). Nowych wzorców do `filtr.py` nie dopisywać: „Filtry sobie daruj, bo w końcu przepiszesz cały plik główny w formie filtrów.”
 
@@ -26,7 +25,7 @@ Stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru §E w pliku.
 
 **2. Przed każdym tematem, rachunkiem i wpisem.** Dotyczy każdego kroku, także po „Ok”, „Wpisuj”, „Zaczynaj”: to zgoda na treść, nie zwolnienie z kroków.
 1. **Wypowiedzi użytkownika na ten temat.**
-   - Polecenie: `python3 narzedzia/wypowiedzi.py 'regex'` (przeszukuje wszystkie rozmowy; opcje `--pelne`, `--nr 94,104`).
+   - Polecenie: `python3 narzedzia/wypowiedzi.py 'regex'` (przeszukuje wszystkie rozmowy; opcje `--pelne`, `--nr 94,104`, `--wymiana` — z odpowiedzią asystenta).
    - W odpowiedzi podać numery [n], na których się opieram.
    - Te same słowa nie znaczą tego samego pojęcia: „relacja relacji” u użytkownika jest szersza niż u asystenta (158).
 2. **Co już jest w pliku.** Grep tematu w `logika-relacyjna-v3.5.md`: przekształcenia, wcześniejsze wyniki, wiersze rejestru §E (czy ten temat miał już błąd). Nie wypisywać od nowa tego, co już jest.

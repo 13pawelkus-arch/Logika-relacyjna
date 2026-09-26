@@ -4,6 +4,8 @@
 #   python3 narzedzia/wypowiedzi.py 'czarn\w* dziur' --pelne                 całe wiadomości z trafieniem
 #   python3 narzedzia/wypowiedzi.py --nr 94,104                              całe wiadomości [94], [104] (rozmowa źródłowa)
 #   python3 narzedzia/wypowiedzi.py --nr 82 --plik 09-24-2                   numer z zapisu sesji CC (fragment nazwy pliku)
+#   python3 narzedzia/wypowiedzi.py --nr 94 --wymiana                        wypowiedź razem z odpowiedzią asystenta
+#       (w rozmowach jest cały tok rozumowania, nie tylko wypowiedzi użytkownika — użytkownik, 26.09)
 #
 # Wyszukiwanie bez rozróżniania wielkości liter. Numery [n] w rozmowie źródłowej są numerami z CLAUDE.md;
 # w zapisach sesji CC numeracja jest własna (podawać plik). W odpowiedzi wymienić [n], na których się opieram.
@@ -24,9 +26,17 @@ def wiadomosci(plik):
             yield int(m.group(1)), m.group(0), tresc
 
 
+def wszystkie(plik):
+    t = re.sub(r'<details>.*?</details>', '', open(plik, encoding='utf-8').read(), flags=re.S)
+    for k in re.split(r'\n(?=## \[\d+\] )', t):
+        m = re.match(r'## \[(\d+)\] (Użytkownik|Asystent)[^\n]*', k)
+        if m: yield int(m.group(1)), m.group(2), m.group(0), k[m.end():].strip()
+
+
 def main(a):
     pelne = '--pelne' in a
-    a = [x for x in a if x != '--pelne']
+    wymiana = '--wymiana' in a
+    a = [x for x in a if x not in ('--pelne', '--wymiana')]
     plik_f = None
     if '--plik' in a:
         i = a.index('--plik'); plik_f = a[i + 1]; del a[i:i + 2]
@@ -34,8 +44,14 @@ def main(a):
         nr = {int(x) for x in a[a.index('--nr') + 1].split(',')}
         pliki = [f for f in PLIKI if (plik_f in f if plik_f else 'logika-relacyjna-rozmowa' in f)]
         for f in pliki:
-            for n, nagl, tresc in wiadomosci(f):
-                if n in nr: print(f'=== {os.path.basename(f)} {nagl}\n{tresc}\n')
+            if not wymiana:
+                for n, nagl, tresc in wiadomosci(f):
+                    if n in nr: print(f'=== {os.path.basename(f)} {nagl}\n{tresc}\n')
+                continue
+            druk = False
+            for n, rola, nagl, tresc in wszystkie(f):
+                if rola == 'Użytkownik': druk = n in nr
+                if druk: print(f'=== {os.path.basename(f)} {nagl}\n{tresc}\n')
         return
     if not a:
         sys.exit('użycie: python3 narzedzia/wypowiedzi.py REGEX [--pelne] [--plik FRAGMENT] | --nr 94,104 [--plik FRAGMENT]')

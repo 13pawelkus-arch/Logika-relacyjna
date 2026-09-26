@@ -92,8 +92,9 @@ if __name__ == '__main__':
     cz = sys.argv[1] if len(sys.argv) > 1 else ''
     if cz in ('plik', 'rozmowy'):
         if len(sys.argv) < 3:
-            sys.exit(f'plik główny: {len(kawalki_pliku())} kawałków (rama.py plik K); '
-                     f'wypowiedzi: {len(kawalki_rozmow())} kawałków (rama.py rozmowy K)')
+            print(f'plik główny: {len(kawalki_pliku())} kawałków (rama.py plik K); '
+                  f'wypowiedzi: {len(kawalki_rozmow())} kawałków (rama.py rozmowy K)')
+            sys.exit(0)
         kaw = kawalki_pliku() if cz == 'plik' else kawalki_rozmow()
         k = int(sys.argv[2])
         a, b, s = kaw[k - 1]
