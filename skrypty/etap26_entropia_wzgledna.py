@@ -10,7 +10,7 @@
 #
 # WZÓR (czynnik). Na obrazie iΔ_U: Γ = R_U, X = Γ^{1/2}(iΔ_U)^{-1}Γ^{1/2} (hermitowska, wartości ±ν),
 #   S = ½ Σ_s |ν_s| ε(|ν_s|) |⟨y_s, Γ^{-1/2} δ⟩|²,  ε(ν) = ln((ν+½)/(ν−½));  S_EE = Σ_{ν>0}[(ν+½)ln(ν+½) − (ν−½)ln(ν−½)].
-#   Sprawdzone niezależnie z macierzy gęstości w bazie Focka (1 mod do 8 cyfr; 2 mody do 1·10⁻⁶).
+#   Sprawdzone niezależnie z macierzy gęstości w bazie Focka (1 mod do 8 cyfr; 2 mody do 1·10⁻⁶; etap26c: 2·10⁻⁹).
 # WZÓR (pełna algebra obszaru, v2). Jądro iΔ_U = obserwable centralne φ(z), [φ(z), ·] = 0 w U. Gdy W_U z ≠ 0,
 #   fluktuują — odrzucenie jądra ogranicza algebrę (Arias–Huerta–Martinez, arXiv:2609.12047, §2: „selecting a
 #   nondegenerate subspace amounts to restricting the observable algebra”). Stan = rozkład po centrum × stany
