@@ -11,23 +11,27 @@
 # w zapisach sesji CC numeracja jest własna (podawać plik). W odpowiedzi wymienić [n], na których się opieram.
 import glob, os, re, sys
 
+# tylko bloki strukturalne z transkrypt.py (od początku linii): wzmianka o <details> w treści wiadomości
+# nie może otworzyć bloku i zjeść tekstu aż do następnego zamknięcia
+BLOK = re.compile(r'(?ms)^<details><summary>.*?^</details>[ \t]*$')
+
 KAT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'rozmowa')
 PLIKI = sorted(glob.glob(os.path.join(KAT, '*.md')), key=lambda f: ('logika-relacyjna-rozmowa' not in f, f))
 
 
 def wiadomosci(plik):
-    # <details> (wyniki i wywołania narzędzi w zapisach sesji CC) usuwane PRZED podziałem: wydruki narzędzi
+    # bloki <details> (wyniki i wywołania narzędzi w zapisach sesji CC) usuwane PRZED podziałem: wydruki narzędzi
     # zawierają linie „## [n] Użytkownik …” (np. rama.py 4), które inaczej udawałyby wypowiedzi użytkownika
-    t = re.sub(r'<details>.*?</details>', '', open(plik, encoding='utf-8').read(), flags=re.S)
+    t = BLOK.sub('', open(plik, encoding='utf-8').read())
     for k in re.split(r'\n(?=## \[\d+\] )', t):
         m = re.match(r'## \[(\d+)\] Użytkownik[^\n]*', k)
         if m:
-            tresc = re.sub(r'<details>.*?</details>', '', k[m.end():], flags=re.S).strip()
+            tresc = BLOK.sub('', k[m.end():]).strip()
             yield int(m.group(1)), m.group(0), tresc
 
 
 def wszystkie(plik):
-    t = re.sub(r'<details>.*?</details>', '', open(plik, encoding='utf-8').read(), flags=re.S)
+    t = BLOK.sub('', open(plik, encoding='utf-8').read())
     for k in re.split(r'\n(?=## \[\d+\] )', t):
         m = re.match(r'## \[(\d+)\] (Użytkownik|Asystent)[^\n]*', k)
         if m: yield int(m.group(1)), m.group(2), m.group(0), k[m.end():].strip()

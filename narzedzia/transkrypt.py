@@ -19,7 +19,7 @@ def clean(s):
     return re.sub(r'<user-prompt-submit-hook>.*?</user-prompt-submit-hook>', '', s, flags=re.S).strip()
 def ts(d): return d.get('timestamp', '')[:16].replace('T', ' ')
 def cut(s, n=1500): return s if len(s) <= n else s[:n] + '\n…[ucięto]'
-def neutral(s):  # wydruk narzędzia nie może udawać nagłówka wiadomości ani zamknąć bloku <details>
+def neutral(s):  # ani wydruk narzędzia, ani treść wiadomości nie może udawać nagłówka wiadomości ani otworzyć/zamknąć bloku <details>
     s = s.replace('<details>', '&lt;details&gt;').replace('</details>', '&lt;/details&gt;')
     return re.sub(r'(?m)^## \[', ' ## [', s)
 
@@ -37,7 +37,7 @@ for line in open(src, encoding='utf-8'):
             if isinstance(b, str) or b.get('type') == 'text':
                 s = clean(b if isinstance(b, str) else b['text'])
                 if s and not s.startswith('<') and s != 'Tool loaded.':
-                    n += 1; L += [f'## [{n}] Użytkownik — {ts(d)}', '', s, '']
+                    n += 1; L += [f'## [{n}] Użytkownik — {ts(d)}', '', neutral(s), '']
             elif b.get('type') == 'tool_result':
                 r = b.get('content')
                 if isinstance(r, list): r = '\n'.join(x.get('text', '') for x in r if isinstance(x, dict))
@@ -45,7 +45,7 @@ for line in open(src, encoding='utf-8'):
     elif t == 'assistant' and isinstance(c, list):
         for b in c:
             if b.get('type') == 'text' and b['text'].strip():
-                n += 1; L += [f'## [{n}] Asystent — {ts(d)}', '', b['text'].strip(), '']
+                n += 1; L += [f'## [{n}] Asystent — {ts(d)}', '', neutral(b['text'].strip()), '']
             elif b.get('type') == 'tool_use':
                 i = b.get('input', {})
                 desc = i.get('description') or i.get('query') or i.get('url') or i.get('file_path') or ''
