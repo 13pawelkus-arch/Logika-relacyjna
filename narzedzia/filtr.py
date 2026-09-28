@@ -1,5 +1,5 @@
 # filtr.py — sprawdza sformułowania wobec definicji czasu (R1a) i 3D (R1b): słowa, które w tym projekcie
-# już przemycały kierunek, cechy albo gotową czasoprzestrzeń (rejestr §E: 65, 105, 106, 110, 151, 159, 165).
+# już przemycały kierunek, cechy albo gotową czasoprzestrzeń (poprawki.md: 65, 105, 106, 110, 151, 159, 165).
 # To są OSTRZEŻENIA, nie błędy: cytat, negacja („bez „powstawania”") i porządek pracy w pliku są w porządku.
 # Każde trafienie w zdaniu MERYTORYCZNYM przeformułować (odczyt zawsze teraz; zapis ostry/rozproszony;
 # stosunek dwóch punktów odniesienia zamiast przebiegu).

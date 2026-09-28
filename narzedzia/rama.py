@@ -7,7 +7,8 @@
 #   python3 narzedzia/rama.py 3   R1b + R1c — 3D z definicji czasu; most do światła
 #   python3 narzedzia/rama.py 4   wypowiedzi użytkownika o czasie, 3D i świetle (rozmowa źródłowa, [n])
 #
-# Całość — raz na początku nowej sesji (użytkownik, 26.09): plik główny, a po nim wszystkie rozmowy chronologicznie,
+# Całość — raz na początku nowej sesji (użytkownik, 26.09): plik główny, rejestr poprawek (poprawki.md), a po nich
+# wszystkie rozmowy chronologicznie,
 # z odpowiedziami asystenta (cały tok rozumowania), bez wywołań narzędzi, bez bloków kodu i bez streszczeń kompresji;
 # kawałkami po ~24 tys. znaków (Read ucina długie linie):
 #   python3 narzedzia/rama.py calosc        liczba kawałków
@@ -22,6 +23,7 @@ from wypowiedzi import wszystkie
 
 KAT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PLIK = os.path.join(KAT, 'logika-relacyjna-v3.5.md')
+POPRAWKI = os.path.join(KAT, 'poprawki.md')
 ROZMOWA = os.path.join(KAT, 'rozmowa', 'logika-relacyjna-rozmowa.md')
 # rozmowy chronologicznie: źródłowa (16–24.09), sesje CC 24.09, 24/25.09 („rozmowa 2”), 25.09, 26.09, dalsze wg daty
 ROZMOWY = [os.path.join(KAT, 'rozmowa', f) for f in (
@@ -76,6 +78,8 @@ def rozmowy():
 
 def kawalki_calosci():
     czesci = ['# PLIK GŁÓWNY\n\n' + open(PLIK, encoding='utf-8').read()]
+    if os.path.exists(POPRAWKI):
+        czesci.append('# REJESTR POPRAWEK (poprawki.md)\n\n' + open(POPRAWKI, encoding='utf-8').read())
     for f in rozmowy():
         czesci.append(f'# ROZMOWA: {os.path.basename(f)}')
         for n, kto, nagl, tresc in wszystkie(f):

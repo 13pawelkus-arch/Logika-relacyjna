@@ -17,9 +17,9 @@ Protokół z sesji 3–4 (czytanie wszystkiego co kawałek, lista kroków przed 
 - **Na początku nowej sesji, raz: całość** — plik główny i rozmowy, „całe rozmowy z twoimi odpowiedziami, a nie tylko to, co ja piszę”, żeby mieć ogólny pogląd, co robimy:
   ```
   python3 narzedzia/rama.py calosc      # liczba kawałków (~25 tys. znaków każdy, razem ~1,6 mln znaków)
-  python3 narzedzia/rama.py calosc K    # K = 1…N, po kolei: plik główny, potem rozmowy chronologicznie
+  python3 narzedzia/rama.py calosc K    # K = 1…N, po kolei: plik główny, poprawki.md, potem rozmowy chronologicznie
   ```
-  Potem stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru §E w pliku.
+  Potem stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru w `poprawki.md`.
 - **Zawsze „z tyłu głowy”: wyprowadzenie czasu i wymiarów** (R1a, R1b, R1c; `python3 narzedzia/rama.py 2` i `3`). „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” (§E, Reguły).
 - **Resztę — przed konkretnym krokiem:** wracać do fragmentów, które mają coś wspólnego z tym krokiem — sekcje pliku (grep) i wymiany w rozmowach (`python3 narzedzia/wypowiedzi.py 'regex'`, `--nr N --wymiana`); kody rachunków w `skrypty/`.
 - **Na końcu sesji, ewentualnie, całość jeszcze raz** — sprawdzić, czy coś nieuprawnionego się nie wkradło (`python3 narzedzia/rama.py plik K`).
@@ -34,7 +34,8 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 | plik | co to |
 |---|---|
-| `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, poprawki (rejestr w §E), otwarte pytania. |
+| `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, otwarte pytania. Numery poprawek odsyłają do `poprawki.md`. |
+| `poprawki.md` | Rejestr poprawek (wydzielony z §E 28.09.2026): numer, co, gdzie, kto; rosnąco. Tu też błędy asystenta zapisane przy rachunkach A11d (169, 170). |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
 | `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą odpowiedzią); temat (a) stosunki e : μ : τ — dwa odczyty „masy” (A = faza na własne tyknięcie / masa biegunowa, B = Yukawy przy wspólnej rozdzielczości), rama ich nie ustala, Koide i δ = 2/9 tylko na A (etap23, 166); zestawienie stanu zespołu wpisane (167); temat (b) krytyczność λ na porządku (168): pojedynczy element = miejsce relacji jednostronnych (Johnston), porządek nie wybiera λ, warunek Veltmana nie jest warunkiem ramy (etap24) — trzy błędy asystenta wykryte przez użytkownika (3+1 jako 4D, relacja bez jednostronnych, x jako obiekt); protokół: cały plik główny i rozmowy na starcie sesji i po kompresji, filtr podstawowy; temat (c) sztywność (169): druga wariacja = rozróżnialność sąsiednich konfiguracji, cztery poziomy w pliku, dosłowne ≡ = entropia względna 0, pułapki 7–8 (trzy uwagi użytkownika); temat (d) entropia względna na porządku (170): doprecyzowanie użytkownika (informacja wzajemna = przypadek szczególny), Arias i in., bliźniaki = zera iΔ, centrum algebry, etap26/26b na GPU — nie niesie obcięcia, rośnie jak ln N ze współczynnikiem zależnym od πR/σ; luźna rozmowa o balansie oznaczoności i nieoznaczoności (niewpisana); procedury z sesji 3–4 wycofane („Jak pracujemy”). |
 | `rozmowa/claude-code-sesja-2026-09-25.md` | Zapis sesji CC 3 (25–26.09.2026): porządek po 136 (142), R1e spin i fala EM (143–145), dwa typy logarytmów i lista wejść §F1 (146–147), warunek na końcu Plancka i zliczenie kierunków (148–150), błąd „jedna relacja” zamiast zespołu (151), zespół funkcji wypisany i wyprowadzony (152–153, 155), zasada wielu punktów tylko dla λ, pokolenia, Koide (154), grupa cechowania i pokolenia warunkowo z J₃(𝕆), test wierności według pliku (156–157), uzupełnienie z rozmów (158), czarne dziury: A5d przez definicję czasu i 3D (159), warunki końca przy osobliwości (160), Hawking i krzywa Page'a (161), R1f działanie, energia, pęd i masa z fazy, przyspieszenie (162–164), Pendleton–Ross bez kierunku (165), diagnoza CLAUDE.md i protokół z hookami. |
@@ -81,13 +82,13 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 - **Najpierw porządek, potem liczenie** [144]. **Najpierw literatura** („nie kosztuje, a pozwala zadać dobre pytanie”).
 - **Przed rachunkiem zdanie, które może przez niego upaść**, i kontrole. Liczba bez warunków (n, d, estymator, próby) nie jest wynikiem. Wniosek z zakresu < dekady nie jest wnioskiem. Każdy parametr ustawiony ręcznie skanować.
 - **Kryterium „sztuki czy miara”** [288–290]: liczba jest dopuszczalna tylko, gdy nie rośnie z gęstością; inaczej wymaga miary.
-- **Znaczniki:** [H] użytkownik · [A] asystent · [L] literatura; [T] dowód · [P] rachunek · [O] obserwacja strukturalna · [?] domysł. **Własne błędy jawnie w rejestrze.** Wyjaśnienia po fakcie oznaczać jako po fakcie.
+- **Znaczniki:** [H] użytkownik · [A] asystent · [L] literatura; [T] dowód · [P] rachunek · [O] obserwacja strukturalna · [?] domysł. **Własne błędy jawnie w rejestrze (`poprawki.md`).** Wyjaśnienia po fakcie oznaczać jako po fakcie.
 - **„Nie ma porażek, są źle zadane pytania i nietrafione próby formalizacji”** [436]. **Werdykty na koniec**, ale podsumowania **stanowcze i jednoznaczne** [537–539]. „Żadna reguła” jest zakazane; zawsze konkretnie która [438].
 - **Skróty myślowe wolno**, jeśli czytający wie, że to skróty (słownik na początku dokumentu) [418].
 - **Duży koszt obliczeń = sygnał ostrzegawczy:** zanim coś pójdzie na godziny GPU, sprawdzić, czy to nie twierdzenie do udowodnienia albo koszt własnego pudła, okna czy siatki (25.09; etap11 potwierdzał twierdzenie, etap16 zdominowało pudło).
 - **Rachunki dłuższe niż kilka minut na CPU: od razu na GPU** (Colab A100 40 GB, 80 GB możliwe, ale jednostki drogie). Kod gotowy do wklejenia, parametry na górze, checkpointy, bezpiecznik pamięci liczony przed alokacją (było OOM). Lokalnie tylko sprawdzenie, że kod działa. Nie liczyć wszystkiego z automatu [96].
 - **Nie wpisywać do plików** „problem czasu” ani nazwiska Kuchař [272–276] (życzenie użytkownika).
-- Na koniec sesji: zaktualizować dokument (albo podbić wersję), rejestr, sekcję „Gdzie skończyliśmy” tutaj; commit + push.
+- Na koniec sesji: zaktualizować dokument (albo podbić wersję), rejestr (`poprawki.md`), sekcję „Gdzie skończyliśmy” tutaj; commit + push.
 - **Zapis rozmowy z Claude Code:** przed końcem każdej sesji `python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-RRRR-MM-DD.md --tytul '…' --opis '…'` (zewnętrznych ocen nie włączać — życzenie użytkownika; usunąć ręcznie, jeśli były), dopisać wiersz w tabeli „Pliki”, commit + push. W Claude Code nie ma eksportu, a kontener znika po sesji.
 
 ## Oś projektu (podsumowanie użytkownika, 25.09.2026)
@@ -97,9 +98,9 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (26.09.2026, sesja CC 4; dokument v3.5, rejestr do 170)
+## Gdzie skończyliśmy (26.09.2026, sesja CC 4; dokument v3.5, rejestr do 170 — `poprawki.md`)
 
-Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru §E o podanym numerze i we wskazanej sekcji pliku.
+Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o podanym numerze i we wskazanej sekcji pliku.
 
 - **Czas, c, 3D: domknięte strukturalnie.**
   - R1a: definicja czasu.
