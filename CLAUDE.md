@@ -14,15 +14,16 @@ Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po p
 
 Protokół z sesji 3–4 (czytanie wszystkiego co kawałek, lista kroków przed każdym tematem i wpisem, przypomnienia przy każdej wiadomości, automatyczny filtr) — **wycofany**. Użytkownik: „Nie masz żadnej swobody i znowu jest przesadzone wszystko z drugą stronę za bardzo. Jak wcześniej co chwilę gubiłeś i nie brałeś pod uwagę tego, co jest w pliku głównym, tak teraz znowu za bardzo. […] Ze skrajności w skrajność. Kompresować źle, czytać co kawałek wszystko źle.”
 
-- **Na początku nowej sesji, raz: całość** — plik główny i rozmowy, „całe rozmowy z twoimi odpowiedziami, a nie tylko to, co ja piszę”, żeby mieć ogólny pogląd, co robimy:
+- **Na początku nowej sesji, raz: plik główny w całości** (CLAUDE.md wczytuje się sam):
   ```
-  python3 narzedzia/rama.py calosc      # liczba kawałków (~25 tys. znaków każdy, razem ~1,6 mln znaków)
-  python3 narzedzia/rama.py calosc K    # K = 1…N, po kolei: plik główny, poprawki.md, potem rozmowy chronologicznie
+  python3 narzedzia/rama.py plik        # liczba kawałków (~24 tys. znaków każdy; 28.09: 17)
+  python3 narzedzia/rama.py plik K      # K = 1…N, po kolei
   ```
   Potem stan: „Gdzie skończyliśmy” niżej i ostatnie wiersze rejestru w `poprawki.md`.
 - **Zawsze „z tyłu głowy”: wyprowadzenie czasu i wymiarów** (R1a, R1b, R1c; `python3 narzedzia/rama.py 2` i `3`). „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” (§E, Reguły).
-- **Resztę — przed konkretnym krokiem:** wracać do fragmentów, które mają coś wspólnego z tym krokiem — sekcje pliku (grep) i wymiany w rozmowach (`python3 narzedzia/wypowiedzi.py 'regex'`, `--nr N --wymiana`); kody rachunków w `skrypty/`.
-- **Na końcu sesji, ewentualnie, całość jeszcze raz** — sprawdzić, czy coś nieuprawnionego się nie wkradło (`python3 narzedzia/rama.py plik K`).
+- **Rozmowy i `poprawki.md` — jako konkretne odniesienie przed danym krokiem, w pełnym tekście, nie ze streszczeń:** przed każdym krokiem pojęciowym wypowiedzi użytkownika na ten temat (`python3 narzedzia/wypowiedzi.py 'regex'`; `--nr N --wymiana` — wymiana z odpowiedzią); przy numerze [n] — ta wymiana; przy numerze poprawki — jej wiersz; sekcje pliku (grep); kody rachunków w `skrypty/`. Całość z rozmowami (`python3 narzedzia/rama.py calosc`, ~67 kawałków, ~1,6 mln znaków) — tylko gdy krok tego wymaga.
+  - **Dlaczego tak (28.09; użytkownik zostawił wybór asystentowi).** Do 28.09 na starcie czytana była całość z rozmowami („całe rozmowy z twoimi odpowiedziami, a nie tylko to, co ja piszę”, 26.09). Tyle nie mieści się w kontekście: wraca jako streszczenie kompresji, a streszczenia nie działają („Waga” wyżej). Błędy asystenta z 28.09 (1+1 jako warsztat, argument „bo tak jest w pliku”, 1D–2D–3D liczone po kolei) padły mimo pełnego czytania — były błędami sposobu patrzenia, nie brakującego tekstu. Po porządkach 28.09 plik trzyma ramę zwięźle (R1a: definicja czasu i 3D); dokładne słowa użytkownika są w rozmowach i tam się po nie sięga przy danym kroku.
+- **Na końcu sesji, ewentualnie, plik jeszcze raz** — sprawdzić, czy coś nieuprawnionego się nie wkradło (`python3 narzedzia/rama.py plik K`).
 - **Po kompresji kontekstu** (w trakcie sesji): czas i wymiary (`rama.py 2`, `3`) oraz fragmenty bieżącego kroku; całości od nowa nie trzeba. Przypomina o tym hook SessionStart.
 - `narzedzia/filtr.py` (sformułowania wobec R1a/R1b; łapie tylko słowa) — do użycia z własnej decyzji, bez automatu.
 
@@ -42,8 +43,8 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 | `rozmowa/claude-code-sesja-2026-09-24-2.md` | Zapis sesji CC 2 (24/25.09.2026, „rozmowa 2”): audyt i naprawy pliku, R1b (dowód 3D), R1c (światło), R1d (elektron), hipoteza samopodobieństwa, zasady „filtr”, „nie pytać o ocenę”, „obiekt”. Zewnętrzne oceny pominięte na życzenie użytkownika. |
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
 | `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23–24 z sesji 4: dwa odczyty stosunków leptonów; trzy warunki ciszy tła — λ, β_λ, Veltman; etap25: kontrole tożsamości do sztywności, 169; etap26–26c: entropia względna stanu koherentnego wobec SJ — rachunek CPU/GPU, test mechanizmu, kontrole wzorów w bazie Focka, 170). |
-| `narzedzia/` | `rama.py` (`calosc K`: plik główny i wszystkie rozmowy z odpowiedziami, kawałkami — raz na początku sesji; `plik K`: sam plik główny; części 2–3: czas i wymiary, 1 i 4: zasady i wypowiedzi o czasie), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach; `--wymiana` z odpowiedzią), `filtr.py` (sformułowania wobec R1a/R1b, opcjonalnie), `transkrypt.py` (zapis sesji), `start.sh` (hook). |
-| `.claude/settings.json` | Hook SessionStart: przypomnienie, jak pracujemy (nowa sesja: całość; po kompresji: czas i wymiary + fragmenty bieżącego kroku), numpy. |
+| `narzedzia/` | `rama.py` (`plik K`: sam plik główny, kawałkami — raz na początku sesji; `calosc K`: plik główny, `poprawki.md` i wszystkie rozmowy z odpowiedziami — tylko gdy krok tego wymaga; części 2–3: czas i wymiary, 1 i 4: zasady i wypowiedzi o czasie), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach; `--wymiana` z odpowiedzią), `filtr.py` (sformułowania wobec R1a/R1b, opcjonalnie), `transkrypt.py` (zapis sesji), `start.sh` (hook). |
+| `.claude/settings.json` | Hook SessionStart: przypomnienie, jak pracujemy (nowa sesja: plik główny; po kompresji: czas i wymiary + fragmenty bieżącego kroku), numpy. |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
 
 ## Indeks ramy (streszczenie do szukania; źródło: plik i wypowiedzi [n] — `narzedzia/rama.py`, `narzedzia/wypowiedzi.py`)

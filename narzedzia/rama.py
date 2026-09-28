@@ -7,13 +7,13 @@
 #   python3 narzedzia/rama.py 3   R1b + R1c — 3D z definicji czasu; most do światła
 #   python3 narzedzia/rama.py 4   wypowiedzi użytkownika o czasie, 3D i świetle (rozmowa źródłowa, [n])
 #
-# Całość — raz na początku nowej sesji (użytkownik, 26.09): plik główny, rejestr poprawek (poprawki.md), a po nich
-# wszystkie rozmowy chronologicznie,
+# Na początku nowej sesji raz sam plik główny (`plik`); rozmowy — jako konkretne odniesienie przy danym kroku (28.09).
+# Całość — tylko gdy krok tego wymaga: plik główny, rejestr poprawek (poprawki.md), a po nich wszystkie rozmowy chronologicznie,
 # z odpowiedziami asystenta (cały tok rozumowania), bez wywołań narzędzi, bez bloków kodu i bez streszczeń kompresji;
 # kawałkami po ~24 tys. znaków (Read ucina długie linie):
 #   python3 narzedzia/rama.py calosc        liczba kawałków
 #   python3 narzedzia/rama.py calosc K      kawałek K (K = 1…N), po kolei
-#   python3 narzedzia/rama.py plik [K]      sam plik główny (np. sprawdzenie całości na końcu sesji)
+#   python3 narzedzia/rama.py plik [K]      sam plik główny — raz na początku sesji (i ewentualnie na końcu)
 #
 # Sekcje wybierane po nagłówkach, nie po numerach linii (plik rośnie).
 import os, re, sys

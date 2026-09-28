@@ -11,8 +11,9 @@ Całości nie trzeba czytać od nowa. Zasady: CLAUDE.md, „Jak pracujemy”.
 TXT
 elif [ "$zrodlo" != "resume" ]; then
 cat <<'TXT'
-LOGIKA RELACYJNA — nowa sesja: raz, na początku, całość — plik główny i wszystkie rozmowy z odpowiedziami
-(python3 narzedzia/rama.py calosc — liczba kawałków; python3 narzedzia/rama.py calosc K — po kolei), żeby mieć
-ogólny pogląd, co robimy. Potem stan: „Gdzie skończyliśmy” w CLAUDE.md. Zasady: CLAUDE.md, „Jak pracujemy”.
+LOGIKA RELACYJNA — nowa sesja: raz, na początku, plik główny w całości (python3 narzedzia/rama.py plik — liczba
+kawałków; python3 narzedzia/rama.py plik K — po kolei). Rozmowy i poprawki.md tylko jako konkretne odniesienie
+przed danym krokiem, w pełnym tekście (narzedzia/wypowiedzi.py). Potem stan: „Gdzie skończyliśmy” w CLAUDE.md.
+Zasady: CLAUDE.md, „Jak pracujemy”.
 TXT
 fi
