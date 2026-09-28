@@ -3,6 +3,7 @@
 **Cztery pola przy każdym rachunku.** Wartość · kontrola, która przeszła · co by go obaliło · czyja teza. Wartość bez warunków (n, d, estymator, liczba prób) nie jest wynikiem.
 **Znaczniki pochodzenia:** **[H]** teza użytkownika · **[A]** teza asystenta · **[L]** literatura
 **Znaczniki ugruntowania:** **[T]** dowód · **[P]** rachunek · **[O]** obserwacja strukturalna · **[?]** domysł
+**[n]** = numer wiadomości w rozmowie źródłowej (`rozmowa/logika-relacyjna-rozmowa.md`); „sesja CC n”, „sesja 25.09” = rozmowy w Claude Code. Liczby bez nawiasów kwadratowych (np. 137, 166) = numery poprawek z rejestru §E.
 **ZASADA METODY** **Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest — z całej nauki, która jest solidną bazą — oczyszczonej z interpretacji.** Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie, jeśli baza jest solidna.
 **Skróty myślowe są dozwolone** dopóki czytający wie, że to skróty. Poniższy słownik podaje ich **jednoznaczny odczyt**
 
@@ -11,16 +12,16 @@
 | „foton ma t = 0” | interwał między emisją a absorpcją jest zerowy; brak elementów pośrednich | A2, R1a |
 | „czas własny τ = L” | długość najdłuższego łańcucha między dwoma elementami = **miara jednego odczytu** wzdłuż trajektorii, **nie czas** | A2, R1a |
 | „czas”, „przeszłość” | odczyt informacji ze struktury, zawsze teraz; przeszłość = zapis odczytywany teraz | R1a |
-| „prędkość c” | **tempo przekazu informacji** (nie pokonywania dystansu); przelicznik łańcuch ↔ odległość; w jedną stronę konwencja (Reichenbach) | C4a.13, C5 |
+| „prędkość c” | **tempo przekazu informacji** (nie pokonywania dystansu); przelicznik łańcuch ↔ odległość; w jedną stronę konwencja (Reichenbach) | R1a, R1c, C4a.13 |
 | „odległość między zdarzeniami” | nakładanie przyczynowe względem wspólnej przeszłości | C4a.17 |
-| „masa cząstki” | [?] częstość samoodczytu trajektorii mierzona względem innego węzła | R1a, B1 |
+| „masa” | faza na własne tyknięcie nośnika (= tempo samoodczytu); dwa odczyty pod jedną nazwą — pułapka 6 | R1f-3 |
 | „entropia obszaru” | liczba o relacji obszaru z resztą **po wybranym cięciu**; zależy od gęstości globalnej, nie tylko od obszaru | C4a.16e |
-| „wymiar”, „3+1”, „d = 4” | liczba **punktów odniesienia** (triada + odczyt), nie osi; mierzona jako skalowanie liczebności przedziałów | R1a, §E |
+| „wymiar”, „3+1”, „d = 4” | liczba **punktów odniesienia** (triada + odczyt), nie osi; mierzona jako skalowanie liczebności przedziałów | R1a, R1b, §E |
 | „węzeł”, „cząstka” | moduł: podzbiór widziany jednakowo z zewnątrz | R1a |
 | „próżnia”, „pole” | Ø od strony danego otoczenia | R1a, §E |
 | „Ø ma cechę …” | **zawsze** skrót za „od strony otoczenia X Ø wygląda w naszym opisie jako …” | §E (reguła językowa) |
 
-## R1a. Łańcuch Ø 
+## R1a. Łańcuch Ø
 
 $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv (r{=}0) \equiv (\hat H|\Psi\rangle{=}0) \equiv \Delta \equiv 2D \equiv (l_P\,t_P) \equiv \varnothing] \;\neq\; R\otimes R$$
 
@@ -39,321 +40,220 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 | $R\otimes R$ | świat relacji złożonych z relacji |
 | obiekt | **(stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą** (użytkownik, 25.09; poprawka 132). Np. jądro atomu = struktura relacji, która jako całość tworzy relację przestrzeni z elektronem; atom jako całość = struktura relacji, która jako całość tworzy relację przestrzeni z innym atomem. Por. węzły [404–408]. **Nie**: nośnik zawartości poza strukturą. *„Stabilna”: pułapka nr 8 (poprawka 169).* |
 
+**≡ to hipoteza do sprawdzenia, nie wynik [H].** Różne zjawiska mają różne otoczenia i formalizmy; po przekształceniu na bezwymiarowe mają się dać czytać naraz. Obala to tylko pokazanie, że stosunki się **wzajemnie wykluczają** (jeden wymaga addytywności, drugi jej zabrania), nie różne wartości — te biorą się z różnych otoczeń.
+
 **Ĥ|Ψ⟩ = 0** Więz hamiltonianowy wynika wprost z niezmienniczości względem reparametryzacji czasu: nie ma zewnętrznego parametru, względem którego całość mogłaby ewoluować. To ten sam brak co przy zachowaniu energii (bez czasopodobnego wektora Killinga nie ma globalnie zachowanej energii): **całość nie ma otoczenia**. Czas wraca jako **korelacja wewnątrz całości**: stan podukładu warunkowany wskazaniem innego podukładu (zegara) zmienia się zgodnie ze zwykłą ewolucją (Page–Wootters 1983; rozwinięcia: Giovannetti–Lloyd–Maccone; układ dwóch fotonów: Moreva i in.). Globalnie nic nie płynie, lokalnie wszystko. **Wzbudzenia i relacje są lokalne.**
+
+**CZAS [H].** **Czas to odczyt informacji ze struktury relacji; odczyt jest zawsze teraz.** Przeszłość nie „jest” — jest tylko **zapis** w strukturze (pamięć), **ostry** albo **rozproszony**; struktura nie rozprasza jednorodnie [336]: w bazie wybranej przez oddziaływanie zapis jest ostry i redundantny, poza nią rozproszony (Zurek [L]). „Przeszłość” i „przyszłość” to etykiety wzorców względem tego, co da się odczytać teraz: stan nie niesie etykiety przed/po (rozłączone klocki mogą być przed złożeniem i po rozebraniu). **Kierunek siedzi w relacji stan–zapis, nie w stanie** — pseudokierunek, asymetria czytelności, nie własność ≺. **Ile przeszłości istnieje dla czytającego, zależy od jego zdolności zapisu** (mózg: 2 klocki tak, 200 nie; aparat fotograficzny: 200 przez dziesiątki lat). „Ile temu” (8 minut dla Słońca) = porównanie z zegarem aparatu czytającego.
+- **Synteza [H]:** całość nie ma otoczenia → Ĥ|Ψ⟩ = 0 → czas tylko jako relacja wewnątrz, czytanie jednego podukładu przez drugi → zawsze teraz → przeszłość = zapis, ostry albo rozproszony → kierunek → zapis = dostęp do innych układów struktury niż bieżący = punkt odniesienia, którego triada nie ma (3+1, niżej). Numeracja to kolejność czytania, nie wyprowadzania (poprawka 137): definicja czasu powstała razem z warunkami dla 3D i osobno by się nie udała. „Nigdzie po drodze nie trzeba niczego dodawać. Trzeba tylko nie dokładać interpretacji.”
+- **Informacja nie ginie w strukturze, ale przestaje być odczytywalna z danego miejsca** [A] (szklanka się nie składa, choć nic nie zostało wymazane — A4d).
+- **Odczyt nie może być treścią własnego odczytu** [O]: każda próba uchwycenia „teraz” robi z niego zapis.
+- **Najdłuższy łańcuch** („czas własny”, A2) nie jest czasem, tylko miarą jednego odczytu — tego, który wykonuje trajektoria.
+- **Światło:** foton ma t = 0 — od jego strony emisja i absorpcja są jednym; „8 minut” powstaje dopiero w aparacie z zegarem i wymaga synchronizacji (Reichenbach, C4a.13). **Światło nie ma prędkości c; jest prędkość c w relacji do.**
+
+**3+1 [H].** Triada **bez pamięci jest płaska**, nawet z dynamiką: czytając tylko bieżący stan, nie ma się dostępu do innych układów struktury, więc ruchu nie da się zauważyć — jakby go nie było [400]. **Pamięć = dostęp do innych możliwych układów struktury** = czwarty punkt odniesienia. 3 punkty triady + 1 punkt odczytu = 4 punkty w położeniu ogólnym (czworościan) → 3D; **„+1” nie jest czwartą osią, tylko punktem, bez którego trzeciej osi by nie było.** Dowód: R1b.
+- **Zmiana = dynamika × pamięć** (iloczyn, nie suma): dynamika produkuje informację, pamięć ją przechowuje; bez pamięci produkcja przepada, bez dynamiki nie ma czego pamiętać — w obu razach nie ma zmiany.
+- **Warunki muszą zachodzić razem [H]:** triada, dynamika (brak zera absolutnego), zapis w strukturze i jego odczyt (czas = czwarty punkt) — naraz, żeby było coś, a nie nic; żaden składnik nie jest wcześniejszy.
+- **Hierarchia węzłów [H]:** Wheeler–DeWitt traktują wszechświat jako jeden węzeł, **jako całość** statyczny; zawiera mniejsze węzły, aż do 2D Plancka. Czas istnieje tylko między tymi brzegami (oba w łańcuchu Ø), w węzłach, które mają otoczenie i informację. „Zawarte” ≠ „odczytywalne” (H.M.: zapis powstawał, aparat pamięci jawnej go nie czytał).
+- **Moduł [A]** = hierarchia węzłów zapisana w porządku: podzbiór M, z którym każdy element spoza M jest w tej samej relacji — z zewnątrz jeden punkt; drzewo dekompozycji modularnej od całości do pojedynczych elementów. Bliźniaki (A3a) = najmniejsze moduły (Rideout: materia jako wzorce relacji). Realny węzeł jest modułem tylko w przybliżeniu.
 
 **GRANICE Ø — RELACJA JEDNOSTRONNA [H] (użytkownik, zapis asystenta, v3.4).** Niech p ≥ 0 będzie parametrem, dla którego **p = 0 oznacza Ø** (czas własny na krok, okno odczytu, temperatura, 1 − v/c, skala względem Plancka).
 1. **Niezmienniczość od środka:** dla każdego p > 0 mechanizmy są te same od środka; zmienia się wyłącznie **relacja do innych węzłów** (obiekt przy 99,999% c we własnym układzie nie widzi zmiany; Henry Molaison z oknem 0,0001 s nadal czyta siebie).
 2. **Nieosiągalność:** żadna ciągła droga wewnątrz struktury nie kończy się w p = 0 (dla temperatury i skali Plancka — do przemyślenia, użytkownik). Zbliżanie się niczego nie zmienia od środka; **granica jest skokiem innego rodzaju**, nie końcem drogi. W granicy ginie **zdolność struktury do czytania samej siebie** (100% c: brak własnego zegara; okno 0: brak odczytu) — stan nieodróżnialny od osobliwości.
 3. **Jednostronność:** przejście między strukturą a Ø zachodzi **wyłącznie jako zdarzenie**, zawsze w jednym kierunku — A → Ø albo Ø → A — **nigdy jako relacja dwustronna A ↔ Ø**.
 
+| p | droga ciągła (p → 0) | skok A → Ø | skok Ø → A |
+|---|---|---|---|
+| 1 − v/c | rozpędzanie: nigdy c | anihilacja | kreacja par |
+| okno odczytu | mechanizm ten sam | utrata odczytu | nowy odczyt (dekoherencja) |
+| przedział w strukturze | zawsze element pomiędzy | wpadnięcie pod horyzont | promieniowanie Hawkinga |
+| stosunek tempa odczytu | z zewnątrz → 0 przy horyzoncie, nigdy nie osiąga | przekroczenie horyzontu (od środka jedno zdarzenie) | [?] |
+| węzeł → całość | całość statyczna tylko jako całość | — | rozszerzanie: nowe relacje przestrzenne, nieustannie |
+| temperatura; skala | nigdy 0; poniżej Plancka nic nie odróżnia | [?] | [?] |
+
+- **Ø jest jedno:** różnice w tabeli dotyczą tego, co wiemy od strony otoczenia, nie Ø; puste pola to luki w wiedzy.
+- **Dylatacja grawitacyjna = stosunek tempa odczytu dwóch czytających**, nie „czas płynie wolniej”; przesunięcie ku czerwieni = rozproszenie zapisu (te same zapisy rozciągnięte na więcej kroków czytającego). Ten sam wiersz co 1 − v/c, z innej strony (zasada równoważności).
+- **O Ø nie da się nic powiedzieć** — liczyć wyłącznie w relacji do znanego otoczenia.
+
 ## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T]
 
-### R1b-F. Zapis formalny [T][L] (poprawka 127; słowa niżej = glosa, [418])
+**Teza:** trzy wymiary przestrzenne (= 4 punkty odniesienia) są jedynym przypadkiem, w którym najmniejsze nośniki informacji mogą wejść ze sobą w relację. Dowód nie przegląda przypadków, tylko nie dopuszcza innych [148]; nie używa przestrzeni tła, zewnętrznego czasu ani kierunku. **[L]** Müller–Masanes, New J. Phys. 15, 053040 (2013), arXiv:1206.0630; **Masanes, Müller, Pérez-García, Augusiak, J. Math. Phys. 55, 122203 (2014), arXiv:1111.4060** (twierdzenie o d = 3, bez przestrzeni fizycznej). Historia przekładu: poprawki 114–128.
+
+### R1b-F. Zapis formalny [T][L] (poprawka 127)
 
 **Oznaczenia.** Układ A: Ω_A ⊂ ℝ^{K_A} — zbiór stanów (wypukły, domknięty, dim < ∞); odczyt = efekt E: Ω_A → [0,1] afiniczny, wynik p = E(ω); G_A — domknięta grupa przekształceń odwracalnych Ω_A → Ω_A; ∂ₑΩ_A — stany czyste (ekstremalne). Układ złożony: p(x,y) = (E_x ⊗ E_y)·ω_AB — bez kolejności odczytów.
 
 **Definicje.**
-- **D0** (wymiar): d := dim Ω_A, gdy Ω_A ≅ Bᵈ = {r ∈ ℝᵈ : |r| ≤ 1}. Przestrzeń := Bᵈ (zbiór wszystkich odczytów); innej nie ma.
+- **D0** (wymiar): d := dim Ω_A, gdy Ω_A ≅ Bᵈ = {r ∈ ℝᵈ : |r| ≤ 1}. Przestrzeń := Bᵈ (zbiór wszystkich odczytów); innej nie ma. [H] „Kula stanów to zbiór wszystkich możliwych kierunków / odczytów / pozycji — wtedy to faktycznie jest 3D” (sesja 25.09). Bez D0 twierdzenie mówi o kubitach, nie o przestrzeni; [L] Müller–Masanes (2013, §V, Przykład 39): struktura euklidesowa może być odziedziczona z prawdopodobieństw odczytów, a nie odwrotnie.
 - **D1** (pojemność): N_A := max{n : ∃ ω₁…ωₙ, E₁…Eₙ, Σ Eᵢ = 1, Eᵢ(ωⱼ) = δᵢⱼ}.
 - **D2** (zapis, przeszłość): 𝒫_X := {Y ≠ X : I(M_X : Y) > 0} — Y *inny* układ, nie „wcześniejszy” (brak ≺ w definicji).
 - **D3** (relacja): T ∈ G_AB jest relacją ⇔ T ∉ G_A ⊗ G_B.
 
-**Przesłanki** (glosa ramy w tabeli niżej).
-- **P0:** Ĥ|Ψ⟩ = 0 ⇒ e^{−iĤs}|Ψ⟩ = |Ψ⟩ ∀s ∈ ℝ; brak aktora zewnętrznego ⇒ G_A = ⟨{e^{sX}}_{s∈ℝ}⟩ ⇒ **G_A spójna**.
-- **P1:** N_A = 2.
-- **P2:** ∀ ω, φ ∈ ∂ₑΩ_A ∃ G ∈ G_A : Gω = φ.
-- **P3:** ∂Ω_A nie zawiera odcinków (ścisła wypukłość).
-- **P5:** span{ω_A ⊗ ω_B} = ℝ^{K_A} ⊗ ℝ^{K_B}, tj. K_AB = K_A·K_B.
-- **P6:** G_AB ⊄ G_A ⊗ G_B.
+**Przesłanki: formalnie · zdanie ramy · test wierności (poprawki 128, 137).** Przekład P jest wierny ⇔ ¬P wyklucza się ze zdaniem ramy (kryterium z łańcucha Ø: wykluczenie, nie ocena); wtedy rama ⇒ P. Numeracja = kolejność czytania.
+- **P0 — G_A spójna.** Ĥ|Ψ⟩ = 0 ⇒ e^{−iĤs}|Ψ⟩ = |Ψ⟩ ∀s ∈ ℝ; brak aktora zewnętrznego ⇒ G_A = ⟨{e^{sX}}_{s∈ℝ}⟩ (s = dowolna etykieta, nie czas; 118). *Rama:* całość nie ma otoczenia, „dla całości t=0; wzbudzenia i relacje są lokalne” [270]; „w rygorze relacyjnym nie ma zewnętrznych aktorów; źródło nie może być obcym ciałem wetkniętym w strukturę” [354]. *¬P0:* przekształcenie „skokiem”, nieosiągalne w sposób ciągły, wymagałoby aktora spoza całości; grupa złożona z ciągłych jednoparametrowych podgrup jest spójna (125).
+- **P1 — N_A = 2.** *Rama:* „Foton — minimalne wzbudzenie. Minimalna różnica. Minimalna informacja.” [258]. *¬P1:* N_A = 1 — brak różnicy ≡ Ø [242, 258]; N_A ≥ 3 — zawiera różnicę dwustanową, więc nie jest najmniejsza.
+- **P2 — (a) ∀ ω, φ ∈ ∂ₑΩ_A ∃ G ∈ G_A : Gω = φ; (b) p(x,y) niezależne od kolejności odczytów.** *Rama:* stan nie niesie etykiety przed/po [394]; żaden ostry odczyt nie jest wyróżniony. *¬P2:* (a) stan czysty różny od innego sam z siebie, bez relacji = cecha [36, 94]; (b) wynik zależny od „przed/po” = etykieta kolejności [394].
+- **P3 — ∂Ω_A bez odcinków (ścisła wypukłość).** *Rama:* „suma wszystkich kierunków 3 takich węzłów — objętość sfery” [150]; lokalny odczyt może mieć dowolny kształt, suma wszystkich odczytów wokół jednego punktu odniesienia daje sferę; „sama powierzchnia sfery jest 2D ≡ Ø; dla całej sfery t=0” (sesja 25.09; poprawki 120–121). *¬P3:* na sumie wszystkich odczytów wyróżnione punkty brzegu, a na całości nic nie jest wyróżnione.
+- **P5 — span{ω_A ⊗ ω_B} = ℝ^{K_A} ⊗ ℝ^{K_B}, tj. K_AB = K_A·K_B (tomografia lokalna).** *Rama:* „wzbudzenia i relacje są lokalne” [270]. *¬P5:* różnica stanów pary niesiona przez nic poza nią samą = **cecha** [36, 94] (137).
+- **P6 — G_AB ⊄ G_A ⊗ G_B** (oddziaływanie ⇔ splątanie). *Rama:* „Istnieją tylko dwa zdania prawdziwe: milczenie i relacja” [10]. *¬P6:* nośniki nigdy nie wchodzą w relację; foton t = 0 = warunek, żeby przestrzeń była relacją [80].
+- **Tło:** stan = prawdopodobieństwa odczytów; prawdopodobieństwo nigdy nie dotyczy „samej superpozycji”, tylko relacji otoczenia [110, 244] (114). Liniowe mieszanie przygotowań — ¬: prawdopodobieństwo zależy od tego, czy etykietę przygotowania pominięto przed czy po odczycie (tak liniowość wyprowadzają Masanes i in., §III) ⊥ [394]. dim Ω_A < ∞ — ¬: ustalenie stanu wymaga nieskończenie wielu niezależnych odczytów = nieodczytywalne ≡ Ø, „o superpozycji nic nie można powiedzieć” [110].
 
-**Lemat 1** (P0, P2, P3; W² := ∫_{G_A} HᵀH dH): Ω_A ≅ Bᵈ, ∂ₑΩ_A = Sᵈ⁻¹, K_A = d + 1, G_A ⊆ SO(d) przechodnia na Sᵈ⁻¹; μ := ∫ Gω dG = 0 jest jedynym punktem stałym G_A.
+**Lemat 1** (P0, P2, P3; W² := ∫_{G_A} HᵀH dH): Ω_A ≅ Bᵈ, ∂ₑΩ_A = Sᵈ⁻¹, K_A = d + 1, G_A ⊆ SO(d) przechodnia na Sᵈ⁻¹; μ := ∫ Gω dG = 0 jest jedynym punktem stałym G_A. Stany czyste (ostre odczyty) na sferze, żaden punkt nie jest wyróżniony; μ w środku — bez informacji o kierunku; d = liczba wzajemnie komplementarnych odczytów potrzebnych do ustalenia stanu.
 
-**Twierdzenie** (Masanes, Müller, Pérez-García, Augusiak 2014, Tw. 1–2; d = 1: P0):
-P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4) (z dokładnością do równoważnej reprezentacji częściowo transponowanej).
-- d = 1: G_A = O(1) = {±1}, niespójna ⊥ P0.
-- d = 2 ∨ d ≥ 4: G_AB ⊆ G_A ⊗ G_B ⊥ P6.
-- **Rola przesłanek [H] (poprawka 137):** P0, P2, P3 dają kulę dowolnego wymiaru (P0 wyklucza d = 1); **d = 3 wybierają P1, P5 i P6**; pamięć (D2, Wniosek 2) decyduje o **dostępie** do kuli. P5 dźwiga wykluczenie mechaniki kwantowej rzeczywistej (d = 2) i kwaternionowej (d = 5): obie **mają** relację (splątanie), odpadają wyłącznie na tomografii lokalnej. Eksperymenty Renou i in., Nature 600, 625 (2021); Chen i in., PRL 128, 040403 (2022); Li i in., PRL 128, 040402 (2022) wykluczające teorię rzeczywistą są **potwierdzeniem, nie podporą** dowodu. Numeracja P0–P6 = kolejność czytania.
+**Twierdzenie** (Masanes i in. 2014, Tw. 1–2; d = 1: P0): P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4) (z dokładnością do równoważnej reprezentacji częściowo transponowanej) — relacja dwóch nośników jest dokładnie relacją dwóch kubitów.
+- d = 1: G_A = O(1) = {±1}, niespójna ⊥ P0. [H] „1D nie istnieje” (sesja CC 82).
+- d = 2 ∨ d ≥ 4: G_AB ⊆ G_A ⊗ G_B ⊥ P6 — **relacji między nośnikami nie ma**. Dla 2D zgodne z [H] „relacja pomiędzy dwoma węzłami jest = 0” [76]; dla d ≥ 4 z [H] „nic nie wymaga piątego punktu” [511], mocniej: nie skróty zamiast osi, tylko brak relacji w ogóle. Powód grupowy (Müller–Masanes 2013): dla d ≥ 3 obroty zostawiające jeden kierunek w miejscu, SO(d−1), są przemienne tylko przy d = 3.
+- **Rola przesłanek [H] (137):** P0, P2, P3 dają kulę dowolnego wymiaru (P0 wyklucza d = 1); **d = 3 wybierają P1, P5 i P6**; pamięć (D2, Wniosek 2) decyduje o **dostępie** do kuli. P5 wyklucza teorię kwantową rzeczywistą (d = 2) i kwaternionową (d = 5): obie **mają** splątanie, odpadają wyłącznie na tomografii lokalnej. Eksperymenty Renou i in., Nature 600, 625 (2021); Chen i in., PRL 128, 040403 (2022); Li i in., PRL 128, 040402 (2022) są **potwierdzeniem, nie podporą**.
 
-**Wniosek 1** (4 punkty): stan bez szumu r ∈ B³ wyznaczony przez trzy odczyty komplementarne: rᵢ = 2E_{eᵢ}(ω) − 1, i = 1, 2, 3; E_{eᵢ}(ω_{eⱼ}) = ½ dla i ≠ j. Dwa odczyty: rząd 2 < 3 (stan nieustalony); czwarty: liniowo zależny (K_A = 4 = 1 + 3). {e₁, e₂, e₃} = triada, ω = czwarty punkt.
+**Wniosek 1** (4 punkty): stan bez szumu r ∈ B³ wyznaczony przez trzy odczyty komplementarne: rᵢ = 2E_{eᵢ}(ω) − 1, i = 1, 2, 3; E_{eᵢ}(ω_{eⱼ}) = ½ dla i ≠ j (przy stanie ostrym wzdłuż jednej osi odczyt wzdłuż prostopadłej nic nie daje). Dwa odczyty: rząd 2 < 3, stan nieustalony; czwarty: liniowo zależny (K_A = 4 = 1 + 3). {e₁, e₂, e₃} = triada (trzy węzły relacji), ω = czwarty punkt: [H] „1 punkt odniesienia to informacja o dynamicznej strukturze, w superpozycji, dopóki pole nie jest wzbudzone” (sesja CC 82) — R1a (3+1). Trzy odczyty nie leżą w jednej płaszczyźnie, bo płaszczyzna ≡ Ø (współliniowość istnieje tylko w 2D; poprawka 117).
 
-**Wniosek 2** (pamięć, kontrola bez niej): czytający bez zapisu ma jeden odczyt E_y na bieżącym stanie; dostępne Ω_A/∼, gdzie ω ∼ φ ⇔ E_y(ω) = E_y(φ): Ω_A/∼ ≅ B¹, G(B¹) = O(1) niespójna ⇒ brak ciągłego przekształcenia („ruchu nie da się zauważyć” [400]). Z zapisem M odczytów wzdłuż e₁, e₂, e₃ (I(M : ωᵢ) > 0, D2): dostępne Ω_A = B³.
+**Wniosek 2** (pamięć; kontrola bez niej): czytający bez zapisu ma jeden odczyt E_y na bieżącym stanie; dostępne Ω_A/∼, gdzie ω ∼ φ ⇔ E_y(ω) = E_y(φ): Ω_A/∼ ≅ B¹, G(B¹) = O(1) niespójna ⇒ brak ciągłego przekształcenia — [H] „Samo 3 jest płaskie. Nawet jak jest dynamika — bez pamięci ruchu nie da się zauważyć… nie powstaje dodatkowy punkt odniesienia. Nie ma 3D” [400]. Z zapisem M odczytów wzdłuż e₁, e₂, e₃ (I(M : ωᵢ) > 0, D2): dostępne Ω_A = B³. Pamięć w formalizmie = stan nośnika jako zapis o innym układzie (Bob czyta teraz stan niosący kierunek Alicji, bez wspólnego układu współrzędnych) — definicja z [400] dosłownie; wcześniejsze odczyty czytającego istnieją tylko jako zapis, więc pamięć wchodzi do dowodu raz (poprawka 124). **Stąd definicji czasu nie wolno oddzielać od wyprowadzenia 3D** [511].
 
-**Wniosek 3** (Ø): ∂B³ = S², dim 2 (sfera sama ≡ Ø; całość bez relacji, t = 0); μ = 0 — brak informacji o kierunku; ∀ ω ∈ int B³ ∃ czysty Ψ_AB : Tr_B Ψ_AB = ω (puryfikacja; Chiribella–D’Ariano–Perinotti 2011) — wnętrze B³ tylko z relacji.
+**Wniosek 3** (Ø): ∂B³ = S², dim 2 (sfera sama ≡ Ø; całość bez relacji, t = 0); μ = 0 — brak informacji o kierunku; ∀ ω ∈ int B³ ∃ czysty Ψ_AB : Tr_B Ψ_AB = ω (puryfikacja; Chiribella, D’Ariano, Perinotti, Phys. Rev. A 84, 012311 (2011), arXiv:1011.6451) — wnętrze B³ tylko z relacji: [H] „3D jest tylko lokalne jako wynik świata relacji wewnątrz” (sesja 25.09).
 
-**Test wierności przekładu (poprawka 128) [O].** Kryterium jak w łańcuchu Ø: wykluczenie, nie ocena. Przekład P jest wierny ⇔ ¬P wyklucza się ze zdaniem ramy. Wtedy rama ⇒ P i zastrzeżenie „o ile przekład jest wierny” znika.
+**Wynik (stanowczo):** rama ⇒ P0 ∧ … ∧ P6 ⇒ **d = 3** — wykluczenia brakiem relacji i ciągłością, nie przez przykłady. D0 jest definicją, nie przekładem: nie może być niewierna, najwyżej niespójna, a spójności nic nie przeczy. Status wynikania rama ⇒ P: [O] asystenta, sprawdzalny zdaniem przy każdej przesłance. Symulacje R5–R7 (C5) są zgodne, ale nie są częścią dowodu.
 
-| przesłanka | ¬P | wyklucza się z |
-|---|---|---|
-| P0: G_A spójna | ∃ przekształcenie nieosiągalne w sposób ciągły = skok bez niczego pomiędzy, niegenerowany relacją wewnątrz | „nie ma zewnętrznych aktorów” [354]; „całość nie ma otoczenia, dla całości t=0” [270] |
-| P1: N_A = 2 | N_A = 1: brak dwóch rozróżnialnych stanów = brak różnicy; N_A ≥ 3: zawiera różnicę dwustanową, więc nie jest najmniejsza | N_A = 1: „wzbudzenie = różnica = informacja”, brak różnicy ≡ Ø [258, 242]; N_A ≥ 3: „foton = minimalna różnica” [258] |
-| P2a: G_A przechodnia na ∂ₑΩ_A | ∃ ω, φ czyste, nieprzekształcalne: stan czysty różni się od innego sam z siebie, bez relacji | „nic nie jest cechą” [36, 94] |
-| P2b: p(x,y) niezależne od kolejności odczytów | wynik zależy od „przed/po” = stan niesie etykietę kolejności | klocki: stan nie niesie etykiety przed/po [394] |
-| P3: ∂Ω_A bez odcinków | na sumie wszystkich odczytów wyróżnione są punkty brzegu (ekstremalne vs nieekstremalne) | „dla całej sfery t=0”, sfera ≡ Ø: na całości nic nie wyróżnione (sesja 25.09, poprawka 120) |
-| P5: tomografia lokalna | ∃ różnica stanów pary nieodczytywalna przez odczyty części i korelacje = **różnica pary niesiona przez nic poza nią samą** (użytkownik, poprawka 137) | **„cecha”** [36, 94]; także „wzbudzenia i relacje są lokalne” [270] |
-| P6: G_AB ⊄ G_A ⊗ G_B | nośniki nigdy nie wchodzą w relację | „dwa zdania prawdziwe: milczenie i relacja” [10]; foton t=0 = warunek, żeby przestrzeń była relacją [80] |
-| tło: liniowe mieszanie | prawdopodobieństwo zależy od tego, czy etykietę przygotowania pominięto przed czy po odczycie (tak liniowość wyprowadzają Masanes i in., §III) | [394] (brak przed/po) |
-| tło: dim Ω_A < ∞ | ustalenie stanu wymaga nieskończenie wielu niezależnych odczytów = stanu nie da się ustalić odczytem | „o superpozycji nic nie można powiedzieć” [110]: nieodczytywalne ≡ Ø, nie nośnik informacji |
+**Granice:** dowód dotyczy stanów i odczytów (kula, pary nośników); most do porządku przyczynowego i światła — R1c. Przesłankami są zdania ramy: dowód pokazuje, co z nich wynika, nie uzasadnia ich z zewnątrz. Masanes i in. rozważają pary nośników; uogólnienie na wiele nośników przy d = 3 — ich ref. 21; dla d ≠ 3 wystarcza para.
 
-**Wynik:** każda przesłanka i oba założenia tła są **wymuszone** przez zdanie ramy (¬P ⊥ rama). Łańcuch: **rama ⇒ P0 ∧ … ∧ P6 ⇒ d = 3.** D0 jest definicją, nie przekładem: nie może być niewierna, najwyżej niespójna, a spójności nic nie przeczy. Status wynikania rama ⇒ P: [O] asystenta, sprawdzalny wierszem tabeli, bez oceny.
+## R1c. Most R1b ↔ światło i porządek przyczynowy [T][L][O] (poprawka 129)
 
-### Glosa (słowa, źródła w rozmowie)
-
-**Teza:** trzy wymiary przestrzenne (= 4 punkty odniesienia) są jedynym przypadkiem, w którym najmniejsze nośniki informacji mogą w ogóle wejść ze sobą w relację. Dowód nie przegląda przypadków, tylko nie dopuszcza innych [148]. Nie używa przestrzeni tła, zewnętrznego czasu ani kierunku.
-
-**Skąd:** rama użytkownika (R1a, synteza czasu) + formalizm uogólnionych teorii probabilistycznych, wzięty bez interpretacji: Müller–Masanes, New J. Phys. 15, 053040 (2013), arXiv:1206.0630; **Masanes, Müller, Pérez-García, Augusiak, J. Math. Phys. 55, 122203 (2014), arXiv:1111.4060** (twierdzenie o d = 3; bez przestrzeni fizycznej). Przekład założenie po założeniu: tabele w R1b-F i niżej; historia dochodzenia: rejestr, poprawki 114–121. Numery [n] = rozmowa źródłowa; „sesja 25.09” = rozmowa w Claude Code z 25.09.
-
-**Definicja D0 (użytkownik, sesja 25.09):** „Kula stanów to zbiór wszystkich możliwych kierunków / odczytów / pozycji — wtedy to faktycznie jest 3D.” **Wymiar przestrzeni := wymiar kuli wszystkich możliwych odczytów.** Bez D0 twierdzenie mówi o kubitach, nie o przestrzeni. [L] Müller–Masanes (2013, §V i Przykład 39) pokazują, że struktura euklidesowa przestrzeni może być odziedziczona z prawdopodobieństw odczytów, a nie odwrotnie.
-
-**Przesłanki twierdzenia (lewa kolumna: zdanie ramy; [H] = słowa użytkownika, [A] = mój przekład):**
-
-| # | rama | formalizm [L] |
-|---|---|---|
-| P0 | [H] Całość nie ma otoczenia, „dla całości t=0; wzbudzenia i relacje są lokalne” [270]; czytanie „zawsze teraz” [334, 394]; „niezmienniczość względem reparametryzacji: Ĥ\|Ψ⟩=0” (sesja CC 72) | ciągła jednoparametrowa grupa e^(−iĤt), względem której całość stoi; części zmieniają się tylko względem czytającego (Page–Wootters). Parametr t = dowolna etykieta, nie czas (poprawka 118) |
-| P1 | [H] „Foton — minimalne wzbudzenie. Minimalna różnica. Minimalna informacja.” [258] | **układ binarny**: dokładnie dwa stany doskonale rozróżnialne ([A]: minimalna różnica = 1 bit) |
-| P2 | [H] stan nie niesie etykiety przed/po (klocki) [394]; [A] żaden ostry odczyt nie jest wyróżniony — wyróżniony byłby „cechą” [36, 94] | **ciągła odwracalność**: każde dwa stany czyste łączy ciągłe przekształcenie odwracalne; wyniki odczytów części **nie zależą od kolejności w czasie** (w samej definicji układu złożonego) |
-| P3 | [H] „Suma wszystkich kierunków 3 takich węzłów — objętość sfery” [150]; „lokalny odczyt może mieć dowolny kształt; suma wszystkich odczytów wokół jednego punktu odniesienia daje sferę”; „sama powierzchnia sfery jest 2D ≡ Ø; dla całej sfery t=0” (sesja 25.09; poprawki 120–121) | **okrągłość**: zbiór stanów (= suma odczytów) ściśle wypukły; z ciągłą odwracalnością i średnią Haara W² = ∫HᵀH dH → elipsoida → **kula** |
-| P5 | [H] „Wzbudzenia i relacje są lokalne” [270] — nie ma odczytu całości z zewnątrz | **tomografia lokalna**: stan pary wyznaczony przez odczyty części i ich korelacje |
-| P6 | [H] „Istnieją tylko dwa zdania prawdziwe: milczenie i relacja” [10] | **oddziaływanie**: istnieje przekształcenie pary nierozkładalne na lokalne (⇔ splątanie) |
-
-**Tło:** stan = prawdopodobieństwa odczytów, mieszanie przygotowań liniowe; prawdopodobieństwo nigdy nie dotyczy „samej superpozycji”, tylko relacji otoczenia [110, 244] (poprawka 114).
-
-**Krok 1 — zbiór odczytów jest kulą [T][L].** Z P1–P3: stany czyste (ostre odczyty) tworzą sferę, której żaden punkt nie jest wyróżniony; wszystkie inne stany są mieszaninami. W środku stan μ, jedyny niezmienniczy względem wszystkich przekształceń, bez informacji o kierunku. Wymiar kuli d = liczba **wzajemnie komplementarnych** odczytów potrzebnych do ustalenia stanu (przy stanie ostrym wzdłuż jednego kierunku odczyt wzdłuż prostopadłego daje 1/2, czyli nic).
-
-**Krok 2 — relacja istnieje tylko przy d = 3 [T][L].** Z P2, P5, P6 (Masanes i in. 2014, Tw. 1–2):
-- **d = 1** (bit klasyczny, odcinek): przekształcenia odwracalne to {1, −1}, grupa niespójna — sprzeczne z ciągłą odwracalnością. Zgodne z [H] „1D nie istnieje” (sesja CC 82). (spójność grupy: poprawka 125).
-- **d = 2 i d ≥ 4:** każde przekształcenie odwracalne pary rozkłada się na lokalne — **relacji między nośnikami nie ma**. Dla 2D zgodne z [H] „relacja pomiędzy dwoma węzłami jest = 0” [76]. Dla d ≥ 4 zgodne z [H] [511] („nic nie wymaga piątego punktu”) i mocniej: nie tylko „skróty zamiast osi” (symulacja R7), lecz brak relacji w ogóle.
-- **d = 3:** relacja istnieje i jest dokładnie relacją dwóch kubitów (splątanie, ewolucja unitarna).
-- Powód grupowy (Müller–Masanes 2013): **dla d ≥ 3** obroty zostawiające jeden kierunek w miejscu, SO(d−1), są przemienne tylko przy d = 3; d = 1 i d = 2 wypadają z innych powodów (wyżej).
-
-**Krok 3 — przekład na punkty odniesienia [O].** Stan w kuli 3D ustalają odczyty wzdłuż **trzech** komplementarnych kierunków (dwa nie wystarczają, czwarty nic nie dokłada) = **triada, trzy węzły relacji**. Ustalany stan = **czwarty punkt**: [H] „1 punkt odniesienia to informacja o dynamicznej strukturze, w superpozycji, dopóki pole nie jest wzbudzone” (sesja CC 82). **3 wymiary = 4 punkty, nie osie** [400]. Trzy odczyty nie leżą w jednej płaszczyźnie, bo płaszczyzna ≡ Ø (współliniowość istnieje tylko w 2D; poprawka 117).
-
-**Krok 4 — czas, pamięć i 3D [O] (rozstrzygnięte strukturą, poprawka 124).** [H] „Samo 3 jest płaskie. Nawet jak jest dynamika — bez pamięci ruchu nie da się zauważyć… nie powstaje dodatkowy punkt odniesienia. Nie ma 3D” [400]; pamięć = dostęp do innych układów struktury niż bieżący.
-- **Pamięć w formalizmie = stan nośnika jako zapis informacji o innym układzie.** Bob czyta teraz stan niosący kierunek Alicji, bez wspólnego układu współrzędnych — dostęp do układu innego niż bieżący, czyli definicja z [400] dosłownie.
-- **„Wiele odczytów zebranych razem” to nie osobne wejście:** odczyt jest zawsze teraz, więc wcześniejsze odczyty istnieją tylko jako zapis — to ten sam mechanizm zastosowany do własnych odczytów czytającego. Pamięć wchodzi do dowodu raz.
-- **Kontrola bez pamięci, w samym formalizmie:** czytający bez zapisu ma tylko bieżący odczyt wzdłuż jednej osi; z kuli widzi jej rzut na tę oś = odcinek = **bit klasyczny (d = 1)**, którego przekształcenia odwracalne to tylko skok {1, −1}, bez ciągłości → **ruchu nie da się zauważyć**, dokładnie jak w [400]. Dopiero zapisy odczytów wzdłuż trzech komplementarnych osi dają kulę 3D. Ta sama kontrola, którą w R5/R6 robiliśmy symulacją (bez pamięci 2, z pamięcią 3), tu wynika strukturalnie.
-- Ciągłość (P0) wyklucza d = 1; brak kierunku (P2) siedzi w definicji układu złożonego. Łącznik (nie przesłanka twierdzenia): [H] „3D jest tylko lokalne jako wynik świata relacji wewnątrz” (sesja 25.09) ↔ [L] puryfikacja: stan mieszany (wnętrze kuli) jest częścią stanu czystego większego układu (Chiribella, D’Ariano, Perinotti, Phys. Rev. A 84, 012311, 2011, arXiv:1011.6451). Stąd: **definicji czasu nie wolno oddzielać od wyprowadzenia 3D** [511; CLAUDE.md].
-
-**Wniosek (stanowczo):** przy D0 i P0–P6 **3D jest jedyną możliwością**; 2D i każde d ≥ 4 są wykluczone strukturalnie, brakiem relacji, nie przez przykłady; 1D — ciągłością (spójność grupy: poprawka 125) i niezależnie ramą. Symulacje R5–R7 (triada 2, triada + pamięć 3, więcej połączeń = brak rozmaitości) są z tym zgodne, ale nie są częścią dowodu.
-
-**Spójność całej grupy przekształceń (wykluczenie d = 1) — rozstrzygnięta strukturą (poprawka 125) [O]:** [H] „W rygorze relacyjnym nie ma zewnętrznych aktorów. Źródło nie może być obcym ciałem wetkniętym w strukturę” [354]. Każde przekształcenie odwracalne jest więc relacją wewnątrz, czyli pochodzi z dynamiki wewnętrznej; ta jest ciągłą jednoparametrową grupą (P0). Grupa złożona z ciągłych jednoparametrowych podgrup jest spójna. Przekształcenie „skokiem”, nieosiągalne w sposób ciągły, wymagałoby aktora spoza całości — a całość nie ma otoczenia. Spójność + brak wyróżnionego odczytu (P2) = ciągła odwracalność w pełnym sensie Masanesa i in. **Wykluczenie d = 1 stoi więc na twierdzeniu, nie tylko na ramie.**
-
-**Granice (czego dowód nie mówi):**
-- Dotyczy **stanów i odczytów** (kula, pary nośników); most do porządku przyczynowego i światła: **R1c** (stożek stanów = stożek przyczynowy, czyste = zerowe). Związek z C5 (R6, krzywizna) nie jest tu dowodzony.
-- **Przesłanki:** każda jest wymuszona przez zdanie ramy (¬P wyklucza się z ramą; test wierności w R1b-F, poprawka 128). Przesłankami dowodu są zdania ramy — dowód pokazuje, co z nich wynika, nie uzasadnia ich z zewnątrz (zgodnie z zasadą metody).
-- Formalizm zakłada skończony wymiar zbioru stanów i liniowe mieszanie przygotowań.
-- Masanes i in. rozważają pary nośników; uogólnienie na wiele nośników przy d = 3 jest w ich ref. 21; dla d ≠ 3 wystarcza para.
-
-## R1c. Most R1b ↔ światło i porządek przyczynowy [T][L][O] (v3.4, 25.09; poprawka 129)
-
-**Cel:** domknąć granicę R1b („dotyczy odczytów, nie porządku przyczynowego”) na poziomie światła, zgodnie z [488]: „musi się rozstrzygnąć na poziomie światła”.
+Granica R1b („odczyty, nie porządek przyczynowy”) domknięta na poziomie światła, zgodnie z [488]: „musi się rozstrzygnąć na poziomie światła”.
 
 ### R1c-F. Zapis formalny
 
-**Tożsamość [T]** (algebra 2×2; sprawdzona numerycznie na losowym Z ∈ SL(2,ℂ)): macierz hermitowska X = x⁰·𝟙 + x·σ ↔ wektor x^μ = (x⁰, x) ∈ ℝ^{1,3}, **det X = (x⁰)² − |x|²** (norma Minkowskiego).
+**Tożsamość [T]** (algebra 2×2): macierz hermitowska X = x⁰·𝟙 + x·σ ↔ wektor x^μ = (x⁰, x) ∈ ℝ^{1,3}, **det X = (x⁰)² − |x|²** (norma Minkowskiego).
 - Stan nośnika z R1b: ρ = ½(𝟙 + r·σ), r ∈ B³ ⇒ x = ½(1, r), **4 det ρ = 1 − |r|²**.
-- **ρ ≥ 0 ⇔ x⁰ ≥ |x|:** zbiór (nieznormowanych) stanów = **stożek przyczynowy przyszłości** w ℝ^{1,3}.
-- **Stany czyste (|r| = 1, ∂B³) ⇔ det ρ = 0 ⇔ wektory zerowe** (świetlne). Wnętrze B³ ⇔ wektory czasopodobne. μ (r = 0) ⇔ oś czasu czytającego.
-- **tr ρ = 1** = przekrój stożka hiperpłaszczyzną x⁰ = ½ = **kula B³**.
-- ρ ↦ ZρZ†, Z ∈ SL(2,ℂ): zachowuje det i dodatniość ⇒ element **SO⁺(3,1)**; Z ∈ SU(2) = obroty (zachowują przekrój), pozostałe = pchnięcia (zmieniają przekrój; po ponownym znormowaniu działają na B³ rzutowo).
-- ∂B³ = S² = zbiór kierunków zerowych przez punkt = **sfera niebieska**; SO⁺(3,1) ≅ PSL(2,ℂ) działa na niej jak przekształcenia Möbiusa (konforemnie).
+- **ρ ≥ 0 ⇔ x⁰ ≥ |x|:** zbiór (nieznormowanych) stanów = **stożek przyczynowy przyszłości** w ℝ^{1,3}; **tr ρ = 1** = przekrój x⁰ = ½ = **kula B³**.
+- **Stany czyste (|r| = 1) ⇔ det ρ = 0 ⇔ wektory zerowe** (świetlne); wnętrze B³ ⇔ wektory czasopodobne; μ (r = 0) ⇔ oś czasu czytającego.
+- ρ ↦ ZρZ†, Z ∈ SL(2,ℂ): zachowuje det i dodatniość ⇒ element **SO⁺(3,1)**; Z ∈ SU(2) = obroty (zachowują przekrój), pozostałe = pchnięcia (zmieniają przekrój; na B³ działają rzutowo).
+- ∂B³ = S² = zbiór kierunków zerowych przez punkt = **sfera niebieska**; SO⁺(3,1) ≅ PSL(2,ℂ) działa na niej przekształceniami Möbiusa.
 
-**[L]** Penrose–Rindler, *Spinors and Space-Time* I (1984): sfera niebieska = kierunki zerowe = sfera Riemanna; B. Oblak, „From the Lorentz group to the celestial sphere”, arXiv:1508.00920. **Höhn, Müller, „An operational approach to spacetime symmetries: Lorentz transformations from quantum communication”, New J. Phys. 18, 063026 (2016), arXiv:1412.8462** (przeczytane: wstęp, Tw. 3.6, Tw. 4.12, §4.5): bez zakładania czasoprzestrzeni, przyczynowości, sygnatury ani wymiaru — dwóch obserwatorów bez wspólnej ramy uzgadnia opis układów kwantowych; przy „kubicie-korzeniu” grupa przekładu opisów to **SO(3)** (wyniki odczytów jako etykiety), a gdy wyniki mają wielkość — **O⁺(3,1) × skala λ > 0**. Skala λ = umowa jednostek, jedyna niezależna od grupy. Malament (J. Math. Phys. 18, 1399, 1977), Hawking–King–McCarthy (1976): porządek przyczynowy wyznacza geometrię z dokładnością do czynnika konforemnego.
+**[L]** Penrose–Rindler, *Spinors and Space-Time* I (1984); Oblak, arXiv:1508.00920 (sfera niebieska = kierunki zerowe = sfera Riemanna). **Höhn, Müller, New J. Phys. 18, 063026 (2016), arXiv:1412.8462:** bez zakładania czasoprzestrzeni, przyczynowości, sygnatury i wymiaru dwóch obserwatorów bez wspólnej ramy uzgadnia opis układów kwantowych; grupa przekładu opisów = **SO(3)**, a gdy wyniki mają wielkość — **O⁺(3,1) × skala λ > 0** (λ = umowa jednostek). **Malament** (J. Math. Phys. 18, 1399, 1977), Hawking–King–McCarthy (1976): porządek przyczynowy wyznacza geometrię z dokładnością do czynnika konforemnego.
 
 ### Odczyt w ramie [O]
 
-1. **Kula odczytów z R1b = przekrój stożka świetlnego w ramie czytającego.** 3D (B³) i „+1” (normowanie tr ρ = własna rama czytającego) — **3+1 jako punkty i przekrój, nie cztery osie** [400].
-2. **Ostre odczyty = światło.** ∂B³ (suma wszystkich odczytów wokół punktu, P3) = sfera niebieska = wszystkie promienie docierające do punktu. **det ρ = 0 ⇔ interwał zero ⇔ foton, t = 0** [80]. „Sama powierzchnia sfery jest 2D ≡ Ø” (poprawka 120) = zbiór kierunków zerowych, na którym nic nie ma czasu własnego.
-3. **Wnętrze = relacja z czasem własnym.** Punkty wnętrza B³ są czasopodobne (det ρ > 0) i istnieją tylko z relacji (puryfikacja, R1b krok 4). **4 det ρ = 1 − |r|² = entropia liniowa** — „czas własny²” stanu = stopień jego relacji z otoczeniem. [?] Związek z masą (masa = tempo samoodczytu, §F1; dla czterowektora pędu det = m²) — **niezbadany, tylko zbieżność formy. **Dopisek 163 (R1f-3):** dla **macierzy pędu** P = E·𝟙 + p·σ związek jest [T]: m² = det P; dla ρ zostaje formą.**
-4. **c.** „c ≤” ⇔ **ρ ≥ 0** (prawdopodobieństwa nieujemne): nic nie leży poza stożkiem, tak jak żaden stan nie ma |r| > tr ρ. c = 1 to granica czytelności nośnika minimalnego (ostry odczyt), nie prędkość. **„c nieskończone, gdy nikt nie czyta”:** sam stożek (bez przekroju) ma tylko promienie, nie ma prędkości; prędkość pojawia się dopiero po wyborze przekroju = ramy czytającego („C w relacji do” [394]).
-5. **Rama i pchnięcia.** Zmiana czytającego = SL(2,ℂ) na nośniku = grupa Lorentza (Höhn–Müller, bez tła). To te same pchnięcia, których **koszt wskazania daje logarytmy w §F2** (ln n) — grupa przekładu między czytającymi jest grupą, po której całkujemy.
-6. **Dwa pierwotne (A1).** Porządek → geometria z dokładnością do czynnika konforemnego (Malament); u Höhna–Müllera jedyny element poza grupą to skala λ. **Porządek + liczność = Lorentz + skala** [O].
-7. **Kierunek.** Dodatnie macierze wyznaczają jedną połowę stożka; −ρ nie jest stanem. „Przyszłość vs przeszłość” = umowa znaku dodatniości = **jeden bit** (por. Gallai, poprawka 106): pseudokierunek, nie cecha.
-8. **Dlaczego to działa tylko przy 3D.** Kula Bᵈ zawsze jest przekrojem stożka w ℝ^{1,d}, ale relacja między nośnikami istnieje tylko przy d = 3 (R1b). **Stąd ℝ^{1,3}: jedyny stożek, w którym nośniki światła mogą się wiązać.**
+1. **Kula odczytów z R1b = przekrój stożka świetlnego w ramie czytającego.** „+1” = normowanie tr ρ = własna rama czytającego (przekrój), nie czwarta oś (R1a, 3+1).
+2. **Ostre odczyty = światło.** ∂B³ (suma wszystkich odczytów wokół punktu, P3) = sfera niebieska = wszystkie promienie docierające do punktu; det ρ = 0 ⇔ interwał zero ⇔ foton, t = 0 [80]. „Sama powierzchnia sfery jest 2D ≡ Ø” (120) = kierunki zerowe, na których nic nie ma czasu własnego.
+3. **Wnętrze = relacja z czasem własnym:** punkty wnętrza czasopodobne (det ρ > 0), istnieją tylko z relacji (puryfikacja, R1b Wniosek 3); 4 det ρ = 1 − |r|² = entropia liniowa. Dla macierzy pędu P = E·𝟙 + p·σ: m² = det P [T] (R1f-3); dla ρ — tylko forma [?].
+4. **c:** „c ≤” ⇔ **ρ ≥ 0** (prawdopodobieństwa nieujemne): nic nie leży poza stożkiem, tak jak żaden stan nie ma |r| > tr ρ; c = 1 = granica czytelności nośnika minimalnego, nie prędkość. **„c nieskończone, gdy nikt nie czyta”:** sam stożek (bez przekroju) ma tylko promienie, nie ma prędkości; prędkość pojawia się dopiero z przekrojem = ramą czytającego („C w relacji do” [394]).
+5. **Zmiana czytającego = SL(2,ℂ) na nośniku = grupa Lorentza** (Höhn–Müller, bez tła); te same pchnięcia, których koszt wskazania daje logarytmy §F2 (ln n).
+6. **Dwa pierwotne (A1):** porządek → geometria z dokładnością do czynnika konforemnego (Malament); u Höhna–Müllera jedyny element poza grupą to skala λ. **Porządek + liczność = Lorentz + skala.**
+7. **Kierunek:** dodatnie macierze wyznaczają jedną połowę stożka; −ρ nie jest stanem. „Przyszłość vs przeszłość” = umowa znaku dodatniości = jeden bit (Gallai, poprawka 106) — pseudokierunek, nie cecha.
+8. **Dlaczego tylko 3D:** kula Bᵈ zawsze jest przekrojem stożka w ℝ^{1,d}, ale relacja między nośnikami istnieje tylko przy d = 3 (R1b). **ℝ^{1,3} = jedyny stożek, w którym nośniki światła mogą się wiązać.**
 
-### Stan i granice
+### Stan
 
-- **[T]:** tożsamości algebraiczne (det = norma Minkowskiego; dodatniość = stożek; SL(2,ℂ) → SO⁺(3,1); czyste = zerowe). **[L]:** Höhn–Müller — grupa Lorentza z komunikacji, bez tła.
-- **Stożek stanów nośnika ≡ stożek przyczynowy punktu (użytkownik [H], poprawki 130, 132).** Pytanie „ten sam obiekt czy tylko ta sama struktura” było źle postawione: „obiekt” użyty jako nośnik zawartości poza strukturą; w ramie obiekt = (stabilna) struktura relacji, która jako całość jest w relacji z inną (słownik). Rozróżnienie „ten sam obiekt / ta sama struktura” zakładało zawartość poza strukturą; logika relacyjna = struktura bez zawartości, zawartość bez struktury = Ro, niedostępna [18]. Struktury bez żadnej różnicy relacji są nierozróżnialne: **stożek stanów nośnika ≡ stożek przyczynowy punktu** (≡ jak w łańcuchu Ø), a zgodność struktur jest [T]. Nic więcej do sprawdzenia. **Translacje rozstrzygnięte strukturą (poprawka 131) [O][L]:** „translacja” = przesunięcie położenia, zakłada pojemnik; po D0 położenie to relacja, więc translacja = zmiana punktu odniesienia na innego czytającego; relacja między czytającymi = porządek między ich elementami (linki = światło) = jeden z dwóch pierwotnych (A1). Stożek w każdym punkcie: R1c; relacje między punktami: porządek; sklejenie: **Malament (1977)** — porządek między wszystkimi punktami wyznacza geometrię (z translacjami) z dokładnością do czynnika konforemnego, który uzupełnia liczność. Höhn–Müller nie mają translacji, bo badają dwa laboratoria bez porządku między nimi. **R1c nie ma punktów otwartych**; zostaje tylko [?] det ρ ↔ masa (forma).
-- Punkt 3 (det ρ ↔ masa) — tylko forma, nie wynik.
+- **Stożek stanów nośnika ≡ stożek przyczynowy punktu** [H] (poprawki 130, 132): pytanie „ten sam obiekt czy tylko ta sama struktura” zakładało zawartość poza strukturą; struktury bez żadnej różnicy relacji są nierozróżnialne, a zgodność struktur jest [T].
+- **Translacje (131) [O][L]:** translacja zakłada pojemnik; po D0 = zmiana punktu odniesienia na innego czytającego = porządek między ich elementami (linki = światło; A1). Stożek w każdym punkcie — R1c; relacje między punktami — porządek; sklejenie — Malament (czynnik konforemny uzupełnia liczność). **R1c nie ma punktów otwartych** poza [?] det ρ ↔ masa (pkt 3).
 
-## R1d. Elektron, pole elektronowe i relacja z polem EM; kwark — zapis relacyjny [L][O] (v3.4, 25.09; poprawka 133)
+## R1d. Elektron, pole elektronowe i relacja z polem EM; kwark [L][O] (poprawki 133–135)
 
-**Skąd:** pogawędka 25.09 (użytkownik: „brakuje pogawędki o samym elektronie, polu elektronowym i tej dziwnej relacji z polem EM”; „zyg-zak… mógłby mieć związek z przeciwnymi funkcjami energii do odległości dla kwarków i elektronów”). Lista pojęć [94] i kolejność przed masą (A3): … → pole → próżnia → energia → ładunek, spin → elektron, kwark, gluon → masa.
+Kolejność pojęć przed masą [94] (A3): … → pole → próżnia → energia → ładunek, spin → elektron, kwark, gluon → masa. [H] „zyg-zak… mógłby mieć związek z przeciwnymi funkcjami energii do odległości dla kwarków i elektronów”.
 
 ### R1d-F. Zapis formalny [L]
 
-- **Nośnik i światło (z R1c):** ξ ∈ ℂ² (spinor, spin ½) = nośnik minimalny z R1b; kierunek zerowy = ξξ† (wektor, spin 1). Obrót o 2π: ξ ↦ −ξ, ξξ† ↦ ξξ†.
-- **Faza w punkcie ≡ Ø:** ψ(x) ↦ e^{iθ(x)}ψ(x) nie zmienia żadnego odczytu. Odczytywalne tylko **porównania**: ψ̄(x)·U(x,y)·ψ(y), U(x,y) = P exp(i e ∫ₓʸ A). Pole EM = koneksja A = **relacja faz między punktami**; natężenie F = obieg fazy po małej pętli (holonomia). Ładunek e = siła sprzężenia fazy z relacją; α = e²/4π.
+- **Nośnik i światło (R1c):** ξ ∈ ℂ² (spinor, spin ½) = nośnik minimalny z R1b; kierunek zerowy = ξξ† (wektor, spin 1). Obrót o 2π: ξ ↦ −ξ, ξξ† ↦ ξξ†.
+- **Faza w punkcie ≡ Ø:** ψ(x) ↦ e^{iθ(x)}ψ(x) nie zmienia żadnego odczytu. Odczytywalne tylko **porównania**: ψ̄(x)·U(x,y)·ψ(y), U(x,y) = P exp(i e ∫ₓʸ A). **Pole EM = koneksja A = relacja faz między punktami**; natężenie F = obieg fazy po małej pętli (holonomia). **Ładunek e = siła sprzężenia fazy z relacją**; α = e²/4π.
 - **Relacja vs relacja relacji:** F = dA (abelowa: relacja nie niesie ładunku, foton neutralny) vs F = dA − i g [A, A] (nieabelowa, kolor: relacja niesie ładunek, gluony wiążą się ze sobą).
-- **Zygzak (Penrose, *The Road to Reality*, §25.2):** ψ = (ψ_L, ψ_R), każde bezmasowe (t = 0, porusza się z c); masa sprzęga je: −m(ψ̄_L ψ_R + ψ̄_R ψ_L); przechodzenie L ↔ R z częstością ~ m. Wektor czasopodobny = suma dwóch zerowych (R1c).
-- **Odległość i energia bez pojemnika (poprawka 134):**
-  - **odległość r := ½·n_ob** — n_ob = liczba tyknięć (elementów) własnej trajektorii czytającego między wysłaniem linku a odczytem jego powrotu (obieg; definicja metra 1983, „tylko prędkość w dwie strony” [266]); w jednostkach ℓ.
-  - **energia E := ν** — częstość odczytu: liczba zmian odczytu nośnika na jedno tyknięcie czytającego (przelicznik ħ, A2). We własnej ramie nośnika ν = masa = tempo samoodczytu (§F1); u innego czytającego — **w miejscu czytającego** — większa, E = γ·m (stosunek temp; *poprawka 163: to nie jest dylatacja — dylatacją jest faza wzdłuż linii świata nośnika na tyknięcie czytającego, m·√(1−v²); R1f-3*). Noether: to, co stałe przy przesunięciu wzdłuż porządku (A3).
-  - **E·r = liczba odczytów na jeden obieg** — bezwymiarowe. Skala w biegnących sprzężeniach: μ ~ 1/n_ob, więc **ln(μ/μ₀) = ln(n₀/n)** = logarytm stosunku liczebności (A2: ln(N_Λ/N)).
-- **Biegnące sprzężenia:** 1/α_i(n) = 1/α_i(n₀) + (b_i/2π)·ln(n₀/n); wkład pola o spinie s do b ∝ (−1)^{2s}[(2s)² − ⅓] (A2): −⅓ „orbitalny” (ekranuje), (2s)² „spinowy” (antyekranuje, działa tylko gdy relacja niesie ładunek) — Nielsen, Am. J. Phys. 49, 1171 (1981).
-  - QED: 1/α(n) = 1/α(n₀) − (2/3π)·Σ N_c Q²·ln(n₀/n) (A2: nachylenie ΣN_cQ² = 8) → sprzężenie **rośnie przy krótkim obiegu**; E·r ≈ α (stałe z dokładnością do logarytmu) — **α to sama relacja „odczyty na obieg”** (A2: α = promień Bohra / zredukowana długość Comptona = stosunek dwóch obiegów).
-  - QCD: b₀ = 11 − ⅔ n_f > 0 → sprzężenie **maleje przy krótkim obiegu** (swoboda asymptotyczna), rośnie przy długim (uwięzienie: E·r rośnie jak n_ob², przy napięciu struny σ w jednostkach ℓ⁻²).
-- **Transmutacja:** n_Λ = n·exp(+2π / (b₀ α_s(n))) — liczba tyknięć obiegu, przy której logarytm QCD sięga jedności (Λ_QCD ~ 1/n_Λ) — tu logarytm QCD sięga jedności → większość masy protonu. Dla QED analogiczna skala poza zasięgiem → masa elektronu nie z tego mechanizmu.
+- **Zygzak (Penrose, *The Road to Reality*, §25.2):** ψ = (ψ_L, ψ_R), każde bezmasowe (t = 0); masa sprzęga je: −m(ψ̄_L ψ_R + ψ̄_R ψ_L), przechodzenie L ↔ R z częstością ~ m. **Elektron = relacja dwóch struktur świetlnych; masa = tempo ich wzajemnego przechodzenia** = tempo samoodczytu (§F1; Hoyle–Narlikar w A3: „ten sam zygzak”). Wektor czasopodobny = suma dwóch zerowych (R1c; [T] w R1f-3).
+- **Odległość i energia bez pojemnika (poprawka 134):** **r := ½·n_ob**, n_ob = liczba tyknięć własnej trajektorii czytającego między wysłaniem linku a odczytem jego powrotu (obieg; definicja metra 1983, „tylko prędkość w dwie strony” [266]). **E := ν** = liczba zmian odczytu nośnika na jedno tyknięcie czytającego (przelicznik ħ, A2); we własnej ramie nośnika ν = masa, w miejscu innego czytającego E = γ·m (odczyty tej samej fazy: R1f-3). Noether: to, co stałe przy przesunięciu wzdłuż porządku (A3). **E·r = liczba odczytów na jeden obieg** — bezwymiarowe; skala μ ~ 1/n_ob, więc **ln(μ/μ₀) = ln(n₀/n)** = logarytm stosunku liczebności (A2: ln(N_Λ/N)).
+- **Biegnące sprzężenia:** 1/α_i(n) = 1/α_i(n₀) + (b_i/2π)·ln(n₀/n); wkład pola o spinie s do b ∝ (−1)^{2s}[(2s)² − ⅓] (A2; Nielsen, Am. J. Phys. 49, 1171 (1981)): −⅓ „orbitalny” (ekranuje), (2s)² „spinowy” (antyekranuje, działa tylko, gdy relacja niesie ładunek).
+  - QED: 1/α(n) = 1/α(n₀) − (2/3π)·Σ N_c Q²·ln(n₀/n) (A2: ΣN_cQ² = 8) → sprzężenie **rośnie przy krótkim obiegu**; E·r ≈ α (stałe z dokładnością do logarytmu) — **α to sama relacja „odczyty na obieg”** (A2: α = promień Bohra / zredukowana długość Comptona = stosunek dwóch obiegów).
+  - QCD: b₀ = 11 − ⅔ n_f > 0 → sprzężenie **maleje przy krótkim obiegu** (swoboda asymptotyczna), rośnie przy długim (uwięzienie: E·r rośnie jak n_ob²).
+- **Transmutacja:** n_Λ = n·exp(+2π / (b₀ α_s(n))) — liczba tyknięć obiegu, przy której logarytm QCD sięga jedności (Λ_QCD ~ 1/n_Λ) → większość masy protonu. W QED analogiczna skala poza zasięgiem → masa elektronu nie z tego mechanizmu.
 
 ### Odczyt w ramie [O]
 
 1. **Pole elektronowe bez wzbudzenia ≡ Ø**, jak pole EM [242, 258]. Elektron = wzbudzenie = odczyt, nie „cząstka z polem wokół”.
-2. **„Dziwna relacja” z polem EM:** pole EM nie jest drugim bytem obok elektronu, tylko **relacją między fazami pola elektronowego w różnych punktach** (faza w punkcie ≡ Ø). Foton = minimalne wzbudzenie tej relacji. Zgodne z „Dalej otwarte”: pole jako faza na zamkniętych drogach (Giles, Sverdlov–Bombelli, Pellegrin).
-3. **Ładunek nie jest cechą:** siła, z jaką faza jest związana relacją.
-4. **Elektron = relacja dwóch struktur świetlnych (L, R, każda t = 0); masa = tempo ich wzajemnego przechodzenia** = „tempo samoodczytu” (§F1). Hoyle–Narlikar w A3: „ten sam zygzak”.
-5. **Przeciwne funkcje sprzężenia od obiegu (dawniej „energii od odległości”)** *(uwaga 158: „relacja relacji” niżej = węższy odczyt asystenta; u użytkownika [78] przestrzeń, [94] masa, [104] świat R ⊗ R)*: znak z (−1)^{2s} = **nośnik (spinor, zygzak) vs jego złożenie (wektor, światło)** + to, czy relacja niesie ładunek. W języku [94]: **elektron — relacja (abelowa); kwark — relacja relacji (nieabelowa, kolor wiąże się sam ze sobą)**. Tempo zygzaka (masa) nie ustala znaku, tylko liczbę tyknięć obiegu, od której nośnik wchodzi do rachunku.
-6. **Zespół funkcji logarytmicznych dla masy [94] = zespół biegnących sprzężeń**, każde z współczynnikiem wyznaczonym przez spin i przez to, czy relacja wiąże się sama ze sobą (liczby z A2). Dwa typy logarytmu (relacja / relacja relacji) — stąd „jedna funkcja nie wystarczy, kwarki i elektrony na to nie pozwalają”.
+2. **„Dziwna relacja” z polem EM:** pole EM nie jest drugim bytem obok elektronu, tylko **relacją między fazami pola elektronowego w różnych punktach**; foton = minimalne wzbudzenie tej relacji (pole jako faza na zamkniętych drogach: Giles, Sverdlov–Bombelli, Pellegrin — „Dalej otwarte”). **Ładunek nie jest cechą**, tylko siłą, z jaką faza jest związana relacją.
+3. **Przeciwne funkcje sprzężenia od obiegu:** znak z (−1)^{2s} = **nośnik (spinor, zygzak) vs jego złożenie (wektor, światło)** + to, czy relacja niesie ładunek. W języku [94]: **elektron — relacja (abelowa); kwark — relacja relacji (kolor wiąże się sam ze sobą)** — węższy odczyt asystenta; u użytkownika „relacja relacji” to [78] przestrzeń, [94] masa, [104] świat R ⊗ R (poprawka 158). Tempo zygzaka (masa) nie ustala znaku, tylko liczbę tyknięć obiegu, od której nośnik wchodzi do rachunku.
+4. **Zespół funkcji logarytmicznych dla masy [94] = zespół biegnących sprzężeń**, każde ze współczynnikiem ze spinu i z tego, czy relacja wiąże się sama ze sobą (A2). Dwa typy logarytmu (relacja / relacja relacji) — stąd „jedna funkcja nie wystarczy, kwarki i elektrony na to nie pozwalają”.
 
-### Trzy punkty otwarte — rozpisane (poprawka 135)
+Pkt 3–4 to zestawienie formalizmu z ramą, nie wyprowadzenie z P0–P6.
 
-**1. Co ustala częstość zygzaka elektronu.** [L] L i R nie przechodzą w siebie wprost; łączy je relacja z polem Higgsa: m = y·v/√2, v — wartość w próżni, wszędzie ta sama. [O] Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie odczyta → **jednostronna relacja z Ø** [122–124]. **Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.** Status: m_e/m_P = y_e·(v/m_P)/√2 — stosunek stosunków; „co ustala y_e” otwarte także w fizyce → **nie osobny krok na końcu, tylko jeden z wykładników ustalanych razem z resztą (§F1, poprawka 136); „masa na końcu” z [94] = kolejność definiowania, nie wyprowadzania (por. 137; poprawka 142).** Masa protonu głównie z transmutacji, nie z Higgsa: dwa mechanizmy, zgodnie z „kwarki i elektrony nie pozwolą na jedną funkcję”. **Dopisek (poprawka 166) [O]:** „siła jednostronnej relacji z tłem” (y·v) = odczyt **B** (współczynnik działania przy danej rozdzielczości); masa w sensie R1f-3 (faza na własne tyknięcie) = odczyt **A** (masa biegunowa). Bez pętli to samo; różni je relacja nośnika z polem EM między własnym tyknięciem a rozdzielczością — dla stosunków leptonów 1–3% (§F1, 154 pkt 3 i 166; pułapka nazewnicza nr 6).
+### Trzy punkty otwarte (poprawka 135)
 
-**2. Asymetria [126].** Nie między połówkami zygzaka (błąd asystenta): L i R to składniki tego samego elektronu, nie materia/antymateria. [L] Sacharow (1967): potrzebne naraz — relacja rozróżniająca połówki zygzaka (oddziaływanie słabe czyta tylko L), faza nieusuwalna (naruszenie CP), brak równowagi. [O] Faza w punkcie ≡ Ø, więc każda faza przerzucalna w punkt jest usuwalna; **nieusuwalna istnieje tylko jako relacja faz ≥ 3 pokoleń** (Kobayashi–Maskawa 1973: przy dwóch wszystkie usuwalne) — zbieżność z triadą [?], ta sama liczba, nie wyprowadzenie. Brak równowagi = pseudokierunek z zapisu; „+1” = zapis, który przetrwał. Status: struktura przełożona; wielkość 10⁻⁹ otwarta także w fizyce (faza MS daje za mało).
+**1. Co ustala częstość zygzaka elektronu.** [L] L i R łączy relacja z polem Higgsa: m = y·v/√2, v wszędzie ta sama. [O] Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie odczyta → **jednostronna relacja z Ø** [122–124]. **Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.** m_e/m_P = y_e·(v/m_P)/√2 — stosunek stosunków; „co ustala y_e” otwarte także w fizyce → nie osobny krok na końcu, tylko jeden z wykładników ustalanych razem z resztą (§F1, poprawka 136); „masa na końcu” z [94] = kolejność definiowania, nie wyprowadzania (142). Masa protonu głównie z transmutacji, nie z Higgsa: dwa mechanizmy. **Dwa odczyty (166):** y·v = odczyt **B** (współczynnik działania przy danej rozdzielczości); faza na własne tyknięcie (R1f-3) = odczyt **A** (masa biegunowa). Różni je relacja nośnika z polem EM — dla stosunków leptonów 1–3% (§F1, 154 pkt 3, 166; pułapka nr 6).
 
-**3. Przekład relacji faz na porządek przyczynowy.** Faza w punkcie ≡ Ø → fazę przypisuje się **linkom** (relacjom minimalnym = fotonom); odczytywalne tylko obiegi: **diament p≺q (dwa łańcuchy) = część elektryczna, korona (zygzak czterech linków) = część magnetyczna** (Pellegrin, „Dalej otwarte”; tam: „treść magnetyczna wymaga naprzemiennych kierunków relacji” — znów zygzak [?]). „Holonomie dołożone do par” przestają być wadą: przypisanie fazy relacjom to definicja pola EM jako relacji. Status: **przekład jest**; otwarta dynamika (wagi obiegów, zbieżność sum) = „działanie” w kolejności pojęć (A3), nie przekład.
+**2. Asymetria [126].** Nie między połówkami zygzaka: L i R to składniki tego samego elektronu, nie materia/antymateria. [L] Sacharow (1967): potrzebne naraz — relacja rozróżniająca połówki zygzaka (oddziaływanie słabe czyta tylko L), faza nieusuwalna (naruszenie CP), brak równowagi. [O] Faza w punkcie ≡ Ø, więc każda faza przerzucalna w punkt jest usuwalna; **nieusuwalna istnieje tylko jako relacja faz ≥ 3 pokoleń** (Kobayashi–Maskawa 1973) — zbieżność z triadą [?], ta sama liczba, nie wyprowadzenie. Brak równowagi = pseudokierunek z zapisu; „+1” = zapis, który przetrwał. Wielkość 10⁻⁹ otwarta także w fizyce.
 
-Pkt 5–6 odczytu to zestawienie formalizmu z ramą, nie wyprowadzenie z P0–P6.
+**3. Przekład relacji faz na porządek przyczynowy.** Faza w punkcie ≡ Ø → fazę przypisuje się **linkom** (relacjom minimalnym = fotonom); odczytywalne tylko obiegi: **diament p ≺ q (dwa łańcuchy) = część elektryczna, korona (zygzak czterech linków) = część magnetyczna** (Pellegrin, „Dalej otwarte”; treść magnetyczna wymaga naprzemiennych kierunków relacji — znów zygzak [?]). Przypisanie fazy relacjom to definicja pola EM jako relacji, nie „holonomie dołożone do par”. Otwarta dynamika (wagi obiegów) = działanie, R1f.
 
-## R1e. Spin i fala EM — zapis relacyjny [T][L][O] (v3.5, 25.09; poprawki 143–144)
+## R1e. Spin i fala EM [T][L][O] (poprawki 143–145)
 
-**Skąd:** lista pojęć [94] (spin, fala EM) po R1b–R1d; potrzebne przed §F1, bo czynnik spinowy (−1)^{2s}[(2s)² − ⅓] jest na liście wejść (poprawka 139). **Filtr:** „spin = wewnętrzny moment pędu” = cecha; pytanie „ile wynosi spin elektronu” źle postawione. Pytanie w ramie: **jaką relację tworzy nośnik z kierunkiem czytającego.**
+**Filtr:** „spin = wewnętrzny moment pędu” = cecha; „ile wynosi spin elektronu” — źle postawione. Pytanie w ramie: **jaką relację tworzy nośnik z kierunkiem czytającego.**
 
 ### R1e-F. Zapis formalny
 
 - **Spin ½ [T]:** stan nośnika minimalnego = punkt kuli B³ (R1b), wektor n; wg D0 ta kula jest przestrzenią kierunków. Odczyt wzdłuż osi czytającego m: p = (1 + n·m)/2 — **relacja dwóch kierunków**.
 - **Znak [T][L]:** obrót o 2π: ξ ↦ −ξ; znak nieodczytywalny w punkcie, odczytywalny tylko jako relacja dwóch dróg (interferometria neutronowa: Rauch i in., Phys. Lett. A 54, 425 (1975); Werner i in., PRL 35, 1053 (1975)). Ten sam znak = (−1)^{2s} we współczynniku b biegnących sprzężeń (spin–statystyka).
 - **s(s+1) [T]:** S² = Sx² + Sy² + Sz² wymaga trzech osi czytającego (triady) i jest ten sam dla każdej triady — niezmiennik relacji nośnik–triada (jak norma Minkowskiego).
-- **Masa a spin [L] (Wigner 1939, §F1):** masywny — SO(3), wszystkie kierunki dostępne; bezmasowy — E(2), odczytywalna tylko helicność.
-- **Fala EM — dwie różne kule, obie B³, obie ze stożkiem Minkowskiego [T][L]:**
-  - (a) **sfera niebieska** = kierunki propagacji = stany czyste spinora (R1c);
-  - (b) **kula Poincarégo** = polaryzacja: macierz koherencji J ≥ 0, det J = (S₀² − S₁² − S₂² − S₃²)/4 ≥ 0 — ta sama forma co det ρ w R1c (Han, Kim, Noz, Phys. Rev. E 56, 6065 (1997)); polaryzacja pełna = brzeg. **Kula (b) nie jest przestrzenią kierunków:** kąt polaryzacji liniowej θ ↦ 2θ na kuli.
-- **Liczba polaryzacji [T]:** bezmasowe pole wektorowe w d wymiarach przestrzennych ma d − 1 polaryzacji; kubit (nośnik minimalny R1b) tylko przy d = 3; przy d = 4 — trzy stany, przestrzeń stanów wymiaru 8.
+- **Masa a spin [L] (Wigner 1939):** masywny — SO(3), wszystkie kierunki dostępne; bezmasowy — E(2), odczytywalna tylko helicność.
+- **Fala EM — dwie różne kule, obie B³, obie ze stożkiem Minkowskiego [T][L] (poprawka 144):** (a) **sfera niebieska** = kierunki propagacji = stany czyste spinora (R1c); (b) **kula Poincarégo** = polaryzacja: macierz koherencji J ≥ 0, det J = (S₀² − S₁² − S₂² − S₃²)/4 ≥ 0 — ta sama forma co det ρ w R1c (Han, Kim, Noz, Phys. Rev. E 56, 6065 (1997)); polaryzacja pełna = brzeg. **Kula (b) nie jest przestrzenią kierunków:** kąt polaryzacji liniowej θ ↦ 2θ.
+- **Liczba polaryzacji [T]:** bezmasowe pole wektorowe w d wymiarach przestrzennych ma d − 1 polaryzacji; kubit (nośnik minimalny R1b) tylko przy d = 3 — więc „foton = minimalne wzbudzenie = minimalna informacja” [258] działa tylko w 3D (spójność z R1b, nie niezależny dowód: R1b zakłada już, że nośnik minimalny to kubit).
+- **⅓ w (2s)² − ⅓ (poprawka 145) [L][T]:** ⅓ **nie jest 1/d** — to stała na każdy stan polaryzacji, z sumy po poziomach Landaua (Nielsen 1981). Wymiar wchodzi przez **liczbę stanów**: nośnik relacji (gluon) w D wymiarach czasoprzestrzeni ma D − 2 polaryzacji, z nich 2 z s_z = ±1 i D − 4 z s_z = 0 → 2·(4 − ⅓) − (D − 4)·⅓ = **(26 − D)/3**: D = 4 → 22/3 (znane 11/3 po połowie), D = 26 → 0 (znane znikanie jednopętlowej funkcji beta Yanga–Millsa w D = 26; arXiv:hep-th/9907205). [O] Tylko w 3D wszystkie polaryzacje nośnika relacji są „spinowe” (brak stanów s_z = 0).
 
 ### Odczyt w ramie [O]
 
-1. **Spin nie jest cechą:** każda odczytywalna wielkość spinowa to relacja — dwóch kierunków (nośnik, czytający), dwóch dróg (znak) albo nośnika i triady (s(s+1)). „Spin wzdłuż z” bez czytającego ≡ Ø (superpozycja, [110]).
-2. **Znak 2π ma postać „faza w punkcie ≡ Ø” z R1d:** odczytywalne tylko porównanie. **Część (−1)^{2s} listy wejść §F1 jest już w ramie:** nośnik (ξ) vs jego złożenie (ξξ†, światło) — R1d pkt 5.
-3. **Polaryzacja = relacja fotonu z osiami czytającego w płaszczyźnie prostopadłej do kierunku;** od czytającego nie zależy tylko helicność (E(2)).
+1. **Spin nie jest cechą:** każda odczytywalna wielkość spinowa to relacja (wyżej: dwóch kierunków, dwóch dróg, nośnika i triady). „Spin wzdłuż z” bez czytającego ≡ Ø (superpozycja, [110]). **Zdanie do upadku:** upada, jeśli jakąś wielkość spinową da się odczytać z jednego nośnika bez odniesienia.
+2. **Znak 2π ma postać „faza w punkcie ≡ Ø” z R1d:** odczytywalne tylko porównanie. Część (−1)^{2s} listy wejść §F1 jest już w ramie: nośnik (ξ) vs jego złożenie (ξξ†, światło) — R1d pkt 3.
+3. **Polaryzacja = relacja fotonu z osiami czytającego** w płaszczyźnie prostopadłej do kierunku; od czytającego nie zależy tylko helicność (E(2)).
 4. **Fala EM** = regularny wzór relacji faz na linkach (R1d); bez odczytu ≡ Ø [264]; odczytywalna przez interferencję (relację dwóch dróg); częstość = częstość odczytu (E := ν, R1d).
-5. **„Foton = minimalne wzbudzenie = minimalna informacja” [258] działa tylko w 3D:** polaryzacja fotonu jest kubitem wyłącznie przy d = 3. **Spójność z R1b, nie niezależny dowód** (R1b zakłada już, że nośnik minimalny to kubit).
 
-### Stan i granice
+## R1f. Działanie i energia [L][T][P][O] (poprawki 162–164)
 
-- **Zdanie do upadku:** każda odczytywalna wielkość spinowa jest relacją (dwóch kierunków, dwóch dróg, nośnika i triady). Upada, jeśli jakąś da się odczytać z jednego nośnika bez odniesienia.
-- **Skąd ⅓ w (2s)² − ⅓ — rozstrzygnięte (poprawka 145) [L][T]:** ⅓ **nie jest 1/d** — to stała na każdy stan polaryzacji, z sumy po poziomach Landaua (ruch w płaszczyźnie prostopadłej do pola; Nielsen, Am. J. Phys. 49, 1171 (1981)). Wymiar wchodzi przez **liczbę stanów**: nośnik relacji (gluon) w D wymiarach czasoprzestrzeni ma D − 2 polaryzacji, z nich 2 z s_z = ±1 i D − 4 z s_z = 0 → 2·(4 − ⅓) − (D − 4)·⅓ = **(26 − D)/3**: D = 4 → 22/3 (znane 11/3 po połowie), D = 26 → 0 (znane znikanie jednopętlowej funkcji beta Yanga–Millsa w D = 26; nLab „beta function”, arXiv:hep-th/9907205). Oba zgodne tylko przy ⅓ niezależnym od D. **[O]:** tylko w 3D wszystkie polaryzacje nośnika relacji są „spinowe” (brak stanów s_z = 0) — spójne z pkt 5 (foton = kubit tylko w 3D); obserwacja, nie dowód.
-- Otwarte dalej: „działanie” (wagi obiegów faz na linkach) i energia w pełni.
-
-## R1f. Działanie i energia — zapis relacyjny [L][T][P][O] (v3.5, 26.09; poprawka 162)
-
-**Skąd:** kolejność pojęć [H] (A11d): … pole → próżnia → **działanie → energia** → ładunek, spin → … → masa; [130] „dalej nie wiem, co to jest energia, masa”; [166]; [190] „zachowanie energii działa lokalnie, nie dla całego wszechświata”; sesja CC 2 [97] „zamienić słowa energia i odległość na konkretne relacje”. **Powód pilności (użytkownik, 26.09):** „Jeśli masa ma się ustalić naraz, to każde niedokończone pojęcie przed nią wejdzie do zespołu cicho. „+1” za punktem Page'a można zostawić jako otwarte i nic się nie zawali; niedokończona energia zawali F1.”
-
-**Audyt — gdzie energia i działanie weszły do §F1 i A5d bez definicji:**
-
-| gdzie | co weszło | stan po R1f |
-|---|---|---|
-| **152–155, cały zespół** | sprzężenia i Yukawy = **współczynniki działania** (efektywnego); β, γ = ich zależność od rozdzielczości | zespół jest zdaniem o działaniu — działanie zdefiniowane niżej |
-| **155 A** (b) | „energia próżni Σ½ω” | użyta **wyłącznie różnica** ΔE(B) − E(0) = relacja próżni z otoczeniem (polem B) — dopisane w §F1 |
-| **155 D** (λ, supertrace) | Σ(−1)^{2s} n·m⁴ — energia próżni zależna od φ (Coleman–Weinberg) | tylko różnica względem wartości pola — dopisane |
-| **148, 150, 154** | „energie próżni”, „różnica energii próżni względem całości” | energia stanów ≡ Ø ma sens wyłącznie jako różnica względem otoczenia — dopisane |
-| **150** | stałe jako „energie” sprzężone z czasami | energia jako wielkość sprzężona z zegarem czytającego (Page–Wootters) — niżej |
-| **159, 161** (A5d) | przepływ energii (Jacobson; już zamieniony na bilans), T_H, warunek energii zerowej, M | energia grawitacyjna tylko przez brzeg — niżej |
-| **R1d** | E := ν — jedyna dotychczasowa definicja (jeden nośnik, jeden czytający) | uzupełniona: pęd, masa, próżnia, zachowanie |
+Kolejność pojęć [H] (A11d): … pole → próżnia → **działanie → energia** → ładunek, spin → … → masa. [H] „Jeśli masa ma się ustalić naraz, to każde niedokończone pojęcie przed nią wejdzie do zespołu cicho. „+1” za punktem Page'a można zostawić jako otwarte i nic się nie zawali; niedokończona energia zawali F1.” Gdzie te pojęcia weszły do §F1 i A5d i gdzie są zdefiniowane — R1f-4.
 
 ### R1f-1. Działanie
 
-- **Poziom historii [L]:** amplituda historii = e^{iS/ħ} (Feynman); **S/ħ = liczba obrotów fazy wzdłuż relacji** (bezwymiarowa; ħ = przelicznik, A2 „ħ częściowo”). Faza w punkcie ≡ Ø, odczytywalne są tylko **porównania faz** (interferencja) — R1d. **Działanie nie jest cechą, tylko relacją faz między zapisami.** Obejmuje oba sektory z konstrukcji (także sumę po historiach zbiorów przyczynowych z działaniem BDG).
-- **Poziom lokalny — wspólny nośnik: OBIEGI (holonomie) [T][P].** Rachunek `etap19_dzialanie_obiegi.py` — zdania zapisane przed rachunkiem; zamknięta siatka trójkątów (podzielony dwudziestościan, zaburzenie promienia ±25%, V = 642 i 2562, χ = 2), 5 ziaren:
-  - **Z1 (grawitacja, Regge 2D):** kąt holonomii wektora przeniesionego wokół wierzchołka **niezależnie** (obrót wokół wspólnych krawędzi ścian, bez sumy kątów) = deficyt 2π − Σ kątów, dla każdego wierzchołka: **max różnica ≤ 3,6·10⁻¹⁵** (jeden wspólny znak konwencji obiegu; przeciwny znak — różnice do π). Deficyty lokalnie dowolne (−4,1…+4,2). — PRZESZŁO.
-  - **Z2:** Σ deficytów = 4π = 2π·χ, różnica ≤ 6·10⁻¹³ (Gauss–Bonnet). — PRZESZŁO.
-  - **Z3 (cechowanie U(1)):** działanie Wilsona S_W = Σ_f(1 − cos θ_f) (θ_f = obieg fazy wokół ściany) **bez zmiany** przy losowej fazie w wierzchołkach (faza w punkcie ≡ Ø): różnica 0; **kontrola:** „działanie” z faz krawędzi Σ(1 − cos a_e) zmienia się (o 0,6–89). — PRZESZŁO.
-  - **Z4:** Σ obiegów fazy po zamkniętej powierzchni = 2π·n, n całkowite (n = −21…+10, odchylenie ≤ 4·10⁻¹⁵; liczba monopolowa). — PRZESZŁO.
-  - **K (kontrola płaska):** wewnętrzny wierzchołek płaskiego wachlarza: deficyt i holonomia ≤ 8·10⁻¹⁶. — PRZESZŁO. **Błąd konstrukcji kontroli (asystent), poprawiony w trakcie:** pierwsza wersja wachlarza losowała kąty, przy przerwie > π trójkąty nachodziły (ziarno 2: deficyt = holonomia = −0,05, oba ≠ 0); także pierwsza wersja przenoszenia wektora zmieniała znak heurystycznie i przeorientowywała ściany po zaburzeniu (Z1: różnice π) — zastąpione obrotem wokół krawędzi i orientacją z niezaburzonej sfery.
-- **Dwie wagi obiegu = dwie rodziny z R4 [L][O]** (nie dwie niezależne postacie):
-  - **cechowanie:** waga = **faza obiegu**, **kwadratowo** (Wilson 1 − cos θ ≈ θ²/2 ↔ F²), **bez skali** — rodzina stożka (R4: Maxwell konforemny dokładnie w d = 4; sprzężenie bezwymiarowe, logarytm tylko przy d = 3 — 155). Wymaga trzeciego elementu: faza w punkcie ≡ Ø (157).
-  - **grawitacja:** waga = **kąt obiegu × pole** (Regge: S = Σ_h A_h ε_h), **liniowo**, **ze skalą** (A/l_P²) — rodzina objętości (R4). W porządku: działanie BDG = **liczność małych przedziałów (diamentów) ze znakami** (A2) — tylko dwa pierwotne (porządek + liczność, A1).
-  - **W porządku ten sam obiekt:** diament (przedział = dwa łańcuchy). BDG liczy diamenty z k elementami wewnątrz; faza na diamentach = część elektryczna pola (Pellegrin, R1d pkt 3). **Działanie = suma po obiegach; waga = liczność (grawitacja) albo faza (cechowanie).**
-- **Suma obiegów po zamkniętym brzegu 2D = 2π · liczba całkowita — w obu sektorach** (Z2, Z4) [T][P]: na brzegu 2D ≡ Ø odczytywalna jest tylko liczba (lokalne obiegi dowolne) — zgodne z A5d pkt 1 (jedyna odczytywalna wielkość brzegu = liczba relacji przez brzeg).
-- **Sztywność — A11d, poprawka 169:** druga wariacja = rozróżnialność sąsiednich konfiguracji; nośnik: różnica faz drogi zgiętej i prostej = m·E dokładnie (R1f-3 × R1f-5); relacje faz: 1/g² przy wadze Wilsona (wyżej).
+- **Historie [L]:** amplituda historii = e^{iS/ħ} (Feynman); **S/ħ = liczba obrotów fazy wzdłuż relacji** (bezwymiarowa; ħ = przelicznik, A2). Faza w punkcie ≡ Ø, odczytywalne są tylko porównania faz (R1d). **Działanie nie jest cechą, tylko relacją faz między zapisami**; obejmuje oba sektory (także sumę po historiach zbiorów przyczynowych z działaniem BDG).
+- **Wspólny nośnik obu sektorów: OBIEGI (holonomie) [T][P]** (`etap19_dzialanie_obiegi.py`; zamknięta siatka trójkątów, podzielony dwudziestościan, zaburzenie promienia ±25%, V = 642 i 2562, χ = 2, 5 ziaren; zdania przed rachunkiem, wszystkie przeszły): **Z1** kąt holonomii wektora przeniesionego wokół wierzchołka = deficyt 2π − Σ kątów (różnica ≤ 3,6·10⁻¹⁵; deficyty lokalnie dowolne, −4,1…+4,2); **Z2** Σ deficytów = 2π·χ (Gauss–Bonnet; ≤ 6·10⁻¹³); **Z3** działanie Wilsona S_W = Σ_f(1 − cos θ_f) bez zmiany przy losowej fazie w wierzchołkach (różnica 0; kontrola: „działanie” z faz krawędzi zmienia się o 0,6–89); **Z4** Σ obiegów fazy po zamkniętej powierzchni = 2π·n, n całkowite (n = −21…+10, ≤ 4·10⁻¹⁵; liczba monopolowa); **K** płaski wachlarz: deficyt = holonomia ≤ 8·10⁻¹⁶. **Na zamkniętym brzegu 2D ≡ Ø odczytywalna jest tylko liczba — w obu sektorach** (A5d pkt 1: jedyna odczytywalna wielkość brzegu = liczba relacji przez brzeg).
+- **Dwie wagi obiegu = dwie rodziny R4 [L][O]:** **cechowanie** — waga = faza obiegu, **kwadratowo** (Wilson 1 − cos θ ≈ θ²/2 ↔ F²), **bez skali** — rodzina stożka (Maxwell konforemny dokładnie w d = 4; logarytm tylko przy d = 3 — 155; faza w punkcie ≡ Ø wymaga trzeciego elementu — 157); **grawitacja** — waga = kąt obiegu × pole (Regge: S = Σ_h A_h ε_h), **liniowo, ze skalą** (A/l_P²) — rodzina objętości; w porządku działanie BDG = liczność małych przedziałów ze znakami (A2), tylko dwa pierwotne (A1). **W porządku ten sam obiekt — diament:** BDG liczy diamenty z k elementami wewnątrz, faza na diamentach = część elektryczna pola (R1d, punkt otwarty 3). **Działanie = suma po obiegach; waga = liczność (grawitacja) albo faza (cechowanie).**
+- **Druga wariacja („sztywność”) — A11d, poprawka 169:** rozróżnialność sąsiednich konfiguracji; nośnik: różnica faz drogi zgiętej i prostej = m·E dokładnie (R1f-3 × R1f-5); relacje faz: 1/g² przy wadze Wilsona.
+- **Status:** definicje [O] spójne z R1d; formalizmy [L]; rachunek [P] tylko na siatce (2D, sfera). Niepoliczone: czy w porządku waga BDG i faza obiegu na tych samych diamentach dają w granicy działanie Einsteina–Hilberta i Yanga–Millsa jednocześnie (hipoteza BDG, program Pellegrina i Sverdlova–Bombellego).
 
 ### R1f-2. Energia
 
-- **E = −∂S/∂(tyknięcie czytającego) przy stałym miejscu czytającego** (Hamilton–Jacobi) = **liczba obrotów fazy na jedno tyknięcie czytającego, w miejscu czytającego = ν z R1d** *(uściślone w 163: „w miejscu czytającego” — inne odczyty tej samej fazy w R1f-3)* — R1d już była tą definicją; R1f pokazuje skąd. **Pęd** = obroty fazy na obieg (odległość, R1d); **masa** = obroty na własne tyknięcie (Compton; zygzak R1d; samoodczyt §F1); E·r = odczyty na obieg (R1d). **Energia, pęd, masa = jedna struktura (faza, S/ħ) czytana na trzy sposoby.** Zegar = podukład czytającego (Page–Wootters), nie parametr zewnętrzny.
-- **Energia próżni:** próżnia ≡ Ø → **energia próżni sama w sobie nie istnieje** (rozbieżność o ~120 rzędów = interpretacja; A5c, Bianchi–Rovelli). Istnieją tylko **różnice względem otoczenia:** zależność od pola B (155 A), od wartości pola (155 D, 154), różnice między próżniami odczytywalne przez ściany i grawitację (154). **[L] Casimir:** siłę da się policzyć bez energii próżni, jako relację między płytami (Jaffe, PRD 72, 021301 (2005)) — mierzy się relację otoczenia, nie energię Ø.
+- **E = −∂S/∂(tyknięcie czytającego) przy stałym miejscu czytającego** (Hamilton–Jacobi) = **liczba obrotów fazy na jedno tyknięcie czytającego, w miejscu czytającego = ν z R1d.** Pęd i masa = ta sama faza (S/ħ) czytana inaczej (R1f-3). Zegar = podukład czytającego (Page–Wootters), nie parametr zewnętrzny.
+- **Energia próżni:** próżnia ≡ Ø → **energia próżni sama w sobie nie istnieje** (rozbieżność o ~120 rzędów = interpretacja; A5c, Bianchi–Rovelli). Istnieją tylko **różnice względem otoczenia:** zależność od pola B (155 A), od wartości pola (155 D, 154), różnice między próżniami (154). Zero fazy ustala Lorentz (R1f-3, M4), a w próżni nie ma nośnika, który by je ustalił. **[L] Casimir:** siłę da się policzyć bez energii próżni, jako relację między płytami (Jaffe, PRD 72, 021301 (2005)).
 - **Energia grawitacyjna [L]:** nie ma lokalnej gęstości (zasada równoważności); istnieje tylko jako **całka po brzegu** (ADM, Brown–York) = relacja przez brzeg — zgodne z A5d (M czarnej dziury odczytywalne tylko na brzegu; brak włosów, 160).
 - **Zachowanie energii:** lokalne [190], względem zegara czytającego; w strukturze bez ciągłej symetrii najwyżej **średnio** [191]; dla całości brak (całość bez otoczenia; A5b, A5c).
 
-### R1f-3. Pęd i masa z tej samej fazy — sprawdzenie (poprawka 163) [T][P][L]
+### R1f-3. Pęd i masa z tej samej fazy (poprawka 163) [T][P][L]
 
-**Rachunek** `etap20_faza_ped_masa.py` — zdania przed rachunkiem; 2000 losowych nośników (m = 0,1–5, |v| do 0,99), 2 ziarna; c = ħ = 1:
+`etap20_faza_ped_masa.py` (2000 losowych nośników, m = 0,1–5, |v| do 0,99, 2 ziarna; c = ħ = 1; zdania przed rachunkiem, wszystkie przeszły, odchylenia ≤ 1,4·10⁻¹⁴; warunek kontroli M3 poprawiony przed przyjęciem wyniku, 163): **M1** m² = det(E·𝟙 + p·σ) (tożsamość R1c dla gradientu fazy); **M2** każdy gradient czasopodobny = suma dwóch zerowych k₁ + k₂ (dwie części t = 0 — zygzak R1d), **m² = 2·(k₁·k₂)**; kontrola: części równoległe → m = 0; **M3** faza na **własne** tyknięcie = m, niezależnie od prędkości; **M4** przesunięcie zera fazy (E → E + 0,7) psuje M3 (zależność od |v|, korelacja +0,71, odchylenie do 4,6) — **zero fazy ustala niezmienniczość Lorentza (R1c).**
 
-| zdanie | wynik |
+**Cztery odczyty tej samej fazy:** na własne tyknięcie nośnika = **m** — niezmiennik, to jest masa; wzdłuż linii świata nośnika, na tyknięcie czytającego = **m·√(1−v²)** — to jest dylatacja (korelacja z |v| −0,93; R1a: z zewnątrz → 0 przy v → c); w miejscu czytającego = **E = γ·m** — nie dylatacja (+0,71); na odległość = **|p| = γ·m·v** (+0,82).
+
+**Wnioski [T][O]:** (1) **masa = relacja dwóch części t = 0** (M2): gdy ich kierunki nierozróżnialne — masy nie ma; zygzak R1d jako [T]. (2) [L] Nierelatywistycznie masa też jest fazą: współczynnik fazy przy pchnięciu Galileusza (reguła superselekcji Bargmanna, 1954).
+
+### R1f-4. Pojęcia użyte w §F1 i A5d — gdzie zdefiniowane (poprawki 162–164)
+
+| pojęcie | definicja w ramie |
 |---|---|
-| **M1:** m² = det(E·𝟙 + p·σ) (tożsamość R1c dla gradientu fazy) | ≤ 1,1·10⁻¹⁴ — PRZESZŁO |
-| **M2:** każdy gradient czasopodobny = suma dwóch zerowych k₁ + k₂ (dwie części t = 0 — zygzak R1d), **m² = 2·(k₁·k₂)** | ≤ 7·10⁻¹⁵ — PRZESZŁO; kontrola: dwie części **równoległe** → m² ≤ 2·10⁻¹⁴ (masa 0) |
-| **M3:** faza na **własne** tyknięcie = m, niezależnie od prędkości | ≤ 1,4·10⁻¹⁴ — PRZESZŁO |
-| **M4:** przesunięcie zera fazy (E → E + 0,7) psuje M3 (zależność od |v|, korelacja +0,71, odchylenie do 4,6) | PRZESZŁO — **zero fazy ustala niezmienniczość Lorentza (R1c)** |
+| ładunek; sprzężenie α, g | R1d: siła wiązania fazy; α = odczyty na obieg; ładunki z anomalii (A2 [86]) |
+| rozdzielczość t = ln(n₀/n) | R1d: obieg odczytu |
+| spin; kolor, Casimiry | R1e; grupa warunkowo (156–157) |
+| stan (masowy, słaby) | R1b: prawdopodobieństwa odczytów; 154: relacja z tłem / z W |
+| działanie, energia, energia próżni, potencjał | R1f-1, R1f-2: energia stanów ≡ Ø tylko jako różnica względem otoczenia |
+| pęd, masa | R1f-3 |
+| krzywizna, grawitacja | poprawka 113; R1f-1 (krzywizna = kąt obiegu); energia grawitacyjna tylko przez brzeg |
+| przyspieszenie, temperatura (A5d: Unruh, T_H = κ/2π, κ = lim(V·a)) | R1f-5 |
+| S_bulk (wzór na wyspy, A5d (b)) | entropia splątania pola — **zależna od cięcia** (R5, poprawka 51); sensowna tylko entropia uogólniona (pole brzegu/4G + S_bulk): część zależna od cięcia przechodzi w renormalizację 1/G (Susskind–Uglum, PRD 50, 2700 (1994)); odczytywalna jest tylko liczba relacji przez brzeg razem z resztą (C4a.16e) |
 
-**Błąd asystenta w warunku kontroli M3 (poprawiony przed przyjęciem wyniku):** zakładał, że wszystkie inne tempa rosną z prędkością; jedno maleje — warunek zmieniony na |korelacja| > 0,3.
+### R1f-5. Przyspieszenie (poprawka 164) [T][P][O]
 
-**Cztery odczyty tej samej fazy (uściślenie, które rachunek wymusza):**
-- **na własne tyknięcie nośnika = m** — niezmiennik; to jest masa;
-- **wzdłuż linii świata nośnika, na tyknięcie czytającego = m·√(1−v²)** — maleje (korelacja z |v| −0,93); **to jest dylatacja** (R1a: „masa z zewnątrz spada do 0 przy v → c”);
-- **w miejscu czytającego = E = γ·m** — rośnie (+0,71); to R1d „u innego czytającego większa” (**nie** dylatacja — sformułowanie R1d poprawione);
-- **na odległość = |p| = γ·m·v** (+0,82).
+**Definicja:** trzy kolejne elementy trajektorii p ≺ q ≺ c; **nadwyżka E = τ(p,c) − τ(p,q) − τ(q,c) ≥ 0** (odwrotna nierówność trójkąta; zero dokładnie dla prostej); w porządku τ = najdłuższy łańcuch (miara odczytu, R1a), a E_L = L(p,c) − L(p,q) − L(q,c) ≥ 0 **zawsze**. **Przyspieszenie na tyknięcie: a·τ = 2·√(E/τ)**, τ = L(p,q) — **stosunek dwóch liczebności, bez gęstości i bez pojemnika.** Kontinuum: stałe przyspieszenie własne daje E = (2/a)[sinh(aδ) − 2 sinh(aδ/2)] = a²δ³/4 + O(a⁴δ⁵) [T].
 
-**Wnioski [T][O]:** (1) **masa = relacja dwóch części t = 0** (M2): gdy ich kierunki nierozróżnialne (równoległe) — masy nie ma; zygzak R1d jako [T]; R1c pkt 3 — dla macierzy pędu m² = det P [T]. (2) **Zero fazy ustala Lorentz** (M4): w próżni nie ma nośnika, który by je ustalił → energia próżni sama w sobie nieodczytywalna — zgodne z R1f-2. (3) [L] Nierelatywistycznie masa też jest fazą: współczynnik fazy przy pchnięciu Galileusza (reguła superselekcji Bargmanna, 1954).
+`etap21_przyspieszenie.py` (zdania przed rachunkiem, wszystkie przeszły; warunek A3 zaostrzony po drugim przebiegu — do „w 2% albo 3σ przy najwyższej gęstości”, 164): **A1** kontinuum 1+1 — 2√(E/δ³) → a jak δ² (stosunek błędów 4,00 przy połowieniu δ), prosta E = 0, pchnięcie trójki nie zmienia E; **A2** kontinuum 3+1 — zbieżność do |a^μ| jak δ² (okrąg i losowa gładka trajektoria: 3,96–3,99); **A3** porządek 1+1 (sprinkling, ρ = 1000–64000, 1,8 dekady, 120–600 prób na punkt) — E_L < 0 w 0 próbach; stosunki przy ρ = 64000: 0,995 / 1,005 / 1,011 (a = 0,5 / 1,0 / 1,5), zbieżne z góry, odchylenie ~ρ^(−1/3).
 
-### R1f-4. Audyt po kolei — pojęcia w §F1 i A5d (poprawka 163)
+**Odczyt w ramie [O]:** (1) **przyspieszenie = odchylenie własnego zapisu od najprostszej kontynuacji**, odczytywalne **od środka** (z liczebności własnych łańcuchów), jak masa na własne tyknięcie (R1f-3) — nie „przyspieszenie w przestrzeni”. (2) Estymator daje wielkość |a|; kierunek przyspieszenia byłby relacją z triadą (3D) — [?], niepoliczone. (3) **Unruh [L]:** T = a/2π → **T·τ = √(E/τ)/π** — Ø od strony czytającego z nadwyżką E wygląda termicznie; A5d: κ = lim(V·a), oba czynniki zdefiniowane (V = stosunek tempa odczytu, a z nadwyżki). **Ograniczenie:** porządek sprawdzony tylko w 1+1 (pułapka 5), 3+1 tylko w kontinuum (A2).
 
-| pojęcie | gdzie użyte | definicja w ramie | status |
-|---|---|---|---|
-| ładunek | 152 (hiperładunki), R1d | R1d: siła wiązania fazy; A2: z anomalii [86] | jest |
-| sprzężenie α, g | cały §F1 | R1d: siła wiązania; α = odczyty na obieg | jest |
-| skala / rozdzielczość t = ln(n₀/n) | cały §F1 | R1d: obieg odczytu | jest |
-| spin | 152, 155 | R1e | jest |
-| kolor, Casimiry | 152, 155 | grupa: 156–157 | warunkowo |
-| stan (masowy, słaby) | 154, 155 | R1b (prawdopodobieństwa odczytów); 154 (relacja z tłem / z W) | jest |
-| energia, działanie, energia próżni, potencjał | 148–155 | R1f-1, R1f-2 | jest |
-| pęd, masa | R1f | R1f-3 | jest (po uściśleniu sformułowań) |
-| krzywizna, grawitacja | 154, A5d | poprawka 113 + R1f-1 (krzywizna = kąt obiegu) | jest |
-| **przyspieszenie** | **A5d: Unruh, T_H = κ/2π, κ = lim(V·a)** | **R1f-5 (poprawka 164): a·τ = 2√(E/τ), nadwyżka odwrotnej nierówności trójkąta** | **jest (od 164)** |
-| temperatura | A5d | Ø od strony czytającego z przyspieszeniem; T·τ = √(E/τ)/π (R1f-5) | jest (od 164) |
-| **S_bulk (wzór na wyspy)** | **A5d (b), pkt 3** | entropia splątania pola — **zależna od cięcia** (R5, poprawka 51) | **weszło cicho** |
+## R2. Retrospekcja [A]
 
-- **Przyspieszenie — kandydat już w pliku [O][?]:** §F1 (etap8, „piąta pułapka”): **nadwyżka z odwrotnej nierówności trójkąta** τ(p,c) − τ(p,q) − τ(q,c) ≥ 0 — zero dokładnie dla prostej, niezależna od długości kroku. Przyspieszenie := nadwyżka na jedno tyknięcie — bez pojemnika. **Niesprawdzone** — następny krok.
-- **S_bulk [L]:** we wzorze na wyspy sensowna jest tylko **entropia uogólniona** (pole brzegu/4G + S_bulk): zależna od cięcia część S_bulk przechodzi w renormalizację 1/G w członie brzegowym (Susskind–Uglum, PRD 50, 2700 (1994)). **W ramie:** odczytywalna jest tylko liczba relacji przez brzeg **razem** z resztą, nie każda część osobno — zgodne z „entropia jest efektem, a nie prawem” (C4a.16e).
-
-### R1f-5. Przyspieszenie — nadwyżka z odwrotnej nierówności trójkąta (poprawka 164) [T][P][O]
-
-**Definicja (kandydat z R1f-4, z §F1 etap8 „piąta pułapka”):** trzy kolejne elementy trajektorii p ≺ q ≺ c; **nadwyżka E = τ(p,c) − τ(p,q) − τ(q,c) ≥ 0** (zero dokładnie dla prostej); w porządku τ = najdłuższy łańcuch (miara odczytu, R1a), a E_L = L(p,c) − L(p,q) − L(q,c) ≥ 0 **zawsze** (nadaddytywność łańcuchów). **Przyspieszenie na tyknięcie: a·τ = 2·√(E/τ)**, τ = L(p,q) — **stosunek dwóch liczebności, bez gęstości i bez pojemnika.** Kontinuum: ruch o stałym przyspieszeniu własnym daje E = (2/a)[sinh(aδ) − 2 sinh(aδ/2)] = a²δ³/4 + O(a⁴δ⁵) [T].
-
-**Rachunek** `etap21_przyspieszenie.py` (zdania przed rachunkiem):
-
-| zdanie | wynik |
-|---|---|
-| **A1** (kontinuum 1+1): 2√(E/δ³) → a jak δ² (stosunek błędów 4 przy połowieniu δ); prosta: E = 0; pchnięcie trójki nie zmienia E | stosunki 4,00 dla a = 0,1–2; E(prosta) = 0; pchnięcia bez zmiany — PRZESZŁO |
-| **A2** (kontinuum 3+1): zbieżność do |a^μ| (normy Minkowskiego) jak δ² | okrąg: |a| = 0,5625 = γ²v²/R, stosunki 3,97–3,99; losowa gładka trajektoria: 3,96–3,99 — PRZESZŁO |
-| **A3** (porządek 1+1, sprinkling, ρ = 1000–64000 — 1,8 dekady; 120–600 prób na punkt): E_L ≥ 0 zawsze; (aτ)_est = 2√([E_L(a) − E_L(0)]/L(p,q)) zbiega do odniesienia kontinuum | E_L < 0 w **0** próbach; stosunki przy ρ = 64000: **0,995 / 1,005 / 1,011** (a = 0,5 / 1,0 / 1,5), zbieżne z góry od 1,03 przy ρ = 1000; odchylenie maleje ~ρ^(−1/3) (0,031 → 0,019 → 0,014 → 0,011 — obciążenie skończonej liczebności najdłuższego łańcucha) — PRZESZŁO |
-
-**Błędy konstrukcji asystenta w A3 (jawnie, poprawione ze strukturalnego powodu przed przyjęciem wyniku):** (1) element q nie należał do zbioru przy liczeniu L(p,c) — łańcuch przez q niedostępny, E_L < 0 w 44 próbach; q jest elementem porządku; (2) porównanie z granicą δ → 0 zamiast z estymatorem kontinuum przy tym samym tyknięciu; (3) odniesienie liczone po **łuku**, a w porządku tyknięcie między kolejnymi elementami to **cięciwa** L(p,q) (łuku w porządku nie ma) — poprawka cięciwy przewidziana **przed** trzecim przebiegiem (0,995 / 0,980 / 0,955 wobec zmierzonych 0,990 / 0,984 / 0,966 w drugim); **warunek A3 zaostrzony po drugim przebiegu** (z „w stronę 1” na „w 2% albo 3σ przy najwyższej gęstości”), bo pierwotny był za luźny i przepuszczał dryf od 1.
-
-**Odczyt w ramie [O]:** (1) **przyspieszenie = odchylenie własnego zapisu od najprostszej kontynuacji**, odczytywalne **od środka** (z liczebności własnych łańcuchów), jak masa na własne tyknięcie (R1f-3) — nie „przyspieszenie w przestrzeni”, tylko stosunek nadwyżki do tyknięcia. (2) Estymator daje **wielkość** |a|; kierunek przyspieszenia byłby relacją z triadą (3D) — [?], niepoliczone. (3) **Temperatura (Unruh) [L][O]:** T = a/2π → **T·τ = √(E/τ)/π** — Ø od strony czytającego z nadwyżką E wygląda termicznie z tym stosunkiem; A5d: κ = lim(V·a) — oba czynniki zdefiniowane (V = stosunek tempa odczytu, a z nadwyżki). **Ograniczenie:** test porządkowy tylko w 1+1 (pułapka 5: d = 1 + 1 literatury, nie płaszczyzna ramy) — w 3+1 estymator sprawdzony wyłącznie w kontinuum (A2); porządek 3+1 niepoliczony.
-
-**Status:** definicje [O] asystenta, spójne z R1d (nic nie dokładają); formalizmy [L]; rachunek [P] tylko dla Z1–Z4 (2D, jedna siatka topologiczna — sfera). Czego rachunek nie pokazuje: czy w porządku (bez siatki) waga BDG i faza obiegu na tych samych diamentach dają w granicy działanie Einsteina–Hilberta i Yanga–Millsa jednocześnie — to hipoteza BDG i program Pellegrina/Sverdlova–Bombellego, niepoliczone u nas.
-
-## R2. Retrospekcja 
-
-Wersja w B2 („działa na rozkładach, nie na epizodach") jest prawdziwa, ale gubi ruch, który tam wykonano.
-
-**Retrospekcja zwraca rozkłady, nie epizody.** Chwila zero wydarzyła się raz, więc estymator dostaje jeden pomiar na jeden nieznany parametr i rozrzut przekracza odstęp między k=1 a k=3. To jest granica metody, nie estymatora — więcej świadectwa nie ma i nie będzie.
-
-**Wyjście znalezione:** późne zdarzenia Ø są tego samego typu, więc pierwsza chwila zero jest **najstarszym egzemplarzem rodziny**, nie jedynym. Dostęp nie prowadzi wstecz — prowadzi **na drugą stronę tej samej relacji, którą już zajmujemy**: dzisiejsze zdarzenie Ø ma częściowe otoczenie, a my **jesteśmy** tym otoczeniem.
-
-**Skutek dla porządkowania:** pytanie „co było przed" zostało zamienione na „**jaki jest stosunek otoczenia do zdarzenia Ø**". A to jest **dokładnie C2**. Retrospekcja chwili zero, warunek niezmienniczości wzrostu i C2 to **jedno pytanie w trzech miejscach pliku**, nie trzy sprawy. [A]
+Chwila zero wydarzyła się raz, więc estymator dostaje jeden pomiar na jeden nieznany parametr — to granica metody, nie estymatora (B2: działa na rozkładach, nie na epizodach). **Wyjście:** późne zdarzenia Ø są tego samego typu, więc pierwsza chwila zero jest **najstarszym egzemplarzem rodziny**, nie jedynym. Dostęp nie prowadzi wstecz, tylko **na drugą stronę tej samej relacji, którą już zajmujemy**: dzisiejsze zdarzenie Ø ma częściowe otoczenie, a my **jesteśmy** tym otoczeniem. „Co było przed” → „**jaki jest stosunek otoczenia do zdarzenia Ø**” = C2 = warunek niezmienniczości wzrostu — jedno pytanie w trzech miejscach pliku.
 
 ## R3. Stosunek otoczenia do Ø już ma nazwy [L]
-
-W otoczeniach dobrze opisanych ta wielkość istnieje, jest nazwana i policzona. Szukanie jej od zera było stratą.
 
 | człon | otoczenie | opisane przez | stosunek otoczenie : Ø | skąd cięcie |
 |---|---|---|---|---|
@@ -364,74 +264,52 @@ W otoczeniach dobrze opisanych ta wielkość istnieje, jest nazwana i policzona.
 | foton, t=0 | stożek świetlny | — | — | niesprawdzone |
 | **chwila zero** | **nieznane** | **—** | **—** | **to jest niewiadoma** |
 
-**Trzy rzeczy z tej tabeli:**
-
-1. **Wszystkie opisane stosunki są stosunkami entropii.** Redundancja to informacja wzajemna względem entropii układu; krzywa Page'a to entropia promieniowania względem entropii dziury; nasze $f=\log e(C)/(n\log n)$ też. Jedna rodzina wielkości, nie luźne podobieństwo.
-2. **Mają wewnętrzne cięcie.** Redundancja nie jest zdefiniowana przez wybrane z ręki k, tylko przez **plateau**: informacja wzajemna rośnie z rozmiarem fragmentu, wypłaszcza się na wysokości entropii układu, potem rośnie znowu. Cięcie daje kształt krzywej. To jest odpowiedź na to, na czym utknęło C1.
-3. **Chwila zero jest jedynym członem bez opisanego otoczenia.** Stąd inwersja: kalibrować tam, gdzie znamy oba człony, odwracać tam, gdzie znamy tylko strukturę. Układ ma jedną niewiadomą, nie osiem.
+1. **Wszystkie opisane stosunki są stosunkami entropii** (redundancja, krzywa Page'a, nasze $f=\log e(C)/(n\log n)$) — jedna rodzina wielkości.
+2. **Mają wewnętrzne cięcie:** redundancja jest zdefiniowana przez **plateau** informacji wzajemnej, nie przez k z ręki — cięcie daje kształt krzywej (odpowiedź na C1).
+3. **Chwila zero jest jedynym członem bez opisanego otoczenia:** kalibrować tam, gdzie znamy oba człony, odwracać tam, gdzie znamy tylko strukturę — jedna niewiadoma, nie osiem.
 
 ## R4. Podział konforemny — dokąd co należy [A][L]
 
-Wychodzi czterokrotnie z czterech niezależnych stron i jest najostrzejszym wynikiem strukturalnym v3.2.
-
-Teoria zbiorów przyczynowych rozkłada metrykę na strukturę przyczynową i konforemny czynnik skalujący: **porządek niesie strukturę przyczynową, gęstość elementów koduje czynnik objętości**. To jest A1 nazwane inaczej. Wykład Sorkina nosi tytuł „Gravity from Order and Number".
-
-Stąd:
-
-- **Rodzina stożka** (Weyl, wolne pole): wielkości będące progami na strukturze przyczynowej. Elektromagnetyzm jest konforemnie niezmienniczy **dokładnie w czterech wymiarach** — ślad tensora energii-pędu znika tam i tylko tam; ogólniej cechowane p-tensory są konforemnie niezmiennicze w 2p+2 wymiarach. Znajomość dualności Hodge'a na 2-formach wyznacza metrykę konforemną — wynik unikalny dla d=4.
-- **Rodzina objętości** (Ricci, materia, masa): wielkości reagujące na czynnik objętości. Masa łamie niezmienniczość konforemną, bo wprowadza skalę.
-
-**Cztery dojścia do tego samego:**
-1. rozbicie A1 na porządek i liczność;
-2. konforemna niezmienniczość Maxwella wyłącznie w d=4;
-3. u Minza i u Gallego Torromégo „bezmasowe = brzeg między obszarami";
-4. dowód Jacobsona jest ścisły **dla pól konforemnych**, a dla nieconforemnych wymaga osobnego, niedowiedzionego założenia — granica jego pewności przebiega dokładnie tą linią.
-
-**Kryterium sortujące, zmierzone (A9c):** czy wielkość przeżywa odkształcenie konforemne przy ustalonym n. Ostrzejsze niż „wolne od n", bo sprawdzone po obu stronach.
+Teoria zbiorów przyczynowych rozkłada metrykę na strukturę przyczynową i konforemny czynnik skalujący: **porządek niesie strukturę przyczynową, gęstość elementów koduje czynnik objętości** — to jest A1 (Sorkin, „Gravity from Order and Number”).
+- **Rodzina stożka** (Weyl, wolne pole): progi na strukturze przyczynowej. Elektromagnetyzm jest konforemnie niezmienniczy **dokładnie w d = 4** (ślad tensora energii-pędu znika tylko tam; cechowane p-tensory — w 2p + 2); dualność Hodge'a na 2-formach wyznacza metrykę konforemną — tylko w d = 4.
+- **Rodzina objętości** (Ricci, materia, masa): wielkości reagujące na czynnik objętości; masa łamie niezmienniczość konforemną, bo wprowadza skalę.
+- **Cztery niezależne dojścia:** rozbicie A1 na porządek i liczność; Maxwell konforemny wyłącznie w d = 4; „bezmasowe = brzeg między obszarami” (Minz, Gallego Torromé); dowód Jacobsona ścisły tylko dla pól konforemnych.
+- **Kryterium sortujące (A9c):** czy wielkość przeżywa odkształcenie konforemne przy ustalonym n.
 
 ## R5. Czego ta rama nie może dać — ograniczenia twarde [L]
 
-- **Dwa pierwotne ⇒ jeden wolny wykładnik.** W obszarze konforemnie płaskim porządek ma **dokładnie jeden parametr**. Zmierzyliśmy to dziesięcioma wielkościami z pięciu niezależnych dróg i za każdym razem wychodziło d albo funkcja d. Nie dlatego, że źle liczono — dlatego, że nie ma tam nic innego.
-- **Algebry lokalne w KTP są czynnikami typu III.** Nie ma rozkładu na iloczyn tensorowy „wnętrze × zewnętrze", nie ma macierzy gęstości obszaru, nie ma skończonej entropii splątania bez obcięcia. Prawo powierzchniowe jest stwierdzeniem o regularyzacji. Intuicja „dwa węzły tworzą relację i ta relacja to przestrzeń" jest bliższa obrazowi modularnemu niż dwudzielnemu splątaniu — ale narzędziem jest wtedy teoria modularna, nie entropia podukładu.
-- **Skończony zbiór przyczynowy daje skończone macierze, czyli typ I.** Nie odtworzy typu III z konstrukcji. Cokolwiek liczymy, jest regularyzacją, a część własności może być przy skończonym n niedostępna **z zasady**, nie z braku mocy obliczeniowej.
-- **Usunięcie rozmaitości nie usuwa założenia.** Żeby mieć porządek, trzeba go czymś wygenerować; sprinkling, wzrost sekwencyjny i KR to trzy różne założenia. Założenie przenosi się z geometrii do reguły wzrostu.
+- **Dwa pierwotne ⇒ jeden wolny wykładnik.** W obszarze konforemnie płaskim porządek ma dokładnie jeden parametr; dziesięć wielkości z pięciu dróg dało za każdym razem d albo funkcję d — nie ma tam nic innego.
+- **Algebry lokalne KTP są czynnikami typu III:** brak rozkładu „wnętrze × zewnętrze”, macierzy gęstości obszaru i skończonej entropii splątania bez obcięcia; prawo powierzchniowe jest stwierdzeniem o regularyzacji. Intuicja „dwa węzły tworzą relację i ta relacja to przestrzeń” jest bliższa obrazowi modularnemu niż dwudzielnemu splątaniu — narzędziem jest teoria modularna.
+- **Skończony zbiór przyczynowy = typ I:** nie odtworzy typu III z konstrukcji; część własności przy skończonym n jest niedostępna z zasady, nie z braku mocy obliczeniowej.
+- **Usunięcie rozmaitości nie usuwa założenia:** porządek trzeba czymś wygenerować (sprinkling, wzrost sekwencyjny, KR — trzy różne założenia); założenie przenosi się z geometrii do reguły wzrostu.
 
 ---
 
-
 ## Cel
 
-Porządkowanie struktury logicznej. Nie nowa fizyka, nie nowe aksjomaty, nie nowe byty. Wolno budować nowe konstrukcje z istniejących składników.
+Porządkowanie struktury logicznej: nie nowa fizyka, nie nowe aksjomaty, nie nowe byty (zasada metody — wyżej). Wolno budować nowe konstrukcje z istniejących składników. **Tylko prawda jest ciekawa:** wynik dopasowany do znanej liczby jest nudny, bo nie dowiadujesz się z niego niczego.
 
-**Tylko prawda jest ciekawa.** Wynik dopasowany do znanej liczby jest nudny, bo nie dowiadujesz się z niego niczego.
+## Przed liczeniem
 
-## Przed liczeniem — sześć zdań 
-
-1. **Sprawdź literaturę** Sprawdzenie kosztuje zapytanie, rachunek kosztuje sesję.  odkryto koło **cztery razy**: Glaser–Surya (lokalność), Minz (bliźniaki), Boguñá–Krioukov (odległość przez nakładanie przeszłości), Sorkin–Yazdi (prawo objętościowe). Wszystkie były do znalezienia jednym zapytaniem.
-2. **Rachunek bez zdania, które mogłoby przez niego upaść, nie jest rachunkiem.** Kryterium z A0 („czy istnieje liczba, która mogłaby wyjść inaczej") stosuje się do własnych przebiegów, nie tylko do cudzych publikacji.
-3. **Kontrole graniczne PRZED rachunkiem.** Jeśli nie da się takiej wypisać, rachunek jest niesprawdzalny.
-4. **Kontrole łapią błędy rachunku, nie pojęciowe.** Na świeżym terenie milczą.
-5. **Liczba bez warunków nie jest wynikiem.** Zawsze n, d, estymator, liczba prób.
-6. **Porządkowanie idzie przed liczeniem.**
-
-Pełne reguły — §E.
+1. **Sprawdź literaturę.** Sprawdzenie kosztuje zapytanie, rachunek — sesję. Koło odkryto cztery razy: Glaser–Surya (lokalność), Minz (bliźniaki), Boguñá–Krioukov (odległość przez nakładanie przeszłości), Sorkin–Yazdi (prawo objętościowe).
+2. **Rachunek bez zdania, które mogłoby przez niego upaść, nie jest rachunkiem** — kryterium z A0 („czy istnieje liczba, która mogłaby wyjść inaczej”) dotyczy też własnych przebiegów.
+3. **Kontrole graniczne przed rachunkiem;** jeśli nie da się ich wypisać, rachunek jest niesprawdzalny. Łapią błędy rachunku, nie pojęciowe — na świeżym terenie milczą.
+4. **Porządkowanie idzie przed liczeniem.** Pełne reguły — §E.
 
 ## Osiem pułapek nazewniczych — lista kontrolna
 
-Cztery pierwsze wystąpiły w rachunkach; piąta to różnica konwencji między tym plikiem a literaturą; szósta to dwa odczyty jednej wielkości pod jedną nazwą w samym pliku (poprawka 166); siódma i ósma — jedno słowo, kilka znaczeń w pliku (poprawka 169). Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
+Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
 
-| | pułapka | pełny zapis |
+| | pułapka | gdzie |
 |---|---|---|
-| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø". Różni je wyłącznie relacja otoczenia — własność otoczenia, nie Ø. **Dopisek v3.4 (użytkownik):** przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** — nigdy jako cecha samego Ø. Reguła językowa w §E. | A3 |
-| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości" jest doskonale odróżnialny, więc nie jest Ø. | A3 |
-| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność" go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. | A5 |
-| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości. **Zamknięta w v3.2** — patrz C2. | A8, C2 |
-| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d=2 = 1 przestrzeń + czas. **Rozstrzygnięte w v3.4: to są różne rzeczy** (R1a, „3+1 używane świadomie”). | R1a |
-| **6** | **„Masa” — dwa odczyty pod jedną nazwą (poprawka 166).** **A** = faza na własne tyknięcie nośnika (R1f-3) = masa biegunowa; **B** = współczynnik działania (Yukawa · v) przy danej rozdzielczości (R1d, punkt otwarty 1; §F1 „masy biegnące”). Bez pętli to samo; poza tym różni je relacja nośnika z polem EM — dla stosunków leptonów 1–3%, a relacja Koidego zachodzi tylko na A (na B: Q − 2/3 = 1,16·10⁻³, 63σ). Wystąpiło w 154 pkt 3: „bez skali” uzasadnione na B, Koide liczony na A. | §F1 (154, 166), R1d, R1f-3 |
-| **7** | **„Sztywny”, „sztywność” — cztery znaczenia w pliku (poprawka 169).** (1) druga wariacja (A11d) = rozróżnialność sąsiednich konfiguracji; (2) „czworościany równe i sztywne” (C5, etap18) = migawka bez dynamiki = zero absolutne, wykluczone [70]; (3) „łańcuch jest sztywny” (A11c) = relacje wzajemnie nadmiarowe przez przechodniość; (4) automorfizmy „sztywne” (Zeeman; poprawka 18). Pomylenie (1) z (2) czyta drugą wariację jako „struktura stoi”. | A11c, A11d, C5, A9e |
-| **8** | **„Stabilna” — trzy odczyty (poprawka 169, uwaga użytkownika).** (a) część rzeczywista bieguna √s_R = M_R − iΓ_R/2 (PDG): dodatnia forma drugiego rzędu, m > 0 = węzeł (§F1, Domysł); (b) część urojona: Γ, do którego wnosi każdy kanał rozpadu — trwanie jako osobny odczyt (stosunek Γ/M), Γ = 0 ⇔ brak otwartego kanału; (c) „stateczna” = bez ruchu — wykluczona [70]; stateczny jest tylko wszechświat jako całość [402]. Pomylenie (a) z (b) wyrzuca z węzłów mion, wolny neutron i jądra promieniotwórcze, choć m > 0 (a słownik podaje jądro atomu jako przykład obiektu); (a) albo (b) z (c) przeczy [70]. „Stabilna” w słowniku (obiekt) — po filtrze (a) [O]. | słownik, §F1, A11d |
-
-**Reguła z pułapki nr 3:** poprawka może przenieść błąd o piętro, zamiast go usunąć. Po każdej poprawce pytać, **czy nowe zdanie coś wyróżnia, czy jest prawdziwe o wszystkim.** Wystąpiło ponownie w v3.2 przy L (patrz A9d).
+| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø”; różni je wyłącznie relacja otoczenia. Przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** [H] — nigdy jako cecha samego Ø (reguła językowa, §E). | A3 |
+| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości” jest doskonale odróżnialny, więc nie jest Ø. | A3 |
+| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność” go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. Poprawka może przenieść błąd o piętro: po każdej pytać, **czy nowe zdanie coś wyróżnia** (wystąpiło ponownie przy L, A9d). | A5 |
+| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości — zamknięte w C2. | A8, C2 |
+| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d = 2 = 1 przestrzeń + czas. To są różne rzeczy. | R1a (3+1) |
+| **6** | **„Masa” — dwa odczyty (poprawka 166).** **A** = faza na własne tyknięcie nośnika (R1f-3) = masa biegunowa; **B** = Yukawa · v przy danej rozdzielczości (R1d, punkt otwarty 1). Bez pętli to samo; różni je relacja nośnika z polem EM — dla stosunków leptonów 1–3%; Koide zachodzi tylko na A (na B: Q − 2/3 = 1,16·10⁻³, 63σ). | §F1 (154, 166), R1d, R1f-3 |
+| **7** | **„Sztywny” — cztery znaczenia (poprawka 169):** (1) druga wariacja = rozróżnialność sąsiednich konfiguracji (A11d); (2) „czworościany równe i sztywne” = migawka bez dynamiki = zero absolutne, wykluczone [70] (C5, etap18); (3) łańcuch sztywny = relacje nadmiarowe przez przechodniość (A11c); (4) automorfizmy „sztywne” (Zeeman; poprawka 18). Pomylenie (1) z (2) czyta drugą wariację jako „struktura stoi”. | A11c, A11d, C5, A9e |
+| **8** | **„Stabilna” — trzy odczyty (poprawka 169):** (a) część rzeczywista bieguna √s_R = M_R − iΓ_R/2: m > 0 = węzeł (§F1); (b) część urojona Γ = trwanie (Γ = 0 ⇔ brak otwartego kanału); (c) „stateczna” = bez ruchu — wykluczona [70], stateczny jest tylko wszechświat jako całość [402]. Pomylenie (a) z (b) wyrzuca z węzłów mion, wolny neutron i jądra promieniotwórcze. „Stabilna” w słowniku (obiekt) = (a). | słownik, §F1, A11d |
 
 ## Dopuszczalne stany
 
@@ -821,7 +699,7 @@ $b(d)=1-\log_2 J/n$, gdzie $J$ = liczba zbiorów przeszłych.
 | „powierzchnie uwięzione **powstają** ze zwykłych danych” | zagadnienie początkowe (dane → ewolucja) przemyca kierunek (poprawka 106) |
 | „**przepływ** energii przez horyzont” | narracja; energia = częstość odczytu względem czytającego (R1d) → bilans |
 
-**1. Horyzont od strony 3D [H][O].** 3D = triada + zapis (dostęp do innych układów niż bieżący; R1b krok 4, [400]); bez zapisu — płasko. **Od strony czytającego z zewnątrz obszar, którego zapisu nikt z zewnątrz nie odczyta, nie ma swojego „+1” — zostaje z niego brzeg: 2D = płaskość ≡ Ø.** Brzeg złożony z promieni światła (powierzchnia zerowa, t = 0); sesja CC 2 [52]: „**Sama powierzchnia sfery jest 2D ≡ Ø; dla całej sfery t = 0**.” **Entropia ∝ pole — źródło strukturalne, nie narracja:** jedyne, co odczytywalne o obszarze, to liczba relacji przez jego brzeg 2D (molekuły, A5 [P]). „Zawarte, ale nieodczytywalne” + zawartość liczona brzegiem = „agregat informacyjny” [466] z podstawą w dowodzie 3D. **Pułapka 5:** „redukcja wymiaru do 2” przy osobliwościach w literaturze (Carlip, CDT, wymiar spektralny) = d = 1 + 1, nie nasza płaszczyzna bez pamięci — nie utożsamiać.
+**1. Horyzont od strony 3D [H][O].** 3D = triada + zapis (dostęp do innych układów niż bieżący; R1b Wniosek 2, [400]); bez zapisu — płasko. **Od strony czytającego z zewnątrz obszar, którego zapisu nikt z zewnątrz nie odczyta, nie ma swojego „+1” — zostaje z niego brzeg: 2D = płaskość ≡ Ø.** Brzeg złożony z promieni światła (powierzchnia zerowa, t = 0); sesja CC 2 [52]: „**Sama powierzchnia sfery jest 2D ≡ Ø; dla całej sfery t = 0**.” **Entropia ∝ pole — źródło strukturalne, nie narracja:** jedyne, co odczytywalne o obszarze, to liczba relacji przez jego brzeg 2D (molekuły, A5 [P]). „Zawarte, ale nieodczytywalne” + zawartość liczona brzegiem = „agregat informacyjny” [466] z podstawą w dowodzie 3D. **Pułapka 5:** „redukcja wymiaru do 2” przy osobliwościach w literaturze (Carlip, CDT, wymiar spektralny) = d = 1 + 1, nie nasza płaszczyzna bez pamięci — nie utożsamiać.
 
 **2. Równanie Einsteina jako równanie stanu (Jacobson, PRL 75, 1260 (1995)) — PRZESZŁO jako bilans.** S = **liczba relacji przez lokalny brzeg odczytywalności** (molekuły, A5), **nie** entropia splątania (zależy od cięcia: R5, poprawka 51; [H] „entropia jest efektem, a nie prawem”); T = **Ø od strony czytającego z przyspieszoną trajektorią** (trajektoria = zapis, „dym” [134]; reguła językowa: „od strony otoczenia X Ø wygląda jako Y”); „dla każdego lokalnego horyzontu” = dla każdego czytającego z osobna, bez globalnego czasu (zachowanie energii tylko lokalnie [190]); G = przelicznik (A2); zamiast „przepływu” — bilans częstości odczytu. **Równanie Einsteina = skutek liczności** (A1: liczność element struktury), Λ = stała całkowania (Jacobson; zgodne z poprawką 150).
 
@@ -856,7 +734,7 @@ $b(d)=1-\log_2 J/n$, gdzie $J$ = liczba zbiorów przeszłych.
 - **1. Promieniowanie Hawkinga = Ø od strony czytającego z zewnątrz [L][O].** Ten sam mechanizm co pkt 2 (Unruh): **próżnia ≡ Ø od strony czytającego stojącego poza brzegiem wygląda jak termiczna** — reguła językowa, nie „dziura coś wysyła”; w tabeli granic Ø: skok Ø → A = nowy odczyt. **T_H = κ/2π, κ = lim(V·a)**: V = stosunek tempa odczytu dalekiego do bliskiego (→ 0), a = przyspieszenie potrzebne do utrzymania się (→ ∞; *przyspieszenie: R1f-5 (poprawka 164), a·τ = 2√(E/τ)*); **w ramie: T_H mówi, jak szybko stosunek tempa odczytu znika na brzegu** [472] — iloczyn skończony, choć każdy czynnik osobno nie. Rozkład termiczny = **zapis rozproszony** (R1a): pojedynczy odczyt nie niesie struktury.
 - **2. Krzywa Page'a — funkcja liczebności, nie czasu [T][L].** Page, PRL 71, 1291 (1993) [T]: dla losowego stanu czystego na R ⊗ B średnia entropia ≈ min(ln d_R, ln d_B) (z małą poprawką) — **czysta kombinatoryka liczności, bez czasu**. Krzywa Page'a (PRL 71, 3743 (1993)) = ten sam wynik z liczbą zapisanych kwantów na osi. **Punkt Page'a = równość liczebności:** zapis czytającego (R) = liczba relacji przez brzeg (∝ pole, pkt 1 wyżej) — **stosunek = 1, nie chwila**; to „cięcie” z tabeli R3 bez „czasu Page'a”. Przy S ∝ M² równość przy M ≈ M₀/√2 [L].
 - **3. Wyspy / QES — formuła i wynik, nie opowieść [L][O].** S(R) = min ext_I [pole(∂I)/4 + S_bulk(R ∪ I)] (Penington, arXiv:1905.08255; Almheiri–Engelhardt–Marolf–Maxfield, arXiv:1905.08762); opowieść o replikowych tunelach euklidesowych odrzucona (jak w 150). *Dopisek 163 (R1f-4):* S_bulk zależy od cięcia; sensowna jest tylko suma pole/4 + S_bulk (entropia uogólniona; Susskind–Uglum 1994) — odczytywalna liczba relacji przez brzeg razem z resztą, nie części osobno. **W ramie:** entropia R = **najtańszy brzeg** (najmniejsza liczba relacji przez brzeg + reszta); za punktem Page'a najtańszy brzeg obejmuje obszar wewnątrz („wyspę”) — **zapis wnętrza należy do tego, co czyta posiadacz R.** R1a dosłownie: „ile przeszłości istnieje dla czytającego, zależy od jego zdolności zapisu” (mózg vs aparat, 200 klocków) — zapis wnętrza istnieje dla czytającego z dostatecznym R, dla innych nie: **„zawarte, ale nieodczytywalne” → „odczytywalne dla konkretnego czytającego”.** Zgodne z pkt 1 tabeli granic Ø: partner kwantu spadającego jest już częścią wyspy R — brak podwójnego liczenia, brak firewalla.
-- **4. Połączenie z 3D [O][?].** Przed punktem Page'a: dla czytającego z zewnątrz obszar = brzeg 2D ≡ Ø, bez „+1” (zapis wnętrza niedostępny, pkt 1 wyżej). Za punktem Page'a: czytający z R ma zapis wnętrza = dostęp do innego układu niż bieżący (R1b krok 4) — **dla tego czytającego obszar zyskuje „+1”, staje się dostępny w 3D.** Przejście nie jest chwilą; rządzi nim stosunek liczebności (zapis czytającego : brzeg). [?] — odczyt asystenta, spójny z R1a/R1b, bez dowodu.
+- **4. Połączenie z 3D [O][?].** Przed punktem Page'a: dla czytającego z zewnątrz obszar = brzeg 2D ≡ Ø, bez „+1” (zapis wnętrza niedostępny, pkt 1 wyżej). Za punktem Page'a: czytający z R ma zapis wnętrza = dostęp do innego układu niż bieżący (R1b Wniosek 2) — **dla tego czytającego obszar zyskuje „+1”, staje się dostępny w 3D.** Przejście nie jest chwilą; rządzi nim stosunek liczebności (zapis czytającego : brzeg). [?] — odczyt asystenta, spójny z R1a/R1b, bez dowodu.
 - **5. „Koniec parowania” przy masie Plancka [O].** Przy m ≈ m_P brzeg ma ~12,6 relacji (A5b), a ƛ_C ↔ r_s są swoimi lustrami (140): **czarna dziura ≡ nośnik elementarny** (zygzak ≡ pętla światła). **„Co zostaje” (resztki) — źle postawione:** tam nic nie odróżnia (≡ Ø).
 - **Werdykt (stanowczo):** (1) paradoks w postaci „czy informacja ginie” — źle postawiony; R1a rozstrzyga: nie ginie w strukturze, chodzi wyłącznie o odczytywalność dla konkretnego czytającego. (2) Promieniowanie Hawkinga = Ø od strony czytającego z zewnątrz (Ø → A, reguła językowa); T_H = jak szybko stosunek tempa odczytu znika na brzegu. (3) Krzywa Page'a = funkcja liczebności (Page, [T]), bez czasu; punkt Page'a = równość zapisu czytającego i liczby relacji przez brzeg. (4) Za nim zapis wnętrza należy do posiadacza R (wyspy) — dosłownie „ile przeszłości istnieje, zależy od zdolności zapisu”. (5) Firewall wyklucza się z niezmienniczością od środka; resztki przy m_P — źle postawione.
 - **Dalej [?]:** czy „+1” dla obszaru za punktem Page'a (pkt 4) da się ująć formalnie, jak krok 4 w R1b.
@@ -2073,7 +1951,7 @@ Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być sto
 
 **Grupa cechowania z porządku.** Nadmiar w samym porządku wymiera jak $n^{2-d}$, więc w d=4 znika. Grupa musiałaby siedzieć w czymś **dołożonym** do elementów — a wtedy nie jest wyprowadzona.
 
-> **Dopisek v3.5 (R1d pkt 3; poprawka 142):** fazy na linkach = definicja pola EM jako relacji, więc zarzut „dołożone do elementów” przestaje działać (relacja faz nie jest treścią dołożoną do elementów). **Sama grupa U(1) nadal nie jest wyprowadzona z porządku** — otwarte.
+> **Dopisek v3.5 (R1d, punkt otwarty 3; poprawka 142):** fazy na linkach = definicja pola EM jako relacji, więc zarzut „dołożone do elementów” przestaje działać (relacja faz nie jest treścią dołożoną do elementów). **Sama grupa U(1) nadal nie jest wyprowadzona z porządku** — otwarte.
 
 > **Dopisek v3.5 (poprawka 157) [O]:** rama **nie daje** grupy cechowania z dwóch pierwotnych (potwierdzone). Grupa wymaga elementu spoza porządku i liczności — wg „Sita” to wynik, nie porażka (pierwotnych więcej niż dwa). Plik ustala jego postać: nie byt, nieodczytywalny w punkcie (≡ Ø, „Dopuszczalne stany”), opisywany pośrednio od strony relacji cechowania (jak faza w R1d). Warunkowe wyprowadzenie G_SM i 3 pokoleń z tak ujętego elementu: §F1, poprawki 156–157.
 
@@ -2347,7 +2225,7 @@ Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwi
     - **Bieg λ wprost na porządku — niepoliczony [L].** Jubb, arXiv:2306.12484 (2023): φ⁴ na zbiorach przyczynowych, policzona tylko funkcja 2-punktowa; renormalizacja „not considered here”; proponowane zgrubienie przez usuwanie punktów = ln(n₀/n) z R1d. Z dala od ℓ taki rachunek odtworzy współczynniki uniwersalne (to samo β_λ co w pkt 1); nowe tylko przy samym ℓ, gdzie koniec ≡ Ø. Duży koszt przy zysku tylko tam — sygnał z §E (Reguły); nie podjęte.
     - **Werdykt:** trafienie z pkt 1 stoi na własnym uzasadnieniu; porządek nie daje mu odpowiednika ani liczby. Warunek Veltmana nie jest warunkiem ramy ([T] + człon Λ² = opis samego końca, po fakcie). B1 poprawione.
     - **Błędy asystenta w pierwszej wersji — wykrył użytkownik („Przeczytaj plik główny cały”):**
-      1. „Johnston w 3+1” i „B1 mówi »w 4D nie«, a Johnston zrobił 3+1” — 3+1 wzięte za cztery wymiary. **Wymiary są trzy:** „3+1 to nie znaczy 4D. Istnieją tylko trzy wymiary” [H]; R1a (3+1 używane świadomie), R1c pkt 1; [98], [400]; sesja CC [82] („dlaczego nie może być 4D ani 154D”).
+      1. „Johnston w 3+1” i „B1 mówi »w 4D nie«, a Johnston zrobił 3+1” — 3+1 wzięte za cztery wymiary. **Wymiary są trzy:** „3+1 to nie znaczy 4D. Istnieją tylko trzy wymiary” [H]; R1a (3+1), R1c pkt 1; [98], [400]; sesja CC [82] („dlaczego nie może być 4D ani 154D”).
       2. „Relacja wymaga dwóch różnych elementów i różnicy między nimi” — tylko relacja dwustronna. Relacja z Ø: „One mają jedną stronę jawną i drugą, o której nic nie można powiedzieć. Taka relacja występuje zawsze przy przejściach z i do Ø / nieoznaczoności. Każde wzbudzenie pola, dekoherencja itd.” [H]; [122–124]. W pkt 1 było poprawnie, w (b) zgubione.
       3. „Para »element z samym sobą« żadnej różnicy nie niesie: x ≺ x nigdy nie zachodzi” — x potraktowany jak obiekt. „Samo x jest relacją / zbiorem relacji. Nie ma żadnych obiektów” [H]; [134], [18]; węzeł w relacji z samym sobą „umie patrzeć sama na siebie” [404] = samoodczyt = masa (R1f-3); przeciwzwrotność ≺ = umowa zapisu (Johnston pisze x ≼ y).
       - Stąd wycofane: „przeciwzwrotność = odpowiednik warunku z pkt 1” i „człon Λ² = x z x, nie relacja”. Pierwsza wersja była też niespójna sama w sobie: zatrzymania nośników przy tle (y) liczyła jako relacje, μ²φ² — wagę w tym samym elemencie — nie. Reguła z tej poprawki: „filtr podstawowy” (§E, Reguły).
