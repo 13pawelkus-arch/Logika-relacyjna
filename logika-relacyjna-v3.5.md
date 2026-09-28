@@ -1,34 +1,10 @@
-# Logika relacyjna — v3.5
-
-> **v3.5 (sesja CC 2, 24/25.09.2026)** = v3.4 + **R1b** (dowód strukturalny 3D z definicji czasu, z zapisem formalnym R1b-F i testem wierności), **R1c** (most do światła i porządku: stożek stanów ≡ stożek przyczynowy), **R1d** (elektron, pole EM, kwark; energia i odległość jako relacje), **hipoteza nadrzędna samopodobieństwa** (§F1), słownik: „obiekt”; poprawki 110–136. Oznaczenia „v3.4” w treści zostają jako historia.
-
-> **v3.4 (25.09):** nowe sekcje **R1b — dowód strukturalny 3D z definicji czasu** i **R1c — most do światła i porządku**, **R1d — elektron, pole EM, kwark** (poprawki 114–133).
->
-> **v3.4** = v3.3 + §C4a punkty 1–16 (etap 0, fragmenty, ściskanie, Fokker, entropia) + dopisek o Ĥ|Ψ⟩=0 w R1a + rejestr 25–48.
->
-> **v3.3 (wrzesień 2026)** = v3.2 + dopiski z rozmowy 5. Nowe miejsca: R1a, pułapka nr 5, C4, uzupełnienia w „Dalej otwarte”, B1, §D, rejestr (21–24). Reszta bez zmian.
-
-Jeden plik: zasady pracy + słownik. Zapis wielkości fizycznych bez jednostek — wszystko jest liczbą albo stosunkiem liczb.
-
----
-
 ## Jak czytać ten plik
 
-**Cztery pola przy każdym rachunku.** Wartość · kontrola, która przeszła · co by go obaliło · czyja teza. Wartość bez warunków (n, d, estymator, liczba prób) nie jest wynikiem — v2 straciło tak jedną liczbę i wyprodukowało fałszywą zgodność.
-
-**Poprawki stoją przy rachunku, którego dotyczą.** W v2 były zebrane w §E, na końcu, z dala od liczb, które unieważniały. Rejestr zbiorczy jest teraz tylko spisem — treść poprawki jest w miejscu, gdzie działa.
-
+**Cztery pola przy każdym rachunku.** Wartość · kontrola, która przeszła · co by go obaliło · czyja teza. Wartość bez warunków (n, d, estymator, liczba prób) nie jest wynikiem.
 **Znaczniki pochodzenia:** **[H]** teza użytkownika · **[A]** teza asystenta · **[L]** literatura
 **Znaczniki ugruntowania:** **[T]** dowód · **[P]** rachunek · **[O]** obserwacja strukturalna · **[?]** domysł
-
-Pochodzenie nie jest uprzejmością. Ma znaczenie diagnostyczne — patrz rejestr w §E.
-
-**ZASADA METODY (użytkownik, v3.4).** **Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest — z całej nauki, która jest solidną bazą — oczyszczonej z interpretacji.** Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie, jeśli baza jest solidna.
-- **Przykład z historii [L]:** transformacje Lorentza istniały przed 1905 r. (Lorentz, Poincaré); Einstein nie dodał matematyki, tylko zmienił sposób patrzenia (bez eteru, jednoczesność zależna od obserwatora). Podobnie Lagrange/Hamilton, całki po trajektoriach Feynmana: te same przewidywania, nowe drogi.
-- **Dyscyplina czyszczenia (asystent):** **zostaje to, co mierzalne lub strukturalne; odpada narracja.** Przykład: „przestrzeń wygina się jak płachta” — narracja; krzywizna jako tensor Riemanna — mierzalna (siły pływowe: różnica przyspieszeń dwóch swobodnie spadających ciał obok siebie). Czyszczenie usuwa opowieść, zostawia dane i strukturę.
-- **W praktyce v3.4:** prawie każde narzędzie było gotowe (Boguñá–Krioukov, Sorkin–Yazdi, Page–Wootters, Zurek, Jacobson, Bombelli–Henson–Sorkin); nasze było zestawienie i pytania z niego wynikające.
-
-**Skróty myślowe są dozwolone** (użytkownik: „jeszcze nie raz użyję podobnego skrótu”), dopóki czytający wie, że to skróty. Poniższy słownik podaje ich **jednoznaczny odczyt relacyjny**. Tam, gdzie skrót ukrywał prawdziwą zależność, poprawka stoi przy wyniku.
+**ZASADA METODY** **Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest — z całej nauki, która jest solidną bazą — oczyszczonej z interpretacji.** Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie, jeśli baza jest solidna.
+**Skróty myślowe są dozwolone** dopóki czytający wie, że to skróty. Poniższy słownik podaje ich **jednoznaczny odczyt**
 
 | skrót | odczyt relacyjny | gdzie |
 |---|---|---|
@@ -44,23 +20,7 @@ Pochodzenie nie jest uprzejmością. Ma znaczenie diagnostyczne — patrz rejest
 | „próżnia”, „pole” | Ø od strony danego otoczenia | R1a, §E |
 | „Ø ma cechę …” | **zawsze** skrót za „od strony otoczenia X Ø wygląda w naszym opisie jako …” | §E (reguła językowa) |
 
-
-
-> **UWAGA OGÓLNA DO v3.2.** Ten plik **nie zawiera wszystkiego, co ustalono**, i nigdy nie zawierał. Rozmowa 3 ma szereg rzeczy ostrzej i pełniej — w szczególności retrospekcję (§R2). Po kontekst w konkretnym temacie należy wracać do rozmowy źródłowej, a nie zakładać, że skrót tutaj jest kompletny. To jest własność pliku, nie usterka: skrót robiony pod jeden wątek gubi to, co było ważne dla innego.
-
----
-
-
-
-## R1. Łańcuch Ø
-
-$$\text{osobliwość}\equiv\text{chwila zero}\equiv\text{foton}\equiv\text{superpozycja}\equiv(t{=}0)\equiv\text{nieoznaczoność}\equiv 2D/\text{Planck}\equiv\varnothing$$
-
-To nie jest lista zjawisk.(Ø jest absolutne, różni je wyłącznie relacja otoczenia) jest to **lista otoczeń indeksowana jednym Ø**. Zjawiska są różne; Ø jest jedno.
-
-Zamysł: zredukować każde z tych miejsc do struktury interakcji, pozbyć się jednostek, przekształcić do bezwymiarowych stosunków — a potem szukać, czy stosunki się powtarzają. Miejsca opisane lepiej mają służyć za kalibrację dla opisanych gorzej. Najgorzej opisana jest chwila zero.
-
-## R1a. Łańcuch Ø — zapis z v3.3 [H]
+## R1a. Łańcuch Ø 
 
 $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv (r{=}0) \equiv (\hat H|\Psi\rangle{=}0) \equiv \Delta \equiv 2D \equiv (l_P\,t_P) \equiv \varnothing] \;\neq\; R\otimes R$$
 
@@ -79,86 +39,14 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 | $R\otimes R$ | świat relacji złożonych z relacji |
 | obiekt | **(stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą** (użytkownik, 25.09; poprawka 132). Np. jądro atomu = struktura relacji, która jako całość tworzy relację przestrzeni z elektronem; atom jako całość = struktura relacji, która jako całość tworzy relację przestrzeni z innym atomem. Por. węzły [404–408]. **Nie**: nośnik zawartości poza strukturą. *„Stabilna”: pułapka nr 8 (poprawka 169).* |
 
-**Cel zapisu:** różne zjawiska mają różne otoczenia i różne formalizmy, które nigdy nie traktują ich jako nieodróżnialnych. Po przekształceniu na bezwymiarowe można czytać wszystkie opisy jednocześnie. **To hipoteza do sprawdzenia**, nie wynik. Porównywalność obala się tylko przez pokazanie, że stosunki się **wzajemnie wykluczają** (np. jeden wymaga addytywności, drugi jej zabrania), a nie przez to, że dają różne wartości — różne wartości wynikają z różnych otoczeń.
-
-**Ĥ|Ψ⟩ = 0 — konsekwencja, nie zagadka [L][H].** Więz hamiltonianowy wynika wprost z niezmienniczości względem reparametryzacji czasu: nie ma zewnętrznego parametru, względem którego całość mogłaby ewoluować. To ten sam brak co przy zachowaniu energii (bez czasopodobnego wektora Killinga nie ma globalnie zachowanej energii): **całość nie ma otoczenia**. Czas wraca jako **korelacja wewnątrz całości**: stan podukładu warunkowany wskazaniem innego podukładu (zegara) zmienia się zgodnie ze zwykłą ewolucją (Page–Wootters 1983; rozwinięcia: Giovannetti–Lloyd–Maccone; układ dwóch fotonów: Moreva i in.). Globalnie nic nie płynie, lokalnie wszystko. **Wzbudzenia i relacje są lokalne.**
-**Uwaga [A]:** zero w Ĥ|Ψ⟩=0 („nie ma parametru”) to inne zero niż τ=0 fotonu („interwał znika”); w łańcuchu łączy je nieodróżnialność, nie tożsamość.
-
-**SYNTEZA: CZAS BEZ DOKŁADANIA CZEGOKOLWIEK [H] (użytkownik, 25.09.2026).**
-1. Całość nie ma otoczenia → brak zewnętrznego parametru → Ĥ|Ψ⟩ = 0 (standardowa konsekwencja niezmienniczości względem reparametryzacji).
-2. Całość nie ewoluuje → czas może być tylko relacją wewnątrz, między podukładami (Page–Wootters).
-3. Relacja wewnątrz = czytanie jednego przez drugie; czytanie odbywa się w jednym stanie → **zawsze teraz**.
-4. Przeszłość zostaje tylko jako **zapis** w strukturze; zapis jest ostry albo rozproszony → stąd **kierunek**.
-5. Zapis = dostęp do innych układów struktury niż bieżący → punkt odniesienia, którego triada nie ma → **3+1 jako punkty, nie osie**.
-- **Numeracja 1–5 to kolejność czytania, nie wyprowadzania [H] (poprawka 137).** Definicja czasu powstała razem z warunkami koniecznymi i wystarczającymi dla 3D i osobno by się nie udała; to samo dotyczy P0–P6 w R1b (wszystko naraz [392, 402]).
-„Nigdzie po drodze nie trzeba niczego dodawać. Trzeba tylko nie dokładać interpretacji.”
-- **Kierunek siedzi w relacji stan–zapis, nie w stanie.** Rozłączone klocki mogą być przed złożeniem i po rozebraniu; rozstrzyga dopiero zapis czytany teraz (pamięć, zdjęcie, ślady). **Ile przeszłości istnieje dla czytającego, zależy od jego zdolności zapisu:** dla mózgu 200 rozsypanych klocków ma mniej przeszłości niż dla aparatu fotograficznego.
-- **Nieuchwytność „teraz” [O]:** każda próba uchwycenia odczytu robi z niego zapis; **odczyt nie może być treścią własnego odczytu**. „Teraz” jest aktem, nie zawartością, więc wszystko, co da się złapać, jest już zapisem.
-- **[L] Augustyn, *Wyznania* XI, 20:** nie ma trzech czasów, są trzy teraźniejszości: *praesens de praeteritis* = pamięć (*memoria*), *praesens de praesentibus* = oglądanie (*contuitus*), *praesens de futuris* = oczekiwanie (*expectatio*). Niemal dosłownie „przeszłość = zapis czytany teraz”. **[L] Rovelli, „Is time's arrow perspectival?” (2015):** strzałka zależy od tego, które zmienne czytający potrafi odczytać; najbliższy odpowiednik we współczesnej fizyce.
-- **Status [A] (poprawka 111):** wyjaśnienia porażek v0 (wszyscy czytają wszystkich → zapadnięcie), v3/v5 (odczyt szybszy niż produkcja informacji → bezruch) i R2 (zamknięty zbiór trajektorii się wymieszał) przyszły **po** porażkach, więc mają oznaczenie **po fakcie**.
-**Zmiana = dynamika × pamięć; hierarchia węzłów [H] (użytkownik, v3.4).** Pierwotna dynamika **produkuje** informację; pamięć ją **przechowuje**. Bez pamięci produkcja przepada — **nie ma zmiany**. Bez dynamiki wszystko stoi i nie ma czego pamiętać — **też nie ma zmiany**. Iloczyn, nie suma: żaden składnik nie wystarcza sam. Wheeler–DeWitt traktują wszechświat jako **jeden węzeł relacji — jako całość statyczny**; zawiera mniejsze węzły, te mniejsze itd., **aż do 2D Plancka**.
-- **Czas jest ograniczony z dwóch stron, a OBA BRZEGI SĄ W ŁAŃCUCHU Ø [A]:** od góry — całość bez otoczenia, statyczna ($\hat H|\Psi\rangle=0$); od dołu — skala Plancka, 2D, brak informacji ($l_P t_P$, 2D). Czas istnieje wyłącznie między nimi: w węzłach, które mają otoczenie **i** mają informację. **Łańcuch Ø to brzeg hierarchii, z obu stron.**
-
-**Węzeł, który jako całość jest w relacji z innym węzłem [H] (użytkownik, v3.4).** Mechanizm ogólny, na każdej skali — **słowo „świadomość” usunięte** (przypisuje cechę obiektowi, czyli mechanizm opinii z początku pliku). Przykład: **jądro atomu** jest węzłem interakcji; razem z elektronem tworzy strukturę, która **jako całość** jest w relacji z innym atomem — wnętrze z zewnątrz niewidoczne, relacja idzie przez kilka parametrów całości. Ten sam mechanizm w mózgu (węzły relacjonujące się jako całości); przykład H.M. (Henry Molaison): po operacji brak nowych zapisów deklaratywnych, ale uczenie ruchowe zachowane — **zapis powstawał w strukturze, lecz nie był odczytywalny przez aparat pamięci jawnej** („zawarte” kontra „odczytywalne”).
-- **Łańcuch Ø lokalnie:** między brzegami hierarchii (Planck — Wheeler–DeWitt) ten sam stan występuje lokalnie wszędzie, gdzie nic nie jest odróżnione: niewzbudzona próżnia, superpozycja, osobliwość.
-- **Zapis w porządku [A]: MODUŁ.** Podzbiór M jest modułem, gdy każdy element spoza M jest w **tej samej** relacji ze wszystkimi elementami M — z zewnątrz M wygląda jak jeden punkt. Moduły tworzą **drzewo dekompozycji modularnej**: korzeń = cała struktura (statyczna całość), liście = pojedyncze elementy (dolny brzeg). **To jest hierarchia węzłów zapisana bez importu.**
-  - **bliźniaki z A3a = najmniejsze moduły** (dwa elementy o identycznych relacjach ze wszystkim) — pomysł Rideouta „materia jako wzorce relacji” to pomysł na moduły;
-  - **dlaczego w sprinklingu nie ma cząstek, z drugiej strony:** z prawa $n^{k-(k-1)d}$ w 3+1 modułów praktycznie nie ma i jest ich coraz mniej z gęstością — tło nie ma węzłów (zgodne z C4a.21).
-  - **Zastrzeżenie:** moduł ścisły jest bardzo wymagający; realny atom jest węzłem tylko w przybliżeniu (z bliska wnętrze widać). Do testów potrzebna wersja przybliżona: **jaki ułamek elementów z zewnątrz widzi podzbiór jednakowo**.
-
-**To samo pięć razy w C4a:** brak globalnego cięcia (C1/C2), brak globalnego zachowania energii, brak pochłaniacza (WF), brak powierzchni Cauchy'ego (plaster), brak podziału otoczenia w próżni — jedna przyczyna: całość nie ma otoczenia, więc nie ma dla niej ani czasu, ani cięcia, ani zachowania.
-
-**Czas [H] — co z tego wynika.** Przeszłości nie ma. Jest **zapis w samej strukturze relacji** (pamięć), a odczyt jest zawsze teraźniejszy: obserwabla w elemencie odczytu to kombinacja danych wejściowych, „przeszłość” wchodzi wyłącznie jako relacje zawarte w tym jednym stanie. **To jest czas.**
-**Rozróżnienie, bez którego „informacja nie ginie” zbiera za dużo [A]:** informacja nie ginie **w strukturze**, ale przestaje być **odczytywalna z danego miejsca**. Ta różnica robi całą robotę przy strzałce czasu (szklanka się nie składa, choć nic nie zostało wymazane — A4d).
-**DEFINICJA CZASU [H] (użytkownik, v3.4).** **Czas to odczyt informacji ze struktury relacji; odczyt jest zawsze TERAZ.** Przeszłość nie „jest” — jest tylko informacja o konkretnym układzie struktury, **ostra** (łatwa do odczytania) albo **rozproszona** (trudna). „Przeszłość” i „przyszłość” to etykiety **wzorców** względem tego, co da się odczytać: stan „klocki rozłączone” może być i przeszłością, i przyszłością; kierunek daje to, co jest zapisane i czytelne teraz. „Ile temu” (8 minut dla Słońca, 6 z bliżej) to wynik porównania z zegarem aparatu czytającego — wszystkie odczyty są teraz.
-- **Konsekwencje dla pliku [A]:** (1) najdłuższy łańcuch (A2, „czas własny”) **nie jest czasem**, tylko **miarą jednego odczytu** — tego, który wykonuje trajektoria; (2) **kierunek czasu nie jest własnością relacji ≺**, tylko asymetrią czytelności (rozproszone trudniej odczytać niż ostre); (3) aparaty różnią się zdolnością utrwalenia (mózg: 2 klocki tak, 200 nie; aparat fotograficzny: 200 przez dziesiątki lat).
-- **Światło:** foton ma t=0 — od jego strony emisja i absorpcja są jednym. „8 minut” powstaje dopiero w aparacie z zegarem i wymaga synchronizacji (konwencja Reichenbacha, C4a.13). **Światło nie ma prędkości c; jest prędkość c w relacji do.**
-
-**3+1 — UŻYWANE ŚWIADOMIE [H] (użytkownik, v3.4).** Triada **bez pamięci jest płaska**, nawet z dynamiką: czytając tylko bieżący stan, nie ma się dostępu do innych układów, jakie struktura może mieć, więc **ruchu nie da się zauważyć — jakby go nie było** (pomimo braku zera absolutnego). Nie powstaje dodatkowy punkt odniesienia; nie ma 3D. **Pamięć = dostęp do innych możliwych układów struktury**; dopiero ona daje czwarty punkt odniesienia.
-- **Liczenie [A]: 3+1 liczy PUNKTY ODNIESIENIA, nie osie.** 3 punkty triady + 1 punkt odczytu = 4 punkty w położeniu ogólnym (czworościan) → rozpinają 3D. **„+1” nie jest czwartą osią, tylko punktem, bez którego trzeciej osi by nie było: „3” nie istnieje bez „+1”.** Brak podwójnego liczenia pamięci. Zgodne z tym, że estymator Myrheima–Meyera daje w 3+1 liczbę **4** (cztery punkty odniesienia).
-- **Pułapka nr 5 — rozstrzygnięta:** **2D w łańcuchu Ø = płaszczyzna bez pamięci** (triada bez dostępu do innych układów, brak informacji). **Literaturowe d=2 = linia + czas** (jeden kierunek z pamięcią). To są **różne** rzeczy — zbieżność „d_s → 2 w skali Plancka = granica oznaczoności” (R3) opierała się na dwóch różnych dwójkach.
-
-**Warunki muszą zachodzić razem [H] (użytkownik).** Triada daje płaszczyznę; dynamika (brak zera absolutnego) daje informację o ruchu; z niej trajektoria, czyli informacja zapisana w samej strukturze; a odczyt tej informacji ze struktury to **czas** — i on automatycznie tworzy **czwarty punkt odniesienia**. **Wszystko to musi grać razem, jednocześnie, żeby było coś, a nie nic.** Żaden z tych składników nie jest wcześniejszy od pozostałych.
-**Zgodność z rachunkami [A]:** w C4a.12, C4a.19 i C4a.21 wyszło, że cięcie musi przyjść od trajektorii — lokalne otoczenie Boguñy–Krioukova wymaga wybrania geodezyjnej, suma Fokkera zamyka się tylko przy liniach świata. To jest ten czwarty punkt odniesienia widziany od strony liczenia.
-
-**Zapis jest nierównomierny [H] (użytkownik).** W bazie wybranej przez oddziaływanie utrwala się **ostro i redundantnie**; poza nią rozprasza się tak, że odzyskanie jest o rzędy wielkości trudniejsze. Zmierzone w C4a:
-- gdy jest co zapisać (zespół przesunięć, C4a.9): **pojedynczy link — dwa elementy — zna ponad połowę zapisu**, a wszystkie fragmenty razem 93–98%;
-- gdy nie ma (ściśnięcie przy s=1, C4a.4): wszystkie fragmenty razem 25–55%, brak płaskiego odcinka;
-- **decyduje położenie, nie rozmiar** (C4a.10): korelacja I(d:F) z liczbą elementów odcinka oddziaływania w przeszłości fragmentu **r = +0,84**; link 2-elementowy z 36/46 w przeszłości wie 0,90, fragment 7-elementowy z 2/46 wie 0,18.
-- Mechanizm z literatury [L]: oddziaływanie z otoczeniem wybiera stany wskaźnikowe i tylko je rozgłasza w wielu kopiach (Zurek); reszta dekoheruje natychmiast i jest praktycznie nieodzyskiwalna.
+**Ĥ|Ψ⟩ = 0** Więz hamiltonianowy wynika wprost z niezmienniczości względem reparametryzacji czasu: nie ma zewnętrznego parametru, względem którego całość mogłaby ewoluować. To ten sam brak co przy zachowaniu energii (bez czasopodobnego wektora Killinga nie ma globalnie zachowanej energii): **całość nie ma otoczenia**. Czas wraca jako **korelacja wewnątrz całości**: stan podukładu warunkowany wskazaniem innego podukładu (zegara) zmienia się zgodnie ze zwykłą ewolucją (Page–Wootters 1983; rozwinięcia: Giovannetti–Lloyd–Maccone; układ dwóch fotonów: Moreva i in.). Globalnie nic nie płynie, lokalnie wszystko. **Wzbudzenia i relacje są lokalne.**
 
 **GRANICE Ø — RELACJA JEDNOSTRONNA [H] (użytkownik, zapis asystenta, v3.4).** Niech p ≥ 0 będzie parametrem, dla którego **p = 0 oznacza Ø** (czas własny na krok, okno odczytu, temperatura, 1 − v/c, skala względem Plancka).
 1. **Niezmienniczość od środka:** dla każdego p > 0 mechanizmy są te same od środka; zmienia się wyłącznie **relacja do innych węzłów** (obiekt przy 99,999% c we własnym układzie nie widzi zmiany; Henry Molaison z oknem 0,0001 s nadal czyta siebie).
 2. **Nieosiągalność:** żadna ciągła droga wewnątrz struktury nie kończy się w p = 0 (dla temperatury i skali Plancka — do przemyślenia, użytkownik). Zbliżanie się niczego nie zmienia od środka; **granica jest skokiem innego rodzaju**, nie końcem drogi. W granicy ginie **zdolność struktury do czytania samej siebie** (100% c: brak własnego zegara; okno 0: brak odczytu) — stan nieodróżnialny od osobliwości.
 3. **Jednostronność:** przejście między strukturą a Ø zachodzi **wyłącznie jako zdarzenie**, zawsze w jednym kierunku — A → Ø albo Ø → A — **nigdy jako relacja dwustronna A ↔ Ø**.
 
-| parametr | droga ciągła (p → 0) | skok A → Ø | skok Ø → A |
-|---|---|---|---|
-| 1 − v/c | rozpędzanie masy: nigdy c | anihilacja (masa → fotony) | kreacja par (fotony → masa) |
-| okno odczytu | dopóki > 0, mechanizm ten sam | utrata odczytu | nowy odczyt, dekoherencja |
-| przedział w strukturze | zagęszczanie: zawsze element między | wpadnięcie pod horyzont | promieniowanie Hawkinga |
-| **stosunek tempa odczytu** (dylatacja grawitacyjna) | zbliżanie się do horyzontu **widziane z zewnątrz**: stosunek → 0, nigdy nie osiąga | przekroczenie horyzontu (od środka: pojedyncze zdarzenie w skończonym czasie własnym) | [?] (Hawking — patrz wiersz wyżej) |
-| temperatura | chłodzenie: nigdy 0 | [?] do przemyślenia | [?] do przemyślenia |
-| skala | poniżej Plancka nic nie odróżnia | [?] do przemyślenia | [?] do przemyślenia |
-| węzeł → całość | otoczenia nie da się odseparować; całość statyczna **tylko jako całość** | — | **rozszerzanie: wszechświat cały czas tworzy nowe relacje przestrzenne** (od środka Ø → A zachodzi nieustannie) |
-
-- **Wniosek (poprawiony, v3.4):** Ø jest **jedno** — nieodróżnialność oznacza, że absolutność jest wszędzie taka sama i **nie można jej dzielić na takie i owakie**. Różnice w tabeli dotyczą wyłącznie **tego, co wiemy o zdarzeniach od naszej strony** (otoczenia), nie Ø. Puste pola to luki w wiedzy, nie własność granicy.
-- **POPRAWKA (asystent, v3.4):** pierwsza wersja dzieliła Ø na „punkty kontaktu” i „brzegi hierarchii” — **naruszenie pułapki nr 1** (Ø jest jedno; wszystko, co różni człony, należy do otoczenia). Wpisała też „brak skoku” dla całości, co przeczy rozszerzaniu (użytkownik).
-- **DYLATACJA GRAWITACYJNA W JĘZYKU ODCZYTU [H] (użytkownik + asystent, v3.4).** Klasycznie, bez interpretacji: zegar głębiej w polu wskazuje mniej względem dalekiego; sygnały stamtąd przesunięte ku czerwieni; przy horyzoncie przesunięcie rośnie bez granic — daleki obserwator nigdy nie widzi przekroczenia, spadające ciało przekracza w skończonym czasie własnym. GPS: zegary satelitów zyskują ~45 μs/dobę (słabsze pole), tracą ~7 μs (ruch), netto ~38 μs.
-  - **Dylatacja = stosunek tempa odczytu dwóch czytających**, nie „czas płynie wolniej”: na jeden krok dalekiego czytającego przypada coraz mniej odczytywalnych zapisów z obszaru bliżej horyzontu. W porządku: stosunek długości dwóch łańcuchów między kolejnymi wymianami sygnałów (ta sama wielkość co „opóźnienie” w regule v1).
-  - **Przesunięcie ku czerwieni = rozproszenie zapisu:** te same zapisy docierają rozciągnięte na więcej kroków czytającego — mniej ostre. Rozróżnienie ostre/rozproszone wyznaczone **położeniem**, nie aparatem.
-  - **Od środka nic się nie zmienia** (punkt 1 wyżej); **horyzont = granica, przy której stosunek → 0** — z zewnątrz zbliżanie się nie kończy się nigdy (punkt 2), od środka przekroczenie jest pojedynczym zdarzeniem w jednym kierunku (punkt 3).
-  - **Wniosek:** dylatacja grawitacyjna to **ten sam wiersz co v → c**, widziany z innej strony — zgodnie z zasadą równoważności (pole i przyspieszenie lokalnie nieodróżnialne).
-  - **Test do reguły wzrostu z narodzinami:** w obszarze ze stłumionymi narodzinami **stosunek tempa odczytu** (trajektoria stamtąd / trajektoria z zewnątrz) powinien **spadać**, a nie tylko opóźnienie rosnąć — dylatacja wyrastająca z reguły.
-- **Związek z masą (hipoteza z v3.4):** masa = częstość samoodczytu trajektorii. Przy v → c mierzona z zewnątrz spada do 0 (dylatacja), od środka bez zmian; dopiero w granicy znika — foton bez masy i zegara. Henry przy oknie 0 i foton = ten sam stan: brak samoodczytu.
-
-**Relacja z Ø nie jest zwykłą relacją [H].** Zwykła relacja jest dwustronna. Z Ø możliwa jest tylko jednostronna: $\varnothing\to A$ albo $A\to\varnothing$, każda osobno. Niesymetryczność kluczowa w kosmologii (asymetria barionowa — na razie tylko dopasowanie kształtu, bez rzędu wielkości η).
-
-**O Ø nie da się nic powiedzieć** — liczyć wyłącznie w relacji do znanego otoczenia (laboratorium nie dopuszcza słonia; chwila zero z częściowym otoczeniem — dopuściła).
-
-**Konsekwencja, której plik do v3.1 nie wyciągał:** program jest **porównawczy z definicji**, więc wymaga co najmniej dwóch otoczeń. Wszystkie liczby w §A pochodzą ze sprinklingu do diamentu w płaskim Minkowskim. 
-
-## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T] (v3.4, 25.09; po audycie, poprawka 123)
+## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [H][L][T]
 
 ### R1b-F. Zapis formalny [T][L] (poprawka 127; słowa niżej = glosa, [418])
 
