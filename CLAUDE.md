@@ -170,10 +170,12 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
 
 **Otwarte i osiągalne na kartce (bez pojemnika) — do decyzji użytkownika, który pierwszy:**
 
-1. **Stopnie wzbudzenia dla znanego O (174).** To jest właściwie postawiona wersja pytania, które przez rozsiew odpadło (186). Definicja jest użytkownika: milczenie = relacje M–O nie zależą od tego, co w M; wzbudzenie = wnętrze przechodzi na zewnątrz. Do policzenia na strukturze minimalnej (179), z rozstrzygniętym zapisem czytającego (172–176, 180). **Nietknięte.**
-2. **Granice Ø wewnątrz zakresu (183).** Ile warunków dają i na które z 19 odczytów zespołu działają. Pierwszy — λ — już wykorzystany (154). Reszta niepoliczona.
-3. **Waga zatrzymania na skok dla konkretnych węzłów (181 po korekcie 194).** Po odjęciu ℓ pytanie jest strukturalne: co a·b wynosi dla danej pary (M, O), bez jednostek i bez ρ.
-4. **Rura na porządku — wersja ilościowa (171).** Wersja dokładna rozstrzygnięta; otwarte: inne wagi K_R, separatory w strukturze bez zatrzymania.
+> **Przy każdym kroku podana jest sekcja do przeczytania W CAŁOŚCI, zanim cokolwiek się w nim zrobi** (poprawka 195). Nie grepować po niej — grep oddaje to, co pasuje do już postawionego pytania; sekcja czytana w całości niesie też to, co po drodze upadło i co zostało wycofane. **Na co to działa, a na co nie — zmierzone:** łapie sprzeczność z czymś, co stoi kilka akapitów dalej w tej samej sekcji (błąd 181 → 186: oba bloki sąsiadują w A11d, czytane razem wykluczają się od razu). **Nie łapie** przekładu zdania z pliku na inną notację wpisanego jako wynik (191: R1c przeczytane w całości i błąd i tak padł) — na to jest jedyne pytanie ze STOP.md. Sekcja jest podana przy kroku, a nie jako osobna reguła, **bo reguła zestarzeje się, gdy robota przejdzie gdzie indziej, i zostanie wyglądając na aktualną**.
+
+1. **Stopnie wzbudzenia dla znanego O (174).** **Czytać najpierw w całości: `### A11d` (66 tys. znaków, ~17 tys. tokenów)** — tam stoi 169–181, czyli 174, 179 i zapis czytającego. To jest właściwie postawiona wersja pytania, które przez rozsiew odpadło (186). Definicja jest użytkownika: milczenie = relacje M–O nie zależą od tego, co w M; wzbudzenie = wnętrze przechodzi na zewnątrz. Do policzenia na strukturze minimalnej (179), z rozstrzygniętym zapisem czytającego (172–176, 180). **Nietknięte.**
+2. **Granice Ø wewnątrz zakresu (183).** **Czytać najpierw w całości: `## R1a` (15 tys. znaków) i `## §F1` (71 tys., ~18 tys. tokenów)** — tabela granic Ø jest w R1a, 19 odczytów zespołu w §F1. Ile warunków dają i na które z 19 odczytów zespołu działają. Pierwszy — λ — już wykorzystany (154). Reszta niepoliczona.
+3. **Waga zatrzymania na skok dla konkretnych węzłów (181 po korekcie 194).** **Czytać najpierw w całości: `### A11d`** — bloki 180, 181 i 186 (ℓ = pojemnik) stoją tam obok siebie i muszą być przeczytane razem. Po odjęciu ℓ pytanie jest strukturalne: co a·b wynosi dla danej pary (M, O), bez jednostek i bez ρ.
+4. **Rura na porządku — wersja ilościowa (171).** **Czytać najpierw w całości: `### A11d`** (blok 171 i twierdzenie o separatorach). Wersja dokładna rozstrzygnięta; otwarte: inne wagi K_R, separatory w strukturze bez zatrzymania.
 
 **Zamknięte na stałe — nie wracać:** źródło logarytmu przez rozsiew i entropia względna na rozsiewie (170, 182, 184b, 186); pozostałe gałęzie w `STOP.md`.
 
