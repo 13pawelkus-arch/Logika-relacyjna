@@ -14,6 +14,7 @@ Ten plik wczytuje się automatycznie na starcie każdej sesji. **Rozmawiamy po p
 
 Protokół z sesji 3–4 (czytanie wszystkiego co kawałek, lista kroków przed każdym tematem i wpisem, przypomnienia przy każdej wiadomości, automatyczny filtr) — **wycofany**. Użytkownik: „Nie masz żadnej swobody i znowu jest przesadzone wszystko z drugą stronę za bardzo. Jak wcześniej co chwilę gubiłeś i nie brałeś pod uwagę tego, co jest w pliku głównym, tak teraz znowu za bardzo. […] Ze skrajności w skrajność. Kompresować źle, czytać co kawałek wszystko źle.”
 
+- **Zawsze najpierw `STOP.md`** (29.09, poprawka 187) — na starcie, przed każdym rachunkiem i przed każdym wpisem. Powód: opis ramy działa na wiedzę, a błąd, który wraca w każdej sesji, jest odruchem („jest pytanie → jest rachunek”, a rachunek potrzebuje pojemnika). Plik główny jest na to za duży (476 tys. znaków), a zapisy sesji są jeszcze większe (801 tys.) — STOP.md ma 5 tys. i dlatego da się go czytać za każdym razem.
 - **Na początku nowej sesji, raz: plik główny w całości** (CLAUDE.md wczytuje się sam):
   ```
   python3 narzedzia/rama.py plik        # liczba kawałków (~24 tys. znaków każdy; 28.09: 17)
@@ -35,6 +36,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 
 | plik | co to |
 |---|---|
+| `STOP.md` | **Czytać PIERWSZE — i przed każdym rachunkiem oraz każdym wpisem.** 5 tys. znaków (1% pliku głównego): pięć punktów użytkownika, czym to się różni od standardowego podejścia; lista zamkniętych gałęzi po nazwach; trzy pytania przed napisaniem skryptu. Hook `narzedzia/stop.sh` pokazuje jego części przy zapisie w `skrypty/` i przy wpisie do ramy. |
 | `logika-relacyjna-v3.5.md` | **Główny dokument, czytać najpierw.** Zasady, słownik, wyniki, otwarte pytania. Numery poprawek odsyłają do `poprawki.md`. |
 | `poprawki.md` | Rejestr poprawek (wydzielony z §E 28.09.2026): numer, co, gdzie, kto; rosnąco. Tu też błędy asystenta zapisane przy rachunkach A11d (169, 170). |
 | `rozmowa/logika-relacyjna-rozmowa.md` | Pełny zapis rozmowy źródłowej (16–24.09.2026, 591 wiad.). **Przy każdym temacie pojęciowym czytać wypowiedzi użytkownika stąd (grep), bo dokument główny ich nie zawiera w całości.** Numery wiadomości [n] poniżej odnoszą się do tego pliku. |
@@ -45,7 +47,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 | `rozmowa/claude-code-sesja-2026-09-24.md` | Zapis sesji w Claude Code (24–25.09.2026): przeniesienie projektu do repo, etap10–18, twierdzenie o redukcji lokalnej, synteza czasu, rysunki, przepisanie tego pliku. Numery [n] w nawiasach dotyczą tamtej rozmowy tylko wtedy, gdy wyraźnie napisano „sesja CC”. |
 | `skrypty/etap*.py` | Skrypty rachunków (etap0–9 odtworzone z rozmowy; etap10–18 z sesji 25.09; etap19–22 z sesji 3: obiegi, faza, przyspieszenie, Pendleton–Ross; etap23–24 z sesji 4: dwa odczyty stosunków leptonów; trzy warunki ciszy tła — λ, β_λ, Veltman; etap25: kontrole tożsamości do sztywności, 169; etap26–26c: entropia względna stanu koherentnego wobec SJ — rachunek CPU/GPU, test mechanizmu, kontrole wzorów w bazie Focka, 170; etap27: jądro komutatora z porządku, separatory, 171; etap28: moduły — testy definicji, orientacje, przypadkowe moduły rozsiewu, 172–173; etap29: co O czyta z węzła — rozkład bloku na czynnik wnętrza i czynnik czytającego, 180; etap30: masa jako stosunek dwóch odczytów, ν = m·ℓ, 181; etap31: źródło logarytmu — zakres widma modularnego wobec gęstości wkładu, 182). |
 | `narzedzia/` | `rama.py` (`plik K`: sam plik główny, kawałkami — raz na początku sesji; `calosc K`: plik główny, `poprawki.md` i wszystkie rozmowy z odpowiedziami — tylko gdy krok tego wymaga; części 2–3: czas i wymiary, 1 i 4: zasady i wypowiedzi o czasie), `wypowiedzi.py` (wypowiedzi użytkownika we wszystkich rozmowach; `--wymiana` z odpowiedzią), `filtr.py` (sformułowania wobec R1a/R1b, opcjonalnie), `transkrypt.py` (zapis sesji), `start.sh` (hook). |
-| `.claude/settings.json` | Hook SessionStart: przypomnienie, jak pracujemy (nowa sesja: plik główny; po kompresji: czas i wymiary + fragmenty bieżącego kroku), numpy. |
+| `.claude/settings.json` | Hooki: SessionStart (`narzedzia/start.sh`) i PreToolUse (`narzedzia/stop.sh` — STOP.md przy zapisie w `skrypty/` i przy wpisie do ramy). SessionStart: przypomnienie, jak pracujemy (nowa sesja: plik główny; po kompresji: czas i wymiary + fragmenty bieżącego kroku), numpy. |
 | `rysunki/` | Rysunki użytkownika: `triada_z_zapisami.png`, `triada_z_zapisami_2.jpg`. |
 
 ## Indeks ramy (streszczenie do szukania; źródło: plik i wypowiedzi [n] — `narzedzia/rama.py`, `narzedzia/wypowiedzi.py`)

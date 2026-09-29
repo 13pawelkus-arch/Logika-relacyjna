@@ -2,6 +2,12 @@
   "hooks": {
     "SessionStart": [
       { "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/narzedzia/start.sh\"" } ] }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/narzedzia/stop.sh\"" } ]
+      }
     ]
   }
 }
