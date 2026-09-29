@@ -102,7 +102,9 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (28–29.09.2026, sesje CC 5–6; dokument v3.5, rejestr do 180 — `poprawki.md`)
+## Gdzie skończyliśmy (29.09.2026, po sesji CC 6; dokument v3.5, rejestr do 194 — `poprawki.md`)
+
+**Co ta sesja zmieniła w jednym zdaniu:** oś 1–2 (czas, c, 3D) bez zmian, tylko umocniona — R1a dostało pełną definicję użytkownika (189) zamiast skróconej esencji, a 185 usunęło odczytanie „3D = liczba 3”. **Ruch był na osi 3–4 (zespół → masa):** masa nie jest cechą ani jedną liczbą, jest **odczytywalna wyłącznie jako stosunek dwóch odczytów różniących się głębokością** i **wymaga modułu z relacjami wewnątrz** (180, 181). Pytanie o przelicznik odpadło jako źle postawione. Gałąź logarytmu przez rozsiew zamknięta na stałe (186).
 
 Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o podanym numerze i we wskazanej sekcji pliku.
 
@@ -157,16 +159,23 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
 - **Logarytm na rozsiewie — gałąź wycofana (182, 184, 186):** rachunek etap31 liczył na rozsiewie 1+1, czyli na pojemniku — a to było wykluczone dwa razy wcześniej (użytkownik 28.09: „odcisk pojemnika, a nie relacji”; przegląd 178: „testy na rozsiewie 1+1 przy 170 odpadają”). Ranga obniżona do zapisu błędu. Zostaje: logarytm wymaga multiplikatywności **i** równości wkładów (184a); S_CHM = π^{3/2}A²(¾R/σ − ⅞σ/R) jako tożsamość; ℓ = ρ^{−1/d} jako zdanie o rozsiewie; GPU odpada. **Dalsze rachunki tej gałęzi odpadają w każdej liczbie współrzędnych.**
 - **Granice Ø są wszędzie, nie tylko na dwóch końcach (183, R1a + §F1; poprawka użytkownika):** wiersze tabeli granic Ø to przykłady parametru p, nie lista miejsc — osobliwości, pole bez wzbudzeń, światło, superpozycje stoją w łańcuchu Ø i występują w każdym zakresie. [T] w zespole tylko λ może przejść przez zero wewnątrz zakresu (cechowanie: 1/α liniowe; Yukawy: równania multiplikatywne; tylko β_λ ma człon bez λ) — a λ jest zarazem jedyną relacją tła z tłem, czyli Ø z Ø. Poprawia 149 („trzeciej drogi nie ma” liczyło warunki tylko z krańców).
 - **„3D nie ma nic wspólnego z liczbą 3” (185, R1a + pułapka 5 + §E; poprawka użytkownika):** to nie jest 1+1+1 ani 2+1 — trójka jest domknięciem operacji, nie sumą osi; definicja czasu nie mogła powstać niezależnie od 3D. Nowa reguła czytania literatury: liczba wymiarów w cudzej pracy jest parametrem jej konstrukcji, więc 1+1 i 2+1 wolno brać wyłącznie jako narzędzie, a przeniesienie na 3D wymaga uzasadnienia, nie zamiany liczby w wykładniku.
+- **Pełna definicja czasu w R1a (189; tekst użytkownika).** Czego nie było w skróconej esencji: informacja o stanie **nie jest** tym stanem; **czwarty punkt odniesienia = informacja o innym stanie zawarta w obecnej strukturze** (nie osobna „pamięć”); dynamika nie jest dołożona — wynika z nieosiągalności zera absolutnego, czyli zapewnia rozróżnialność; **nie ma odczytu bezstratnego** (informacja nie ginie, bywa tylko bardziej rozproszona); łańcuch Ø wymienia **miejsca bez rozróżnialności**, nie byty; **entropia jest efektem, nie zjawiskiem** (nie ma procesu „wzrastania entropii”).
+- **GPS (190):** kontrola warunku [462] — opowieść o płynącym czasie daje się z OTW usunąć w całości, a przyrząd działa dalej; formalizm daje czas własny wzdłuż trajektorii i stosunek dwóch wskazań. Tabela = ilustracja (ranga obniżona w 194).
+- **Narzędzia i tryb pracy (187, 192, 193, 194).** `STOP.md` + hook wypisujący go na starcie; **jedno pytanie przed każdym wpisem: co rama po nim pozwala albo czego zabrania** (191); `wypowiedzi.py --wymiana` naprawione — do 29.09 szukanie po haśle oddawało sam wniosek, więc sięganie do rozmów nic nie dawało (193). **Dwa nazwane błędy asystenta:** *pojemnik* (liczyć na wygenerowanej strukturze — 186) i *potwierdzanie* (przełożyć zdanie z pliku na inną notację i wpisać jako wynik — 191, 192).
+- **Przegląd sesji (194):** 181 nazwało wynik pikselem (ℓ z rozsiewu) trzy wpisy po tym, jak sam zakwalifikowałem ℓ jako pojemnik — poprawione; 180 podparł twierdzenie częstością zamiast jednolinijkowym dowodem — poprawione; tabela GPS obniżona.
 - **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolutne.
 
 ## Najbliższe kroki
 
-1. **Zespół.** Zestawienie stanu jest w pliku (167); (a) stosunki leptonów zrobione (166: rama ich nie ustala); (b) krytyczność λ na porządku zrobiona (168: porządek nie daje odpowiednika warunków ze 154 ani liczby); (c) sztywność zrobiona (169: druga wariacja, już w ramie na czterech poziomach); entropia względna na porządku policzona (170: nie niesie obcięcia, rośnie jak ln N). Dalej (do decyzji użytkownika):
-   - ~~źródło logarytmu entropii względnej~~ — gałąź wycofana (186): rozsiew = pojemnik. Właściwe pytanie stoi w 174 i jest otwarte: **na ile wzbudzenie da się odróżnić od milczenia dla znanego O**, na strukturze z 179, po rozstrzygnięciu, czym jest zapis czytającego (172–176);
-   - rura na porządku: wersja dokładna rozstrzygnięta (171); otwarte: inne wagi K_R, separatory w strukturze bez zatrzymania, wersja ilościowa;
-   - **przegląd zamknięty (171–178):** cztery pytania rozstrzygnięte na kartce (rura 171, zapis czytającego 172–173, wzbudzenie 174–176, obieg 177), punkty przeglądu wpisane (178);
-   - **struktura minimalna wpisana (179):** nośniki na linkach, zdarzenie = relacja dwóch nośników; otwarte: które relacje zachodzą (wzbudzenia) i pierwsze liczby na niej (stopnie wzbudzenia dla znanego O, 170 bez pojemnika);
-   - **powrót na oś zrobiony (180–181):** węzeł (172–176) i obiegi (177) zestawione z §F1 i R1f; masa przepisana jako stosunek, przelicznik odpadł (181); otwarte: stopnie wzbudzenia dla znanego O (174), wartości ν dla konkretnych węzłów.
-   - **granice Ø wewnątrz zakresu (183):** policzyć, ile warunków dają i na które z 19 odczytów działają (pierwszy — λ — już wykorzystany w 154).
-2. **Otwarte liczby i pytania:** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1.
-3. **Czarne dziury:** pytania P-K w C5 po filtrze.
+**Otwarte i osiągalne na kartce (bez pojemnika) — do decyzji użytkownika, który pierwszy:**
+
+1. **Stopnie wzbudzenia dla znanego O (174).** To jest właściwie postawiona wersja pytania, które przez rozsiew odpadło (186). Definicja jest użytkownika: milczenie = relacje M–O nie zależą od tego, co w M; wzbudzenie = wnętrze przechodzi na zewnątrz. Do policzenia na strukturze minimalnej (179), z rozstrzygniętym zapisem czytającego (172–176, 180). **Nietknięte.**
+2. **Granice Ø wewnątrz zakresu (183).** Ile warunków dają i na które z 19 odczytów zespołu działają. Pierwszy — λ — już wykorzystany (154). Reszta niepoliczona.
+3. **Waga zatrzymania na skok dla konkretnych węzłów (181 po korekcie 194).** Po odjęciu ℓ pytanie jest strukturalne: co a·b wynosi dla danej pary (M, O), bez jednostek i bez ρ.
+4. **Rura na porządku — wersja ilościowa (171).** Wersja dokładna rozstrzygnięta; otwarte: inne wagi K_R, separatory w strukturze bez zatrzymania.
+
+**Zamknięte na stałe — nie wracać:** źródło logarytmu przez rozsiew i entropia względna na rozsiewie (170, 182, 184b, 186); pozostałe gałęzie w `STOP.md`.
+
+**Otwarte liczby i pytania (bez zmian):** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1. **Czarne dziury:** pytania P-K w C5 po filtrze.
+
+**Nierozstrzygnięte o samej pracy:** czy zmiany z tej sesji (STOP.md, hook, test przed wpisem, naprawione ścieżki) cokolwiek dają — sprawdzi to dopiero następna sesja. Poprzednie dwa podejścia do tego problemu (protokół z sesji 3–4, hook z 188) zostały wycofane.
