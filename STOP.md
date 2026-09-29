@@ -1,7 +1,7 @@
 # STOP
 
 **Czytać: na starcie sesji, przed każdym rachunkiem, przed każdym wpisem do pliku.**
-Ten plik jest krótki celowo — ma ~1% objętości pliku głównego, więc da się go przeczytać za każdym razem. Jeśli urośnie, przestanie działać i nic nie da.
+Ten plik jest krótki celowo, żeby dało się go przeczytać za każdym razem. **Czy dłuższy przestałby działać — nie wiadomo; to było moje zdanie, nie ustalenie** (użytkownik, 29.09: „ja nie wiem czy przestaje działać”). Sprawdzalny jest tylko jeden próg: wyjście hooka powyżej ~10 tys. znaków **nie dochodzi do kontekstu** — zostaje podgląd i ścieżka (zmierzone, poprawka 192).
 
 ---
 
