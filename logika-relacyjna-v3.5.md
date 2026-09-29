@@ -725,7 +725,7 @@ $b(d)=1-\log_2 J/n$, gdzie $J$ = liczba zbiorów przeszłych.
 
 ### A5d. Czarne dziury — OTW bez interpretacji, przez definicję czasu i 3D (v3.5; poprawka 159) [H][L][T][O]
 
-**Skąd:** [460]–[472], [547]; warunek wstępny użytkownika [462]: „trzeba oczyścić OTW z interpretacji. Ta teoria nie mówi nic o żadnym zapadaniu, krzywiznach, ani nieskończonych gęstościach”; sesja CC 1 [82]: definicji czasu nie wolno używać bez połączenia z tym, jak czas tworzy 3D. Trzy zdania „OTW bez interpretacji” z „Dalej otwarte” przepuszczone przez filtr (R1a, R1b, R1c).
+**Skąd:** [460]–[472], [547]; warunek wstępny użytkownika [462]: „trzeba oczyścić OTW z interpretacji. Ta teoria nie mówi nic o żadnym zapadaniu, krzywiznach, ani nieskończonych gęstościach”; sesja CC 1 [82]: definicji czasu nie wolno używać bez połączenia z tym, jak czas tworzy 3D. **Że ten warunek wstępny jest wykonalny, a nie jest postulatem — rozstrzyga GPS (A5c, 190; użytkownik 29.09):** urządzenie korzysta z OTW w jedynej postaci, jaką OTW ma — metryka → czas własny wzdłuż trajektorii → stosunek dwóch wskazań — i **nie korzysta z niczego innego**. Opowieść o czasie, który gdzieś płynie inaczej, można z OTW usunąć w całości, a urządzenie dalej działa; to jest kontrola „co zostaje po usunięciu składnika” przeprowadzona na działającym przyrządzie. Wniosek: oczyszczanie nie odbiera OTW niczego, czym OTW liczy. Trzy zdania „OTW bez interpretacji” z „Dalej otwarte” przepuszczone przez filtr (R1a, R1b, R1c).
 
 **Naruszenia w pierwszej wersji analizy (asystent) — poprawione niżej:**
 
