@@ -7,7 +7,8 @@
 #   Z1  ½C (sam porządek): wiersz elementu O jest stały na M → rząd bloku 1 (O czyta tylko Σ_M φ, z dwóch stron);
 #   Z2  L (wagi na linkach): link z zewnątrz tylko do wszystkich maksymalnych albo wszystkich minimalnych elementów M,
 #       elementy wnętrza bez linku na zewnątrz → rząd ≤ 2 (link zależy od elementów spoza pary);
-#   Z3  z masą (rezolwenta, waga na krok): z każdej strony jedna suma ważona własnymi drogami wnętrza → rząd ≤ 2;
+#   Z3  (NIE tautologia, poprawka 175) z masą (rezolwenta, waga na krok): z każdej strony jedna suma ważona drogami
+#       od elementu do brzegu M → rząd ≤ 2, ale kolumny wnętrza niezerowe i równe tylko dla tej samej głębokości;
 #   Z4  Gallai: łańcuch k wstawiony w element porządku pierwszego mnoży liczbę orientacji przechodnich przez k!,
 #       antyłańcuch — przez 1 (wnętrza nie da się ustawić z zewnątrz).
 # Część 2 — ROZSIEW = OTOCZENIE O = WSZYSTKO; moduły tylko przypadkowe. Zdania zapisane przed przebiegiem:
@@ -82,7 +83,8 @@ for nazwa, K in wagi.items():
     for j, m in enumerate(M):
         klasy.setdefault(tuple(np.round(B[:, j], 9)), []).append(m - M[0])
     print(f'{nazwa:24s} rząd bloku {np.linalg.matrix_rank(B, tol=1e-9)} | '
-          f'elementy M o tej samej kolumnie: {sorted(klasy.values())}')
+          f'elementy M o tej samej kolumnie: {sorted(klasy.values())} | '
+          f'|kolumna| (0 min, 3 maks, 1 2 4 5 wnętrze): {np.round(np.abs(B).sum(0), 2)}')
 wn = [M[i] for i in (1, 2, 4, 5)]                               # ani minimalne, ani maksymalne w M
 print('   sprzężenie wnętrza przy L:', np.abs((L - L.T)[np.ix_(zew, wn)]).sum())
 
