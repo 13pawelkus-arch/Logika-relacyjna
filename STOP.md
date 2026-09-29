@@ -53,4 +53,8 @@ Do tego: **duży koszt obliczeń = sygnał ostrzegawczy**. GPU dla rachunku fund
 - pisać „3D” jako 1+1+1 albo 2+1 — **3D nie ma nic wspólnego z liczbą 3**;
 - używać definicji czasu bez wyprowadzenia 3D (i odwrotnie) — to jedno wyprowadzenie, nie dwa;
 - mówić cokolwiek wprost o Ø — tylko od strony znanego otoczenia;
+- pisać „kierunek czasu”, „strzałka”, „upływ”, „przepływ” — **czas nie ma kierunku, bo nie jest osią**; odczyt jest
+  jeden i jest teraz. Jest wyłącznie **pseudokierunek**: asymetria relacji stan–zapis plus to, że odczyt jest z jednego
+  miejsca. Stan nie niesie etykiety „przed/po” (klocki rozłączone: tak samo przed złożeniem, jak po rozebraniu),
+  a liczba uporządkowań jest identyczna dla struktury i dla odwróconej — nie ma z czego zrobić strzałki;
 - pytać użytkownika o ocenę zamiast rozstrzygać strukturą.
