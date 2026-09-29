@@ -27,6 +27,13 @@ Ten plik jest krótki celowo — ma ~1% objętości pliku głównego, więc da s
 
 ---
 
+## Jedno pytanie przed każdym wpisem do ramy
+
+**Co rama po tym wpisie pozwala albo czego zabrania, czego nie pozwalała przedtem?** Brak odpowiedzi = nie ma wpisu.
+Powód (191): drugi rodzaj błędu, obok pojemnika — **potwierdzanie**. Zdanie z pliku przełożone na inną notację przechodzi każdą kontrolę: algebra się zgadza, filtr czysty, nic nie jest sprzeczne z ramą. Poprawne i puste. Odruch, z którego wychodzi: gdy użytkownik coś mówi, szukam formalnego obiektu, który to potwierdza — a potwierdzenie czegoś, co już stoi, nie jest pracą. Ten test to łapie, a zamkniętych gałęzi nie rusza (171, 180, 181, 183, 186 przechodzą: każda coś zabrania, wycofuje albo pozwala).
+
+---
+
 ## Trzy pytania przed napisaniem skryptu — wszystkie muszą mieć odpowiedź
 
 1. **Czy to nie jest twierdzenie do zapisania na kartce?** Jeśli tak — kartka, nie skrypt. (Sprawdzone wielokrotnie: kartka rozstrzygała w kilka minut to, czego przebiegi nie rozstrzygały wcale.)
