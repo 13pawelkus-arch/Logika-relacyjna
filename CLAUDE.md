@@ -102,7 +102,7 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (28–29.09.2026, sesja CC 5; dokument v3.5, rejestr do 178 — `poprawki.md`)
+## Gdzie skończyliśmy (28–29.09.2026, sesja CC 5; dokument v3.5, rejestr do 179 — `poprawki.md`)
 
 Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o podanym numerze i we wskazanej sekcji pliku.
 
@@ -151,6 +151,7 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
 - **Wzbudzenie wobec milczenia jako relacja pary (174, A11d):** definicja użytkownika (milczenie = relacje M–O nie zależą od tego, co jest w M; wzbudzenie = wnętrze przechodzi na zewnątrz, nie stan M); w samym porządku: wzbudzony ⇔ relacja całości M z O, milczy ⇔ brak relacji — [10] „milczenie i relacja” w postaci pary; wzbudzenie nie rozbija modułu; dwa odczyty „tego, co jest w M” (z Ø / bez Ø, 175); stopnie w stanach O = wielkość pytania 3 (170 liczyło z O = wszystko).
 - **Obieg na porządku (177, A11d):** obieg = dwa łańcuchy między tymi samymi odczytami (diament); wnętrze diamentu jest modułem względem końców (superpozycja dróg); odczyt w q: |K|² = liczba dróg + 2Σ cos faz obiegów — obie wagi R1f-1 w jednym odczycie, bez granicy; interferencja tylko parami (Sorkin, Sinha i in.); pytanie o granicę EH i YM odpada.
 - **Przegląd zamknięty (178):** punkty przeglądu wpisane — brzeg (etap19), A1 (d jako wykładnik = rozsiew), pułapka 5 („narzędzie bez triady”), przegląd wymiarowy §E, „w całości tautologią”, przewidywania o narzędziu, tabela logarytmów (pojemnik oznaczony).
+- **Struktura minimalna (179, A11d):** relacja i jej brak ([10]); relacja = niesienie; relacje tylko tam, gdzie zachodzi niesienie; para (M, O); do stopni — kubit na każdym linku (nie kopia w elemencie: zakaz klonowania), zdarzenie = relacja dwóch nośników (DiVincenzo 1995), faza na własne tyknięcie; czas = porządek niesienia, przestrzeń = B³ nośnika, światło = link.
 - **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolutne.
 
 ## Najbliższe kroki
@@ -159,7 +160,7 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
    - źródło logarytmu entropii względnej (170): czytający z O = wszystko (174); testy na rozsiewie 1+1 odpadają (178);
    - rura na porządku: wersja dokładna rozstrzygnięta (171); otwarte: inne wagi K_R, separatory w strukturze bez zatrzymania, wersja ilościowa;
    - **przegląd zamknięty (171–178):** cztery pytania rozstrzygnięte na kartce (rura 171, zapis czytającego 172–173, wzbudzenie 174–176, obieg 177), punkty przeglądu wpisane (178);
-   - **pytanie użytkownika (29.09): jaka jest minimalna struktura, na której da się policzyć moduł i wzbudzenie** — propozycja w rozmowie (sesja CC 5: nośniki na linkach, zdarzenie = relacja nośników), do decyzji; stopnie wzbudzenia dla znanego O — po niej;
+   - **struktura minimalna wpisana (179):** nośniki na linkach, zdarzenie = relacja dwóch nośników; otwarte: które relacje zachodzą (wzbudzenia) i pierwsze liczby na niej (stopnie wzbudzenia dla znanego O, 170 bez pojemnika);
    - powrót na oś: węzeł z m > 0 = para (M, O) z własnymi tyknięciami (172–176) i obiegi jako odczyt końców diamentu (177) — do zestawienia z §F1 (masa) i R1f (działanie).
 2. **Otwarte liczby i pytania:** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1.
 3. **Czarne dziury:** pytania P-K w C5 po filtrze.
