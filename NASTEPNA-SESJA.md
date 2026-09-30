@@ -4,54 +4,76 @@
 nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, nie framework.
 
 Powód (30.09): start sesji daje ~82 tys. znaków zakazów, mapy i wyprowadzenia czasu/3D, a bieżąca robota
-(A11d, 66,5 tys.) nie jest w tym wcale. Ta wiadomość wypełnia tę dziurę. Nie zastępuje plików.
+(A11d) nie jest w tym wcale. Ta wiadomość wypełnia tę dziurę. Nie zastępuje plików.
 
 ---
 
-**Bierzemy krok 1: stopnie wzbudzenia dla znanego O (174).**
+**Krok 1 jest zamknięty (poprawki 198–202). Bierzemy krok 3: waga zatrzymania na skok a·b dla konkretnych par (M, O).**
 
 Najpierw `git pull`.
 
-**Przeczytaj `### A11d` w całości** (66 tys. znaków), nie grepem. Tam stoją bloki 169–182 i tam jest
-wszystko, co do tego kroku potrzebne.
+**Przeczytaj `### A11d` w całości** — teraz 99,5 tys. znaków (~25 tys. tokenów), bo doszły bloki 198–202.
+Nie grepem. Bloki 180, 181, 186 i 202 muszą być przeczytane **razem**: 186 kwalifikuje ℓ jako pojemnik,
+181 mimo to nazwało nim wynik, 194 to poprawiło, a 202 pokazało, że nazwy „odcisk” i „zapis” też były zlane.
+To jest sekcja, w której powtarza się ten sam błąd nazewniczy, i czytana w całości sama go pokazuje.
 
-**Nie czytaj teraz `## R1a` ani `## §F1`** (86 tys. znaków). Ranking nie musi być porównawczy: A11d nazywa
-krok 1 otwartą kontynuacją w **pięciu niezależnych miejscach** (170, 174, 179, 180, 186). To argument
-absolutny — żeby go obalić, trzeba podważyć te pięć miejsc, a nie pokazać, że gdzie indziej też jest coś
-dobrego. §F1 przeczytasz, gdy weźmiemy krok 2; czytane teraz to wejściowy koszt kroku 2 zapłacony dwa razy.
+**Co dokładnie zostało otwarte — cytat z 181 po korekcie 194, nie odsyłacz:**
 
-**Czym ta wielkość jest — już ustalone, nie szukać od nowa.** To **D Englerta z 173, ale między
-zawartościami, a nie między drogami**: rozróżnialność stanów O przy zawartości M i przy M ≡ Ø. A z 169:
-**D = 0 ⇔ entropia względna = 0**. Czyli to jest ta sama wielkość, którą 170 policzyło z O = wszystko
-(i dlatego wyszedł ln N), postawiona dla **znanego** O.
+> „**Obiektem ramy jest tu wyłącznie a·b — waga zatrzymania na skok, czysta liczba przy strukturze.**
+> Przepisanie a·b = −(m·ℓ)²/… to **słownik rozsiewu**, bo ℓ = ρ^{−1/d} jest wielkością pojemnika […].
+> Wolno go użyć jako narzędzia przekładu na literaturę (185), **nie wolno nim nazywać wyniku**.”
 
-**Struktura do liczenia jest gotowa i kompletna:** 179 pkt 5–8 — kubit na każdym linku (nie kopia
-w elemencie, zakaz klonowania), element = relacja dwóch nośników, faza na własne tyknięcie, drugi nośnik
-zapisujący tyknięcia. 179 mówi wprost, że liczb na niej jeszcze nie liczono.
+A w „Najbliższych krokach”: „Po odjęciu ℓ pytanie jest strukturalne: **co a·b wynosi dla danej pary (M, O),
+bez jednostek i bez ρ**.”
 
-**Zdanie do upadku — trzy rozstrzygnięcia, każde jest wynikiem.** Uwaga: „zależy od N” znaczy dwie różne
-rzeczy i trzeba je rozdzielić **przed** rachunkiem:
+**Czego NIE trzeba szukać od nowa — to już stoi po sesji CC 8.** Odczyt pary (M, O) przez jeden nośnik to
+**dokładnie trzy parametry rzeczywiste**, D = ½|Δr| (odległość Blocha od Ø), i czwartego kanału nie ma (199).
+Rozkładają się na **przezroczystość** (c = 1), **odcisk** (|c| = 1, c ≠ 1 — faza, wnętrze nic nie zapisało),
+**zapis** (|c| < 1 — wnętrze zapisało, V = |c|) i **wymianę** (oś z — wnętrze daje albo bierze tyknięcie);
+202 pokazało, że to są własności **pary (sprzężenie, stan wnętrza)**, nie samego sprzężenia — jedna bramka
+(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ.
 
-- zależy od **|M|** (liczba elementów modułu — własność pary (M, O)) → **wynik o module**, to nie jest pojemnik;
-- zależy od czegokolwiek, co **nie jest własnością pary (M, O)** (gęstość, objętość, pudło) → wg [290]
-  dosłownie: *„Liczba jest dopuszczalna tylko wtedy, gdy nie rośnie z gęstością. Jeśli rośnie, jest gęstością,
-  a nie liczbą, i wymaga miary.”* → **miara, nie sztuki**; odpada jako liczba;
-- nie zależy od żadnego z dwóch → **jest liczbą** i można ją podać.
+**Pierwsza rzecz do rozstrzygnięcia, zanim cokolwiek policzysz — dwa formalizmy, nie jeden.** a·b żyje
+w obrazie **wag** (hop-stop Johnstona: b = −m²V₀ jako waga zatrzymania w elemencie), a 198–202 są w obrazie
+**stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało to wprost: „**b jest wagą, nie fazą —
+zgodność postaci, nie tożsamość**”. Więc pytanie „co a·b wynosi dla pary” może w ogóle nie być pytaniem
+o to samo, co 198–202. To jest do rozstrzygnięcia **pierwsze**, na kartce, i rozstrzygnięcie jest wynikiem
+niezależnie od tego, jak wypadnie.
 
-W 170 `ln N` miało N = liczbę wsypanych punktów, czyli wielkość pojemnika. Jeśli tu wyjdzie ∝ log|M|,
-to **nie jest to samo zdanie** i nie wolno czytać tego jako powrotu 186.
+**Zdanie do upadku — trzy rozstrzygnięcia, każde jest wynikiem:**
 
-**Co niepewne, a nie zostało sprawdzone:** czy na strukturze z 179 gałąź „gęstość” w ogóle ma sens — tam nie
-ma pudła, więc może być pusta. Jeśli okaże się pusta, zostają dwa rozstrzygnięcia, nie trzy.
+- a·b wychodzi **jako liczba wyznaczona przez parę** (M, O), bez jednostek i bez ρ → **wynik o parze**;
+- a·b zależy od czegoś, co **nie jest własnością pary** → wg [290] dosłownie: *„Liczba jest dopuszczalna
+  tylko wtedy, gdy nie rośnie z gęstością. Jeśli rośnie, jest gęstością, a nie liczbą, i wymaga miary.”*
+  → **miara, nie sztuki**; odpada jako liczba;
+- a·b okazuje się **parametrem wkładanym, a nie odczytywanym** — w hop-stop b jest **wejściem** propagatora,
+  nie czymś, co struktura wyznacza → pytanie po oczyszczeniu **znika**, a wg `STOP.md` „pytanie, które po
+  oczyszczeniu znika, jest wynikiem, nie porażką”.
 
-**Kolejność dalszych kroków, po korekcie:** krok 3 (a·b dla konkretnych par) stoi **za** krokiem 1 — wymaga
-tej samej struktury z 179 plus wybrania pary.
+**Co niepewne, i nie zostało sprawdzone.** Trzecie rozstrzygnięcie jest moim podejrzeniem, nie ustaleniem:
+b = −m²V₀ wygląda na wielkość wstawianą do propagatora z zewnątrz, a nie wyprowadzaną ze struktury.
+Jeśli tak, to cały krok 3 jest pytaniem źle postawionym — ale **tego nie sprawdziłem**, i nie wolno tego
+przyjąć bez rachunku, bo dokładnie tak brzmiałoby wygodne wyjście.
 
-**Przed wpisem do ramy, dwie rzeczy, których czytanie sekcji nie łapie:**
+**Dwie rzeczy, których czytanie sekcji nie łapie (obie sprawdzone w tej sesji, obie zadziałały):**
+
 1. Pytanie ze `STOP.md`: **co rama po tym wpisie pozwala albo czego zabrania, czego nie pozwalała przedtem?**
    Brak odpowiedzi = nie ma wpisu.
-2. Ścieżka, nie sam wniosek: `python3 narzedzia/wypowiedzi.py 'wzbudzen|milcz' --wymiana --po 3`.
-   Bez `--wymiana` szukanie oddaje wniosek, który i tak stoi w pliku.
+2. Ścieżka, nie sam wniosek: `python3 narzedzia/wypowiedzi.py 'waga zatrzymania|hop-stop|przelicznik' --wymiana --po 3`.
+   W tej sesji ścieżka rozstrzygnęła spór, którego plik główny nie rozstrzygał — czy „przechodzi na zewnątrz”
+   z 174 znaczy przeniesienie, czy zależność (202/201: zależność, bo słowo „Definicja.” obejmuje dwa
+   pierwsze zdania, a trzecie zaczyna się od „Czyli”).
+
+**Trzecia rzecz, którą warto mieć z tyłu głowy — metodyka, nie treść (błąd z 201).** Jeżeli warunek, który
+sprawdzasz, jest **równością** (kanałów, wag, odczytów), to wycina **zbiór miary zero** i **losowanie go nie
+znajdzie nigdy**. Warunek rozstrzyga się na równaniach, nie na próbkach. W tej sesji podałem 40 000 losowań
+jako poszlakę pustości i była to wartość zerowa — użytkownik: „to nie jest przeszukanie, to próbkowanie
+dopełnienia. Instrument nie widzi tego, czego szukasz.”
+
+**Jeśli wolisz inny krok:** otwarte zostają jeszcze 2 (granice Ø wewnątrz zakresu, 183 — wymaga przeczytania
+`## R1a` 15 tys. i `## §F1` 71 tys., i grozi mu potwierdzanie) oraz 4 (rura na porządku ilościowo, 171 —
+też w A11d). Krok 3 jest wybrany dlatego, że stoi w **tej samej sekcji**, którą sesja CC 8 przerobiła,
+i 199 zapisało wprost, że stoi **za** krokiem 1 — a krok 1 jest już zamknięty.
 
 ---
 
