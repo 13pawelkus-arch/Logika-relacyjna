@@ -51,6 +51,19 @@ Z6  ZERO IZOLOWANE, NIE TOŻSAMOŚCIOWE.  W punkcie c = 1 przy p = 1 (φ = 2πk)
     milczenie 174 (tam kanał nie zależy od zawartości i D znika tożsamościowo),
     tylko ≡ Ø dla tego O.  UPADEK: D nie wraca — wtedy to byłoby milczenie.
 
+Z7  SUFIT Z LICZBY PARAMETRÓW I DRUGI RODZAJ ODCZYTU (obserwacja użytkownika).
+    Różnica ρ_c − ρ_Ø na jednym nośniku jest bezśladowa hermitowska 2×2, czyli
+    TRZY liczby rzeczywiste; sprzężenie fazowe zużywa dwie (płaszczyzna
+    równikowa, diagonala zamrożona).  Zdanie: sprzężenie wymiany tyknięcia
+    (H = σ⁺_A σ⁻_W + σ⁻_A σ⁺_W, dopuszczone przez 179 pkt 7) rusza trzecią i
+    daje D = sin²θ dokładnie, a różnica jest CZYSTO diagonalna (x = y = 0) —
+    człon fazowy znosi się, bo czynnik koherencji jest cos θ po obu stronach.
+    UPADEK: z się nie rusza (wtedy odczyt fazowy to wszystko) albo D ≠ sin²θ.
+
+Z8  OGÓLNE SPRZĘŻENIE DAJE WSZYSTKIE TRZY I NIC WIĘCEJ.  Dla losowych U(4)
+    wszystkie trzy składowe Blocha są niezerowe, a D zgadza się z ½|Δr|.
+    UPADEK: D > ½|Δr| istotnie — wtedy odczyt nie jest odległością Blocha.
+
 Z4  DWIE MIARY DAJĄ DWIE RÓŻNE ODPOWIEDZI.  Dla n nośników przechodzących z M
     do O: D nasyca się do 1 i nigdy jej nie przekracza, a entropia względna
     S(ρ_c‖ρ_Ø) rośnie liniowo w n, bez kresu.  UPADEK: obie rosną albo obie
@@ -347,10 +360,100 @@ print(f"  WERDYKT Z6: {'PRZESZŁO' if ok6 else 'UPADŁO'}  (D/ε → {il[-1]:.6f
 print("  -> D wraca liniowo, więc zero jest izolowane: wzbudzony moduł jest")
 print("     NIEROZRÓŻNIALNY od Ø dla tego O, a nie milczący (pułapka 9).")
 
+# ========== Z7/Z8 — sufit trzech parametrów i wymiana tyknięcia ===========
+SX = np.array([[0, 1], [1, 0]], dtype=complex)
+SY = np.array([[0, -1j], [1j, 0]], dtype=complex)
+SZ = np.array([[1, 0], [0, -1]], dtype=complex)
+
+
+def kanal_U(U, stanW):
+    """Ogólna relacja dwóch nośników (179 pkt 7); W bez linku do O."""
+    def Lam(rho_RA):
+        dR = rho_RA.shape[0] // 2
+        r = np.kron(rho_RA, stanW)
+        Uf = np.kron(np.eye(dR, dtype=complex), U)
+        r = Uf @ r @ Uf.conj().T
+        return r.reshape(dR, 2, 2, dR, 2, 2).trace(axis1=2, axis2=5).reshape(2 * dR, 2 * dR)
+    return Lam
+
+
+def D_U(U, prob=8000, dR=2):
+    Lc, L0 = kanal_U(U, R1), kanal_U(U, R0)
+    naj = 0.0
+    for _ in range(prob):
+        v = RNG.normal(size=2 * dR) + 1j * RNG.normal(size=2 * dR)
+        v /= np.linalg.norm(v)
+        r = np.outer(v, v.conj())
+        naj = max(naj, odl_sladowa(Lc(r), L0(r)))
+    return naj
+
+
+def bloch_roznicy(U, rho_A):
+    a = kanal_U(U, R1)(rho_A)
+    b = kanal_U(U, R0)(rho_A)
+    d = a - b
+    return [float(np.real(np.trace(d @ S))) for S in (SX, SY, SZ)]
+
+
+def wymiana(th):
+    """H = σ⁺_A σ⁻_W + σ⁻_A σ⁺_W: M daje nośnikowi tyknięcie albo je zabiera."""
+    U = np.eye(4, dtype=complex)
+    c, sn = np.cos(th), np.sin(th)
+    U[1, 1] = U[2, 2] = c
+    U[1, 2] = U[2, 1] = -1j * sn
+    return U
+
+
+print()
+print("=" * 74)
+print("Z7  wymiana tyknięcia rusza trzeci parametr:  D = sin²θ, różnica czysto w z")
+print("=" * 74)
+plus = np.outer((KET0 + KET1) / np.sqrt(2), ((KET0 + KET1) / np.sqrt(2)).conj())
+bl7 = []
+print("     θ      D (zmierzone)    sin²θ        (x, y, z) różnicy")
+for th in [0.0, 0.3, 0.6, np.pi / 4, 1.0, np.pi / 2]:
+    U = wymiana(th)
+    d = D_U(U, prob=4000)
+    x, y, z = bloch_roznicy(U, plus)
+    bl7.append(max(abs(d - np.sin(th) ** 2), abs(x), abs(y)))
+    print(f"   {th:5.3f}   {d:.9f}    {np.sin(th)**2:.9f}   ({x:+.6f}, {y:+.6f}, {z:+.6f})")
+ok7 = max(bl7) < 1e-9
+print(f"  WERDYKT Z7: {'PRZESZŁO' if ok7 else 'UPADŁO'}  (maks odchyłka {max(bl7):.1e})")
+print("  -> człon fazowy znosi się dokładnie (czynnik koherencji cos θ po obu")
+print("     stronach); cały odczyt siedzi w obsadzeniach.")
+
+print()
+print("=" * 74)
+print("Z8  ogólne sprzężenie dwóch nośników: wszystkie trzy składowe, D = ½|Δr|")
+print("=" * 74)
+bl8 = []
+print("   U    D (z ancillą)   ½|Δr| (bez)    składowe (x, y, z)")
+for k in range(5):
+    G = RNG.normal(size=(4, 4)) + 1j * RNG.normal(size=(4, 4))
+    U, _ = np.linalg.qr(G)
+    d = D_U(U, prob=4000)
+    naj, best = 0.0, None
+    for _ in range(4000):
+        v = RNG.normal(size=2) + 1j * RNG.normal(size=2)
+        v /= np.linalg.norm(v)
+        r = np.outer(v, v.conj())
+        comp = bloch_roznicy(U, r)
+        nr = float(np.sqrt(sum(c * c for c in comp)))
+        if nr > naj:
+            naj, best = nr, comp
+    bl8.append(abs(d - naj / 2))
+    print(f"  {k}     {d:.6f}       {naj/2:.6f}     "
+          f"({best[0]:+.3f}, {best[1]:+.3f}, {best[2]:+.3f})")
+ok8 = max(bl8) < 0.02 and max(bl8) >= 0
+print(f"  WERDYKT Z8: {'PRZESZŁO' if ok8 else 'UPADŁO'}  "
+      f"(maks różnica {max(bl8):.1e}, w granicach próbkowania)")
+print("  -> trzy liczby i koniec: przez jeden nośnik nie ma czwartego kanału.")
+
 print()
 print("=" * 74)
 print("PODSUMOWANIE")
 for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4),
-                  ("Z5", ok5), ("Z6", ok6)]:
+                  ("Z5", ok5), ("Z6", ok6),
+                  ("Z7", ok7), ("Z8", ok8)]:
     print(f"  {nazwa}: {'PRZESZŁO' if ok else 'UPADŁO'}")
 print("=" * 74)
