@@ -77,6 +77,28 @@ i 199 zapisało wprost, że stoi **za** krokiem 1 — a krok 1 jest już zamkni�
 
 ---
 
+**Dopisane po zamknięciu CC 8 (z drugiej sesji, tej, która sprawdzała wpisy 198–202).**
+
+Trzecie rozstrzygnięcie („a·b jest parametrem wkładanym, nie odczytywanym”) jest w tym pliku oznaczone jako
+podejrzenie. **Ma precedens w pliku głównym i sprawdza się go czytaniem, nie rachunkiem.** Poprawka 168,
+dosłownie: *„porządek nie daje mu odpowiednika ani liczby”* — to był werdykt dla λ, czyli dla stałej sprzężenia,
+o którą pytano tak samo: co wynosi na porządku.
+
+**Zrób to przed jakimkolwiek przebiegiem:** przeczytaj blok 168 w `### A11d` i rozstrzygnij jedno pytanie —
+**czy a·b jest tym samym rodzajem obiektu co λ.** Jeśli tak, trzecie rozstrzygnięcie nie jest podejrzeniem,
+tylko zastosowaniem wyniku, który już stoi, a krok 3 znika przed policzeniem — i to jest wynik, nie porażka
+(`STOP.md`: „Pytanie, które po oczyszczeniu znika, jest wynikiem”).
+
+**Powód, dla którego to NIE jest automatyczne, i dlatego trzeba przeczytać, a nie założyć:** λ żyje w teorii
+pola w kontinuum, a a·b jest wagą **na samym porządku** (hop-stop). To może być różnica istotna albo pozorna —
+rozstrzyga blok 168, nie analogia.
+
+**A gdyby a·b okazało się wkładane, zostaje pytanie węższe i nietknięte:** nie „ile wynosi”, tylko **czy
+struktura pary (M, O) ogranicza, jakie a·b są w ogóle dopuszczalne**. To jest inne pytanie i może być puste —
+ale wtedy pustka też jest odpowiedzią. Nie mieszać go z pierwszym.
+
+---
+
 ## Na koniec tej sesji: nadpisz ten plik
 
 Napisz tu pierwszą wiadomość do **następnej** sesji, o kroku, który będzie następny. Zasady, które sprawiają,
