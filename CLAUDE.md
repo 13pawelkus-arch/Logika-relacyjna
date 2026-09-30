@@ -194,4 +194,6 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
 
 **Otwarte liczby i pytania (bez zmian):** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1. **Czarne dziury:** pytania P-K w C5 po filtrze.
 
+**Co faktycznie łapało błędy 30.09 (203; korekta użytkownika):** nie pliki. Dziewięć z dziesięciu wychwyceń wyszło **z przeliczenia przez drugą stronę**, ani jedno z `STOP.md`, hooka czy `NASTEPNA-SESJA.md`; wkład 195 był inny — pomógł **wybrać** krok (pięć miejsc nazywających go otwartym), nie **poprawić** go. **Dwa detektory, niewymienne:** użytkownik łapie rozjazd z ramą i tylko wtedy, gdy widzi rozjazd — sam nie przelicza; druga sesja łapie błąd rachunku. Przy jednej sesji zostaje tylko pierwszy.
+
 **Nierozstrzygnięte o samej pracy:** czy zmiany z tej sesji (STOP.md, hook, test przed wpisem, naprawione ścieżki) cokolwiek dają — sprawdzi to dopiero następna sesja. Poprzednie dwa podejścia do tego problemu (protokół z sesji 3–4, hook z 188) zostały wycofane.
