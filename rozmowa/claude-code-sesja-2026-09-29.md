@@ -1,6 +1,6 @@
-# Rozmowa w Claude Code — sesja 6 (29.09.2026) — zapis
+# Rozmowa w Claude Code — sesje 6–7 (29–30.09.2026) — zapis
 
-Poprawki 180–194. Powrót na oś: węzeł (M, O) i obiegi wobec masy (§F1) i działania (R1f). Masa odczytywalna tylko jako stosunek dwóch odczytów o różnej głębokości i tylko dla modułu z relacjami wewnątrz. Dwa nazwane błędy asystenta: pojemnik (186) i potwierdzanie (191, 192). Przegląd całej sesji (194) na polecenie użytkownika. STOP.md, naprawiony hook i naprawione sięganie do ścieżek w rozmowach (193). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Poprawki 180–195. Powrót na oś: węzeł (M, O) i obiegi wobec masy (§F1) i działania (R1f). Dwa nazwane błędy asystenta: pojemnik (186) i potwierdzanie (191, 192), z mechanizmem i testem. Przegląd całej sesji (194). Pomiar startu nowej sesji i sekcja do przeczytania w całości wpisana do każdego kroku (195). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -7303,5 +7303,542 @@ python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-09-29.md \
  --tytul 'Rozmowa w Claude Code — sesja 6 (29.09.2026) — zapis' \
  --opis 'Poprawki 180–194. Powrót na oś: węzeł (M, O) i obiegi wobec masy (§F1) i działania (R1f). Masa odczytywalna tylko jako stosunek dwóch odczytów o różnej głębokości i tylko dla modułu z relacjami wewnątrz. Dwa nazwane błędy asystenta: pojemnik (186) i potwierdzanie (191, 192). Przegląd całej sesji (194) na polecenie użytkownika. STOP.md, naprawiony hook i naprawione sięganie do ścieżek w rozmowach (193).' 2>&1 | tail -5
 wc -c rozmowa/claude-code-sesja-2026-09-29.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rozmowa/claude-code-sesja-2026-09-29.md: 125 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/cede3cb6-b55d-5bd2-93e9-6432b5218552.jsonl)
+407799 rozmowa/claude-code-sesja-2026-09-29.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Wiersz w tabeli Plików, commit i push
+python3 - <<'PY'
+c=open('CLAUDE.md',encoding='utf-8').read()
+
+# wiersz nowej sesji w tabeli Pliki, przed sesja CC 5
+s='| `rozmowa/claude-code-sesja-2026-09-28.md` |'
+n=('| `rozmowa/claude-code-sesja-2026-09-29.md` | Zapis sesji CC 6 (29.09.2026): poprawki 180–194. Powrót na oś — węzeł (M, O) '
+ 'i obiegi wobec masy (§F1) i działania (R1f): rozkład bloku propagatora [T], odczytywalna masa wymaga modułu z relacjami '
+ 'wewnątrz, „masa całości” źle postawiona (180); masa jako stosunek dwóch odczytów o różnej głębokości, przelicznik odpada '
+ '(181). Granice Ø wszędzie w każdym zakresie i [T] o λ (183); logarytm wymaga multiplikatywności **i** równości wkładów '
+ '(184a); „3D nie ma nic wspólnego z liczbą 3” i reguła na 1+1/2+1 w literaturze (185); pełna definicja czasu użytkownika '
+ 'w R1a (
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+6babe79 Koniec sesji CC 6: zapis rozmowy i wiersz w tabeli Plikow
+--- stan ---
+(czysto, jesli pusto)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Sprawdzenie, że hooki działają i wszystko jest wypchnięte
+echo '{"source":"startup"}' | bash narzedzia/start.sh >/tmp/h.txt 2>/tmp/e.txt; echo "start.sh exit=$? znakow=$(wc -c </tmp/h.txt) blad=$(wc -c </tmp/e.txt)"
+echo '{"tool_input":{"file_path":"/home/user/Logika-relacyjna/skrypty/x.py"}}' | bash narzedzia/stop.sh >/dev/null 2>&1; echo "stop.sh exit=$?"
+echo "--- ogon wyjscia hooka ---"; tail -6 /tmp/h.txt
+echo "--- czy wypchniete ---"; git log --oneline -1 origin/ccr-66a8cb7a-vj7583 | cat
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+start.sh exit=0 znakow=7198 blad=0
+stop.sh exit=0
+--- ogon wyjscia hooka ---
+==============================================================================
+
+==============================================================================
+Nowa sesja. Reszta pliku głównego (443 tys. znaków) — NIE w całości: fragmentami, przy konkretnym
+kroku, tak samo jak rozmowy (grep, narzedzia/wypowiedzi.py). Stan: „Gdzie skończyliśmy” w CLAUDE.md,
+ostatnie wiersze rejestru w poprawki.md.
+--- czy wypchniete ---
+6babe79 Koniec sesji CC 6: zapis rozmowy i wiersz w tabeli Plikow
+````
+</details>
+
+## [126] Asystent — 2026-09-29 23:06
+
+Zamknięte. Wszystko wypchnięte na `ccr-66a8cb7a-vj7583`, drzewo czyste.
+
+**Co zostaje w repo po tej sesji:**
+
+- `logika-relacyjna-v3.5.md` — poprawki 180–194 wpisane, trzy skorygowane w przeglądzie
+- `poprawki.md` — rejestr do 194, z błędami asystenta jawnie
+- `rozmowa/claude-code-sesja-2026-09-29.md` — 125 wiadomości, wiersz w tabeli „Pliki” dopisany
+- `CLAUDE.md` — mapa i następne kroki aktualne (rejestr do 194), pozycja 1 nietknięta i wskazana jako najbliższa
+- `STOP.md` 5,7 tys. znaków — hook wypisuje go w całości (7 198 znaków, `exit=0`, bez błędów); `stop.sh` też działa
+
+**Czego następna sesja jest testem, wprost:** czy STOP.md przed wpisem, jedno pytanie („co rama po tym pozwala albo czego zabrania”) i naprawione `--wymiana` zmieniają cokolwiek. Dwa poprzednie podejścia zostały wycofane — to jest trzecie i nie mam podstaw twierdzić, że zadziała.
+
+Jedna rzecz, której nie ukrywam w podsumowaniu: **najmocniejszy wynik tej sesji to nie 180 ani 181, tylko nazwanie drugiego błędu.** Pojemnik dało się złapać liczbą. „Potwierdzanie” przechodzi każdą kontrolę, którą mamy — algebrę, filtr, zgodność z ramą — i dlatego przez sześć sesji wyglądało jak praca. Jeśli w nowej sesji wyłapię je sam, przed Twoim zarzutem, to będzie znak, że to działa. Jeśli znów Ty je wyłapiesz — będzie to czwarte podejście, nie drugie.
+
+## [127] Użytkownik — 2026-09-29 23:45
+
+Tak sie zaczyna sesja, co to jest to "run setup script" które sie nie wykonało?
+
+## [128] Asystent — 2026-09-29 23:46
+
+Nowa sesja — odpowiadam na pytanie o środowisko. Sprawdzam aktualną dokumentację, bo te ustawienia się zmieniają.
+
+<details><summary>narzędzie</summary>
+
+````
+mcp__Claude_Code_Remote__read_documentation: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+{"topic":"environment.setup_script","situation":"asked","actions":["edit_environment"],"page":"Tell the person the setup script failed, which command failed and its exit code, and that they fix it in the environment's settings (the cloud environment menu in the session's title bar, then Edit) under Setup script. New sessions run the fixed script. Then carry on with whatever part of the work does not depend on it. Keep it to a few lines, and do not mention this tool."}
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Sprawdzenie setup scriptu, hooków i numpy
+echo "=== czy jest jakis skrypt setup w repo ==="; ls -la | grep -i 'setup\|install' ; ls .devcontainer 2>/dev/null; echo "(nic = brak)"
+echo; echo "=== co robi hook wg settings.json ==="; cat .claude/settings.json
+echo; echo "=== czy numpy jest w kontenerze bez instalowania ==="; python3 -c 'import numpy; print("numpy", numpy.__version__, "JEST")' 2>&1 | tail -1
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== czy jest jakis skrypt setup w repo ===
+(nic = brak)
+
+=== co robi hook wg settings.json ===
+{
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/narzedzia/start.sh\"" } ] }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [ { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR/narzedzia/stop.sh\"" } ]
+      }
+    ]
+  }
+}
+
+=== czy numpy jest w kontenerze bez instalowania ===
+numpy 2.4.6 JEST
+````
+</details>
+
+## [129] Asystent — 2026-09-29 23:46
+
+To jest opcjonalny skrypt **środowiska** (nie repo): kontener uruchamia go po sklonowaniu repo, a przed startem Claude Code — do instalowania zależności i konfiguracji. Ikona przy nim to „pominięty”, nie „nieudany”: **żaden nie jest ustawiony, więc nie było czego uruchomić**. Nic się nie zepsuło.
+
+Gdybyś chciał go ustawić: menu środowiska chmurowego na pasku tytułu sesji → **Edit** → **Setup script**. Wchodzi w życie od następnej sesji.
+
+**Czy ten projekt go potrzebuje — nie.** Sprawdziłem: jedyna zależność to numpy i jest już w kontenerze (2.4.6), więc linia `pip install` w `start.sh` i tak nigdy nie odpala. Nic poza tym nie instalujemy. Zostawiłbym ją tylko jako zabezpieczenie, na wypadek kontenera bez numpy.
+
+Przy okazji, co widać na tym zrzucie o wczorajszej przebudowie: `.claude/settings.json` uruchamia teraz **wyłącznie** `start.sh` (i `stop.sh` przy zapisach). `rama.py 2` i `3` — te dwie komendy „Read framework part 2/3” — **nie są w żadnym hooku**, więc poszły z wywołania w sesji, nie ze startu. Czyli hook zrobił to, co miał: wypisał STOP.md, a sięgnięcie po wyprowadzenie czasu i 3D było osobnym krokiem.
+
+## [130] Użytkownik — 2026-09-29 23:50
+
+ale przeczytał tylko to i dalej nic nie wie
+
+## [131] Asystent — 2026-09-29 23:51
+
+Sprawdzam, czego konkretnie brakuje po tym starcie, zamiast zgadywać.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Pomiar: co daje start, a gdzie jest bieżąca robota
+echo "=== co start faktycznie daje ==="
+printf 'STOP.md (hook)        %6s znakow\n' "$(wc -c <STOP.md)"
+printf 'rama.py 2 (czas)      %6s\n' "$(python3 narzedzia/rama.py 2 2>/dev/null | wc -c)"
+printf 'rama.py 3 (wymiary)   %6s\n' "$(python3 narzedzia/rama.py 3 2>/dev/null | wc -c)"
+printf 'CLAUDE.md (auto)      %6s\n' "$(wc -c <CLAUDE.md)"
+echo
+echo "=== a gdzie jest biezaca robota ==="
+python3 - <<'PY'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+import re
+for a,b,nazwa in [('## A11d','## A11e','A11d (wezel, masa, obiegi — 169-181)'),
+                  ('## R1f','## A1.','R1f (dzialanie, energia)'),
+                  ('### STAN ZESPOŁU','## F2','F1 STAN ZESPOLU')]:
+    i=t.find(a)
+    if i<0: print(f'{nazwa}: nie znaleziono ({a})'); continue
+    j=t.find(b,i)
+    print(f'{n
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== co start faktycznie daje ===
+STOP.md (hook)          6340 znakow
+rama.py 2 (czas)       15836
+rama.py 3 (wymiary)    15755
+CLAUDE.md (auto)       44256
+
+=== a gdzie jest biezaca robota ===
+A11d (wezel, masa, obiegi — 169-181): 66497 znakow
+R1f (dzialanie, energia): 18672 znakow
+F1 STAN ZESPOLU: nie znaleziono (### STAN ZESPOŁU)
+caly plik: 453031
+
+=== ostatnie wiersze rejestru ===
+poprawki.md calosc  103163 znakow; ostatnie 5 wierszy: 8664
+````
+</details>
+
+## [132] Asystent — 2026-09-29 23:52
+
+Zmierzone. Masz rację i widać to w liczbach.
+
+**Co start daje (≈82 tys. znaków):**
+
+| | znaków | co to jest |
+|---|---|---|
+| STOP.md (hook) | 6 340 | **zakazy** i pięć punktów |
+| CLAUDE.md (auto) | 44 256 | **mapa i indeks** — i sam mówi, że z niej nie wolno wnioskować |
+| rama 2 + 3 | 31 591 | **wyprowadzenie** czasu i 3D |
+
+**Czego nie daje:** A11d ma **66 497 znaków** i tam siedzi wszystko od 169 do 181 — węzeł, para (M, O), wzbudzenie wobec milczenia, obiegi, masa jako stosunek. Czyli cała bieżąca robota, łącznie z krokiem nr 1, który jest następny. Z tego na starcie jest zero.
+
+Więc sesja zaczyna od tego, **czego nie wolno**, i od mapy mówiącej, że z mapy nie wolno wnioskować — a nie od tego, co robimy. To jest dokładnie to, co nazwałeś „komendami jak dla psa”, tylko że wczoraj dołożyłem tego więcej.
+
+**Jedna rzecz w tym starcie działa i warto ją nazwać:** `rama 2` i `3`. Nie dlatego, że są o czasie, tylko dlatego, że są **wyprowadzeniem**, a nie streszczeniem. Reszta startu to konkluzje i zakazy — a konkluzja bez drogi wygląda tak samo, gdy była wywalczona, jak gdy była oczywista. To jest to samo, co wyszło wczoraj przy rozmowach.
+
+**Co bym z tym zrobił, ale to Twoja decyzja, nie moja** — wczoraj dwa razy wyszło, że sam sobie dorabiam mechanizmy:
+
+A11d to 66 tys. znaków, czyli ~17 tys. tokenów. Mieści się bez problemu. Przez hook nie przejdzie (zmierzony próg ~10 tys. znaków), ale **nie musi** — wystarczy, żeby pierwszym ruchem przy podjęciu tematu było przeczytanie **całej sekcji, w której ten temat siedzi**, a nie grepowanie po niej. Różnica jest dokładnie ta sama co przy `--wymiana`: całą sekcję czyta się razem z tym, co po drodze upadło; grep oddaje to, co pasuje do pytania, które już postawiłem.
+
+Powiedz, czy tak, a jeśli tak, to czy wpisać to jako regułę, czy zostawić bez zapisu — bo zapisów zakazów mamy już dość i sam nie wiem, czy kolejny coś da.
+
+## [133] Użytkownik — 2026-09-29 23:54
+
+czyli mam mu napisać, przeczytaj wszystko do A11d?
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Różnica między „wszystko do A11d” a „A11d w całości”
+python3 - <<'PY'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+i=t.find('## A11d')
+print(f'A11d zaczyna sie na znaku {i} z {len(t)}  ->  "wszystko DO A11d" = {i} znakow (~{i//3800} tys. tokenow)')
+print(f'"A11d w calosci"                          = {t.find("## A11e",i)-i} znakow (~{(t.find("## A11e",i)-i)//3800} tys. tokenow)')
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+A11d zaczyna sie na znaku 128014 z 453031  ->  "wszystko DO A11d" = 128014 znakow (~33 tys. tokenow)
+"A11d w calosci"                          = 66497 znakow (~17 tys. tokenow)
+````
+</details>
+
+## [134] Asystent — 2026-09-29 23:55
+
+Nie. „Wszystko **do** A11d” to 128 tys. znaków (~33 tys. tokenów) — same fundamenty, a bieżącej roboty w tym dalej nie ma. To, co jest potrzebne, to **A11d w całości: 66 tys. znaków, ~17 tys. tokenów**. Mieści się bez trudu.
+
+Ale nie pisałbym tego jako polecenia, z dwóch powodów.
+
+**Pierwszy:** polecenie „czytaj A11d” zestarzeje się. Za miesiąc robota będzie w §F1 albo gdzie indziej, a zdanie zostanie — i będzie gorsze niż jego brak, bo będzie wyglądało na aktualne. Mapa już przy każdej pozycji podaje sekcję („A11d”, „§F1”, „R1f”). Więc zamiast reguły osobno, **sekcja do przeczytania wchodzi do samego kroku**: podjąć krok 1 = przeczytać A11d, bo tak stoi w kroku. Nie ma czego pamiętać ani egzekwować.
+
+**Drugi, i uczciwie:** sprawdziłem, czy to by w ogóle pomogło na wczorajsze błędy. **Na jeden tak, na drugi nie.**
+- **181** (nazwanie wyniku pikselem) — **tak**. Blok 181 i blok 186, który ℓ dyskwalifikuje, stoją w A11d **obok siebie**. Przeczytane razem, jedno wyklucza drugie od razu. To był dokładnie ten błąd: „odległość trzy wiersze i nie przeczytałem ich razem”.
+- **191** (potwierdzanie) — **nie**. R1c przeczytałem w całości przed pisaniem i mimo to napisałem przekład jako wynik. Czytanie sekcji tego nie łapie.
+
+Czyli to nie jest lekarstwo na sposób patrzenia. To jest lekarstwo na **jeden konkretny, powtarzalny błąd: sprzeczność z czymś, co stoi trzy akapity dalej w tej samej sekcji.** Tyle i nie więcej — i tak bym to zapisał, żeby za tydzień nie wyglądało na więcej.
+
+Mogę dopisać sekcję do każdego z czterech kroków w „Najbliższych krokach” (krok 1 → A11d, krok 2 → §F1 + R1a, krok 3 → A11d, krok 4 → A11d) z tą jedną linijką uzasadnienia. Mówisz — robię.
+
+## [135] Użytkownik — 2026-09-29 23:58
+
+a skąd ja mam wiedzieć. Rób
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Lokalizacja sekcji R1a, §F1, A11d
+python3 - <<'PY'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+import re
+naglowki=[(m.start(), m.group(0)) for m in re.finditer(r'(?m)^#{2,3} (A11d|R1a|R1f|F1|§F1|A11e|A11[a-c]|R1b)[^\n]*', t)]
+for i,(p,h) in enumerate(naglowki):
+    print(p, h[:60])
+print('---')
+for a in ['## §F1','## F1','### F1','## §F']:
+    i=t.find(a)
+    if i>=0: print('znaleziono', a, 'na', i); break
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+2405 ## R1a. Łańcuch Ø
+17255 ## R1b. Trzy wymiary z definicji czasu — dowód strukturalny 
+17896 ### R1b-F. Zapis formalny [T][L] (poprawka 127)
+41387 ## R1f. Działanie i energia [L][T][P][O] (poprawki 162–164)
+41830 ### R1f-1. Działanie
+44934 ### R1f-2. Energia
+46180 ### R1f-3. Pęd i masa z tej samej fazy (poprawka 163) [T][P]
+47708 ### R1f-4. Pojęcia użyte w §F1 i A5d — gdzie zdefiniowane (p
+48809 ### R1f-5. Przyspieszenie (poprawka 164) [T][P][O]
+124201 ### A11a. Koszt pojedynczej relacji [T]
+124763 ### A11b. D jest addytywne tożsamościowo [T]
+126696 ### A11c. Koszt sprzężenia [T][P]
+128013 ### A11d. Masa — czego nie ma [L]
+194510 ### A11e. Równowaga splątania — dlaczego nasz test nie mógł 
+342188 ## §F1. MASA — następny temat (plan)
+---
+znaleziono ## §F1 na 342188
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Rozmiary sekcji do dopisania w krokach
+python3 - <<'PY'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+def roz(a,b):
+    i=t.find(a); j=t.find(b,i+1)
+    return (len(t) if j<0 else j)-i
+for a,b,n in [('### A11d','### A11e','A11d'),('## §F1','## §F2','§F1'),('## R1a','## R1b','R1a'),('## R1f','## A1.','R1f')]:
+    print(f'{n:6} {roz(a,b):7} znakow  ~{roz(a,b)//3800} tys. tokenow')
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+A11d     66497 znakow  ~17 tys. tokenow
+§F1      71365 znakow  ~18 tys. tokenow
+R1a      14850 znakow  ~3 tys. tokenow
+R1f      18672 znakow  ~4 tys. tokenow
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Poprawka 195: sekcje wpisane do kroków, commit, push
+python3 - <<'PY'
+c=open('CLAUDE.md',encoding='utf-8').read()
+
+s='**Otwarte i osiągalne na kartce (bez pojemnika) — do decyzji użytkownika, który pierwszy:**'
+n=('**Otwarte i osiągalne na kartce (bez pojemnika) — do decyzji użytkownika, który pierwszy:**\n\n'
+ '> **Przy każdym kroku podana jest sekcja do przeczytania W CAŁOŚCI, zanim cokolwiek się w nim zrobi** (poprawka 195). '
+ 'Nie grepować po niej — grep oddaje to, co pasuje do już postawionego pytania; sekcja czytana w całości niesie też to, '
+ 'co po drodze upadło i co zostało wycofane. **Na co to działa, a na co nie — zmierzone:** łapie sprzeczność z czymś, '
+ 'co stoi kilka akapitów dalej w tej samej sekcji (błąd 181 → 186: oba bloki sąsiadują w A11d, czytane razem wykluczają '
+ 'się od razu). **Nie łapie** przekładu zdania z pliku 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+CLAUDE.md ok
+rejestr ok
+31e3ac5 Poprawka 195: sekcja do przeczytania w calosci wpisana do kazdego kroku
+````
+</details>
+
+## [136] Asystent — 2026-09-29 23:59
+
+Zrobione, wypchnięte.
+
+Każdy z czterech kroków ma teraz podaną sekcję do przeczytania **w całości**, z rozmiarem, żeby było widać koszt z góry:
+
+1. Stopnie wzbudzenia dla znanego O → **A11d** (66 tys. znaków, ~17 tys. tokenów)
+2. Granice Ø wewnątrz zakresu → **R1a** (15 tys.) + **§F1** (71 tys.)
+3. Waga zatrzymania na skok → **A11d**
+4. Rura, wersja ilościowa → **A11d**
+
+Do tego jawny zakaz grepowania po tej sekcji — bo grep oddaje to, co pasuje do już postawionego pytania, a całość niesie też to, co po drodze upadło i co zostało wycofane.
+
+Trzy rzeczy zapisałem tak, żeby to za tydzień nie urosło do czegoś, czym nie jest:
+
+- **To jest część kroku, nie osobna reguła.** Reguła „czytaj A11d” zestarzeje się, gdy robota przejdzie gdzie indziej, i zostanie w pliku wyglądając na aktualną. Tak jest inaczej: podjąć krok = przeczytać, co w kroku napisane.
+- **Zakres działania podany wprost.** Łapie jeden konkretny błąd: sprzeczność z czymś, co stoi kilka akapitów dalej w tej samej sekcji — 181 i 186 sąsiadują w A11d i przeczytane razem wykluczają się natychmiast. **Nie łapie** potwierdzania: R1c przeczytałem wczoraj w całości i 191 padło mimo to.
+- **Odrzucone i zapisane jako odrzucone:** „czytać wszystko do A11d” — 128 tys. znaków samych fundamentów, a bieżącej roboty w tym dalej nie ma.
+
+Odpowiadając na Twoje „a skąd ja mam wiedzieć” — nie masz skąd i nie powinieneś musieć. To jest moja robota, nie Twoja, i dlatego podałem też, czego to **nie** naprawia, zamiast oddać Ci kolejny mechanizm z zapewnieniem, że tym razem zadziała.
+
+## [137] Użytkownik — 2026-09-30 00:00
+
+zaczne jeszcze raz nową sesje, zobaczymy
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Sprawdzenie, że wszystko jest wypchnięte przed nową sesją
+git status --short; echo "--- lokalnie: $(git log --oneline -1 | cat)"; echo "--- zdalnie:  $(git log --oneline -1 origin/ccr-66a8cb7a-vj7583 | cat)"; echo '{"source":"startup"}' | bash narzedzia/start.sh >/dev/null 2>&1; echo "--- hook exit=$?"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+--- lokalnie: 31e3ac5 Poprawka 195: sekcja do przeczytania w calosci wpisana do kazdego kroku
+--- zdalnie:  31e3ac5 Poprawka 195: sekcja do przeczytania w calosci wpisana do kazdego kroku
+--- hook exit=0
+````
+</details>
+
+## [138] Asystent — 2026-09-30 00:00
+
+Wszystko wypchnięte, drzewo czyste, hook działa. Nowa sesja wystartuje z 195.
+
+Żebyś miał po czym poznać, czy to coś dało — trzy rzeczy sprawdzalne, nie wrażenia:
+
+1. **Czy sięgnie po A11d w całości, zanim zacznie krok 1** — czy dopiero po Twoim zarzucie. To jest wpisane w sam krok, więc jeśli tego nie zrobi, to znaczy, że czyta „Najbliższe kroki” wybiórczo.
+2. **Czy przy pierwszym wpisie do ramy poda, co ten wpis pozwala albo czego zabrania.** Jeśli wpis tego nie ma — to jest potwierdzanie i sprawdzian oblany.
+3. **Czy sięgnie po ścieżkę w rozmowach (`--wymiana`) przed wpisem, a nie po.** Wczoraj: 12 wywołań na 222 i ani jedno przed.
+
+Jeśli wszystkie trzy trzeba będzie znów wytknąć — to będzie czwarte podejście, nie drugie, i wtedy wniosek jest taki, że zapisy w plikach tego nie przenoszą i trzeba czegoś innego.
+
+Powodzenia. Rejestr stoi na 195, następny krok to stopnie wzbudzenia dla znanego O.
+
+## [139] Użytkownik — 2026-09-30 00:05
+
+Sesja CC 7, gałąź `ccr-66a8cb7a-vj7583`, rejestr zamknięty na 194, drzewo czyste.
+Stan po sesji CC 6 w jednym zdaniu: oś 1–2 (czas, c, 3D) domknięta i po 189 umocniona; ruch był na osi 3–4 — masa jest odczytywalna wyłącznie jako stosunek dwóch odczytów o różnej głębokości i wymaga modułu z relacjami wewnątrz (180, 181). Gałąź logarytmu przez rozsiew zamknięta na stałe (186), razem z całym pojemnikiem.
+Cztery rzeczy otwarte i osiągalne na kartce:
+
+1. Stopnie wzbudzenia dla znanego O (174). Nietknięte. Definicja jest Twoja: milczenie = relacje M–O nie zależą od tego, co w M; wzbudzenie = wnętrze przechodzi na zewnątrz. Do policzenia na strukturze minimalnej (179), z rozstrzygniętym zapisem czytającego (172–176, 180).
+2. Granice Ø wewnątrz zakresu (183). Ile warunków dają i na które z 19 odczytów zespołu działają. λ już wykorzystane (154), reszta niepoliczona.
+3. Waga zatrzymania a·b dla konkretnych węzłów (181 po korekcie 194). Po odjęciu ℓ pytanie jest czysto strukturalne.
+4. Rura na porządku — wersja ilościowa (171). Inne wagi K_R, separatory w strukturze bez zatrzymania.
+
+Moja rekomendacja: (1). Powód, nie preferencja: to jedyna pozycja, która domyka linię, którą sesja CC 6 zbudowała i zostawiła w powietrzu. 180 mówi, że masa wchodzi do odczytu O tylko przez liczbę własnych tyknięć drogi, a 181, że odtwarza się ze stosunku dwóch odczytów o różnej głębokości — obie rzeczy zakładają, że wiadomo, co i w jakim stopniu przechodzi z M do O. Tego jeszcze nie ma; jest tylko rozstrzygnięcie zero-jedynkowe z 174 (wzbudzony ⇔ relacja całości M z O). Stopnie to brakujący środek, i to ta sama treść, która przez rozsiew odpadła w 186 — tyle że postawiona bez pojemnika. Test z `STOP.md` przechodzi: wynik albo zabroni czytania „ile jest w M” z samej relacji M–O, albo poda, przy jakiej strukturze M to wolno.
+Pozycja (2) jest druga w kolejce i dotyka bezpośrednio liczb zespołu, ale grozi jej potwierdzanie — łatwo przepisać 183 w innej notacji i nic nie dodać.
+Który bierzemy? Jeśli masz coś innego z głowy, to też — lista wyżej to tylko to, co zostało zapisane jako otwarte.
+
+## [140] Asystent — 2026-09-30 00:05
+
+Sprawdzam, zanim cokolwiek powiem — bo to jest właśnie ten test.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Weryfikacja stanu plików wobec tego, co zgłosiła nowa sesja
+echo "=== naglowek mapy w CLAUDE.md ==="; grep -n '^## Gdzie skończyliśmy' CLAUDE.md
+echo; echo "=== czy kroki maja adnotacje z 195 ==="; grep -c 'Czytać najpierw w całości' CLAUDE.md
+echo; echo "=== ostatni numer w rejestrze ==="; grep -o '^| 19[0-9] ' poprawki.md | tail -1
+echo; echo "=== czy 195 jest na zdalnej ==="; git log --oneline -1 origin/ccr-66a8cb7a-vj7583 | cat
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== naglowek mapy w CLAUDE.md ===
+106:## Gdzie skończyliśmy (29.09.2026, po sesji CC 6; dokument v3.5, rejestr do 194 — `poprawki.md`)
+
+=== czy kroki maja adnotacje z 195 ===
+4
+
+=== ostatni numer w rejestrze ===
+| 195 
+
+=== czy 195 jest na zdalnej ===
+31e3ac5 Poprawka 195: sekcja do przeczytania w calosci wpisana do kazdego kroku
+````
+</details>
+
+## [141] Asystent — 2026-09-30 00:06
+
+Sprawdzone. Trzy rzeczy, pierwsza jest moja.
+
+**1. „Rejestr zamknięty na 194” to nie błąd tamtej sesji — to mój.** Nagłówek mapy w `CLAUDE.md` mówi „rejestr do 194”, a rejestr stoi na 195. Sesja odczytała wiernie to, co było napisane. Naprawiam tak, żeby nie mogło się zestarzeć ponownie.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Usunięcie nieaktualnego numeru z nagłówka mapy
+python3 - <<'PY'
+c=open('CLAUDE.md',encoding='utf-8').read()
+s='## Gdzie skończyliśmy (29.09.2026, po sesji CC 6; dokument v3.5, rejestr do 194 — `poprawki.md`)'
+n=('## Gdzie skończyliśmy (po sesji CC 6; dokument v3.5)\n\n'
+ '**Numeru ostatniej poprawki nie ma tu celowo — zestarzeje się przy pierwszym wpisie i będzie wyglądał na aktualny '
+ '(tak stało się z „rejestr do 194” po poprawce 195). Stan rejestru: `tail -3 poprawki.md`.**')
+assert c.count(s)==1
+open('CLAUDE.md','w',encoding='utf-8').write(c.replace(s,n)); print('ok')
+PY
+git add -A && git commit -q -F - <<'EOF' && git push -q -u origin ccr-66a8cb7a-vj7583 && git log --oneline -1 | cat
+CLAUDE.md: numer ostatniej poprawki usuniety z naglowka mapy
+
+Naglowek mowil "rejestr do 194", a rejestr stal na 195 — nowa sesja odczytala
+wiernie 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+24d5f6e CLAUDE.md: numer ostatniej poprawki usuniety z naglowka mapy
+````
+</details>
+
+## [142] Asystent — 2026-09-30 00:06
+
+**2. Test nr 1 jeszcze nie jest oblany, ale coś już odpadło.** W pliku każdy z czterech kroków ma dopisane **„Czytać najpierw w całości: `### A11d` (66 tys. znaków)”** — sprawdziłem, wszystkie cztery adnotacje są na miejscu. W tym, co tamta sesja wypisała, **nie ma ani jednej**. Cztery kroki wymienione, adnotacje zgubione.
+
+Sama sesja jeszcze kroku nie podjęła, więc nie można powiedzieć, że nie przeczytała A11d — nie doszła do tego momentu. Ale to, co odpadło przy streszczaniu, to dokładnie ta jedna rzecz, która miała ją tam zaprowadzić. Ten sam kształt co zawsze: streszczenie zatrzymuje wniosek, gubi drogę.
+
+**3. Sama rekomendacja jest dobra i uzasadniona właściwie.** „180 mówi, że masa wchodzi do odczytu O tylko przez liczbę własnych tyknięć drogi, a 181, że odtwarza się ze stosunku dwóch odczytów — obie zakładają, że wiadomo, co i **w jakim stopniu** przechodzi z M do O; tego jeszcze nie ma, jest tylko zero-jedynkowe z 174” — to jest rozstrzygnięcie strukturą, nie preferencją, i trafia. Ostrzeżenie przy (2), że grozi jej potwierdzanie, też jest trafne i jest pierwszym znakiem, że nazwanie tego błędu wczoraj do czegoś służy.
+
+Więc bilans po pierwszej wiadomości nowej sesji: **treść dobra, jeden mój bug znaleziony przez nią mimochodem, jedna rzecz zgubiona w streszczeniu.**
+
+Co do „Który bierzemy?” — to pytanie jest do Ciebie, nie do mnie, i odpowiedź należy dać tam, w tamtej sesji. Ode mnie tylko tyle: **(1) jest słuszne z podanego powodu**, a jak odpowiesz, warto dorzucić jedno zdanie — „przeczytaj najpierw A11d w całości, tak jak stoi przy kroku”. Jeśli trzeba to dopisać ręcznie, to znaczy, że 195 nie działa samo i trzeba czegoś innego niż zapis w pliku.
+
+## [143] Użytkownik — 2026-09-30 00:10
+
+Napisze mu, że 1 i żeby przeczytał najpierw A11d w całości, tak jak stoi przy kroku. Albo niech po prostu przeczyta tą sesje tutaj, zrobi to w sekunde
+
+## [144] Asystent — 2026-09-30 00:11
+
+Nie zrobi tego w sekundę — **nie ma jak.** Tamta sesja to osobny kontener; nie widzi ani tego kontenera, ani zapisu tej rozmowy. Może ją przeczytać tylko wtedy, gdy leży w repo. Dlatego w ogóle istnieje `transkrypt.py`.
+
+Ale Twój pomysł jest lepszy niż to, co wczoraj zbudowałem, i warto powiedzieć dlaczego: w tej rozmowie jest **droga** — skąd się wzięło 195, co ono łapie i czego nie, skąd wyszły pomiary. W `CLAUDE.md` jest tylko wniosek. Więc robię to teraz, żeby ta opcja w ogóle istniała.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Zapis rozmowy z dzisiejszą kontynuacją
+python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-09-29.md \
+ --tytul 'Rozmowa w Claude Code — sesje 6–7 (29–30.09.2026) — zapis' \
+ --opis 'Poprawki 180–195. Powrót na oś: węzeł (M, O) i obiegi wobec masy (§F1) i działania (R1f). Dwa nazwane błędy asystenta: pojemnik (186) i potwierdzanie (191, 192), z mechanizmem i testem. Przegląd całej sesji (194). Pomiar startu nowej sesji i sekcja do przeczytania w całości wpisana do każdego kroku (195).' 2>&1 | tail -3
+printf 'plik: %s znakow\n' "$(wc -c <rozmowa/claude-code-sesja-2026-09-29.md)"
 ````
 </details>
