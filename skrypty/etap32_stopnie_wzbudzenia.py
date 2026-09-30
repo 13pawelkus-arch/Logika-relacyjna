@@ -449,11 +449,83 @@ print(f"  WERDYKT Z8: {'PRZESZŁO' if ok8 else 'UPADŁO'}  "
       f"(maks różnica {max(bl8):.1e}, w granicach próbkowania)")
 print("  -> trzy liczby i koniec: przez jeden nośnik nie ma czwartego kanału.")
 
+# ===== Z9/Z10 — niezmienniki pary wektorów Blocha; przezroczystość Ø ======
+def kan1(U, W, rho):
+    r = U @ np.kron(rho, W) @ U.conj().T
+    return r.reshape(2, 2, 2, 2).trace(axis1=1, axis2=3)
+
+
+def bloch(rho):
+    return np.array([float(np.real(np.trace(rho @ S))) for S in (SX, SY, SZ)])
+
+
+def cphase_U(f):
+    U = np.eye(4, dtype=complex)
+    U[3, 3] = np.exp(1j * f)
+    return U
+
+
+print()
+print("=" * 74)
+print("Z9  trzy niezmienniki pary (r_Ø, r_c) — bez bazy; gdzie rodziny się stykają")
+print("=" * 74)
+plus_r = np.outer((KET0 + KET1) / np.sqrt(2), ((KET0 + KET1) / np.sqrt(2)).conj())
+print("  rodzina    parametr    |r_Ø|      |r_c|     kąt/π      D")
+for nazwa, fam, ps in [("odcisk ", cphase_U, [1.0, 2.0, np.pi]),
+                       ("wymiana", wymiana, [0.5, np.pi / 4, 1.0, np.pi / 2])]:
+    for pp in ps:
+        U = fam(pp)
+        a, b = bloch(kan1(U, R0, plus_r)), bloch(kan1(U, R1, plus_r))
+        na, nb = np.linalg.norm(a), np.linalg.norm(b)
+        kat = np.arccos(np.clip(float(a @ b) / (na * nb + 1e-300), -1, 1))
+        print(f"  {nazwa}   {pp:7.4f}   {na:.6f}  {nb:.6f}  {kat/np.pi:.4f}   "
+              f"{0.5*np.linalg.norm(b-a):.6f}")
+# zetknięcie
+Uw, Uo = wymiana(np.pi / 2), cphase_U(np.pi)
+tw = [np.linalg.norm(bloch(kan1(Uw, R0, plus_r))),
+      np.linalg.norm(bloch(kan1(Uw, R1, plus_r)))]
+to = [np.linalg.norm(bloch(kan1(Uo, R0, plus_r))),
+      np.linalg.norm(bloch(kan1(Uo, R1, plus_r)))]
+ok9 = abs(tw[0] - to[0]) < 1e-12 and abs(tw[1] - to[1]) < 1e-12
+print(f"  ZETKNIĘCIE θ = π/2 wobec φ = π: |r| = {tw[0]:.9f} i {to[0]:.9f} — te same.")
+print(f"  WERDYKT Z9: {'PRZESZŁO' if ok9 else 'UPADŁO'} (rodziny stykają się w jednym punkcie,")
+print("     więc jedna preparacja NIE rozstrzyga na całym zakresie — zastrzeżenie trafione)")
+
+print()
+print("=" * 74)
+print("Z10  co rozdziela na całym zakresie: czy Λ_Ø jest tożsamością")
+print("=" * 74)
+PR = []
+for _ in range(400):
+    v = RNG.normal(size=2) + 1j * RNG.normal(size=2)
+    v /= np.linalg.norm(v)
+    PR.append(np.outer(v, v.conj()))
+
+
+def nieprzezroczystosc(U):
+    return max(odl_sladowa(kan1(U, R0, r), r) for r in PR)
+
+
+bl10 = []
+for nazwa, fam, ps in [("odcisk ", cphase_U, [0.5, 1.0, np.pi, 4.0]),
+                       ("wymiana", wymiana, [0.2, 0.5, np.pi / 4, 1.0, np.pi / 2])]:
+    for pp in ps:
+        n = nieprzezroczystosc(fam(pp))
+        bl10.append((nazwa.strip(), n))
+        print(f"  {nazwa} {pp:6.3f}:  max ½‖Λ_Ø(ρ) − ρ‖₁ = {n:.9f}   "
+              f"{'Ø PRZEZROCZYSTE' if n < 1e-12 else 'Ø DZIAŁA'}")
+ok10 = all(n < 1e-12 for k, n in bl10 if k == "odcisk") and \
+       all(n > 1e-3 for k, n in bl10 if k == "wymiana")
+print(f"  WERDYKT Z10: {'PRZESZŁO' if ok10 else 'UPADŁO'}")
+print("  -> kryterium jest własnością KANAŁU, nie jednej preparacji: O porównuje")
+print("     to, co wysłało, z tym, co wraca przy Ø. Bez bazy, bez wyróżnionego kierunku.")
+
 print()
 print("=" * 74)
 print("PODSUMOWANIE")
 for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4),
                   ("Z5", ok5), ("Z6", ok6),
-                  ("Z7", ok7), ("Z8", ok8)]:
+                  ("Z7", ok7), ("Z8", ok8),
+                  ("Z9", ok9), ("Z10", ok10)]:
     print(f"  {nazwa}: {'PRZESZŁO' if ok else 'UPADŁO'}")
 print("=" * 74)
