@@ -19,6 +19,14 @@ cd "$CLAUDE_PROJECT_DIR" || exit 0
 
 cat STOP.md
 echo
+# Kontrola spojnosci mapy (30.09): dwa razy pod rzad zdarzylo sie, ze rejestr szedl do przodu,
+# a "Gdzie skonczylismy" w CLAUDE.md zostawalo w tyle i wygladalo na aktualne. To jeden grep, nie regula.
+ost=$(grep -o '^| [0-9]\{1,4\} ' poprawki.md | tail -1 | tr -d '| ')
+if [ -n "$ost" ] && ! grep -q "($ost" CLAUDE.md && ! grep -q "\b$ost\b" CLAUDE.md; then
+  echo "!! UWAGA: rejestr stoi na $ost, a CLAUDE.md nigdzie tego numeru nie wymienia."
+  echo "!! Mapa 'Gdzie skonczylismy' jest za rejestrem — nie wnioskowac z niej o stanie; sprawdzic: tail -3 poprawki.md"
+  echo
+fi
 echo "=============================================================================="
 echo "Rama (443 tys. znaków): fragmentami, przy konkretnym kroku — nie w całości i nie na zapas."
 echo "  filtr podstawowy, gdy krok tego wymaga:  python3 narzedzia/rama.py 2   (czas)   3  (3D)"
