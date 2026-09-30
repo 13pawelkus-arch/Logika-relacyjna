@@ -38,6 +38,19 @@ Z3  KONTROLA NEGATYWNA (pułapka 3).  Dwa wnętrza RÓŻNE strukturalnie — jed
     dają stany O różne (>1e-3).  UPADEK (brak różnicy w drugiej części):
     zdanie nie wyróżnia modułu i nic nie mówi.
 
+Z5  STOPNIE, NIE SAM KRES (poprawka użytkownika do pierwszej wersji wpisu).
+    D = ½|c − 1| dokładnie, do 1e-15, dla p ∈ [0,1] i dla iloczynów dwóch
+    nośników; dla jednego nośnika D = p·|sin(φ/2)| — liniowo w obsadzeniu.
+    |sin(Δφ/2)| to przypadek p = 1, czyli kres.  Sprawdzana jest przy okazji
+    postać zaproponowana przez użytkownika, √(1 − |⟨ψ_c|ψ_1⟩|²) ze stanami
+    czystymi: ma zawyżać wszędzie poza |c| = 1, bo przy |c| < 1 stan O jest
+    mieszany.  UPADEK: D nie jest ½|c − 1|, czyli stopniowanie ma inny kształt.
+
+Z6  ZERO IZOLOWANE, NIE TOŻSAMOŚCIOWE.  W punkcie c = 1 przy p = 1 (φ = 2πk)
+    zmiana fazy o ε przywraca D liniowo (D/ε → p/2), więc to NIE jest
+    milczenie 174 (tam kanał nie zależy od zawartości i D znika tożsamościowo),
+    tylko ≡ Ø dla tego O.  UPADEK: D nie wraca — wtedy to byłoby milczenie.
+
 Z4  DWIE MIARY DAJĄ DWIE RÓŻNE ODPOWIEDZI.  Dla n nośników przechodzących z M
     do O: D nasyca się do 1 i nigdy jej nie przekracza, a entropia względna
     S(ρ_c‖ρ_Ø) rośnie liniowo w n, bez kresu.  UPADEK: obie rosną albo obie
@@ -285,9 +298,59 @@ print(f"  S dokładnie liniowe w n: nachylenie {lin[0]:.6f} bit/nośnik,"
 print(f"  WERDYKT Z4: {'PRZESZŁO' if ok4 else 'UPADŁO'}")
 print("  -> D jest liczbą (kres 1), entropia względna jest miarą (rośnie z n).")
 
+# ================== Z5 — stopnie: D = ½|c − 1| na całym dysku ==============
+print()
+print("=" * 74)
+print("Z5  stopnie, nie sam kres:  D = ½|c − 1|,  jeden nośnik: D = p·|sin(φ/2)|")
+print("=" * 74)
+print("    p      φ       D (zmierzone)   ½|c−1|       p·|sin(φ/2)|  wzór ze stanów czystych")
+bl5 = []
+for pp, ff in [(1.0, 0.7), (1.0, np.pi), (0.5, 0.7), (0.25, 2.0),
+               (0.8, 4.0), (0.1, 1.0), (0.0, 1.3)]:
+    c = czynnik(pp, ff)
+    D = stopien_z_czynnikow(c, 1.0 + 0j, prob=20000)
+    wz, gr = 0.5 * abs(c - 1), pp * abs(np.sin(ff / 2))
+    ov = abs((1 + np.conj(c)) / (np.sqrt(2) * np.sqrt(1 + abs(c) ** 2)))
+    czyste = np.sqrt(max(0.0, 1 - ov ** 2))
+    bl5 += [abs(D - wz), abs(D - gr)]
+    print(f"  {pp:5.2f}  {ff:6.3f}    {D:.9f}    {wz:.9f}  {gr:.9f}   {czyste:.9f}")
+print("  iloczyny dwóch nośników:")
+for a, b, cc, dd in [(0.35, 1.1, 0.8, 0.45), (1.0, 2.0, 1.0, 1.5), (0.6, 0.9, 0.3, 2.2)]:
+    c = czynnik(a, b) * czynnik(cc, dd)
+    D = stopien_z_czynnikow(c, 1.0 + 0j, prob=20000)
+    bl5.append(abs(D - 0.5 * abs(c - 1)))
+    print(f"    D = {D:.9f}   ½|c−1| = {0.5*abs(c-1):.9f}   różnica {abs(D-0.5*abs(c-1)):.2e}")
+ok5 = max(bl5) < 1e-8
+print(f"  WERDYKT Z5: {'PRZESZŁO' if ok5 else 'UPADŁO'}  (maks błąd {max(bl5):.2e})")
+print("  -> stopniowanie siedzi w obsadzeniu p; wzór ze stanów czystych zawyża,")
+print("     bo przy |c| < 1 stan O jest mieszany (przy c = 0 to ½·1, nie |0>).")
+
+# ============== Z6 — zero izolowane, nie tożsamościowe =====================
+print()
+print("=" * 74)
+print("Z6  zero przy Δφ = 2πk jest IZOLOWANE — to ≡ Ø dla tego O, nie milczenie")
+print("=" * 74)
+pp = 1.0
+print("      ε        D(2π + ε)      D/ε        (oczekiwane p/2 = 0,5)")
+il = []
+for eps in [1e-1, 1e-2, 1e-3, 1e-4]:
+    c = czynnik(pp, 2 * np.pi + eps)
+    D = 0.5 * abs(c - 1)                      # wzór potwierdzony w Z5
+    il.append(D / eps)
+    print(f"   {eps:7.0e}    {D:.12f}   {D/eps:.9f}")
+# milczenie 174 dla porównania: kanał nie zależy od zawartości
+c_milcz_p0, c_milcz_p1 = czynnik(0.0, 1.3), czynnik(0.0, 1.3 + 0.1)
+print(f"  milczenie 174 (kanał niezależny od zawartości): D = "
+      f"{0.5*abs(c_milcz_p0-1):.1e} i po zaburzeniu fazy {0.5*abs(c_milcz_p1-1):.1e}")
+ok6 = abs(il[-1] - pp / 2) < 1e-3 and 0.5 * abs(c_milcz_p1 - 1) < 1e-15
+print(f"  WERDYKT Z6: {'PRZESZŁO' if ok6 else 'UPADŁO'}  (D/ε → {il[-1]:.6f})")
+print("  -> D wraca liniowo, więc zero jest izolowane: wzbudzony moduł jest")
+print("     NIEROZRÓŻNIALNY od Ø dla tego O, a nie milczący (pułapka 9).")
+
 print()
 print("=" * 74)
 print("PODSUMOWANIE")
-for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4)]:
+for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4),
+                  ("Z5", ok5), ("Z6", ok6)]:
     print(f"  {nazwa}: {'PRZESZŁO' if ok else 'UPADŁO'}")
 print("=" * 74)
