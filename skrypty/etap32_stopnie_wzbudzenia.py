@@ -592,6 +592,48 @@ print(f"  WERDYKT Z12: {'PRZESZŁO' if ok12 else 'UPADŁO'}")
 print("  UWAGA: kontrola liczbowa NIE jest tu dowodem — równość kanałów to zbiór miary")
 print("  zero, którego losowanie nie znajdzie nigdy (błąd z 200, poprawiony w 201).")
 
+# ===== Z13 — CNOT: jeden parametr <X>_τ, trzy zachowania (poprawka 202) ====
+print()
+print("=" * 74)
+print("Z13  CNOT zależy od wnętrza tylko przez <X>_τ; |−> NIE jest przezroczysty")
+print("=" * 74)
+
+
+def st(v):
+    v = np.asarray(v, dtype=complex)
+    v = v / np.linalg.norm(v)
+    return np.outer(v, v.conj())
+
+
+RM = st(KET0 - KET1)
+print("   stan wnętrza        <X>_τ      c        Λ              |r| na wejściu |+>")
+bl13 = []
+for nz, W in [("|+>", PLUS), ("|->", RM), ("Ø = |0>", R0), ("|1>", R1),
+              ("|+i>", PLUSI), ("0,7|+> + 0,3|->", 0.7 * PLUS + 0.3 * RM)]:
+    x = float(np.real(np.trace(W @ SX)))
+    out = kan1(CNOT, W, PLUS)
+    c = complex(2 * out[0, 1])
+    r = np.array([float(np.real(np.trace(out @ S))) for S in (SX, SY, SZ)])
+    nazwa = ("id" if abs(c - 1) < 1e-12 else "Z" if abs(c + 1) < 1e-12
+             else "defazowanie" if abs(c) < 1e-12 else "częściowe")
+    bl13.append(abs(c - x))
+    print(f"  {nz:18s} {x:+.4f}   {c.real:+.4f}   {nazwa:13s}  |r| = {np.linalg.norm(r):.6f}")
+print("  [T] Tr[X^a τ X^{a'}] = Tr[τ X^{a+a'}] = 1 gdy a = a', <X>_τ gdy a ≠ a',")
+print("      więc Λ_τ(σ) = diag(σ) + <X>_τ · offdiag(σ): JEDEN parametr rzeczywisty.")
+# czy CNOT rusza oś z (wymiana z 199)?
+najz = 0.0
+for W in (R0, R1, PLUS, RM, PLUSI):
+    for wej in (PLUS, R0, st(KET0 + 0.5 * KET1), st(KET0 + 0.3j * KET1)):
+        zo = float(np.real(np.trace(kan1(CNOT, W, wej) @ SZ)))
+        zi = float(np.real(np.trace(wej @ SZ)))
+        najz = max(najz, abs(zo - zi))
+print(f"  oś z (wymiana z 199): największa zmiana na 20 parach = {najz:.1e} — CNOT jej NIE rusza")
+ok13 = max(bl13) < 1e-12 and najz < 1e-12
+print(f"  WERDYKT Z13: {'PRZESZŁO' if ok13 else 'UPADŁO'}")
+print("  -> trzy zachowania jednej bramki: c = +1 przezroczystość, c = −1 czysty odcisk")
+print("     (unitarny, bez rozmycia), c = 0 czysty zapis (rozmycie, bez fazy).")
+print("     Wszystkie w dysku równikowym, więc to podział WEWNĄTRZ odcisku z 199.")
+
 print()
 print("=" * 74)
 print("PODSUMOWANIE")
@@ -599,6 +641,7 @@ for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4),
                   ("Z5", ok5), ("Z6", ok6),
                   ("Z7", ok7), ("Z8", ok8),
                   ("Z9", ok9), ("Z10", ok10),
-                  ("Z11", ok11), ("Z12", ok12)]:
+                  ("Z11", ok11), ("Z12", ok12),
+                  ("Z13", ok13)]:
     print(f"  {nazwa}: {'PRZESZŁO' if ok else 'UPADŁO'}")
 print("=" * 74)
