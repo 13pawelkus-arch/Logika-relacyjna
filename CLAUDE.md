@@ -103,7 +103,9 @@ Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania tr
 3. **Zespół funkcji logarytmicznych (α, kwarki, elektrony) → masa**: boczna droga podjęta, bo na tym etapie dało się do niej wrócić; potem powrót do 3D.
 4. **Hipoteza nadrzędna (25.09, §F1): układ samopodobny aż do całości; masa nie jest ostatnim krokiem — „żaden krok tam nie zaprowadzi, to musi być ustalone wszystko na raz”.** Logarytmy = ślad samopodobieństwa (du/u); masa = miejsce łamania samopodobieństwa. **Cel = zespół funkcji [94], nie jedna relacja** (poprawka 151: „jedna relacja między końcami” to był błąd asystenta z [105]); liczby = wartości funkcji w jednym stanie [88].
 
-## Gdzie skończyliśmy (29.09.2026, po sesji CC 6; dokument v3.5, rejestr do 194 — `poprawki.md`)
+## Gdzie skończyliśmy (po sesji CC 6; dokument v3.5)
+
+**Numeru ostatniej poprawki nie ma tu celowo — zestarzeje się przy pierwszym wpisie i będzie wyglądał na aktualny (tak stało się z „rejestr do 194” po poprawce 195). Stan rejestru: `tail -3 poprawki.md`.**
 
 **Co ta sesja zmieniła w jednym zdaniu:** oś 1–2 (czas, c, 3D) bez zmian, tylko umocniona — R1a dostało pełną definicję użytkownika (189) zamiast skróconej esencji, a 185 usunęło odczytanie „3D = liczba 3”. **Ruch był na osi 3–4 (zespół → masa):** masa nie jest cechą ani jedną liczbą, jest **odczytywalna wyłącznie jako stosunek dwóch odczytów różniących się głębokością** i **wymaga modułu z relacjami wewnątrz** (180, 181). Pytanie o przelicznik odpadło jako źle postawione. Gałąź logarytmu przez rozsiew zamknięta na stałe (186).
 
