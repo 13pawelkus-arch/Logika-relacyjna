@@ -520,12 +520,85 @@ print(f"  WERDYKT Z10: {'PRZESZŁO' if ok10 else 'UPADŁO'}")
 print("  -> kryterium jest własnością KANAŁU, nie jednej preparacji: O porównuje")
 print("     to, co wysłało, z tym, co wraca przy Ø. Bez bazy, bez wyróżnionego kierunku.")
 
+# ===== Z11 — kontrprzykład CNOT i twierdzenie o stałości (poprawka 201) ====
+def choi_kan(U, W):
+    v = np.array([1, 0, 0, 1], dtype=complex) / np.sqrt(2)
+    Phi = np.outer(v, v.conj())
+    Uf = np.kron(np.eye(2, dtype=complex), U)
+    r = Uf @ np.kron(Phi, W) @ Uf.conj().T
+    return r.reshape(2, 2, 2, 2, 2, 2).trace(axis1=2, axis2=5).reshape(4, 4)
+
+
+CH_ID = choi_kan(np.eye(4, dtype=complex), R0)
+
+
+def nrm(A):
+    return float(np.abs(np.linalg.eigvalsh(A)).sum())
+
+
+def splatanie(U):
+    M = U.reshape(2, 2, 2, 2).transpose(0, 2, 1, 3).reshape(4, 4)
+    sv = np.linalg.svd(M, compute_uv=False)
+    return float(sv[1] / sv[0])
+
+
+print()
+print("=" * 74)
+print("Z11  CNOT: milczenie na parze {Ø, wzbudzenie} bez przezroczystości")
+print("=" * 74)
+CNOT = np.zeros((4, 4), dtype=complex)      # A = kontrola (przelotowy), W = cel (wnętrze)
+CNOT[0, 0] = CNOT[1, 1] = 1
+CNOT[2, 3] = CNOT[3, 2] = 1
+PLUS = np.outer((KET0 + KET1) / np.sqrt(2), ((KET0 + KET1) / np.sqrt(2)).conj())
+PLUSI = np.outer((KET0 + 1j * KET1) / np.sqrt(2), ((KET0 + 1j * KET1) / np.sqrt(2)).conj())
+c0 = choi_kan(CNOT, R0)
+print(f"  splątanie bramki: {splatanie(CNOT):.3f}  (0 = iloczyn, więc wnętrze uczestniczy)")
+for nz, W in [("Ø = |0>", R0), ("wzbudzenie = |1>", R1), ("|+>", PLUS), ("|+i>", PLUSI)]:
+    c = choi_kan(CNOT, W)
+    print(f"  wnętrze {nz:18s}: ‖Λ − Λ_Ø‖ = {nrm(c - c0):.2e}   ‖Λ − id‖ = {nrm(c - CH_ID):.6f}")
+ok11 = (nrm(choi_kan(CNOT, R1) - c0) < 1e-12 and nrm(c0 - CH_ID) > 0.5
+        and nrm(choi_kan(CNOT, PLUS) - c0) > 0.5 and splatanie(CNOT) > 0.5)
+print(f"  WERDYKT Z11: {'PRZESZŁO' if ok11 else 'UPADŁO'}")
+print("  -> odczyt (i) z 175 ({Ø, wzbudzenie}): stały i NIEprzezroczysty — domysł z 200 upada;")
+print("     odczyt (ii) (wszystkie stany wnętrza): Λ_|+> = id ≠ Λ_Ø — CNOT nie jest kontrprzykładem.")
+
+print()
+print("=" * 74)
+print("Z12  twierdzenie: stałość po WSZYSTKICH stanach wnętrza ⇒ iloczyn")
+print("=" * 74)
+print("  Dowód na kartce (kubit–kubit): U = Σ_ij K_ij ⊗ |i><j|, A_i = K_i0, B_i = K_i1;")
+print("  dla wnętrza (|0> + e^{iγ}|1>)/√2:  Λ_γ = ½(Λ_A + Λ_B) + ½(e^{−iγ}X + e^{iγ}X†),")
+print("  X(ρ) = Σ_i A_i ρ B_i†.  Stałość przy γ = 0 i γ = π/2 daje X = X† oraz X = −X†,")
+print("  czyli X ≡ 0, czyli Σ_i A_i ⊗ conj(B_i) = 0.  Suma dwóch tensorów prostych znika")
+print("  tylko gdy A_1 ∝ A_0 i B_1 ∝ B_0 — wtedy Λ_A, Λ_B mają po jednym krausie (unitarne),")
+print("  a Λ_A = Λ_B wymusza V ∝ W, więc U = V ⊗ (obrót na W): iloczyn.  □")
+TAU4 = [R0, R1, PLUS, PLUSI]
+naj12 = 9.0
+for _ in range(3000):
+    G = RNG.normal(size=(4, 4)) + 1j * RNG.normal(size=(4, 4))
+    U, _ = np.linalg.qr(G)
+    if splatanie(U) < 0.05:
+        continue
+    naj12 = min(naj12, max(nrm(choi_kan(U, t) - choi_kan(U, R0)) for t in TAU4[1:]))
+G = RNG.normal(size=(2, 2)) + 1j * RNG.normal(size=(2, 2))
+V, _ = np.linalg.qr(G)
+Up = np.kron(V, np.eye(2, dtype=complex))
+ns_p = max(nrm(choi_kan(Up, t) - choi_kan(Up, R0)) for t in TAU4[1:])
+print(f"  kontrola: 3000 bramek splątujących — min niestałość {naj12:.4f} (twierdzenie: nigdy 0)")
+print(f"  kontrola dodatnia: iloczyn V_A ⊗ 1_W — niestałość {ns_p:.1e}, "
+      f"‖Λ_Ø − id‖ = {nrm(choi_kan(Up, R0) - CH_ID):.4f}, splątanie {splatanie(Up):.1e}")
+ok12 = naj12 > 0.05 and ns_p < 1e-12
+print(f"  WERDYKT Z12: {'PRZESZŁO' if ok12 else 'UPADŁO'}")
+print("  UWAGA: kontrola liczbowa NIE jest tu dowodem — równość kanałów to zbiór miary")
+print("  zero, którego losowanie nie znajdzie nigdy (błąd z 200, poprawiony w 201).")
+
 print()
 print("=" * 74)
 print("PODSUMOWANIE")
 for nazwa, ok in [("Z1", ok1), ("Z2", ok2), ("Z3", ok3), ("Z4", ok4),
                   ("Z5", ok5), ("Z6", ok6),
                   ("Z7", ok7), ("Z8", ok8),
-                  ("Z9", ok9), ("Z10", ok10)]:
+                  ("Z9", ok9), ("Z10", ok10),
+                  ("Z11", ok11), ("Z12", ok12)]:
     print(f"  {nazwa}: {'PRZESZŁO' if ok else 'UPADŁO'}")
 print("=" * 74)
