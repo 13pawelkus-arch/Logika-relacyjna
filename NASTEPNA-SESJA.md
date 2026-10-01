@@ -5,7 +5,7 @@ nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, 
 
 ---
 
-**Bierzemy krok 3: waga zatrzymania a·b — ale pełny ruch, nie połowa. Sesja CC 9 przeformułowała to pytanie (206) i to jest jedyny powód, dla którego warto je ruszać.**
+**Bierzemy krok 3: waga zatrzymania a·b — ale pełny ruch, nie połowa. Sesja CC 9 przeformułowała to pytanie (204) i to jest jedyny powód, dla którego warto je ruszać.**
 
 Najpierw `git pull`.
 
@@ -47,10 +47,10 @@ jest zapisem tego, czego się o tej parze nie wie.*
 Odczyt pary (M, O) przez jeden nośnik to **dokładnie trzy parametry rzeczywiste**, D = ½|Δr|, czwartego kanału
 nie ma (199). Rozkładają się na **przezroczystość** (c = 1), **odcisk** (|c| = 1, c ≠ 1), **zapis** (|c| < 1, V = |c|)
 i **wymianę** (oś z). 202: to są własności **pary (sprzężenie, stan wnętrza)**, nie samego sprzężenia — jedna bramka
-(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ. 205 [T]: na dysku równikowym **|r| = |c|**, więc
+(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ. 203 [T]: na dysku równikowym **|r| = |c|**, więc
 **4 det ρ = 1 − |c|²** — widzialność, promień Blocha i położenie wobec stożka to **jedna liczba**.
 
-**I to, co 206 dodało:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
+**I to, co 204 dodało:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
 Nie trzeba tego za każdym razem udowadniać na nowo — twierdzenie jest wyczerpujące. Trzeba tylko nie zostawić
 ich w odpowiedzi.
 
@@ -59,9 +59,9 @@ ich w odpowiedzi.
 ## Co niepewne, i czego nie sprawdziłem
 
 **Dwa formalizmy, nie jeden.** a·b żyje w obrazie **wag** (hop-stop: b = −m²V₀, waga zatrzymania w elemencie),
-a 198–205 są w obrazie **stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało wprost: „**b jest wagą,
+a 198–203 są w obrazie **stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało wprost: „**b jest wagą,
 nie fazą — zgodność postaci, nie tożsamość**”. Czy „co a·b wynosi dla pary” jest w ogóle pytaniem o to samo,
-co 198–205 — **nierozstrzygnięte**, i to jest pierwsza rzecz na kartce.
+co 198–203 — **nierozstrzygnięte**, i to jest pierwsza rzecz na kartce.
 
 **Precedens, który może to zamknąć bez rachunku — ale nie zakładaj tego.** Poprawka 168, dosłownie:
 *„porządek nie daje mu odpowiednika ani liczby”* — werdykt dla λ, o którą pytano tak samo. **Przeczytaj blok 168
