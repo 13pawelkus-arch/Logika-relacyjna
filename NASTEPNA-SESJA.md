@@ -3,99 +3,91 @@
 **Do wklejenia przez użytkownika jako pierwsza wiadomość.** Plik jest nadpisywany na końcu każdej sesji —
 nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, nie framework.
 
-Powód (30.09): start sesji daje ~82 tys. znaków zakazów, mapy i wyprowadzenia czasu/3D, a bieżąca robota
-(A11d) nie jest w tym wcale. Ta wiadomość wypełnia tę dziurę. Nie zastępuje plików.
-
 ---
 
-**Krok 1 jest zamknięty (poprawki 198–202). Bierzemy krok 3: waga zatrzymania na skok a·b dla konkretnych par (M, O).**
+**Bierzemy krok 3: waga zatrzymania a·b — ale pełny ruch, nie połowa. Sesja CC 9 przeformułowała to pytanie (206) i to jest jedyny powód, dla którego warto je ruszać.**
 
 Najpierw `git pull`.
 
-**Przeczytaj `### A11d` w całości** — teraz 99,5 tys. znaków (~25 tys. tokenów), bo doszły bloki 198–202.
-Nie grepem. Bloki 180, 181, 186 i 202 muszą być przeczytane **razem**: 186 kwalifikuje ℓ jako pojemnik,
-181 mimo to nazwało nim wynik, 194 to poprawiło, a 202 pokazało, że nazwy „odcisk” i „zapis” też były zlane.
-To jest sekcja, w której powtarza się ten sam błąd nazewniczy, i czytana w całości sama go pokazuje.
-
-**Co dokładnie zostało otwarte — cytat z 181 po korekcie 194, nie odsyłacz:**
-
-> „**Obiektem ramy jest tu wyłącznie a·b — waga zatrzymania na skok, czysta liczba przy strukturze.**
-> Przepisanie a·b = −(m·ℓ)²/… to **słownik rozsiewu**, bo ℓ = ρ^{−1/d} jest wielkością pojemnika […].
-> Wolno go użyć jako narzędzia przekładu na literaturę (185), **nie wolno nim nazywać wyniku**.”
-
-A w „Najbliższych krokach”: „Po odjęciu ℓ pytanie jest strukturalne: **co a·b wynosi dla danej pary (M, O),
-bez jednostek i bez ρ**.”
-
-**Czego NIE trzeba szukać od nowa — to już stoi po sesji CC 8.** Odczyt pary (M, O) przez jeden nośnik to
-**dokładnie trzy parametry rzeczywiste**, D = ½|Δr| (odległość Blocha od Ø), i czwartego kanału nie ma (199).
-Rozkładają się na **przezroczystość** (c = 1), **odcisk** (|c| = 1, c ≠ 1 — faza, wnętrze nic nie zapisało),
-**zapis** (|c| < 1 — wnętrze zapisało, V = |c|) i **wymianę** (oś z — wnętrze daje albo bierze tyknięcie);
-202 pokazało, że to są własności **pary (sprzężenie, stan wnętrza)**, nie samego sprzężenia — jedna bramka
-(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ.
-
-**Pierwsza rzecz do rozstrzygnięcia, zanim cokolwiek policzysz — dwa formalizmy, nie jeden.** a·b żyje
-w obrazie **wag** (hop-stop Johnstona: b = −m²V₀ jako waga zatrzymania w elemencie), a 198–202 są w obrazie
-**stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało to wprost: „**b jest wagą, nie fazą —
-zgodność postaci, nie tożsamość**”. Więc pytanie „co a·b wynosi dla pary” może w ogóle nie być pytaniem
-o to samo, co 198–202. To jest do rozstrzygnięcia **pierwsze**, na kartce, i rozstrzygnięcie jest wynikiem
-niezależnie od tego, jak wypadnie.
-
-**Zdanie do upadku — trzy rozstrzygnięcia, każde jest wynikiem:**
-
-- a·b wychodzi **jako liczba wyznaczona przez parę** (M, O), bez jednostek i bez ρ → **wynik o parze**;
-- a·b zależy od czegoś, co **nie jest własnością pary** → wg [290] dosłownie: *„Liczba jest dopuszczalna
-  tylko wtedy, gdy nie rośnie z gęstością. Jeśli rośnie, jest gęstością, a nie liczbą, i wymaga miary.”*
-  → **miara, nie sztuki**; odpada jako liczba;
-- a·b okazuje się **parametrem wkładanym, a nie odczytywanym** — w hop-stop b jest **wejściem** propagatora,
-  nie czymś, co struktura wyznacza → pytanie po oczyszczeniu **znika**, a wg `STOP.md` „pytanie, które po
-  oczyszczeniu znika, jest wynikiem, nie porażką”.
-
-**Co niepewne, i nie zostało sprawdzone.** Trzecie rozstrzygnięcie jest moim podejrzeniem, nie ustaleniem:
-b = −m²V₀ wygląda na wielkość wstawianą do propagatora z zewnątrz, a nie wyprowadzaną ze struktury.
-Jeśli tak, to cały krok 3 jest pytaniem źle postawionym — ale **tego nie sprawdziłem**, i nie wolno tego
-przyjąć bez rachunku, bo dokładnie tak brzmiałoby wygodne wyjście.
-
-**Dwie rzeczy, których czytanie sekcji nie łapie (obie sprawdzone w tej sesji, obie zadziałały):**
-
-1. Pytanie ze `STOP.md`: **co rama po tym wpisie pozwala albo czego zabrania, czego nie pozwalała przedtem?**
-   Brak odpowiedzi = nie ma wpisu.
-2. Ścieżka, nie sam wniosek: `python3 narzedzia/wypowiedzi.py 'waga zatrzymania|hop-stop|przelicznik' --wymiana --po 3`.
-   W tej sesji ścieżka rozstrzygnęła spór, którego plik główny nie rozstrzygał — czy „przechodzi na zewnątrz”
-   z 174 znaczy przeniesienie, czy zależność (202/201: zależność, bo słowo „Definicja.” obejmuje dwa
-   pierwsze zdania, a trzecie zaczyna się od „Czyli”).
-
-**Trzecia rzecz, którą warto mieć z tyłu głowy — metodyka, nie treść (błąd z 201).** Jeżeli warunek, który
-sprawdzasz, jest **równością** (kanałów, wag, odczytów), to wycina **zbiór miary zero** i **losowanie go nie
-znajdzie nigdy**. Warunek rozstrzyga się na równaniach, nie na próbkach. W tej sesji podałem 40 000 losowań
-jako poszlakę pustości i była to wartość zerowa — użytkownik: „to nie jest przeszukanie, to próbkowanie
-dopełnienia. Instrument nie widzi tego, czego szukasz.”
-
-**Jeśli wolisz inny krok:** otwarte zostają jeszcze 2 (granice Ø wewnątrz zakresu, 183 — wymaga przeczytania
-`## R1a` 15 tys. i `## §F1` 71 tys., i grozi mu potwierdzanie) oraz 4 (rura na porządku ilościowo, 171 —
-też w A11d). Krok 3 jest wybrany dlatego, że stoi w **tej samej sekcji**, którą sesja CC 8 przerobiła,
-i 199 zapisało wprost, że stoi **za** krokiem 1 — a krok 1 jest już zamknięty.
+**Przeczytaj w całości dwie rzeczy, w tej kolejności:**
+1. **`R1b-A`** — nowy blok za R1b, **4 tys. znaków**. Twierdzenie o tle. Krótkie, i bez niego krok 3 nie ma sensu.
+2. **`### A11d`** — **97 tys. znaków** (~25 tys. tokenów). Nie grepem. Bloki 180, 181, 186 stoją obok siebie i wykluczają się czytane osobno.
 
 ---
 
-**Dopisane po zamknięciu CC 8 (z drugiej sesji, tej, która sprawdzała wpisy 198–202).**
+## Czego NIE robić — bo sesja CC 9 zrobiła to i użytkownik to obalił
 
-Trzecie rozstrzygnięcie („a·b jest parametrem wkładanym, nie odczytywanym”) jest w tym pliku oznaczone jako
-podejrzenie. **Ma precedens w pliku głównym i sprawdza się go czytaniem, nie rachunkiem.** Poprawka 168,
-dosłownie: *„porządek nie daje mu odpowiednika ani liczby”* — to był werdykt dla λ, czyli dla stałej sprzężenia,
-o którą pytano tak samo: co wynosi na porządku.
+**Nie pytaj „ile wynosi a·b”.** To jest pytanie Johnstona. U niego `b = −m²V₀` jest **wejściem z konstrukcji**:
+zadajesz pole o danej masie wsypane w rozmaitość, m wkładasz, a V₀ to objętość areny. Nikt tam nie jest tym
+zdziwiony i nikt tego nie pytał — bo nie ma tam pary (M, O). **Nie ma miliona nieudanych prób. Nie ma ani jednej.**
 
-**Zrób to przed jakimkolwiek przebiegiem:** przeczytaj blok 168 w `### A11d` i rozstrzygnij jedno pytanie —
-**czy a·b jest tym samym rodzajem obiektu co λ.** Jeśli tak, trzecie rozstrzygnięcie nie jest podejrzeniem,
-tylko zastosowaniem wyniku, który już stoi, a krok 3 znika przed policzeniem — i to jest wynik, nie porażka
-(`STOP.md`: „Pytanie, które po oczyszczeniu znika, jest wynikiem”).
+**I nie zatrzymuj się na „b jest wkładane, więc pytanie znika”.** To jest połowa ruchu i brzmi dokładnie jak
+„eter jest założeniem, więc pytanie znika”. Nie znika. Ruch ma **trzy części**:
 
-**Powód, dla którego to NIE jest automatyczne, i dlatego trzeba przeczytać, a nie założyć:** λ żyje w teorii
-pola w kontinuum, a a·b jest wagą **na samym porządku** (hop-stop). To może być różnica istotna albo pozorna —
-rozstrzyga blok 168, nie analogia.
+> **wkładane → nie robi roboty → a propagator i tak wychodzi.**
 
-**A gdyby a·b okazało się wkładane, zostaje pytanie węższe i nietknięte:** nie „ile wynosi”, tylko **czy
-struktura pary (M, O) ogranicza, jakie a·b są w ogóle dopuszczalne**. To jest inne pytanie i może być puste —
-ale wtedy pustka też jest odpowiedzią. Nie mieszać go z pierwszym.
+Dopiero trzecia coś rozstrzyga. Pierwsze dwie same w sobie są obserwacją o cudzym zapisie.
+
+---
+
+## Zdanie do upadku, i co znaczy każde wyjście
+
+**Zdanie:** *to, co w hop-stop wkłada się jako a·b, jest wyznaczone przez samą parę (M, O) — a wkładanie go
+jest zapisem tego, czego się o tej parze nie wie.*
+
+- **Wychodzi, że jest wyznaczone** → trzecia część ruchu wykonana, wkładany parametr okazał się bezrobotny.
+- **Wychodzi, że para go nie wyznacza, ale ogranicza, jakie a·b są dopuszczalne** → węższy wynik, też wynik. Nie mieszać z pierwszym.
+- **Wychodzi, że para nie mówi o nim nic** → wtedy **uczciwie: trzecia część nie wyszła**, i to nie jest to samo co „pytanie znika”.
+  Pustka jest odpowiedzią tylko wtedy, gdy się ją pokaże, a nie gdy się na niej poprzestanie przed sprawdzeniem.
+
+---
+
+## Czego nie trzeba szukać od nowa
+
+Odczyt pary (M, O) przez jeden nośnik to **dokładnie trzy parametry rzeczywiste**, D = ½|Δr|, czwartego kanału
+nie ma (199). Rozkładają się na **przezroczystość** (c = 1), **odcisk** (|c| = 1, c ≠ 1), **zapis** (|c| < 1, V = |c|)
+i **wymianę** (oś z). 202: to są własności **pary (sprzężenie, stan wnętrza)**, nie samego sprzężenia — jedna bramka
+(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ. 205 [T]: na dysku równikowym **|r| = |c|**, więc
+**4 det ρ = 1 − |c|²** — widzialność, promień Blocha i położenie wobec stożka to **jedna liczba**.
+
+**I to, co 206 dodało:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
+Nie trzeba tego za każdym razem udowadniać na nowo — twierdzenie jest wyczerpujące. Trzeba tylko nie zostawić
+ich w odpowiedzi.
+
+---
+
+## Co niepewne, i czego nie sprawdziłem
+
+**Dwa formalizmy, nie jeden.** a·b żyje w obrazie **wag** (hop-stop: b = −m²V₀, waga zatrzymania w elemencie),
+a 198–205 są w obrazie **stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało wprost: „**b jest wagą,
+nie fazą — zgodność postaci, nie tożsamość**”. Czy „co a·b wynosi dla pary” jest w ogóle pytaniem o to samo,
+co 198–205 — **nierozstrzygnięte**, i to jest pierwsza rzecz na kartce.
+
+**Precedens, który może to zamknąć bez rachunku — ale nie zakładaj tego.** Poprawka 168, dosłownie:
+*„porządek nie daje mu odpowiednika ani liczby”* — werdykt dla λ, o którą pytano tak samo. **Przeczytaj blok 168
+i rozstrzygnij, czy a·b jest tym samym rodzajem obiektu.** Różnica, która może być istotna albo pozorna:
+λ żyje w teorii pola w kontinuum, a a·b jest wagą **na samym porządku**. Rozstrzyga blok, nie analogia.
+
+**Uwaga metodyczna z 201, która kosztowała jedną poprawkę.** Jeśli warunek, który sprawdzasz, jest **równością**,
+to wycina **zbiór miary zero** i **losowanie nie znajdzie go nigdy**. Warunek rozstrzyga się na równaniach,
+nie na próbkach. Użytkownik wtedy: „to nie jest przeszukanie, to próbkowanie dopełnienia. Instrument nie widzi tego,
+czego szukasz.”
+
+---
+
+## Jedna rzecz o sposobie pracy, bo kosztowała całą sesję CC 9
+
+Użytkownik, dosłownie: **„my głównie usuwamy i sprawdzamy. definicja czasu usuwa a nie dodaje”** oraz
+**„Oprócz czasu i 3d nie ma tam nic co by ci dało inny rezultat”**.
+
+To **nie jest kryterium do przykładania do gotowej roboty.** CC 9 trzy razy z rzędu zamieniła zdanie o rzeczy
+na procedurę dla siebie — zrobiła z tego test, punktowała nim otwarte kroki („ten dotyka czasu i 3D, tamten nie”),
+i za każdym razem dostała po głowie. Nie ma menu, w którym jedne pozycje mają składnik, a inne nie.
+**Kryterium jest sam mechanizm:** wziąć coś, co wszyscy wkładają, pokazać że nie robi roboty, wyrzucić,
+i zobaczyć, że to co zostało i tak wydaje to, co miało bez tego nie powstać.
+
+I jeszcze: **„inny rezultat” nie jest miarą.** GPS działa niezależnie od tego, czym jest czas — równania OTW
+wystarczają i są zastosowane. Nie korzystamy z niczego, czego nie ma w QM, OTW i teorii informacji.
 
 ---
 
