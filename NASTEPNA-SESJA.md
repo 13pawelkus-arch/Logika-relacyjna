@@ -28,6 +28,13 @@ zdziwiony i nikt tego nie pytał — bo nie ma tam pary (M, O). **Nie ma miliona
 
 Dopiero trzecia coś rozstrzyga. Pierwsze dwie same w sobie są obserwacją o cudzym zapisie.
 
+**I najważniejsze, znalezione 2.10: ten ruch jest już w pliku wykonany, na obiekcie o poziom wyżej.**
+Słownik: **G = przelicznik zliczanie↔geometria, w zliczaniu G ≡ 1**. A5: równanie Einsteina **i tak wychodzi**,
+jako bilans liczby relacji przez lokalny brzeg odczytywalności (Jacobson, w pliku „PRZESZŁO jako bilans”).
+Tabela pojęć, jedna linijka: **„energia grawitacyjna tylko przez brzeg”**.
+`b = −m²V₀` z V₀ = objętością jest **tym samym kształtem**: przelicznikiem zliczanie↔geometria o poziom niżej.
+**Przeczytaj te trzy miejsca, zanim cokolwiek policzysz** — to jest gotowy wzorzec, nie analogia.
+
 ---
 
 ## Zdanie do upadku, i co znaczy każde wyjście
@@ -50,7 +57,10 @@ i **wymianę** (oś z). 202: to są własności **pary (sprzężenie, stan wnęt
 (CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ. 203 [T]: na dysku równikowym **|r| = |c|**, więc
 **4 det ρ = 1 − |c|²** — widzialność, promień Blocha i położenie wobec stożka to **jedna liczba**.
 
-**I to, co 204 dodało:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
+**I to, co dodały 204 i 205:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
+205: **baza nośnika to pojemnik przestrzeni stanów** — baza wyznaczona przez sprzężenie opisuje sprzężenie,
+ale nie wolno jej przenosić na zdanie o parze ani o M. Oraz: **|M| jest zliczeniem wnętrza, a czytane jest
+zliczenie brzegu** (twierdzenie *Brzeg pary* w A11d); „od |M| nie zależy” z 198 wycofane.
 Nie trzeba tego za każdym razem udowadniać na nowo — twierdzenie jest wyczerpujące. Trzeba tylko nie zostawić
 ich w odpowiedzi.
 
@@ -79,6 +89,12 @@ czego szukasz.”
 
 Użytkownik, dosłownie: **„my głównie usuwamy i sprawdzamy. definicja czasu usuwa a nie dodaje”** oraz
 **„Oprócz czasu i 3d nie ma tam nic co by ci dało inny rezultat”**.
+
+**I druga, z 2.10, kosztowała trzy wymiany:** na pytanie „jak grawitacja traktuje masę” poszedłem do
+podręcznika OTW. Użytkownik musiał powiedzieć wprost: *„Przeczytaj co na temat grawitacji mówi plik główny”* —
+i tam stało wszystko, z twierdzeniem, w sekcji, w której właśnie pracowałem. **Odruch jest rozpoznany:
+sięgam na zewnątrz dokładnie wtedy, gdy chcę potwierdzić kształt odpowiedzi.** Reguła na to już stoi
+(*z literatury bierzemy formalizm i wynik, nie pytanie*) — ja wziąłem interpretację, czyli o stopień gorzej.
 
 To **nie jest kryterium do przykładania do gotowej roboty.** CC 9 trzy razy z rzędu zamieniła zdanie o rzeczy
 na procedurę dla siebie — zrobiła z tego test, punktowała nim otwarte kroki („ten dotyka czasu i 3D, tamten nie”),
