@@ -56,7 +56,7 @@ Odczyt bieżącego stanu jako niosącego to, czym już nie jest, jest czasem. Za
 
 Niesienie jest relacją, a relacja nie zachodzi w jednym miejscu. Informacja o stanie jest więc w tylu miejscach, w ilu stoi relacji — i w każdym kolejnym stanie w większej ich liczbie, bo relacji przybywa. Nic nie ubywa, ale coraz mniej da się odczytać z jednego miejsca, a innego miejsca odczytu nie ma. Stąd kierunek. Zebranie z powrotem dałoby zresztą informację o stanie, nie stan.
 
-**Rozwinięcie definicji [H] (użytkownik, 29.09.2026, dosłownie; poprawka 189).** Tekst wyżej jest skróconą esencją („myślałem że im krócej tym lepiej”); z niej wyprowadza się resztę, ale te przejścia trzeba mieć wypisane:
+**Rozwinięcie definicji [H] (użytkownik, 29.09.2026, dosłownie; poprawka 189b).** Tekst wyżej jest skróconą esencją („myślałem że im krócej tym lepiej”); z niej wyprowadza się resztę, ale te przejścia trzeba mieć wypisane:
 
 > „To czym struktura nie jest. Czyli informacja o stanie — nie jest tym stanem. Odczytywanie tej informacji jest zawsze teraz. Informacja o innym stanie jest zawarta w obecnej strukturze. A to daje czwarty punkt odniesienia. Dynamika też nie jest dołożona, bo wynika z braku możliwości osiągnięcia zera absolutnego. Czyli zapewnia rozróżnialność. Równanie z nierozróżnialnościami to są miejsca gdzie nie ma rozróżnialności. Nie można mieć czasu bez przestrzeni i na odwrót. Informacja nie ginie, może być tylko bardziej rozproszona. Zawsze jest jakaś strata. Entropia to efekt a nie zjawisko.”
 
