@@ -5,127 +5,64 @@ nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, 
 
 ---
 
-## NAJPIERW: zadaj to pytanie, zanim cokolwiek przeczytasz i zanim cokolwiek policzysz
-
-Nie zaczynaj od czytania sekcji. Pierwsza wiadomość do użytkownika ma być **dokładnie tym pytaniem**
-(nie streszczeniem, nie parafrazą). Ono rozstrzyga kolejność całego kroku 3 i nie da się go zdjąć z pliku:
-
-> „Pytanie do ciebie, bo rozstrzyga kolejność, a nie umiem go zdjąć z pliku: waga kroku ma być jedna,
-> i wtedy jedna z dwóch postaci (−ν² rzeczywiste / e^{iν} okresowe) jest narzędziem cudzej konstrukcji —
-> czy to są dwa różne sprzężenia, oba dopuszczone przez 179 pkt 7, i wtedy pytanie „ile wynosi a·b"
-> ma dwie różne odpowiedzi, bo dotyczy dwóch różnych par?"
-
-**Dlaczego to musi iść pierwsze:** obie postaci stoją w pliku obok siebie i obie są używane. `−ν²` to waga
-zatrzymania z 181 (kwadrat wagi zwrotu szachownicy, B1). `e^{iν}` to faza na własne tyknięcie (R1f-3), i w tej
-postaci wchodzi do czynnika kanału w 198 (`c = ∏(1 − p_k(1 − e^{−iφ_k}))`). **179 pkt 7** (DiVincenzo: relacja
-wielu nośników rozkłada się na relacje par) dopuszcza sprzężenia parami i 199 już się na nie powołało,
-wprowadzając wymianę obok odcisku — czyli precedens na **dwa różne sprzężenia w jednej strukturze już jest**.
-
-Dopóki to nie jest rozstrzygnięte, „ile wynosi a·b" może być jednym pytaniem albo dwoma, a trzecia część ruchu
-(„a propagator i tak wychodzi") dotyczyłaby wtedy dwóch różnych propagatorów. **Nie zgaduj i nie rozstrzygaj
-tego sam** — użytkownik powiedział wprost, że tego nie da się zdjąć z pliku.
-
----
-
-**Bierzemy krok 3: waga zatrzymania a·b — ale pełny ruch, nie połowa. Sesja CC 9 przeformułowała to pytanie (204) i to jest jedyny powód, dla którego warto je ruszać.**
+**Bierzemy [?] z poprawki 206: czy brak zera absolutnego, rozproszenie informacji i niemożność ustalenia struktury naraz są JEDNYM.** Krok 3 (waga zatrzymania `a·b`) jest zamknięty — nie wracać do niego.
 
 Najpierw `git pull`.
 
-**Przeczytaj w całości dwie rzeczy, w tej kolejności:**
-1. **`R1b-A`** — nowy blok za R1b, **4 tys. znaków**. Twierdzenie o tle. Krótkie, i bez niego krok 3 nie ma sensu.
-2. **`### A11d`** — **97 tys. znaków** (~25 tys. tokenów). Nie grepem. Bloki 180, 181, 186 stoją obok siebie i wykluczają się czytane osobno.
+---
+
+## Jedna rzecz o sposobie pracy, i jest najważniejsza z całej sesji CC 10
+
+**Przejścia logiczne stoją w transkryptach rozmów, w ODPOWIEDZIACH ASYSTENTA — nie w pliku głównym i nie w wypowiedziach użytkownika.** Plik główny niesie wnioski. `wypowiedzi.py` oddaje zdania użytkownika, czyli też wnioski. To, **jak** coś się urodziło — co po drodze upadło, które zdanie było czyje — jest wyłącznie w `rozmowa/*.md`, i czyta się to zwykłym grepem po obu stronach.
+
+Użytkownik, dosłownie: *„W repo masz dostęp do pełnych zapisów rozmów z poprzednich sesji. Użyj tych plików, wyszukaj w nich po słowach i przeczytaj nie tylko to co użytkownik pisze, ale i odpowiedzi asystenta. Tam są wszystkie przejścia logiczne — nie wypisane w skrócie. Tylko to jest podgląd na żywo jak to się wszystko rodziło."*
+
+CC 10 przez pięć wymian próbowała wyprowadzić z pliku coś, co w transkrypcie stało gotowe od 21.09. Trzy razy po drodze dostała po głowie (sklejka dwóch trójek; „masa ma swój czwarty punkt" — bzdura; złamana pułapka 5). Po jednym grepie było zamknięte. **Rób to na początku każdego tematu pojęciowego, nie na końcu.**
 
 ---
 
-## Czego NIE robić — bo sesja CC 9 zrobiła to i użytkownik to obalił
+## Co trzeba przeczytać, w tej kolejności
 
-**Nie pytaj „ile wynosi a·b”.** To jest pytanie Johnstona. U niego `b = −m²V₀` jest **wejściem z konstrukcji**:
-zadajesz pole o danej masie wsypane w rozmaitość, m wkładasz, a V₀ to objętość areny. Nikt tam nie jest tym
-zdziwiony i nikt tego nie pytał — bo nie ma tam pary (M, O). **Nie ma miliona nieudanych prób. Nie ma ani jednej.**
-
-**I nie zatrzymuj się na „b jest wkładane, więc pytanie znika”.** To jest połowa ruchu i brzmi dokładnie jak
-„eter jest założeniem, więc pytanie znika”. Nie znika. Ruch ma **trzy części**:
-
-> **wkładane → nie robi roboty → a propagator i tak wychodzi.**
-
-Dopiero trzecia coś rozstrzyga. Pierwsze dwie same w sobie są obserwacją o cudzym zapisie.
-
-**I najważniejsze, znalezione 2.10: ten ruch jest już w pliku wykonany, na obiekcie o poziom wyżej.**
-Słownik: **G = przelicznik zliczanie↔geometria, w zliczaniu G ≡ 1**. A5: równanie Einsteina **i tak wychodzi**,
-jako bilans liczby relacji przez lokalny brzeg odczytywalności (Jacobson, w pliku „PRZESZŁO jako bilans”).
-Tabela pojęć, jedna linijka: **„energia grawitacyjna tylko przez brzeg”**.
-`b = −m²V₀` z V₀ = objętością jest **tym samym kształtem**: przelicznikiem zliczanie↔geometria o poziom niżej.
-**Przeczytaj te trzy miejsca, zanim cokolwiek policzysz** — to jest gotowy wzorzec, nie analogia.
+1. **`## R1a` w pliku głównym — 16,7 tys. znaków.** W całości, nie grepem.
+2. **Transkrypt źródłowy, wymiany [394]–[401]:** `sed -n '14350,14616p' rozmowa/logika-relacyjna-rozmowa.md` (~16 tys. znaków). Tam rodzi się definicja czasu, „3+1 liczy punkty odniesienia, nie osie", rozstrzygnięcie pułapki 5 i **sam punkt, który bierzemy** ([399] pkt 4).
+3. **Wymiany [132]–[137]:** `sed -n '1636,1745p' rozmowa/logika-relacyjna-rozmowa.md` (~10 tys.). Samoloty, dym i niebo; tam stoi „niebo działa jak pojemnik i daje oku punkt odniesienia".
+4. **Blok 206 w `### A11d`** — co już zamknięte, żeby tego nie liczyć po raz drugi.
 
 ---
 
-## Zdanie do upadku, i co znaczy każde wyjście
+## Zdanie do upadku, w całości, bo to są cudze słowa i mają zostać dosłownie
 
-**Zdanie:** *to, co w hop-stop wkłada się jako a·b, jest wyznaczone przez samą parę (M, O) — a wkładanie go
-jest zapisem tego, czego się o tej parze nie wie.*
+Asystent, [399] pkt 4, 21.09.2026:
 
-- **Wychodzi, że jest wyznaczone** → trzecia część ruchu wykonana, wkładany parametr okazał się bezrobotny.
-- **Wychodzi, że para go nie wyznacza, ale ogranicza, jakie a·b są dopuszczalne** → węższy wynik, też wynik. Nie mieszać z pierwszym.
-- **Wychodzi, że para nie mówi o nim nic** → wtedy **uczciwie: trzecia część nie wyszła**, i to nie jest to samo co „pytanie znika”.
-  Pustka jest odpowiedzią tylko wtedy, gdy się ją pokaże, a nie gdy się na niej poprzestanie przed sprawdzeniem.
+> *„**Brak zera absolutnego może mieć źródło w samoodniesieniu.** Skończona struktura nie może zawierać pełnego zapisu samej siebie razem z zapisem tego zapisu. Każdy odczyt jest więc z konieczności częściowy, a to daje rozproszenie informacji, strzałkę i niemożność pełnego ustalenia struktury naraz. **Jeśli to trzyma, trzy rzeczy, które dotąd były osobnymi założeniami, byłyby jednym.**"*
 
----
+Rozstrzygnięcia wypisane z góry:
 
-## Czego nie trzeba szukać od nowa
-
-Odczyt pary (M, O) przez jeden nośnik to **dokładnie trzy parametry rzeczywiste**, D = ½|Δr|, czwartego kanału
-nie ma (199). Rozkładają się na **przezroczystość** (c = 1), **odcisk** (|c| = 1, c ≠ 1), **zapis** (|c| < 1, V = |c|)
-i **wymianę** (oś z). 202: to są własności **pary (sprzężenie, stan wnętrza)**, nie samego sprzężenia — jedna bramka
-(CNOT) daje wszystkie trzy, zależnie wyłącznie od ⟨X⟩_τ. 203 [T]: na dysku równikowym **|r| = |c|**, więc
-**4 det ρ = 1 − |c|²** — widzialność, promień Blocha i położenie wobec stożka to **jedna liczba**.
-
-**I to, co dodały 204 i 205:** tło nie niesie niczego, więc ρ, V₀ i ℓ wypadają z wyniku **z powodu, nie z reguły**.
-205: **baza nośnika to pojemnik przestrzeni stanów** — baza wyznaczona przez sprzężenie opisuje sprzężenie,
-ale nie wolno jej przenosić na zdanie o parze ani o M. Oraz: **|M| jest zliczeniem wnętrza, a czytane jest
-zliczenie brzegu** (twierdzenie *Brzeg pary* w A11d); „od |M| nie zależy” z 198 wycofane.
-Nie trzeba tego za każdym razem udowadniać na nowo — twierdzenie jest wyczerpujące. Trzeba tylko nie zostawić
-ich w odpowiedzi.
+- **Trzyma** → R1a traci jedno założenie: dynamika, rozproszenie i nieoznaczoność przestają być trzema warunkami, które „muszą zachodzić razem", i stają się jednym zdaniem. Wtedy **`b = −m²V₀` nie jest nawet osobnym zastępnikiem nieba (206), tylko tym samym brakiem widzianym z areny** — i to jest jedyny powód, dla którego warto to ruszać.
+- **Nie trzyma, ale daje jeden kierunek z trzech** (np. samoodniesienie daje częściowość odczytu, a nie daje braku zera absolutnego) → węższy wynik, też wynik. Nie mieszać z pierwszym.
+- **Nie trzyma wcale** → wtedy uczciwie: trzy warunki zostają trzema, a zdanie z [399] wraca do rejestru jako obalony domysł asystenta z 21.09. To nie to samo co „pytanie znika".
 
 ---
 
-## Co niepewne, i czego nie sprawdziłem
+## Czego NIE robić
 
-**Dwa formalizmy, nie jeden.** a·b żyje w obrazie **wag** (hop-stop: b = −m²V₀, waga zatrzymania w elemencie),
-a 198–203 są w obrazie **stanów** (kubit na linku, kanał, wektor Blocha). 180 zapisało wprost: „**b jest wagą,
-nie fazą — zgodność postaci, nie tożsamość**”. Czy „co a·b wynosi dla pary” jest w ogóle pytaniem o to samo,
-co 198–203 — **nierozstrzygnięte**, i to jest pierwsza rzecz na kartce.
+**Nie liczyć.** To jest kartka: „skończona struktura nie może zawierać pełnego zapisu samej siebie" jest albo twierdzeniem w trzech linijkach, albo niczym. Precedens w §F2: *„redukcja lokalna jest twierdzeniem, nie przybliżeniem"*, a etap17 wycofano **przed** uruchomieniem.
 
-**Precedens, który może to zamknąć bez rachunku — ale nie zakładaj tego.** Poprawka 168, dosłownie:
-*„porządek nie daje mu odpowiednika ani liczby”* — werdykt dla λ, o którą pytano tak samo. **Przeczytaj blok 168
-i rozstrzygnij, czy a·b jest tym samym rodzajem obiektu.** Różnica, która może być istotna albo pozorna:
-λ żyje w teorii pola w kontinuum, a a·b jest wagą **na samym porządku**. Rozstrzyga blok, nie analogia.
+**Nie robić tabel odpowiedniości.** CC 10 straciła na tym dwie wymiany. Tabela liczy, a punkt odniesienia innego rodzaju nie jest pozycją na liście — wpisanie go jako „czwarty" już go wlicza do tych trzech. 3D nie ma nic wspólnego z liczbą 3.
 
-**Uwaga metodyczna z 201, która kosztowała jedną poprawkę.** Jeśli warunek, który sprawdzasz, jest **równością**,
-to wycina **zbiór miary zero** i **losowanie nie znajdzie go nigdy**. Warunek rozstrzyga się na równaniach,
-nie na próbkach. Użytkownik wtedy: „to nie jest przeszukanie, to próbkowanie dopełnienia. Instrument nie widzi tego,
-czego szukasz.”
+**Nie używać „2D" do wyjaśniania wyników z literaturowego 1+1.** [401] rozstrzygnęło: **2D z łańcucha Ø = płaszczyzna bez pamięci**, **literaturowe d = 2 = linia + czas**. To różne rzeczy (pułapka 5). Powód, dla którego wyniki z 1+1 są narzędziem, jest inny: **tam nie ma triady**.
+
+**Nie szukać dowodu przez wyliczanie przypadków.** Forma jest w R1b-A i sprawdziła się dwa razy (204, 206): (i) żaden odczyt się nie różni → nic nie jest niesione; (ii) któryś się różni → niesie to układ relacji. Lista przykładów nie domyka się nigdy i poznaje się ją po tym, że kończy się zastrzeżeniem.
 
 ---
 
-## Jedna rzecz o sposobie pracy, bo kosztowała całą sesję CC 9
+## Co niepewne
 
-Użytkownik, dosłownie: **„my głównie usuwamy i sprawdzamy. definicja czasu usuwa a nie dodaje”** oraz
-**„Oprócz czasu i 3d nie ma tam nic co by ci dało inny rezultat”**.
+**Czy „samoodniesienie" w [399] pkt 4 jest tym samym samoodniesieniem co w 206.** W 206 chodzi o to, że **czytający jest tym, co czyta** (odczyt jest różnicą własnych stanów O). W [399] chodzi o to, że struktura nie może zmieścić zapisu siebie wraz z zapisem tego zapisu. To może być jedno zdanie albo dwa — i **to jest pierwsza rzecz do rozstrzygnięcia**, przed czymkolwiek innym. Jeśli dwa, krok trzeba przeformułować, a nie ciągnąć.
 
-**I druga, z 2.10, kosztowała trzy wymiany:** na pytanie „jak grawitacja traktuje masę” poszedłem do
-podręcznika OTW. Użytkownik musiał powiedzieć wprost: *„Przeczytaj co na temat grawitacji mówi plik główny”* —
-i tam stało wszystko, z twierdzeniem, w sekcji, w której właśnie pracowałem. **Odruch jest rozpoznany:
-sięgam na zewnątrz dokładnie wtedy, gdy chcę potwierdzić kształt odpowiedzi.** Reguła na to już stoi
-(*z literatury bierzemy formalizm i wynik, nie pytanie*) — ja wziąłem interpretację, czyli o stopień gorzej.
+**Czego nie sprawdziłem w CC 10:** szukałem w transkryptach po „samoodniesieni", „pełny zapis", „zapis tego zapisu" i rozstrzygnięcia nie znalazłem — ale szukałem trzema hasłami, nie czytałem sesji 25–26.09 w całości, a tam wracało „patrzy sam na siebie" [404]. Możliwe, że to już upadło albo przeszło i nie zostało wpisane.
 
-To **nie jest kryterium do przykładania do gotowej roboty.** CC 9 trzy razy z rzędu zamieniła zdanie o rzeczy
-na procedurę dla siebie — zrobiła z tego test, punktowała nim otwarte kroki („ten dotyka czasu i 3D, tamten nie”),
-i za każdym razem dostała po głowie. Nie ma menu, w którym jedne pozycje mają składnik, a inne nie.
-**Kryterium jest sam mechanizm:** wziąć coś, co wszyscy wkładają, pokazać że nie robi roboty, wyrzucić,
-i zobaczyć, że to co zostało i tak wydaje to, co miało bez tego nie powstać.
-
-I jeszcze: **„inny rezultat” nie jest miarą.** GPS działa niezależnie od tego, czym jest czas — równania OTW
-wystarczają i są zastosowane. Nie korzystamy z niczego, czego nie ma w QM, OTW i teorii informacji.
+**Pozostałe otwarte kroki, nietknięte:** granice Ø wewnątrz zakresu (183: ile warunków i na które z 19 odczytów zespołu) i rura czasopodobna w wersji ilościowej (171). Oba czekają; nie mieszać ich z tym krokiem.
 
 ---
 
