@@ -5,28 +5,6 @@ nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, 
 
 ---
 
-## NAJPIERW: zadaj to pytanie, zanim cokolwiek przeczytasz i zanim cokolwiek policzysz
-
-Nie zaczynaj od czytania sekcji. Pierwsza wiadomość do użytkownika ma być **dokładnie tym pytaniem**
-(nie streszczeniem, nie parafrazą). Ono rozstrzyga kolejność całego kroku 3 i nie da się go zdjąć z pliku:
-
-> „Pytanie do ciebie, bo rozstrzyga kolejność, a nie umiem go zdjąć z pliku: waga kroku ma być jedna,
-> i wtedy jedna z dwóch postaci (−ν² rzeczywiste / e^{iν} okresowe) jest narzędziem cudzej konstrukcji —
-> czy to są dwa różne sprzężenia, oba dopuszczone przez 179 pkt 7, i wtedy pytanie „ile wynosi a·b"
-> ma dwie różne odpowiedzi, bo dotyczy dwóch różnych par?"
-
-**Dlaczego to musi iść pierwsze:** obie postaci stoją w pliku obok siebie i obie są używane. `−ν²` to waga
-zatrzymania z 181 (kwadrat wagi zwrotu szachownicy, B1). `e^{iν}` to faza na własne tyknięcie (R1f-3), i w tej
-postaci wchodzi do czynnika kanału w 198 (`c = ∏(1 − p_k(1 − e^{−iφ_k}))`). **179 pkt 7** (DiVincenzo: relacja
-wielu nośników rozkłada się na relacje par) dopuszcza sprzężenia parami i 199 już się na nie powołało,
-wprowadzając wymianę obok odcisku — czyli precedens na **dwa różne sprzężenia w jednej strukturze już jest**.
-
-Dopóki to nie jest rozstrzygnięte, „ile wynosi a·b" może być jednym pytaniem albo dwoma, a trzecia część ruchu
-(„a propagator i tak wychodzi") dotyczyłaby wtedy dwóch różnych propagatorów. **Nie zgaduj i nie rozstrzygaj
-tego sam** — użytkownik powiedział wprost, że tego nie da się zdjąć z pliku.
-
----
-
 **Bierzemy krok 3: waga zatrzymania a·b — ale pełny ruch, nie połowa. Sesja CC 9 przeformułowała to pytanie (204) i to jest jedyny powód, dla którego warto je ruszać.**
 
 Najpierw `git pull`.
