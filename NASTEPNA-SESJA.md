@@ -5,64 +5,73 @@ nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, 
 
 ---
 
-**Bierzemy [?] z poprawki 206: czy brak zera absolutnego, rozproszenie informacji i niemożność ustalenia struktury naraz są JEDNYM.** Krok 3 (waga zatrzymania `a·b`) jest zamknięty — nie wracać do niego.
+**Bierzemy krok 2 w postaci, jaką dała mu 208: ile Ø-miejsc ma każda relacja zespołu i czy każde daje warunek.** Nie „ile warunków dają granice Ø” — to było polowanie na liczby. Kroki 1 i 3 zamknięte (198–202, 206); [?] z [399] pkt 4 zamknięte (207) — **nie wracać do żadnego z nich.**
 
 Najpierw `git pull`.
 
 ---
 
-## Jedna rzecz o sposobie pracy, i jest najważniejsza z całej sesji CC 10
+## Jedna rzecz o sposobie pracy, i jest najważniejsza z dwóch ostatnich sesji
 
-**Przejścia logiczne stoją w transkryptach rozmów, w ODPOWIEDZIACH ASYSTENTA — nie w pliku głównym i nie w wypowiedziach użytkownika.** Plik główny niesie wnioski. `wypowiedzi.py` oddaje zdania użytkownika, czyli też wnioski. To, **jak** coś się urodziło — co po drodze upadło, które zdanie było czyje — jest wyłącznie w `rozmowa/*.md`, i czyta się to zwykłym grepem po obu stronach.
+**Przejścia logiczne stoją w transkryptach rozmów, w ODPOWIEDZIACH ASYSTENTA — nie w pliku głównym i nie w wypowiedziach użytkownika.** Plik niesie wnioski. `wypowiedzi.py` oddaje zdania użytkownika, czyli też wnioski. To, **jak** coś się urodziło — co po drodze upadło, które zdanie było czyje — jest wyłącznie w `rozmowa/*.md`, i czyta się to zwykłym grepem po obu stronach.
 
-Użytkownik, dosłownie: *„W repo masz dostęp do pełnych zapisów rozmów z poprzednich sesji. Użyj tych plików, wyszukaj w nich po słowach i przeczytaj nie tylko to co użytkownik pisze, ale i odpowiedzi asystenta. Tam są wszystkie przejścia logiczne — nie wypisane w skrócie. Tylko to jest podgląd na żywo jak to się wszystko rodziło."*
+Użytkownik, dosłownie: *„Użyj tych plików, wyszukaj w nich po słowach i przeczytaj nie tylko to co użytkownik pisze, ale i odpowiedzi asystenta. Tam są wszystkie przejścia logiczne — nie wypisane w skrócie. Tylko to jest podgląd na żywo jak to się wszystko rodziło."*
 
-CC 10 przez pięć wymian próbowała wyprowadzić z pliku coś, co w transkrypcie stało gotowe od 21.09. Trzy razy po drodze dostała po głowie (sklejka dwóch trójek; „masa ma swój czwarty punkt" — bzdura; złamana pułapka 5). Po jednym grepie było zamknięte. **Rób to na początku każdego tematu pojęciowego, nie na końcu.**
+I druga, powiedziana wprost: **„Trudność każdej sesji to doprowadzić żebyś w końcu widział całość, a nie fragmenty. Bez tego jest dupa blada."** Praktycznie to znaczy: krok, który tylko doszlifowuje policzone twierdzenie albo szuka kolejnej liczby w sektorze, o którym rama wydała werdykt, jest fragmentem — nawet jeśli stoi na liście kroków.
 
 ---
 
 ## Co trzeba przeczytać, w tej kolejności
 
-1. **`## R1a` w pliku głównym — 16,7 tys. znaków.** W całości, nie grepem.
-2. **Transkrypt źródłowy, wymiany [394]–[401]:** `sed -n '14350,14616p' rozmowa/logika-relacyjna-rozmowa.md` (~16 tys. znaków). Tam rodzi się definicja czasu, „3+1 liczy punkty odniesienia, nie osie", rozstrzygnięcie pułapki 5 i **sam punkt, który bierzemy** ([399] pkt 4).
-3. **Wymiany [132]–[137]:** `sed -n '1636,1745p' rozmowa/logika-relacyjna-rozmowa.md` (~10 tys.). Samoloty, dym i niebo; tam stoi „niebo działa jak pojemnik i daje oku punkt odniesienia".
-4. **Blok 206 w `### A11d`** — co już zamknięte, żeby tego nie liczyć po raz drugi.
+1. **`## R1a`** w całości (17 tys. znaków) — tabela granic Ø i blok **207** (trzy warunki = jedna nieidentyczność).
+2. **Blok 208 w `### A11d`** — tabela rodzajów 19 odczytów. Bez niej krok 2 wróci do polowania na liczby.
+3. **`## §F1`** w całości (71 tys., ~18 tys. tokenów) — „STAN ZESPOŁU" (167), poziomy 1–4 (152–153), 154–155, 165, 183.
+4. **Transkrypt źródłowy, wymiany [394]–[401]:** `sed -n '14350,14616p' rozmowa/logika-relacyjna-rozmowa.md`. Tam rodzi się definicja czasu i „3+1 liczy punkty odniesienia, nie osie".
 
 ---
 
-## Zdanie do upadku, w całości, bo to są cudze słowa i mają zostać dosłownie
+## Zdanie do upadku
 
-Asystent, [399] pkt 4, 21.09.2026:
+**Każda relacja zespołu ma dokładnie te Ø-miejsca, które leżą na krańcach jej zakresu, i każde z nich daje jeden warunek; wyjątkiem jest λ, która ma Ø-miejsce wewnątrz zakresu, i to dlatego jest jedyną ustaloną.**
 
-> *„**Brak zera absolutnego może mieć źródło w samoodniesieniu.** Skończona struktura nie może zawierać pełnego zapisu samej siebie razem z zapisem tego zapisu. Każdy odczyt jest więc z konieczności częściowy, a to daje rozproszenie informacji, strzałkę i niemożność pełnego ustalenia struktury naraz. **Jeśli to trzyma, trzy rzeczy, które dotąd były osobnymi założeniami, byłyby jednym.**"*
+Co już stoi i czego nie trzeba dowodzić od nowa: **183 [T]** — w zespole jednopętlowym tylko λ może przejść przez zero wewnątrz zakresu (cechowanie liniowe w t; Yukawy multiplikatywne, więc y = 0 jest punktem stałym; tylko β_λ ma człon bez λ). **208** — wolna dana każdego sprzężenia jest stosunkiem liczności do jego własnego Ø-miejsca (Landau przy b > 0, transmutacja `n_Λ = n·e^{2π/(b₀α_s)}` dla α₃), a unormowanie Yukaw jest stosunkiem do drugiego końca (`v/m_P`).
 
-Rozstrzygnięcia wypisane z góry:
+Rozstrzygnięcia z góry:
+- **Przechodzi** → liczba warunków jest policzona, a nie zgadnięta, i bilans z 149 („15–19 wolnych wobec 1 warunku") dostaje wreszcie drugą stronę.
+- **Przechodzi, ale warunków jest mniej niż Ø-miejsc** → trzeba powiedzieć, które Ø-miejsce warunku nie daje **i dlaczego**. Węższy wynik, też wynik.
+- **Upada** → Ø-miejsca nie są tym, co ustala wolne dane, i wtedy 208 trzeba przeczytać jeszcze raz, bo to w nim postawiono tę zależność.
 
-- **Trzyma** → R1a traci jedno założenie: dynamika, rozproszenie i nieoznaczoność przestają być trzema warunkami, które „muszą zachodzić razem", i stają się jednym zdaniem. Wtedy **`b = −m²V₀` nie jest nawet osobnym zastępnikiem nieba (206), tylko tym samym brakiem widzianym z areny** — i to jest jedyny powód, dla którego warto to ruszać.
-- **Nie trzyma, ale daje jeden kierunek z trzech** (np. samoodniesienie daje częściowość odczytu, a nie daje braku zera absolutnego) → węższy wynik, też wynik. Nie mieszać z pierwszym.
-- **Nie trzyma wcale** → wtedy uczciwie: trzy warunki zostają trzema, a zdanie z [399] wraca do rejestru jako obalony domysł asystenta z 21.09. To nie to samo co „pytanie znika".
+---
+
+## Pierwsza rzecz na kartce, bo jest jedyną otwartą z 208
+
+**θ_QCD.** 208 nie rozstrzygnęło jego rodzaju i to jest jedyny [?], jaki stamtąd zostaje:
+- jako **faza relacji faz z samą sobą** byłaby samorelacją — a wtedy „Ø z Ø nie jest relacją" (154) dałoby **θ_QCD = 0 w całym zakresie**, nie tylko na końcu, bo θ jednopętlowo **nie biegnie** (inaczej niż λ);
+- ale fizyczna jest wyłącznie kombinacja **`θ̄ = θ + arg det M`**, co wiąże θ z Yukawami — czyli czyni ją relacją **dwóch sektorów**, nie samorelacją, i wtedy warunku nie ma.
+
+Rozstrzyga to, **która z tych dwóch postaci jest obiektem ramy**. To jest kartka, nie rachunek. Waga: gdyby wyszła pierwsza, byłaby to **liczba, która mogła wyjść inaczej** (A0) — druga po λ. Natura daje |θ̄| < 10⁻¹⁰. [L] Hamada–Kawai–Kawana dostają θ ≈ 0 z zasady wielu punktów (150) — **wziąć formalizm i wynik, nie pytanie**.
 
 ---
 
 ## Czego NIE robić
 
-**Nie liczyć.** To jest kartka: „skończona struktura nie może zawierać pełnego zapisu samej siebie" jest albo twierdzeniem w trzech linijkach, albo niczym. Precedens w §F2: *„redukcja lokalna jest twierdzeniem, nie przybliżeniem"*, a etap17 wycofano **przed** uruchomieniem.
+**Nie szukać wartości.** 208 zabrania warunku ramy na odczyt, który nie jest samorelacją — dotyczy to e : μ : τ (166), CKM i przesunięć sprzężeń. Pytanie jest o **rodzaj i liczbę Ø-miejsc**, nie o liczby.
 
-**Nie robić tabel odpowiedniości.** CC 10 straciła na tym dwie wymiany. Tabela liczy, a punkt odniesienia innego rodzaju nie jest pozycją na liście — wpisanie go jako „czwarty" już go wlicza do tych trzech. 3D nie ma nic wspólnego z liczbą 3.
+**Nie traktować μ² jako odczytu** (208): „dostrojenie wobec Λ²" nie jest pytaniem ramy; legalną postacią tego pytania jest `v/m_P`.
 
-**Nie używać „2D" do wyjaśniania wyników z literaturowego 1+1.** [401] rozstrzygnęło: **2D z łańcucha Ø = płaszczyzna bez pamięci**, **literaturowe d = 2 = linia + czas**. To różne rzeczy (pułapka 5). Powód, dla którego wyniki z 1+1 są narzędziem, jest inny: **tam nie ma triady**.
+**Nie uzasadniać niczego pojemnością** (207): „skończona struktura", „brak miejsca", „zdolność zapisu jako rozmiar" — każdy taki argument jest pojemnikiem.
 
-**Nie szukać dowodu przez wyliczanie przypadków.** Forma jest w R1b-A i sprawdziła się dwa razy (204, 206): (i) żaden odczyt się nie różni → nic nie jest niesione; (ii) któryś się różni → niesie to układ relacji. Lista przykładów nie domyka się nigdy i poznaje się ją po tym, że kończy się zastrzeżeniem.
+**Nie liczyć na rozsiewie** i nie wracać do gałęzi ze `STOP.md`.
+
+**Nie robić tabel odpowiedniości między R1a a czymkolwiek.** Tabela liczy, a punkt odniesienia innego rodzaju nie jest pozycją na liście (CC 10 straciła na tym dwie wymiany).
 
 ---
 
 ## Co niepewne
 
-**Czy „samoodniesienie" w [399] pkt 4 jest tym samym samoodniesieniem co w 206.** W 206 chodzi o to, że **czytający jest tym, co czyta** (odczyt jest różnicą własnych stanów O). W [399] chodzi o to, że struktura nie może zmieścić zapisu siebie wraz z zapisem tego zapisu. To może być jedno zdanie albo dwa — i **to jest pierwsza rzecz do rozstrzygnięcia**, przed czymkolwiek innym. Jeśli dwa, krok trzeba przeformułować, a nie ciągnąć.
+**Czy „Ø-miejsce" jest jednym pojęciem.** W 208 nazwałem tak trzy różne rzeczy: biegun Landaua (relacja rozbiega), transmutację (sprzężenie schodzi do zera), i koniec Plancka (wszystko nieodróżnialne). 183 mówi, że granice Ø są wszędzie i że wiersze tabeli to **przykłady parametru p**, nie lista miejsc — więc może to jedno pojęcie, a może trzy. **Rozstrzygnąć to przed liczeniem warunków**, inaczej liczenie będzie o trzech różnych rzeczach pod jedną nazwą.
 
-**Czego nie sprawdziłem w CC 10:** szukałem w transkryptach po „samoodniesieni", „pełny zapis", „zapis tego zapisu" i rozstrzygnięcia nie znalazłem — ale szukałem trzema hasłami, nie czytałem sesji 25–26.09 w całości, a tam wracało „patrzy sam na siebie" [404]. Możliwe, że to już upadło albo przeszło i nie zostało wpisane.
-
-**Pozostałe otwarte kroki, nietknięte:** granice Ø wewnątrz zakresu (183: ile warunków i na które z 19 odczytów zespołu) i rura czasopodobna w wersji ilościowej (171). Oba czekają; nie mieszać ich z tym krokiem.
+**Czego nie sprawdziłem w CC 10:** czy przy dwóch pętlach klasyfikacja z 208 się trzyma (183 mówi [O], rachunkiem niesprawdzone, że struktura w tym punkcie się nie zmienia); i czy „8 stosunków Yukaw" to właściwa liczba niezależnych relacji, czy trzeba ją liczyć inaczej, gdy część z nich nie biegnie.
 
 ---
 
