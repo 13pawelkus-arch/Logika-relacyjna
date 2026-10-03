@@ -27,7 +27,7 @@ Protokół z sesji 3–4 (czytanie wszystkiego co kawałek, lista kroków przed 
 
 ## Czym jest projekt
 
-Praca użytkownika (hotelarz, nie fizyk z zawodu, który od pierwszego zdania trzyma się bezwzględnie struktury logiki relacyjnej) z asystentem. **Porządkowanie struktury logicznej fizyki**, nie nowa fizyka: „Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest (cała nauka to solidna baza), oczyszczonego z interpretacji. Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie.” Narzędzia: teoria zbiorów przyczynowych, stan Sorkina–Johnstona, reguły wzrostu, teoria informacji (§F).
+Praca użytkownika (trzyma się bezwzględnie struktury logiki relacyjnej) z asystentem. **Porządkowanie struktury logicznej fizyki**, nie nowa fizyka: „Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest (cała nauka to solidna baza), oczyszczonego z interpretacji. Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie.” Narzędzia: teoria zbiorów przyczynowych, stan Sorkina–Johnstona, reguły wzrostu, teoria informacji (§F).
 
 ## Pliki
 
