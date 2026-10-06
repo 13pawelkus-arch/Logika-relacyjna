@@ -1,69 +1,100 @@
-# Pierwsza wiadomość do następnej sesji
+# Następny krok: zapytać `z` tym, czym 206 zapytało `a·b`
 
-**Do wklejenia przez użytkownika jako pierwsza wiadomość.** Plik jest nadpisywany na końcu każdej sesji —
-nie dopisywać do niego, nie streszczać w nim ramy. Niesie **bieżący krok**, nie framework.
-
----
-
-**Bierzemy napięcie, które zostawiły 209 i 210: odczyt detektora jest wolny od cięcia, a to, co rzekomo czyta, siedzi w sektorze niosącym cięcie.** Kroki 1 i 3 zamknięte (198–202, 206), [?] z [399] zamknięte (207) — **nie wracać**.
-
-Najpierw `git pull`.
+Krok 5 z listy w `CLAUDE.md`. Nic innego; krok 2 (zliczenie Ø-miejsc) i krok 4 (rura ilościowo) są
+otwarte, ale **nie mieszać ich z tym**.
 
 ---
 
-## Jedna rzecz o sposobie pracy
+## Co jest na stole
 
-**Przejścia logiczne stoją w transkryptach rozmów, w ODPOWIEDZIACH ASYSTENTA** — nie w pliku głównym i nie w wypowiedziach użytkownika. Plik niesie wnioski; `wypowiedzi.py` też. To, **jak** coś się urodziło, jest wyłącznie w `rozmowa/*.md`, zwykłym grepem po obu stronach. CC 10 straciła na tym pięć wymian.
+Poprzednia sesja (CC 11) wzięła do ramy folder `masa/` — dziewięć kroków, które użytkownik przeszedł
+sam 4–5.10. Poprawka **214** ustaliła, gdzie siedzi masa:
 
-I druga, wypowiedziana wprost: **„trudność każdej sesji to doprowadzić żebyś w końcu widział całość, a nie fragmenty"**. Praktycznie: krok, który doszlifowuje policzone twierdzenie albo szuka liczby w sektorze z werdyktem, jest fragmentem — choćby stał na liście kroków.
+```
+jądro:    D̂ = Π̸(a_L P_L + a_R P_R) − (b_L P_L + b_R P_R)
+mianownik: d_i(z) = z·a_L(z)a_R(z) − b_L(z)b_R(z)
+warunek:   z_i = b_L b_R / (a_L a_R)   — oceniane przy z = z_i, czyli SAMOUZGODNIONE
+stąd:      (μ_{A,i}/μ_{A,j})² = [b_L b_R]_i/[b_L b_R]_j ÷ [a_L a_R]_i/[a_L a_R]_j
+```
 
-I trzecia, z końca CC 10: **„liczby są najmniej istotne, one są konsekwencją uczciwej pracy. Nie martw się o liczby."** Wpis, który trzyma się na trafieniach liczbowych, jest numerologią niezależnie od tego, jak dobrze trafia.
-
----
-
-## Napięcie, które jest krokiem
-
-**210 [T]:** detektor fal grawitacyjnych jest **jednym czytającym z dwiema drogami** (obieg, 177); czyta `Δφ = k·L·h`, czyli **stosunek dwóch liczności** — różnicy dróg do długości drogi, w tyknięciach czytającego. Bez metra i bez sekundy. **Odczyt wolny od cięcia.**
-
-**209 [T]:** w rozwinięciu akcji spektralnej cięcie wchodzi trzema potęgami, a **Einstein–Hilbert siedzi w członie `Λ²`** — razem z `1/G` i `μ²`, czyli w sektorze, który **niesie cięcie i nie jest odczytem**.
-
-**Pytanie:** jak odczyt może być wolny od cięcia, skoro to, co rzekomo czyta, siedzi w sektorze niosącym cięcie?
-
-Rozstrzygnięcia wypisane z góry:
-- **To są różne obiekty** → zdanie „detektor czyta falę grawitacyjną" jest złym opisem; czyta zliczenie dróg, i tyle. Wtedy definicji fali grawitacyjnej **nie będzie**, bo nie ma czego definiować — a to jest wynik, nie porażka.
-- **Oba wolne od cięcia** → `Λ²` przy Einsteinie–Hilbercie jest artefaktem ich rozwinięcia, nie własnością obiektu, i **sortowanie z 209 trzeba zawęzić**.
-- **Oba niosą cięcie** → **210 jest błędne**, `h` nie jest odczytem, i trzeba przeczytać 206 od nowa.
+Ostatnia linia to **stosunek dwóch stosunków z nazwanymi odczytami** — 181 w pełnej postaci, w już
+istniejącym formalizmie. To jest dobre. **Ale `z` wchodzi tam wkładane** — dokładnie w tej roli, w
+jakiej `b = −m²V₀` stało w kroku 3, zanim 206 pokazało, że wkładanie nie robi roboty. I każde `p²` w
+tych mianownikach przychodzi z areny, a 204 mówi, że arena nie niesie niczego. **Notatki `masa/`
+pilnują, żeby rozmiar macierzy nie udawał wymiaru, ale tego pytania nie stawiają.**
 
 ---
 
-## Co przeczytać, w tej kolejności
+## Czytać w całości, zanim cokolwiek
 
-1. **Blok 210 w `### A11d`** (przed 177) i **blok 177** — co czyta detektor i czym jest obieg.
-2. **Blok 209 w `## §F1`** (przed 155) — sortowanie po potęgach cięcia, i dlaczego `Λ` jest tam dwoma obiektami.
-3. **`## R1a`** w całości (17 tys.) — blok **207** i granice Ø.
-4. Praca: **Chamseddine, Connes, „The Spectral Action Principle", hep-th/9606001** — użytkownik ma PDF. Istotne: zasada (1.8) „działanie zależy tylko od widma"; fluktuacje wewnętrzne `D = D₀ + A + JAJ⁻¹`; obcięcie `H_Λ = range χ(D/Λ)` i zdanie o automorfizmach algebr skończenie wymiarowych.
+- **`### R1b-A`** (4,3 tys. znaków) — forma (i)/(ii) w oryginale. Krótkie, przeczytać dosłownie.
+- **blok 206 w `### A11d`** („KROK 3 ZAMKNIĘTY…", 8,3 tys.) — ten sam ruch wykonany raz, razem z
+  czterema błędami, które po drodze padły.
+- **blok 214 w `### A11d`** („MASA SIEDZI W MIANOWNIKU…", 5,3 tys.) i **213** (4,3 tys.).
+- **blok 181 w `### A11d`** (4,0 tys.) — bo tam stoi `ν²` odzyskiwane **dokładnie** ze stosunku dwóch
+  odczytów o różnej głębokości, a `z = b_Lb_R/(a_La_R)` **już jest** iloczynem dwóch par wag.
+
+**Nie czytać całego `A11d`** — ma 135 tys. znaków i reguła 195 jest tam już niewykonalna. To jest
+znany defekt, nie przeoczenie: sekcja robi dwie roboty (aparat pary (M,O) i odczyty masy) i prosi się
+o rozdzielenie. Osobna sprawa, nie ten krok.
 
 ---
 
-## Czego NIE robić
+## Zdanie, które ma upaść
 
-**Nie szukać w danych GW.** CC 10 próbowała i dostała po głowie: bez definicji to jest hop do przodu, a dwa z trzech pomysłów padły od razu (koliste, albo zakładały nośnik w ośrodku).
+> **`z` nie jest wejściem, jest odczytem — bo da się je odzyskać ze stosunku dwóch odczytów
+> o różnej głębokości.**
 
-**Nie brać cudzego pytania.** „Skąd kwadrupol" jest pytaniem literatury; odpowiedź na nie wyszła podręcznikowym argumentem z podmienionym słownikiem.
+Rozstrzygnięcia wypisane **z góry**, żeby nie dopasować wniosku po fakcie:
 
-**Nie robić list trzech.** Lista nie domyka się nigdy i poznaje się ją po tym, że kończy się zastrzeżeniem (204). To był błąd CC 10 sześć razy.
+- **(a) Forma (i)/(ii) przechodzi.** Wtedy `z` jest odczytem, a `p²` w mianownikach jest pojemnikiem —
+  tak jak `d` w 204. Postać z 214 stoi bez zmian, zmienia się jej **status**: samouzgodnienie nie jest
+  wkładaniem, jest zapisem tego, że odczyt jest różnicą własnych stanów O (206).
+- **(b) Któryś odczyt się różni i różnicy NIE da się przypisać układowi relacji wewnątrz M.** Wtedy
+  pęka forma (i)/(ii) dla tego obiektu — **pierwszy taki przypadek** — i wynik jest o zakresie 204,
+  nie o `z`. Byłoby to więcej warte niż sam krok.
+- **(c) Pytanie jest źle postawione, bo `z` to nie jeden obiekt.** Biegun i argument funkcji
+  `a`, `b` mogą być dwiema rzeczami pod jedną literą. Wtedy krok brzmi: najpierw rozdzielić, potem
+  pytać. Precedens: 206 zespoliło dwie różne trójki (199 wobec 181) i tabela to policzyła.
 
-**Nie audytować własnego pliku** w odpowiedzi na zdanie o literaturze. Skala Plancka została przekształcona dawno (STOP.md pkt 4).
+---
+
+## Jak NIE robić — z zapisanych błędów, nie z ostrożności
+
+> **„Trzeba wyrzucać. Bo to że nigdy nie był. Tego śie dowiesz jak podasz strukturalny dowód.
+> Cwaniaczku. Wczesniej tego nie powiesz"** (użytkownik, CC 9)
+
+**Kolejność jest częścią wyniku.** Nie zaczynać od „`z` oczywiście jest odczytem, bo wszystko jest
+odczytem". To zakłada tezę. Najpierw dowód, potem zdanie.
+
+> **„Albo niosła, albo nie niosła. Dowód ma być strukturalny a nie bajdurzeniem o przykładach"**
+> (użytkownik, CC 9)
+
+**Nie wyliczać przypadków.** Lista „oto `z` w hop-stop, oto w propagatorze Diraca, oto w akcji
+spektralnej" jest ilustracją. Forma (i)/(ii) jest wyczerpująca — albo przechodzi, albo pęka.
+
+I trzeci, z 211, najświeższy: **sprawdzić, czy przesłanka domysłu jest po dowodzie jeszcze spełniona
+przez cokolwiek.** W 201 dowód usunął przesłankę domysłu z 200, a ja zapisałem następnik jako
+dowiedziony. Domysł był prawdziwy **pusto** — i dlatego przechodził każdą kontrolę.
 
 ---
 
 ## Co niepewne
 
-**Czy „zmiana widma" jest w ogóle obiektem ramy.** 209 mówi, że działanie zależy tylko od widma, a widmo jest zliczeniem. Ale **zmiana** zliczenia wymaga dwóch zliczeń do porównania — czyli pary, czyli czytającego. Czy po stronie **źródła** jest czytający, czy tylko po stronie detektora — **nierozstrzygnięte**, i to może być właściwe postawienie całego pytania.
+**Czy forma (i)/(ii) stosuje się w ogóle do równania samouzgodnionego.** 204 i 206 przyłożono do
+wejść **jawnych** (`C`, `b`): usuń i patrz, czy któryś odczyt się różni. Tutaj `z` stoi po obu
+stronach. Czy „usuń `z`" jest wtedy dobrze postawione — **nie wiem**, i to jest pierwsza rzecz do
+sprawdzenia, nie do założenia. Jeśli nie jest, krok zmienia się w: podać formę (i)/(ii) dla równania
+niejawnego, albo pokazać, że się nie da.
 
-**Czego nie sprawdziłem:** czy ktoś liczył fluktuacje w akcji spektralnej **bez operatora odniesienia `D₀`**. Szukać po kształcie, nie po nazwie.
+**Czy odczytem jest `z`, czy tylko jego stosunek.** 181 mówi, że **stosunek** dwóch odczytów o różnej
+głębokości odzyskuje `ν²` dokładnie. Nie mówi, że każdy czynnik osobno jest odczytem. Możliwe więc, że
+ruch jest dostępny wyłącznie dla stosunku, a `z` nigdy nie było właściwym obiektem — i wtedy to jest
+odpowiedź (c), nie porażka.
 
-**Drugi krok otwarty, nietknięty:** zliczenie Ø-miejsc na relację (krok 2 z listy, po przeformułowaniu przez 208). Nie mieszać go z tym.
+**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek bieguna bez parametru pędu —
+po kształcie, nie po nazwie („pole mass without momentum parameter" nic nie da; raczej „self-consistent
+… ratio of two … no reference scale").
 
 ---
 
