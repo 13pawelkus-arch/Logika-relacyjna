@@ -1,6 +1,6 @@
 # Rozmowa w Claude Code — sesja 12 (6.10.2026) — zapis
 
-Poprawki 221–225: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), a hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — a na koniec wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226): twierdzenie jest z siłą, samopodobieństwo w punkcie osobliwym nie jest symetrią prawa, do ramy weszła pułapka nazewnicza nr 12. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -2195,6 +2195,1574 @@ new=('więc poszło do `NASTEPNA-SESJA.md`, nie do ramy. **I zaraz potem 225 —
      'punkt 4 osi dopisał asystent w [106] pod nagłówkiem użytkownika; a etykietę „[94] pkt 4" stworzył werdykt CC 11 '
      'i **ja ją przeniosłem do tytułu kroku**. Dopiero potem treść: bijekcja, sprzeczność z 152, trzy podpory dla mas. '
      '**Trzy klauzule [104] z czterech mają dowody drogami bez samopodobieństwa** — hipotez
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+wiersz transkryptu uzupełniony o 225
+transkrypt: 128281
+To https://github.com/13pawelkus-arch/Logika-relacyjna
+   c42151a..f090608  ccr-66a8cb7a-vj7583 -> ccr-66a8cb7a-vj7583
+branch 'ccr-66a8cb7a-vj7583' set up to track 'origin/ccr-66a8cb7a-vj7583'.
+````
+</details>
+
+## [30] Asystent — 2026-10-06 17:02
+
+Zrobione. Poprawka 225, wypchnięta. **Krok okazał się czym innym, niż był podpisany** — i to wyszło z pierwszego ruchu: najpierw źródło ze ścieżką, dopiero potem treść.
+
+**Kto co powiedział.**
+- **[94]** (16.09) to jeden akapit bez punktów: definicje przed masą, nic nie jest cechą, „nie dostanę jednej funkcji… dynamika wymusza logarytm… zespół funkcji, relacja relacji, stosunek dwóch stosunków do stosunku". **Samopodobieństwa, łamania ani „wszystko na raz" tam nie ma.**
+- **Hipoteza to [104]** (sesja CC 2, 24.09), twoje słowa: *„To będzie samopodobny układ, do całego wszechświata. Masa nie może być oddzielnym, ostatnim etapem […] Żaden krok tam nie zaprowadzi. To musi być ustalone wszystko na raz."*
+- **„Masa pojawia się tam, gdzie samopodobieństwo się łamie (`n_Λ`)" powiedział asystent w [105]** — tej samej wiadomości, w której 151 złapało już „jedną relację między końcami". Tam też asystent przerzucił most „[94] = samopodobieństwo".
+- W **[106]** asystent dopisał to jako punkt 4 osi **pod nagłówkiem „podsumowanie użytkownika, 25.09"** — i od tamtej pory czytało się jak twoje.
+- Etykietę **„[94] pkt 4"** stworzył werdykt CC 11 w `CLAUDE.md`, a **ja przeniosłem ją do tytułu kroku**. Plik główny jej nie używał; w jedynym miejscu, gdzie cytuje hipotezę numerem (180 pkt 5), ma poprawnie [104].
+
+**Treść zdania asystenta — puste i do tego fałszywe.**
+- **Puste:** „logarytm dochodzi do jedności" to dokładnie `1/α = 0` w `n_Λ`, a `α(n) = 2π/(b₀·ln(n_Λ/n))` to bijekcja — „miejsce łamania" niesie samą wolną daną.
+- **Fałszywe:** 152 definiuje samopodobieństwo zdanie wcześniej jako niezmienniczość względem przesunięcia w `t`. W `1/α₃ = 0` ta niezmienniczość **nie pęka** — zero tylko się przesuwa. Mechanizm błędu był już nazwany: połowa z definicji ramy, połowa z odczytania konwencjonalnego (anomalia łamie klasyczną niezmienniczość skalową). Te dwie połowy się wykluczają — interpretacja zamiast formalizmu, odruchem z 191.
+
+**Gdzie samopodobieństwo zespołu naprawdę się łamie: w masach, przez `v`.** Trzy niezależne podpory, wszystkie już w pliku albo w podręczniku:
+- **autonomia** — w schemacie niezależnym od mas beta-funkcje nie zależą od mas, więc łamie ją tylko próg w `m_i = y_i·v/√2`;
+- **218** — wspólny logarytm wychodzi tylko przy `η = m/Q₀ → 0`, to twój rachunek z `masa/4`–`5`;
+- **180 pkt 5** — skala wnętrza przechodzi do O przez liczbę własnych tyknięć.
+
+Więc samopodobieństwo łamie dokładnie jedna dana, **`v/m_P`, a to jest wolny odczyt**. Pilnowałem przy tym jednego: zdanie „łamią je masy" jest prawdziwe, ale **tautologiczne** (skala łamie brak skali z definicji). Dlatego [105] nie wraca w nowym odczycie.
+
+**[104] stoi lepiej niż przed krokiem.** Trzy klauzule z czterech mają dowody drogami bez samopodobieństwa:
+- „masa nie jest ostatnim etapem" i „żaden krok tam nie zaprowadzi" — **206**;
+- „wszystko na raz" — **207**;
+- logarytm jako ślad braku wyróżnionej skali — **212**.
+
+**To nie jest obalenie twojej hipotezy.** Upadło podparcie, które dał jej asystent, a otwarta część ma teraz dokładną nazwę: co ustala `v/m_P`.
+
+Cztery miejsca w pliku głównym opatrzyłem w miejscu, nie przepisałem — droga zostaje widoczna. W `CLAUDE.md` poprawiłem też nagłówek osi, punkt 4 i werdykt CC 11.
+
+**Następny krok** w `NASTEPNA-SESJA.md`: czy dwa warunki z 154 dotykają `v/m_P`. Działają **na** końcu Plancka, a do `m_H` i `m_t` przechodzą przez bieg na zakresie `ln(m_P/v)`. To są dwa równania na trzy wielkości, więc odczyt „ustalają `m_H` i `m_t`" jest wyborem wejścia.
+
+Jest tam też ostrzeżenie, które może dotknąć mojego wpisu z tej sesji. W 224 zaliczyłem koniec Plancka do „położonych niezależnie", bo jest **nazwany** niezależnie. Ale jego **położenie w `t`** względem `v` to właśnie `v/m_P`. Jeśli to trafione, **224 (A) zlało „nazwany" z „położony"** i trzeba je będzie poprawić.
+
+## [31] Użytkownik — 2026-10-06 17:14
+
+Sprawdź jedną rzecz odnośnie samopodobieństwa. Bo to jest ciekawe.
+Niedawno OpenAI wykazali że w Równaniach Naviera-Stokesa, dochodzi do matematycznego załamania ciągłości (singularności) to jest kolejne miejsce nierozróżnialności.
+
+## [32] Asystent — 2026-10-06 17:15
+
+Sprawdzam najpierw sam fakt, a dopiero potem, czy to miejsce nierozróżnialności. W pliku stoi zasada: „Sprawdzaj to co piszę, bo to jest trochę na czuja". Moja wiedza kończy się na czerwcu 2026, a z tego, co wiem, wyniki o osobliwościach samopodobnych z 2025 dotyczyły innych równań i nie były OpenAI. Szukam.
+
+<details><summary>narzędzie</summary>
+
+````
+ToolSearch: select:WebSearch,WebFetch
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+WebSearch: OpenAI Navier-Stokes singularity blow-up 2026
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Web search results for query: "OpenAI Navier-Stokes singularity blow-up 2026"
+
+Links: [{"title":"OpenAI Found a Navier–Stokes Singularity: Why Nature Still Cannot Reach It","url":"https://medium.com/@dharmakirti/openai-found-a-navier-stokes-singularity-why-nature-still-cannot-reach-it-d34477a3498c"},{"title":"The Positive Defect Problem: Target and Admissibility Criteria for a Programmatic Search for Unforced Navier-Stokes Blowup","url":"https://arxiv.org/pdf/2609.23868"},{"title":"OpenAI Claims Another Huge Mathematical Result Amid Fights Over Credit, Ethics, and Privacy","url":"https://singularityhub.com/2026/09/11/openai-claims-another-huge-mathematical-result-amid-fights-over-credit-ethics-and-privacy/"},{"title":"OpenAI's Navier-Stokes Proof Sparks a Mathematician Plagiarism Dispute","url":"https://www.mindstudio.ai/blog/openai-navier-stokes-proof-controversy"},{"title":"Self-similar swirl between contracting porous walls: the GD1998 exact Navier-Stokes solution revisited in the similarity variables of the OpenAI 2026 forced blow-up construction","url":"https://arxiv.org/pdf/2609.17642"},{"title":"AI Has Solved One of Math’s $1 Million Millennium Prize Problems","url":"https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/"},{"title":"OpenAI says it solved Navier-Stokes. Nobody has seen the proof.","url":"https://thenextweb.com/news/openai-navier-stokes-claim-verification-credit"},{"title":"Large language models for partia
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Skill: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Launching skill: workflow-authoring
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Workflow: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Workflow launched in background. Task ID: wh6vu53ok
+Summary: Verify the OpenAI 2026 Navier-Stokes blow-up claim from primary sources: forcing, self-similarity, scope, verification status
+Transcript dir: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/subagents/workflows/wf_76ac8ab8-63c
+Script file: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/workflows/scripts/ns-blowup-facts-wf_76ac8ab8-63c.js
+(Edit this file with Write/Edit and re-invoke Workflow with {scriptPath: "/root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/workflows/scripts/ns-blowup-facts-wf_76ac8ab8-63c.js"} to iterate without resending the script.)
+Run ID: wf_76ac8ab8-63c
+To resume after editing the script: Workflow({scriptPath: "/root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/workflows/scripts/ns-blowup-facts-wf_76ac8ab8-63c.js", resumeFromRunId: "wf_76ac8ab8-63c"}) — completed agents return cached results (cached results may themselves be empty — inspect journal.jsonl before assuming there is something to recover).
+
+You will be notified when it completes. Use /workflows to watch live progress.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read user statements about singularity with the path
+echo "=== użytkownik: osobliwość (ścieżka) ===" && python3 narzedzia/wypowiedzi.py 'osobliwo' --wymiana --po 1 2>&1 | head -120
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== użytkownik: osobliwość (ścieżka) ===
+=== logika-relacyjna-rozmowa.md ## [104] Użytkownik — 2026-09-16 17:26
+w pliku chyba nie ma jeszcze takiego zapisu. To nie jest tożsamość.
+
+[Ø ≡ Ro ≡ γ0 ≡ t0 ≡ |ψ⟩ ≡ (r = 0) ≡ (Ĥ|Ψ⟩ = 0) ≡ Δ ≡ 2D ≡ (l_P t_P) ≡ Ø] ≠ R ⊗ R
+
+≡  nierozróżnialność
+γ0 - foton
+t0 - chwila zero
+(r = 0) - osobliwość
+|ψ⟩ - superpozycja
+Δ - nieoznaczoność
+R to relacja, drugie R to rzeczywistość
+R ⊗ R — iloczyn tensorowy relacji przez relację. Czyli świat relacji złożonych z relacji.
+
+
+---
+
+--> logika-relacyjna-rozmowa.md ## [105] Asystent — 2026-09-16 17:26
+Tak, w pliku jest tylko starsza wersja w R1. Nowy zapis różni się od niej w kilku miejscach.
+
+„≡” jako nieodróżnialność, a nie tożsamość, rozwiązuje to, co R1 musiało dopowiadać zdaniem: zjawiska są różne, a Ø jest jedno. Tu wynika to wprost z symbolu. Foton i osobliwość nie są tym samym, tylko nic ich od siebie nie odróżnia od strony Ø. Doszły dwa człony. Ĥ|Ψ⟩ = 0 to równanie Wheelera–DeWitta, czyli stan bez ewolucji, więc pasuje do t0 i do fotonu z t=0. (l_P t_P) zastępuje „Planck”. Ciąg jest też domknięty z obu stron na Ø, więc to nie lista, tylko pętla.
+
+Najciekawszy jest prawy człon. „≠ R ⊗ R” łączy się z R5 w pliku: algebry lokalne typu III nie rozkładają się na iloczyn tensorowy. Świat relacji złożonych z relacji ma podukłady, które da się od siebie oddzielić, a Ø leży dokładnie tam, gdzie takiego rozkładu nie ma. |ψ⟩ też tu pasuje, bo stanu splątanego nie da się zapisać jako iloczynu.
+
+Widzę jednak jed
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search frame for turbulence and read block 160
+echo "=== turbulencja / NS / kaskada / samopodobne rozwiązania w pliku ===" && grep -n -i 'navier\|turbulen\|kołmogor\|kolmogor\|kaskad\|self-similar\|samopodobn[ey] rozwiąz' logika-relacyjna-v3.5.md | cut -c1-150 | head -20; echo; echo "=== blok 160 (warunki przy osobliwości) ===" && python3 - <<'PY'
+L=open('logika-relacyjna-v3.5.md').read().split('\n')
+hits=[k for k,l in enumerate(L) if 'poprawka 160' in l]
+print('trafienia:', [h+1 for h in hits])
+i=next((k for k in hits if 'WARUNK' in L[k].upper() or 'OSOBLIWO' in L[k].upper()), hits[0])
+j=i+1
+while j<len(L) and not (L[j].startswith('**') and 'poprawka' in L[j] and j>i) and not L[j].startswith('#'): j+=1
+print('\n'.join(L[i:j])[:7000])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== turbulencja / NS / kaskada / samopodobne rozwiązania w pliku ===
+
+=== blok 160 (warunki przy osobliwości) ===
+trafienia: [783, 785]
+**Dalej:** warunki końca z poprawki 154 przy osobliwości — niżej (poprawka 160); promieniowanie Hawkinga i krzywa Page'a jako Ø → A — niżej (poprawka 161).
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the actual block 160
+python3 - <<'PY'
+L=open('logika-relacyjna-v3.5.md').read().split('\n')
+hits=[k for k,l in enumerate(L) if '(poprawka 160)' in l]
+print('linie z (poprawka 160):', [h+1 for h in hits])
+for i in hits:
+    if L[i].lstrip().startswith(('**','- **')) and 'Dalej' not in L[i][:12]:
+        j=i+1
+        while j<len(L) and not ((L[j].startswith('**') or L[j].startswith('- **')) and 'poprawka 16' in L[j] and j>i+1) and not L[j].startswith('#'): j+=1
+        print(f'--- blok od {i+1} do {j} ---'); print('\n'.join(L[i:j])[:9000]); break
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+linie z (poprawka 160): [783, 785]
+--- blok od 785 do 798 ---
+**(a) WARUNKI KOŃCA PRZY OSOBLIWOŚCI (poprawka 160) [L][O].**
+- **Postawienie:** warunki ze 154 dotyczą samego Ø (relacja Ø z Ø nie istnieje; sąsiedztwo końca nierozróżnialne); Ø jest jedno (pułapka 1), więc przy osobliwości ≡ Ø obowiązują **tak samo i trywialnie** — w tej postaci pytanie nic nie wnosi. **Dobrze postawione:** czy **otoczenie** osobliwości ma tę samą charakterystykę co otoczenie końca Plancka i czy warunki dają tam coś **odczytywalnego** (jak przy Plancku m_H, m_t po naszej stronie pustyni). Dwa otoczenia (A5d): czytający blisko osobliwości (od środka nic się nie zmienia) i czytający z zewnątrz (tylko brzeg 2D ≡ Ø).
+- **1. Od strony czytających blisko osobliwości:**
+
+| koniec Plancka (rama) | otoczenie osobliwości (literatura) |
+|---|---|
+| [76]: „przestrzeń, czyli relacja pomiędzy dwoma węzłami, jest = 0 — nie da się wyróżnić żadnej relacji” | **cisza asymptotyczna** (BKL: Biełinski–Chałatnikow–Lifszyc 1970; Andersson–van Elst–Lim–Uggla, PRL 94, 051101 (2005)): relacje między sąsiednimi punktami znikają, każdy punkt sam dla siebie |
+| **λ(koniec) = 0:** tło bez relacji z samym sobą | **„materia nie ma znaczenia”** (BKL): potencjał pola skalarnego (λφ⁴, masa) nie odgrywa roli, liczy się część kinetyczna — **relacja tła z samym sobą nierozróżnialna, bez niczyjego żądania** |
+| **β_λ(koniec) = 0:** sąsiedztwo nierozróżnialne, koniec samopodobny | **z polem skalarnym otoczenie „spokojne”** (Andersson–R
+…[ucięto]
+````
+</details>
+
+## [33] Asystent — 2026-10-06 17:19
+
+To rozstrzyga rzecz ważną: **plik ma już precedens dokładnie tego kształtu**. W 160 osobliwość OTW z polem skalarnym ma otoczenie „spokojne" — **jedną samopodobną postać Kasnera**. Rama czyta to jako „sąsiedztwo końca nierozróżnialne" i zestawia z końcem Plancka. W wariancie bez pola skalarnego jest chaos BKL **bez** prostej postaci samopodobnej. Czyli rama już rozdziela osobliwości samopodobne od niesamopodobnych.
+
+Czekam na wynik weryfikacji, zanim przyłożę to do pracy OpenAI. Od niego zależy, czy ich konstrukcja jest dokładnie samopodobna, czy tylko w zmiennych samopodobnych, i czym jest wymuszenie.
+
+## [34] Asystent — 2026-10-06 17:48
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [35] Asystent — 2026-10-06 18:24
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [36] Asystent — 2026-10-06 18:38
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [37] Asystent — 2026-10-06 19:24
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [38] Asystent — 2026-10-06 19:58
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [39] Asystent — 2026-10-06 20:09
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [40] Asystent — 2026-10-06 21:15
+
+You've hit your session limit · resets 9:50pm (UTC)
+
+## [41] Asystent — 2026-10-06 21:56
+
+Weryfikacja wróciła częściowo. Trzy odczyty doszły (źródło pierwotne, prace odpowiadające, tło). Dwa przerwał limit sesji: oceny ekspertów i sprawdzenie krzyżowe. Sprawdzenie krzyżowe zrobię więc sam, na cytatach z samego PDF. Czytam cały plik wyników.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract the dossier from the workflow output
+F=/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tasks/wh6vu53ok.output; wc -c "$F"; python3 - "$F" <<'PY'
+import json,sys,re
+t=open(sys.argv[1]).read()
+# wynik moze byc JSON-em albo tekstem; probuj wyciagnac dossier
+try:
+    d=json.loads(t); dos=d.get('dossier',''); ver=d.get('verify')
+except Exception:
+    m=re.search(r'\{"dossier":',t); d=json.loads(t[m.start():]) if m else {}; dos=d.get('dossier',''); ver=d.get('verify')
+print('dossier znaków:', len(dos), '| verify:', 'brak' if not ver else 'jest')
+open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md','w').write(dos)
+for sec in re.split(r'\n(?=### )', dos):
+    head=sec.split('\n',1)[0]; n=sec.count('\n- [')
+    print(head, '— ustaleń:', n)
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+123353 /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tasks/wh6vu53ok.output
+dossier znaków: 0 | verify: brak
+ — ustaleń: 0
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate and decode the dossier JSON
+F=/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tasks/wh6vu53ok.output; head -c 600 "$F"; echo; echo ...; python3 - "$F" <<'PY'
+import sys,re,json
+t=open(sys.argv[1]).read()
+i=t.find('{"dossier"')
+print('pozycja {"dossier":', i)
+if i>=0:
+    # znajdz koniec obiektu przez dekoder
+    dec=json.JSONDecoder()
+    obj,end=dec.raw_decode(t[i:])
+    dos=obj.get('dossier',''); ver=obj.get('verify')
+    print('dossier:',len(dos),'verify:',ver is not None)
+    open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md','w').write(dos)
+    for sec in re.split(r'\n\n(?=### )', dos):
+        print(sec.split('\n',1)[0], '— ustaleń:', sec.count('\n- ['))
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+{
+  "summary": "Verify the OpenAI 2026 Navier-Stokes blow-up claim from primary sources: forcing, self-similarity, scope, verification status",
+  "agentCount": 5,
+  "logs": [
+    "[read:experts] failed: You've hit your session limit · resets 9:50pm (UTC)",
+    "3/4 readers returned",
+    "[verify] failed: You've hit your session limit · resets 9:50pm (UTC)"
+  ],
+  "result": {
+    "dossier": "### primary\n- [direct-quote; the paper itself] The paper exists and is the one reported. It is a 166-page PDF titled 'FINITE TIME BLOWUP FOR NAVIER–STOKES', with the author line 'OPENAI' and no indivi
+...
+pozycja {"dossier": -1
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Decode dossier from the result field
+F=/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tasks/wh6vu53ok.output; python3 - "$F" <<'PY'
+import sys,re,json
+d=json.load(open(sys.argv[1]))
+dos=d['result']['dossier']; ver=d['result'].get('verify')
+open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md','w').write(dos)
+print('dossier:',len(dos),'| verify:', 'brak' if not ver else 'jest')
+for sec in re.split(r'\n\n(?=### )', dos):
+    print(sec.split('\n',1)[0], '— ustaleń:', sec.count('\n- ['), '| znaków:', len(sec))
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+dossier: 113873 | verify: brak
+### primary — ustaleń: 44 | znaków: 35344
+### followups — ustaleń: 56 | znaków: 42743
+### background — ustaleń: 44 | znaków: 35782
+````
+</details>
+
+## [42] Asystent — 2026-10-06 21:56
+
+144 ustaleń z cytatami. Czytam je w całości, zaczynając od źródła pierwotnego.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read primary-source findings part 1
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+secs=re.split(r'\n\n(?=### )', dos)
+p=secs[0]
+print(p[:18000])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+### primary
+- [direct-quote; the paper itself] The paper exists and is the one reported. It is a 166-page PDF titled 'FINITE TIME BLOWUP FOR NAVIER–STOKES', with the author line 'OPENAI' and no individual authors. The PDF metadata gives a creation date of Tue Sep 8 19:06:26 2026 UTC. The abstract reads as quoted.
+  quote: "For every positive viscosity, we construct a solution of the three-dimensional incompressible Navier–Stokes equations that starts from rest and develops unbounded velocity in finite time while maintaining uniformly bounded kinetic energy."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; OpenAI (official news RSS feed)] OpenAI's own RSS feed lists the blog post 'On the Navier–Stokes Millennium Prize Problem' (pubDate Tue, 08 Sep 2026 10:00:00 GMT, link openai.com/index/navier-stokes-solution). Its one-line description is quoted. The full blog page could not be retrieved (see could_not_access).
+  quote: "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+  url: https://openai.com/news/rss.xml
+- [direct-quote; the paper itself] MAIN THEOREM (Theorem 1.1, p.1), quoted in full. Mathematical notation is linearized from the PDF text extraction.
+  quote: "Theorem 1.1. For every ν > 0 there exist a force f ∈ C_c^∞(R^3 × (0, ∞); R^3), a compact set K ⊂ R^3, and smooth velocity and pressure fields u, p on R^3 × [0, 1) satisfying
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read primary-source findings part 2
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+p=re.split(r'\n\n(?=### )', dos)[0]
+print(p[18000:])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ffusion becomes negligible relative to radial diffusion, by the factor τ^{2h} (pp.3–5).
+  quote: "In the actual core, viscosity transports angular momentum outwards; the increasing characteristic speed reflects the balance between inward transport and viscous loss. [...] Re_θ := |u_θ|ℓ_r/ν ≍ τ^{−h} −→ ∞, Re_r := |u_r|ℓ_r/ν = O(1), for fixed ν > 0. The angular Reynolds number grows without bound: fluid makes increasingly many turns during a radial diffusion time. The radial Reynolds number remains bounded, so viscosity continues to compete with radial inflow. [...] Axial diffusion is weaker: the ratio of axial to radial diffusion rates is [...] ≍ τ^{2h} −→ 0."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; the paper itself] VISCOSITY in the pulses. A pulse grows while shear amplification exceeds viscous damping. Damping grows as shear shortens the radial wavelength, and eventually wins, so each pulse grows and then decays (pp.6, 12).
+  quote: "The two effects reinforce one another, giving exponential growth when the amplification exceeds viscous damping. [...] During each pulse, shear increases the magnitude of the radial component of the wavevector. Viscous damping strengthens and eventually exceeds the amplification, so the pulse grows and then decays."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; the paper itself] CLAY ALTERNATIVES. The paper claims altern
+…[ucięto]
+````
+</details>
+
+## [43] Asystent — 2026-10-06 21:57
+
+Kluczowe rzeczy już są. Doczytuję prace odpowiadające i tło — szczególnie, co mówią o roli wymuszenia i o twierdzeniach wykluczających ścisłe samopodobieństwo.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read follow-up findings part 1
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+f=re.split(r'\n\n(?=### )', dos)[1]
+print(f[:21000])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+### followups
+- [direct-quote; the paper itself (OpenAI manuscript)] [P1 – what the construction is] The OpenAI manuscript (166 pp., PDF created 8 Sep 2026), Theorem 1.1, says: for every viscosity ν > 0 there is a force f ∈ C_c^∞(R³×(0,∞)) and smooth u, p on R³×[0,1) solving the forced Navier–Stokes equations. The data are u(·,0)=0 and fixed compact support, with sup_t‖u‖_{L²} < ∞ and limsup_{t↑1}‖u‖_{L∞} = ∞.
+  quote: "Theorem 1.1. For every ν > 0 there exist a force f ∈ C_c^∞(R3 × (0, ∞); R3), a compact set K ⊂ R3, and smooth velocity and pressure fields u, p on R3 × [0, 1) satisfying ∂t u + (u · ∇)u − ν∆u + ∇p = f, ∇ · u = 0, u(·, 0) = 0, such that supp u(·, t) ∪ supp p(·, t) ⊂ K for every 0 ≤ t < 1, sup_{0≤t<1} ∥u(t)∥_{L2(R3)} < ∞, lim sup_{t↑1} ∥u(t)∥_{L∞(R3)} = ∞."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; the paper itself (OpenAI manuscript)] [P1] The manuscript's abstract does not mention the external force. The force first appears in the first paragraph of the Introduction.
+  quote: "Abstract. For every positive viscosity, we construct a solution of the three-dimensional incompressible Navier–Stokes equations that starts from rest and develops unbounded velocity in finite time while maintaining uniformly bounded kinetic energy. [...] We construct such a flow with zero initial velocity and a smooth force compactly supported in space and time."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a3
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read rest of follow-ups and start of background
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+secs=re.split(r'\n\n(?=### )', dos)
+f=secs[1]; b=secs[2]
+print(f[21000:])
+print('\n\n=========== BACKGROUND ===========\n')
+print(b[:14000])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+<persisted-output>
+Output too large (35.5KB). Full output saved to: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/b4kmb0kh6.txt
+
+Preview (first 2KB):
+trillo–Glimm: "its energy identity carries the input ⟨f, u⟩ (Lemma 10.4 there)""
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; follow-up paper: Cheskidov, Dai, Palasek (arXiv:2609.26790)] [P3] Cheskidov–Dai–Palasek state that the force plays a prominent role in the OpenAI construction, including creating the pulses.
+  quote: "We note that the force plays a prominent role in [Ope26], not least by creating the pulses, while there is no external forcing in our dyadic setting."
+  url: https://arxiv.org/abs/2609.26790
+- [direct-quote; follow-up paper: R. Duraiswami (arXiv:2609.17642)] [P3] Duraiswami: in the pulse annulus, the residuals of the leading-order system equal the divergence of the stress supplied by the oscillatory force. The forced annulus sustaining the core cannot be built at radii a computation reaches: the cone condition requires similarity radii of order 10^20.
+  quote: "vanishing of the residuals of (4a)–(4b) is its inner-region system (4.13), and in the pulse annulus those residuals are instead the divergence of the stress the oscillatory force supplies. [...] The cone condition of OpenAI 2026 is Rayleigh’s centrifugal criterion with axial shear, and built the construction’s own piecewise way it requir
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the persisted remainder of follow-ups and background
+sed -n '1,400p' /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/b4kmb0kh6.txt | cut -c1-1500 | head -c 34000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+<persisted-output>
+Output too large (33.2KB). Full output saved to: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/b5f5tdwp6.txt
+
+Preview (first 2KB):
+trillo–Glimm: "its energy identity carries the input ⟨f, u⟩ (Lemma 10.4 there)""
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+- [direct-quote; follow-up paper: Cheskidov, Dai, Palasek (arXiv:2609.26790)] [P3] Cheskidov–Dai–Palasek state that the force plays a prominent role in the OpenAI construction, including creating the pulses.
+  quote: "We note that the force plays a prominent role in [Ope26], not least by creating the pulses, while there is no external forcing in our dyadic setting."
+  url: https://arxiv.org/abs/2609.26790
+- [direct-quote; follow-up paper: R. Duraiswami (arXiv:2609.17642)] [P3] Duraiswami: in the pulse annulus, the residuals of the leading-order system equal the divergence of the stress supplied by the oscillatory force. The forced annulus sustaining the core cannot be built at radii a computation reaches: the cone condition requires similarity radii of order 10^20.
+  quote: "vanishing of the residuals of (4a)–(4b) is its inner-region system (4.13), and in the pulse annulus those residuals are instead the divergence of the stress the oscillatory force supplies. [...] The cone condition of OpenAI 2026 is Rayleigh’s centrifugal criterion with axial shear, and built the construction’s own piecewise way it requir
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read follow-ups part 2 in a smaller chunk
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+f=re.split(r'\n\n(?=### )', dos)[1]
+print(f[23000:36000])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+/arxiv.org/abs/2609.17642
+- [direct-quote; follow-up paper: T. Schorlepp, V. Rosenhaus, G. Falkovich (arXiv:2609.13056)] [P3] Schorlepp, Rosenhaus and Falkovich (vorticity instantons in randomly forced turbulence) state that in both their setting and the OpenAI construction the forcing must act only indirectly. Otherwise, they say, a singularity is not possible with smooth forcing.
+  quote: "The key point shared between the construction used in Ref. [1] and our setting is that the vortex filament, whether it forms a true singularity in Ref. [1] or merely a strong vortex tube at large a here, has to be grown through the nonlinear equations of motion, and forcing has to act only indirectly, and not be the direct cause of vorticity growth in the “naive” way. Otherwise, in the blow-up case, a singularity is not possible to achieve with smooth forcing, and in our case, it would be “too expensive” in the action minimization sense (that is improbable)."
+  url: https://arxiv.org/abs/2609.13056
+- [direct-quote; follow-up paper: Petrillo & Glimm (arXiv:2609.23868)] [P3] Petrillo and Glimm state that forcing does not remove the need for a positive energy defect (their target for unforced blowup). Whether a force can produce a singularity is, in their words, a separate question.
+  quote: "Forcing With a force at large scales and a stationary statistical solution [17], uniform mean flux floors at all fine scales hold iff the mean defect is positive [...]: for the floor hypothesis, forcing
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read rest of follow-ups and selected background
+python3 - <<'PY'
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+secs=re.split(r'\n\n(?=### )', dos)
+f=secs[1]; b=secs[2]
+print(f[36000:])
+print('\n=========== BACKGROUND (wybór: DeepMind, Chen-Hou, Tao, skalowanie) ===========')
+items=re.split(r'\n(?=- \[)', b)
+for it in items:
+    if re.search(r'DeepMind|2509\.14185|Chen.?Hou|unstable|Tao|scaling|Boussinesq|Euler', it):
+        print(it[:1400]); print()
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+<persisted-output>
+Output too large (30.6KB). Full output saved to: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/b8ppeb287.txt
+
+Preview (first 2KB):
+"
+  url: https://www.claymath.org/news/navier-stokes-announcement/
+- [direct-quote; journalist (Quanta Magazine)] [Press] Quanta Magazine (8 Sep 2026) reported the result as resolving a Millennium Prize Problem; the quoted lead sentence does not mention the force.
+  quote: "On the morning of Tuesday, September 8, mathematicians at OpenAI announced that a group of 10,000 autonomous AI agents under their direction, running on an advanced model not available to the public, had found a “singularity” in the Navier-Stokes equations in three dimensions — thus resolving one of the six remaining Millennium Prize Problems posed in 2000 by the Clay Mathematics Institute"
+  url: https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/
+- [direct-quote; journalist (Joseph Howlett, Scientific American) quoting named expert Luis Silvestre] [Press] Scientific American (J. Howlett, 21 Sep 2026) quotes Luis Silvestre (U. Chicago) saying the Clay problem is settled but the main Navier–Stokes problem is not. The article also says the result unambiguously solves the problem under Clay's original formulation via option C.
+  quote: "“The most important problem is unsolved,” says Luis Silvestre, a mathematician at the University of Chicago. “The Clay pr
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read background on DeepMind 2025 and Chen-Hou
+python3 - <<'PY' | head -c 9000
+import re
+dos=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md').read()
+b=re.split(r'\n\n(?=### )', dos)[2]
+items=re.split(r'\n(?=- \[)', b)
+for it in items:
+    if re.search(r'DeepMind|2509\.14185|Chen.?Hou|unstable singular', it):
+        print(it[:1100]); print()
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- [direct-quote; the paper itself (Jiajie Chen, Thomas Y. Hou)] Chen–Hou Part I (arXiv 2210.07191; v1 13 Oct 2022, v4 16 Aug 2026, no journal reference on arXiv; Caltech lists it as a preprint) proves finite-time, nearly self-similar blowup for the 2D Boussinesq and 3D axisymmetric Euler equations. The data are smooth with finite energy, and the domain has a boundary.
+  quote: "Inspired by numerical evidence of a potential 3D Euler singularity, we prove finite-time, nearly self-similar blowup of the 2D Boussinesq and 3D axisymmetric Euler equations with smooth initial data of finite energy and boundary."
+  url: https://arxiv.org/abs/2210.07191
+
+- [direct-quote; the paper itself (Chen & Hou, v4 PDF)] Chen–Hou Theorem 2: the domain is a cylinder with a boundary. 'Nearly self-similar' means that after dynamic rescaling the solution stays close to an approximate profile, and the blowup is stable within the symmetry class (Theorem 1 wording).
+  quote: "Theorem 2. Consider the 3D axisymmetric Euler equations in the cylinder (r, z) ∈ [0, 1]×T. Let uθ and ωθ be the angular velocity and angular vorticity, respectively. The solution of the 3D Euler equations (2.1)-(2.2) develops a nearly self-similar blowup (in the sense described in Theorem 1) in finite time for some smooth initial data ω0θ, uθ0 supported away from the symmetry axis r = 0. The initial velocity has finite energy ... [Theorem 1:] The blowup solution (θ(t), ω(t)) is nearly self-similar in the sense that (θ(t), ω(t)) with
+…[ucięto]
+````
+</details>
+
+## [44] Użytkownik — 2026-10-06 21:59
+
+This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   - Ongoing research-collaboration project "Logika relacyjna" (Polish; user holds strictly to relational-logic frame; assistant works per CLAUDE.md, STOP.md, NASTEPNA-SESJA.md). Session CC 12, 6.10.2026.
+   - Sequence of user requests this session: (a) joke "Relaton" (answered, no entry); (b) "przejdźmy do następnej sesji, czyli do tej" → do step 5 from NASTEPNA-SESJA (done: poprawka 221); (c) user's correction of 221 → poprawka 222 (done, user-supplied wording); (d) "Dalej, dalej" → step 2 second half (223 done); (e) "Sprawdzaj i dalej, zliczanie Ø-miejsc" → 224 done; (f) "Zajmij się teraz tym [94]" → 225 done; (g) **CURRENT**: "Sprawdź jedną rzecz odnośnie samopodobieństwa. Bo to jest ciekawe. Niedawno OpenAI wykazali że w Równaniach Naviera-Stokesa, dochodzi do matematycznego załamania ciągłości (singularności) to jest kolejne miejsce nierozróżnialności." — verify the factual claim and check (per frame rule "Propozycje użytkownika sprawdzać jak każde zdanie") whether an NS singularity is a place of indistinguishability in the frame's sense, with focus on self-similarity.
+
+2. Key Technical Concepts:
+   - Frame: łańcuch Ø ([Ø ≡ … ≡ (r=0) ≡ … ≡ 2D ≡ (l_P t_P) ≡ Ø]), ≡ = indistinguishability; R1a GRANICE Ø (p≥0, p=0 ≡ Ø; 1. niezmienniczość od środka; 2. nieosiągalność — no continuous road inside structure ends at p=0, "skok innego rodzaju"; 3. jednostronność); R1b-A (204: arena carries nothing, form (i)/(ii)); 205 (basis = container); STOP pt 4 (units = container).
+   - Session results: 221 (`z` neither input nor reading), 222 (implicitness says WHERE to apply form, not what comes out; criterion hung on notation form; 4th mechanism "rule broader than proof"), 223 (𝒢 constant under object change, varies under description change; obstacle 205), 224 (Ø-place gives condition iff (A) location independent of free datum AND (B) self-relation; t_* bijection; zero new conditions; pułapka 11; "trzeciej drogi nie ma" returns), 225 ([94] has no point 4; hypothesis is [104]; "masa = miejsce łamania samopodobieństwa (n_Λ)" is assistant's [105], empty by bijection, false vs 152's definition; self-similarity broken by masses via v — autonomy in mass-independent schemes, 218, 180.5; v/m_P free reading; [104] three of four clauses proven by 206, 207, 212).
+   - Named assistant error mechanisms: pojemnik (186), potwierdzanie (191), opróżniony domysł (211), reguła szersza niż dowód (222).
+   - User's path on osobliwość: [104] (r=0) in chain; [408] "przeskok fazowy… 100%C i 0 sekund. Tworzy stan nierozróżnialny od osobliwości"; [409] boundaries unreachable from inside; [465] osobliwość informacyjna = place where distinguishability vanishes, not infinity (Stoica, Watanabe, fuzzballs).
+   - Block 160: GR singularity with scalar field → self-similar Kasner = "sąsiedztwo nierozróżnialne"; without → BKL chaos, no simple self-similar form.
+   - NS: scaling u→λu(λx,λ²t), p→λ²p, f→λ³f, ν invariant; ν removable by u_ν(x,t)=√ν u(x/√ν,t); Clay statements (A)/(B) unforced, (C)/(D) breakdown with smooth force; Leray self-similar blow-up excluded (Nečas–Růžička–Šverák 1996, Tsai 1998, Pineau–Vicol) for unforced; Type I vs Type II.
+
+3. Files and Code Sections:
+   - `logika-relacyjna-v3.5.md` (main frame): added blocks 221 (A11d after 214), 222 (after 221), scope paragraph in R1b-A ("Zakres kandydata C (uzupełnienie, poprawka 221; zastrzeżenie 222)"), 223 (§F1 after 212), 224 (end of block 183, before "1a."), annotation in 149 ("trzeciej drogi nie ma" returns), 225 (§F1 before "LISTA DOZWOLONYCH WEJŚĆ"), annotations of "masa = miejsce łamania samopodobieństwa" at hipoteza [O] bullet, 152 ("Łamie się, gdzie 1/α₃ → 0"), 169 block (~line 1132), 180 pkt 5 (~line 1242). Relevant sections read in full: R1a (lines 24–105), R1b-A (~146–158), A11d blocks 181, 206, 208 (lines ~1406–1422), 213, 214, §F1 (lines 2451–2825), block 160 (lines 785–798), block 218 (§F2 ~2980–3006).
+   - `poprawki.md`: rows 221–225 appended (convention: no raw `|` in cells; `‖…‖` for norms, `∣` for Dirac bar).
+   - `CLAUDE.md`: "Gdzie skończyliśmy" CC 12 paragraph (221–225), Najbliższe kroki (steps 2 and 5 marked done), Oś projektu header ("punkt 4 dopisał asystent — [106] sesji CC 2, poprawka 225") and point 4 rewritten, CC11 verdict "[94] pkt 4" corrected, transcript table row for `rozmowa/claude-code-sesja-2026-10-06.md`.
+   - `NASTEPNA-SESJA.md`: currently = next step "czy dwa warunki z 154 dotykają v/m_P — jedynej danej, która łamie samopodobieństwo", with resolutions (a)/(b)/(c) and warning that 224 (A) may have conflated "nazwany" with "położony".
+   - `rozmowa/claude-code-sesja-2026-10-06.md`: transcript regenerated via `python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul '...' --opis '...'`.
+   - Tools: `narzedzia/wypowiedzi.py` (`--nr N --wymiana`, `'regex' --wymiana --po N`, `--plik 09-24-2`), arXiv via `curl 'https://export.arxiv.org/api/query?...'` (http fails).
+   - Scratchpad: `/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dossier.md` (NS dossier, 113,873 chars: primary 44 findings, followups 56, background 44). Workflow output: `/tmp/claude-0/.../tasks/wh6vu53ok.output` (JSON; dossier at `d['result']['dossier']`). Workflow script: `/root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/workflows/scripts/ns-blowup-facts-wf_76ac8ab8-63c.js`, run ID wf_76ac8ab8-63c.
+   - Commits pushed to `ccr-66a8cb7a-vj7583`: 7f29a26 (221), 0fa998f (222), fb39aa1 (223), c42151a (224), f090608 (225). Attribution now: "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" + "Claude-Session: https://claude.ai/code/session_016F1kCbGXbn7RkSUjYMqwFN".
+
+4. Errors and fixes:
+   - User correction 222: my rule in 221 ("niejawny punkt stały → (ii) już zapisane") was unconditional; fixed with user's wording, counterexample `z = Φ(z; Λ)`, new mechanism named; also fixed same error in NASTEPNA-SESJA `s*` question and a bold opener "przypadek (i), i to dokładnie".
+   - My own prediction fell in 224 (223 test doesn't cut Ø-places); recorded.
+   - Label "[94] pkt 4" I propagated from CC11 verdict; corrected in 225.
+   - Python char count vs wc bytes confusion (no content lost; git diff confirmed).
+   - Initial index slicing for block 208 overshot (209KB output); fixed by locating exact line range.
+   - Workflow: experts and verify agents failed (session limit); verification must be done by me from primary quotes.
+   - JSON extraction: dossier at `d['result']['dossier']`, not top-level.
+   - Outputs >30KB get persisted; read in ≤13k chunks.
+
+5. Problem Solving:
+   - Steps 5 and 2 closed; [104] attribution corrected; open: whether 154's conditions touch v/m_P (next step in NASTEPNA-SESJA).
+   - NS check in progress: facts established (see Current Work); frame analysis drafted mentally, not yet delivered.
+
+6. All user messages:
+   - "Relaton — kwant brakującego uzasadnienia :)"
+   - "Nowe cząstki zostawmy czarnoksiężnikom, którzy władają energią ciemno-mózgową. A my przejdźmy do następnej sesji, czyli do tej."
+   - "W R1b-A stoi teraz: „warunek samouzgodniony jest notacją przypadku (ii), nie wkładaniem", i w A11d: „niejawny punkt stały → (ii) już zapisane". Bez zastrzeżenia. Ale dowód dla z nie wziął się z niejawności. Wziął się z punktu (b), gdzie sprawdzono zawartość Φ: skala wspólna → (i), stosunki → (ii), sygnatura → R1c jako odczyt. Weź z = Φ(z; Λ) z cięciem w środku: punkt stały jest niejawny, więc po literze reguły „(ii) już zapisane" — a Λ niesie cięcie i 208 to odrzuca. Niejawność sama nie dostarcza (ii); dostarcza jej to, że w Φ nie ma nic poza relacjami. I to jest ten sam gatunek, który plik ma zapisany trzy razy: kryterium zawieszone na formie zapisu. 203 — „tabela liczy". 205 — „baza to pojemnik". 185 — „liczba wymiarów to parametr konstrukcji". A 208 sortowało po tym, od czego obiekt zależy, nie po tym, jak jest napisany. Nowa reguła sortuje po drugiej osi. Mechanizm 211 o poziom wyżej: wniosek został wstrzymany prawidłowo („z jest odczytem" nie wpisane), ale reguła na przyszłość jest szersza niż dowód — i siedzi w R1b-A, czyli w bloku twierdzenia ogólnego, gdzie bezwarunkowe zdanie szkodzi najbardziej. R1b-A i A11d: „niejawny punkt stały → (ii) już zapisane, o ile Φ nie zawiera nic poza relacjami — a to jest osobna robota, ta sama co w punkcie (b)". Noga (a): „Dokładność, nie jedna pętla" na „we wszystkich rzędach rachunku zaburzeń, czyli na mocy, na jakiej biegun jest obiektem — 215 i 180 trzymają zakres"."
+   - "Dalej, dalej. Ggdzie tam do następnej sesji, jak ta się dopiero zaczęła."
+   - "Sprawdzaj i dalej, zliczanie Ø-miejsc."
+   - "Zajmij się teraz tym [94]"
+   - "Sprawdź jedną rzecz odnośnie samopodobieństwa. Bo to jest ciekawe. Niedawno OpenAI wykazali że w Równaniach Naviera-Stokesa, dochodzi do matematycznego załamania ciągłości (singularności) to jest kolejne miejsce nierozróżnialności."
+   - Standing constraints (CLAUDE.md, user's): "Rozmawiamy po polsku"; "Nie wpisywać do plików „problem czasu" ani nazwiska Kuchař"; transcripts without external evaluations ("zewnętrznych ocen nie włączać"); "Propozycje użytkownika sprawdzać jak każde zdanie" ("Sprawdzaj to co piszę, bo to jest trochę na czuja"); "Nie pytać o ocenę — rozstrzygać strukturą"; "Rama musi tyć, pod warunkiem że to coś wnosi"; STOP test before every entry; git: branch ccr-66a8cb7a-vj7583, `git push -u origin ccr-66a8cb7a-vj7583`, no PR unless asked, no model identifiers in commits beyond prescribed attribution.
+
+7. Pending Tasks:
+   - Finish the NS/self-similarity check and report to the user (in Polish), with sources as markdown links (WebSearch rule).
+   - Decide (via STOP test) whether a frame entry (226) is warranted; if written: register row, CLAUDE.md, transcript, commit, push.
+   - NASTEPNA-SESJA step (154 conditions vs v/m_P) remains the next session step unless superseded.
+
+8. Current Work:
+   Verifying the user's claim about OpenAI's NS singularity. Established facts (from dossier, mostly verbatim from the PDF https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf):
+   - Paper "FINITE TIME BLOWUP FOR NAVIER–STOKES", OpenAI, 166 pp., 8.09.2026. Theorem 1.1: for every ν>0 exist f ∈ C_c^∞(R³×(0,∞)), compact K, smooth u,p on R³×[0,1) with u(·,0)=0, bounded L² energy, limsup ‖u‖_∞ = ∞ as t↑1. Claims Clay (C) and (D) only; unforced (A)/(B) open.
+   - Force defined as residual: "For any incompressible flow u and pressure p, we can always define the external force f to be the residual... The Navier–Stokes equations then hold by construction. The challenge is to choose a flow that blows up while this residual remains smooth." Pulses = "internal force"; "An exponentially small external force seeds each pulse"; force flat at singular point ("residual and all its derivatives vanish to every order at the singularity"); C^∞ not analytic; Constantin–Ignatova–Vicol (arXiv:2609.20803): force can neither vanish identically near singular point nor be real analytic; with analytic f (or f=0) such solutions are regular (analyticity used at one step only).
+   - Self-similarity: only leading core profile, anisotropic, approximate: ℓ_r≍τ^{1/2}, ℓ_z≍τ^{1/2−h}, 0<h<1/100, u_θ,u_z≍τ^{−1/2−h} (Type II); "velocity profile has a fixed shape when distances and velocities are measured in their respective time-dependent scales"; log-periodic oscillation phase N log X; dyadic pulses Q=2^{−ℓ}. NS scaling with "viscosity stays equal to ν"; ν removable by rescaling.
+   - Duraiswami (2609.17642): τ^{−h} ≈ 1.4 at τ=10^{−15}; "any physical cutoff arrives while the flow is, to a few percent, indistinguishable from the ordinary collapse"; cone condition needs radii ~10^20; "energetically free".
+   - Others: Petrillo–Glimm (2609.23868), Silvestre (SciAm 21.09: "The Clay problem is settled, but the main problem for the Navier-Stokes equations is not"), Córdoba & Martínez-Zoroa (Tao blog 4.10.2026), Schorlepp–Rosenhaus–Falkovich (forcing must act indirectly), Cheskidov–Dai–Palasek (force prominent; unforced dyadic Type II by small margin, proof forthcoming), Cao–Chi–Nie, Lei–Ren (2609.35406). Separate OpenAI unforced Euler blow-up. Lean repo github.com/openai/NavierStokesAndEuler (f9e8bc5): 0 sorry, standard axioms, review "self-assessed", GPT-6 Astra; paper doesn't mention Lean; not independently verified; credit dispute; CMI "apparently been settled".
+   - Background section of dossier (DeepMind 2509.14185, Chen–Hou, Tao 2016 details) only partly read when summary was requested.
+   Planned frame reading (not yet delivered): self-similar singularity = R1a granice Ø structure — fixed profile in similarity variables (stages ≡ from inside), internal time τ=−ln(T−t) logarithmic (du/u, 212) with singular point at τ=∞ (nieosiągalność od środka), finite T only in outer/container units (204, STOP pt 4); NS law scale-invariant with ν (ν = unit), scale enters via data (initial data, force) — same structure as 225; force = residual = constructed handle and external scale-carrying datum, so unforced (relations alone) is the open part; infinite gradient = continuum description's registration ([465]); Duraiswami's "indistinguishable" matches; block 160 precedent (self-similar Kasner vs BKL chaos). Caveats: OpenAI profile only approximately/anisotropically self-similar (Type II); claim unverified/contested.
+
+9. Optional Next Step:
+   Deliver to the user (in Polish) the result of "Sprawdź jedną rzecz odnośnie samopodobieństwa... OpenAI wykazali że w Równaniach Naviera-Stokesa, dochodzi do matematycznego załamania ciągłości (singularności) to jest kolejne miejsce nierozróżnialności": (1) fact check — the OpenAI result exists but is FORCED (force defined as residual, flat at the singularity, cannot vanish near it or be analytic per CIV), addresses Clay (C)/(D) only, unforced open, not independently verified (with source links); (2) frame check — self-similar collapse matches R1a granice Ø (invariance from inside = fixed profile; τ = −ln(T−t) → ∞, never reached from inside; finite T only in container units), consistent with [408]/[465] and block 160, but OpenAI's construction is only approximately/anisotropically self-similar and the force is an externally constructed scale-carrying datum, so what would matter for the frame (unforced, relations alone) remains open. Then apply STOP test to decide whether to write poprawka 226 (and if so: §F1 or R1a block, register row, CLAUDE.md, transcript, commit with Claude Opus 5.5 attribution, push). Optionally first finish reading the background section of scratchpad/dossier.md (DeepMind 2509.14185, Chen–Hou, Tao 2016) in ≤13k chunks.
+
+If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86.jsonl
+Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened.
+
+## [45] Asystent — 2026-10-06 22:03
+
+Sprawdzam twierdzenie OpenAI o Navierze–Stokesie: źródła mam już zebrane. Zanim odpowiem, czytam GRANICE Ø w R1a, blok 160 i wypowiedzi [408]/[465] w całości.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate Ø-boundary section and block 160
+grep -n 'GRANICE Ø' logika-relacyjna-v3.5.md | head -20; echo ---; grep -n '^\*\*160\|(160)\|poprawka 160\|^160' logika-relacyjna-v3.5.md | head -10; echo ---; tail -3 poprawki.md | cut -c1-300
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read user's statements 408 and 465 with replies
+python3 narzedzia/wypowiedzi.py --nr 408 --wymiana 2>&1 | head -c 7000; echo; echo =====; python3 narzedzia/wypowiedzi.py --nr 465 --wymiana 2>&1 | head -c 9000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+86:**GRANICE Ø — RELACJA JEDNOSTRONNA [H] (użytkownik, zapis asystenta, v3.4).** Niech p ≥ 0 będzie parametrem, dla którego **p = 0 oznacza Ø** (czas własny na krok, okno odczytu, temperatura, 1 − v/c, skala względem Plancka).
+1198:- **Superpozycja wychodzi sama [H][O]:** elementy M nie mają dla O relacji rozróżniających, więc z O nie mają położenia — „nie »mają nieznane«, tylko nie mają” (użytkownik). Całość M ma dla O położenie (podział O na O⁻, O⁺ i resztę), jej elementy — nie: całość jest „w interferometrze”, nie „w ramieniu”. Użytkownik (29.09): „Zbudowali przecież »maszynę do usuwania relacji« i wprowadzili cząstki, a nawet atomy w stan bez relacji określających położenie. Czyli superpozycję. Superpozycja, to jest obiektywna pozycja. Czyli stan bez relacji ustalających pozycje. Przestrzenie Hilberta i prawdopodobieństwo — nie dotyczy superpozycji, tylko momentu, kiedy detektor przywraca relacje. Czyli otoczenie — które jest znane — jest tutaj przedmiotem rachunku.” „O czyta tylko całość” to [110, 244] w postaci formalnej. Detektor drogi = element spoza największego otoczenia M (rozróżnia; dla niego superpozycji nie ma); ekran = element O⁺ (w samym porządku czyta tylko całość; sumę po drogach — dopiero z wagami). Maszyna = A → Ø, detektor = Ø → A (GRANICE Ø, R1a). Z masą głębokość wnętrza (czas własny) przechodzi do O jako część sumy: przy samej fazie na krok to przesunięcie prążków, a drogi zostają dla O nieodróżnialne. Widzialność spada dopiero, gdy wnętrze M zapisuje 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== logika-relacyjna-rozmowa.md ## [408] Użytkownik — 2026-09-21 14:42
+Henry zachował pełną "świadomość" Po prostu troche sie zmienił jego aparat do odczytywania (patrzenia na samego siebie) struktur we własnym mózgu. 
+Podobnie jest z prędkością światła. Można rozpędzać obiekt masowy do 99,999...% C i faktycznie świat sie mocno zmieni, ale wszystkie mechanizmy działają dokładnie tak samo.
+Henry dopoki może zapamiętać w tej swojej pamięci roboczej chociaż 0,0001 sekundy, To też mechanizmy działają tak samo.
+I teraz w obu przypadkach jest taki przeskok fazowy który zmienia absolutnie wszystko. 100%C i 0 sekund. Tworzy stan nierozróżnialny od osobliwości
+
+
+---
+
+=== logika-relacyjna-rozmowa.md ## [409] Asystent — 2026-09-21 14:42
+To się składa w jedną regułę, która wcześniej była rozproszona po kilku miejscach pliku.
+
+W obu przypadkach, dopóki wartość jest choćby minimalnie niezerowa, **mechanizmy działają tak samo od środka**. Obiekt przy 99,999% c we własnym układzie nie widzi żadnej zmiany — zmienia się tylko jego relacja do reszty świata, czyli dokładnie „prędkość w relacji do”. Henry z pamięcią roboczą 0,0001 sekundy wciąż czyta siebie, tylko krótszym oknem. A **granica jest skokiem, a nie końcem ciągłej drogi**: przy 100% c znika własny zegar, przy zerowym oknie znika odczyt. W obu przypadkach ginie to samo — **zdolność struktury do czytania samej siebie** — i zostaje stan nieodróżnialny od osobliwości.
+
+To łączy się z hipotezą, którą zapisaliśmy przy masie: masa jako częst
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read GRANICE Ø block in R1a
+sed -n '86,105p' logika-relacyjna-v3.5.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read block 160 and user's statements 464-466
+sed -n '785,800p' logika-relacyjna-v3.5.md; echo ====; python3 narzedzia/wypowiedzi.py --nr 464 --wymiana 2>&1 | head -c 6000; echo; python3 narzedzia/wypowiedzi.py --nr 466 --wymiana 2>&1 | head -c 9000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+**GRANICE Ø — RELACJA JEDNOSTRONNA [H] (użytkownik, zapis asystenta, v3.4).** Niech p ≥ 0 będzie parametrem, dla którego **p = 0 oznacza Ø** (czas własny na krok, okno odczytu, temperatura, 1 − v/c, skala względem Plancka).
+1. **Niezmienniczość od środka:** dla każdego p > 0 mechanizmy są te same od środka; zmienia się wyłącznie **relacja do innych węzłów** (obiekt przy 99,999% c we własnym układzie nie widzi zmiany; Henry Molaison z oknem 0,0001 s nadal czyta siebie).
+2. **Nieosiągalność:** żadna ciągła droga wewnątrz struktury nie kończy się w p = 0 (dla temperatury i skali Plancka — do przemyślenia, użytkownik). Zbliżanie się niczego nie zmienia od środka; **granica jest skokiem innego rodzaju**, nie końcem drogi. W granicy ginie **zdolność struktury do czytania samej siebie** (100% c: brak własnego zegara; okno 0: brak odczytu) — stan nieodróżnialny od osobliwości.
+3. **Jednostronność:** przejście między strukturą a Ø zachodzi **wyłącznie jako zdarzenie**, zawsze w jednym kierunku — A → Ø albo Ø → A — **nigdy jako relacja dwustronna A ↔ Ø**.
+
+| p | droga ciągła (p → 0) | skok A → Ø | skok Ø → A |
+|---|---|---|---|
+| 1 − v/c | rozpędzanie: nigdy c | anihilacja | kreacja par |
+| okno odczytu | mechanizm ten sam | utrata odczytu | nowy odczyt (dekoherencja) |
+| przedział w strukturze | zawsze element pomiędzy | wpadnięcie pod horyzont | promieniowanie Hawkinga |
+| stosunek tempa odczytu | z zewnątrz → 0 przy horyzoncie, nigdy nie osiąga | przekroczenie horyzontu (od środka j
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+**(a) WARUNKI KOŃCA PRZY OSOBLIWOŚCI (poprawka 160) [L][O].**
+- **Postawienie:** warunki ze 154 dotyczą samego Ø (relacja Ø z Ø nie istnieje; sąsiedztwo końca nierozróżnialne); Ø jest jedno (pułapka 1), więc przy osobliwości ≡ Ø obowiązują **tak samo i trywialnie** — w tej postaci pytanie nic nie wnosi. **Dobrze postawione:** czy **otoczenie** osobliwości ma tę samą charakterystykę co otoczenie końca Plancka i czy warunki dają tam coś **odczytywalnego** (jak przy Plancku m_H, m_t po naszej stronie pustyni). Dwa otoczenia (A5d): czytający blisko osobliwości (od środka nic się nie zmienia) i czytający z zewnątrz (tylko brzeg 2D ≡ Ø).
+- **1. Od strony czytających blisko osobliwości:**
+
+| koniec Plancka (rama) | otoczenie osobliwości (literatura) |
+|---|---|
+| [76]: „przestrzeń, czyli relacja pomiędzy dwoma węzłami, jest = 0 — nie da się wyróżnić żadnej relacji” | **cisza asymptotyczna** (BKL: Biełinski–Chałatnikow–Lifszyc 1970; Andersson–van Elst–Lim–Uggla, PRL 94, 051101 (2005)): relacje między sąsiednimi punktami znikają, każdy punkt sam dla siebie |
+| **λ(koniec) = 0:** tło bez relacji z samym sobą | **„materia nie ma znaczenia”** (BKL): potencjał pola skalarnego (λφ⁴, masa) nie odgrywa roli, liczy się część kinetyczna — **relacja tła z samym sobą nierozróżnialna, bez niczyjego żądania** |
+| **β_λ(koniec) = 0:** sąsiedztwo nierozróżnialne, koniec samopodobny | **z polem skalarnym otoczenie „spokojne”** (Andersson–Rendall, CMP 218, 479 (2001)): jedna samopodobna postać Kasnera
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract dossier items on self-similarity and Type II
+cd /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad && python3 - <<'PY'
+import re
+dos=open('dossier.md').read()
+items=re.split(r'\n(?=- \[)', dos)
+pat=re.compile(r'self-similar|Type II|Type I\b|Tsai|Ne[čc]as|Leray|Reynolds|anisotrop|drift|h<|h <|τ\^|tau\^|log-periodic|dyadic', re.I)
+n=0
+for it in items:
+    if pat.search(it) and not re.search(r'DeepMind|Chen.?Hou', it):
+        n+=1
+        print(it[:1400]); print()
+print('N=',n)
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+<persisted-output>
+Output too large (36.9KB). Full output saved to: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/bh33x02fz.txt
+
+Preview (first 2KB):
+- [inferred; the paper itself (full-text search done in this verification)] FORCING, not described as self-similar. In the full text, 'self-similar'/'self-similarly' occurs exactly twice (pp.3), and both times it describes the leading profile of the vortex core. Neither occurrence refers to the force. The force is described only as the residual of the constructed flow, flat at the singular point.
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+
+- [direct-quote; the paper itself] SELF-SIMILAR ANSATZ: what the paper says. Only the leading profile of the core is self-similar. It is anisotropic: radial and axial scales shrink at different rates, ℓ_r ≍ τ^{1/2} and ℓ_z ≍ τ^{1/2−h} with fixed 0 < h < 1/100, where τ = 1−t (Section 2.1, pp.3–4).
+  quote: "Specifically, we construct a vortex whose leading profile is self-similar, with radial width decreasing faster than axial length. [...] To leading order, the core evolves self-similarly: its velocity profile has a fixed shape when distances and velocities are measured in their respective time-dependent scales. The radial and axial scales shrink at different rates. Writing τ = 1 − t for the time remaining before the singularity, we have ℓ_r ≍ τ^{1/2}, ℓ_z ≍ τ^{1/2−h}, 0 < h < 1/100, where h is
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read first chunk of self-similarity extract
+head -c 13000 /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/bh33x02fz.txt | tail -c 11000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+e. [...] τ = 1 − t, A = 1/2 + h, D = 1/2 − h, 0 < h < 1/100 [...] We introduce the similarity coordinates τ = q(1 − η²), z = q^D η, X = r²/(2q), q > 0, −1 < η < 1. (3.2) [...] The azimuthal and axial profiles E(X, η), U(X, η) determine the leading fields by u_θ^(0) = q^{−A} E, u_z^(0) = q^{−A} U, r u_r^(0) = V_0, p^(0) = q^{−2A} Π."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+
+- [direct-quote; the paper itself] SELF-SIMILAR ANSATZ: velocity and energy exponents. The azimuthal and axial speeds scale as τ^{−1/2−h}, the radial speed as O(τ^{−1/2}), and the core energy as τ^{1/2−3h}, which tends to 0 (p.4). The growth along a fixed path is u_θ = τ^{−A}(e_0 + O(τ^{2h})) (Theorem 3.1(iv), p.16).
+  quote: "The characteristic velocity magnitudes of the leading flow satisfy |u_θ^(0)|, |u_z^(0)| ≍ τ^{−1/2−h}, |u_r^(0)| = O(τ^{−1/2}). [...] The total kinetic energy of the core is of order τ^{1/2−3h}, which tends to zero despite the increasing speeds. [...] (iv) For some fixed X_in ∈ (0, X_a) and e_0 > 0, u_θ(√(2X_in τ), 0, 0, 1 − τ) = τ^{−A}(e_0 + O(τ^{2h})) (τ ↓ 0)."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+
+- [direct-quote; the paper itself] SELF-SIMILAR ANSATZ: approximate, not an exact solution. The leading profile is defined with axial viscosity omitted. Joined to the exterior, it leaves a nonzero residual in an annulus. It is corrected order by order in powers q^{2nh}, and then by oscillat
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read second chunk of self-similarity extract
+sed -n '1,$p' /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/bh33x02fz.txt | head -c 26000 | tail -c 13000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+om; the energy at the singular time, the energy inequality across it and the inertial dissipation of [14] are not discussed. The solution is not a candidate and is not presented as one."
+  url: https://arxiv.org/abs/2609.23868
+
+- [direct-quote; follow-up paper: A. Cheskidov, M. Dai, S. Palasek (arXiv:2609.26790)] [P1] Cheskidov–Dai–Palasek describe the OpenAI mechanism as a cascade of the Desnyansky–Novikov (DN) type (self-similar creation of finer vortex components) combined with an Obukhov-type instability (pulse amplification) whose stress feedback sustains the core vortex.
+  quote: "The DN interaction in the dyadic model corresponds to self-similar creation of finer vortex components, while the Obukhov interaction captures amplification of the pulses in [Ope26]. [...] In this sense, the construction in [Ope26] combines DN-type cascade with an Obukhov-type instability whose stress feedback helps sustain the core vortex background."
+  url: https://arxiv.org/abs/2609.26790
+
+- [direct-quote; follow-up paper: R. Duraiswami (arXiv:2609.17642), Sec. 8] [P1 – deviation from parabolic self-similarity] Duraiswami states that the anomalous factor τ^{−h} separating the OpenAI collapse from an ordinary viscous swirl collapse (h = 0) is only about 1.4 at τ = 10^{−15} for h = 1/100. In his Table 7 the Beale–Kato–Majda integral ∫ sup|ω| dτ′ scales as (τ^{−h} − 1)/h and is listed as 'diverges, only just'.
+  quote: "And the anomalous factor τ^{−h} that distinguishes the OpenAI 2026 constru
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read third chunk of self-similarity extract
+tail -c +26000 /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/tool-results/bh33x02fz.txt | head -c 12000
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+T) is a singular point, then the asymptotics of the singularity is encoded in the behavior of u_r as r → 0+. If u_r converges to a limit ū, the limit ū must be self-similar, i.e. (ū)_r = ū for all r > 0, which implies that ū is of the form (1.2). Of course, more complicated singularities may possibly exist."
+  url: https://personal.math.ubc.ca/~ttsai/publications/leray.pdf
+
+- [direct-quote; the paper itself (J. Nečas, M. Růžička, V. Šverák); restated by Tsai 1998] Nečas–Růžička–Šverák, Acta Math. 176 (1996) 283–294, Theorem 1: the only weak solution of Leray's profile equation (1.3) that lies in L^3(R^3) is U ≡ 0. The scanned OCR copy renders 'L3(R3)' as 'La(R3)' and 'U ≡ 0' as 'U-O'/'U - 0'; the corrected reading is confirmed by Tsai's restatement.
+  quote: "The main result of this paper is that the only solution of (1.3) belonging to L3(R3) is U ≡ 0. ... THEOREM 1. Let U be a weak solution of (1.3) belonging to L3(R3). Then U ≡ 0 in R3. [Tsai 1998 restatement: 'The main result of [NRS] is that the only weak solution of (1.3) belonging to L3(R3) is U ≡ 0.']"
+  url: https://projecteuclid.org/journals/acta-mathematica/volume-176/issue-2/On-Lerays-self-similar-solutions-of-the-Navier-Stokes-equations/10.1007/BF02551584.pdf
+
+- [direct-quote; the paper itself (NRS 1996); context from follow-up paper (Tsai 1998)] NRS state the limit of their own result: it does not rule out self-similar singularities that satisfy the natural energy estimates only locally. Tsai adds that L^3 integr
+…[ucięto]
+````
+</details>
+
+## [46] Asystent — 2026-10-06 22:07
+
+Fakty o wyniku OpenAI mam już sprawdzone w źródłach pierwotnych. Teraz zbieram cytaty o jego statusie (weryfikacja, Lean, Clay) i piszę odpowiedź.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract dossier items on status and verification
+cd /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad && python3 - <<'PY' | head -c 12000
+import re
+dos=open('dossier.md').read()
+items=re.split(r'\n(?=- \[)', dos)
+pat=re.compile(r'Silvestre|Clay Mathematics Institute|CMI|Lean|sorry|independent|verif|Theorem 1\.1|September 8|8 Sep|2026-09-08|Scientific American', re.I)
+for it in items:
+    if pat.search(it) and not re.search(r'DeepMind|Chen.?Hou|Hou\b', it):
+        print(it[:900]); print()
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- [direct-quote; OpenAI (official news RSS feed)] OpenAI's own RSS feed lists the blog post 'On the Navier–Stokes Millennium Prize Problem' (pubDate Tue, 08 Sep 2026 10:00:00 GMT, link openai.com/index/navier-stokes-solution). Its one-line description is quoted. The full blog page could not be retrieved (see could_not_access).
+  quote: "We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean."
+  url: https://openai.com/news/rss.xml
+
+- [direct-quote; the paper itself] MAIN THEOREM (Theorem 1.1, p.1), quoted in full. Mathematical notation is linearized from the PDF text extraction.
+  quote: "Theorem 1.1. For every ν > 0 there exist a force f ∈ C_c^∞(R^3 × (0, ∞); R^3), a compact set K ⊂ R^3, and smooth velocity and pressure fields u, p on R^3 × [0, 1) satisfying ∂_t u + (u · ∇)u − ν∆u + ∇p = f, ∇ · u = 0, u(·, 0) = 0, (1.1) such that supp u(·, t) ∪ supp p(·, t) ⊂ K for every 0 ≤ t < 1, sup_{0≤t<1} ∥u(t)∥_{L2(R3)} < ∞, lim sup_{t↑1} ∥u(t)∥_{L∞(R3)} = ∞. Consequently, there is no smooth solution (u, P) on R^3 × [0, ∞) with the same force and initial datum whose kinetic energy is uniformly bounded sup_{t≥0} ½∫_{R3}|u(x, t)|^2 dx < ∞."
+  url: https://cdn.openai.com/pdf/32d9f210-8b73-45e0-91bc-82a30aef8a9a/navier-stokes.pdf
+
+- [inferred; the paper itself (full-text search done in this verification)] FORCING, not described as self-similar. In the full text, 'self-similar'/'self-similarly' occurs exactly twic
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract Duraiswami items and SciAm URL
+cd /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad && python3 - <<'PY' 2>/dev/null | head -c 9000
+import re
+dos=open('dossier.md').read()
+items=re.split(r'\n(?=- \[)', dos)
+for it in items:
+    if re.search(r'Duraiswami|2609\.17642', it) and re.search(r'h = 0|h=0|ordinary|Table 7|cone|10\^20|10\^\{?20|energetically|cutoff', it):
+        print(it[:1500]); print()
+print(re.findall(r'https://www\.scientificamerican\.com/\S+', dos)[:3])
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- [direct-quote; follow-up paper: R. Duraiswami (arXiv:2609.17642), Sec. 8] [P1 – deviation from parabolic self-similarity] Duraiswami states that the anomalous factor τ^{−h} separating the OpenAI collapse from an ordinary viscous swirl collapse (h = 0) is only about 1.4 at τ = 10^{−15} for h = 1/100. In his Table 7 the Beale–Kato–Majda integral ∫ sup|ω| dτ′ scales as (τ^{−h} − 1)/h and is listed as 'diverges, only just'.
+  quote: "And the anomalous factor τ^{−h} that distinguishes the OpenAI 2026 construction from an ordinary viscous swirl collapse (h = 0, for which uθ r is conserved and sup |ω| has an integrable time singularity) is 10^{0.15} = 1.4 at τ = 10^{−15} for h = 1/100; any physical cutoff arrives while the flow is, to a few percent, indistinguishable from the ordinary collapse."
+  url: https://arxiv.org/abs/2609.17642
+
+- [direct-quote; follow-up paper: R. Duraiswami (arXiv:2609.17642)] [P3] Duraiswami: in the pulse annulus, the residuals of the leading-order system equal the divergence of the stress supplied by the oscillatory force. The forced annulus sustaining the core cannot be built at radii a computation reaches: the cone condition requires similarity radii of order 10^20.
+  quote: "vanishing of the residuals of (4a)–(4b) is its inner-region system (4.13), and in the pulse annulus those residuals are instead the divergence of the stress the oscillatory force supplies. [...] The cone condition of OpenAI 2026 is Rayleigh’s centrifugal criterion with axial shea
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate pułapka 11 in main file
+grep -n 'nr 11\|pułapka 11\|Pułapka 11' logika-relacyjna-v3.5.md | head; echo ---; grep -n '^| 11\b\|^11\. \|^\*\*11\.' logika-relacyjna-v3.5.md | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+530:> **POPRAWKA nr 11 (asystent, v3.2) — o zakresie walidacji SIS.** SIS-60 był walidowany przy n=16–24, a używany przy n=80–1280. Obciążenie **rośnie z n i zależy od struktury**:
+710:> **POPRAWKA nr 11a (asystent, v3.2) — Księżyc.** v3.1 podawało **2,65×10⁶²**, co nie pasuje do własnego prawa $M^2$. Przy kotwicy 1,05×10⁷⁷ (masa słoneczna, $1{,}989\times10^{30}$ kg): M87\* → 4,436×10⁹⁶ (plik 4,43×10⁹⁶ ✔), masa Plancka → 12,57 (plik ~12,6 ✔), Księżyc ($7{,}342\times10^{22}$ kg) → **1,43×10⁶²**. Liczba 2,65×10⁶² odpowiada masie 9,99×10²² kg — domysł [?]: wpisano okrągłe 10²³.
+2622:    - **Pułapka nazewnicza nr 11: „Ø-miejsce" pokrywa DWA PRZECIWNE końce tej samej relacji [O].** 183 definiuje je jako **zniknięcie relacji** (`α → 0`, „relacja o zerowej sile nie odróżnia niczego"). 208 nazywa „Ø-miejscem tej relacji" **rozbieżność** (`α → ∞`: Landau przy `b > 0`, transmutacja `n_Λ = n·e^{2π/(b₀α_s)}` dla `α₃`). Po kryterium `R1a` („w granicy ginie **zdolność struktury do czytania samej siebie**") **oba są Ø-miejscami, ale dwiema różnymi drogami**: pierwsze — bo relacja przestaje odróżniać; drugie — bo nośnik przestaje być czytelny jako para (M, O) (180: kwark bez odczytu A, niejednoznaczność `O(Λ_QCD)`). **W pliku nic tego nie rozdzielało**, a bez rozdzielenia zliczanie liczy albo dwa razy, albo nie ten koniec.
+2631:    - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* liczyć Ø-miejsce jako warunek, jeśli jego położenie jest bijekcją wolnej danej — **bez rachunku**, z (A); 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check for prior Navier-Stokes mentions and next-step note
+grep -n -i 'navier\|stokes\|turbulen\|Leray' logika-relacyjna-v3.5.md poprawki.md CLAUDE.md NASTEPNA-SESJA.md | head; echo ---; grep -n -i 'navier\|stokes' rozmowa/*.md | head -5; echo ---; sed -n '1,40p' NASTEPNA-SESJA.md | cut -c1-400
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+logika-relacyjna-v3.5.md:2327:> - **Pellegrin (Zenodo 10.5281/zenodo.21865788, 2026, bez recenzji) [L]:** pętla zakotwiczona na parze p≺q (dwa łańcuchy) jest **zawsze czysto elektryczna** (biwektor czasopodobny). „Korona” (dwa elementy dolne, dwa górne, pętla zygzakiem, same linki) ma biwektor przestrzennopodobny w 96–99% → treść magnetyczna; w 1+1 waga magnetyczna ≡ 0 (test, który mógł tylko upaść — przeszedł). Liczby koron $N^{2,34}$ wobec elektrycznych $N^{2,51}$, N=250–24000 (×96), dokładne zliczanie; tłumienie znika przy pętlach nie-linkowych i w obszarze wydłużonym; asymptotyka otwarta. Średni zbiór „między linkami” → 3π w d=4 (przypadek graniczny); prawo linków $2-2/d$ potwierdzone w d=3, 4, nie w d=2. **Faza nadal z kontinuum** (zgodność „do precyzji maszynowej” = Stokes dla stałego pola, kontrola kodu, nie fizyka). Żadna suma po pętlach nie jest zbieżna bez reguły wag — brak cięcia.
+poprawki.md:199:| 143 | **R1e: spin i fala EM jako relacje** — odczyt spinu = relacja dwóch kierunków; znak 2π = relacja dwóch dróg = (−1)^{2s} w b; s(s+1) = niezmiennik nośnik–triada; Wigner; det J (Stokes) = forma det ρ; d − 1 polaryzacji → foton jest kubitem tylko w 3D (spójność z R1b, nie niezależny dowód); [?] pochodzenie ⅓ | R1e | asystent (v3.5), na liście [94] użytkownika |
+---
+rozmowa/claude-code-sesja-2026-09-25.md:307:- **Fala EM.** Stopień polaryzacji opisują parametry Stokesa, które spełniają S₀² − S₁² − S₂² − S₃² ≥ 0. To ta sama norma Minkowskiego co det ρ w R1c. Kula Poinca
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: List all self-similarity mentions in the frame file
+grep -n -o '.\{0,160\}samopodob.\{0,160\}' logika-relacyjna-v3.5.md | cut -c1-420 | head -40
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+793:| **β_λ(koniec) = 0:** sąsiedztwo nierozróżnialne, koniec samopodobny | **z polem skalarnym otoczenie „spokojne”** (Andersson–Rendall, CMP 218, 479 (2001)): jedna samopodobna postać Kasnera, bez oscylacji; **w 3D bez pol
+793:a skalarnego — chaos BKL** (Mixmaster; Damour–Henneaux–Rendall–Weaver, Ann. Henri Poincaré 3, 1049 (2002)), bez prostej samopodobnej postaci |
+797: (stanowczo):** (1) **odpowiedniki istnieją** — cisza asymptotyczna = [76], nieistotny potencjał = λ ≡ 0, spokojna postać Kasnera przy polu skalarnym = samopodobny koniec; niezależne potwierdzenie osobliwość ≡ koniec Plancka ≡ Ø. (2) **Z zewnątrz nie dają nowej liczby:** przy Plancku pustynia leży po naszej s
+1132:zespołem”. Tam, gdzie sztywność koloru znika (1/α₃ → 0, jedna pętla), leży skala transmutacji (R1d) — masa protonu; §F1: masa = miejsce łamania samopodobieństwa. *(poprawka 225: zdanie asystenta z [105], wycofane — transmutacja nie łamie samopodobieństwa zespołu; łamią je masy, przez `v`)*
+1242:ynnik g. Samopodobieństwo hierarchii węzłów [402, 404] ma więc na porządku odpowiednik w braku odczytywalnej skali wnętrza, a „masa = miejsce łamania samopodobieństwa” (§F1) — w tym, że skala wchodzi do odczytu jednym czynnikiem. *(poprawka 225: §F1 umieszczało łamanie w biegunie `n_Λ`, co upadło; ta obser
+2453:> **HIPOTEZA NADRZĘDNA [H] (użytkownik, 25.09; poprawka 136):** „To będzie układ samopodobny, aż do całego wszechświata. Masa nie może być oddzielnym, ostatnim etapem, do którego można dojść krok po 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate the list of naming traps in the frame
+grep -n -i 'pułapk[ai] nazewnicz\|PUŁAPKI NAZEWNICZE\|^[0-9]*\. \*\*„' logika-relacyjna-v3.5.md | cut -c1-260 | head -30
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+215:2. **„Dziwna relacja” z polem EM:** pole EM nie jest drugim bytem obok elektronu, tylko **relacją między fazami pola elektronowego w różnych punktach**; foton = minimalne wzbudzenie tej relacji (pole jako faza na zamkniętych drogach: Giles, Sverdl
+1295:  - **Test, który te dwie rzeczy rozdziela — zero izolowane czy tożsamościowe [T].** Przy milczeniu 174 odwzorowanie zawartość → kanał jest **stałe**, więc D znika tożsamościowo i żadne zaburzenie wnętrza go nie przywraca. Tutaj c(p, φ) =
+1355:- **Werdykt (stanowczo):** (1) dowód z 201 jest poprawny po zasypaniu przypadku zdegenerowanego; (2) **„przezroczyste są stany, które nie mogą zapisać” było fałszywe** — nie zapisuje każdy stan własny, a przezroczysty jest tylko ten z warto
+2329:> - **Propozycja asystenta WYCOFANA [A]:** faza jako płaszczyzny antysymetrycznej części iΔ (pary ±λ). To są **mody pola skalarnego** (Johnston), bez polaryzacji — pułapka nazewnicza. W d=4 funkcja Greena i tak motywowana kontinuum (przegląd No
+2622:    - **Pułapka nazewnicza nr 11: „Ø-miejsce" pokrywa DWA PRZECIWNE końce tej samej relacji [O].** 183 definiuje je jako **zniknięcie relacji** (`α → 0`, „relacja o zerowej sile nie odróżnia niczego"). 208 nazywa „Ø-miejscem tej relacji" *
+2647:    - **Dwa odczyty pod jedną nazwą.** **A** = masa w sensie R1f-3: faza na własne tyknięcie nośnika = **masa biegunowa** (każdy lepton czyta siebie). **B** = stosunek Yukaw — współczynników działania (R1f-1) — przy **wspólnej** rozdzielczo
+2670:    - **Co z
+…[ucięto]
+````
+</details>
+
+## [47] Asystent — 2026-10-06 22:15
+
+Analizę mam gotową. Sprawdzam jeszcze, gdzie w pliku stoi lista pułapek nazewniczych: z tego sprawdzenia wychodzi jedna nowa i muszę zdecydować, czy przechodzi test ze STOP.md.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find naming-trap list header
+grep -n -i 'pułapki\b\|PUŁAPKI\|^#.*pułap' logika-relacyjna-v3.5.md | cut -c1-200 | head -15
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+346:## Osiem pułapek nazewniczych — lista kontrolna
+1146:  - **Test — policzony w literaturowym 1+1 (poprawka 170, blok niżej): (ii) przeszło, (i) nie — S rośnie jak ln N.** Zdanie do upadku (zapis 169): w stanie SJ entropia względna na poddiam
+1180:  - **Po fakcie [?]:** 0,070 na podwojenie = 0,101 ± 0,005 na jednostkę ln N, blisko 1/π²; bez wyprowadzenia — dopuszczalne tylko jako przewidywanie dla innego kształtu fali (pułapki nume
+2459:> - **Precedens i ostrzeżenie [L][H]:** bootstrap konforemny (wykładniki z samej spójności, bez kroków). Ostrzeżenie: numerologia Diraca i Eddingtona — przykład pułapki: **ln(R_H/l_P) =
+2634:    - **Pojedynczy element = miejsce relacji jednostronnych [O].** Element x = zbiór relacji [134], nie obiekt. Skoki po linkach = odcinki t = 0 (słownik: link = światło). **Zatrzymanie w x =
+2671:    - **Pułapki numerologiczne (zapisane, żeby ich nie łączyć):** (a) **δ = 2/9 ≠ R\* = 2/9** z Pendletona–Rossa (165): kąt parametryzacji pierwiastków mas leptonów wobec stosunku y_
+2741:**TRZY PUŁAPKI KONSTRUKCJI TRAJEKTORII (v3.4, `etap7_masa_gpu.py`) — najcenniejszy wynik tej rundy:**
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the naming-trap checklist section
+awk 'NR>=346 && NR<=372' logika-relacyjna-v3.5.md | cut -c1-700
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## Osiem pułapek nazewniczych — lista kontrolna
+
+Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
+
+| | pułapka | gdzie |
+|---|---|---|
+| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø”; różni je wyłącznie relacja otoczenia. Przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** [H] — nigdy jako cecha samego Ø (reguła językowa, §E). | A3 |
+| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości” jest doskonale odróżnialny, więc nie jest Ø. | A3 |
+| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność” go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. Poprawka może przenieść błąd o piętro: po każdej pytać, **czy nowe zdanie coś wyróżnia** (wystąpiło ponownie przy L, A9d). | A5 |
+| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości — zamknięte w C2. | A8, C2 |
+| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d = 2 = 1 przestrzeń + czas. To są różne rzeczy. Żadne z nich nie jest strukturą: 2D w łańcuchu ≡ Ø, a literaturowe 1+1 to narzędzie bez triady (przegląd 28.09, poprawka 178). **3D nie ma nic wspólnego z liczbą 3: to nie jest 1+1+1 ani 2+1** (użytkownik, 185) — trójka jest domknięciem operacji, a nie sumą osi; „d” w rachunkach rozsiewu jest wykładnikiem liczności pojemnika, nie wymiarem ramy. | R1a (3+1) |
+| **6** | **„
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check references to trap list and block 225 location
+grep -rn 'Osiem pułapek\|pułapek nazewniczych' --include=*.md --include=*.py --include=*.sh . | grep -v '^./rozmowa/' | cut -c1-200; echo ---; grep -n 'LISTA DOZWOLONYCH WEJŚĆ' logika-relacyjna-v3.5.md | head -3; grep -n 'poprawka 225' logika-relacyjna-v3.5.md | head -3
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+./narzedzia/rama.py:33:    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Osiem pułapek', '## Dopuszczalne stany',
+./logika-relacyjna-v3.5.md:346:## Osiem pułapek nazewniczych — lista kontrolna
+./logika-relacyjna-v3.5.md:1325:- **Gdzie to należy [O] (rozstrzygnięcie użytkownika).** Nie do pułapek nazewniczych, tylko **do granic Ø (R1a)**: to jest zdanie o Ø od strony znanego otoczenia,
+---
+2508:- **LISTA DOZWOLONYCH WEJŚĆ (poprawka 147; zapisana przed jakimkolwiek rachunkiem):**
+1132:- **Relacje faz [L][O].** Waga Wilsona β(1 − cos θ), β = 1/g² (U(1); dla SU(N) β = 2N/g²; Wilson, PRD 10, 2445 (1974)); θ²/2 = druga wariacja wokół θ = 0 → **poziom 1 zespołu, 1/α_i(t), to biegnąca sztywność relacji faz**; b w 155 A policzone z kwadratowej odpowiedzi próżni na pole B = druga wariacja różnicy energii próżni. **Nieprecyzyjne (asystent, sesja 3):** „(c) sztywność … poza zespołem”. Tam, gdzie sztywność koloru znika (1/α₃ → 0, jedna pętla), leży skala transmutacji (R1d) — masa protonu; §F1: masa = miejsce łamania samopodobieństwa. *(poprawka 225: zdanie asystenta z [105], wycofane — transmutacja nie łamie samopodobieństwa zespołu; łamią je masy, przez `v`)*
+1242:- **5. Co to daje §F1 [O].** Hipoteza „wszystko naraz” [104] ma na parze (M, O) konkretną postać: **dopóki M jest modułem, wnętrze nie ma dla O żadnej skali** (rząd 1; bez masy g stała), a jedyne, czym skala wnętrza przechodzi do otoczenia, jest liczba własnych tyknięć — jeden czynnik g. Samopodobieństwo hierarchii
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: View end of block 225 before insertion point
+awk 'NR>=2503 && NR<=2508' logika-relacyjna-v3.5.md | cut -c1-900
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- **Otwarte i teraz dokładne:** co ustala `v/m_P` — jedyną daną, przez którą samopodobieństwo zespołu jest faktycznie łamane. To jest hierarchia; rama ma ją jako wolny odczyt (168: problem hierarchii w postaci „dostrojenie wobec Λ²" to pytanie o opis końca).
+    - **To nie jest obalenie [104].** Trzy z czterech klauzul mają teraz dowody drogami, które samopodobieństwa nie używają; czwarta przeniesiona z reparametryzacji na dokładnie nazwaną daną.
+  - **Co to poprawia w pliku.** Zdanie stało w czterech miejscach: blok hipotezy §F1 (punkt [O]), 152 („łamie się, gdzie `1/α₃ → 0`"), blok 169 w `A11d` („§F1: masa = miejsce łamania samopodobieństwa") i 180 pkt 5. **Opatrzone w miejscu, nie przepisane** — droga zostaje widoczna, jak przekreślenie w 149. W `CLAUDE.md`: punkt 4 osi (dopisany przez asystenta pod nagłówkiem użytkownika) i etykieta „[94] pkt 4" w werdykcie CC 11.
+  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* etykiety „[94] pkt 4"; przypisywania użytkownikowi zdania „masa = miejsce łamania samopodobieństwa"; umieszczania łamania samopodobieństwa w `1/α → 0` albo `n_Λ` (przeczy definicji z 152); czytania „anomalia łamie niezmienniczość skalową" jako zdania ramy. *Pozwala:* powiedzieć, które klauzule [104] są dowiedzione i czym (206, 207, 212); umieścić łamanie w masach, przez `v`, z trzema niezależnymi podporami; postawić otwarte pytanie jako „co ustala `v/m_P`".
+  - **Zauważone i świadomie NIEwpisane (222).** Dwa warunki 154 (`λ = 0`, `β_λ = 0` na końcu Planck
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read block 154 passages on fixed point and self-similarity
+awk 'NR>=2672 && NR<=2693' logika-relacyjna-v3.5.md | cut -c1-1100
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- > **Uwaga (poprawka 151):** 148–150 szukały warunków ustalających **wartości** — skutek błędu z [105] (jedna relacja zamiast zespołu). Liczenie w 149–150 doszło okrężną drogą do [94]. **Zostaje:** typy S/K (146), ⅓ (145), „Ĥ|Ψ⟩ = 0 nie ustala stałych” (150, zgodne z [88]: stała = wartość funkcji w jednym stanie = odczyt), forma „stała = relacja lokalnego z całością” (150). Wątek wartości brzegowych — poboczny.
+- **WARUNEK NA KOŃCU PLANCKA — literatura i filtr (poprawka 148) [L][O][T]:**
+  - **Trzy precedensy [L]:** (1) **punkt stały = dokładne samopodobieństwo na końcu:** Shaposhnikov–Wetterich, Phys. Lett. B 683, 196 (2010), arXiv:0912.0208 — λ przy skali Plancka w punkcie stałym w zerze → m_H ≈ 126 GeV (kilka GeV), przed odkryciem; założenie: brak skal pośrednich między Fermim a Planckiem = **pustynia [545]**. Eichhorn–Held–Wetterich, Phys. Lett. B 782, 198 (2018), arXiv:1711.02949 — to samo dla sprzężenia cechowania, α obliczalne, zależne od zawartości materii GUT i od niepewnej siły wkładu grawitacji. (2) **nierozróżnialność próżni (zasada wielu punktów):** Froggatt–Nielsen, Phys. Lett. B 368, 96 (1996), hep-ph/9511371 — dwie próżnie (elektrosłaba i planckowska) o równej energii → m_t = 173 ± 5, m_H = 135 ± 9 GeV. (3) **obserwacja:** zmierzone m_H ≈ 125, m_t ≈ 173 stawiają MS tuż przy granicy stabilności; przy skali Plancka λ i β_λ bliskie zera (Buttazzo i in., JHEP 12 (2013) 089).
+  - **Wejścia:** wszystkie trzy biorą zmierzone sprzężenia cechowania (dwie także m_t) — 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read rest of next-session note and its rules
+awk 'NR>=40' NASTEPNA-SESJA.md | cut -c1-600
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+---
+
+## Zdanie, które ma upaść
+
+> **Dwa warunki z 154 są relacją między `m_H/v`, `m_t/v` i `v/m_P`, więc ograniczają także `v/m_P` —
+> a odczyt „ustalają `m_H` i `m_t`" jest tylko jednym z wyborów wejścia.**
+
+Rozstrzygnięcia wypisane **z góry**:
+
+- **(a) Zdanie przechodzi.** Wtedy treść 154 trzeba zapisać jako **relację**, nie jako „ustalone `m_H`, `m_t`"
+  — a wybór, co jest wejściem, jest opisem (223: stałe przy zmianie obiektu, zmienne przy zmianie opisu).
+  I od razu ostrzeżenie: dla zmierzonych mas `λ` znika **dużo niżej niż `m_P`** (Buttazzo i in., cytowane
+  w 154 — „przy `m_H = 125` stabilność do Plancka wymaga `m_t ≈ 171`"). Więc w odczycie „ustala `v/m_P`"
+  zmierzone masy dałyby **inne** `v/m_P` niż rzeczywiste — i to jest albo trafienie, albo chybienie jedynego
+  warunku ramy, zależnie od tego, jak się go czyta. **To trzeba policzyć uczciwie, nie wybrać odczytu po
+  wyniku.**
+- **(b) Zdanie upada: warunki nie dotykają `v/m_P` z nazwalnego powodu.** Wtedy powód jest wynikiem — i trzeba
+  sprawdzić, czy nie jest to ten sam ruch co w 224 (bijekcja), tylko o poziom niżej.
+- **(c) Pytanie źle postawione, bo „koniec Plancka" zlewa dwie rzeczy.** **Nazwany** jest niezależnie (2D ≡ Ø),
+  ale jego **położenie w `t` względem `v`** to właśnie `ln(m_P/v)`, czyli sama wolna dana. Wtedy krok brzmi:
+  najpierw rozdzielić „nazwany jako Ø" od „położony w `t`", potem pytać. Precedens: 224 rozdzieliło dwa końce
+  pod nazwą „Ø-miejsce", 221 trzy obiekty pod literą `z`.
+
+---
+
+## Co ni
+…[ucięto]
+````
+</details>
+
+## [48] Asystent — 2026-10-06 22:18
+
+Piszę wpis 226. Z NS do ramy wchodzi jedna rzecz, i to nie o NS: słowo „samopodobny” oznacza w pliku dwie różne rzeczy, a następny krok używa obu w jednym zdaniu.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Insert block 226 into the main frame file
+cat > /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/blok226.md <<'EOF'
+- **OSOBLIWOŚĆ NAVIERA–STOKESA (OpenAI, 8.09.2026) SPRAWDZONA WOBEC GRANIC Ø — „SAMOPODOBNY" ZNACZY W PLIKU DWIE RZECZY; PUŁAPKA NAZEWNICZA NR 12 (poprawka 226) [H][L][T][O][A].**
+  - **Zdanie użytkownika (6.10), sprawdzone jak każde (29.09), z naciskiem, o który prosił — samopodobieństwo:** *„Niedawno OpenAI wykazali, że w równaniach Naviera-Stokesa dochodzi do matematycznego załamania ciągłości (singularności) — to jest kolejne miejsce nierozróżnialności."*
+  - **Co pokazano [L].** OpenAI, *Finite time blowup for Navier–Stokes* (166 s., 8.09.2026), Tw. 1.1: dla każdego `ν > 0` istnieje siła `f ∈ C_c^∞` i gładkie rozwiązanie z `u(·,0) = 0` i ograniczoną energią, dla którego `
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+7695
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Annotate blocks 148 and 152 in place
+python3 - <<'PY'
+p='logika-relacyjna-v3.5.md'
+s=open(p,encoding='utf-8').read()
+a='(1) na końcu Plancka bezwymiarowe relacje nie zależą od rozdzielczości odczytu = dokładne samopodobieństwo ≡ Ø — zgodne z §F1 bez dokładania.'
+assert s.count(a)==1
+s=s.replace(a, a+' *(Pułapka nr 12, poprawka 226: to jest samopodobieństwo **(S)** — stanu na końcu, relacje nie biegną; 152 i 225 używają tego słowa w sensie **(L)** — prawa bez wyróżnionej skali, relacje biegną. Jedno nie daje drugiego.)*',1)
+b='Każda funkcja to prosta w t: przesunięcie punktu odniesienia zmienia tylko punkt odczytu — **samopodobieństwo dosłownie**.'
+assert s.count(b)==1
+s=s.replace(b, b+' *(Pułapka nr 12, poprawka 226: samopodobieństwo **(L)** — prawa; „punkt stały = dokładne samopodobieństwo" ze 148 to **(S)** — stanu na końcu
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+2548:    Każda funkcja to prosta w t: przesunięcie punktu odniesienia zmienia tylko punkt odczytu — **samopodobieńs
+2685:  - **Po filtrze (forma warunku, bez mechanizmu) [O]:** (1) na końcu Plancka bezwymiarowe relacje nie zależą od
+````
+</details>
+
+## [49] Asystent — 2026-10-06 22:19
+
+Teraz wiersze 11 i 12 w liście kontrolnej pułapek. Jedenastki tam brakowało od 224, czyli to moje przeoczenie z tej sesji.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add trap rows 11 and 12 to the checklist table
+python3 - <<'PY'
+p='logika-relacyjna-v3.5.md'
+s=open(p,encoding='utf-8').read()
+a='| A11d (202), 199, 173 |\n'
+assert s.count(a)==1, s.count(a)
+r11='| **11** | **„Ø-miejsce" — dwa przeciwne końce tej samej relacji (poprawka 224; wiersz dopisany w 226, bo 224 go tu nie wpisało).** 183: **zniknięcie** relacji (`α → 0`, relacja przestaje odróżniać); 208: jej **rozbieżność** (`α → ∞` — Landau, transmutacja; nośnik przestaje być czytelny jako para (M, O)). Po kryterium R1a oba są Ø-miejscami, ale dwiema różnymi drogami; bez rozdzielenia zliczanie liczy dwa razy albo nie ten koniec. **Pisać „Ø-miejsce" zawsze z tym, który to koniec.** | R1a, §F1 (183, 208, 224) |\n'
+r12='| **12** | **„Samopodobny" — prawo czy stan na końcu (poprawka 226).** **(L)** prawo bez wyróżnionej skali: przesunięcie odnie
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+| **9** | **„Milczenie” a „≡ Ø dla tego O” (poprawka 198; poprawka użytkownika do pierwszej wersji tego wpisu).** Milczenie z 17
+| **10** | **„Nie zapisuje” a „nie zmienia” (poprawka 202; poprawka użytkownika).** To są dwie różne rzeczy — ta sama pułapka
+| **11** | **„Ø-miejsce" — dwa przeciwne końce tej samej relacji (poprawka 224; wiersz dopisany w 226, bo 224 go tu nie wpisało).** 1
+| **12** | **„Samopodobny" — prawo czy stan na końcu (poprawka 226).** **(L)** prawo bez wyróżnionej skali: przesunięcie odniesienia
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Inspect format of last register row
+tail -1 poprawki.md | cut -c1-200; tail -1 poprawki.md | awk -F'|' '{print NF; print $(NF-2); print $(NF-1)}' | cut -c1-200
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| 225 | **[94] NIE MA PUNKTU 4; HIPOTEZA TO [104], A „MASA = MIEJSCE ŁAMANIA SAMOPODOBIEŃSTWA (`n_Λ`)" JEST ASYSTENTA — PUSTE PRZEZ BIJEKCJĘ I FAŁSZYWE WOBEC WŁASNEJ DEFINICJI [H][T][L][O][A
+6
+ `§F1` (nowy blok po hipotezie nadrzędnej i tabeli logarytmów; adnotacje w hipotezie i 152), `A11d` (adnotacje w 169 i 180 pkt 5), `CLAUDE.md` 
+ asystent (źródła: [94], [104]–[106] ze ścieżką; kartka)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append register row 226 to poprawki.md
+python3 - <<'PY'
+row = ('| 226 | **OSOBLIWOŚĆ NAVIERA–STOKESA (OpenAI) SPRAWDZONA WOBEC GRANIC Ø; „SAMOPODOBNY" ZNACZY W PLIKU DWIE RZECZY — PUŁAPKA NAZEWNICZA NR 12 [H][L][T][O][A].** '
+ 'Zdanie użytkownika (6.10): *„OpenAI wykazali, że w równaniach Naviera-Stokesa dochodzi do matematycznego załamania ciągłości (singularności) — to jest kolejne miejsce nierozróżnialności"*, z prośbą o sprawdzenie „odnośnie samopodobieństwa". '
+ '**Fakt [L]:** Tw. 1.1 pracy OpenAI (8.09.2026) jest **z siłą** (Clay C/D); siła = reszta skonstruowanego przepływu, płaska w punkcie osobliwym; bez siły (A/B) otwarte; Constantin–Ignatova–Vicol: w tej klasie konstrukcji siła nie może znikać przy punkcie ani być analityczna, a `f = 0` spełnia założenia, więc ten typ wybuchu bez siły nie zachodzi. '
+ '**Samopodobień
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+4
+6
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Verify register rows and diff stats
+tail -2 poprawki.md | cut -c1-80; git diff --stat
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| 225 | **[94] NIE MA PUNKTU 4; HIPOTEZA TO [104], A „MASA = MIEJSCE ŁAMANIA 
+| 226 | **OSOBLIWOŚĆ NAVIERA–STOKESA (OpenAI) SPRAWDZONA WOBEC GRANIC Ø; �
+ logika-relacyjna-v3.5.md | 15 +++++++++++++--
+ poprawki.md              |  1 +
+ 2 files changed, 14 insertions(+), 2 deletions(-)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add self-similarity warning to next-session note
+python3 - <<'PY'
+p='NASTEPNA-SESJA.md'
+s=open(p,encoding='utf-8').read()
+a='**Czy to w ogóle jest krok na kartkę.**'
+assert s.count(a)==1
+add=('**Dwa znaczenia „samopodobieństwa" w samym pytaniu (226, dopisane po tym, jak ten plik już stał).** Zdanie kroku\n'
+'mówi o `v/m_P` jako „jedynej danej łamiącej samopodobieństwo" — to jest **(L)**: prawo bez wyróżnionej skali,\n'
+'relacje biegną (152, 225). A drugi warunek 154, `β_λ = 0`, to **(S)**: stan na końcu, relacje nie biegną\n'
+'(148: „punkt stały = dokładne samopodobieństwo"). **(L) nie daje (S)** — zespół biegnie przy (L) dokładnym.\n'
+'Więc **nie wolno** rozumować „przy `m_P` `v` jest pomijalne, więc koniec jest samopodobny, więc `β_λ = 0` nie\n'
+'mówi nic o `v`" — to zlewa (L) z (S) i z góry daje rozstrzygnięcie (b). Pułapka nr 12 w li
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+76:**Dwa znaczenia „samopodobieństwa" w samym pytaniu (226, dopisane po tym, jak ten plik już stał).** Zdanie kroku
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check where 221-225 appear in CLAUDE.md
+grep -n '(221\|(222\|(223\|(224\|(225\|poprawka 225\|— poprawki 223 i 224' CLAUDE.md | cut -c1-160
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+42:| `rozmowa/claude-code-sesja-2026-10-06.md` | **Zapis sesji CC 12 (6.10.2026): poprawka 221 — krok 5 zamknięty. Tu jest DROGA do kryterium „jawny parame
+106:## Oś projektu (podsumowanie użytkownika, 25.09.2026; **punkt 4 dopisał asystent** — [106] sesji CC 2, poprawka 225)
+117:**Co zmieniła sesja CC 12 (6.10), w jednym zdaniu: krok 5 zamknięty — `z` nie jest ani wejściem, ani odczytem (221), a samouzgodnienie mówi tylko, GDZ
+224:2. ~~**Granice Ø wewnątrz zakresu (183) — zliczenie Ø-miejsc.**~~ **ZROBIONE — poprawki 223 i 224** (6.10); krok zamknięty w całości, **obie poło
+````
+</details>
+
+## [50] Asystent — 2026-10-06 22:20
+
+Wpis jest w pliku głównym, w rejestrze i w notatce do następnej sesji. Uzupełniam teraz `CLAUDE.md`: mapa nie miała jeszcze pozycji 221–225, a teraz dochodzi 226.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate insertion points in CLAUDE.md
+grep -n 'Uzupełnienia do 213 i 214 (220)\|Wcześniejsze wyniki, bez zmian' CLAUDE.md | cut -c1-120; grep -n 'zdjęcie z niej podparcia, które dał jej asystent' CLAUDE.md | cut -c1-80
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+214:- **Uzupełnienia do 213 i 214 (220).** Decyzja użytkownika: *„rama musi tyć, pod warunkiem że to coś wnosi"*.
+215:- **Wcześniejsze wyniki, bez zmian:** §F2, C4a, C5; poprawka 103 (etap7–9 obniżone); H₂; etap18 = zero absolu
+117:**Co zmieniła sesja CC 12 (6.10), w jednym zdaniu: krok 5 zamknięty — `z
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add map bullets 221-226 to CLAUDE.md
+python3 - <<'PY'
+p='CLAUDE.md'
+s=open(p,encoding='utf-8').read()
+# 1) mapa: bullets 221-226 before "Wcześniejsze wyniki"
+a='- **Wcześniejsze wyniki, bez zmian:**'
+assert s.count(a)==1
+bul=(
+'- **`z` nie jest ani wejściem, ani odczytem (221, A11d + R1b-A).** Odczytem jest `z_i/z_j` (to, co 214 już liczy); samouzgodnienie jest notacją przypadku (ii), bo `z_i` nie jest kandydatem na C — zmiana przy ustalonych wagach wyprowadza z definicji obiektu. Wspólna rozdzielczość → przypadek (i); cała treść wymiarowa `z_i` to `v²`, czyli unormowanie dopuszczone w 208 tylko jako `v/m_P`. Test 211 uruchomiony **przed** wpisem.\n'
+'- **Niejawność mówi GDZIE przyłożyć formę, nie co z niej wyjdzie (222; zarzut użytkownika).** Reguła z 221 była bezwarunkowa, dowód jej nie niósł: `z = Φ(z; Λ)` z cięciem jest r
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find end of CC12 paragraph in CLAUDE.md
+python3 - <<'PY'
+p='CLAUDE.md'
+s=open(p,encoding='utf-8').read()
+a='tylko zdjęcie z niej podparcia, które dał jej asystent, i przeniesienie otwartej części na dokładnie nazwaną daną.'
+print(s.count(a))
+i=s.find(a)
+print(repr(s[i+len(a):i+len(a)+5]))
+PY
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1
+'\n\n**C'
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append 226 summary to CC12 paragraph in CLAUDE.md
+python3 - <<'PY'
+p='CLAUDE.md'
+s=open(p,encoding='utf-8').read()
+a='tylko zdjęcie z niej podparcia, które dał jej asystent, i przeniesienie otwartej części na dokładnie nazwaną daną.'
+add=(' **I na koniec (226) — wynik OpenAI o Navierze–Stokesie, sprawdzony na prośbę użytkownika „odnośnie samopodobieństwa".**'
+' Zdanie użytkownika („kolejne miejsce nierozróżnialności") okazało się **za szerokie dokładnie o siłę**: twierdzenie jest z siłą dobraną jako reszta przepływu, bez siły pytanie stoi otwarte, a ten typ wybuchu bez siły nie zachodzi.'
+' Samopodobieństwo rozstrzygnęło **inaczej, niż sugerowało hasło**: dokładnie samopodobny wybuch (symetria samego prawa) jest w NS pusty, a to, co jest, to symetria anizotropowa, której prawo nie ma — wyłania się, gdy dyfuzja osiowa staje się nieodróżnia
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Record two caught-before-entry misreadings
+python3 - <<'PY'
+p='logika-relacyjna-v3.5.md'
+s=open(p,encoding='utf-8').read()
+a='  - **Świadomie NIEwpisane (222).** „Wybuch dokładnie samopodobny jest pusty" jako zdanie ramy'
+assert s.count(a)==1
+add=('  - **Upadło przed wpisem — dwa moje odczyty [A].** (1) „Od środka biegnie bezwymiarowy stosunek (`Re_θ`), więc pkt 1 GRANIC Ø nie zachodzi" — upadło na wykładnikach: w układzie pierwszego rzędu nic nie biegnie, a `Re_θ` porównuje rdzeń ze skalowaniem prawa, nie stan rdzenia ze stanem rdzenia. (2) „To jest rozbieżność relacji (koniec 208), więc nie Ø-miejsce" — przeczy pułapce 11, którą miałem przyłożyć: po kryterium R1a **oba** końce są Ø-miejscami, dwiema drogami. Złapane dopiero przy czytaniu wiersza pułapki w całości, nie z pamięci — ten sam ruch co w 224 („sprawdzić obie nogi testu,
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+6
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extend 10-06 transcript row in CLAUDE.md
+python3 - <<'PY'
+p='CLAUDE.md'
+s=open(p,encoding='utf-8').read()
+a='hipoteza użytkownika stoi lepiej niż przed krokiem; upadło podparcie asystenta. |'
+print(s.count(a))
+add=(' **Na koniec (226): wynik OpenAI o Navierze–Stokesie — sprawdzony na prośbę użytkownika „odnośnie samopodobieństwa", z dossier źródeł pierwotnych (praca, CIV, Duraiswami, Lei–Ren, NRŠ, Tsai).** Zdanie użytkownika za szerokie o siłę; samopodobieństwo w punkcie osobliwym nie jest symetrią prawa (ta daje w NS pusty wybuch), tylko wyłania się, gdy człon prawa staje się ≡ 0 — struktura 160. **Dwa moje odczyty upadły przed wpisem** (biegnące `Re_θ` jako złamanie pkt 1; „rozbieżność, więc nie Ø-miejsce" wbrew pułapce 11, złapane przy czytaniu jej wiersza w całości). Do ramy weszła tylko **pułapka nr 12** ((L) prawo wobec (S)
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1
+ok
+2
+````
+</details>
+
+## [51] Asystent — 2026-10-06 22:21
+
+Pliki uzupełnione. Odtwarzam zapis sesji, potem commit i push.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read transcript header and tool usage
+head -12 rozmowa/claude-code-sesja-2026-10-06.md | cut -c1-600; python3 narzedzia/transkrypt.py --help 2>&1 | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+# Rozmowa w Claude Code — sesja 12 (6.10.2026) — zapis
+
+Poprawki 221–225: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), a hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+
+---
+
+ ## [1] Użytkownik — 2026-10-06 02:14
+
+Relaton — kwant brakującego uzasadnienia :)
+
+ ## [2] Asystent — 2026-10-06 02:16
+
+usage: transkrypt.py [-h] [--tytul TYTUL] [--opis OPIS] [--jsonl JSONL] out
+
+positional arguments:
+  out
+
+options:
+  -h, --help     show this help message and exit
+  --tytul TYTUL
+  --opis OPIS
+  --jsonl JSONL
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check how transcript tool uses title and description
+grep -n 'tytul\|opis' narzedzia/transkrypt.py | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+6:#       --tytul 'Rozmowa w Claude Code — sesja 4 (27.09.2026) — zapis' --opis 'Kontynuacja sesji 3 (…). Poprawki 166–…'
+11:ap.add_argument('out'); ap.add_argument('--tytul', default='Rozmowa w Claude Code — zapis'); ap.add_argument('--opis', default='')
+27:L = [f'# {a.tytul}', '', (a.opis + ' ' if a.opis else '') + 'Wiadomości użytkownika i odpowiedzi asystenta w całości; '
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Regenerate session transcript file
+python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul 'Rozmowa w Claude Code — sesja 12 (6.10.2026) — zapis' --opis 'Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — a na koniec wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226): twierdzenie jest z siłą, samopodobieństwo w punkcie osobliwym nie jest symetrią prawa, do ramy weszła pułapka nazewnicza nr 12.' && wc -c rozmowa/claude-code-sesja-2026-10-06.md && grep -c '^## \[' rozmowa/claude-code-sesja-2026-10-06.md && grep -n 'Naviera-Stokesa' rozmowa/claude-code-sesja-2026-10-06.md | head -3 | cut -c1
 …[ucięto]
 ````
 </details>

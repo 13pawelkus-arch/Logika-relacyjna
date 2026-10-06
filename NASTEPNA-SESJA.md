@@ -73,6 +73,18 @@ poprawić tam, nie tylko tu. Nie wiem, i **to jest pierwsza rzecz do sprawdzenia
 policzy. Jeśli 224 trzeba poprawić, to jest poprawka do własnego wpisu z tej samej sesji — zapisać ją jako
 taką, nie przemilczeć.
 
+**Dwa znaczenia „samopodobieństwa" w samym pytaniu (226, dopisane po tym, jak ten plik już stał).** Zdanie kroku
+mówi o `v/m_P` jako „jedynej danej łamiącej samopodobieństwo" — to jest **(L)**: prawo bez wyróżnionej skali,
+relacje biegną (152, 225). A drugi warunek 154, `β_λ = 0`, to **(S)**: stan na końcu, relacje nie biegną
+(148: „punkt stały = dokładne samopodobieństwo"). **(L) nie daje (S)** — zespół biegnie przy (L) dokładnym.
+Więc **nie wolno** rozumować „przy `m_P` `v` jest pomijalne, więc koniec jest samopodobny, więc `β_λ = 0` nie
+mówi nic o `v`" — to zlewa (L) z (S) i z góry daje rozstrzygnięcie (b). Pułapka nr 12 w liście kontrolnej.
+**I rzecz w pliku, której nie było na liście do czytania:** tabela 149 („ZLICZENIE KIERUNKÓW", `§F1`, zaraz za
+blokiem 148) ma wiersz *„Higgs μ² | relewantne (= hierarchia v/m_P) | 1"* — w punkcie stałym przy Plancku
+`v/m_P` jest kierunkiem relewantnym, czyli wolnym. To literatura (asymptotic safety), nie rama, a 208 wyrzuciło
+`μ²` jako nie-odczyt; ale to jest dokładnie postać „(S) na końcu nie ustala danej, która łamie (L)". Przeczytać
+148–149 w całości razem z 154, zanim się cokolwiek orzeknie — nie traktować tego wiersza jako odpowiedzi.
+
 **Czy to w ogóle jest krok na kartkę.** Pytanie „czy warunki dotykają `v/m_P`" jest strukturalne (ile równań,
 ile niewiadomych, co jest wejściem) — kartka. Ale ostrzeżenie z (a) dotyka **wartości** (gdzie znika `λ` dla
 zmierzonych mas), a 208 i użytkownik (*„przestać się interesować liczbami"*) każą wartości nie szukać.

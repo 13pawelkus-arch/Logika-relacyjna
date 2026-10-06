@@ -25,6 +25,11 @@ KAT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 PLIKI = sorted(glob.glob(os.path.join(KAT, '*.md')), key=lambda f: ('logika-relacyjna-rozmowa' not in f, f))
 
 
+# streszczenie kompresji kontekstu trafia do zapisu sesji jako wiadomość „Użytkownik”, a pisze je system
+# (po angielsku, z cytatami i wnioskami asystenta) — nie jest wypowiedzią użytkownika (poprawka 226)
+KOMPRESJA = 'This session is being continued from a previous conversation'
+
+
 def wiadomosci(plik):
     # bloki <details> (wyniki i wywołania narzędzi w zapisach sesji CC) usuwane PRZED podziałem: wydruki narzędzi
     # zawierają linie „## [n] Użytkownik …” (np. rama.py 4), które inaczej udawałyby wypowiedzi użytkownika
@@ -33,6 +38,7 @@ def wiadomosci(plik):
         m = re.match(r'## \[(\d+)\] Użytkownik[^\n]*', k)
         if m:
             tresc = BLOK.sub('', k[m.end():]).strip()
+            if tresc.startswith(KOMPRESJA): continue
             yield int(m.group(1)), m.group(0), tresc
 
 
@@ -40,7 +46,8 @@ def wszystkie(plik):
     t = BLOK.sub('', open(plik, encoding='utf-8').read())
     for k in re.split(r'\n(?=## \[\d+\] )', t):
         m = re.match(r'## \[(\d+)\] (Użytkownik|Asystent)[^\n]*', k)
-        if m: yield int(m.group(1)), m.group(2), m.group(0), k[m.end():].strip()
+        if m and not k[m.end():].strip().startswith(KOMPRESJA):
+            yield int(m.group(1)), m.group(2), m.group(0), k[m.end():].strip()
 
 
 def main(a):
