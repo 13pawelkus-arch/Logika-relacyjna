@@ -1,100 +1,137 @@
-# Następny krok: zapytać `z` tym, czym 206 zapytało `a·b`
+# Następny krok: przenieść warunek `𝒢` z 212 na `α_i` i `y_f` — albo nazwać przeszkodę
 
-Krok 5 z listy w `CLAUDE.md`. Nic innego; krok 2 (zliczenie Ø-miejsc) i krok 4 (rura ilościowo) są
-otwarte, ale **nie mieszać ich z tym**.
+Krok 2 z listy w `CLAUDE.md`, w postaci, jaką mu dała 212. Nic innego; krok 4 (rura ilościowo) i nowe
+`[?]` z 221 są otwarte, ale **nie mieszać ich z tym**.
 
 ---
 
 ## Co jest na stole
 
-Poprzednia sesja (CC 11) wzięła do ramy folder `masa/` — dziewięć kroków, które użytkownik przeszedł
-sam 4–5.10. Poprawka **214** ustaliła, gdzie siedzi masa:
+212 postawiła **drugi warunek konieczny na zespół** — pierwszy dała 208 (ustalone są tylko
+samorelacje). Ten jest innego rodzaju: nie o wartościach, tylko o **wspólnej realizowalności rodziny
+funkcji**. Dla jednej koherentnej rodziny znormalizowanych zapisów macierz Grama `Γ_zap` musi być
+dodatnia półokreślona, więc oprócz `‖κ_{ij}‖ ≤ 1`:
 
 ```
-jądro:    D̂ = Π̸(a_L P_L + a_R P_R) − (b_L P_L + b_R P_R)
-mianownik: d_i(z) = z·a_L(z)a_R(z) − b_L(z)b_R(z)
-warunek:   z_i = b_L b_R / (a_L a_R)   — oceniane przy z = z_i, czyli SAMOUZGODNIONE
-stąd:      (μ_{A,i}/μ_{A,j})² = [b_L b_R]_i/[b_L b_R]_j ÷ [a_L a_R]_i/[a_L a_R]_j
+𝒢 = det Γ_zap = 1 − Σ_cykl‖κ_{ij}‖² + 2Re(κ₁₂κ₂₃κ₃₁) ≥ 0
+a na granicy wewnętrznej s*:   𝒢(s*) = 0  ⟹  𝒢′(s*) = 0
 ```
 
-Ostatnia linia to **stosunek dwóch stosunków z nazwanymi odczytami** — 181 w pełnej postaci, w już
-istniejącym formalizmie. To jest dobre. **Ale `z` wchodzi tam wkładane** — dokładnie w tej roli, w
-jakiej `b = −m²V₀` stało w kroku 3, zanim 206 pokazało, że wkładanie nie robi roboty. I każde `p²` w
-tych mianownikach przychodzi z areny, a 204 mówi, że arena nie niesie niczego. **Notatki `masa/`
-pilnują, żeby rozmiar macierzy nie udawał wymiaru, ale tego pytania nie stawiają.**
+Kontrole 212 (wybrane przed rachunkiem): trójka `9/10, 9/10, −9/10` — każda para dopuszczalna, rodzina
+**nie** (`𝒢 = −361/125`); dodatnia `3/5, 9/25, 3/5` → `𝒢 = 256/625`; rodzina `R_3(s) = (e_1+e_2+se_3)/√(2+s²)`
+→ `𝒢 = s²/(2+s²)`, `𝒢′ = 4s/(2+s²)²`, oba zero w `s = 0`.
+
+**To jest warunek, który wycina rodziny funkcji, nie wybierając żadnej wartości — bez cięcia, bez
+jednostek, bez pojemnika.** Dokładnie ten rodzaj, którego zespół potrzebuje.
+
+**I dokładnie tu 212 się zatrzymała, własnymi słowami (cytat z bloku, nie odsyłacz):**
+
+> „**Zakres, bez którego byłoby to za mocne:** dotyczy **nakładań zapisów w jednym koherentnym
+> protokole**. `𝒢 = 0` znaczy liniową zależność zapisów — **nie** jest automatycznie Ø,
+> nierozróżnialnością, skalą Plancka ani `λ = 0`; żadnego utożsamienia z 154, 183 ani 208 tu nie
+> wykonano. **Przeniesienie warunku na `α_i` albo `y_f` wymaga najpierw wyprowadzenia ich związku z tymi
+> nakładaniami, a tego nie ma.**”
+
+Krok to ta ostatnia linijka. Nie „policzyć `𝒢` dla zespołu” — **podać związek odczytów zespołu
+z nakładaniami zapisów, albo pokazać, że go nie ma.**
 
 ---
 
 ## Czytać w całości, zanim cokolwiek
 
-- **`### R1b-A`** (4,3 tys. znaków) — forma (i)/(ii) w oryginale. Krótkie, przeczytać dosłownie.
-- **blok 206 w `### A11d`** („KROK 3 ZAMKNIĘTY…", 8,3 tys.) — ten sam ruch wykonany raz, razem z
-  czterema błędami, które po drodze padły.
-- **blok 214 w `### A11d`** („MASA SIEDZI W MIANOWNIKU…", 5,3 tys.) i **213** (4,3 tys.).
-- **blok 181 w `### A11d`** (4,0 tys.) — bo tam stoi `ν²` odzyskiwane **dokładnie** ze stosunku dwóch
-  odczytów o różnej głębokości, a `z = b_Lb_R/(a_La_R)` **już jest** iloczynem dwóch par wag.
+- **blok 212 w `## §F1`** (4,3 tys. znaków, zaczyna się „CO WYMUSZA SAMA STRUKTURA PORÓWNAŃ”) — krótkie,
+  przeczytać dosłownie, razem z czterema podpunktami i z kontrolą niewystarczalności na końcu
+  (`q_1 = e^{s²}, q_2 = 1, q_3 = e^s`: same tożsamości porównań **nie** wymuszają relacji potęgowej z 152).
+- **blok 208 w `### A11d`** — bo tam jest kryterium rodzaju (relacja wobec wielkości) i werdykt
+  „ustalone są tylko samorelacje, warunek konieczny a nie wystarczający”.
+- **`## §F1` w całości** (92,4 tys. znaków) — tak, w całości; tam stoi zestawienie „STAN ZESPOŁU” (167),
+  wypisanie zespołu (152–153), λ na końcu Plancka (154) i 183 o granicach Ø. **Bez tego nie wiadomo,
+  do czego warunek miałby się przenieść.**
 
-**Nie czytać całego `A11d`** — ma 135 tys. znaków i reguła 195 jest tam już niewykonalna. To jest
-znany defekt, nie przeoczenie: sekcja robi dwie roboty (aparat pary (M,O) i odczyty masy) i prosi się
-o rozdzielenie. Osobna sprawa, nie ten krok.
+**Nie czytać `### A11d` w całości** — 135 tys. znaków, reguła 195 jest tam niewykonalna. Znany defekt,
+nie przeoczenie: sekcja robi dwie roboty (aparat pary (M, O) i odczyty masy) i prosi się o rozdzielenie.
+Osobna sprawa, nie ten krok.
 
 ---
 
 ## Zdanie, które ma upaść
 
-> **`z` nie jest wejściem, jest odczytem — bo da się je odzyskać ze stosunku dwóch odczytów
-> o różnej głębokości.**
+> **Odczyty zespołu (`α_i`, `y_f`) są nakładaniami zapisów w jednym koherentnym protokole, więc
+> `𝒢 ≥ 0` z `𝒢′(s*) = 0` jest warunkiem na zespół.**
 
-Rozstrzygnięcia wypisane **z góry**, żeby nie dopasować wniosku po fakcie:
+Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Forma (i)/(ii) przechodzi.** Wtedy `z` jest odczytem, a `p²` w mianownikach jest pojemnikiem —
-  tak jak `d` w 204. Postać z 214 stoi bez zmian, zmienia się jej **status**: samouzgodnienie nie jest
-  wkładaniem, jest zapisem tego, że odczyt jest różnicą własnych stanów O (206).
-- **(b) Któryś odczyt się różni i różnicy NIE da się przypisać układowi relacji wewnątrz M.** Wtedy
-  pęka forma (i)/(ii) dla tego obiektu — **pierwszy taki przypadek** — i wynik jest o zakresie 204,
-  nie o `z`. Byłoby to więcej warte niż sam krok.
-- **(c) Pytanie jest źle postawione, bo `z` to nie jeden obiekt.** Biegun i argument funkcji
-  `a`, `b` mogą być dwiema rzeczami pod jedną literą. Wtedy krok brzmi: najpierw rozdzielić, potem
-  pytać. Precedens: 206 zespoliło dwie różne trójki (199 wobec 181) i tabela to policzyła.
+- **(a) Związek da się podać.** Wtedy zespół ma drugi warunek konieczny, który wycina rodziny funkcji —
+  i trzeba natychmiast sprawdzić, czego wycina **za dużo**: 212 ostrzega, że `𝒢 = 0` to zależność
+  liniowa, a **nie** Ø, więc utożsamienie z 154 albo 183 byłoby tym samym błędem co „2D = Ø” w 206.
+- **(b) Związku nie da się podać i przeszkoda jest nazywalna.** Wtedy **przeszkoda jest wynikiem**, nie
+  porażką — i prawdopodobnie mówi, czego zespołowi brakuje, żeby być protokołem (np. że odczyty nie są
+  jedną koherentną rodziną, bo mierzone są przy różnych rozdzielczościach; patrz 166 i warunek wspólnej
+  rozdzielczości). To byłoby więcej warte niż (a).
+- **(c) Pytanie źle postawione, bo „zapis” w 212 i „odczyt” w 208 to nie to samo pojęcie.** `Γ_zap`
+  jest macierzą Grama **zapisów**, a 19 odczytów zespołu to **stosunki liczności**. Wtedy krok brzmi:
+  najpierw powiedzieć, czym jest zapis dla odczytu zespołu, potem pytać. Precedens: 206 zespoliło dwie
+  różne trójki pod jedną nazwą i tabela to policzyła; 221 rozdzieliło trzy obiekty pod literą `z`.
+
+---
+
+## Narzędzie zrobione w tej sesji (221) i pułapka, którą po drodze widziałem
+
+221 dało kryterium: **parametr wpisany jawnie = notacja wolnego uchwytu, przypadek (ii) z R1b-A do
+pokazania; niejawny punkt stały `x = Φ(x)` = przypadek (ii) już zapisany.** Powód: kandydat C musi
+zmieniać się **przy ustalonych relacjach**, a zmiana wartości zadanej przez resztę wyprowadza z definicji
+obiektu.
+
+Na tym kroku to narzędzie ma jedno **konkretne** zastosowanie i jedno pozorne.
+
+- **Konkretne:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. Czy `s*` jest nastawiane, czy produkowane przez samo
+  `𝒢`? Jeśli nastawiane — „granica wewnętrzna” jest wkładana i warunek trzeba przełożyć; jeśli
+  produkowane — warunek jest odczytem i wolno go używać bez dodatkowej danej.
+- **Pozorne, i to jest pułapka:** przesortować 19 odczytów zespołu na „nastawiane / produkowane”.
+  **Tego nie robić** — odpowiedź jest trywialnie „wszystkie nastawiane”, bo to jest definicja wolnego
+  parametru, i wyszłoby potwierdzanie (191) w nowej notacji. Sprawdziłem to w tej sesji i dlatego tego
+  kroku tu nie ma.
 
 ---
 
 ## Jak NIE robić — z zapisanych błędów, nie z ostrożności
 
-> **„Trzeba wyrzucać. Bo to że nigdy nie był. Tego śie dowiesz jak podasz strukturalny dowód.
-> Cwaniaczku. Wczesniej tego nie powiesz"** (użytkownik, CC 9)
-
-**Kolejność jest częścią wyniku.** Nie zaczynać od „`z` oczywiście jest odczytem, bo wszystko jest
-odczytem". To zakłada tezę. Najpierw dowód, potem zdanie.
-
-> **„Albo niosła, albo nie niosła. Dowód ma być strukturalny a nie bajdurzeniem o przykładach"**
+> **„Albo niosła, albo nie niosła. Dowód ma być strukturalny a nie bajdurzeniem o przykładach”**
 > (użytkownik, CC 9)
 
-**Nie wyliczać przypadków.** Lista „oto `z` w hop-stop, oto w propagatorze Diraca, oto w akcji
-spektralnej" jest ilustracją. Forma (i)/(ii) jest wyczerpująca — albo przechodzi, albo pęka.
+Nie „oto `𝒢` dla trzech Yukaw, oto dla trzech sprzężeń”. Trzy przykłady nie są związkiem; związek albo
+jest podany, albo pokazane, że go nie ma.
 
-I trzeci, z 211, najświeższy: **sprawdzić, czy przesłanka domysłu jest po dowodzie jeszcze spełniona
-przez cokolwiek.** W 201 dowód usunął przesłankę domysłu z 200, a ja zapisałem następnik jako
-dowiedziony. Domysł był prawdziwy **pusto** — i dlatego przechodził każdą kontrolę.
+> **„Nie miałem na myśli tego co piszą w podręczniku w szkole podstawowej. Przeczytaj co na temat
+> grawitacji mówi plik główny”** (użytkownik, CC 9)
+
+Zanim szukasz w literaturze macierzy Grama dla sprzężeń — **przeczytaj, co o zapisie mówi plik**: 171
+(zapis niesie dokładnie to, co ≡), 174 (wzbudzenie wobec milczenia), 179 (struktura minimalna). Dwa razy
+już było tak, że odpowiedź stała w pliku, w sekcji, w której pracowałem.
+
+I trzeci, najświeższy, z 211 i 221: **sprawdzić, czy po dowodzie przesłanka domysłu jest jeszcze
+spełniona przez cokolwiek.** W 221 nie była — i dlatego następnika („`z` jest odczytem”) nie wpisano,
+choć przeszedłby algebrę i filtr.
 
 ---
 
 ## Co niepewne
 
-**Czy forma (i)/(ii) stosuje się w ogóle do równania samouzgodnionego.** 204 i 206 przyłożono do
-wejść **jawnych** (`C`, `b`): usuń i patrz, czy któryś odczyt się różni. Tutaj `z` stoi po obu
-stronach. Czy „usuń `z`" jest wtedy dobrze postawione — **nie wiem**, i to jest pierwsza rzecz do
-sprawdzenia, nie do założenia. Jeśli nie jest, krok zmienia się w: podać formę (i)/(ii) dla równania
-niejawnego, albo pokazać, że się nie da.
+**Czy `α_i` i `y_f` w ogóle mogą być jedną koherentną rodziną.** 166 i 214 mówią, że odczyty A i B
+różnią się rozdzielczością, a 221, że wspólna rozdzielczość jest przypadkiem (i) — nie niesie niczego.
+Jeśli „jeden koherentny protokół” z 212 wymaga **jednej** rozdzielczości, to związek może nie istnieć
+z powodu, który już stoi zapisany, i wtedy to jest (b), nie porażka. **Nie wiem, i to jest pierwsza rzecz
+do sprawdzenia, nie do założenia.**
 
-**Czy odczytem jest `z`, czy tylko jego stosunek.** 181 mówi, że **stosunek** dwóch odczytów o różnej
-głębokości odzyskuje `ν²` dokładnie. Nie mówi, że każdy czynnik osobno jest odczytem. Możliwe więc, że
-ruch jest dostępny wyłącznie dla stosunku, a `z` nigdy nie było właściwym obiektem — i wtedy to jest
-odpowiedź (c), nie porażka.
+**Czy `κ_{ij}` ma w zespole desygnat.** W 212 `κ` to nakładanie dwóch znormalizowanych zapisów. Co jest
+nakładaniem dwóch sprzężeń — nie wiem. Możliwe, że tabela amplitud z 217 (`C(R)` wobec `T(R)` — te same
+amplitudy czytane dwa razy) jest tym miejscem, bo tam nakładania **są** jawne: `X_f = Y_f†Y_f = ⟨R_a‖R_b⟩`.
+To jest jedyny trop, który widzę, i nie sprawdziłem go.
 
-**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek bieguna bez parametru pędu —
-po kształcie, nie po nazwie („pole mass without momentum parameter" nic nie da; raczej „self-consistent
-… ratio of two … no reference scale").
+**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek dodatniej półokreśloności rodziny
+jako warunek na zestaw stałych sprzężenia — po kształcie, nie po nazwie („Gram matrix” + „coupling
+constants” nic nie da; raczej „positive semidefinite … family … simultaneously realizable”, albo
+„determinant vanishes … derivative vanishes … boundary of the physical region”).
 
 ---
 
