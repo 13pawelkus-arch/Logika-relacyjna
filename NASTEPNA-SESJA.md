@@ -77,16 +77,22 @@ Rozstrzygnięcia wypisane **z góry**:
 
 ## Narzędzie zrobione w tej sesji (221) i pułapka, którą po drodze widziałem
 
-221 dało kryterium: **parametr wpisany jawnie = notacja wolnego uchwytu, przypadek (ii) z R1b-A do
-pokazania; niejawny punkt stały `x = Φ(x)` = przypadek (ii) już zapisany.** Powód: kandydat C musi
-zmieniać się **przy ustalonych relacjach**, a zmiana wartości zadanej przez resztę wyprowadza z definicji
-obiektu.
+221 dało kryterium, **w brzmieniu poprawionym przez 222**: parametr wpisany jawnie = notacja wolnego uchwytu,
+przypadek (ii) z R1b-A do pokazania. Niejawny punkt stały `x = Φ(x)` daje **mniej, niż 221 napisało**: mówi tylko,
+**GDZIE przyłożyć formę — do zawartości `Φ`, nie do punktu stałego — a nie co z niej wyjdzie.** Powód, dla którego
+`x` nie jest kandydatem na C: kandydat musi zmieniać się przy ustalonych relacjach, a zmiana wartości zadanej przez
+resztę wyprowadza z definicji obiektu. **Ale „wyznaczone przez `Φ`" przechodzi w „wyznaczone przez relacje"
+wyłącznie wtedy, gdy `Φ` nie zawiera nic poza relacjami, i to jest osobna robota** — `x = Φ(x; Λ)` z cięciem jest
+równie niejawne, a 208 je odrzuca.
 
 Na tym kroku to narzędzie ma jedno **konkretne** zastosowanie i jedno pozorne.
 
-- **Konkretne:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. Czy `s*` jest nastawiane, czy produkowane przez samo
-  `𝒢`? Jeśli nastawiane — „granica wewnętrzna” jest wkładana i warunek trzeba przełożyć; jeśli
-  produkowane — warunek jest odczytem i wolno go używać bez dodatkowej danej.
+- **Konkretne, ale po 222 inaczej postawione:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. **Nie pytać „czy `s*` jest
+  nastawiane, bo warunek jest niejawny"** — dokładnie ten ruch 222 obaliło. Pytać: **co jest w `𝒢`.** `𝒢` jest
+  wyznacznikiem macierzy Grama nakładań `κ_{ij}`, więc pytanie brzmi: czy w `κ_{ij}` jest coś poza relacjami. Jeśli
+  nie — `s*` jest produkowane i warunek jest odczytem; jeśli tak (cięcie, jednostka, skala odniesienia) — warunek
+  trzeba przełożyć, a niejawność go nie uratuje.
+
 - **Pozorne, i to jest pułapka:** przesortować 19 odczytów zespołu na „nastawiane / produkowane”.
   **Tego nie robić** — odpowiedź jest trywialnie „wszystkie nastawiane”, bo to jest definicja wolnego
   parametru, i wyszłoby potwierdzanie (191) w nowej notacji. Sprawdziłem to w tej sesji i dlatego tego

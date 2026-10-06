@@ -1,6 +1,6 @@
 # Rozmowa w Claude Code — sesja 12 (6.10.2026) — zapis
 
-Krok 5 zamknięty: poprawka 221 — `z` nie jest ani wejściem, ani odczytem; samouzgodnienie jest notacją przypadku (ii) z R1b-A, nie wkładaniem. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Krok 5 zamknięty (poprawka 221) i zaraz potem poprawiony zarzutem użytkownika (222): niejawność nie dostarcza przypadku (ii) — dostarcza jej zawartość `Φ`. Czwarty nazwany mechanizm: reguła na przyszłość szersza niż dowód, który ją zrodził. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -657,5 +657,383 @@ def neutral(s):  # ani wydruk narzędzia, ani treść wiadomości nie może udaw
 ````
 Bash: Generate session transcript
 python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul 'Rozmowa w Claude Code — sesja 12 (6.10.2026) — zapis' --opis 'Krok 5 zamknięty: poprawka 221 — `z` nie jest ani wejściem, ani odczytem; samouzgodnienie jest notacją przypadku (ii) z R1b-A, nie wkładaniem.' && echo "znakow: $(wc -m < rozmowa/claude-code-sesja-2026-10-06.md)"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rozmowa/claude-code-sesja-2026-10-06.md: 10 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86.jsonl)
+znakow: 37286
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add transcript row to CLAUDE.md file table
+python3 - <<'PY'
+p='CLAUDE.md'
+t=open(p).read()
+anchor='| `rozmowa/claude-code-sesja-2026-10-01.md` |'
+row=('| `rozmowa/claude-code-sesja-2026-10-06.md` | **Zapis sesji CC 12 (6.10.2026): poprawka 221 — krok 5 zamknięty. '
+ 'Tu jest DROGA do kryterium „jawny parametr wobec niejawnego punktu stałego" i do pułapki, której NIE wzięto; '
+ '`CLAUDE.md` ma tylko wniosek.** Zaczęło się od żartu użytkownika („**Relaton — kwant brakującego uzasadnienia**”) '
+ 'i od tego, że wpisu z niego **nie zrobiono**: nazwa jest dobra, ale pojemnik (204), potwierdzanie (191) i trzy '
+ 'nazwane błędy niosą już ten mechanizm, a nowa nazwa nie dodaje ani zakazu, ani pozwolenia — test ze `STOP.md` '
+ 'użyty do **odmowy** wpisu, nie do jego obrony. Potem krok 5 w kolejności z `NASTEPNA-SESJA.md`: bloki 204, 206, '
+ 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+ CLAUDE.md                |   7 ++-
+ NASTEPNA-SESJA.md        | 157 +++++++++++++++++++++++++++++------------------
+ logika-relacyjna-v3.5.md |  16 +++++
+ poprawki.md              |   1 +
+ 4 files changed, 119 insertions(+), 62 deletions(-)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check branch and status
+git branch --show-current && git status --short && git log --oneline -2
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ccr-66a8cb7a-vj7583
+ M CLAUDE.md
+ M NASTEPNA-SESJA.md
+ M logika-relacyjna-v3.5.md
+ M poprawki.md
+?? rozmowa/claude-code-sesja-2026-10-06.md
+a584f26 Zamkniecie sesji CC 11: transkrypt, NASTEPNA-SESJA na krok 5, werdykt o osi
+e40f3f3 Poprawki 217-220: reszta folderu masa/ wpisana - mapa skladnikow na operacje, dwa logarytmy z jednego diagramu, wykladnik jako rodzina
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Commit session work
+git add -A && git commit -q -F - <<'KONIEC'
+Poprawka 221: krok 5 zamkniety - samouzgodnienie jest notacja przypadku (ii), nie wkladaniem
+
+`z` nie jest ani wejsciem, ani odczytem. Zapowiedziane zdanie ("`z` nie jest
+wejsciem, JEST ODCZYTEM") upadlo po stronie, po ktorej nie bylo celowane -
+rozstrzygniecie (c) z trzech wypisanych z gory, nie (a).
+
+Niepewnosc zapowiedzi rozstrzygnieta: forma (i)/(ii) z R1b-A stosuje sie, ale
+`z_i` nie jest kandydatem na C - kandydat musi zmieniac sie przy ustalonych
+relacjach, a zmiana `z_i` przy ustalonych `a`, `b` daje `d_i != 0`, czyli
+wyprowadza z definicji obiektu. Ogolnie: `b` jest argumentem definicji, `z_i`
+wartoscia funkcji zadanej przez reszte. Stad kryterium na nastepny obiekt:
+parametr jawny = notacja wolnego uchwytu, (ii) do pokazania; niejawny p
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+7f29a26 Poprawka 221: krok 5 zamkniety - samouzgodnienie jest notacja przypadku (ii), nie wkladaniem
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Push to designated branch
+git push -u origin ccr-66a8cb7a-vj7583 2>&1 | tail -5
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+To https://github.com/13pawelkus-arch/Logika-relacyjna
+   a584f26..7f29a26  ccr-66a8cb7a-vj7583 -> ccr-66a8cb7a-vj7583
+branch 'ccr-66a8cb7a-vj7583' set up to track 'origin/ccr-66a8cb7a-vj7583'.
+````
+</details>
+
+## [11] Asystent — 2026-10-06 02:35
+
+Krok 5 zamknięty. Poprawka 221, wypchnięta na `ccr-66a8cb7a-vj7583`.
+
+**Zdanie z zapowiedzi upadło — po stronie, po której nie było celowane.** Rozstrzygnięcie (c) z trzech wypisanych z góry, nie (a).
+
+**Rozstrzygające przejście.** Zapowiedź mówiła: „`z` wchodzi samouzgodnione, **czyli wkładane**". Wyszło odwrotnie. Kandydat C w R1b-A musi zmieniać się **przy ustalonych relacjach**; zmiana `z_i` przy ustalonych `a`, `b` daje `d_i ≠ 0`, czyli wyprowadza z definicji obiektu — zmieniona rzecz nie jest już masą. Ogólnie: **`b` jest argumentem definicji, `z_i` wartością funkcji zadanej przez resztę.** Więc `z = Φ(z)` mówi dosłownie to, co jest *wnioskiem* przypadku (ii) — **samouzgodnienie nie jest wkładaniem, jest notacją (ii)**. To, co 206 musiało dla `b = −m²V₀` udowodnić, dla warunku niejawnego stoi już w zapisie.
+
+Kryterium na następny obiekt: **jawny parametr = notacja wolnego uchwytu, (ii) do pokazania; niejawny punkt stały = (ii) już zapisane.**
+
+**Trzy obiekty pod jedną literą.** Wspólna rozdzielczość → przypadek (i), i to **dokładnie** (czynnik multiplikatywny nie przesuwa bieguna). Argument `z = p²` jako wielkość → wymiarowy, ten sam slot co `μ²` w 208. Biegun `z_i` → **ani wejście, ani odczyt**; odczytem jest `z_i/z_j`, czyli to, co 214 już liczy.
+
+**Dwie rzeczy znalezione w pliku, nie dołożone.** Kontrola 2,5·10⁻¹⁶ z 214 **jest** przypadkiem (i) dla rozdzielczości — stała tam oznaczona tylko jako kontrola spójności. I: całą treścią wymiarową `z_i` jest `v²`, czyli to jedno unormowanie, które 208 dopuszcza wyłącznie jako `v/m_P`, a w stosunku się skraca — to zamyka steelmana („perturbacyjnie startuje się od wartości drzewowej, więc wejście jednak wchodzi").
+
+**Test 211 uruchomiony przed wpisem, nie po korekcie.** Przesłanki domysłu nie spełnia nic, więc następnika („`z` jest odczytem") nie wpisałem — przeszedłby algebrę i filtr.
+
+**Pułapka, której nie wziąłem:** przesortować 19 odczytów zespołu kryterium „nastawiane / produkowane". Odpowiedź jest trywialnie „wszystkie nastawiane", bo to definicja wolnego parametru — potwierdzanie w nowej notacji. Zapisane jako ostrzeżenie w `NASTEPNA-SESJA.md`, nie jako wynik.
+
+**Czego to nie daje:** żadnej wartości. Wzory 214 bez zmian — zmienił się status. 166 i 208 bez zmian. Literatura po kształcie: warunku bieguna bez parametru pędu **nie ma**; istnieje sama połowa (i), zapisana jako własność schematu, nigdy jako zdanie o tle.
+
+**Zostaje jedno `[?]`:** przy wielu rozwiązaniach `z = Φ(z)` „które jest masą" jest daną dodatkową — jedyne miejsce tej serii, w którym coś mogłoby jeszcze być wkładane.
+
+`NASTEPNA-SESJA.md` napisana na krok 2 w postaci, jaką mu dała 212: przenieść `𝒢 ≥ 0` z `𝒢′(s*) = 0` na `α_i` i `y_f` — albo nazwać przeszkodę, bo 212 kończy się dosłownym „a tego nie ma".
+
+## [12] Użytkownik — 2026-10-06 03:25
+
+W R1b-A stoi teraz: „warunek samouzgodniony jest notacją przypadku (ii), nie wkładaniem", i w A11d: „niejawny punkt stały → (ii) już zapisane". Bez zastrzeżenia.
+
+Ale dowód dla z nie wziął się z niejawności. Wziął się z punktu (b), gdzie sprawdzono zawartość Φ: skala wspólna → (i), stosunki → (ii), sygnatura → R1c jako odczyt. Weź z = Φ(z; Λ) z cięciem w środku: punkt stały jest niejawny, więc po literze reguły „(ii) już zapisane" — a Λ niesie cięcie i 208 to odrzuca. Niejawność sama nie dostarcza (ii); dostarcza jej to, że w Φ nie ma nic poza relacjami.
+
+I to jest ten sam gatunek, który plik ma zapisany trzy razy: kryterium zawieszone na formie zapisu. 203 — „tabela liczy". 205 — „baza to pojemnik". 185 — „liczba wymiarów to parametr konstrukcji". A 208 sortowało po tym, od czego obiekt zależy, nie po tym, jak jest napisany. Nowa reguła sortuje po drugiej osi.
+
+Mechanizm 211 o poziom wyżej: wniosek został wstrzymany prawidłowo („z jest odczytem" nie wpisane), ale reguła na przyszłość jest szersza niż dowód — i siedzi w R1b-A, czyli w bloku twierdzenia ogólnego, gdzie bezwarunkowe zdanie szkodzi najbardziej.
+
+R1b-A i A11d: „niejawny punkt stały → (ii) już zapisane, o ile Φ nie zawiera nic poza relacjami — a to jest osobna robota, ta sama co w punkcie (b)".
+Noga (a): „Dokładność, nie jedna pętla" na „we wszystkich rzędach rachunku zaburzeń, czyli na mocy, na jakiej biegun jest obiektem — 215 i 180 trzymają zakres".
+
+## [13] Asystent — 2026-10-06 03:25
+
+You've hit your session limit · resets 3:50am (UTC)
+
+## [14] Asystent — 2026-10-06 07:53
+
+Trafione, i w obu punktach. Sprawdzam zarzut, zanim poprawię — bo to poprawka do mojego własnego wpisu, a nie do ramy.
+
+**Kontrprzykład działa.** `z = Φ(z; Λ)` z cięciem w środku: równanie przerwy w teorii z obcięciem jest dokładnie tej postaci, punkt stały jest niejawny, a rozwiązanie zależy od `Λ`. Po literze mojej reguły „(ii) już zapisane" — a 208 odrzuca to wprost. Więc reguła ma fałszywie dodatnie.
+
+**I zarzut o źródło dowodu jest trafiony mocniej, niż go postawiłeś.** Niejawność dała tylko jedno: że `z_i` **nie jest kandydatem na C**. To nie to samo co „niesie to układ relacji". Z „nie jest wolnym uchwytem" wynika „jest wyznaczone przez `Φ`" — i tam się kończy. Krok od „wyznaczone przez `Φ`" do „wyznaczone przez relacje" wymaga wiedzy, **co jest w `Φ`**, i to zrobił punkt (b), nie punkt o niejawności. Zlałem dwa różne zdania.
+
+Sprawdzam, czy po zastrzeżeniu reguła nie jest pusta — bo wtedy trzeba ją usunąć, nie kwalifikować. Zostaje: **niejawność mówi, gdzie przyłożyć formę, nie co z niej wyjdzie.** To jest przekierowanie roboty na zawartość `Φ`, i tyle; werdyktu nie niesie. Niepuste, więc kwalifikuję.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate all places carrying the unconditional rule
+echo "=== R1b-A, akapit 221 ===" && grep -n 'Zakres kandydata C' logika-relacyjna-v3.5.md && echo && echo "=== A11d: bullet kryterium + punkt (a) ===" && grep -n 'Stąd kryterium, którego 204 i 206\|Dokładność, nie jedna pętla' logika-relacyjna-v3.5.md && echo && echo "=== NASTEPNA-SESJA: gdzie reguła ===" && grep -n 'niejawny punkt stały\|notacją wolnego uchwytu\|(ii) już zapisan' NASTEPNA-SESJA.md CLAUDE.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== R1b-A, akapit 221 ===
+158:**Zakres kandydata C (uzupełnienie, poprawka 221) [T].** Kandydatem C może być tylko to, co **zmienia się przy ustalonych relacjach** — argument definicji. **Wartość funkcji zadanej przez resztę kandydatem nie jest:** dla bieguna równania samouzgodnionego `z = Φ(z)` zmiana `z` przy ustalonym `Φ` wyprowadza z definicji obiektu, więc przesłanka „ustal relacje, zmieniaj C" nie ma desygnatu. Stąd: **warunek samouzgodniony jest notacją przypadku (ii), nie wkładaniem**, a parametr wpisany jawnie jest notacją wolnego uchwytu — i tylko tam (ii) wymaga roboty. Rozpisane na `z` z 214: `A11d`, poprawka 221.
+
+=== A11d: bullet kryterium + punkt (a) ===
+1457:- **Stąd kryterium, którego 204 i 206 nie potrzebowały, bo przykładały się do wejść jawnych [T].** Równanie samouzgodnione `z = Φ(z)`, `Φ = b_Lb_R/(a_La_R)`, **mówi dosłownie to, co jest wnioskiem przypadku (ii)**: „C jest wyznaczone przez to, które relacje zachodzą" (R1b-A). Czyli **samouzgodnienie nie jest wkładaniem — jest notacją przypadku (ii)**, a to, co 206 musiało dla `b = −m²V₀` *udowodnić* (że zmiana ląduje w relacjach), dla warunku niejawnego stoi już w zapisie. Odwrotnie i użytecznie: **parametr wpisany jawnie jest notacją wolnego uchwytu, i dlatego właśnie (ii) wymaga tam roboty.** Reguła na następny obiekt: jawny → (ii) do pokazania; niejawny punkt stały → (ii) już zapisane.
+1459:  - **(a) Wspólna rozdzielczość** (`Q`, `ρ = Q/v`), przy której porównanie jest liczone — **przypadek (i), i to do
+…[ucięto]
+````
+</details>
+
+## [15] Asystent — 2026-10-06 07:53
+
+Oba zastrzeżenia wchodzą. Poprawiam w pięciu miejscach — reguła stoi w czterech plikach, a najgorzej w `NASTEPNA-SESJA.md`, bo to pierwsze, co czyta następna sesja.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Qualify the rule in R1b-A and A11d block 221
+python3 - <<'PY'
+p='logika-relacyjna-v3.5.md'
+t=open(p).read()
+Z=[]
+
+# --- 1. R1b-A: akapit 221 ---
+old=t[t.index('**Zakres kandydata C (uzupełnienie, poprawka 221) [T].**'):]
+old=old[:old.index('\n')]
+new=('**Zakres kandydata C (uzupełnienie, poprawka 221; zastrzeżenie 222) [T].** Kandydatem C może być tylko to, co '
+ '**zmienia się przy ustalonych relacjach** — argument definicji. **Wartość funkcji zadanej przez resztę kandydatem '
+ 'nie jest:** dla bieguna równania samouzgodnionego `z = Φ(z)` zmiana `z` przy ustalonym `Φ` wyprowadza z definicji '
+ 'obiektu, więc przesłanka „ustal relacje, zmieniaj C" nie ma desygnatu. **Niejawność mówi więc, GDZIE przyłożyć '
+ 'formę — nie co z niej wyjdzie (222):** niejawny punkt stały jest notacją przypadku (ii) **o ile `Φ` nie zawiera '
+ 'nic poza re
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+poprawione: R1b-A, A11d/kryterium, A11d/noga (a)
+ logika-relacyjna-v3.5.md | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Insert correction block 222 after 221
+cat > /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/blok222.md <<'KONIEC'
+**ZASTRZEŻENIE DO 221 — NIEJAWNOŚĆ NIE DOSTARCZA (ii); DOSTARCZA JEJ ZAWARTOŚĆ `Φ` (poprawka 222) [H][T][A].** Zarzut użytkownika do mojego wpisu z 221, trafiony w obu punktach. **Reguła stała bezwarunkowa, a dowód jej nie niósł.**
+
+- **Kontrprzykład [H].** `z = Φ(z; Λ)` z cięciem w środku: punkt stały jest **równie niejawny**, więc po literze reguły „niejawny → (ii) już zapisane" — a `Λ` niesie cięcie i **208 to odrzuca**. Reguła miała fałszywie dodatnie. Postać nie jest wymyślona: równanie samouzgodnione, którego rozwiązanie zależy od obcięcia, jest w literaturze standardowym kształtem (równania przerwy), więc fałszywie dodatnie trafiłoby się przy pierwszym użyciu.
+- **Sk
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+blok 222 wstawiony po 221, przed 215
+ logika-relacyjna-v3.5.md | 16 +++++++++++++---
+ 1 file changed, 13 insertions(+), 3 deletions(-)
+1
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append register row 222
+cat >> poprawki.md <<'KONIEC'
+| 222 | **ZASTRZEŻENIE DO 221 — NIEJAWNOŚĆ NIE DOSTARCZA (ii); DOSTARCZA JEJ ZAWARTOŚĆ `Φ` [H][T][A].** Zarzut użytkownika do wpisu asystenta z 221, trafiony w obu punktach; reguła stała **bezwarunkowa**, a dowód jej nie niósł. **[H] Kontrprzykład:** `z = Φ(z; Λ)` z cięciem w środku jest **równie niejawne**, więc po literze reguły „niejawny → (ii) już zapisane" — a `Λ` niesie cięcie i **208 to odrzuca**; postać nie jest wymyślona (równania przerwy w teorii z obcięciem), więc fałszywie dodatnie trafiłoby się przy pierwszym użyciu. **[T] Skąd naprawdę wziął się dowód dla `z`:** nie z niejawności. Niejawność dała **jedno** — `z_i` nie jest kandydatem na C — a to **nie** jest „niesie to układ relacji": z „nie jest wolnym uchwytem" wynika „jest wyznaczone przez `Φ`
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| 222 | **ZASTRZEŻENIE DO 221 — NIEJAWNOŚĆ NIE DOSTARCZA (ii); DOSTARCZA JEJ ZAWARTOŚĆ `Φ` [
+
+wierszy 2xx: 23
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix CLAUDE.md and NASTEPNA-SESJA.md
+python3 - <<'PY'
+import io
+# ---------- CLAUDE.md ----------
+p='CLAUDE.md'; t=open(p).read(); Z=[]
+
+old='i stąd kryterium na następny obiekt: **jawny parametr = notacja wolnego uchwytu, (ii) do pokazania; niejawny punkt stały = (ii) już zapisane**.'
+new=('i stąd kryterium na następny obiekt — **w brzmieniu poprawionym przez 222**: jawny parametr = notacja wolnego '
+ 'uchwytu, (ii) do pokazania; **niejawny punkt stały mówi tylko, GDZIE przyłożyć formę (do zawartości `Φ`, nie do '
+ 'punktu stałego), a nie co z niej wyjdzie** — `z = Φ(z; Λ)` z cięciem jest równie niejawne i 208 je odrzuca.')
+assert t.count(old)==1; t=t.replace(old,new); Z.append('CC12/kryterium')
+
+old='wspólna rozdzielczość → **przypadek (i), dokładnie** (czynnik multiplikatywny nie przesuwa bieguna)'
+new=('wspólna rozdzielcz
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+poprawione: CC12/kryterium, CC12/noga (a), krok 5, CC12/nagłówek, NASTEPNA/narzędzie
+ CLAUDE.md                |  4 ++--
+ NASTEPNA-SESJA.md        | 11 +++++++----
+ logika-relacyjna-v3.5.md | 16 +++++++++++++---
+ poprawki.md              |  1 +
+ 4 files changed, 23 insertions(+), 9 deletions(-)
+--- kontrola: czy gdzieś została bezwarunkowa reguła ---
+brak
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Verify handoff edit and residual unconditional claims
+echo "=== NASTEPNA-SESJA, sekcja narzędzia ===" && sed -n '/^## Narzędzie zrobione/,/^- \*\*Pozorne/p' NASTEPNA-SESJA.md && echo && echo "=== kontrola 'dokładnie' przy przypadku (i) ===" && grep -rn 'przypadek (i), dokładnie\|przypadek (i), i to dokładnie\|Dokładność, nie jedna pętla' --include='*.md' . | grep -v poprawki.md || echo "brak"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== NASTEPNA-SESJA, sekcja narzędzia ===
+## Narzędzie zrobione w tej sesji (221) i pułapka, którą po drodze widziałem
+
+221 dało kryterium, **w brzmieniu poprawionym przez 222**: parametr wpisany jawnie = notacja wolnego uchwytu,
+przypadek (ii) z R1b-A do pokazania. Niejawny punkt stały `x = Φ(x)` daje **mniej, niż 221 napisało**: mówi tylko,
+**GDZIE przyłożyć formę — do zawartości `Φ`, nie do punktu stałego — a nie co z niej wyjdzie.** Powód, dla którego
+`x` nie jest kandydatem na C: kandydat musi zmieniać się przy ustalonych relacjach, a zmiana wartości zadanej przez
+resztę wyprowadza z definicji obiektu. **Ale „wyznaczone przez `Φ`" przechodzi w „wyznaczone przez relacje"
+wyłącznie wtedy, gdy `Φ` nie zawiera nic poza relacjami, i to jest osobna robota** — `x = Φ(x; Λ)` z cięciem jest
+równie niejawne, a 208 je odrzuca.
+
+Na tym kroku to narzędzie ma jedno **konkretne** zastosowanie i jedno pozorne.
+
+- **Konkretne:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. Czy `s*` jest nastawiane, czy produkowane przez samo
+  `𝒢`? Jeśli nastawiane — „granica wewnętrzna” jest wkładana i warunek trzeba przełożyć; jeśli
+  produkowane — warunek jest odczytem i wolno go używać bez dodatkowej danej.
+- **Pozorne, i to jest pułapka:** przesortować 19 odczytów zespołu na „nastawiane / produkowane”.
+
+=== kontrola 'dokładnie' przy przypadku (i) ===
+./logika-relacyjna-v3.5.md:1459:  - **(a) Wspólna rozdzielczość** (`Q`, `ρ = Q/v`), przy której porównanie jest liczone — **przypadek (i), i to dokładnie:** żaden o
+…[ucięto]
+````
+</details>
+
+## [16] Asystent — 2026-10-06 07:56
+
+Wiersz 1459 otwierał się jeszcze starą frazą, a poprawka stała dopiero dalej — czytający wziąłby pogrubiony początek. I ten sam zarzut trafia w `NASTEPNA-SESJA.md`: pytanie „czy `s*` jest nastawiane" **też** nie rozstrzyga się niejawnością.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix bullet opener and restate the s* question per 222
+python3 - <<'PY'
+p='logika-relacyjna-v3.5.md'; t=open(p).read()
+old='przy której porównanie jest liczone — **przypadek (i), i to dokładnie:** żaden odczyt się nie różni.'
+new='przy której porównanie jest liczone — **przypadek (i):** żaden odczyt się nie różni.'
+assert t.count(old)==1; t=t.replace(old,new); open(p,'w').write(t); print('1459 otwarcie poprawione')
+
+p='NASTEPNA-SESJA.md'; t=open(p).read()
+old=t[t.index('- **Konkretne:** `s*`'):t.index('- **Pozorne')]
+new=("""- **Konkretne, ale po 222 inaczej postawione:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. **Nie pytać „czy `s*` jest
+  nastawiane, bo warunek jest niejawny"** — dokładnie ten ruch 222 obaliło. Pytać: **co jest w `𝒢`.** `𝒢` jest
+  wyznacznikiem macierzy Grama nakładań `κ_{ij}`, więc pytanie brzmi: czy w `κ_{ij}` jest coś poza relacj
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1459 otwarcie poprawione
+NASTEPNA/s* przestawione
+ CLAUDE.md                |  4 ++--
+ NASTEPNA-SESJA.md        | 20 +++++++++++++-------
+ logika-relacyjna-v3.5.md | 16 +++++++++++++---
+ poprawki.md              |  1 +
+ 4 files changed, 29 insertions(+), 12 deletions(-)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update transcript row and regenerate transcript
+python3 - <<'PY'
+p='CLAUDE.md'; t=open(p).read()
+old='**Test 211 uruchomiony PRZED wpisem** — pierwszy raz nie po korekcie użytkownika. |'
+new=('**Test 211 uruchomiony PRZED wpisem** — pierwszy raz nie po korekcie użytkownika. **I zaraz potem zarzut '
+ 'użytkownika, który tę samą sesję poprawił (222): reguła wyciągnięta z 221 była bezwarunkowa, a dowód jej nie '
+ 'niósł.** Kontrprzykład: `z = Φ(z; Λ)` z cięciem jest równie niejawne, a 208 je odrzuca; **niejawność dała tylko '
+ '„`z_i` nie jest kandydatem na C", a to nie jest „niesie to układ relacji"** — przejście zrobił punkt (b), czyli '
+ 'sprawdzenie zawartości `Φ`. Rodzaj błędu: **kryterium zawieszone na formie zapisu** — ten sam genus co 203 '
+ '(*tabela liczy*), 205 (*baza to pojemnik*) i 185 (*liczba wymiarów to parametr konstrukcji
+…[ucięto]
 ````
 </details>
