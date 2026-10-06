@@ -1,116 +1,100 @@
-# Następny krok: zapytać [94] pkt 4 tym, czym 224 zapytało Ø-miejsca
+# Następny krok: czy dwa warunki z 154 dotykają `v/m_P` — jedynej danej, która łamie samopodobieństwo
 
-Krok 2 **zamknięty w całości** (223 i 224) — nie wracać do niego ani do przeniesienia `𝒢`, ani do
-wewnętrznych granic Ø jako źródła warunków. Otwarte są jeszcze krok 4 (rura ilościowo) i `[?]` z 221,
-ale **nie mieszać ich z tym**.
+Krok 2 zamknięty w całości (223, 224), krok o [104] zamknięty (225). Otwarte są jeszcze krok 4 (rura
+ilościowo) i `[?]` z 221, ale **nie mieszać ich z tym**.
 
 ---
 
-## Co jest na stole, i dlaczego to jest następne
+## Co jest na stole
 
-[94] pkt 4 to **hipoteza nadrzędna** całej osi 3–4, i stoi nietknięta od 25.09. Werdykt użytkownika na
-koniec CC 11 nazwał to wprost: *„a [94] pkt 4 (»masa = miejsce łamania samopodobieństwa«, »wszystko na
-raz«) stoi nietknięte"*.
+225 ustaliło dwie rzeczy, które razem dają to pytanie:
 
-Formalną treść, jaką `§F1` jej daje, warto przeczytać dosłownie:
+1. **Samopodobieństwo zespołu łamie dokładnie jedna dana niosąca skalę — `v`, w postaci legalnej `v/m_P`.**
+   Trzy niezależne podpory: autonomia układu w schemacie niezależnym od mas (beta-funkcje nie zależą od mas,
+   łamie tylko próg w `m_i = y_i·v/√2`), 218 (wspólny logarytm tylko przy `η = m/Q₀ → 0`), 180 pkt 5 (skala
+   wnętrza przechodzi do O przez liczbę własnych tyknięć). A **nie** biegun `n_Λ` — to było zdanie asystenta
+   z [105], puste przez bijekcję i sprzeczne z definicją w 152.
+2. **Jedyne warunki, jakie rama ma, to dwa z 154:** `λ = 0` i `β_λ = 0` **na końcu Plancka** (224 pokazało,
+   że innych Ø-miejsc z warunkami nie ma). 154 odczytało je jako **ustalające `m_H` i `m_t`**.
 
-> „**Masa = miejsce, gdzie samopodobieństwo się łamie** (logarytm sięga jedności: `n_Λ = n·e^{2π/(bα)}`)
-> — skala jako wykładnik stosunku sprzężeń obejmującego cały zakres, nie wynik kroku."
+I to, co 225 zauważyło, a **świadomie nie wpisało** (222), dosłownie z bloku:
 
-**I tu jest powód, dla którego to jest następny krok, a nie dowolny z listy.** 224 właśnie pokazało [T],
-że `n_Λ/n = e^{t_*}`, `t_* = (2π/b_i)·(1/α_i(0))`, jest **dokładną bijekcją liniową wolnej danej** — więc
-podanie `n_Λ` niesie dokładnie tę samą jedną liczbę co `1/α_i(0)`. Jeżeli to jest cała formalna treść
-„miejsca łamania samopodobieństwa", to ta identyfikacja jest **reparametryzacją, nie wyprowadzeniem**.
+> „Dwa warunki 154 dotyczą wartości **na** końcu Plancka, a przejście do `m_H`, `m_t` idzie przez bieg na
+> zakresie `ln(m_P/v)` — więc są relacją między `{m_H/v, m_t/v, v/m_P, sprzężenia}`. 154 odczytało je jako
+> ustalające `m_H` i `m_t` przy danym `v/m_P`; to jest **wybór, które dane są wejściem**."
 
-**Tego wniosku NIE wpisałem do ramy, choć zauważyłem go pisząc 224.** Powód jest z 222: byłaby to reguła
-wyciągnięta szerzej niż dowód, który ją zrodził — 224 dowiodło rzeczy o **Ø-miejscach zespołu**, a [94] pkt 4
-jest zdaniem o **hipotezie nadrzędnej** i należy mu się własny krok z własnym czytaniem. Zrobienie tego
-w przelocie byłoby dokładnie tym, co 222 nazwało.
+Czyli: dwa warunki na trzy wielkości. 154 trzymało `v/m_P` jako wejście. Równie dobrze można trzymać `m_t`
+i dostać `v/m_P`. **Jeżeli tak, to pierwszy raz od początku `v/m_P` przestaje być tylko wolnym odczytem.**
 
 ---
 
 ## Czytać w całości, zanim cokolwiek
 
-- **blok HIPOTEZA NADRZĘDNA na początku `## §F1`** (5,4 tys. znaków, cały cytat blokowy) — tam stoi i teza
-  użytkownika, i cztery podpunkty asystenta, i **zdanie do upadku z poprawki 139** („wykładniki muszą
-  pochodzić wyłącznie z policzonych współczynników").
-- **TABELA LOGARYTMÓW (146)** w `§F1`, zaraz niżej — bo to ona rozdziela typ S („ślad samopodobieństwa")
-  od typu K, a teza o samopodobieństwie wisi na typie S.
-- **blok 224** (koniec bloku 183 w `§F1`) — bo to z niego bierze się pytanie; i **blok 212**, bo on mówi,
-  że logarytm jest **wyprowadzony, nie wybrany**, co jest drugą stroną tej samej sprawy.
-- **blok 218 w `## §F2`** — bo tam „wszystkie logarytmy mają jedno źródło" już raz zostało zawężone
-  (jeden diagram daje dwie funkcje logarytmiczne, wagi równają się dopiero w granicy bez progów).
-
-`## §F1` ma 92,4 tys. znaków i **w tej sesji został przeczytany w całości** (przy 223). Jeśli następna
-sesja nie czyta go znowu w całości, **to trzeba zapisać jako świadome zawężenie**, nie przemilczeć.
+- **blok 154 w `## §F1`** (zaczyna się „ZASADA WIELU PUNKTÓW, POKOLENIA, LEPTONY") — cały pkt 1 z tabelą
+  i pkt 1a (168: krytyczność λ na porządku, warunek Veltmana, `μ²`) — bo tam stoi, **jak** te dwa warunki
+  zostały wyprowadzone i co dokładnie zostało z nich wzięte.
+- **blok 225** (w `§F1`, zaraz za tabelą logarytmów) — bo z niego bierze się pytanie.
+- **blok 224** (koniec bloku 183) — bo jego warunek (A) „położenie Ø-miejsca ustalone niezależnie od wolnej
+  danej" **może się tu okazać za słabo sformułowany** (patrz „Co niepewne").
+- **blok 208 w `### A11d`** — wiersz o unormowaniu Yukaw (`v/m_P`) i wiersz o `μ²`.
 
 ---
 
 ## Zdanie, które ma upaść
 
-> **„Masa = miejsce łamania samopodobieństwa" ma formalną treść ponad tę, którą niesie wolna dana —
-> czyli `n_Λ` mówi o masie coś, czego nie mówi samo `1/α(0)`.**
+> **Dwa warunki z 154 są relacją między `m_H/v`, `m_t/v` i `v/m_P`, więc ograniczają także `v/m_P` —
+> a odczyt „ustalają `m_H` i `m_t`" jest tylko jednym z wyborów wejścia.**
 
 Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Zdanie przechodzi.** Wtedy trzeba podać **co dokładnie** `n_Λ` niesie ponad bijekcję — i natychmiast
-  sprawdzić to kontrolą 139 (czy wykładnik da się zapisać wyłącznie z listy 147, bez żadnej stałej
-  dopasowanej). Jeśli przechodzi, oś 3–4 dostaje pierwszy ruch od 214.
-- **(b) Zdanie upada: identyfikacja jest reparametryzacją.** Wtedy **wynikiem jest to, że [94] pkt 4 nie ma
-  jeszcze formalnej treści** — teza użytkownika stoi, pada tylko formalizacja, którą dał jej asystent
-  w `§F1`. To **nie jest obalenie [94]**; to zdjęcie z niej fałszywego podparcia, i trzeba to napisać
-  dokładnie w tych słowach, bo inaczej następna sesja przeczyta, że hipoteza upadła.
-- **(c) Pytanie źle postawione, bo „łamanie samopodobieństwa" i „miejsce" to dwie rzeczy.** Samopodobieństwo
-  łamie się **tam, gdzie wchodzi skala** — a skala w zespole wchodzi przez `v` i przez progi, nie przez
-  `n_Λ`. Wtedy krok brzmi: najpierw powiedzieć, co jest łamane i czym, potem pytać o miejsce. Precedens:
-  221 rozdzieliło trzy obiekty pod literą `z`, 224 rozdzieliło dwa końce pod nazwą „Ø-miejsce".
+- **(a) Zdanie przechodzi.** Wtedy treść 154 trzeba zapisać jako **relację**, nie jako „ustalone `m_H`, `m_t`"
+  — a wybór, co jest wejściem, jest opisem (223: stałe przy zmianie obiektu, zmienne przy zmianie opisu).
+  I od razu ostrzeżenie: dla zmierzonych mas `λ` znika **dużo niżej niż `m_P`** (Buttazzo i in., cytowane
+  w 154 — „przy `m_H = 125` stabilność do Plancka wymaga `m_t ≈ 171`"). Więc w odczycie „ustala `v/m_P`"
+  zmierzone masy dałyby **inne** `v/m_P` niż rzeczywiste — i to jest albo trafienie, albo chybienie jedynego
+  warunku ramy, zależnie od tego, jak się go czyta. **To trzeba policzyć uczciwie, nie wybrać odczytu po
+  wyniku.**
+- **(b) Zdanie upada: warunki nie dotykają `v/m_P` z nazwalnego powodu.** Wtedy powód jest wynikiem — i trzeba
+  sprawdzić, czy nie jest to ten sam ruch co w 224 (bijekcja), tylko o poziom niżej.
+- **(c) Pytanie źle postawione, bo „koniec Plancka" zlewa dwie rzeczy.** **Nazwany** jest niezależnie (2D ≡ Ø),
+  ale jego **położenie w `t` względem `v`** to właśnie `ln(m_P/v)`, czyli sama wolna dana. Wtedy krok brzmi:
+  najpierw rozdzielić „nazwany jako Ø" od „położony w `t`", potem pytać. Precedens: 224 rozdzieliło dwa końce
+  pod nazwą „Ø-miejsce", 221 trzy obiekty pod literą `z`.
 
 ---
 
-## Narzędzia zrobione w tej sesji — i co o nich wiadomo
+## Co niepewne — i tu jest najwięcej
 
-- **224: Ø-miejsce daje warunek tylko wtedy, gdy (A) jego położenie jest ustalone niezależnie od wolnej
-  danej i (B) rama wymaga, by ta relacja tam znikała.** Tu przyda się (A): `n_Λ` nie spełnia (A).
-- **223: test dwustronny** — wielkość stała przy zmianie **obiektu** i zmienna przy zmianie **opisu** nie
-  ogranicza obiektu tam, gdzie jest stała. **Uwaga, sprawdzona w 224: ten test łatwo przeceniać.** Zapowiadałem,
-  że tnie w Ø-miejsca; nie tnie, bo pierwsza noga (stałość przy zmianie obiektu) nie była spełniona.
-  **Przed użyciem policzyć obie pochodne, nie jedną.**
-- **222: sprawdzić, czy kwantyfikator reguły równa się kwantyfikatorowi dowodu** — i czy po dowodzie
-  przesłanka domysłu jest jeszcze spełniona przez cokolwiek (211).
+**224 może wymagać poprawki.** W 224 warunek (A) brzmiał: Ø-miejsce daje warunek, gdy jego położenie jest
+ustalone niezależnie od wolnej danej — i koniec Plancka zaliczyłem jako taki, **bo jest nazwany niezależnie**.
+Ale nazwanie to nie położenie: w zmiennej `t` koniec Plancka leży w odległości `ln(m_P/v)` od odniesienia,
+a to jest `v/m_P`. **Jeśli (c) jest trafione, to 224 (A) zlało „nazwany" z „położony"** — i trzeba to
+poprawić tam, nie tylko tu. Nie wiem, i **to jest pierwsza rzecz do sprawdzenia**, zanim cokolwiek się
+policzy. Jeśli 224 trzeba poprawić, to jest poprawka do własnego wpisu z tej samej sesji — zapisać ją jako
+taką, nie przemilczeć.
+
+**Czy to w ogóle jest krok na kartkę.** Pytanie „czy warunki dotykają `v/m_P`" jest strukturalne (ile równań,
+ile niewiadomych, co jest wejściem) — kartka. Ale ostrzeżenie z (a) dotyka **wartości** (gdzie znika `λ` dla
+zmierzonych mas), a 208 i użytkownik (*„przestać się interesować liczbami"*) każą wartości nie szukać.
+Rozdzielić: **struktura relacji — tak; liczba `v/m_P` z niej — nie w tym kroku.**
+
+**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał krytyczność Higgsa jako **warunek na hierarchię**,
+a nie na masy — po kształcie: „Planck scale … determined by … criticality", „hierarchy … fixed by …
+vanishing of the quartic", „ratio of the electroweak to the Planck scale … from the stability boundary".
 
 ---
 
 ## Jak NIE robić — z zapisanych błędów, nie z ostrożności
 
-> **„Trzeba wyrzucać. Bo to że nigdy nie był. Tego śie dowiesz jak podasz strukturalny dowód.
-> Cwaniaczku. Wczesniej tego nie powiesz"** (użytkownik, CC 9)
+> **„Trzeba wyrzucać. […] Tego się dowiesz jak podasz strukturalny dowód. Cwaniaczku. Wcześniej tego nie
+> powiesz"** (użytkownik, CC 9)
 
-Nie zaczynać od „to oczywiście reparametryzacja". Kolejność jest częścią wyniku: najpierw dowód, potem
-zdanie. **Zwłaszcza tu**, bo wniosek jest już w zasięgu z 224 i tym łatwiej go postawić przed dowodem.
+Nie zaczynać od „oczywiście dotykają, dwa równania na trzy niewiadome". Kolejność jest częścią wyniku.
 
-> **„przestać się interesować liczbami — są konsekwencją uczciwej pracy"** (użytkownik, CC 10)
-
-Nie szukać wartości `n_Λ` ani `Λ_QCD`. Pytanie jest o **rodzaj** treści, jak w 208 i 224.
-
-I trzecie, z tej sesji: **to, że wniosek wygląda na wynikający z poprzedniego wpisu, nie znaczy, że wolno
-go wpisać bez własnego czytania.** Tak powstało 210 (usunięte z ramy) i tak prawie powstała reguła z 221
-(skorygowana w 222).
-
----
-
-## Co niepewne
-
-**Czy `n_Λ` jest w ogóle tym, co `§F1` miało na myśli.** Zdanie mówi „logarytm sięga jedności", a to brzmi
-jak warunek `α ~ 1`, nie jak `1/α = 0`. Jeśli to dwie różne rzeczy, (c) jest trafione, a bijekcja z 224
-dotyczy tylko drugiej. **Nie wiem, i to jest pierwsza rzecz do sprawdzenia, nie do założenia.**
-
-**Czy „wszystko na raz" z [94] pkt 4 da się w ogóle postawić jako zdanie do upadku.** 207 pokazało, że
-„wszystko na raz" **nie jest wymogiem jednoczesności, a zdaniem, że jest jedna rzecz** — więc może nie być
-tezą do sprawdzania, tylko już rozstrzygniętą. Sprawdzić, czy po 207 zostaje tam cokolwiek otwartego.
-
-**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek łamania samopodobieństwa bez wprowadzania
-skali — po kształcie, nie po nazwie („dimensional transmutation" da setki prac i wszystkie z jednostkami;
-raczej „scale generated without any dimensionful parameter", „ratio fixed by the equations alone").
+**Z tej sesji, trzy razy z rzędu:** sprawdzić **kto co powiedział**, zanim się orzeknie o treści (225: etykieta
+„[94] pkt 4" nie istniała, zdanie było asystenta, a punkt osi był dopisany pod nagłówkiem użytkownika);
+sprawdzić, czy **kwantyfikator reguły równa się kwantyfikatorowi dowodu** (222); i sprawdzić **obie nogi
+testu**, zanim się go użyje (224: zapowiedziałem, że test z 223 tnie, a nie ciął).
 
 ---
 
