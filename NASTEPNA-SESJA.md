@@ -1,102 +1,80 @@
-# Następny krok: przenieść warunek `𝒢` z 212 na `α_i` i `y_f` — albo nazwać przeszkodę
+# Następny krok: zliczyć Ø-miejsca na relację — pierwsza połowa kroku 2
 
-Krok 2 z listy w `CLAUDE.md`, w postaci, jaką mu dała 212. Nic innego; krok 4 (rura ilościowo) i nowe
-`[?]` z 221 są otwarte, ale **nie mieszać ich z tym**.
+Druga połowa kroku 2 (przeniesienie `𝒢` z 212) **została zamknięta na stałe poprawką 223** — nie wracać.
+Otwarte są jeszcze krok 4 (rura ilościowo) i `[?]` z 221, ale **nie mieszać ich z tym**.
 
 ---
 
 ## Co jest na stole
 
-212 postawiła **drugi warunek konieczny na zespół** — pierwszy dała 208 (ustalone są tylko
-samorelacje). Ten jest innego rodzaju: nie o wartościach, tylko o **wspólnej realizowalności rodziny
-funkcji**. Dla jednej koherentnej rodziny znormalizowanych zapisów macierz Grama `Γ_zap` musi być
-dodatnia półokreślona, więc oprócz `‖κ_{ij}‖ ≤ 1`:
+208 ustaliło **rodzaj** każdej wolnej danej zespołu: wszystkie są **stosunkami liczności**, a cztery z nich
+(trzy przesunięcia `1/α_i` + unormowanie Yukaw) to stosunki **do miejsc, w których relacja spotyka Ø**.
+I tam stoi przeformułowanie kroku 2, dosłownie:
 
-```
-𝒢 = det Γ_zap = 1 − Σ_cykl‖κ_{ij}‖² + 2Re(κ₁₂κ₂₃κ₃₁) ≥ 0
-a na granicy wewnętrznej s*:   𝒢(s*) = 0  ⟹  𝒢′(s*) = 0
-```
+> „To przeformułowuje krok 2 (183) z polowania na warunki w **zliczenie Ø-miejsc na relację**: wolna dana
+> jest odległością w liczności do Ø-miejsca, a 183 [T] mówi już, że tylko λ przechodzi przez zero
+> **wewnątrz** zakresu — więc pozostałe Ø-miejsca leżą na krańcach i tyle jest warunków, ile krańców.”
 
-Kontrole 212 (wybrane przed rachunkiem): trójka `9/10, 9/10, −9/10` — każda para dopuszczalna, rodzina
-**nie** (`𝒢 = −361/125`); dodatnia `3/5, 9/25, 3/5` → `𝒢 = 256/625`; rodzina `R_3(s) = (e_1+e_2+se_3)/√(2+s²)`
-→ `𝒢 = s²/(2+s²)`, `𝒢′ = 4s/(2+s²)²`, oba zero w `s = 0`.
+183 [T] ma już połowę roboty zrobioną: w zespole jednopętlowym **tylko λ** może przejść przez zero wewnątrz
+zakresu, bo `1/α_i` jest liniowe w `t` (zero tylko asymptotycznie — Landau albo transmutacja), Yukawy mają
+równanie **multiplikatywne** (`y_f = 0` jest punktem stałym), a **człon bez λ ma tylko `β_λ`**.
 
-**To jest warunek, który wycina rodziny funkcji, nie wybierając żadnej wartości — bez cięcia, bez
-jednostek, bez pojemnika.** Dokładnie ten rodzaj, którego zespół potrzebuje.
-
-**I dokładnie tu 212 się zatrzymała, własnymi słowami (cytat z bloku, nie odsyłacz):**
-
-> „**Zakres, bez którego byłoby to za mocne:** dotyczy **nakładań zapisów w jednym koherentnym
-> protokole**. `𝒢 = 0` znaczy liniową zależność zapisów — **nie** jest automatycznie Ø,
-> nierozróżnialnością, skalą Plancka ani `λ = 0`; żadnego utożsamienia z 154, 183 ani 208 tu nie
-> wykonano. **Przeniesienie warunku na `α_i` albo `y_f` wymaga najpierw wyprowadzenia ich związku z tymi
-> nakładaniami, a tego nie ma.**”
-
-Krok to ta ostatnia linijka. Nie „policzyć `𝒢` dla zespołu” — **podać związek odczytów zespołu
-z nakładaniami zapisów, albo pokazać, że go nie ma.**
+**Pytanie, które zostaje:** ile Ø-miejsc ma każda relacja i **czy każde daje warunek**. Nie „ile warunków
+dają granice Ø” — to było stare, złe postawienie.
 
 ---
 
 ## Czytać w całości, zanim cokolwiek
 
-- **blok 212 w `## §F1`** (4,3 tys. znaków, zaczyna się „CO WYMUSZA SAMA STRUKTURA PORÓWNAŃ”) — krótkie,
-  przeczytać dosłownie, razem z czterema podpunktami i z kontrolą niewystarczalności na końcu
-  (`q_1 = e^{s²}, q_2 = 1, q_3 = e^s`: same tożsamości porównań **nie** wymuszają relacji potęgowej z 152).
-- **blok 208 w `### A11d`** — bo tam jest kryterium rodzaju (relacja wobec wielkości) i werdykt
-  „ustalone są tylko samorelacje, warunek konieczny a nie wystarczający”.
-- **`## §F1` w całości** (92,4 tys. znaków) — tak, w całości; tam stoi zestawienie „STAN ZESPOŁU” (167),
-  wypisanie zespołu (152–153), λ na końcu Plancka (154) i 183 o granicach Ø. **Bez tego nie wiadomo,
-  do czego warunek miałby się przenieść.**
+- **`## R1a`** (18,7 tys. znaków) — cała, razem z tabelą GRANICE Ø i blokiem 207. Tam jest definicja tego,
+  czym Ø-miejsce jest, i poprawka użytkownika, że granice Ø **nie są dwoma końcami**.
+- **blok 183 w `## §F1`** (2,2 tys., zaczyna się „GRANICE Ø WEWNĄTRZ ZAKRESU”) — krótki, przeczytać dosłownie
+  razem z jego kontrolą „czy zdanie coś wyróżnia”.
+- **blok 208 w `### A11d`** — tabela 19 odczytów z kolumną „powód”, bo to ona mówi, **do jakiego** Ø-miejsca
+  odnosi się każda z czterech danych.
+- **blok 223 w `## §F1`** — bo daje narzędzie (niżej) i bo zamyka drugą połowę tego kroku; żeby jej nie
+  otwierać z powrotem.
 
-**Nie czytać `### A11d` w całości** — 135 tys. znaków, reguła 195 jest tam niewykonalna. Znany defekt,
-nie przeoczenie: sekcja robi dwie roboty (aparat pary (M, O) i odczyty masy) i prosi się o rozdzielenie.
-Osobna sprawa, nie ten krok.
+`## §F1` ma 92,4 tys. znaków i **w tej sesji został przeczytany w całości** przy 223. Jeśli następna sesja
+czyta go znowu w całości — dobrze; jeśli nie, to **te dwa bloki plus tabela „STAN ZESPOŁU” są minimum**,
+i trzeba to zapisać jako świadome zawężenie, nie przemilczeć.
 
 ---
 
 ## Zdanie, które ma upaść
 
-> **Odczyty zespołu (`α_i`, `y_f`) są nakładaniami zapisów w jednym koherentnym protokole, więc
-> `𝒢 ≥ 0` z `𝒢′(s*) = 0` jest warunkiem na zespół.**
+> **Każde Ø-miejsce relacji daje jeden warunek na jej wolną daną, więc warunków jest tyle, ile Ø-miejsc.**
 
 Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Związek da się podać.** Wtedy zespół ma drugi warunek konieczny, który wycina rodziny funkcji —
-  i trzeba natychmiast sprawdzić, czego wycina **za dużo**: 212 ostrzega, że `𝒢 = 0` to zależność
-  liniowa, a **nie** Ø, więc utożsamienie z 154 albo 183 byłoby tym samym błędem co „2D = Ø” w 206.
-- **(b) Związku nie da się podać i przeszkoda jest nazywalna.** Wtedy **przeszkoda jest wynikiem**, nie
-  porażką — i prawdopodobnie mówi, czego zespołowi brakuje, żeby być protokołem (np. że odczyty nie są
-  jedną koherentną rodziną, bo mierzone są przy różnych rozdzielczościach; patrz 166 i warunek wspólnej
-  rozdzielczości). To byłoby więcej warte niż (a).
-- **(c) Pytanie źle postawione, bo „zapis” w 212 i „odczyt” w 208 to nie to samo pojęcie.** `Γ_zap`
-  jest macierzą Grama **zapisów**, a 19 odczytów zespołu to **stosunki liczności**. Wtedy krok brzmi:
-  najpierw powiedzieć, czym jest zapis dla odczytu zespołu, potem pytać. Precedens: 206 zespoliło dwie
-  różne trójki pod jedną nazwą i tabela to policzyła; 221 rozdzieliło trzy obiekty pod literą `z`.
+- **(a) Zdanie przechodzi.** Wtedy jest liczba do porównania z bilansem 149 (17 wolnych danych wobec ~1
+  warunku) i **pierwszy raz od 149 ten bilans się rusza**. Natychmiast sprawdzić, czy nie liczy się
+  tego samego Ø-miejsca dwa razy (Landau i transmutacja to **jedno** miejsce widziane z dwóch stron, czy dwa).
+- **(b) Część Ø-miejsc nie daje warunku, bo zależy od opisu, nie od obiektu.** Wtedy liczba warunków maleje
+  i **to jest wynik**, nie porażka — patrz narzędzie niżej. Podejrzenie konkretne: położenie bieguna Landaua
+  i skala transmutacji są poza jedną pętlą zależne od schematu, a 208 odrzuciło `μ²` dokładnie za „zależy od
+  samej skali cięcia, nie od stosunku dwóch rozdzielczości”.
+- **(c) Pytanie źle postawione, bo „Ø-miejsce” zlewa dwie rzeczy.** Zero sprzężenia (relacja znika, `α → 0`)
+  i rozbieżność sprzężenia (Landau, `1/α → 0`) to **nie to samo**, a 183 wymienia oba w jednym zdaniu.
+  Wtedy krok brzmi: najpierw rozdzielić, potem zliczać. Precedens: 221 rozdzieliło trzy obiekty pod literą
+  `z`, 206 zespoliło dwie trójki i tabela to policzyła.
 
 ---
 
-## Narzędzie zrobione w tej sesji (221) i pułapka, którą po drodze widziałem
+## Narzędzie zrobione w tej sesji (223) — i ostrzeżenie, że tnie w obie strony
 
-221 dało kryterium, **w brzmieniu poprawionym przez 222**: parametr wpisany jawnie = notacja wolnego uchwytu,
-przypadek (ii) z R1b-A do pokazania. Niejawny punkt stały `x = Φ(x)` daje **mniej, niż 221 napisało**: mówi tylko,
-**GDZIE przyłożyć formę — do zawartości `Φ`, nie do punktu stałego — a nie co z niej wyjdzie.** Powód, dla którego
-`x` nie jest kandydatem na C: kandydat musi zmieniać się przy ustalonych relacjach, a zmiana wartości zadanej przez
-resztę wyprowadza z definicji obiektu. **Ale „wyznaczone przez `Φ`" przechodzi w „wyznaczone przez relacje"
-wyłącznie wtedy, gdy `Φ` nie zawiera nic poza relacjami, i to jest osobna robota** — `x = Φ(x; Λ)` z cięciem jest
-równie niejawne, a 208 je odrzuca.
+223 dało **test dwustronny**: wielkość, która jest **stała przy zmianie obiektu** i **zmienna przy zmianie
+opisu**, nie może ograniczać obiektu tam, gdzie jest stała. Nie wymaga rozpoznania bazy ani pojemnika —
+wystarczy policzyć obie pochodne. Tym padło przeniesienie `𝒢` na `α_i` i `y_f`.
 
-Na tym kroku to narzędzie ma jedno **konkretne** zastosowanie i jedno pozorne.
+**Ostrzeżenie: ten test prawdopodobnie tnie także w ten krok**, i trzeba to sprawdzić **przed** zliczaniem,
+nie po. Pytanie do każdego Ø-miejsca po kolei: czy jego położenie zmienia się, gdy zmienia się **opis**
+(schemat, rząd pętli, definicja sprzężenia), przy nietkniętym obiekcie? Jeśli tak — to Ø-miejsce nie jest
+warunkiem i wypada, tak samo jak `μ²` w 208. Jeśli nie zmienia się przy żadnej zmianie opisu — zostaje.
 
-- **Konkretne, ale po 222 inaczej postawione:** `s*` w `𝒢(s*) = 0 ⟹ 𝒢′(s*) = 0`. **Nie pytać „czy `s*` jest
-  nastawiane, bo warunek jest niejawny"** — dokładnie ten ruch 222 obaliło. Pytać: **co jest w `𝒢`.** `𝒢` jest
-  wyznacznikiem macierzy Grama nakładań `κ_{ij}`, więc pytanie brzmi: czy w `κ_{ij}` jest coś poza relacjami. Jeśli
-  nie — `s*` jest produkowane i warunek jest odczytem; jeśli tak (cięcie, jednostka, skala odniesienia) — warunek
-  trzeba przełożyć, a niejawność go nie uratuje.
-
-- **Pozorne, i to jest pułapka:** przesortować 19 odczytów zespołu na „nastawiane / produkowane”.
-  **Tego nie robić** — odpowiedź jest trywialnie „wszystkie nastawiane”, bo to jest definicja wolnego
-  parametru, i wyszłoby potwierdzanie (191) w nowej notacji. Sprawdziłem to w tej sesji i dlatego tego
-  kroku tu nie ma.
+**Czego NIE robić (z 222):** nie wnioskować z postaci zapisu. „`1/α` jest liniowe, więc zero jest tylko
+asymptotyczne” jest zdaniem o jednopętlowym **równaniu**, nie o relacji; 183 samo to oznacza („przy dwóch
+pętlach struktura się nie zmienia — [O], rachunkiem niesprawdzone”).
 
 ---
 
@@ -105,39 +83,35 @@ Na tym kroku to narzędzie ma jedno **konkretne** zastosowanie i jedno pozorne.
 > **„Albo niosła, albo nie niosła. Dowód ma być strukturalny a nie bajdurzeniem o przykładach”**
 > (użytkownik, CC 9)
 
-Nie „oto `𝒢` dla trzech Yukaw, oto dla trzech sprzężeń”. Trzy przykłady nie są związkiem; związek albo
-jest podany, albo pokazane, że go nie ma.
+Zliczenie to nie lista przykładów Ø-miejsc. Albo jest reguła mówiąca, ile ich ma relacja danego rodzaju,
+albo nie ma zliczenia.
 
-> **„Nie miałem na myśli tego co piszą w podręczniku w szkole podstawowej. Przeczytaj co na temat
-> grawitacji mówi plik główny”** (użytkownik, CC 9)
+> **„Nie szukać wartości”** — 208 zabrania warunku na odczyt, który nie jest samorelacją.
 
-Zanim szukasz w literaturze macierzy Grama dla sprzężeń — **przeczytaj, co o zapisie mówi plik**: 171
-(zapis niesie dokładnie to, co ≡), 174 (wzbudzenie wobec milczenia), 179 (struktura minimalna). Dwa razy
-już było tak, że odpowiedź stała w pliku, w sekcji, w której pracowałem.
+Więc nawet jeśli Ø-miejsc wyjdzie dużo, **nie wolno z nich robić wartości** dla czegoś, co nie jest
+samorelacją. Liczba warunków i liczba ustalonych danych to dwie różne rzeczy.
 
-I trzeci, najświeższy, z 211 i 221: **sprawdzić, czy po dowodzie przesłanka domysłu jest jeszcze
-spełniona przez cokolwiek.** W 221 nie była — i dlatego następnika („`z` jest odczytem”) nie wpisano,
-choć przeszedłby algebrę i filtr.
+I trzeci, najświeższy, z 222: **sprawdzić, czy kwantyfikator reguły równa się kwantyfikatorowi dowodu.**
+Jeśli wyjdzie reguła „każda relacja ma `k` Ø-miejsc”, to zanim trafi do bloku ogólnego — sprawdzić, na ilu
+rodzajach relacji została pokazana.
 
 ---
 
 ## Co niepewne
 
-**Czy `α_i` i `y_f` w ogóle mogą być jedną koherentną rodziną.** 166 i 214 mówią, że odczyty A i B
-różnią się rozdzielczością, a 221, że wspólna rozdzielczość jest przypadkiem (i) — nie niesie niczego.
-Jeśli „jeden koherentny protokół” z 212 wymaga **jednej** rozdzielczości, to związek może nie istnieć
-z powodu, który już stoi zapisany, i wtedy to jest (b), nie porażka. **Nie wiem, i to jest pierwsza rzecz
-do sprawdzenia, nie do założenia.**
+**Czy „Ø-miejsce” jest w ogóle policzalne bez wybranego zakresu.** 183 mówi „wewnątrz zakresu” i „na
+krańcach”, a zakres to para rozdzielczości. Jeśli liczba Ø-miejsc zależy od wybranego zakresu, to jest
+wielkością, nie relacją — po 208 wypadałaby tym samym kryterium, którym wypadło `μ²`. **Nie wiem, i to jest
+pierwsza rzecz do sprawdzenia, nie do założenia.**
 
-**Czy `κ_{ij}` ma w zespole desygnat.** W 212 `κ` to nakładanie dwóch znormalizowanych zapisów. Co jest
-nakładaniem dwóch sprzężeń — nie wiem. Możliwe, że tabela amplitud z 217 (`C(R)` wobec `T(R)` — te same
-amplitudy czytane dwa razy) jest tym miejscem, bo tam nakładania **są** jawne: `X_f = Y_f†Y_f = ⟨R_a‖R_b⟩`.
-To jest jedyny trop, który widzę, i nie sprawdziłem go.
+**Czy λ liczy się raz, czy dwa.** 183 [T] daje λ zero **wewnątrz** zakresu, a 154 daje jej warunek **na
+końcu Plancka** (`λ = 0` i `β_λ = 0`), i 183 mówi, że ten drugi jest „przypadkiem szczególnym warunku
+dotyczącego całego zakresu”. Czy to jedno Ø-miejsce czy dwa — od tego zależy, czy jedyne wykorzystane
+trafienie zespołu było jednym warunkiem czy dwoma.
 
-**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek dodatniej półokreśloności rodziny
-jako warunek na zestaw stałych sprzężenia — po kształcie, nie po nazwie („Gram matrix” + „coupling
-constants” nic nie da; raczej „positive semidefinite … family … simultaneously realizable”, albo
-„determinant vanishes … derivative vanishes … boundary of the physical region”).
+**Czego nie sprawdziłem w literaturze:** czy ktoś policzył **niezależność od schematu** położenia zera albo
+bieguna sprzężenia — po kształcie, nie po nazwie („Landau pole scheme dependence” coś da, ale lepsze:
+„location … independent of the renormalization scheme”, „invariant … all orders … coupling vanishes”).
 
 ---
 
