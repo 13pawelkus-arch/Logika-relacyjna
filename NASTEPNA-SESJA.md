@@ -1,117 +1,116 @@
-# Następny krok: zliczyć Ø-miejsca na relację — pierwsza połowa kroku 2
+# Następny krok: zapytać [94] pkt 4 tym, czym 224 zapytało Ø-miejsca
 
-Druga połowa kroku 2 (przeniesienie `𝒢` z 212) **została zamknięta na stałe poprawką 223** — nie wracać.
-Otwarte są jeszcze krok 4 (rura ilościowo) i `[?]` z 221, ale **nie mieszać ich z tym**.
+Krok 2 **zamknięty w całości** (223 i 224) — nie wracać do niego ani do przeniesienia `𝒢`, ani do
+wewnętrznych granic Ø jako źródła warunków. Otwarte są jeszcze krok 4 (rura ilościowo) i `[?]` z 221,
+ale **nie mieszać ich z tym**.
 
 ---
 
-## Co jest na stole
+## Co jest na stole, i dlaczego to jest następne
 
-208 ustaliło **rodzaj** każdej wolnej danej zespołu: wszystkie są **stosunkami liczności**, a cztery z nich
-(trzy przesunięcia `1/α_i` + unormowanie Yukaw) to stosunki **do miejsc, w których relacja spotyka Ø**.
-I tam stoi przeformułowanie kroku 2, dosłownie:
+[94] pkt 4 to **hipoteza nadrzędna** całej osi 3–4, i stoi nietknięta od 25.09. Werdykt użytkownika na
+koniec CC 11 nazwał to wprost: *„a [94] pkt 4 (»masa = miejsce łamania samopodobieństwa«, »wszystko na
+raz«) stoi nietknięte"*.
 
-> „To przeformułowuje krok 2 (183) z polowania na warunki w **zliczenie Ø-miejsc na relację**: wolna dana
-> jest odległością w liczności do Ø-miejsca, a 183 [T] mówi już, że tylko λ przechodzi przez zero
-> **wewnątrz** zakresu — więc pozostałe Ø-miejsca leżą na krańcach i tyle jest warunków, ile krańców.”
+Formalną treść, jaką `§F1` jej daje, warto przeczytać dosłownie:
 
-183 [T] ma już połowę roboty zrobioną: w zespole jednopętlowym **tylko λ** może przejść przez zero wewnątrz
-zakresu, bo `1/α_i` jest liniowe w `t` (zero tylko asymptotycznie — Landau albo transmutacja), Yukawy mają
-równanie **multiplikatywne** (`y_f = 0` jest punktem stałym), a **człon bez λ ma tylko `β_λ`**.
+> „**Masa = miejsce, gdzie samopodobieństwo się łamie** (logarytm sięga jedności: `n_Λ = n·e^{2π/(bα)}`)
+> — skala jako wykładnik stosunku sprzężeń obejmującego cały zakres, nie wynik kroku."
 
-**Pytanie, które zostaje:** ile Ø-miejsc ma każda relacja i **czy każde daje warunek**. Nie „ile warunków
-dają granice Ø” — to było stare, złe postawienie.
+**I tu jest powód, dla którego to jest następny krok, a nie dowolny z listy.** 224 właśnie pokazało [T],
+że `n_Λ/n = e^{t_*}`, `t_* = (2π/b_i)·(1/α_i(0))`, jest **dokładną bijekcją liniową wolnej danej** — więc
+podanie `n_Λ` niesie dokładnie tę samą jedną liczbę co `1/α_i(0)`. Jeżeli to jest cała formalna treść
+„miejsca łamania samopodobieństwa", to ta identyfikacja jest **reparametryzacją, nie wyprowadzeniem**.
+
+**Tego wniosku NIE wpisałem do ramy, choć zauważyłem go pisząc 224.** Powód jest z 222: byłaby to reguła
+wyciągnięta szerzej niż dowód, który ją zrodził — 224 dowiodło rzeczy o **Ø-miejscach zespołu**, a [94] pkt 4
+jest zdaniem o **hipotezie nadrzędnej** i należy mu się własny krok z własnym czytaniem. Zrobienie tego
+w przelocie byłoby dokładnie tym, co 222 nazwało.
 
 ---
 
 ## Czytać w całości, zanim cokolwiek
 
-- **`## R1a`** (18,7 tys. znaków) — cała, razem z tabelą GRANICE Ø i blokiem 207. Tam jest definicja tego,
-  czym Ø-miejsce jest, i poprawka użytkownika, że granice Ø **nie są dwoma końcami**.
-- **blok 183 w `## §F1`** (2,2 tys., zaczyna się „GRANICE Ø WEWNĄTRZ ZAKRESU”) — krótki, przeczytać dosłownie
-  razem z jego kontrolą „czy zdanie coś wyróżnia”.
-- **blok 208 w `### A11d`** — tabela 19 odczytów z kolumną „powód”, bo to ona mówi, **do jakiego** Ø-miejsca
-  odnosi się każda z czterech danych.
-- **blok 223 w `## §F1`** — bo daje narzędzie (niżej) i bo zamyka drugą połowę tego kroku; żeby jej nie
-  otwierać z powrotem.
+- **blok HIPOTEZA NADRZĘDNA na początku `## §F1`** (5,4 tys. znaków, cały cytat blokowy) — tam stoi i teza
+  użytkownika, i cztery podpunkty asystenta, i **zdanie do upadku z poprawki 139** („wykładniki muszą
+  pochodzić wyłącznie z policzonych współczynników").
+- **TABELA LOGARYTMÓW (146)** w `§F1`, zaraz niżej — bo to ona rozdziela typ S („ślad samopodobieństwa")
+  od typu K, a teza o samopodobieństwie wisi na typie S.
+- **blok 224** (koniec bloku 183 w `§F1`) — bo to z niego bierze się pytanie; i **blok 212**, bo on mówi,
+  że logarytm jest **wyprowadzony, nie wybrany**, co jest drugą stroną tej samej sprawy.
+- **blok 218 w `## §F2`** — bo tam „wszystkie logarytmy mają jedno źródło" już raz zostało zawężone
+  (jeden diagram daje dwie funkcje logarytmiczne, wagi równają się dopiero w granicy bez progów).
 
-`## §F1` ma 92,4 tys. znaków i **w tej sesji został przeczytany w całości** przy 223. Jeśli następna sesja
-czyta go znowu w całości — dobrze; jeśli nie, to **te dwa bloki plus tabela „STAN ZESPOŁU” są minimum**,
-i trzeba to zapisać jako świadome zawężenie, nie przemilczeć.
+`## §F1` ma 92,4 tys. znaków i **w tej sesji został przeczytany w całości** (przy 223). Jeśli następna
+sesja nie czyta go znowu w całości, **to trzeba zapisać jako świadome zawężenie**, nie przemilczeć.
 
 ---
 
 ## Zdanie, które ma upaść
 
-> **Każde Ø-miejsce relacji daje jeden warunek na jej wolną daną, więc warunków jest tyle, ile Ø-miejsc.**
+> **„Masa = miejsce łamania samopodobieństwa" ma formalną treść ponad tę, którą niesie wolna dana —
+> czyli `n_Λ` mówi o masie coś, czego nie mówi samo `1/α(0)`.**
 
 Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Zdanie przechodzi.** Wtedy jest liczba do porównania z bilansem 149 (17 wolnych danych wobec ~1
-  warunku) i **pierwszy raz od 149 ten bilans się rusza**. Natychmiast sprawdzić, czy nie liczy się
-  tego samego Ø-miejsca dwa razy (Landau i transmutacja to **jedno** miejsce widziane z dwóch stron, czy dwa).
-- **(b) Część Ø-miejsc nie daje warunku, bo zależy od opisu, nie od obiektu.** Wtedy liczba warunków maleje
-  i **to jest wynik**, nie porażka — patrz narzędzie niżej. Podejrzenie konkretne: położenie bieguna Landaua
-  i skala transmutacji są poza jedną pętlą zależne od schematu, a 208 odrzuciło `μ²` dokładnie za „zależy od
-  samej skali cięcia, nie od stosunku dwóch rozdzielczości”.
-- **(c) Pytanie źle postawione, bo „Ø-miejsce” zlewa dwie rzeczy.** Zero sprzężenia (relacja znika, `α → 0`)
-  i rozbieżność sprzężenia (Landau, `1/α → 0`) to **nie to samo**, a 183 wymienia oba w jednym zdaniu.
-  Wtedy krok brzmi: najpierw rozdzielić, potem zliczać. Precedens: 221 rozdzieliło trzy obiekty pod literą
-  `z`, 206 zespoliło dwie trójki i tabela to policzyła.
+- **(a) Zdanie przechodzi.** Wtedy trzeba podać **co dokładnie** `n_Λ` niesie ponad bijekcję — i natychmiast
+  sprawdzić to kontrolą 139 (czy wykładnik da się zapisać wyłącznie z listy 147, bez żadnej stałej
+  dopasowanej). Jeśli przechodzi, oś 3–4 dostaje pierwszy ruch od 214.
+- **(b) Zdanie upada: identyfikacja jest reparametryzacją.** Wtedy **wynikiem jest to, że [94] pkt 4 nie ma
+  jeszcze formalnej treści** — teza użytkownika stoi, pada tylko formalizacja, którą dał jej asystent
+  w `§F1`. To **nie jest obalenie [94]**; to zdjęcie z niej fałszywego podparcia, i trzeba to napisać
+  dokładnie w tych słowach, bo inaczej następna sesja przeczyta, że hipoteza upadła.
+- **(c) Pytanie źle postawione, bo „łamanie samopodobieństwa" i „miejsce" to dwie rzeczy.** Samopodobieństwo
+  łamie się **tam, gdzie wchodzi skala** — a skala w zespole wchodzi przez `v` i przez progi, nie przez
+  `n_Λ`. Wtedy krok brzmi: najpierw powiedzieć, co jest łamane i czym, potem pytać o miejsce. Precedens:
+  221 rozdzieliło trzy obiekty pod literą `z`, 224 rozdzieliło dwa końce pod nazwą „Ø-miejsce".
 
 ---
 
-## Narzędzie zrobione w tej sesji (223) — i ostrzeżenie, że tnie w obie strony
+## Narzędzia zrobione w tej sesji — i co o nich wiadomo
 
-223 dało **test dwustronny**: wielkość, która jest **stała przy zmianie obiektu** i **zmienna przy zmianie
-opisu**, nie może ograniczać obiektu tam, gdzie jest stała. Nie wymaga rozpoznania bazy ani pojemnika —
-wystarczy policzyć obie pochodne. Tym padło przeniesienie `𝒢` na `α_i` i `y_f`.
-
-**Ostrzeżenie: ten test prawdopodobnie tnie także w ten krok**, i trzeba to sprawdzić **przed** zliczaniem,
-nie po. Pytanie do każdego Ø-miejsca po kolei: czy jego położenie zmienia się, gdy zmienia się **opis**
-(schemat, rząd pętli, definicja sprzężenia), przy nietkniętym obiekcie? Jeśli tak — to Ø-miejsce nie jest
-warunkiem i wypada, tak samo jak `μ²` w 208. Jeśli nie zmienia się przy żadnej zmianie opisu — zostaje.
-
-**Czego NIE robić (z 222):** nie wnioskować z postaci zapisu. „`1/α` jest liniowe, więc zero jest tylko
-asymptotyczne” jest zdaniem o jednopętlowym **równaniu**, nie o relacji; 183 samo to oznacza („przy dwóch
-pętlach struktura się nie zmienia — [O], rachunkiem niesprawdzone”).
+- **224: Ø-miejsce daje warunek tylko wtedy, gdy (A) jego położenie jest ustalone niezależnie od wolnej
+  danej i (B) rama wymaga, by ta relacja tam znikała.** Tu przyda się (A): `n_Λ` nie spełnia (A).
+- **223: test dwustronny** — wielkość stała przy zmianie **obiektu** i zmienna przy zmianie **opisu** nie
+  ogranicza obiektu tam, gdzie jest stała. **Uwaga, sprawdzona w 224: ten test łatwo przeceniać.** Zapowiadałem,
+  że tnie w Ø-miejsca; nie tnie, bo pierwsza noga (stałość przy zmianie obiektu) nie była spełniona.
+  **Przed użyciem policzyć obie pochodne, nie jedną.**
+- **222: sprawdzić, czy kwantyfikator reguły równa się kwantyfikatorowi dowodu** — i czy po dowodzie
+  przesłanka domysłu jest jeszcze spełniona przez cokolwiek (211).
 
 ---
 
 ## Jak NIE robić — z zapisanych błędów, nie z ostrożności
 
-> **„Albo niosła, albo nie niosła. Dowód ma być strukturalny a nie bajdurzeniem o przykładach”**
-> (użytkownik, CC 9)
+> **„Trzeba wyrzucać. Bo to że nigdy nie był. Tego śie dowiesz jak podasz strukturalny dowód.
+> Cwaniaczku. Wczesniej tego nie powiesz"** (użytkownik, CC 9)
 
-Zliczenie to nie lista przykładów Ø-miejsc. Albo jest reguła mówiąca, ile ich ma relacja danego rodzaju,
-albo nie ma zliczenia.
+Nie zaczynać od „to oczywiście reparametryzacja". Kolejność jest częścią wyniku: najpierw dowód, potem
+zdanie. **Zwłaszcza tu**, bo wniosek jest już w zasięgu z 224 i tym łatwiej go postawić przed dowodem.
 
-> **„Nie szukać wartości”** — 208 zabrania warunku na odczyt, który nie jest samorelacją.
+> **„przestać się interesować liczbami — są konsekwencją uczciwej pracy"** (użytkownik, CC 10)
 
-Więc nawet jeśli Ø-miejsc wyjdzie dużo, **nie wolno z nich robić wartości** dla czegoś, co nie jest
-samorelacją. Liczba warunków i liczba ustalonych danych to dwie różne rzeczy.
+Nie szukać wartości `n_Λ` ani `Λ_QCD`. Pytanie jest o **rodzaj** treści, jak w 208 i 224.
 
-I trzeci, najświeższy, z 222: **sprawdzić, czy kwantyfikator reguły równa się kwantyfikatorowi dowodu.**
-Jeśli wyjdzie reguła „każda relacja ma `k` Ø-miejsc”, to zanim trafi do bloku ogólnego — sprawdzić, na ilu
-rodzajach relacji została pokazana.
+I trzecie, z tej sesji: **to, że wniosek wygląda na wynikający z poprzedniego wpisu, nie znaczy, że wolno
+go wpisać bez własnego czytania.** Tak powstało 210 (usunięte z ramy) i tak prawie powstała reguła z 221
+(skorygowana w 222).
 
 ---
 
 ## Co niepewne
 
-**Czy „Ø-miejsce” jest w ogóle policzalne bez wybranego zakresu.** 183 mówi „wewnątrz zakresu” i „na
-krańcach”, a zakres to para rozdzielczości. Jeśli liczba Ø-miejsc zależy od wybranego zakresu, to jest
-wielkością, nie relacją — po 208 wypadałaby tym samym kryterium, którym wypadło `μ²`. **Nie wiem, i to jest
-pierwsza rzecz do sprawdzenia, nie do założenia.**
+**Czy `n_Λ` jest w ogóle tym, co `§F1` miało na myśli.** Zdanie mówi „logarytm sięga jedności", a to brzmi
+jak warunek `α ~ 1`, nie jak `1/α = 0`. Jeśli to dwie różne rzeczy, (c) jest trafione, a bijekcja z 224
+dotyczy tylko drugiej. **Nie wiem, i to jest pierwsza rzecz do sprawdzenia, nie do założenia.**
 
-**Czy λ liczy się raz, czy dwa.** 183 [T] daje λ zero **wewnątrz** zakresu, a 154 daje jej warunek **na
-końcu Plancka** (`λ = 0` i `β_λ = 0`), i 183 mówi, że ten drugi jest „przypadkiem szczególnym warunku
-dotyczącego całego zakresu”. Czy to jedno Ø-miejsce czy dwa — od tego zależy, czy jedyne wykorzystane
-trafienie zespołu było jednym warunkiem czy dwoma.
+**Czy „wszystko na raz" z [94] pkt 4 da się w ogóle postawić jako zdanie do upadku.** 207 pokazało, że
+„wszystko na raz" **nie jest wymogiem jednoczesności, a zdaniem, że jest jedna rzecz** — więc może nie być
+tezą do sprawdzania, tylko już rozstrzygniętą. Sprawdzić, czy po 207 zostaje tam cokolwiek otwartego.
 
-**Czego nie sprawdziłem w literaturze:** czy ktoś policzył **niezależność od schematu** położenia zera albo
-bieguna sprzężenia — po kształcie, nie po nazwie („Landau pole scheme dependence” coś da, ale lepsze:
-„location … independent of the renormalization scheme”, „invariant … all orders … coupling vanishes”).
+**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał warunek łamania samopodobieństwa bez wprowadzania
+skali — po kształcie, nie po nazwie („dimensional transmutation" da setki prac i wszystkie z jednostkami;
+raczej „scale generated without any dimensionful parameter", „ratio fixed by the equations alone").
 
 ---
 
