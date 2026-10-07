@@ -1,7 +1,17 @@
 # Następny krok: czy dwa warunki z 154 dotykają `v/m_P` — jedynej danej, która łamie samopodobieństwo
 
-Krok 2 zamknięty w całości (223, 224), krok o [104] zamknięty (225). Otwarte są jeszcze krok 4 (rura
-ilościowo) i `[?]` z 221, ale **nie mieszać ich z tym**.
+Krok 2 zamknięty w całości (223, 224), krok o [104] zamknięty (225), wątek Naviera–Stokesa zamknięty
+(226; użytkownik: *„wątek OpenAI, chyba można odpuścić"*). Otwarte są jeszcze krok 4 (rura ilościowo)
+i `[?]` z 221, ale **nie mieszać ich z tym**.
+
+## Najpierw: literatura pod samopodobieństwo
+
+Użytkownik na koniec CC 12: *„jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury
+konkretnie pod samopodobieństwo. A jest tego trochę"*. **Jeśli istnieje `literatura/samopodobienstwo.md`,
+przeczytać go przed tym krokiem** — przynajmniej część o (S) i o następnym kroku (prace, które wiążą
+hierarchię z warunkiem na końcu albo z punktem stałym). **Jeśli go nie ma — zrobić przegląd najpierw**
+(pierwsze podejście 7.10 przerwał limit sesji: wszystkie agenty, zero wyników). Mapa jest materiałem
+wejściowym, nie wpisem: każdy kandydat do ramy przechodzi test ze `STOP.md` dopiero tutaj.
 
 ---
 
