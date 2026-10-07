@@ -71,7 +71,7 @@ Rozstrzygnięcia wypisane **z góry**:
 **154 i zakres `ln(m_P/v)`.** 154 przenosi `λ = 0`, `β_λ = 0` „na końcu Plancka" na `m_H` i `m_t` biegiem
 na zakresie `ln(m_P/v)`. Użytkownik: Planck nie ma położenia. Czym więc jest ten zakres w 154 — nie wiem i
 **nie wolno tego rozstrzygać zgadywaniem** (próbowałem w CC 13 dwa razy, użytkownik: *„nawet nie
-komentuję"*). 154 jest potwierdzonym przez użytkownika jedynym trafieniem — jeśli krok go dotyka, **zapytać**.
+komentuję"*). **154 jest wpisem asystenta (v3.5), nie potwierdzeniem użytkownika** — w CC 13 napisałem inaczej i to był błąd atrybucji (230). Po 230 stoi przy nim, z czego wynika: dwa warunki są treścią ramy, a przeniesienie na `m_H`, `m_t` idzie przez dane zmierzone i zakres `ln(m_P/v)`.
 
 **`v² = −μ²/λ` (drzewowo).** 208 wyrzuciło `μ²` jako nie-odczyt. Kusi wniosek „więc `v` też" — ale to
 relacja drzewowa, a `λ` jest ustalona przez 154 tylko w jednym miejscu. Sprawdzić, nie przyjąć.
@@ -81,8 +81,9 @@ dwóch samoodczytów jednego nośnika (zygzak wobec pętli światła, [H] przy 2
 oznacza to jako *„tożsamość, niczego sama nie wyprowadza"* [O]. **Nie brać tego jako odpowiedzi** — to jest
 dokładnie ruch z 214 (utożsamienie przez formę).
 
-**Reguła „sztuki czy miara"** w `§E` ma *„pomnóż przez potęgę `t_P`"* — to brzmienie **użytkownika** z [290]
-(18.09), sprzed przekształcenia skali Plancka. Nie poprawiać samemu; jeśli krok jej dotyka, zapytać.
+**Reguła „sztuki czy miara"** w `§E` ma *„pomnóż przez potęgę `t_P`"* — brzmienie użytkownika z [290] (18.09),
+przy rachunkach na rozsiewie; `t_P` jest tam odstępem rozsiewu. Opatrzone w 230: operacja z `t_P` dotyczy tylko
+zamkniętej gałęzi rozsiewu, rdzeń reguły (liczba nie rośnie z gęstością, inaczej miara) stoi.
 
 ---
 
