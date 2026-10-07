@@ -698,5 +698,19 @@
   "ab": "We investigate the possibility that radiative corrections may produce spontaneous symmetry breakdown in theories for which the semiclassical (tree) approximation does not indicate such breakdown. The simplest model in which this phenomenon occurs is the electrodynamics of massless scalar mesons. We find (for small coupling constants) that this theory more closely resembles the theory with an imaginary mass (the Abelian Higgs model) than one with a positive mass; spontaneous symmetry breaking occurs, and the theory becomes a theory of a massive vector meson and a massive scalar meson. The scalar-to-vector mass ratio is computable as a power series in e, the electromagnetic coupling constant. We find, to lowest order, m2(S)m2(V)=(32π)(e24π). We extend our analysis to non-Abelian gauge theories, and find qualitatively similar results. Our methods are also applicable to theories in which the tree approximation indicates the occurrence of spontaneous symmetry breakdown, but does not give complete information about its character. (This typically occurs when the scalar-meson part of the Lagrangian admits a greater symmetry group than the total Lagrangian.) We indicate how to use our methods in these cases.",
   "jr": "Phys.Rev.D 7 (1973) 1888",
   "ax": []
+ },
+ "arXiv:astro-ph/9712103": {
+  "t": "Potential Sensitivity of Gamma-Ray Burster Observations to Wave Dispersion in Vacuo",
+  "au": [
+   "Amelino-Camelia, G.",
+   "Ellis, John",
+   "Mavromatos, N. E.",
+   "Nanopoulos, D. V.",
+   "Sarkar, Subir"
+  ],
+  "y": "1997",
+  "ab": "The recent confirmation that at least some gamma-ray bursters (GRBs) are indeed at cosmological distances raises the possibility that observations of these could provide interesting constraints on the fundamental laws of physics. Here we demonstrate that the fine-scale time structure and hard spectra of GRB emissions are very sensitive to the possible dispersion of electromagnetic waves in vacuo with velocity differences $\\delta v \\sim E/E_{\\QG}$, as suggested in some approaches to quantum gravity. A simple estimate shows that GRB measurements might be sensitive to a dispersion scale $E_{QG}$ comparable to the Planck energy scale $E_{P} \\sim 10^{19}$ GeV, sufficient to test some of these theories, and we outline aspects of an observational programme that could address this goal.",
+  "jr": "",
+  "src": "arxiv.org/abs"
  }
 }

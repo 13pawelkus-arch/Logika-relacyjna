@@ -1,6 +1,6 @@
 # Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis
 
-Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, opis wobec tego, czego wynik używa (relatony), i „masa" jako nośnik założenia (pułapka 6). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, opis wobec tego, czego wynik używa (relatony), „masa" jako nośnik założenia (pułapka 6) oraz ds² = 0 zlewane z odczytem detektora. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -6136,6 +6136,782 @@ assert s.count(a)==1
 s=s.replace(a,'''   samego kroku:** `v` opisuje się jako wartość pola w próżni, a odczytuje ze stałej Fermiego, czyli z czasu życia
    mionu wobec jego masy. **Ale „masa" też przemyca założenie** (użytkownik: *„Raz wystarczy, a raz nie. Zależy, co
    autor ma na myśli, mówiąc — masa"*): mas
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+rozmowa/claude-code-sesja-2026-10-06.md: 74 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86.jsonl)
+branch 'ccr-66a8cb7a-vj7583' set up to track 'origin/ccr-66a8cb7a-vj7583'.
+f7b849e „Masa” też przemyca założenie: który odczyt v i co znaczy m_P
+````
+</details>
+
+## [75] Asystent — 2026-10-07 04:46
+
+Tak, i w moim przykładzie właśnie tak jest. Napisałem „czas życia mionu wobec jego masy” tak, jakby „masa” była jedna. Według ramy to pułapka nazewnicza nr 6:
+
+- **Masa mionu w tempie rozpadu to masa biegunowa,** czyli odczyt A: faza na własne tyknięcie.
+- **`v` wchodzi do zespołu przez Yukawy,** czyli odczyt B: przy danej rozdzielczości (166).
+
+Sam `v` ma więc co najmniej dwa odczyty: ze stałej Fermiego albo przy danej rozdzielczości. Odczytanie go z rozpadu mionu raz wystarczy, a raz nie, zależnie od tego, który odczyt stoi w danym miejscu.
+
+To samo pytanie należy się drugiej masie w kroku 6, czyli `m_P` w `v/m_P`. Nie wiem jeszcze, czy niesie tam koniec Plancka, czy przelicznik `G`; według 205 w zliczaniu `G ≡ 1`.
+
+Do `NASTEPNA-SESJA.md` dopisałem to jako pierwszą rzecz kroku 6, oznaczoną [?]. Najpierw trzeba ustalić, który odczyt `v` i co znaczy `m_P`, a dopiero potem pytać, czy warunki 154 ich dotykają. W zasadzie o literaturze w `CLAUDE.md` dopisałem Twoje zdanie: przy każdej masie w cudzej pracy sprawdzać, który to odczyt i czy nie niesie jednostki. Jest też w mapie, przy przykładzie z `v`.
+
+Wypchnięte w commicie f7b849e.
+
+## [76] Użytkownik — 2026-10-07 04:56
+
+Nie mówiąc już o tym, że mieszają ds2=0 czyli nierozróżnialność z tym co odczytuje np. detektor. A detektor odczytuje informacje teraz o innym stanie. Lepszy detektor np. na orbicie = wiecej informacji . Ale Nie mówi co światło robiło przed odczytem. Bo przed odczytem bylo ds2=0 i światlo z nikąd nie podróżowało do szanownego detektora.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find frame statements on null interval and map instances
+grep -n -o -i '.\{0,140\}\(ds² = 0\|ds²=0\|nie odróżnia emisji\|nie podróżuje\|podróż\).\{0,140\}' logika-relacyjna-v3.5.md | cut -c1-300 | head -8; grep -n -o '.\{0,80\}\(visible from infinity\|observable effect, in our CMB\).\{0,60\}' literatura/samopodobienstwo.md literatura/samopodobienstwo-zrodla.json | cut -c1-220 | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+literatura/samopodobienstwo-zrodla.json:195:a give a natural route from smooth initial data to arbitrarily large curvatures visible from infinity, and are therefore likely to be relevant for cosmic censors
+literatura/samopodobienstwo-zrodla.json:246:ncounters, within bound galactic clusters in that previous aeon, would have the observable effect, in our CMB sky, of families of concentric circles over which the tempe
+````
+</details>
+
+## [77] Użytkownik — 2026-10-07 04:57
+
+This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent:
+   - Project "Logika relacyjna" (Polish; user holds strictly to the relational-logic frame; work per CLAUDE.md, STOP.md, NASTEPNA-SESJA.md). Session CC 12 spans 6–7.10.2026 on branch `ccr-66a8cb7a-vj7583`.
+   - Done earlier this session: poprawki 221–225; NS/OpenAI check → poprawka 226 (pułapka nazewnicza nr 12).
+   - User then asked: "dopisz co brakuje i następne kroki dla następnej sesji. wątek OpenAI, chyba można odpuścić. Ale jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury konkretnie pod samopodobieństwo. A jest tego troche." (invoked /workflow-authoring). → Done: steps 6/7 in CLAUDE.md, NASTEPNA-SESJA updated, literature map `literatura/samopodobienstwo.md` made (after two failed multi-agent workflows).
+   - Subsequent user corrections (all applied to map, NASTEPNA-SESJA.md, CLAUDE.md): literature smuggles assumptions excluding 1:1 translation; fields-in-themselves ≡ Ø; but authors often say "field" while actually using relations/phenomena in the environment — check each paper (relatony common); "mass" also smuggles assumptions (which reading).
+   - Latest user message (needs a response): literature also mixes ds²=0 (indistinguishability) with what a detector reads; detector reads information now about another state; better detector (e.g. on orbit) = more information, but says nothing about what light did before reading, because before reading ds²=0 and light didn't travel from anywhere to the detector.
+
+2. Key Technical Concepts:
+   - Frame notions of self-similarity: (L) law without preferred scale, relations run (152, 212, 225); (S) state invariant at end, relations don't run (148 fixed point, 160 β_λ=0); (N) node hierarchy ([402],[404],[104]); (M) mirror m↔m_P²/m; LOG (146 typ S/K, 184a); Ø-places (R1a GRANICE Ø, 183, pułapka 11); pułapka 12 = (L) doesn't give (S) and (S) needn't belong to (L).
+   - Step 6 (open): do 154's two conditions (λ=0, β_λ=0 at Planck end) touch v/m_P; options (a)/(b)/(c) plus (d) added after literature (relevance of v/m_P at the end).
+   - Literature findings (shapes, not identities): Shirkov functional self-similarity ~ (L); Wetterich QSS; Eggers–Fontelos classes of approach (fixed point / travelling wave / limit cycle / centre manifold); critical collapse (Choptuik γ≈0.37, Gundlach, Koike) ~ shape of 224 (A); dichotomy relevant/irrelevant Higgs mass parameter at end (PRWY 1811.11706, Eichhorn 1712.00319, Wetterich–Yamada 1612.03069, Wetterich 2601.16731) — mechanism uses metric fluctuations (148 forbids); agravity conditions are on field S, NOT Higgs (1:1 failed); Maruoka 2606.17179 first/second kind by units vs problem.
+   - Frame facts invoked: [242] "samo pole bez wzbudzenia… pole ≡ ∅"; pułapka 6 (mass: A pole/own tick vs B Yukawa·v at given resolution); 205 (G przelicznik, G≡1 in counting); 208 (μ² not a reading; v/m_P legal); v read from G_F (muon lifetime) — muon pole mass (A) vs v via Yukawas (B).
+   - Frame on light (relevant to latest message): ŚWIATŁO section — photon t=0; c not speed of covering distance but of information transfer; one-way speed is convention [266]; c infinite when nobody reads (field without excitations), limited when someone reads; R1a: odczyt zawsze teraz, przeszłość = zapis w strukturze; R1c: det ρ = Minkowski norm, light = link.
+   - Methodology: search by shape of result filters only part; per paper ask what author says vs what result uses; relatony; check which "mass"; scripts with per-item saves, not multi-agent workflows.
+
+3. Files and Code Sections:
+   - `logika-relacyjna-v3.5.md`: block 226 in §F1 before "LISTA DOZWOLONYCH WEJŚĆ"; annotations at 148 ("Pułapka nr 12… (S)") and 152 ("(L)"); checklist table rows 11 and 12 (header "## Osiem pułapek nazewniczych" left unchanged because narzedzia/rama.py references it).
+   - `poprawki.md`: row 226 (NF=6 cells, no raw pipes).
+   - `literatura/samopodobienstwo.md` (new): header with sources method, user warnings (1:1; fields; "co mówi vs czego używa", relatony; mass), sections §1 (L), §2 (S), §3 step-6 dichotomy + agravity correction + 5 warnings (metric fluctuations; "first decreases… subsequently increases" = przepływ=kierunek; μ²/Wetterich 2026 smuggles fields/cosmon; pola same w sobie + v example with pułapka 6; relevance as critical exponent [?]), §4 Choptuik, §5 discrete/limit cycles/Efimov, §6 Barenblatt/Maruoka, §7 (N), §8 relational scale (Duff/Barbour/Gomes/'t Hooft/SZ — "skala jest wartością pola" withdrawn), §9 Ø-places (Carlip/AJL pułapka 5, Hossenfelder piksel, CCC [?]), §10 candidates K1–K4 (not entries), §11 gaps (LOG nearly empty; abstracts only). 67 quotes verified verbatim against abstracts; one exception (agravity full-text quote) marked.
+   - `literatura/samopodobienstwo-zrodla.json` (new, 69 entries; keys "arXiv:ID"/"INSPIRE:Key", fields t, au, y, ab, jr).
+   - `narzedzia/arxiv_abs.py` (fetch arxiv.org/abs/ID meta citation_* with 3 s sleep, save JSON after each paper; usage `python3 -I narzedzia/arxiv_abs.py OUT.json id1,id2`) and `narzedzia/inspire.py` (INSPIRE API, args 'Key::query').
+   - `narzedzia/wypowiedzi.py`: added `KOMPRESJA = 'This session is being continued from a previous conversation'` and skipping in `wiadomosci()` and `wszystkie()`.
+   - `CLAUDE.md`: Pliki row for `literatura/`; transcript row "(6–7.10.2026)" with 7.10 note; narzedzia row mentions arxiv_abs.py/inspire.py; Gdzie skończyliśmy CC12 paragraph incl. 226, NS thread closed, 7.10 review, failures, user's 1:1 remark and agravity failure; map bullets 221–226; Najbliższe kroki step 6 (sections to read in full: §F1 148–149, 154 pkt 1 i 1a, 225, 226; 224; A11d 208) and step 7 (done); Zasady pracy bullets: "Kształt wyniku odsiewa tylko część (użytkownik, 7.10)…" (two questions, relatony, „Masa" też przemyca założenie — pułapka 6 / units, nie przechodzić ze skrajności w skrajność) and "Przeglądy robić skryptem…".
+   - `NASTEPNA-SESJA.md`: top "## Najpierw: `literatura/samopodobienstwo.md` — §3 i §4 w całości" with user warning and points 1–5 (dichotomy in a mechanism the frame doesn't take; agravity 1:1 failed; Choptuik shape; warnings; pola same w sobie + v/m_P readings: first thing of step 6 = which reading of v and what m_P means [?]); option (d) added after (c); "Literatura sprawdzona 7.10" paragraph replacing "Czego nie sprawdziłem".
+   - `rozmowa/claude-code-sesja-2026-10-06.md`: regenerated via `python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul 'Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis' --opis '…'` (74 messages at last regen).
+   - Commits on ccr-66a8cb7a-vj7583: a9b2b13 (226), 80b5ca5, ed0139e, 2cf5bc1 (map), 7c65458 (1:1 corrections), d8e4300 (fields ≡ Ø), d352067 (says vs uses; relatony), f7b849e (mass readings). All pushed.
+
+4. Errors and fixes:
+   - Two multi-agent workflows wasted ~700k tokens with zero results (session limit; results only at agent end; PDFs loaded into context; only 2 concurrent agents on 4 CPUs; APIs exhausted). Fix: stopped workflow, salvaged scratchpad, used scripts with incremental saves. User: "Szybciej sam bym to zrobil i za darmo."
+   - arXiv export API 429, Semantic Scholar 429, OpenAlex daily budget exhausted → used arxiv.org/abs HTML meta tags and INSPIRE.
+   - 1:1 translations in map (agravity "dokładnie dwa warunki 154" — falsified by full text; Shirkov, Choptuik, Wetterich 2026, Eggers–Fontelos) → replaced with "co przemyca".
+   - Overcorrection "odpada w całości" (fields) → user corrected; replaced with per-paper check (says vs uses).
+   - Example of v via muon decay ignored which "mass" → user corrected; added pułapka 6 readings.
+   - Python SyntaxError from straight quotes inside string → used heredoc file with triple-quoted strings.
+   - Quote-attribution checker false positives (paired citations, unsorted list) → clarified "(z pierwszej)".
+   - filtr.py warnings on own voice → rephrased; "na końcu" kept (frame language).
+
+5. Problem Solving:
+   - Literature map completed and corrected iteratively per user's methodological remarks; persistence ensured (sources JSON + scripts in repo).
+   - Next-session note carries step 6 with literature caveats and first sub-task (readings of v and m_P).
+
+6. All user messages (this portion):
+   - "Ok, dopisz co brakuje i następne kroki dla następnej sesji. wątek OpenAI, chyba można odpuścić. Ale jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury konkretnie pod samopodobieństwo. A jest tego troche." (+ /workflow-authoring)
+   - Stop hook: "There are uncommitted changes in the repository. Please commit and push these changes to the remote branch."
+   - "Coś to do dupy dziala. Poprzednio agenci przeglądali literature przez prawie pol h. Zjedli wszystkie tokeny i na koniec nic z tego nie zostalo?"
+   - "Szybciej sam bym to zrobil i za darmo. A z literatura trzeba uważać. Oni tam przemycaja mnóstwo rzeczy, które wykluczaja przełożenie 1:1"
+   - "Oni nawet nie wiedza co robią w tych pracach. Nie wiedzą co to jest pole. Jakie pole? O samych polach sie nawet nie da mówić, tymbardziej robić coś z samymi polami"
+   - "To nie jest takie proste. Bo często oni mowią ze opisują jakieś pole. Ale tak na prawde używają zjawisk - relacji ktore są w otoczeniu. Sprawdzanie tego to droga przez męke. Dlatego przeszlismy na szukanie literatury po wnioskach i wynikach. Ale to odsiewa tylko część. I tak trzeba sprawdzać. Stawianie założeń z dupy jest na porządku dziennym. Relatony są tam powszechne"
+   - "Raz wystarczy, a raz nie. Zależy co autor ma na myśli mowiąc - masa. Bo ona tez potrafi zalozenie przemycac"
+   - "Nie mówiąc już o tym, że mieszają ds2=0 czyli nierozróżnialność z tym co odczytuje np. detektor. A detektor odczytuje informacje teraz o innym stanie. Lepszy detektor np. na orbicie = wiecej informacji . Ale Nie mówi co światło robiło przed odczytem. Bo przed odczytem bylo ds2=0 i światlo z nikąd nie podróżowało do szanownego detektora."
+   - Standing constraints: "Rozmawiamy po polsku"; don't write "problem czasu" nor Kuchař into files; no external evaluations in transcripts; propozycje użytkownika sprawdzać; "Nie pytać o ocenę — rozstrzygać strukturą"; "Rama musi tyć, pod warunkiem że to coś wnosi"; STOP test before every entry; git: branch ccr-66a8cb7a-vj7583, `git push -u origin ccr-66a8cb7a-vj7583`, no PR unless asked; commit attribution lines exactly: "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>" and "Claude-Session: https://claude.ai/code/session_016F1kCbGXbn7RkSUjYMqwFN"; no model identifiers elsewhere in commits; don't send user's email to services; prefer scripts with incremental saves over multi-agent workflows for literature; don't go "ze skrajności w skrajność".
+
+7. Pending Tasks:
+   - Respond to the latest user message about ds²=0 vs detector readings, and record it where the literature-reading rules live (map header/warnings, CLAUDE.md "Kształt wyniku odsiewa tylko część" rule, NASTEPNA-SESJA), as a further thing literature smuggles: treating the ds²=0 link (nierozróżnialność, photon t=0) as light traveling before detection; detector reads information now about another state (R1a: odczyt teraz, przeszłość = zapis); better detector = more information, not knowledge of what light "did" before reading.
+   - Then regenerate transcript, commit, push.
+   - Step 6 itself remains for the next session (NASTEPNA-SESJA.md).
+
+8. Current Work:
+   Iteratively correcting `literatura/samopodobienstwo.md`, `NASTEPNA-SESJA.md` and `CLAUDE.md` according to the user's methodological remarks about reading literature (1:1 translations, fields ≡ Ø, says-vs-uses/relatony, which "mass"). Last commit f7b849e. The newest user message adds: literature mixes ds²=0 (indistinguishability) with what a detector reads; "detektor odczytuje informacje teraz o innym stanie… Nie mówi co światło robiło przed odczytem. Bo przed odczytem bylo ds2=0 i światlo z nikąd nie podróżowało do szanownego detektora." Not yet answered or recorded.
+
+9. Optional Next Step:
+   Answer the latest message in Polish (acknowledge; connect to the frame: ŚWIATŁO — photon t=0, c as information transfer, c infinite without reading, one-way speed convention [266]; R1a — odczyt teraz, przeszłość = zapis; detector reads a record now, a better detector reads more of the record, not a trajectory), then add this as a further per-paper check in the CLAUDE.md rule "Kształt wyniku odsiewa tylko część (użytkownik, 7.10)", in the map's warnings, and in NASTEPNA-SESJA.md (relevant e.g. to Hossenfelder/minimal-length, CMB/CCC "circles", any paper treating light as traveling), avoiding overcorrection; regenerate transcript; commit with required attribution lines and push to ccr-66a8cb7a-vj7583. User's verbatim: "Nie mówiąc już o tym, że mieszają ds2=0 czyli nierozróżnialność z tym co odczytuje np. detektor. A detektor odczytuje informacje teraz o innym stanie. Lepszy detektor np. na orbicie = wiecej informacji . Ale Nie mówi co światło robiło przed odczytem. Bo przed odczytem bylo ds2=0 i światlo z nikąd nie podróżowało do szanownego detektora."
+
+If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86.jsonl
+Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search main file for light/null-interval statements
+grep -n -o -i '.\{0,160\}\(ds\^2\|ds2\|odstęp zerowy\|interwał zerowy\|emisji od absorpcji\|w jedną stronę\|nikt nie czyta\).\{0,160\}' logika-relacyjna-v3.5.md | cut -c1-360 | head -12
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find user statements on null interval with following exchange
+python3 narzedzia/wypowiedzi.py 'ds2|ds²|ds\^2|nigdzie nie podróż|znikąd|z nikąd' --wymiana --po 1 2>&1 | cut -c1-600 | head -60
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+15:| „prędkość c” | **tempo przekazu informacji** (nie pokonywania dystansu); przelicznik łańcuch ↔ odległość; w jedną stronę konwencja (Reichenbach) | R1a, R1c, C4a.13 |
+184:nie leży poza stożkiem, tak jak żaden stan nie ma |r| > tr ρ; c = 1 = granica czytelności nośnika minimalnego, nie prędkość. **„c nieskończone, gdy nikt nie czyta”:** sam stożek (bez przekroju) ma tylko promienie, nie ma prędkości; prędkość pojawia się dopiero z przekrojem = ramą czytającego („C w relacji do
+1215:- **Zgodność [O]:** „pole ≡ Ø, ale ≠ Ø” (uściślenie użytkownika 28.09) = milczenie względem O przy zawartości ≠ Ø; „c nieskończone, gdy nikt nie czyta” [424] = milczenie całości; rozsiew (O = wszystko) milczenia nie ma — każdy obszar stoi w relacji z resztą, więc próżnia SJ na rozsiewie jest stanem
+2017:rencji)** (`etap1c_wzrost_v1.py`). W=128, N=6000. Interpretacja (użytkownik): **„nieskończoność prędkości światła jest nieskończona tylko wtedy, gdy nikt nie czyta; gdy ktoś czyta — jest ograniczona”**; to ten sam mechanizm co dekoherencja superpozycji w laboratorium (korelacje splątania „natychmiastowe”, ale be
+2142:zez przekaz informacji, nie odwrotnie; odległość radarowa = czas obiegu sygnału; (2) mierzalna jest tylko prędkość **w dwie strony** (obieg informacji), w jedną stronę — konwencja (Reichenbach); (3) szybciej niż c „poruszają się” bez sprzeczności rzeczy, które **nie przenoszą informacji** (plamka lasera na Księż
+2143:- **Możliwe rozwiązanie w ramie [H][?] (do sprawdzenia, nie wynik):
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+--- 0 trafień w wypowiedziach użytkownika
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read R1c light passage and user statements on photon travel
+sed -n '184p;2142,2144p' logika-relacyjna-v3.5.md | cut -c1-2200; echo ----; python3 narzedzia/wypowiedzi.py 'podróż|nie leci|emisji od absorpcji|nigdzie nie' --wymiana --po 1 2>&1 | cut -c1-700 | head -50
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+4. **c:** „c ≤” ⇔ **ρ ≥ 0** (prawdopodobieństwa nieujemne): nic nie leży poza stożkiem, tak jak żaden stan nie ma |r| > tr ρ; c = 1 = granica czytelności nośnika minimalnego, nie prędkość. **„c nieskończone, gdy nikt nie czyta”:** sam stożek (bez przekroju) ma tylko promienie, nie ma prędkości; prędkość pojawia się dopiero z przekrojem = ramą czytającego („C w relacji do” [394]).
+- **DEFINICJA c (użytkownik, v3.4): prędkość światła to nie prędkość, z jaką światło pokonuje dystans, tylko prędkość, z jaką światło przekazuje informację.** Zgodne z fizyką bez interpretacji [L]: (1) od 1983 r. **metr jest zdefiniowany przez światło** (droga w 1/299 792 458 s) — dystans jest definiowany przez przekaz informacji, nie odwrotnie; odległość radarowa = czas obiegu sygnału; (2) mierzalna jest tylko prędkość **w dwie strony** (obieg informacji), w jedną stronę — konwencja (Reichenbach); (3) szybciej niż c „poruszają się” bez sprzeczności rzeczy, które **nie przenoszą informacji** (plamka lasera na Księżycu, prędkość fazowa, oddalanie galaktyk przy rozszerzaniu). Zgodne z v1: skończone c wyszło jako tempo przekazu informacji między czytającymi (1 krok sieci / krok odczytu), nic się nie poruszało.
+- **Możliwe rozwiązanie w ramie [H][?] (do sprawdzenia, nie wynik):** „c nieskończone, dopóki nikt nie czyta” — nieograniczona walencja należy do **relacji nieczytanych** (strona Ø), skończona do **odczytu**, który jest zawsze odczytem **konkretnej trajektorii**. Wyróżniony układ byłby wtedy **ukł
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find user statements on photon emission/absorption and old light
+python3 narzedzia/wypowiedzi.py 'absorpcj|milionów lat|sprzed milion' --wymiana --po 1 2>&1 | cut -c1-900 | head -70
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== logika-relacyjna-rozmowa.md ## [54] Użytkownik — 2026-09-16 15:38
+Pamięć, to nie jest coś co stoi obok i pamięta. Pamięć to jest struktura sama w sobie. Fitony, pole elektromagnetyczne pokazują nam struktury sprzed milionow lat na niebie. Struktura relacji ma tą informacje.
+
+
+---
+
+--> logika-relacyjna-rozmowa.md ## [55] Asystent — 2026-09-16 15:38
+To usuwa ostatnią rzecz, która stała mi „obok” w opisie, czyli aparat jako osobnego czytelnika śladów. Jeśli pamięć jest samą strukturą, to nie ma różnicy rodzaju między śladem w mózgu a światłem gwiazdy. Oba są układem relacji, który zawiera informację o innych układach. Ślad w aparacie jest po prostu jednym z przypadków tego, czym struktura jest cała. Nie potrzeba nikogo, kto pamięta, bo pamiętanie to po prostu relacje zawarte w strukturze.
+
+Fotony dobrze to pokazują. Światło z odległej galaktyki jest elementem tej samej struktury co teleskop, a „miliony lat” to etykieta wyliczona z relacji: odległość podzielona przez prędkość światła. Nikt nie patrzy w przeszłość. Obecny układ pola zawiera relację do układu, który w opowieści nazywamy dawnym. „Przeszłość” to więc nazwa pewnego typu relacji wewnątrz struktury, a nie miejsce, do którego się zagląda.
+
+Jedna rzecz wydaje mi się tu warta zaznaczenia. Struktura nie zawiera wszystkiego o innych układach, tylko tyle, ile przeniosły relacje. Różne układy źródłowe mogą zostawić identyczny ślad, na przykład gdy światło się rozproszy albo gdy dwa różne obiekty dadzą to samo widmo. Wtedy 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find map entries touching light propagation
+grep -n -i 'CMB\|Penrose\|Hossenfelder\|infinity\|nieskończonoś\|foton\|photon\|światł\|propag\|horyzont\|horizon\|opóźni\|delay\|Hubble\|redshift\|przesunięci' literatura/samopodobienstwo.md | cut -c1-400
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+13:- **(L)** prawo bez wyróżnionej skali, relacje **biegną** — 152 („przesunięcie punktu odniesienia zmienia tylko punkt odczytu — samopodobieństwo dosłownie”), 212, 225 („samo biegnięcie jest samopodobieństwem”);
+26:**[L] Shirkov, *Bogoliubov Renormalization Group and Symmetry of Solution in Mathematical Physics*, arXiv:hep-th/0001210 (2000).** Kształt: grupa renormalizacji to ciągła symetria **rozwiązania** względem przeparametryzowania warunku brzegowego — *„a continuous symmetry of a solution with respect to transformation involving parameters (e.g., of boundary condition) specifying some parti
+28:**[L] Chen, Goldenfeld, Oono, arXiv:cond-mat/9407024 (1994)** i **arXiv:hep-th/9506161 (1995).** Kształt: RG jako ogólna metoda asymptotyki globalnej — *„Amplitude equations describing slow motion dynamics in nonequilibrium phenomena are RG equations"* (z pierwszej). **Wziąć:** (L) nie jest własnością teorii pola, tylko każdego problemu, w którym przesunięcie punktu odniesienia je
+74:**Co wziąć [O]:** **kształt** zbieżny z 224 (A): koniec — rozwiązanie krytyczne — ustala **wykładnik** przez jedyny tryb relewantny, a skala wyniku zależy od odległości wolnej danej od krytyczności. **Co przemyca:** jednoparametrową rodzinę danych początkowych wybraną przez autora, ciągłą czasoprzestrzeń i zewnętrzną ewolucję; czynnik przed potęgą niesie skalę danych
+113:- **[L] Hossenfelder, arXiv:1203.6191 (2012):** scenariusze minimalnej długości. **Flaga mocna:** minimalna długość to piksel (STO
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read map header and affected entries
+sed -n '1,22p;70,76p;110,118p' literatura/samopodobienstwo.md | cut -c1-1500
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+# Samopodobieństwo w literaturze — mapa po kształcie wyniku
+
+**7.10.2026, koniec sesji CC 12. To jest materiał wejściowy, nie wpis do ramy.** Każdy kandydat stąd przechodzi test ze `STOP.md` dopiero w sesji, która go czyta. Zlecenie użytkownika (6.10): *„jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury konkretnie pod samopodobieństwo. A jest tego trochę"*.
+
+**Skąd cytaty.** Każdy cytat po angielsku jest **dosłownym fragmentem abstraktu** pobranego 7.10 ze stron `arxiv.org/abs` (metatagi `citation_*`) albo z API INSPIRE. Abstrakty leżą w `literatura/samopodobienstwo-zrodla.json`, więc każdy cytat da się sprawdzić bez sieci — przy zapisie sprawdzone skryptem: każdy cytat jest podciągiem abstraktu swojej pracy, z jednym wyjątkiem oznaczonym w tekście (agravity, cytat z pełnego tekstu). **Czytane były abstrakty, nie pełne teksty:** „kształt wyniku” niżej jest tak mocny jak abstrakt, a zanim cokolwiek pójdzie do ramy, trzeba przeczytać pracę. Dwa pierwsze podejścia (uruchomienia wieloagentowe, 6–7.10) nie oddały nic — limit sesji przerwał agentów w połowie, a ich zapytania wyczerpały darmowe API (arXiv, Semantic Scholar, OpenAlex); tę mapę zrobiłem bez agentów.
+
+**Ostrzeżenie użytkownika (7.10), obowiązuje przy każdej pozycji:** *„z literaturą trzeba uważać. Oni tam przemycają mnóstwo rzeczy, które wykluczają przełożenie 1:1"*. Pola „Wziąć” niżej to **zbieżności kształtu, nie tożsamości** — przy każdej podane jest, co praca przemyca. Pierwsza wersja tej 
+…[ucięto]
+````
+</details>
+
+## [78] Asystent — 2026-10-07 04:58
+
+Dopisuję uwagę o ds² = 0 tam, gdzie stoją zasady czytania literatury. Najpierw sprawdzam, co rama już ma o świetle przed odczytem.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check frame wording and abstracts for affected papers
+grep -n -o -i '.\{0,200\}\(przed odczytem\|w przeszłość\|czas podróży\|light travel\|time of flight\|time-of-flight\).\{0,200\}' logika-relacyjna-v3.5.md | cut -c1-420 | head; echo ----; python3 - <<'EOF'
+import json
+d=json.load(open('literatura/samopodobienstwo-zrodla.json'))
+for k in ['arXiv:1203.6191','arXiv:1011.3706','arXiv:0711.4620']:
+    print(k, '::', d.get(k,{}).get('ab','BRAK')[:1500]); print()
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+493:> **ZNALEZIONE W LITERATURZE (v3.2) [L].** Pojęcie ma nazwę: Minz (2024) nazywa dwa elementy **singleton-symetrycznymi**, gdy pokrywają się ich zbiory elementów połączonych linkiem — w przeszłość i w przyszłość. To są bliźniaki z A3a, co do definicji.
+1584:a jest twierdzeniem, nie artefaktem.** W nieskończonym zbiorze przyczynowym przybliżanym Minkowskim najbliższymi sąsiadami elementu są linki, a każdy element ma ich **nieskończenie wiele** — w przeszłość i w przyszłość. Graf ma nieskończoną walencję, w przeciwieństwie do innych typów dyskretności. **I to jest cecha niosąca treść niezmienniczości Lorentza**, bo z każdym zdarzeniem wiąż
+2139:  - **Dwie strony dychotomii to ta sama relacja przed odczytem i po nim:** pole bez wzbudzeń (nieczytane, bez wyróżnionego układu, c nieskończone) — odczyt (jedna zrealizowana relacja, układ czytającego, c skończone „w relacji do”, z tego odległo�
+2298:- **kryształ:** ograniczona walencja w przeszłość (4 zamiast ~N^(1/2) w sprinklingu 3+1) może dać sieć regularną z globalnie wyróżnioną ramą. W ramie pliku niezmienniczość Lorentza należałaby do strony Ø (pole bez wzbudzeń), a wszystko
+----
+arXiv:1203.6191 :: We review the question of whether the fundamental laws of nature limit our ability to probe arbitrarily short distances. First, we examine what insights can be gained from thought experiments for probes of shortest distances, and summarize what can be learned from different approaches to a theory of quantum gravity. Then we discuss
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the before/after reading dichotomy passage
+sed -n '2136,2141p' logika-relacyjna-v3.5.md | cut -c1-1800; grep -n '^## \|^### ' logika-relacyjna-v3.5.md | awk -F: '$1<2139' | tail -2
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- **ROZWIĄZANIE DYCHOTOMII NA POZIOMIE ŚWIATŁA [H] (użytkownik — fragment o klockach i fotonach; odczyt asystenta, v3.4), DO SPRAWDZENIA:**
+  - **Foton nie ma w sobie „ile temu”** — od jego strony emisja i absorpcja są jednym; „8 minut” i „6 minut” to dwa położenia czytającego, nie dwie cechy fotonu. Relacja nie wyróżnia układu; układ pojawia się w odczycie.
+  - **Relacja nieczytana wiąże źródło z każdym możliwym czytającym** (cały stożek przyszłości) = **nieograniczona walencja**; odczyt wybiera jedno pochłonięcie, jeden aparat, jedno „teraz” = **walencja skończona**.
+  - **Dwie strony dychotomii to ta sama relacja przed odczytem i po nim:** pole bez wzbudzeń (nieczytane, bez wyróżnionego układu, c nieskończone) — odczyt (jedna zrealizowana relacja, układ czytającego, c skończone „w relacji do”, z tego odległości i przestrzeń).
+  - **Błąd w poprzednim teście:** sieć R6 (warstwa **zrealizowanych odczytów**) potraktowana jak **cały** porządek. Twierdzenie BHS zabrania skończonej walencji **całemu** porządkowi, nie **sieci odczytów** konkretnych trajektorii.
+  - **TEST (zapisany przed rachunkiem):** tło = sprinkling 3+1 (wszystkie relacje, nieograniczona walencja, Lorentz z konstrukcji); trajektorie = łańcuchy w sprinklingu; odczyty = wybór, regułą R6 z pamięcią, niewielu linków spośród dostępnych. **Zdanie do upadku:** sieć odczytów ma wymiar **3** (jak R6) **i** porządek, w którym siedzi, pozostaje lorentzowski (estymator **4**) — nic nie usunięte, tylko przeczytane.
+1624:## 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate insertion points in CLAUDE.md, map and next-session note
+grep -n 'Kształt wyniku odsiewa tylko część' CLAUDE.md | cut -c1-80; grep -n 'Masa\|masa' literatura/samopodobienstwo.md | cut -c1-200 | head -8; grep -n '' NASTEPNA-SESJA.md | sed -n '1,40p' | cut -c1-260
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+96:  - **Kształt wyniku odsiewa tylko część (użytkownik, 7.10):** *„częs
+67:4. **Pola same w sobie (uwagi użytkownika, [242]).** Mechanizmy tej sekcji są **opisane** jako pole S, cosmon, dylaton, wartość pola Higgsa w próżni — a to jest mowa o polu bez wzbudzenia, 
+1:# Następny krok: czy dwa warunki z 154 dotykają `v/m_P` — jedynej danej, która łamie samopodobieństwo
+2:
+3:Krok 2 zamknięty w całości (223, 224), krok o [104] zamknięty (225), wątek Naviera–Stokesa zamknięty
+4:(226; użytkownik: *„wątek OpenAI, chyba można odpuścić"*). Otwarte są jeszcze krok 4 (rura ilościowo)
+5:i `[?]` z 221, ale **nie mieszać ich z tym**.
+6:
+7:## Najpierw: `literatura/samopodobienstwo.md` — §3 i §4 w całości
+8:
+9:Użytkownik na koniec CC 12: *„jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury
+10:konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 67 cytatów, każdy
+11:dosłownie z abstraktu (sprawdzone skryptem), abstrakty w `literatura/samopodobienstwo-zrodla.json`.
+12:**Przeczytać w całości §3 („Krok 6 … rozwidlenie") i §4 (zjawiska krytyczne Choptuika)**, resztę według
+13:potrzeby. **Ostrzeżenie użytkownika (7.10):** *„z literaturą trzeba uważać. Oni tam przemycają mnóstwo rzeczy,
+14:które wykluczają przełożenie 1:1"* — pierwsza wersja mapy miała pięć takich przełożeń, jedno upadło na pełnym
+15:tekście (pkt 2). Co tam stoi — żeby było wiadomo, czego szukać, **nie** żeby to przyjąć:
+16:
+17:1. **Literatura ma na pytanie tego kroku gotowe
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read exact text of insertion points
+sed -n '96p' CLAUDE.md; echo ----; sed -n '40,50p' NASTEPNA-SESJA.md; echo ----; sed -n '60,72p' literatura/samopodobienstwo.md | cut -c1-1200
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- **Kształt wyniku odsiewa tylko część (użytkownik, 7.10):** *„często oni mówią, że opisują jakieś pole. Ale tak naprawdę używają zjawisk — relacji, które są w otoczeniu. Sprawdzanie tego to droga przez mękę. Dlatego przeszliśmy na szukanie literatury po wnioskach i wynikach. Ale to odsiewa tylko część. I tak trzeba sprawdzać. Stawianie założeń z dupy jest na porządku dziennym. Relatony są tam powszechne."* Przy każdej pracy dwa osobne pytania: co autor **mówi**, że robi (np. „pole" — a pole bez wzbudzenia ≡ Ø, [242]), i czego wynik **faktycznie używa** (często relacji w otoczeniu); do tego założenia bez uzasadnienia („relatony"). **„Masa" też przemyca założenie** (użytkownik, 7.10: *„Raz wystarczy, a raz nie. Zależy, co autor ma na myśli, mówiąc — masa"*): przy każdej masie w cudzej pracy sprawdzić, który to odczyt — pułapka nazewnicza nr 6 (A biegunowa / B przy danej rozdzielczości) — i czy nie niesie jednostki (STOP pkt 4). **Nie przechodzić ze skrajności w skrajność:** po uwadze o przełożeniach 1:1 odrzuciłem całe prace jako „mowę o polu" — to było przegięcie w drugą stronę (7.10).
+----
+   odczyty (ze stałej Fermiego wobec „przy danej rozdzielczości"). I to samo pytanie należy się `m_P` w `v/m_P`:
+   czy niesie tu koniec Plancka, czy przelicznik `G` (205: w zliczaniu `G ≡ 1`). **Pierwsza rzecz kroku [?]:**
+   który odczyt `v` i co znaczy `m_P` — zanim padnie pytanie, czy warunki 154 ich dotykają. Mapa nie sprawdzała
+   żadnej pracy na relatony (czytane były abstrakty).
+
+*
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fetch and verify the GRB time-of-flight abstract
+cp literatura/samopodobienstwo-zrodla.json /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/zrodla-backup.json && python3 -I narzedzia/arxiv_abs.py literatura/samopodobienstwo-zrodla.json astro-ph/9712103 2>&1 | tail -3; python3 - <<'EOF'
+import json
+d=json.load(open('/home/user/Logika-relacyjna/literatura/samopodobienstwo-zrodla.json'))
+print(len(d)); e=d.get('arXiv:astro-ph/9712103'); print(e and (e['t'], e['au'][:3], e['y'], e['ab']))
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+astro-ph/9712103 | 1997 | Amelino-Camelia | Potential Sensitivity of Gamma-Ray Burster Observations to Wave Dispersion in Vacuo | ab=789
+71
+None
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Inspect stored key for the new abstract
+python3 - <<'EOF'
+import json
+d=json.load(open('literatura/samopodobienstwo-zrodla.json'))
+ks=[k for k in d if '9712103' in k]; print(ks)
+for k in ks: print(d[k])
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+['astro-ph/9712103']
+{'t': 'Potential Sensitivity of Gamma-Ray Burster Observations to Wave Dispersion in Vacuo', 'au': ['Amelino-Camelia, G.', 'Ellis, John', 'Mavromatos, N. E.', 'Nanopoulos, D. V.', 'Sarkar, Subir'], 'y': '1997', 'ab': 'The recent confirmation that at least some gamma-ray bursters (GRBs) are indeed at cosmological distances raises the possibility that observations of these could provide interesting constraints on the fundamental laws of physics. Here we demonstrate that the fine-scale time structure and hard spectra of GRB emissions are very sensitive to the possible dispersion of electromagnetic waves in vacuo with velocity differences $\\delta v \\sim E/E_{\\QG}$, as suggested in some approaches to quantum gravity. A simple estimate shows that GRB measurements might be sensitive to a dispersion scale $E_{QG}$ comparable to the Planck energy scale $E_{P} \\sim 10^{19}$ GeV, sufficient to test some of these theories, and we outline aspects of an observational programme that could address this goal.', 'jr': '', 'src': 'arxiv.org/abs'}
+````
+</details>
+
+## [79] Asystent — 2026-10-07 05:00
+
+Mam abstrakt pracy o rozbłyskach gamma (Amelino-Camelia i in.) — to czysty przykład pomieszania, o którym piszesz. Teraz wpisy.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Normalize the new source key to arXiv prefix
+python3 - <<'EOF'
+import json
+p='literatura/samopodobienstwo-zrodla.json'
+d=json.load(open(p))
+print([k for k in list(d)[:5]])
+if 'astro-ph/9712103' in d and not any(k.startswith('astro') for k in list(d)[:-1]):
+    d['arXiv:astro-ph/9712103']=d.pop('astro-ph/9712103')
+json.dump(d,open(p,'w'),ensure_ascii=False,indent=1)
+print([k for k in d if '9712103' in k], len(d))
+EOF
+git diff --stat
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+['_opis', 'arXiv:1901.04741', 'arXiv:0809.3406', 'arXiv:1803.08907', 'arXiv:1804.06376']
+['arXiv:astro-ph/9712103'] 71
+ literatura/samopodobienstwo-zrodla.json | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/CLAUDE.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/CLAUDE.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/literatura/samopodobienstwo.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/literatura/samopodobienstwo.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Verify section of the cited c passages
+grep -n '^## \|^### ' logika-relacyjna-v3.5.md | awk -F: '$1<184' | tail -1; grep -n '^## \|^### ' logika-relacyjna-v3.5.md | awk -F: '$1<2142' | tail -1
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+179:### Odczyt w ramie [O]
+1975:## C5. Reguła wzrostu — PROJEKT WSTĘPNY [H][A] (v3.4)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show parent sections above line 179
+grep -n '^## \|^### ' logika-relacyjna-v3.5.md | awk -F: '$1<180' | tail -4
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+110:### R1b-F. Zapis formalny [T][L] (poprawka 127)
+164:## R1c. Most R1b ↔ światło i porządek przyczynowy [T][L][O] (poprawka 129)
+168:### R1c-F. Zapis formalny
+179:### Odczyt w ramie [O]
+````
+</details>
+
+## [80] Asystent — 2026-10-07 05:00
+
+Odwołania się zgadzają (R1c i C5). Dopisuję przykłady do §9 mapy.
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/literatura/samopodobienstwo.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/literatura/samopodobienstwo.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/literatura/samopodobienstwo.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/literatura/samopodobienstwo.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix quotes and verify all quotes against stored abstracts
+python3 - <<'EOF'
+p='literatura/samopodobienstwo.md'
+s=open(p).read()
+a='*„the fine-scale time structure and hard spectra of GRB emissions are very sensitive to the possible dispersion of electromagnetic waves in vacuo with velocity differences δv ∼ E/E_QG"*'
+b='*„the fine-scale time structure and hard spectra of GRB emissions are very sensitive to the possible dispersion of electromagnetic waves in vacuo with velocity differences"* `δv ∼ E/E_QG`'
+assert s.count(a)==1; s=s.replace(a,b)
+a2='*„black-hole encounters … in that previous aeon"*'; b2='*„Black-hole encounters … in that previous aeon"*'
+assert s.count(a2)==1; s=s.replace(a2,b2)
+open(p,'w').write(s)
+EOF
+python3 - <<'EOF'
+import json,re
+d=json.load(open('/home/user/Logika-relacyjna/literatura/samopodobienstwo-zrodla.json'))
+s=open('/
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+BRAK: jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury konkretnie pod samopodobieństwo. A jest tego
+BRAK: z literaturą trzeba uważać. Oni tam przemycają mnóstwo rzeczy, które wykluczają przełożenie 1:1
+BRAK: Oni nawet nie wiedzą, co robią w tych pracach. Nie wiedzą, co to jest pole. Jakie pole? O samych polach się nawet nie da
+BRAK: To nie jest takie proste. Bo często oni mówią, że opisują jakieś pole. Ale tak naprawdę używają zjawisk — relacji, które
+BRAK: Nie mówiąc już o tym, że mieszają ds² = 0, czyli nierozróżnialność, z tym, co odczytuje np. detektor. A detektor odczytu
+BRAK: Foton nie ma w sobie »ile temu« — od jego strony emisja i absorpcja są jednym; »8 minut« i »6 minut« to dwa położenia cz
+BRAK: Although we cannot identify the Higgs field with the S field — the Higgs vev is at the weak scale
+BRAK: Nie bierzemy: metryki jako fluktuującego pola (przestrzeń jako pojemnik)
+79 fragmentów, brak: 8
+[This command modified 1 file you've previously read: literatura/samopodobienstwo.md. Call Read before editing.]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Recount verified abstract quotes and find stated count
+python3 - <<'EOF'
+import json,re
+d=json.load(open('literatura/samopodobienstwo-zrodla.json'))
+s=open('literatura/samopodobienstwo.md').read()
+allab=re.sub(r'\s+',' ',' '.join(v['ab'] for v in d.values() if isinstance(v,dict) and 'ab' in v))
+qs=re.findall(r'\*„([^"”]+)["”]\*',s)
+ok=[q for q in qs if all(re.sub(r'\s+',' ',p.strip()) in allab for p in q.split('…') if p.strip())]
+print(len(qs),len(ok))
+EOF
+git show HEAD:literatura/samopodobienstwo.md > /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/old.md; python3 - <<'EOF'
+import json,re
+d=json.load(open('/home/user/Logika-relacyjna/literatura/samopodobienstwo-zrodla.json'))
+s=open('/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/old.md').read()
+allab=re.sub(
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+78 70
+stara wersja: 72 66
+literatura/samopodobienstwo.md:59:- **Gałąź 2 — nierelewantny: wtedy koniec przewiduje stosunek.** **Pawlowski, Reichert, Wetterich, Yamada, arXiv:1811.117
+literatura/samopodobienstwo.md:100:- **[L] Maruoka, *The Relational Interpretations on soft matter as intermediate asymptotics*, arXiv:2310.06799 (2023):** rów
+literatura/samopodobienstwo.md:109:- **[L] ’t Hooft, arXiv:1410.6675 (2014):** lokalna symetria konforemna *„has to be turned into an exact symmetry that is
+NASTEPNA-SESJA.md:10:konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 67 cytatów, każdy
+CLAUDE.md:22:- **Rozmowy i `poprawki.md` — jako konkretne odniesienie przed danym krokiem, w pełnym tekście, nie ze streszczeń:** przed każdym krokiem poj
+CLAUDE.md:41:| `literatura/` | **Przeglądy literatury po kształcie wyniku — materiał wejściowy, nie wpisy.** `samopodobienstwo.md` (7.10.2026, prośba uż
+CLAUDE.md:50:| `rozmowa/claude-code-sesja-2026-09-26.md` | Zapis sesji CC 4 (26.09.2026): protokół startu z hookami zadziałał (rama 1–4 przed pierwszą od
+CLAUDE.md:157:  - **Stan zespołu: zestawienie „STAN ZESPOŁU” w §F1 (167).**
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find stated quote and source counts
+grep -n -o '67 cytat[a-zó]*\|69 \(prac\|abstrakt\|pozycj\)[a-z]*\|6[0-9] prac' CLAUDE.md NASTEPNA-SESJA.md literatura/samopodobienstwo.md literatura/samopodobienstwo-zrodla.json | head; python3 -c "import json;d=json.load(open('/home/user/Logika-relacyjna/literatura/samopodobienstwo-zrodla.json'));print(d['_opis'])"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+CLAUDE.md:41:67 cytatów
+NASTEPNA-SESJA.md:10:67 cytatów
+Abstrakty pobrane 7.10.2026 ze stron arxiv.org/abs (metatagi citation_*) i z API INSPIRE; podstawa cytatów w literatura/samopodobienstwo.md. Pole t = tytuł, au = autorzy, y = rok, ab = abstrakt, jr = czasopismo.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update quote count in two files
+sed -i 's/67 cytatów/71 cytatów/' CLAUDE.md NASTEPNA-SESJA.md && grep -c '71 cytatów' CLAUDE.md NASTEPNA-SESJA.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+CLAUDE.md:1
+NASTEPNA-SESJA.md:1
+````
+</details>
+
+## [81] Asystent — 2026-10-07 05:01
+
+Teraz krótki punkt w `NASTEPNA-SESJA.md`.
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/NASTEPNA-SESJA.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/NASTEPNA-SESJA.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Run the frame wording filter on added lines
+git diff -U0 -- CLAUDE.md NASTEPNA-SESJA.md literatura/samopodobienstwo.md | grep '^+[^+]' > /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dodane.txt; python3 narzedzia/filtr.py /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dodane.txt 2>&1 | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dodane.txt:1: …e — (L) prawo bez wyróżnionej skali, (S) stan niezmienniczy na końcu, (N) hierarchia węzłów, (M) lustro — oraz LOG i Ø-miejsc; 7…  ⟶ [na końcu] „ostatni” / „na końcu” = kierunek (poprawki 138, 159)
+/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dodane.txt:1: …e dla kroku 6** (relewantny / nierelewantny parametr masowy na końcu), **§4 to kształt 224 (A)** (zjawiska krytyczne Choptuika);…  ⟶ [na końcu] „ostatni” / „na końcu” = kierunek (poprawki 138, 159)
+/tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/dodane.txt:10: …czytem. Bo przed odczytem było ds² = 0 i światło znikąd nie podróżowało do szanownego detektora."* Rama ma to w C5 (*„Foton nie ma…  ⟶ [podróżowało] c = przekaz informacji, nie pokonywanie drogi
+--- 3 ostrzeżeń (cytat, negacja, porządek pracy — w porządku)
+````
+</details>
+
+## [82] Asystent — 2026-10-07 05:01
+
+Filtr zgłasza tylko słowa w cytatach i zaprzeczeniach oraz „na końcu”, które jest językiem ramy. Odtwarzam zapis sesji i robię commit.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read transcript header to reuse title and description
+head -c 1500 rozmowa/claude-code-sesja-2026-10-06.md; echo; grep -n 'opis\|argparse\|add_argument' narzedzia/transkrypt.py | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+# Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis
+
+Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, opis wobec tego, czego wynik używa (relatony), i „masa" jako nośnik założenia (pułapka 6). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+
+---
+
+ ## [1] Użytkownik — 2026-10-06 02:14
+
+Relaton — kwant brakującego uzasadnienia :)
+
+ ## [2] Asystent — 2026-10-06 02:16
+
+Dobra nazwa, bo łapie ruch, a nie rzecz.
+
+Relaton ma dokładnie te własności, które miała luka, i żadnych innych: przekrój czynny zero, sprzęga się z niczym, wykrywalny wyłącznie w tym jednym zdaniu, w którym był potrzebny. Czas życia = czas do pytania „wyprowadź".
+
+I ma prawo zachowania: **nazwanie luki jej nie usuwa, tylko zmienia jej nazwę na rzeczownik.** 1905 jest podręcznikowym przypadkiem — eter a
+6:#       --tytul 'Rozmowa w Claude Code — sesja 4 (27.09.2026) — zapis' --opis 'Kontynu
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check status of the C5 light block
+sed -n '2130,2135p;2145,2150p' logika-relacyjna-v3.5.md | cut -c1-700
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| R5 (sieć 2D) | 3 ± 0,3 | **2,21**; 2,27 ± 0,12 (22 przedziały, śr. 258 el.) |
+| R6 (sieć 3D) | 4 ± 0,3 | **2,33**; 2,44 ± 0,11 (30 przedziałów, śr. 601 el.) |
+- **Przyczyna — TWIERDZENIE [L]:** Bombelli–Henson–Sorkin („Discreteness without symmetry breaking: a theorem”, Mod. Phys. Lett. A 24, 2579, 2009; gr-qc/0605006): **nie da się przypisać sprinklingowi grafu o skończonej walencji zgodnie z niezmienniczością Lorentza.** Sieć R6 ma skończoną walencję (~4,3) → porządek z odczytów na niej **z konieczności wyróżnia układ** (spoczynkowy układ sieci).
+- **DYCHOTOMIA [A]:** **ograniczony, lokalny odczyt** (skończona walencja) dał w R6 **trójwymiarowość**, ale **nie może** dać niezmienniczości Lorentza; **niezmienniczość Lorentza wymaga nieograniczonej liczby bezpośrednich relacji na element** (w sprinklingu linków przybywa bez końca: ~ln N w 2D, ~N^½ w 3+1 — C2, C4a.22). **To, co zrobiło trzy wymiary, jest tym, co zabija niezmienniczość.**
+- **FUNDAMENT (użytkownik, v3.4):** **nieskończone c = automatycznie pole EM bez wzbudzeń** (Ø od strony światła; pole bez wzbudzenia ≡ Ø, fala = wzbudzenie = informacja, foton = minimalne wzbudzenie). To nie jest tylko logiczne następstwo do sprawdzenia — to **fundament ramy**, i dychotomia **musi się rozstrzygnąć na poziomie światła**. **Pole EM w próżni i jego wzbudzenia (fale EM) = relacja przestrzeni.** Konsekwencja dla projektu reguły: strona nieczytana (nieograniczona walencja, niezmienniczość Lorentza) to pole bez wzbudzeń; odczyt (sk
+…[ucięto]
+````
+</details>
+
+## [83] Asystent — 2026-10-07 05:01
+
+Zdanie o fotonie w C5 stoi w bloku [H] z v3.4 oznaczonym „do sprawdzenia”. Dopisuję ten status do mapy, żeby nie wyglądało na twierdzenie.
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/literatura/samopodobienstwo.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/literatura/samopodobienstwo.md has been updated successfully.
+````
+</details>
+
+## [84] Asystent — 2026-10-07 05:02
+
+Trafione. W ramie to już stoi, w trzech miejscach. Brakowało tego wśród rzeczy, które sprawdzam przy czytaniu literatury.
+
+**Co rama już ma:**
+- **R1c:** stożek bez przekroju ma tylko promienie, a prędkość pojawia się dopiero z ramą czytającego. Stąd „c nieskończone, gdy nikt nie czyta”.
+- **C5 (v3.4):** „Foton nie ma w sobie »ile temu« — od jego strony emisja i absorpcja są jednym; »8 minut« i »6 minut« to dwa położenia czytającego, nie dwie cechy fotonu”. Ten blok jest oznaczony „do sprawdzenia”, ale sprawdzenie dotyczyło tam walencji sieci odczytów, nie tego zdania.
+- **Definicja c:** mierzalna jest tylko prędkość w dwie strony, w jedną to konwencja. Czyli to, ile światło „leciało” do detektora, jest nieustalone **w samym formalizmie**, nie dopiero w ramie. To najmocniejsze oparcie dla Twojego zdania, bo nie trzeba do niego niczego z naszej strony.
+- **[54]:** „pamięć to struktura sama w sobie”, fotony pokazują struktury sprzed milionów lat. Detektor czyta teraz informację o innym stanie, zawartą w obecnej strukturze (to jest czwarty punkt odniesienia z 189).
+
+**Sprawdziłem przypadek, którego nie wymieniasz: obieg radarowy, jedyna mierzalna prędkość.** Tam czytający porównuje dwa własne odczyty, wysłanie i powrót, a ich stosunek wyznacza odległość (metr jest zdefiniowany przez światło). Czyli nawet jedyny mierzalny przypadek daje relację dwóch odczytów jednego czytającego, a nie trajektorię. Zdanie się trzyma.
+
+**„Lepszy detektor = więcej informacji”** zgadza się z 206: odczyt to różnica własnych stanów O. Lepszy detektor ma ich więcej do rozróżnienia, więc czyta więcej z zapisu, który jest teraz, a nie sięga dalej wstecz. Orbitę rama czyta w C5: „odczyt wybiera jedno pochłonięcie, jeden aparat”. Pochłonięcie w atmosferze jest więc odczytem przez inny aparat. Na orbicie tych relacji jest do odczytania więcej, ale dalej nic nie mówią o tym, co było przed odczytem.
+
+**Jak to wygląda w literaturze z mapy:**
+- **Amelino-Camelia i in. (1997, rozbłyski gamma, dyspersja „in vacuo”):** odczytem jest różnica czasów przybycia fotonów o różnej energii w detektorze, i to wolno wziąć. Twierdzenie, że ta różnica „narosła po drodze” przez odległości kosmologiczne, to trajektoria dopisana do ds² = 0. Do tego wymaga prędkości w jedną stronę, czyli konwencji. A `E_QG ∼ E_P` to piksel.
+- **CCC Penrose’a:** odczytem jest wzór „in our CMB sky”. „Spotkania czarnych dziur w poprzednim eonie” to historia światła przed odczytem, przeprowadzona do tego przez sam koniec.
+
+**Do ramy nie wpisuję.** Test ze `STOP.md`: rama po takim wpisie niczego nowego nie pozwala ani nie zabrania, bo wszystko stoi w R1c i C5. Uwaga trafiła tam, gdzie są zasady czytania literatury:
+- do reguły w `CLAUDE.md`, jako czwarte pytanie przy każdej pracy;
+- do nagłówka i §9 mapy, z abstraktem rozbłysków dołożonym do pliku źródeł (cytaty sprawdzone skryptem; jest ich teraz 71);
+- jako punkt 6 w `NASTEPNA-SESJA.md`.
+
+Do odczytów `v` i `m_P` w kroku 6 tego nie przykładałem. Jest tam zapisane, żeby sprawdzić, jeśli czytana praca wnioskuje ze światła.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Regenerate transcript, commit and push changes
+python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul 'Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis' --opis 'Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, opis wobec tego, czego wynik używa (relatony), „masa" jako nośnik założenia (pułapka 
 …[ucięto]
 ````
 </details>

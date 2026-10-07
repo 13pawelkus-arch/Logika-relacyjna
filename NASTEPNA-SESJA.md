@@ -7,7 +7,7 @@ i `[?]` z 221, ale **nie mieszać ich z tym**.
 ## Najpierw: `literatura/samopodobienstwo.md` — §3 i §4 w całości
 
 Użytkownik na koniec CC 12: *„jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury
-konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 67 cytatów, każdy
+konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 71 cytatów, każdy
 dosłownie z abstraktu (sprawdzone skryptem), abstrakty w `literatura/samopodobienstwo-zrodla.json`.
 **Przeczytać w całości §3 („Krok 6 … rozwidlenie") i §4 (zjawiska krytyczne Choptuika)**, resztę według
 potrzeby. **Ostrzeżenie użytkownika (7.10):** *„z literaturą trzeba uważać. Oni tam przemycają mnóstwo rzeczy,
@@ -41,6 +41,12 @@ tekście (pkt 2). Co tam stoi — żeby było wiadomo, czego szukać, **nie** ż
    czy niesie tu koniec Plancka, czy przelicznik `G` (205: w zliczaniu `G ≡ 1`). **Pierwsza rzecz kroku [?]:**
    który odczyt `v` i co znaczy `m_P` — zanim padnie pytanie, czy warunki 154 ich dotykają. Mapa nie sprawdzała
    żadnej pracy na relatony (czytane były abstrakty).
+6. **ds² = 0 wobec odczytu (użytkownik, 7.10):** *„detektor odczytuje informacje teraz o innym stanie. […] Ale nie
+   mówi, co światło robiło przed odczytem. Bo przed odczytem było ds² = 0"*. Z pracy, która wnioskuje ze światła,
+   wolno brać relację odczytów (różnica czasów przybycia, stosunek linii widma), nie historię światła przed odczytem
+   („narosło po drodze", „z poprzedniego eonu"); w ramie: C5 „foton nie ma w sobie »ile temu«", R1c. W mapie dotyczy
+   §9 (rozbłyski gamma, CCC). Na odczyty `v` i `m_P` w kroku 6 tego nie przykładałem — sprawdzić, jeśli praca
+   czytana w kroku wnioskuje ze światła.
 
 **Czego mapa nie ma:** LOG (Benford, Haar, Jeffreys) prawie pusty; czytane były **abstrakty**, nie pełne
 teksty — przed jakimkolwiek wpisem przeczytać pracę. Mapa jest materiałem wejściowym, nie wpisem: każdy
