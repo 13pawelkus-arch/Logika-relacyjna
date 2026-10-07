@@ -29,6 +29,11 @@ tekście (pkt 2). Co tam stoi — żeby było wiadomo, czego szukać, **nie** ż
 4. **Ostrzeżenia z §3 mapy:** asymptotic safety używa metryki jako pola fluktuującego, a 148 tego nie bierze
    (wolno wziąć formę, nie mechanizm); „first decreases … subsequently increases" to „przepływ = kierunek" (148);
    `μ²` nie jest odczytem (208).
+5. **Pola same w sobie (użytkownik, 7.10):** *„Nie wiedzą, co to jest pole. Jakie pole? O samych polach się
+   nawet nie da mówić, tym bardziej robić coś z samymi polami."* W ramie pole bez wzbudzenia ≡ Ø ([242]), więc
+   pole S, cosmon, dylaton i „wartość pola w próżni" odpadają w całości. **Dotyczy też samego kroku:** `v`
+   trzeba czytać jako relację odczytów, nie jako wartość pola Higgsa w próżni — inaczej pytanie „czy warunki 154
+   dotykają `v/m_P`" jest pytaniem o Ø. Jak `v` czytać relacyjnie — pierwsza rzecz do ustalenia [?].
 
 **Czego mapa nie ma:** LOG (Benford, Haar, Jeffreys) prawie pusty; czytane były **abstrakty**, nie pełne
 teksty — przed jakimkolwiek wpisem przeczytać pracę. Mapa jest materiałem wejściowym, nie wpisem: każdy
