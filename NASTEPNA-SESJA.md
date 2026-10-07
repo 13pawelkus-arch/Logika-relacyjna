@@ -34,8 +34,13 @@ tekście (pkt 2). Co tam stoi — żeby było wiadomo, czego szukać, **nie** ż
    zjawisk — relacji, które są w otoczeniu. […] I tak trzeba sprawdzać. […] Relatony są tam powszechne."* Więc przy
    każdej pracy osobno: co autor **mówi** (pole — opis) i czego wynik **używa** (relacje w otoczeniu). **Dotyczy
    samego kroku:** `v` opisuje się jako wartość pola w próżni, a odczytuje ze stałej Fermiego, czyli z czasu życia
-   mionu wobec jego masy. Czy to wystarcza, żeby czytać `v/m_P` jako relację odczytów — pierwsza rzecz do
-   ustalenia [?]. Mapa nie sprawdzała żadnej pracy na relatony (czytane były abstrakty).
+   mionu wobec jego masy. **Ale „masa" też przemyca założenie** (użytkownik: *„Raz wystarczy, a raz nie. Zależy, co
+   autor ma na myśli, mówiąc — masa"*): masa mionu w tempie rozpadu to masa biegunowa, czyli odczyt A, a `v`
+   wchodzi do zespołu przez Yukawy, czyli odczyt B (pułapka nazewnicza nr 6, 166); sam `v` ma więc co najmniej dwa
+   odczyty (ze stałej Fermiego wobec „przy danej rozdzielczości"). I to samo pytanie należy się `m_P` w `v/m_P`:
+   czy niesie tu koniec Plancka, czy przelicznik `G` (205: w zliczaniu `G ≡ 1`). **Pierwsza rzecz kroku [?]:**
+   który odczyt `v` i co znaczy `m_P` — zanim padnie pytanie, czy warunki 154 ich dotykają. Mapa nie sprawdzała
+   żadnej pracy na relatony (czytane były abstrakty).
 
 **Czego mapa nie ma:** LOG (Benford, Haar, Jeffreys) prawie pusty; czytane były **abstrakty**, nie pełne
 teksty — przed jakimkolwiek wpisem przeczytać pracę. Mapa jest materiałem wejściowym, nie wpisem: każdy

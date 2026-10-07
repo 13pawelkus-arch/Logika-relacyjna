@@ -1,6 +1,6 @@
 # Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis
 
-Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po trzech uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, i że autorzy mówiący o polu często używają relacji w otoczeniu — więc sprawdzać pracę po pracy (relatony). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, opis wobec tego, czego wynik używa (relatony), i „masa" jako nośnik założenia (pułapka 6). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -6090,6 +6090,52 @@ grep -n -o '.\{0,120\}odpada\(ją\)\? w całości.\{0,80\}' literatura/samopodob
 ````
 Bash: Refresh transcript, commit and push
 python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-06.md --tytul 'Rozmowa w Claude Code — sesja 12 (6–7.10.2026) — zapis' --opis 'Poprawki 221–226: krok 5 zamknięty i poprawiony zarzutem użytkownika (222), krok 2 zamknięty w całości (223, 224), hipoteza nadrzędna sprawdzona u źródła (225) — „[94] pkt 4" nie istnieje, zdanie o łamaniu samopodobieństwa jest asystenta — i wynik OpenAI o Navierze–Stokesie sprawdzony „odnośnie samopodobieństwa" (226; pułapka nazewnicza nr 12). 7.10: przegląd literatury pod samopodobieństwo — dwa nieudane uruchomienia wieloagentowe, mapa zrobiona skryptami (literatura/samopodobienstwo.md), poprawiona po trzech uwagach użytkownika: przełożenia 1:1, pole samo w sobie ≡ Ø, i że autorzy mówiący o polu często używają relacji w otoczeniu — więc sprawdza
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rozmowa/claude-code-sesja-2026-10-06.md: 72 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86.jsonl)
+branch 'ccr-66a8cb7a-vj7583' set up to track 'origin/ccr-66a8cb7a-vj7583'.
+d352067 Literatura: co autor mówi wobec czego wynik używa; relatony
+````
+</details>
+
+## [73] Asystent — 2026-10-07 04:41
+
+Racja. Poprzednim ruchem przegiąłem w drugą stronę: z przełożenia 1:1 przeszedłem do „odpada w całości”. To ta sama skrajność, którą zapisałeś w `CLAUDE.md` („ze skrajności w skrajność”).
+
+Teraz w mapie, w `NASTEPNA-SESJA.md` i w zasadach w `CLAUDE.md` stoją przy każdej pracy dwa osobne pytania:
+1. **Co autor mówi, że robi.** „Pole”, „wartość pola w próżni”, „stan podstawowy” to opis, a opis pola samego w sobie jest zdaniem o Ø.
+2. **Czego wynik faktycznie używa.** Często są to zjawiska, czyli relacje w otoczeniu, i to można brać.
+
+Do tego dochodzi trzecie: relatony, czyli założenia bez uzasadnienia. Zasadę zapisałem Twoimi słowami przy szukaniu po kształcie wyniku. Dopisałem też, że szukanie po wynikach odsiewa tylko część i że i tak trzeba sprawdzać.
+
+Przykład z samego kroku 6: o `v` mówi się „wartość pola Higgsa w próżni”, a w praktyce odczytuje się go ze stałej Fermiego, czyli z czasu życia mionu wobec jego masy. To jest zjawisko, nie pole. Czy to wystarcza, żeby czytać `v/m_P` jako relację odczytów, następna sesja ustala na początku; oznaczyłem to [?].
+
+Mapa żadnej pracy na relatony nie sprawdziła, bo czytałem tylko abstrakty. Napisałem to w niej wprost, żeby nie uchodziła za sprawdzoną. Wszystko jest wypchnięte w commicie d352067.
+
+## [74] Użytkownik — 2026-10-07 04:45
+
+Raz wystarczy, a raz nie. Zależy co autor ma na myśli mówiąc - masa 
+Bo ona tez potrafi zalozenie przemycac
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add mass-reading caveat to notes, commit and push
+cat > /tmp/claude-0/-home-user-Logika-relacyjna/24c7d813-1398-514e-b0c5-53594da70b86/scratchpad/fix4.py <<'PYEOF'
+p='NASTEPNA-SESJA.md'
+s=open(p,encoding='utf-8').read()
+a='''   samego kroku:** `v` opisuje się jako wartość pola w próżni, a odczytuje ze stałej Fermiego, czyli z czasu życia
+   mionu wobec jego masy. Czy to wystarcza, żeby czytać `v/m_P` jako relację odczytów — pierwsza rzecz do
+   ustalenia [?]. Mapa nie sprawdzała żadnej pracy na relatony (czytane były abstrakty).'''
+assert s.count(a)==1
+s=s.replace(a,'''   samego kroku:** `v` opisuje się jako wartość pola w próżni, a odczytuje ze stałej Fermiego, czyli z czasu życia
+   mionu wobec jego masy. **Ale „masa" też przemyca założenie** (użytkownik: *„Raz wystarczy, a raz nie. Zależy, co
+   autor ma na myśli, mówiąc — masa"*): mas
 …[ucięto]
 ````
 </details>
