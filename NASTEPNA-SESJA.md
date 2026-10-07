@@ -41,7 +41,7 @@ Wiersz 208 jest teraz **[?] otwarte**. Bilans 17 wolnych danych — **nieruszony
   jest `a·b`;
 - **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW", ok. 5 tys. znaków) — razem z adnotacjami 229; wiersz
   `μ²` („nie jest odczytem") i wiersz „unormowanie Yukaw";
-- **`## B1`** (ok. 2 tys. znaków);
+- **`## B1`** (ok. 2 tys. znaków; przepisany w 233: hop-stop liczony na rozsiewie, czyli na pojemniku — ramie zostaje forma, `a·b` jest odczytem);
 - **blok 154 w `## §F1`** (pkt 1 z tabelą; przepisany w 231) — dwa warunki na λ i to, że czy ustalają jakiś
   odczyt, jest otwarte, bo przeniesienie na `m_H`, `m_t` idzie przez `ln(m_P/v)`;
 - **lista dozwolonych wejść (147) w `## §F1`** — w 231 usunięta z niej „liczebność: stosunek końców hierarchii
@@ -79,14 +79,14 @@ tego rozstrzygać zgadywaniem** (próbowałem w CC 13 dwa razy, użytkownik: *�
 **`v² = −μ²/λ` (drzewowo).** 208 wyrzuciło `μ²` jako nie-odczyt. Kusi wniosek „więc `v` też" — ale to
 relacja drzewowa, a `λ` jest ustalona przez 154 tylko w jednym miejscu. Sprawdzić, nie przyjąć.
 
-**`r_s/ƛ_C = 2(m/m_P)²`** (§F1, blok hipotezy, „dwa promienie wokół jednego środka") — wygląda jak stosunek
-dwóch samoodczytów jednego nośnika (zygzak wobec pętli światła, [H] przy 2464), czyli kandydat na (b). Plik
-oznacza to jako *„tożsamość, niczego sama nie wyprowadza"* [O]. **Nie brać tego jako odpowiedzi** — to jest
-dokładnie ruch z 214 (utożsamienie przez formę).
+**`r_s/ƛ_C = 2(m/m_P)²`** — „dwa promienie wokół jednego środka" usunięte z §F1 w 231 (Planck jako miejsce
+na osi masy). Kusi jako kandydat na (b) (dwa samoodczyty jednego nośnika), ale to przepisanie `m/m_P` (B1)
+i ruch z 214 (utożsamienie przez formę). **Nie brać tego jako odpowiedzi.**
 
-**Reguła „sztuki czy miara"** w `§E` ma *„pomnóż przez potęgę `t_P`"* — brzmienie użytkownika z [290] (18.09),
-przy rachunkach na rozsiewie; `t_P` jest tam odstępem rozsiewu. Opatrzone w 230: operacja z `t_P` dotyczy tylko
-zamkniętej gałęzi rozsiewu, rdzeń reguły (liczba nie rośnie z gęstością, inaczej miara) stoi.
+**Reguła „sztuki czy miara"** w `§E` — od 233 rdzeń (użytkownik, [288]: liczba nie rośnie z gęstością, inaczej
+miara) oddzielony od procedury „pomnóż przez potęgę `t_P`" ([289]–[290], rachunki na rozsiewie; `t_P` = odstęp
+rozsiewu = ℓ). Procedura dotyczy tylko zamkniętej gałęzi; jeśli w kroku pojawi się `t_P` albo ℓ, rachunek jest
+o pojemniku.
 
 ---
 

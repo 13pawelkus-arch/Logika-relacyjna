@@ -30,7 +30,7 @@ ROZMOWY = [os.path.join(KAT, 'rozmowa', f) for f in (
     'logika-relacyjna-rozmowa.md', 'claude-code-sesja-2026-09-24.md', 'claude-code-sesja-2026-09-24-2.md')]
 
 CZESCI = {
-    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Osiem pułapek', '## Dopuszczalne stany',
+    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Pułapki nazewnicze', '## Dopuszczalne stany',
           '## Gdzie zaczynać', '## A0.', '## A1.', '## Sito', '## Reguła językowa', '## Sztuki czy miara', '## Reguły'],
     '2': ['## R1a.'],
     '3': ['## R1b.', '## R1c.'],
