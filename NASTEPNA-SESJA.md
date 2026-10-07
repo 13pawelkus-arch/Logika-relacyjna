@@ -42,22 +42,24 @@ Wiersz 208 jest teraz **[?] otwarte**. Bilans 17 wolnych danych — **nieruszony
 - **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW", ok. 5 tys. znaków) — razem z adnotacjami 229; wiersz
   `μ²` („nie jest odczytem") i wiersz „unormowanie Yukaw";
 - **`## B1`** (ok. 2 tys. znaków);
-- **blok 154 w `## §F1`** (pkt 1 z tabelą) — bo tam `ln(m_P/v)` jest używane do przeniesienia warunków na
-  `m_H`, `m_t`, i krok musi powiedzieć, co z tym jest (patrz „Co niepewne").
+- **blok 154 w `## §F1`** (pkt 1 z tabelą; przepisany w 231) — dwa warunki na λ i to, że czy ustalają jakiś
+  odczyt, jest otwarte, bo przeniesienie na `m_H`, `m_t` idzie przez `ln(m_P/v)`;
+- **lista dozwolonych wejść (147) w `## §F1`** — w 231 usunięta z niej „liczebność: stosunek końców hierarchii
+  (Planck ≡ Ø ↔ całość ≡ Ø)”, czyli korzeń zakresu `ln(m_P/v)`.
 
 ---
 
 ## Zdanie, które ma upaść
 
 > **Unormowanie Yukaw nie jest odczytem: po zdjęciu `m_P` jako punktu odniesienia skala całości jest tylko
-> wyborem jednostki, a do odczytania zostają wyłącznie stosunki — 8 stosunków Yukaw i to, co 154 wiąże
-> (`m_H/v`, `m_t/v`, czyli `λ` i `y_t`).**
+> wyborem jednostki, a do odczytania zostają wyłącznie stosunki — 8 stosunków Yukaw oraz `m_H/v` i `m_t/v`
+> (czyli `λ` i `y_t`).**
 
 Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Przechodzi.** Wtedy wolnych danych jest o jedną mniej (16), a bilans 149 zmienia się z powodu, nie
+- **(a) Przechodzi.** Wtedy wolnych danych jest o jedną mniej, a bilans (208) zmienia się z powodu, nie
   z zestawienia. **Ale** trzeba od razu powiedzieć, czym w 154 jest zakres biegu między odczytami a końcem
-  Plancka, skoro nie odległością do miejsca — inaczej (a) psuje jedyne trafienie.
+  Plancka, skoro nie odległością do miejsca (154 po 231 mówi tylko, że to otwarte).
 - **(b) Upada:** unormowanie jest odczytem, bo istnieje **drugi odczyt**, z którym `v` (albo `m_i`) tworzy
   stosunek, i nie jest nim Planck jako kraniec. Wtedy trzeba ten drugi odczyt **nazwać** i pokazać, że jest
   odczytem (181), a nie przelicznikiem.
@@ -68,10 +70,11 @@ Rozstrzygnięcia wypisane **z góry**:
 
 ## Co niepewne — i tu jest najwięcej
 
-**154 i zakres `ln(m_P/v)`.** 154 przenosi `λ = 0`, `β_λ = 0` „na końcu Plancka" na `m_H` i `m_t` biegiem
-na zakresie `ln(m_P/v)`. Użytkownik: Planck nie ma położenia. Czym więc jest ten zakres w 154 — nie wiem i
-**nie wolno tego rozstrzygać zgadywaniem** (próbowałem w CC 13 dwa razy, użytkownik: *„nawet nie
-komentuję"*). **154 jest wpisem asystenta (v3.5), nie potwierdzeniem użytkownika** — w CC 13 napisałem inaczej i to był błąd atrybucji (230). Po 230 stoi przy nim, z czego wynika: dwa warunki są treścią ramy, a przeniesienie na `m_H`, `m_t` idzie przez dane zmierzone i zakres `ln(m_P/v)`.
+**154 i zakres `ln(m_P/v)`.** Po 231 blok 154 mówi tylko tyle: dwa warunki na λ są treścią ramy („tam, gdzie
+nic nie jest odróżnialne”), a czy ustalają jakiś odczyt — otwarte, bo literatura przenosi je na `m_H`, `m_t`
+biegiem po zakresie `ln(m_P/v)`, a Planck nie ma położenia. Czym ten zakres jest — nie wiem i **nie wolno
+tego rozstrzygać zgadywaniem** (próbowałem w CC 13 dwa razy, użytkownik: *„nawet nie komentuję"*). Bilans
+„17 wolnych danych” w 208 jest od 231 warunkowy: zależy od tego punktu i od unormowania Yukaw.
 
 **`v² = −μ²/λ` (drzewowo).** 208 wyrzuciło `μ²` jako nie-odczyt. Kusi wniosek „więc `v` też" — ale to
 relacja drzewowa, a `λ` jest ustalona przez 154 tylko w jednym miejscu. Sprawdzić, nie przyjąć.
