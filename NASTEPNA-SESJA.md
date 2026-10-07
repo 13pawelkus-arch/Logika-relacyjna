@@ -4,14 +4,31 @@ Krok 2 zamknięty w całości (223, 224), krok o [104] zamknięty (225), wątek 
 (226; użytkownik: *„wątek OpenAI, chyba można odpuścić"*). Otwarte są jeszcze krok 4 (rura ilościowo)
 i `[?]` z 221, ale **nie mieszać ich z tym**.
 
-## Najpierw: literatura pod samopodobieństwo
+## Najpierw: `literatura/samopodobienstwo.md` — §3 i §4 w całości
 
 Użytkownik na koniec CC 12: *„jeśli chodzi o samopodobieństwo to chyba nie robiliśmy przeglądu literatury
-konkretnie pod samopodobieństwo. A jest tego trochę"*. **Jeśli istnieje `literatura/samopodobienstwo.md`,
-przeczytać go przed tym krokiem** — przynajmniej część o (S) i o następnym kroku (prace, które wiążą
-hierarchię z warunkiem na końcu albo z punktem stałym). **Jeśli go nie ma — zrobić przegląd najpierw**
-(pierwsze podejście 7.10 przerwał limit sesji: wszystkie agenty, zero wyników). Mapa jest materiałem
-wejściowym, nie wpisem: każdy kandydat do ramy przechodzi test ze `STOP.md` dopiero tutaj.
+konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 67 cytatów, każdy
+dosłownie z abstraktu (sprawdzone skryptem), abstrakty w `literatura/samopodobienstwo-zrodla.json`.
+**Przeczytać w całości §3 („Krok 6 … rozwidlenie") i §4 (zjawiska krytyczne Choptuika)**, resztę według
+potrzeby. Co tam stoi — żeby było wiadomo, czego szukać, **nie** żeby to przyjąć:
+
+1. **Literatura ma na pytanie tego kroku gotowe rozwidlenie:** czy koniec ustala `v/m_P`, zależy od tego, czy
+   parametr masowy Higgsa jest na końcu **relewantny** (wolny — tak stoi w tabeli 149) czy **nierelewantny**
+   (wtedy przewidziany: Pawlowski–Reichert–Wetterich–Yamada 2018, Eichhorn i in. 2017, Wetterich–Yamada 2016,
+   Wetterich 2026). Wetterich 2026 zapisuje hierarchię jako **bezwymiarowe sprzężenie dwóch pól** — czyli
+   w postaci, którą 208 dopuszcza (`v/m_P` jako stosunek).
+2. **Agravity (Salvio–Strumia 2014) ma dokładnie dwa warunki 154** (`λ = 0`, `β_λ = 0` przy skali Plancka),
+   ale jako warunek, przy którym **sam koniec Plancka powstaje**. To jest literaturowa postać rozstrzygnięcia (c).
+3. **Zjawiska krytyczne Choptuika to 224 (A) z zewnątrz:** koniec ustala wykładnik (jedyny tryb relewantny),
+   a skala wyniku jest potęgą odległości wolnej danej od krytyczności, czyli jej bijekcją — postać gałęzi
+   „relewantny".
+4. **Ostrzeżenia z §3 mapy:** asymptotic safety używa metryki jako pola fluktuującego, a 148 tego nie bierze
+   (wolno wziąć formę, nie mechanizm); „first decreases … subsequently increases" to „przepływ = kierunek" (148);
+   `μ²` nie jest odczytem (208).
+
+**Czego mapa nie ma:** LOG (Benford, Haar, Jeffreys) prawie pusty; czytane były **abstrakty**, nie pełne
+teksty — przed jakimkolwiek wpisem przeczytać pracę. Mapa jest materiałem wejściowym, nie wpisem: każdy
+kandydat (K1–K4 w §10 mapy) przechodzi test ze `STOP.md` dopiero tutaj.
 
 ---
 
@@ -70,6 +87,11 @@ Rozstrzygnięcia wypisane **z góry**:
   ale jego **położenie w `t` względem `v`** to właśnie `ln(m_P/v)`, czyli sama wolna dana. Wtedy krok brzmi:
   najpierw rozdzielić „nazwany jako Ø" od „położony w `t`", potem pytać. Precedens: 224 rozdzieliło dwa końce
   pod nazwą „Ø-miejsce", 221 trzy obiekty pod literą `z`.
+- **(d) — dopisane po przeglądzie literatury (7.10), nie z góry:** odpowiedź zależy od tego, czy `v/m_P`
+  jest na końcu **relewantne**. Wtedy pytanie kroku zamienia się w pytanie, czy rama ma pojęcie relewantności
+  na końcu (wykładnik krytyczny — liczba bezwymiarowa, własność końca, więc postać legalna) i czy coś je
+  ustala. Jeśli rama tego nie ma — to jest (b) z nazwanym powodem; jeśli ma — (a). **Uwaga na potwierdzanie:**
+  przełożenie rozwidlenia z literatury na słownik ramy nie jest jeszcze wynikiem (191).
 
 ---
 
@@ -100,9 +122,13 @@ ile niewiadomych, co jest wejściem) — kartka. Ale ostrzeżenie z (a) dotyka *
 zmierzonych mas), a 208 i użytkownik (*„przestać się interesować liczbami"*) każą wartości nie szukać.
 Rozdzielić: **struktura relacji — tak; liczba `v/m_P` z niej — nie w tym kroku.**
 
-**Czego nie sprawdziłem w literaturze:** czy ktoś zapisał krytyczność Higgsa jako **warunek na hierarchię**,
-a nie na masy — po kształcie: „Planck scale … determined by … criticality", „hierarchy … fixed by …
-vanishing of the quartic", „ratio of the electroweak to the Planck scale … from the stability boundary".
+**Literatura sprawdzona 7.10 (mapa, §3).** Tak — krytyczność Higgsa zapisano jako **warunek na hierarchię**:
+Pawlowski–Reichert–Wetterich–Yamada 2018 i Wetterich 2026 (przy nierelewantnym parametrze masowym stosunek skal
+jest przewidziany); jako **warunek na masy** przy danym `v` — Holthausen–Lim–Lindner 2011 i Shaposhnikov–Wetterich
+2010; zasada wielu punktów jako warunek na stosunek skal — Froggatt–Laperashvili–Nielsen 2004 („exponentially
+huge", spekulatywnie). W pobranych abstraktach fraz z poprzedniej wersji tej notatki dosłownie nie ma; kształt jest:
+PRWY — „a tiny value of the ratio between the Fermi scale and the Planck scale is predicted"; agravity — „The Planck
+scale and a flat space can arise dynamically … provided that a quartic scalar coupling and its $\beta$ function vanish".
 
 ---
 
