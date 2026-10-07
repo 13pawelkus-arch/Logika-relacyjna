@@ -39,7 +39,7 @@ Wiersz 208 jest teraz **[?] otwarte**. Bilans 17 wolnych danych — **nieruszony
 - **blok 181 w `### A11d`** („MASA JAKO STOSUNEK — PRZELICZNIK ODPADA", ok. 4 tys. znaków) — masa
   odczytywalna wyłącznie jako stosunek dwóch odczytów o różnej głębokości; jedynym bezwymiarowym parametrem
   jest `a·b`;
-- **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW", ok. 5 tys. znaków) — razem z adnotacjami 229; wiersz
+- **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW", ok. 5 tys. znaków) — wiersz
   `μ²` („nie jest odczytem") i wiersz „unormowanie Yukaw";
 - **`## B1`** (ok. 2 tys. znaków; przepisany w 233: hop-stop liczony na rozsiewie, czyli na pojemniku — ramie zostaje forma, `a·b` jest odczytem);
 - **blok 154 w `## §F1`** (pkt 1 z tabelą; przepisany w 231) — dwa warunki na λ i to, że czy ustalają jakiś
