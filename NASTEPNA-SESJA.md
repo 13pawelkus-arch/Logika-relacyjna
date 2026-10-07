@@ -89,14 +89,11 @@ zamkniętej gałęzi rozsiewu, rdzeń reguły (liczba nie rośnie z gęstością
 
 ## Jak NIE robić — z zapisanych błędów
 
-Z CC 12 i CC 13, ten sam rodzaj trzy razy: **coś, co już stało, dostawało nazwę, położenie albo dowód, których
-nie miało** (214: „181 zrealizowane" przez zbieg liter `a`, `b`; 224/225: Planck z położeniem; 225: „trzy
-klauzule [104] dowiedzione" przez most asystenta). **Test:** po zdjęciu nazwy, położenia albo cudzego mostu —
-czy zdanie jeszcze coś zabrania.
-
-I dalej obowiązuje: **kto co powiedział** sprawdzić w zapisie, zanim się orzeknie (225, 227 — dwa dopiski
-asystenta podpisane jako użytkownika); **kwantyfikator reguły = kwantyfikator dowodu** (222); **nie mówić
-o Planck wprost** — tylko od strony znanego otoczenia, i bez położenia.
+- **Kto co powiedział** — sprawdzić w zapisie rozmowy i w kolumnie „kto” rejestru, zanim się coś zmieni albo
+  zostawi „bo to użytkownika”. W CC 12–13 trzy razy wyszło inaczej, niż stało w pliku (225, 227, 230).
+- **Z czego coś wynika** — sprawdzić w pliku i w zapisach, zanim się to zmieni (użytkownik, 7.10). W CC 13
+  usunąłem z R1b-A akapit, którego zastrzeżenie było brzmieniem użytkownika (230).
+- **Planck** — bez położenia i bez jednostek (227); nic o nim wprost.
 
 ---
 
