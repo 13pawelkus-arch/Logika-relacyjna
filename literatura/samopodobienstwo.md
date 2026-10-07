@@ -53,6 +53,8 @@ Do tego **LOG** (146, 184a) i **Ø-miejsca** (R1a GRANICE Ø, 183, pułapka 11).
 
 ## 3. Krok 6: czy warunki na końcu dotykają `v/m_P` — literatura ma rozwidlenie
 
+*(Poprawka 228, 7.10: **krok 6 w tej postaci odpadł** — stał na `m_P` jako krańcu z położeniem i na `v/m_P` jako legalnej postaci danej (227, 229). Sekcja zostaje jako materiał; pytanie, którego dotyczy, trzeba najpierw postawić od nowa.)*
+
 **O tym, czy koniec ustala hierarchię, decyduje to, czy parametr masowy Higgsa jest na końcu relewantny, czy nierelewantny.** Literatura ma obie gałęzie i trzecią postać.
 
 - **Gałąź 1 — relewantny (tak stoi w tabeli 149):** koniec zostawia go wolnym, hierarchia jest daną. Kształt mechanizmu dają zjawiska krytyczne Choptuika (§4): koniec ustala **wykładnik**, a skala jest potęgą odległości od krytyczności, czyli bijekcją wolnej danej — 224 (A). Literatura nazywa to bliskością krytyczności Higgsa: **Steingasser, Kaiser, arXiv:2307.10361 (2023)** — *„Both parameters in the Higgs field's potential, its mass and quartic coupling, appear fine-tuned to near-critical values"*; **Garcés i in., arXiv:2506.15919 (2025)** — związek *„between the hierarchy problem and the near-criticality of the Standard Model"*, z kwantowym przejściem fazowym.
