@@ -1,11 +1,8 @@
 ## Jak czytać ten plik
 
-**Cztery pola przy każdym rachunku.** Wartość · kontrola, która przeszła · co by go obaliło · czyja teza. Wartość bez warunków (n, d, estymator, liczba prób) nie jest wynikiem.
 **Znaczniki pochodzenia:** **[H]** teza użytkownika · **[A]** teza asystenta · **[L]** literatura
 **Znaczniki ugruntowania:** **[T]** dowód · **[P]** rachunek · **[O]** obserwacja strukturalna · **[?]** domysł
 **[n]** = numer wiadomości w rozmowie źródłowej (`rozmowa/logika-relacyjna-rozmowa.md`); „sesja CC n”, „sesja 25.09” = rozmowy w Claude Code. Liczby bez nawiasów kwadratowych (np. 137, 166) = numery poprawek z rejestru `poprawki.md`.
-**ZASADA METODY** **Nie tworzymy nowych teorii ani nie mnożymy hipotez. Korzystamy z tego, co już jest — z całej nauki, która jest solidną bazą — oczyszczonej z interpretacji.** Zmiana sposobu patrzenia może być równie wielka jak nowe odkrycie, jeśli baza jest solidna.
-**Skróty myślowe są dozwolone** dopóki czytający wie, że to skróty. Poniższy słownik podaje ich **jednoznaczny odczyt**
 
 | skrót | odczyt relacyjny | gdzie |
 |---|---|---|
@@ -38,9 +35,7 @@ $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv 
 | $R$ (pierwsze) | relacja |
 | $R$ (drugie) | **wycinek $R_o$ objęty relacją = wszechświat.** Wszechświat ≠ obiektywna rzeczywistość |
 | $R\otimes R$ | świat relacji złożonych z relacji |
-| obiekt | **(stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą** (użytkownik, 25.09; poprawka 132). Np. jądro atomu = struktura relacji, która jako całość tworzy relację przestrzeni z elektronem; atom jako całość = struktura relacji, która jako całość tworzy relację przestrzeni z innym atomem. Por. węzły [404–408]. **Nie**: nośnik zawartości poza strukturą. *„Stabilna”: pułapka nr 8 (poprawka 169).* Formalnie: para (M, O) — M moduł względem O (A11d, 172–173). |
-
-**≡ to hipoteza do sprawdzenia, nie wynik [H].** Różne zjawiska mają różne otoczenia i formalizmy; po przekształceniu na bezwymiarowe mają się dać czytać naraz. Obala to tylko pokazanie, że stosunki się **wzajemnie wykluczają** (jeden wymaga addytywności, drugi jej zabrania), nie różne wartości — te biorą się z różnych otoczeń.
+| obiekt | **(stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą**
 
 **Ĥ|Ψ⟩ = 0** Więz hamiltonianowy wynika wprost z niezmienniczości względem reparametryzacji czasu: nie ma zewnętrznego parametru, względem którego całość mogłaby ewoluować. To ten sam brak co przy zachowaniu energii (bez czasopodobnego wektora Killinga nie ma globalnie zachowanej energii): **całość nie ma otoczenia**. Czas wraca jako **korelacja wewnątrz całości**: stan podukładu warunkowany wskazaniem innego podukładu (zegara) zmienia się zgodnie ze zwykłą ewolucją (Page–Wootters 1983; rozwinięcia: Giovannetti–Lloyd–Maccone; układ dwóch fotonów: Moreva i in.). Globalnie nic nie płynie, lokalnie wszystko. **Wzbudzenia i relacje są lokalne.**
 
