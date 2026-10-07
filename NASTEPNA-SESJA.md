@@ -10,18 +10,22 @@ Użytkownik na koniec CC 12: *„jeśli chodzi o samopodobieństwo to chyba nie 
 konkretnie pod samopodobieństwo. A jest tego trochę"*. **Mapa jest zrobiona (7.10)**: 67 cytatów, każdy
 dosłownie z abstraktu (sprawdzone skryptem), abstrakty w `literatura/samopodobienstwo-zrodla.json`.
 **Przeczytać w całości §3 („Krok 6 … rozwidlenie") i §4 (zjawiska krytyczne Choptuika)**, resztę według
-potrzeby. Co tam stoi — żeby było wiadomo, czego szukać, **nie** żeby to przyjąć:
+potrzeby. **Ostrzeżenie użytkownika (7.10):** *„z literaturą trzeba uważać. Oni tam przemycają mnóstwo rzeczy,
+które wykluczają przełożenie 1:1"* — pierwsza wersja mapy miała pięć takich przełożeń, jedno upadło na pełnym
+tekście (pkt 2). Co tam stoi — żeby było wiadomo, czego szukać, **nie** żeby to przyjąć:
 
 1. **Literatura ma na pytanie tego kroku gotowe rozwidlenie:** czy koniec ustala `v/m_P`, zależy od tego, czy
    parametr masowy Higgsa jest na końcu **relewantny** (wolny — tak stoi w tabeli 149) czy **nierelewantny**
    (wtedy przewidziany: Pawlowski–Reichert–Wetterich–Yamada 2018, Eichhorn i in. 2017, Wetterich–Yamada 2016,
-   Wetterich 2026). Wetterich 2026 zapisuje hierarchię jako **bezwymiarowe sprzężenie dwóch pól** — czyli
-   w postaci, którą 208 dopuszcza (`v/m_P` jako stosunek).
-2. **Agravity (Salvio–Strumia 2014) ma dokładnie dwa warunki 154** (`λ = 0`, `β_λ = 0` przy skali Plancka),
-   ale jako warunek, przy którym **sam koniec Plancka powstaje**. To jest literaturowa postać rozstrzygnięcia (c).
-3. **Zjawiska krytyczne Choptuika to 224 (A) z zewnątrz:** koniec ustala wykładnik (jedyny tryb relewantny),
-   a skala wyniku jest potęgą odległości wolnej danej od krytyczności, czyli jej bijekcją — postać gałęzi
-   „relewantny".
+   Wetterich 2026) — **w mechanizmie, którego rama nie bierze** (fluktuacje metryki, 148). Wetterich 2026
+   zapisuje hierarchię jako bezwymiarowe sprzężenie dwóch pól, co tylko **wygląda** jak postać z 208: „pola" są
+   na czasoprzestrzeni, a „cosmon" to dodatkowe pole kosmologiczne.
+2. **Agravity (Salvio–Strumia 2014) — przełożenie 1:1, które upadło.** Warunki „sprzężenie i jego β znikają przy
+   skali Plancka" dotyczą tam pola S, które generuje skalę Plancka, **nie Higgsa** (*„we cannot identify the Higgs
+   field with the S field"*, pełny tekst). Zostaje tylko pytanie w kształcie: czy taki warunek może być warunkiem
+   **powstania** końca, a nie wartości na nim — to dotyka (c), ale niczego nie rozstrzyga.
+3. **Zjawiska krytyczne Choptuika mają kształt 224 (A):** koniec ustala wykładnik (jedyny tryb relewantny),
+   skala nie przychodzi z końca. Przemycają rodzinę danych wybraną przez autora i czynnik niosący skalę danych.
 4. **Ostrzeżenia z §3 mapy:** asymptotic safety używa metryki jako pola fluktuującego, a 148 tego nie bierze
    (wolno wziąć formę, nie mechanizm); „first decreases … subsequently increases" to „przepływ = kierunek" (148);
    `μ²` nie jest odczytem (208).
@@ -126,7 +130,7 @@ Rozdzielić: **struktura relacji — tak; liczba `v/m_P` z niej — nie w tym kr
 Pawlowski–Reichert–Wetterich–Yamada 2018 i Wetterich 2026 (przy nierelewantnym parametrze masowym stosunek skal
 jest przewidziany); jako **warunek na masy** przy danym `v` — Holthausen–Lim–Lindner 2011 i Shaposhnikov–Wetterich
 2010; zasada wielu punktów jako warunek na stosunek skal — Froggatt–Laperashvili–Nielsen 2004 („exponentially
-huge", spekulatywnie). W pobranych abstraktach fraz z poprzedniej wersji tej notatki dosłownie nie ma; kształt jest:
+huge", spekulatywnie). Agravity — **nie**: tam warunek dotyczy innego pola (pkt 2 wyżej). W pobranych abstraktach fraz z poprzedniej wersji tej notatki dosłownie nie ma; kształt jest:
 PRWY — „a tiny value of the ratio between the Fermi scale and the Planck scale is predicted"; agravity — „The Planck
 scale and a flat space can arise dynamically … provided that a quartic scalar coupling and its $\beta$ function vanish".
 
