@@ -1,7 +1,7 @@
 # rama.py — wypisuje ramę z PLIKU (nie ze streszczenia w CLAUDE.md), w czterech częściach mieszczących się
 # w jednym wyniku narzędzia. Definicja czasu i wyprowadzenie wymiarów (2, 3) — do powrotu w każdej chwili.
 #
-#   python3 narzedzia/rama.py 1   Jak czytać, Cel, Przed liczeniem, pułapki, Dopuszczalne stany, Gdzie zaczynać,
+#   python3 narzedzia/rama.py 1   Jak czytać, Cel, pułapki, Dopuszczalne stany, Gdzie zaczynać,
 #                                 A0, A1, Sito, Reguła językowa, Sztuki czy miara, Reguły
 #   python3 narzedzia/rama.py 2   R1a — definicja czasu (łańcuch Ø)
 #   python3 narzedzia/rama.py 3   R1b + R1c — 3D z definicji czasu; most do światła
@@ -30,7 +30,7 @@ ROZMOWY = [os.path.join(KAT, 'rozmowa', f) for f in (
     'logika-relacyjna-rozmowa.md', 'claude-code-sesja-2026-09-24.md', 'claude-code-sesja-2026-09-24-2.md')]
 
 CZESCI = {
-    '1': ['## Jak czytać', '## Cel', '## Przed liczeniem', '## Pułapki nazewnicze', '## Dopuszczalne stany',
+    '1': ['## Jak czytać', '## Cel', '## Pułapki nazewnicze', '## Dopuszczalne stany',
           '## Gdzie zaczynać', '## A0.', '## A1.', '## Sito', '## Reguła językowa', '## Sztuki czy miara', '## Reguły'],
     '2': ['## R1a.'],
     '3': ['## R1b.', '## R1c.'],

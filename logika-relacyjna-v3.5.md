@@ -18,6 +18,128 @@
 | „próżnia”, „pole” | Ø od strony danego otoczenia | R1a, §E |
 | „Ø ma cechę …” | **zawsze** skrót za „od strony otoczenia X Ø wygląda w naszym opisie jako …” | §E (reguła językowa) |
 
+## Gdzie zaczynać
+
+Układ pliku — pięć części:
+1. **Zasady i dyscyplina (§E):** cel, ramy, reguły, „sztuki czy miara”, reguła językowa dla Ø, pułapki nazewnicze.
+2. **Czas, 3D, światło — wyprowadzenia i pojęcia:** R1a–R1f (czas, 3D, światło, elektron i kwark, spin, działanie i energia — domknięte strukturalnie), potem pojęcia z porządku i liczności, horyzont i czarne dziury, otoczenie, chwila zero (A1–A8, B2–B4, C1–C3, R2–R5).
+3. **Masa i zespół funkcji:** §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224), B1, dwa logarytmy z jednego diagramu (218).
+4. **Otwarte:** „Dalej otwarte”.
+5. **Gałęzie zamknięte — zapis rachunków:** rozsiew, reguły wzrostu, estymatory wymiaru, gałąź masy v3.4, logarytm na rozsiewie, nieudane z v3.2–v3.3 (`STOP.md`); przy każdej status: co z niej zostaje w ramie i gdzie.
+
+Bieżący krok: poprawki o najwyższych numerach (`poprawki.md`) i `NASTEPNA-SESJA.md`.
+
+---
+
+# I. ZASADY I DYSCYPLINA (§E)
+
+## Cel
+
+Porządkowanie struktury logicznej: nie nowa fizyka, nie nowe aksjomaty, nie nowe byty. Wolno budować nowe konstrukcje z istniejących składników. **Tylko prawda jest ciekawa:** wynik dopasowany do znanej liczby jest nudny, bo nie dowiadujesz się z niego niczego.
+
+## A0. Ramy [H]
+
+**Świadomość** to unikalna struktura interakcji, która jako zbiór jest interakcją.
+
+**Fakt** = stan wspólnego aparatu poznawczego, ekstrapolowany na zewnątrz. Fakt nie jest obiektywny — jest ograniczoną formą komunikacji.
+
+**Opinia** = ten sam mechanizm na stanach indywidualnych. Zaprzeczenie komunikacji.
+
+**Matematyka** nie „jest", dlatego działa niezależnie od interakcji. Staje się komunikacją wtedy i tylko wtedy, gdy ma oparcie w strukturze logiki **oraz** jest sprawdzalnym pomostem do aparatów poznawczych. Kryterium robocze: **czy istnieje liczba, która mogłaby wyjść inaczej.**
+
+**Niezmiennik** = struktura relacji, w której liczność jest elementem struktury, nie dodatkiem.
+
+> **Status:** to jest zapis stanowiska, nie aparat rachunkowy (poprawka nr 19). Kryterium robocze z tego akapitu jest jedyną rzeczą stąd, która ma zastosowanie operacyjne — i ma je także do własnych rachunków.
+
+## Dopuszczalne stany
+
+Otoczenie ma **dwa** stany: pełne i częściowe. **Całkowity brak otoczenia wypada z układu.** To ograniczenie na hipotezy, nie wynik pomiaru.
+
+## Reguły
+
+**Najczęściej łamane:**
+
+- **Filtr podstawowy: definicja czasu razem z wyprowadzeniem 3D [H] (użytkownik, 26.09; poprawka 168).** „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” To samo w sesji CC 2 [22]: „Mamy definicję czasu ze wszystkimi tego konsekwencjami. Oraz strukturę, w jaki sposób to powoduje 3D. Reszta to właściwie logiczna konsekwencja. Więc przez taki filtr musimy patrzeć na rachunki”; w sesji CC [82]: „Nie można posługiwać się samą definicją czasu… bez połączenia z tym, w jaki sposób czas tworzy 3D i dlaczego nie może być 4D ani 154D”. R1a–R1c zawsze razem. Matematyka zostaje ta sama, zmienia się odczyt. **Złamane:** 168 — „3+1” wzięte za cztery wymiary; ta sama algebra (etap24), inny werdykt.
+- **Nie przejmować interpretacji [H] (użytkownik, v3.4).** Formalizmy i wyniki są gotowe; nowy jest tylko sposób patrzenia, którego w literaturze nie ma. Dlatego przed każdym rachunkiem i przed każdym pytaniem wziętym z literatury: **co właściwie chcemy policzyć** i co ta wielkość albo to pytanie **zakłada w swojej interpretacji** (kierunek, cechę obiektu, zewnętrzny parametr, gotową czasoprzestrzeń, podział układ/otoczenie). Jeśli zakłada — przełożyć na relacje albo odrzucić. Z literatury bierzemy formalizm i wynik, nie pytanie. **Złamane:** porządek w R6 z kolejności budowania (poprawka 106); „zgodność kierunku bez hipotezy przeszłości” (110); estymator Myrheima–Meyera użyty na sieci, choć zakłada sprinkling w Minkowskim (kalibracja C5); krzywizna Olliviera na skali ogniwa, gdzie z twierdzenia nie zbiega (105).
+- **Zanim cokolwiek policzysz: sprawdź, czy przedmiot nie jest już zaklasyfikowany jako pojemnik (poprawka 186).** Przegląd 178 przeszedł cały plik i rozdzielił rachunki na „algebra i dane, bez pojemnika” oraz „pojemnik w części liczbowej”; wraz z nim zapisano wprost, które gałęzie odpadają (m.in. „testy na rozsiewie 1+1 przy 170 odpadają”). **Rachunek na rozsiewie nie jest zdaniem o strukturze w żadnej liczbie współrzędnych** — wynik z rozsiewania mówi o odczytach wyłącznie w tej części, która od rozsiewu nie zależy (użytkownik, 28.09). Przed napisaniem nowego skryptu: przeczytać wiersz przeglądu dla tej gałęzi i wypowiedzi użytkownika na jej temat; jeśli gałąź jest oznaczona jako pojemnik, kolejny przebieg jej nie odblokuje. **Złamane:** 182 i 184b (ta sama gałąź co 170, mimo 178).
+- **Czytając literaturę, szczególnie uważać na „1+1”, „2+1” i podobne [H] (użytkownik, 29.09; poprawka 185).** „Wszystkie prace opierają się na interpretacji, a nie teorii. Nie wszystko się przekłada do 3 wymiarów. Plik dostarcza definicję czasu — której nie ma w żadnej literaturze. Definicja czasu nie mogła powstać niezależnie od przestrzeni trójwymiarowej. **3D nie ma nic wspólnego z liczbą 3. To nie jest 1+1+1, ani 2+1 ani nic podobnego.**” Praktycznie: liczba wymiarów w cudzej pracy jest parametrem **jej** konstrukcji (pojemnika, rozsiewu, siatki), więc wynik z 1+1 albo 2+1 wolno brać wyłącznie jako narzędzie — nigdy jako zdanie o strukturze; przeniesienie na 3D wymaga osobnego uzasadnienia, a nie zamiany liczby w wykładniku. Co się przenosi, a co nie — przegląd wymiarowy w tym paragrafie; nazwy — pułapka 5. **Złamane:** 168 („3+1” wzięte za cztery wymiary); 184 (d nazwane „liczbą wymiarów czasoprzestrzeni” zamiast wykładnikiem liczności pojemnika).
+- **Sprawdzić literaturę przed rachunkiem, nie po.** Sprawdzenie kosztuje zapytanie, rachunek kosztuje sesję. W rozmowie 4 odkryto koło cztery razy: Glaser–Surya (lokalność, 2013), Minz (bliźniaki, 2024), Boguñá–Krioukov (odległość przez nakładanie, 2024), Sorkin–Yazdi (prawo objętościowe). Wszystkie jednym zapytaniem.
+- **Rachunek bez zdania, które mogłoby przez niego upaść, nie jest rachunkiem.** Kryterium z A0 stosuje się do własnych przebiegów, nie tylko do cudzych publikacji. Znaczna część rozmowy 4 to były pomiary bez tezy.
+- **Wniosek z zakresu węższego niż dekada nie jest wnioskiem.** Trzykrotnie w v3.2 wniosek odwrócił się po poszerzeniu zakresu: siatka Fibonacciego, zdegenerowane d=2, przedczynnik przy L.
+- **Związać skalowanie parametru to za mało — trzeba przeskanować każdy parametr, który ustawiłeś sam.** L związano jako $n^{1/d}$, stałą zostawiono na 1, i to ona niosła wynik.
+- **Wymiar wkładany na górze skryptu nie jest wymiarem zmierzonym.** `sprinkle(n, d, ...)` sprawia, że „wszystko wychodzi funkcją d" jest w całości tautologią (przegląd 28.09, poprawka 178).
+- **Celem jest klasa nieodróżnialności, nie „jeden element".** Mierzenie, kiedy element daje się wskazać jednoznacznie, to kryterium z zewnątrz. Ø jest w pliku od A3 i nie było używane jako cel.
+- **Tam, gdzie skończony rozmiar psuje dopasowania, szukać wielkości progowych zamiast ciągłych.** Próg jest liczbą całkowitą i nie da się go przesunąć o kilkanaście procent (A9d). **Zastrzeżenie: obowiązuje w przestrzeni konforemnie płaskiej; pod krzywizną próg się rozmywa zamiast przeskakiwać** (§D, fala pp).
+- **Obciążenie estymatora zależy od struktury**, więc porównania między strukturami przy stałej liczbie prób są obciążone (poprawka nr 11).
+- **Zagnieżdżone obcięcia jednego losowania nie są niezależnymi pomiarami.** Pięć punktów `P[:n]` z jednego sprinklingu wyglądało na stabilność, a było jedną realizacją czytaną pięć razy.
+- **Duży koszt obliczeń to sygnał ostrzegawczy [H] (użytkownik, v3.4).** Zanim coś pójdzie na godziny GPU, zapytać: czy to nie jest twierdzenie, które da się udowodnić, albo czy koszt nie wynika z zewnętrznego układu, który sami wkładamy (pudło, okno, siatka)? Wykryte w §F2: etap11 potwierdzał twierdzenie; etap16 był zdominowany przez okno pudła.
+- **Nie traktować ramy sztywno.** Rama jest propozycją. Czytanie ilustracji (przypowieść o kropkach) jako specyfikacji dało kandydata wybranego ze złego powodu.
+
+**Pozostałe:**
+
+- **Kontrole graniczne przed rachunkiem, nie po.** Jeśli nie da się takiej wypisać, rachunek jest niesprawdzalny.
+- **Kontrole łapią błędy rachunku. Nie łapią błędów pojęciowych.**
+- **Liczba bez warunków nie jest wynikiem.** n, d, estymator, liczba prób.
+- **Zgodność dwóch wielkości związanych tożsamością nie jest potwierdzeniem.** To sprawdzenie dzielenia.
+- **Dwa błędy potrafią się znieść i wyprodukować zgodność.**
+- **Poprawka może przenieść błąd o piętro, zamiast go usunąć.** Po każdej poprawce pytać: czy nowe zdanie coś wyróżnia, czy jest prawdziwe o wszystkim.
+- **Zepsuty kod potrafi dawać wynik bliższy teorii niż poprawny.** Z₂: 0,42–0,44 (zepsuty) wobec 0,4407 (teoria) i 0,450 (poprawny).
+- **Rachunek nie chroni przed złym odczytaniem własnego rachunku.**
+- **Nazwa jest miejscem, gdzie najczęściej wchodzi błąd.**
+- **Nie zamieniać obserwacji strukturalnej w falsyfikowalną hipotezę, żeby ją obalić.**
+- **Rozdzielać policzone od zinterpretowanego.**
+- **Wyniki negatywne najcenniejsze do audytu.**
+- **Aksjomaty ustalone niezależnie od pytania**, do którego są stosowane.
+- **„Prostota" jako kryterium akceptacji jest ryzykowna.** Aktualne zastosowanie odpadło razem z plateau (poprawka nr 12).
+- **Struktura vs treść.** Logika relacyjna działa na poziomie warunków możliwości orzekania. Konkretny rozkład (np. Poisson) to już treść i podlega falsyfikacji.
+- **Porządkowanie idzie przed liczeniem.**
+
+## Sztuki czy miara [H] — reguła z v3.4
+
+1. **Test [H] ([288], [290]).** Liczba jest dopuszczalna tylko wtedy, gdy nie rośnie z gęstością. Jeśli rośnie, jest **gęstością**, nie liczbą, i wymaga miary. **Zakres procedury [O]:** w rachunkach, przy których reguła powstała (Fokker, `R = S·d/τ` — rozsiew), sprawdzało się to mnożeniem przez potęgę $t_P$ wynikającą z wymiaru; $t_P$ jest tam odstępem rozsiewu $\rho^{-1/d}$, czyli ℓ — pojemnik (186, 194) i piksel (`STOP.md` pkt 4). Ta procedura dotyczy więc wyłącznie zamkniętej gałęzi rozsiewu; rdzeń reguły jej nie potrzebuje.
+2. **Warunek falsyfikowalności.** Normalizacja musi być **przewidziana przed rachunkiem**, nie dopasowana po. Inaczej każdy szereg potęgowy da się „unormować” i reguła niczego nie zabrania.
+3. **Wyjątek (w literaturowym 1+1; w 3+1 zagrożony — przegląd wymiarowy).** Logarytmu nie unormuje żadna potęga gęstości. **Logarytm jest znakiem, że cięcie już zostało zrobione** (entropia: bez obcięcia gęstość, wykładnik +1,10; po podwójnym obcięciu $0{,}188\pm0{,}065$ razy $\ln N$ — C4a.16). *Entropia względna stanu koherentnego na nieobciętym rozsiewie też rośnie jak ln N, a obcięcie modów jej nie zmienia (170); to zdanie o pojemniku, gałąź zamknięta (186), więc skąd ten logarytm — nie jest pytaniem ramy.*
+
+Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmenty otoczenia (C4a.8) — wszystkie rozbieżne jako sztuki. Bliźniaki (A3a) **nie są** kontrprzykładem: prawo $n^{k-(k-1)d}$ samo jest normalizacją. Mody w podzbiorze **nie należą** do tej serii — tam problemem było niezerowe centrum algebry, a lekarstwem redukcja symplektyczna (C4a.2).
+
+## Sito na kształt odpowiedzi — POPRAWIONE
+
+> **POPRAWKA nr 16a (asystent, v3.2).** v3.1: „dopuszczalne są potęgi o wykładniku $a+bd$ z a, b całkowitymi".
+>
+> Naturalny wykładnik w tej literaturze to $2-2/d$, czyli **$a+b/d$**. Poprawione dopasowanie A4c daje $1{,}542-0{,}661/d$ — też $a+b/d$. A3a daje $k-(k-1)d$, czyli $a+bd$.
+>
+> **Obie postacie występują. Sito jak zapisane wycinało połowę tego, co faktycznie wychodzi.**
+
+Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być stosunkiem stosunków albo logarytmem stosunku (α już jest tego typu). Stosunku niesprowadzalnego nie umiem wykluczyć; jeśli istnieje, znaczy że pierwotnych jest więcej niż dwa — i to jest wynik, nie porażka (A1).
+
+## Reguła językowa dla Ø [H] (użytkownik, v3.4)
+
+**Ø nie może być podmiotem zdania z orzeczeniem o cesze.** Zamiast „Ø ma cechę Y” wolno tylko: „**od strony otoczenia X** Ø wygląda w naszym opisie jako Y”. Opis pośredni jest dozwolony, bo niesie informację, skąd patrzymy; opis bezpośredni zawsze jest projekcją — tym samym mechanizmem co opinia (stan aparatu przypisany obiektowi). Lekarstwo to samo co przy opinii: **cofnąć przypisanie i oddać cechę relacji.** Sprawdzenie mechaniczne: każde zdanie z Ø jako podmiotem i orzeczeniem o cesze przepisać tak, by podmiotem było otoczenie lub relacja.
+Naruszenia dotąd: poprawka 65 (podział Ø na „punkty kontaktu” i „brzegi hierarchii”), wcześniej rozmowa 5 („superpozycja to miejsce, gdzie relacja jest, ale nic nie odróżnione”).
+
+## Pułapki nazewnicze — lista kontrolna
+
+Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
+
+| | pułapka | gdzie |
+|---|---|---|
+| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø”; różni je wyłącznie relacja otoczenia. Przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** [H] — nigdy jako cecha samego Ø (reguła językowa, §E). | A3 |
+| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości” jest doskonale odróżnialny, więc nie jest Ø. | A3 |
+| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność” go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. Poprawka może przenieść błąd o piętro: po każdej pytać, **czy nowe zdanie coś wyróżnia** (wystąpiło ponownie przy L, A9d). | A5 |
+| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości — zamknięte w C2. | A8, C2 |
+| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d = 2 = 1 przestrzeń + czas. To są różne rzeczy. Żadne z nich nie jest strukturą: 2D w łańcuchu ≡ Ø, a literaturowe 1+1 to narzędzie bez triady (przegląd 28.09, poprawka 178). **3D nie ma nic wspólnego z liczbą 3: to nie jest 1+1+1 ani 2+1** (użytkownik, 185) — trójka jest domknięciem operacji, a nie sumą osi; „d” w rachunkach rozsiewu jest wykładnikiem liczności pojemnika, nie wymiarem ramy. | R1a (3+1) |
+| **6** | **„Masa” — dwa odczyty (poprawka 166).** **A** = faza na własne tyknięcie nośnika (R1f-3) = masa biegunowa; **B** = Yukawa · v przy danej rozdzielczości (R1d, punkt otwarty 1). Bez pętli to samo; różni je relacja nośnika z polem EM — dla stosunków leptonów 1–3%; Koide zachodzi tylko na A (na B: Q − 2/3 = 1,16·10⁻³, 63σ). **Na porządku to dwie strony pary (M, O):** A = waga w elemencie wnętrza, B = jedna liczba, którą O czyta z M (180). | §F1 (154, 166), R1d, R1f-3, A11d (180) |
+| **7** | **„Sztywny” — cztery znaczenia (poprawka 169):** (1) druga wariacja = rozróżnialność sąsiednich konfiguracji (A11d); (2) „czworościany równe i sztywne” = migawka bez dynamiki = zero absolutne, wykluczone [70] (C5, etap18); (3) łańcuch sztywny = relacje nadmiarowe przez przechodniość (A11c); (4) automorfizmy „sztywne” (Zeeman; poprawka 18). Pomylenie (1) z (2) czyta drugą wariację jako „struktura stoi”. | A11c, A11d, C5, A9e |
+| **8** | **„Stabilna” — trzy odczyty (poprawka 169):** (a) część rzeczywista bieguna √s_R = M_R − iΓ_R/2: m > 0 = węzeł (§F1); (b) część urojona Γ = trwanie (Γ = 0 ⇔ brak otwartego kanału); (c) „stateczna” = bez ruchu — wykluczona [70], stateczny jest tylko wszechświat jako całość [402]. Pomylenie (a) z (b) wyrzuca z węzłów mion, wolny neutron i jądra promieniotwórcze. „Stabilna” w słowniku (obiekt) = (a). | słownik, §F1, A11d |
+| **9** | **„Milczenie” a „≡ Ø dla tego O” (poprawka 198; poprawka użytkownika do pierwszej wersji tego wpisu).** Milczenie z 174 = **brak relacji** całości M z O; odwzorowanie zawartość → kanał jest wtedy **stałe**, a D znika **tożsamościowo**. Zerowa różnica odczytu to co innego: relacja jest, nośnik przechodzi, a stany O dla zawartości i dla Ø są nierozróżnialne — **wzbudzony moduł ≡ Ø dla tego O**, zgodnie z [412–414] („Ø jest absolutne; różni je tylko relacja otoczenia”). **Test rozstrzygający: zero izolowane czy tożsamościowe.** Zmienić fazę wnętrza o ε: przy ≡ różnica wraca liniowo (D ≈ ½p|ε|), przy milczeniu 174 nie wraca wcale. **Drugi podział pod tą samą nazwą (201):** „milczenie” zależy od tego, po czym przebiega „co jest w M” — po parze {Ø, wzbudzenie} (odczyt (i) z 175) czy po wszystkich stanach wnętrza (odczyt (ii)). CNOT milczy w (i) i nie milczy w (ii), a rozstrzygnięcia są **przeciwne**. **Każde zdanie o milczeniu musi podawać, w którym odczycie jest postawione.** | A11d (198, 201), 174, 175 |
+| **10** | **„Nie zapisuje” a „nie zmienia” (poprawka 202; poprawka użytkownika).** To są dwie różne rzeczy — ta sama pułapka co nr 9, o poziom niżej. Wnętrze w stanie własnym operacji zapisu **niczego nie zapisuje** (widzialność V = 1, nic nie przechodzi do wnętrza), a mimo to może **zmienić** nośnik: przy wartości własnej −1 kanał jest Z, nie tożsamością. **Przezroczysty jest wyłącznie stan własny z wartością +1.** Trzy rozłączne rzeczy przy jednym nośniku: przezroczystość (c = 1), **odcisk** (|c| = 1, c ≠ 1 — nośnik zmieniony, wnętrze nic nie zapisało), **zapis** (|c| < 1 — wnętrze zapisało, V = |c| spada). | A11d (202), 199, 173 |
+| **11** | **„Ø-miejsce" — dwa przeciwne końce tej samej relacji (poprawka 224; wiersz dopisany w 226, bo 224 go tu nie wpisało).** 183: **zniknięcie** relacji (`α → 0`, relacja przestaje odróżniać); 208: jej **rozbieżność** (`α → ∞` — Landau, transmutacja; nośnik przestaje być czytelny jako para (M, O)). Po kryterium R1a oba są Ø-miejscami, ale dwiema różnymi drogami; bez rozdzielenia zliczanie liczy dwa razy albo nie ten koniec. **Pisać „Ø-miejsce" zawsze z tym, który to koniec.** | R1a, §F1 (183, 208, 224) |
+| **12** | **„Samopodobny" — prawo czy stan (poprawka 226).** **(L)** prawo bez wyróżnionej skali: przesunięcie odniesienia zmienia tylko punkt odczytu, relacje **biegną** (152); jego śladem jest logarytm typu S (du/u, 146). **(S)** stan niezmienniczy: relacje **nie biegną** (punkt stały — precedens Shaposhnikova–Wettericha, 148; otoczenie osobliwości, 160). **(L) nie daje (S)** (zespół: `1/α` liniowe w `t`; NS: dokładnie samopodobny wybuch pusty), **(S) nie musi należeć do (L)** (NS: profil w punkcie osobliwym niezmienniczy względem skalowania, którego prawo nie ma — wyłania się, gdy człon prawa staje się ≡ 0). **Hipoteza [104] (hierarchia węzłów [402, 404]) nie jest żadnym z tych dwóch** — nie czytać jej jako (L) ani (S) bez pokazania. | §F1 (152, 225, 226), A5d (160); `literatura/navier-stokes.md` |
+
+---
+
+# II. CZAS, 3D, ŚWIATŁO — WYPROWADZENIA I POJĘCIA
+
 ## R1a. Łańcuch Ø
 
 $$[\varnothing \equiv R_o \equiv \gamma_0 \equiv t_0 \equiv |\psi\rangle \equiv (r{=}0) \equiv (\hat H|\Psi\rangle{=}0) \equiv \Delta \equiv 2D \equiv (l_P\,t_P) \equiv \varnothing] \;\neq\; R\otimes R$$
@@ -290,98 +412,6 @@ Kolejność pojęć [H] (A11d): … pole → próżnia → **działanie → ener
 
 **Odczyt w ramie [O]:** (1) **przyspieszenie = odchylenie własnego zapisu od najprostszej kontynuacji**, odczytywalne **od środka** (z liczebności własnych łańcuchów), jak masa na własne tyknięcie (R1f-3) — nie „przyspieszenie w przestrzeni”. (2) Estymator daje wielkość |a|; kierunek przyspieszenia byłby relacją z triadą (3D) — [?], niepoliczone. (3) **Unruh [L]:** T = a/2π → **T·τ = √(E/τ)/π** — Ø od strony czytającego z nadwyżką E wygląda termicznie; A5d: κ = lim(V·a), oba czynniki zdefiniowane (V = stosunek tempa odczytu, a z nadwyżki). **Ograniczenie:** porządek sprawdzony tylko w 1+1 (pułapka 5), 3+1 tylko w kontinuum (A2).
 
-## R2. Retrospekcja [A]
-
-Chwila zero wydarzyła się raz, więc estymator dostaje jeden pomiar na jeden nieznany parametr — to granica metody, nie estymatora (B2: działa na rozkładach, nie na epizodach). **Wyjście:** późne zdarzenia Ø są tego samego typu, więc pierwsza chwila zero jest **najstarszym egzemplarzem rodziny**, nie jedynym. Dostęp nie prowadzi wstecz, tylko **na drugą stronę tej samej relacji, którą już zajmujemy**: dzisiejsze zdarzenie Ø ma częściowe otoczenie, a my **jesteśmy** tym otoczeniem. „Co było przed” → „**jaki jest stosunek otoczenia do zdarzenia Ø**” = C2 = warunek niezmienniczości wzrostu — jedno pytanie w trzech miejscach pliku.
-
-## R3. Stosunek otoczenia do Ø już ma nazwy [L]
-
-| człon | otoczenie | opisane przez | stosunek otoczenie : Ø | skąd cięcie |
-|---|---|---|---|---|
-| superpozycja | środowisko dekoherujące | kwantowy darwinizm (Zurek) | redundancja $R_\delta=1/f_\delta$ | **plateau** w informacji wzajemnej |
-| osobliwość | promieniowanie | reguła wysp / QES, krzywa Page'a | entropia promieniowania do entropii dziury | **czas Page'a** → po filtrze: **stosunek liczebności = 1** (zapis czytającego : relacje przez brzeg), nie chwila (A5d (b), poprawka 161) |
-| nieoznaczoność | pamięć kwantowa | entropowe relacje nieoznaczoności | człon warunkowy | niesprawdzone |
-| 2D / Planck | — | — | — | o skali Plancka nic nie można powiedzieć [543]; „redukcja wymiaru spektralnego do 2” (CDT, AS, zbiory przyczynowe) to literaturowe d = 1+1, nie 2D ≡ Ø (pułapka 5) |
-| foton, t=0 | stożek świetlny | — | — | niesprawdzone |
-| **chwila zero** | **nieznane** | **—** | **—** | **to jest niewiadoma** |
-
-1. **Wszystkie opisane stosunki są stosunkami entropii** (redundancja, krzywa Page'a, nasze $f=\log e(C)/(n\log n)$) — jedna rodzina wielkości.
-2. **Mają wewnętrzne cięcie:** redundancja jest zdefiniowana przez **plateau** informacji wzajemnej, nie przez k z ręki — cięcie daje kształt krzywej (odpowiedź na C1).
-3. **Chwila zero jest jedynym członem bez opisanego otoczenia:** kalibrować tam, gdzie znamy oba człony, odwracać tam, gdzie znamy tylko strukturę — jedna niewiadoma, nie osiem.
-
-## R4. Podział konforemny — dokąd co należy [A][L]
-
-Teoria zbiorów przyczynowych rozkłada metrykę na strukturę przyczynową i konforemny czynnik skalujący: **porządek niesie strukturę przyczynową, gęstość elementów koduje czynnik objętości** — to jest A1 (Sorkin, „Gravity from Order and Number”).
-- **Rodzina stożka** (Weyl, wolne pole): progi na strukturze przyczynowej. Elektromagnetyzm jest konforemnie niezmienniczy **dokładnie w d = 4** (ślad tensora energii-pędu znika tylko tam; cechowane p-tensory — w 2p + 2); dualność Hodge'a na 2-formach wyznacza metrykę konforemną — tylko w d = 4.
-- **Rodzina objętości** (Ricci, materia, masa): wielkości reagujące na czynnik objętości; masa łamie niezmienniczość konforemną, bo wprowadza skalę.
-- **Cztery niezależne dojścia:** rozbicie A1 na porządek i liczność; Maxwell konforemny wyłącznie w d = 4; „bezmasowe = brzeg między obszarami” (Minz, Gallego Torromé); dowód Jacobsona ścisły tylko dla pól konforemnych.
-- **Kryterium sortujące (A9c):** czy wielkość przeżywa odkształcenie konforemne przy ustalonym n.
-
-## R5. Czego ta rama nie może dać — ograniczenia twarde [L]
-
-- **Dwa pierwotne ⇒ jeden wolny wykładnik.** W obszarze konforemnie płaskim porządek ma dokładnie jeden parametr; dziesięć wielkości z pięciu dróg dało za każdym razem d albo funkcję d — nie ma tam nic innego.
-- **Algebry lokalne KTP są czynnikami typu III:** brak rozkładu „wnętrze × zewnętrze”, macierzy gęstości obszaru i skończonej entropii splątania bez obcięcia; prawo powierzchniowe jest stwierdzeniem o regularyzacji. Intuicja „dwa węzły tworzą relację i ta relacja to przestrzeń” jest bliższa obrazowi modularnemu niż dwudzielnemu splątaniu — narzędziem jest teoria modularna.
-- **Skończony zbiór przyczynowy = typ I:** nie odtworzy typu III z konstrukcji; część własności przy skończonym n jest niedostępna z zasady, nie z braku mocy obliczeniowej.
-- **Usunięcie rozmaitości nie usuwa założenia:** porządek trzeba czymś wygenerować (sprinkling, wzrost sekwencyjny, KR — trzy różne założenia); założenie przenosi się z geometrii do reguły wzrostu.
-
----
-
-## Cel
-
-Porządkowanie struktury logicznej: nie nowa fizyka, nie nowe aksjomaty, nie nowe byty (zasada metody — wyżej). Wolno budować nowe konstrukcje z istniejących składników. **Tylko prawda jest ciekawa:** wynik dopasowany do znanej liczby jest nudny, bo nie dowiadujesz się z niego niczego.
-
-## Przed liczeniem
-
-1. **Sprawdź literaturę.** Sprawdzenie kosztuje zapytanie, rachunek — sesję. Koło odkryto cztery razy: Glaser–Surya (lokalność), Minz (bliźniaki), Boguñá–Krioukov (odległość przez nakładanie przeszłości), Sorkin–Yazdi (prawo objętościowe).
-2. **Rachunek bez zdania, które mogłoby przez niego upaść, nie jest rachunkiem** — kryterium z A0 („czy istnieje liczba, która mogłaby wyjść inaczej”) dotyczy też własnych przebiegów.
-3. **Kontrole graniczne przed rachunkiem;** jeśli nie da się ich wypisać, rachunek jest niesprawdzalny. Łapią błędy rachunku, nie pojęciowe — na świeżym terenie milczą.
-4. **Porządkowanie idzie przed liczeniem.** Pełne reguły — §E.
-
-## Pułapki nazewnicze — lista kontrolna
-
-Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
-
-| | pułapka | gdzie |
-|---|---|---|
-| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø”; różni je wyłącznie relacja otoczenia. Przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** [H] — nigdy jako cecha samego Ø (reguła językowa, §E). | A3 |
-| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości” jest doskonale odróżnialny, więc nie jest Ø. | A3 |
-| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność” go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. Poprawka może przenieść błąd o piętro: po każdej pytać, **czy nowe zdanie coś wyróżnia** (wystąpiło ponownie przy L, A9d). | A5 |
-| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości — zamknięte w C2. | A8, C2 |
-| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d = 2 = 1 przestrzeń + czas. To są różne rzeczy. Żadne z nich nie jest strukturą: 2D w łańcuchu ≡ Ø, a literaturowe 1+1 to narzędzie bez triady (przegląd 28.09, poprawka 178). **3D nie ma nic wspólnego z liczbą 3: to nie jest 1+1+1 ani 2+1** (użytkownik, 185) — trójka jest domknięciem operacji, a nie sumą osi; „d” w rachunkach rozsiewu jest wykładnikiem liczności pojemnika, nie wymiarem ramy. | R1a (3+1) |
-| **6** | **„Masa” — dwa odczyty (poprawka 166).** **A** = faza na własne tyknięcie nośnika (R1f-3) = masa biegunowa; **B** = Yukawa · v przy danej rozdzielczości (R1d, punkt otwarty 1). Bez pętli to samo; różni je relacja nośnika z polem EM — dla stosunków leptonów 1–3%; Koide zachodzi tylko na A (na B: Q − 2/3 = 1,16·10⁻³, 63σ). **Na porządku to dwie strony pary (M, O):** A = waga w elemencie wnętrza, B = jedna liczba, którą O czyta z M (180). | §F1 (154, 166), R1d, R1f-3, A11d (180) |
-| **7** | **„Sztywny” — cztery znaczenia (poprawka 169):** (1) druga wariacja = rozróżnialność sąsiednich konfiguracji (A11d); (2) „czworościany równe i sztywne” = migawka bez dynamiki = zero absolutne, wykluczone [70] (C5, etap18); (3) łańcuch sztywny = relacje nadmiarowe przez przechodniość (A11c); (4) automorfizmy „sztywne” (Zeeman; poprawka 18). Pomylenie (1) z (2) czyta drugą wariację jako „struktura stoi”. | A11c, A11d, C5, A9e |
-| **8** | **„Stabilna” — trzy odczyty (poprawka 169):** (a) część rzeczywista bieguna √s_R = M_R − iΓ_R/2: m > 0 = węzeł (§F1); (b) część urojona Γ = trwanie (Γ = 0 ⇔ brak otwartego kanału); (c) „stateczna” = bez ruchu — wykluczona [70], stateczny jest tylko wszechświat jako całość [402]. Pomylenie (a) z (b) wyrzuca z węzłów mion, wolny neutron i jądra promieniotwórcze. „Stabilna” w słowniku (obiekt) = (a). | słownik, §F1, A11d |
-| **9** | **„Milczenie” a „≡ Ø dla tego O” (poprawka 198; poprawka użytkownika do pierwszej wersji tego wpisu).** Milczenie z 174 = **brak relacji** całości M z O; odwzorowanie zawartość → kanał jest wtedy **stałe**, a D znika **tożsamościowo**. Zerowa różnica odczytu to co innego: relacja jest, nośnik przechodzi, a stany O dla zawartości i dla Ø są nierozróżnialne — **wzbudzony moduł ≡ Ø dla tego O**, zgodnie z [412–414] („Ø jest absolutne; różni je tylko relacja otoczenia”). **Test rozstrzygający: zero izolowane czy tożsamościowe.** Zmienić fazę wnętrza o ε: przy ≡ różnica wraca liniowo (D ≈ ½p|ε|), przy milczeniu 174 nie wraca wcale. **Drugi podział pod tą samą nazwą (201):** „milczenie” zależy od tego, po czym przebiega „co jest w M” — po parze {Ø, wzbudzenie} (odczyt (i) z 175) czy po wszystkich stanach wnętrza (odczyt (ii)). CNOT milczy w (i) i nie milczy w (ii), a rozstrzygnięcia są **przeciwne**. **Każde zdanie o milczeniu musi podawać, w którym odczycie jest postawione.** | A11d (198, 201), 174, 175 |
-| **10** | **„Nie zapisuje” a „nie zmienia” (poprawka 202; poprawka użytkownika).** To są dwie różne rzeczy — ta sama pułapka co nr 9, o poziom niżej. Wnętrze w stanie własnym operacji zapisu **niczego nie zapisuje** (widzialność V = 1, nic nie przechodzi do wnętrza), a mimo to może **zmienić** nośnik: przy wartości własnej −1 kanał jest Z, nie tożsamością. **Przezroczysty jest wyłącznie stan własny z wartością +1.** Trzy rozłączne rzeczy przy jednym nośniku: przezroczystość (c = 1), **odcisk** (|c| = 1, c ≠ 1 — nośnik zmieniony, wnętrze nic nie zapisało), **zapis** (|c| < 1 — wnętrze zapisało, V = |c| spada). | A11d (202), 199, 173 |
-| **11** | **„Ø-miejsce" — dwa przeciwne końce tej samej relacji (poprawka 224; wiersz dopisany w 226, bo 224 go tu nie wpisało).** 183: **zniknięcie** relacji (`α → 0`, relacja przestaje odróżniać); 208: jej **rozbieżność** (`α → ∞` — Landau, transmutacja; nośnik przestaje być czytelny jako para (M, O)). Po kryterium R1a oba są Ø-miejscami, ale dwiema różnymi drogami; bez rozdzielenia zliczanie liczy dwa razy albo nie ten koniec. **Pisać „Ø-miejsce" zawsze z tym, który to koniec.** | R1a, §F1 (183, 208, 224) |
-| **12** | **„Samopodobny" — prawo czy stan (poprawka 226).** **(L)** prawo bez wyróżnionej skali: przesunięcie odniesienia zmienia tylko punkt odczytu, relacje **biegną** (152); jego śladem jest logarytm typu S (du/u, 146). **(S)** stan niezmienniczy: relacje **nie biegną** (punkt stały — precedens Shaposhnikova–Wettericha, 148; otoczenie osobliwości, 160). **(L) nie daje (S)** (zespół: `1/α` liniowe w `t`; NS: dokładnie samopodobny wybuch pusty), **(S) nie musi należeć do (L)** (NS: profil w punkcie osobliwym niezmienniczy względem skalowania, którego prawo nie ma — wyłania się, gdy człon prawa staje się ≡ 0). **Hipoteza [104] (hierarchia węzłów [402, 404]) nie jest żadnym z tych dwóch** — nie czytać jej jako (L) ani (S) bez pokazania. | §F1 (152, 225, 226), A5d (160); `literatura/navier-stokes.md` |
-
-## Dopuszczalne stany
-
-Otoczenie ma **dwa** stany: pełne i częściowe. **Całkowity brak otoczenia wypada z układu.** To ograniczenie na hipotezy, nie wynik pomiaru.
-
-## Gdzie zaczynać
-
-**Stan v3.5.** Oś 1–2 (czas, c, 3D) domknięta strukturalnie w R1a–R1c; R1d–R1f: elektron, pole EM, kwark, spin i fala EM (143–145), działanie i energia (162–164); §F1: zespół funkcji [94], stan w zestawieniu „STAN ZESPOŁU” (167); czarne dziury: A5d (159–161). Bieżący krok: poprawki o najwyższych numerach (`poprawki.md`). Pytania techniczne: „Dalej otwarte”.
-
----
-
-# §A — UPORZĄDKOWANE
-
-## A0. Ramy [H]
-
-**Świadomość** to unikalna struktura interakcji, która jako zbiór jest interakcją.
-
-**Fakt** = stan wspólnego aparatu poznawczego, ekstrapolowany na zewnątrz. Fakt nie jest obiektywny — jest ograniczoną formą komunikacji.
-
-**Opinia** = ten sam mechanizm na stanach indywidualnych. Zaprzeczenie komunikacji.
-
-**Matematyka** nie „jest", dlatego działa niezależnie od interakcji. Staje się komunikacją wtedy i tylko wtedy, gdy ma oparcie w strukturze logiki **oraz** jest sprawdzalnym pomostem do aparatów poznawczych. Kryterium robocze: **czy istnieje liczba, która mogłaby wyjść inaczej.**
-
-**Niezmiennik** = struktura relacji, w której liczność jest elementem struktury, nie dodatkiem.
-
-> **Status w v3.2:** to jest zapis stanowiska, nie aparat rachunkowy (poprawka nr 19). Kryterium robocze z tego akapitu jest jedyną rzeczą stąd, która ma zastosowanie operacyjne — i ma je także do własnych rachunków.
-
 ## A1. Dwa pierwotne
 
 | | |
@@ -398,6 +428,16 @@ Dwa pierwotne dają **jedną** niezależną kombinację bezwymiarową: $N\sim L^
 > **Rozwinięcie w v3.2 (A):** to nie jest tylko ograniczenie na kształt odpowiedzi. To jest **przewidywanie o tym, czego nie da się znaleźć w płaskiej przestrzeni**, i zostało potwierdzone dziesięcioma wielkościami — patrz R5 i A9e.
 >
 > **Terminologicznie:** porządek ↔ struktura konforemna, liczność ↔ czynnik objętości. Wielkość niezależna od n jest w granicy wyznaczona przez sam porządek, czyli przez geometrię konforemną. Kryterium „wolne od n" **jest** kryterium „wyznaczone przez strukturę konforemną", a nie techniczną ostrożnością.
+
+## B4. Liczność jako element struktury [H]
+
+Teza zmienia A6. Jeśli liczność jest **wewnątrz** struktury, to rozdzielenie „stosunki vs skala" jest artefaktem opisu. Malament daje metrykę z dokł. do czynnika konforemnego, bo bierze **sam porządek** — czyli niepełny opis.
+
+**Pierwszy kandydat na test:** prawo $k-(k-1)d$ (A3a) — jedyna zmierzona wielkość, w której kombinatoryka i porządek występują nierozdzielnie.
+
+> **Drugi kandydat WYCOFANY.** v3.1 wskazywało A4c. Po poprawce nr 12 $(1-f)d$ jest funkcją samego d, więc nie wiąże liczności z wymiarem — jest przekodowaniem wymiaru. **Odpada jako test B4.**
+>
+> **Kandydat wchodzący w jego miejsce:** para (ułamek uporządkowania, f), która **rozdziela KR od sprinklingów** (A9a) — bo tam f przestaje być funkcją ułamka, więc liczność niesie coś, czego porządek sam nie niesie. To jest bliżej tezy B4 niż A4c kiedykolwiek było.
 
 ## A2. Tablica przekładu
 
@@ -455,8 +495,6 @@ Podział pracy: **porządek daje liczbę ($d_{MM}$, wolną od n), założenie ro
 
 → Cały zespół (sprzężenia, masy, λ) z tych przekształceń: **§F1, „Zespół funkcji [94]” (poprawka 152).**
 
----
-
 ## A3. Ø
 
 **Ø jest absolutne.** [H] Nieodróżnialność tak samo w chwili zero, jak w superpozycji w laboratorium.
@@ -509,8 +547,6 @@ Czyli **dokładnie d = 2** przy szesnastokrotnej zmianie n. Stała nie dopasowyw
 **Co by obaliło.** $n\langle sep\rangle$ rosnące lub malejące z n; wartość różna od d.
 
 **Czego to NIE dowodzi.** Sprinkling do płaskiej czasoprzestrzeni jest czterowymiarowy na każdej skali z konstrukcji. Redukcja $d\to2$ **jest założeniem, nie wynikiem** (§D).
-
----
 
 ## A4. Pamięć i druga zasada
 
@@ -660,8 +696,6 @@ Uczciwy status: **ścisła entropia Boltzmanna z dowiedzioną drugą zasadą, i 
 
 Przestrzeń i pamięć są przeciwstawne: co daje miejsce obok, odbiera porządek przed. Jedna liczba, $\log e(C)$, czytana z dwóch stron. [O]
 
----
-
 ## A5. Horyzont — i co właściwie liczy definicja molekuł
 
 > **POPRAWKA nr 2 (użytkownik, rozmowa 3).** „Horyzont to koniec relacji" było błędem; definicja molekuł z 2019 coś liczy i wynik jest uniwersalny dla wszystkich horyzontów przyczynowych.
@@ -802,6 +836,29 @@ $b(d)=1-\log_2 J/n$, gdzie $J$ = liczba zbiorów przeszłych.
 - **Werdykt (stanowczo):** (1) paradoks w postaci „czy informacja ginie” — źle postawiony; R1a rozstrzyga: nie ginie w strukturze, chodzi wyłącznie o odczytywalność dla konkretnego czytającego. (2) Promieniowanie Hawkinga = Ø od strony czytającego z zewnątrz (Ø → A, reguła językowa); T_H = jak szybko stosunek tempa odczytu znika na brzegu. (3) Krzywa Page'a = funkcja liczebności (Page, [T]), bez czasu; punkt Page'a = równość zapisu czytającego i liczby relacji przez brzeg. (4) Za nim zapis wnętrza należy do posiadacza R (wyspy) — dosłownie „ile przeszłości istnieje, zależy od zdolności zapisu”. (5) Firewall wyklucza się z niezmienniczością od środka; „koniec parowania” i resztki — źle postawione.
 - **Dalej [?]:** czy „+1” dla obszaru za punktem Page'a (pkt 4) da się ująć formalnie, jak krok 4 w R1b.
 
+## B3. Klasa relacji jednostronnych — KLASA ODRZUCONA; sam kandydat „stacjonarność” otwarty
+
+Trzej członkowie o różnym pochodzeniu: sfera fotonowa (geodezyjne), molekuły horyzontu (zliczanie par), sfera Hubble'a (gęstość krytyczna).
+
+**Klasa nie może stać na jednostronności, bo dwa z trzech członów jej nie mają.** Rachunek, n=4000:
+
+| przekrój | A→B | B→A |
+|---|---|---|
+| rurka czasopodobna, d=2 | 927 990 | 909 994 |
+| rurka czasopodobna, d=4 | 154 912 | 165 113 |
+| zbiór przeszły, d=2 | 1 971 705 | **0** |
+| zbiór przeszły, d=4 | 471 873 | **0** |
+
+Kandydat na „coś innego" (stacjonarność kierunku zerowego) jest warunkiem ciągłym. **B3 rozstrzyga się dopiero po C1 i C2.**
+
+> **Status w v3.2.** C1 i C2 mają odpowiedzi z literatury, więc B3 przestaje być zablokowane z tego powodu. Ale nikt go nie podjął ponownie i zostaje otwarte.
+>
+> **B3 jest próbą generalną całego programu i wyszła negatywnie.** Trzej członkowie z różnych źródeł, złożeni w klasę na podstawie podobieństwa, policzeni, odpowiedź „nie". Łańcuch Ø (R1a) ma ten sam kształt. To nie przesądza jego losu, ale pokazuje, jak wygląda test i że wynik może być negatywny.
+
+## C3. Jednostronność — ZAMKNIĘTA
+
+Odpowiedź „sposób mówienia", patrz A5.
+
 ## A6. Wzorzec: porządek daje stosunki, liczba daje skalę [A][O]
 
 | | stosunki | skala |
@@ -814,7 +871,7 @@ $b(d)=1-\log_2 J/n$, gdzie $J$ = liczba zbiorów przeszłych.
 
 **Status sekcji: sporny.** Teza B4 [H] unieważnia to rozdzielenie jako artefakt opisu.
 
-> **Wzmocnienie w v3.2.** To rozdzielenie **jest** podziałem konforemnym z §R4: „stosunki" to strona porządku (Weyl, konforemne, elektromagnetyzm), „skala" to strona liczności (Ricci, objętość, masa). A6 i R4 to jedno spostrzeżenie w dwóch miejscach.
+> **Wzmocnienie w v3.2.** To rozdzielenie **jest** podziałem konforemnym z R4: „stosunki" to strona porządku (Weyl, konforemne, elektromagnetyzm), „skala" to strona liczności (Ricci, objętość, masa). A6 i R4 to jedno spostrzeżenie w dwóch miejscach.
 
 ### A6a. Skończone zliczanie istnieje wyłącznie przy dyskretności [P]
 
@@ -830,7 +887,13 @@ Trzy rzeczy są jedną: **dyskretność, istnienie śladu, możliwość normaliz
 >
 > **Konforemne pole Killinga kieszeni, znikające w obu wierzchołkach — to jest przepływ modularny.** Konstrukcja Jacobsona (A11) jest teorią modularną zastosowaną do diamentu.
 
----
+## R4. Podział konforemny — dokąd co należy [A][L]
+
+Teoria zbiorów przyczynowych rozkłada metrykę na strukturę przyczynową i konforemny czynnik skalujący: **porządek niesie strukturę przyczynową, gęstość elementów koduje czynnik objętości** — to jest A1 (Sorkin, „Gravity from Order and Number”).
+- **Rodzina stożka** (Weyl, wolne pole): progi na strukturze przyczynowej. Elektromagnetyzm jest konforemnie niezmienniczy **dokładnie w d = 4** (ślad tensora energii-pędu znika tylko tam; cechowane p-tensory — w 2p + 2); dualność Hodge'a na 2-formach wyznacza metrykę konforemną — tylko w d = 4.
+- **Rodzina objętości** (Ricci, materia, masa): wielkości reagujące na czynnik objętości; masa łamie niezmienniczość konforemną, bo wprowadza skalę.
+- **Cztery niezależne dojścia:** rozbicie A1 na porządek i liczność; Maxwell konforemny wyłącznie w d = 4; „bezmasowe = brzeg między obszarami” (Minz, Gallego Torromé); dowód Jacobsona ścisły tylko dla pól konforemnych.
+- **Kryterium sortujące (A9c):** czy wielkość przeżywa odkształcenie konforemne przy ustalonym n.
 
 ## A7. Dekoherencja przy częściowym otoczeniu [P]
 
@@ -843,7 +906,54 @@ Trzy rzeczy są jedną: **dyskretność, istnienie śladu, możliwość normaliz
 
 > **Powiązanie v3.2 [L].** To jest otoczenie „superpozycja" z tabeli R3, a wielkością nazwaną jest tam **redundancja kwantowego darwinizmu** $R_\delta=1/f_\delta$, gdzie $f_\delta$ to rozmiar fragmentu niosącego wszystko poza δ informacji o stanach wskaźnikowych. A7 mierzy degradację; redundancja mierzy stosunek otoczenia do układu — i ma **wewnętrzne cięcie przez plateau**. To jest dokładnie ta wielkość, której C2 szukało.
 
----
+## R3. Stosunek otoczenia do Ø już ma nazwy [L]
+
+| człon | otoczenie | opisane przez | stosunek otoczenie : Ø | skąd cięcie |
+|---|---|---|---|---|
+| superpozycja | środowisko dekoherujące | kwantowy darwinizm (Zurek) | redundancja $R_\delta=1/f_\delta$ | **plateau** w informacji wzajemnej |
+| osobliwość | promieniowanie | reguła wysp / QES, krzywa Page'a | entropia promieniowania do entropii dziury | **czas Page'a** → po filtrze: **stosunek liczebności = 1** (zapis czytającego : relacje przez brzeg), nie chwila (A5d (b), poprawka 161) |
+| nieoznaczoność | pamięć kwantowa | entropowe relacje nieoznaczoności | człon warunkowy | niesprawdzone |
+| 2D / Planck | — | — | — | o skali Plancka nic nie można powiedzieć [543]; „redukcja wymiaru spektralnego do 2” (CDT, AS, zbiory przyczynowe) to literaturowe d = 1+1, nie 2D ≡ Ø (pułapka 5) |
+| foton, t=0 | stożek świetlny | — | — | niesprawdzone |
+| **chwila zero** | **nieznane** | **—** | **—** | **to jest niewiadoma** |
+
+1. **Wszystkie opisane stosunki są stosunkami entropii** (redundancja, krzywa Page'a, nasze $f=\log e(C)/(n\log n)$) — jedna rodzina wielkości.
+2. **Mają wewnętrzne cięcie:** redundancja jest zdefiniowana przez **plateau** informacji wzajemnej, nie przez k z ręki — cięcie daje kształt krzywej (odpowiedź na C1).
+3. **Chwila zero jest jedynym członem bez opisanego otoczenia:** kalibrować tam, gdzie znamy oba człony, odwracać tam, gdzie znamy tylko strukturę — jedna niewiadoma, nie osiem.
+
+## C1. „obok" / lokalność — ODPOWIEDŹ W LITERATURZE [L]
+
+**Nieskończona walencja jest twierdzeniem, nie artefaktem.** W nieskończonym zbiorze przyczynowym przybliżanym Minkowskim najbliższymi sąsiadami elementu są linki, a każdy element ma ich **nieskończenie wiele** — w przeszłość i w przyszłość. Graf ma nieskończoną walencję, w przeciwieństwie do innych typów dyskretności. **I to jest cecha niosąca treść niezmienniczości Lorentza**, bo z każdym zdarzeniem wiążą się niezwarte hiperbole niezmiennicze względem pchnięć. Nie jest to usterka do naprawienia.
+
+**Rozwiązanie nie jest cięciem, tylko odciskiem** (Glaser, Surya 2013). Bierze się dowolny interwał porządku $I[x,y]$, liczy profil liczebności interwałów $N_m$ i porównuje z analitycznym $\langle N^d_m\rangle$ w granicach $\pm\sqrt N$. Zgadza się → obszar jest lokalny. Istnienie obszarów lokalnych jest **warunkiem koniecznym rozmaitościowości**, a przy okazji daje nowy estymator wymiaru, dający wynik pusty dla zbiorów nierozmaitościowych.
+
+**Dodatkowo w literaturze:** Boguñá, Krioukov, „Measuring spatial distances in causal sets via causal overlaps", PRD 110 (2024); Eichhorn, Surya, Versteegen, „Induced spatial geometry from causal structure" (2019); Rideout, Wallden, „Spacelike distance from discrete causal order" (2009). **C1 ma nie jedną odpowiedź, tylko co najmniej trzy, z różnych lat.**
+
+> **POPRAWKA nr 17a (asystent, v3.2) — diagnoza w v3.1 umieszczała przeszkodę w złym miejscu.**
+>
+> v3.1: „okno K=60 to lokalność po etykiecie, a etykieta jest niefizyczna z założenia". **Wersja bezetykietowa ma dokładnie tę samą wadę.** Zmierzono: porządek wyznacza **ranking przestrzenny** (top-k po nakładaniu przeszłości jest selektywny i poprawia się z n we wszystkich d), ale **nie wyznacza otoczenia** — cięcie (k albo próg θ) jest zawsze z zewnątrz.
+>
+> **Przeszkodą nie jest etykieta, tylko brak wewnętrznego cięcia.** Usunięcie etykiet nie usuwa parametru.
+>
+> **A wewnętrzne cięcie istnieje w innym otoczeniu:** plateau redundancji w kwantowym darwinizmie (R3). Pożyczka idzie w obie strony — literatura zbiorów przyczynowych ma odpowiedź na lokalność, literatura informacji kwantowej ma odpowiedź na cięcie.
+>
+> Niesprawdzone: czy w widmie nakładania jest wewnętrzna przerwa dająca cięcie bez parametru.
+
+## C2. Miara otoczenia — ROZSTRZYGNIĘTE [L][P]
+
+**Gotowa odpowiedź, lepsza od naszej:**
+
+$$S^d_m=\lim_{\rho\to\infty}\frac{\langle N^d_m\rangle}{\langle N^d_0\rangle}=\frac{\Gamma(2/d+m)}{\Gamma(2/d)\,\Gamma(m+1)}$$
+
+W wiodącym rzędzie **nie zależy od N**. Bezwymiarowy, w zamkniętej postaci, niosący d, **bez parametru**.
+
+Skalowanie: $\langle N^d_m\rangle\sim N^{2-2/d}$ dla d>2 i $N\log N$ dla d=2.
+
+**Nasza własna próba, słabsza, ale warta zapisania [P]:** przy stałym otoczeniu (k=30 najbliższych po nakładaniu, czyli 31 elementów) relacje **wewnętrzne** są niezależne od n (139→134 dla d=2, 41→50 dla d=3, 20→16 dla d=4 przy n=200→1600), a relacje **przecinające** rosną liniowo z n (2582→24146 dla d=2). Po kryterium n-niezależności: **wewnętrzne są dopuszczalną miarą, przecinające nie.**
+
+**Rozwiązanie poprawki nr 4.** Trzy liczby z A8 nie są trzema miarami jednej rzeczy. **623 elementy to objętość. 10⁷⁷ par to relacje przecinające, czyli brzeg. 0,0102% pola to już bezwymiarowy ułamek.** Zarzut był słuszny, a powód jest strukturalny, nie niechlujstwo. „Elementy czy relacje" jest źle postawione, dopóki nie rozbije się relacji na wewnętrzne i przecinające.
+
+**Ułamek uporządkowania wewnątrz otoczenia** (n=1600): 0,31 / 0,11 / 0,039 dla d=2/3/4, wobec globalnych 0,50 / 0,229 / 0,100. Stabilny w n, słabo zależny od k (dryf 10–20% między k=10 a k=100). **Wolny od n, jeszcze nie wolny od cięcia.**
 
 ## A8. Chwila zero [H]
 
@@ -867,182 +977,361 @@ Domysł [H][?]: nasza chwila zero miała otoczenie **częściowe**, tak samo jak
 >
 > Pierwsza jest hipotezą o otoczeniu, czyli dokładnie tym, czego dotyczy C2.
 
+## R2. Retrospekcja [A]
+
+Chwila zero wydarzyła się raz, więc estymator dostaje jeden pomiar na jeden nieznany parametr — to granica metody, nie estymatora (B2: działa na rozkładach, nie na epizodach). **Wyjście:** późne zdarzenia Ø są tego samego typu, więc pierwsza chwila zero jest **najstarszym egzemplarzem rodziny**, nie jedynym. Dostęp nie prowadzi wstecz, tylko **na drugą stronę tej samej relacji, którą już zajmujemy**: dzisiejsze zdarzenie Ø ma częściowe otoczenie, a my **jesteśmy** tym otoczeniem. „Co było przed” → „**jaki jest stosunek otoczenia do zdarzenia Ø**” = C2 = warunek niezmienniczości wzrostu — jedno pytanie w trzech miejscach pliku.
+
+## B2. Retrospekcja
+
+**Działa na rozkładach, nie na epizodach.** [A] — **pełniejsza wersja w §R2, z rozmowy 3.**
+
+**Co się udało.** Reguła wzrostu odczytana wstecz: błąd 1,7–15,7%. Kolejność powstawania: korelacja 0,87–0,96 — **warunki: n=30, graf o wagach niesymetrycznych (ratio 0,3), rozkład Hodge'a, pięć losowań** (rozmowa 2).
+
+**Kontrola negatywna, którą trzeba trzymać razem z wynikiem:** sam wysoki udział gradientu (84%) NIE jest sygnaturą wzrostu — czysto losowa niesymetryczna macierz daje te same 83,6%.
+
+**Chwila zero nie ma wielokrotnego świadectwa.** Estymata k, q=0,005: k=1 → 1,26±0,63; k=3 → 3,42±1,06; k=10 → 10,47±1,90. Przy q=0,02 systematycznie zawyża. **Rozrzut przekracza odstęp między k=1 a k=3.** Nie z powodu słabego estymatora — więcej świadectwa nie ma.
+
+**Ślad k w całej strukturze** [P]: w₁ = **1,92**, w₂ = 1,26, w₀ = 0,67, L = 0,48, r = **0,01**. **Wygasa w trzech warstwach.** Obserwable globalne są zerowe — dlatego CMB nie może nieść k.
+
+**Droga otwarta.** Późne zdarzenia Ø są tego samego typu, więc dają wielokrotne świadectwo o tym, **jak wygląda chwila zero w ogóle**. Zastrzeżenie: pierwsza może nie należeć do rodziny.
+
+> **USUNIĘTE z v2 i nadal usunięte.** Zdanie „w d=4 struktura zapomina 77% własnej historii, stąd korelacja 0,87–0,96" — korelacja pochodzi z **innej struktury** (rozmowa 2, n=30, wagi niesymetryczne, rozkład Hodge'a). Zestawienie było **analogią zapisaną jako wynik**.
+
+## R5. Czego ta rama nie może dać — ograniczenia twarde [L]
+
+- **Dwa pierwotne ⇒ jeden wolny wykładnik.** W obszarze konforemnie płaskim porządek ma dokładnie jeden parametr; dziesięć wielkości z pięciu dróg dało za każdym razem d albo funkcję d — nie ma tam nic innego.
+- **Algebry lokalne KTP są czynnikami typu III:** brak rozkładu „wnętrze × zewnętrze”, macierzy gęstości obszaru i skończonej entropii splątania bez obcięcia; prawo powierzchniowe jest stwierdzeniem o regularyzacji. Intuicja „dwa węzły tworzą relację i ta relacja to przestrzeń” jest bliższa obrazowi modularnemu niż dwudzielnemu splątaniu — narzędziem jest teoria modularna.
+- **Skończony zbiór przyczynowy = typ I:** nie odtworzy typu III z konstrukcji; część własności przy skończonym n jest niedostępna z zasady, nie z braku mocy obliczeniowej.
+- **Usunięcie rozmaitości nie usuwa założenia:** porządek trzeba czymś wygenerować (sprinkling, wzrost sekwencyjny, KR — trzy różne założenia); założenie przenosi się z geometrii do reguły wzrostu.
+
 ---
 
-## A9. Niezmienniki zmierzone na rozsiewie (v3.2) — gałąź zamknięta
+# III. MASA I ZESPÓŁ FUNKCJI
 
-Cztery wielkości policzone w rozmowie 4, wszystkie na sprinklingu do diamentu. **Status (`STOP.md`; 178, 185, 186):** rozsiew jest pojemnikiem, a estymatory wymiaru na nim (A9d–A9f) mierzą liczbę osi pojemnika, nie wymiar ramy (3D ramy: R1b). Wyniki zostają jako zapis rachunków i kontroli narzędzia („Trafione przewidywania o narzędziu”); reguła z poprawki 16 (każdy parametr ustawiony ręcznie trzeba przeskanować) stoi w §E.
+## §F. Zmiana punktu widzenia: język informacji (v3.4)
 
-### A9a. f jest niezmiennikiem tylko porządków rozmaitościowych [P][A]
+**Ustalenie (użytkownik):** to **zmiana języka opisu, nie zmiana tematu**. Te same obiekty, te same otwarte pytania, inny sposób pytania. Powód: pojęcia ramy to zapis, odczyt, rozproszenie i dostępność — czyli pojęcia teorii informacji, a nie geometrii siatek.
 
-**Wartość.** Przy wyrównanym obciążeniu (SIS-20000, 3 losowania):
+**Przekład (nic z wyników nie znika, zmienia się etykieta):**
 
-| n | 80 | 160 | 320 |
-|---|---|---|---|
-| f, sprinkling d=4 | 0,642 | 0,659 | 0,654 |
-| f, Kleitman–Rothschild | 0,563 | 0,610 | 0,650 |
-
-Sprinkling jest **płaski w n**. KR **pełznie i nie ma wartości granicznej**.
-
-Ostrzej, bez pośrednictwa $d_{MM}$: sprinkling o ułamku uporządkowania 0,377 (tyle co KR) ma f≈0,455; KR ma 0,645. **Przy identycznej liczbie par uporządkowanych KR zapomina o 43% więcej.** Para (ułamek, f) rozdziela to, czego sam ułamek nie rozdziela.
-
-**Kontrola wypisana przed rachunkiem i NIEPRZESZŁA (ważne):** asystent przewidział, że KR ma „prawie wszystkie pary przestrzenne", więc f > 0,76. To było **złe na kartce**: KR ma ułamek uporządkowania **3/8 = 0,375**, czyli jest bardziej uporządkowany niż sprinkling d=3 i d=4. Poprawiona kontrola przed rachunkiem: jeśli KR leży na krzywej sprinklingowej, $(1-f)d$ ma wyjść 1,24–1,28. **Wyszło 0,841. Nie leży.**
-
-**Co by obaliło.** f(KR) zbieżne do wartości granicznej przy większym n; albo KR lądujący na krzywej sprinklingowej.
-
-**Konsekwencja dla ramy:** transport między otoczeniami wymaga nie wspólnej miary otoczenia, lecz **wspólnej niezależności od n**. KR nie odpada dlatego, że ma inną liczbę — odpada dlatego, że **nie ma liczby**.
-
-> **POPRAWKA nr 15 (asystent, v3.2, po sprawdzeniu literatury) — perkolacja.** dotyczy zdania z **roboczej wersji v3.2**, które do pliku nie weszło: „rozdzielenie jest stopniowalne, nie binarne — perkolacja p=0,02 siedzi blisko krzywej". Zachowane jako ostrzeżenie: **to był znany fałszywy alarm, nie stopniowalność.**
->
-> Glaser i Surya wzięli dokładnie te parametry perkolacji, dla których Ahmed i Rideout twierdzili rozmaitościowość (Myrheim–Meyer d≈3 albo 4), i stwierdzili, że **nie przechodzą testu liczebności interwałów** dla żadnego d. Wskaźniki makroskopowe mówią „rozmaitościowa", mikroskopowy mówi „nie".
->
-> $(1-f)\cdot d$ jest wskaźnikiem **makroskopowym** i dzieli tę słabość. Potwierdzone własnym rachunkiem: perkolacja ma maksimum $N_m$ przy **m=2–3**, nie przy m=0. Płasko nierozmaitościowa, bez gradacji.
-
-### A9b. Walidacja generatorów wobec opublikowanych sygnatur [P][L]
-
-| struktura | $N_0$ | $N_{1..6}$ | maksimum |
-|---|---|---|---|
-| sprinkling d=2, d=4 | duże | malejące | **m=0** |
-| Kleitman–Rothschild, n=1000 | 124 821 | **0** | m=0, ale bez interwałów |
-| perkolacja p=0,005…0,03 | — | — | **m=2–3** |
-
-Zgadza się z opisem Glasera i Suryi: KR ma dużo linków, ale prawie żadnych interwałów dwu- i trzyelementowych; perkolacja ma maksimum przy m>0 w przeciwieństwie do płaskiej czasoprzestrzeni. Zmierzone $N_m/N_0$ leżą **poniżej** granicy asymptotycznej i zbliżają się powoli — zgodnie z ich uwagą, że zbieżność jest wielomianowa i granicy nie da się sprawdzić numerycznie.
-
-**Kontrola przeszła: generatory odtwarzają cudze wyniki.**
-
-### A9c. Podział konforemny — zmierzony [P][A]
-
-**Odkształcenie konforemne** = zmiana gęstości sprinklingu przy ustalonym n i niezmienionych stożkach. Parametr λ, waga $1+\lambda h$; $h$ promieniowe (parzyste względem $t\to1-t$) w teście, czasowe (nieparzyste) w kontroli.
-
-**Kontrola.** Dla odkształcenia nieparzystego $\log e(\lambda)=\log e(-\lambda)$ **dokładnie**, bo $e(P^*)=e(P)$. Współczynnik liniowy musi być zerem. Zmierzono **−0,13 ± 2,5**. ✔
-
-**Wynik 1 — rodzina objętości.** Dla odkształcenia parzystego współczynnik liniowy $\log e(C)$ wynosi **+44,20 ± 2,5**, czyli **18σ**. $\log e(C)$ reaguje na czynnik konforemny.
-
-**Wynik 2 — rodzina stożka.** Próg $k^*$ (A9d) pod tym samym odkształceniem:
-
-| d | λ | k=1 | k=2 | k=3 | k=4 |
-|---|---|---|---|---|---|
-| 2 | −0,9 / 0 / +0,9 | +0,291 / +0,292 / +0,143 | **−0,057 / −0,009 / +0,009** | | |
-| 3 | −0,9 / 0 / +0,9 | +0,531 / +0,515 / +0,497 | +0,205 / +0,170 / +0,186 | **−0,072 / −0,114 / +0,033** | |
-| 4 | −0,9 / 0 / +0,9 | +0,641 / +0,676 / +0,661 | +0,399 / +0,389 / +0,462 | +0,059 / +0,063 / +0,118 | **−0,049 / +0,003 / +0,048** |
-
-**Próg stoi na d przy każdym λ.** Wartości $|klasa|$ przy k=1 zmieniają się między skrajnymi λ 2,68× (d=2), 1,70× (d=3), 1,60× (d=4) — **wartości płyną, próg nie**.
-
-**To jest kryterium sortujące z §R4, zmierzone po obu stronach.** Jedna wielkość reaguje 18σ tam, gdzie druga nie drga.
-
-**Czego to NIE pokazuje.** Odkształcenie gęstości jest z konstrukcji konforemnie płaskie. Wynik mówi, że $k^*$ **ignoruje czynnik konforemny** — nie mówi, że widzi cokolwiek poza d.
-
-### A9d. $k^*=d$ — próg zamiast wykładnika [P][A]
-
-**Konstrukcja.** Obserwator = łańcuch („linia świata"). Sygnatura elementu x względem łańcucha = liczba jego elementów w przeszłości x (pozycja cięcia). To jest dyskretna wersja **współrzędnych emisyjnych**: cztery przyszłe stożki świetlne przecinają się generycznie w jednym zdarzeniu, i tak działa relatywistyczny system pozycyjny. Trzy tory wyznaczają zdarzenie z dokładnością do jednoparametrowej rodziny.
-
-**Wartość.** Wykładnik wzrostu $|klasa|\sim n^\beta$ wyłącza się dokładnie przy k=d: dwa tory w d=2, trzy w d=3, cztery w d=4 (tablica w A9c).
-
-**Kontrole.** Antyłańcuch → zero informacji przy każdym rozmiarze fragmentu. Łańcuch (d=1) → γ = 0,980 wobec 1/d = 1. Kleitman–Rothschild → $m^*$ idzie 19→29 przy szesnastokrotnym wzroście n, czyli $\sim\log n$, a nie $n^{1/d}$ — **trzecia niezależna obserwabla dająca ten sam podział rozmaitościowe / nierozmaitościowe**.
-
-**Dlaczego to jedyny estymator trafiający w d=4.** Cztery policzone w tej sesji:
-
-| estymator | odczyt przy d=4 |
+| dotąd (geometria) | od teraz (informacja) |
 |---|---|
-| Myrheim–Meyer | 4,10 |
-| β (wyostrzanie rankingu, A9e) | −0,313 → d≈3,2 |
-| γ (kolano nieodróżnialności, A9e) | 0,345 → d≈2,9 |
-| **$k^*$ (tory)** | **4, dokładnie** |
+| wymiar sieci odczytów | ile kroków kosztuje dotarcie informacji do odległego miejsca |
+| krzywizna | czy ten koszt rośnie liniowo z odległością, czy wykładniczo |
+| płaskość | liniowy koszt odczytu na dużych skalach |
+| hiperboliczność | struktura, w której skróty są tańsze niż droga wprost |
+| horyzont | brzeg odczytywalności: zapis zawarty, ale niedostępny |
+| pustynia | zakres skal, na których koszt zmienia charakter |
 
-Tamte trzy **dopasowują wykładnik**, ten odczytuje **przejście**. Przejście jest liczbą całkowitą i nie da się go przesunąć o kilkanaście procent.
+Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwiastek trzeciego stopnia z liczby dostępnych miejsc; „ujemna krzywizna R6” = w tej strukturze istnieją skróty.
 
-> **POPRAWKA nr 16 (asystent, v3.2) — L nie jest parametrem wolnym, ale związanie samego skalowania nie wystarcza.**
->
-> Pierwsza wersja rachunku dawała L (liczbę elementów na tor) z ręki. Przy L=60 **dwa tory wystarczały w każdym wymiarze** — ale to było czyste przegródkowanie: 61² komórek na 121 kandydatów. **Linia świata w zbiorze przyczynowym jest zrobiona z elementów tego samego zbioru, więc nie może być próbkowana gęściej niż skala dyskretności:** $L\sim n^{1/d}$.
->
-> Po związaniu skalowania test zaczął mierzyć geometrię. **Ale stała przy L została na 1 i nie była sprawdzana** — i to ona niosła wynik w rachunku fali pp (§D). Poprawka przeniosła błąd o piętro: skalowanie dobre, przedczynnik wolny.
->
-> **Reguła: związać skalowanie to za mało. Każdy parametr, który sam sobie ustawiłeś, trzeba przeskanować.**
+**Kandydaci na narzędzia (ocena asystenta):**
+- **odzyskiwalność informacji** (kwantowa korekcja błędów jako formalizm, nie jako model grawitacji): „zawarte, ale nieodczytywalne” jako **wielkość liczbowa**; jeden język dla H.M., 200 klocków i horyzontu. **Najbliżej ramy.**
+- **złożoność / kompresowalność opisu:** „ile kosztuje odtworzenie stanu z zapisu” — dosłownie przykład z klockami (mózg przegrywa, bo opis przekracza pojemność; aparat wygrywa). Zastrzeżenie: w ogólności nieobliczalna, pracuje się na przybliżeniach.
+- **redundancja Zurka jako narzędzie** (nie cytat): plateau = ilu niezależnych świadków ma ten sam zapis. **Najtańsze — kod już mamy (C4a).**
+- **termodynamika informacji** (Landauer, Bennett): kasowanie kosztuje, odczyt nie — jedyne miejsce, gdzie zapis i odczyt mają jednostki; może być potrzebne przy masie.
+- Z czwórki użytkownika: **nawigowalność sieci** (Boguñá–Krioukov) — tania, liczona na gotowych strukturach, mierzy, czy odczyt lokalny wystarcza do dotarcia; **kod HaPPY** — naturalny dom dla „zawarte vs odczytywalne”, ale wymaga stanów kwantowych; **sieci tensorowe (MERA)** — dodatkowy wymiar = skala, struktura hiperboliczna: możliwe rozpoznanie rodziny, w której wylądował R6; **Wolfram** — nasze reguły to przepisywanie hipergrafów, wartość głównie katalogowa.
 
-**Trzy fikołki w tym rachunku, wszystkie własne:** (1) nadajniki na stałym promieniu w losowych kierunkach — w d=2 kierunki są dwa, więc się nakładały i k=1,2,3 dały identyczny wynik; poprawione na wierzchołki sympleksu; (2) tory pokrywały tylko środek obszaru, więc elementy spoza zasięgu miały jednakową zdegenerowaną sygnaturę i dominowały średnią geometryczną; poprawione przez ograniczenie do odbierających z każdego toru; (3) L jako parametr wolny, wyżej.
+**Zastrzeżenie (asystent):** te języki mierzą **dostępność zapisu**; żaden sam z siebie nie powie, skąd bierze się przestrzeń. Pytanie „dlaczego przestrzeń jest prawie płaska” brzmi w nich „dlaczego koszt odczytu rośnie liniowo, a nie wykładniczo” — to samo pytanie, nadal otwarte.
 
-### A9e. β i γ — ta sama liczba czytana dwa razy [P][A]
+## §F1. MASA — zespół funkcji [94]
 
-**β** = wykładnik wyostrzania rankingu przestrzennego: dla k najbardziej nakładających się nieporównywalnych partnerów selektywność (średnie $|\Delta x|$ w N podzielone przez średnie po wszystkich nieporównywalnych) poprawia się jak $n^\beta$. **Niezależny od k**: rozrzut po k rozciągniętym dziesięciokrotnie (3→30) wynosi 0,002–0,011.
+> **HIPOTEZA NADRZĘDNA [H] (użytkownik, 25.09; poprawka 136):** „To będzie układ samopodobny, aż do całego wszechświata. Masa nie może być oddzielnym, ostatnim etapem, do którego można dojść krok po kroku. Żaden krok tam nie zaprowadzi. To musi być ustalone wszystko na raz.”
+> - **W ramie już jest [O]:** hierarchia węzłów [402, 404] — całość (Wheeler–DeWitt) zawiera mniejsze węzły, a regres zatrzymuje się w nieoznaczoności skali Plancka (2D ≡ Ø); „mechanizm ogólny na każdej skali” [402, 404]; „wszystko naraz” [392, 402]; R1d: masa = jednostronna relacja nośnika z tłem wszędzie tym samym = relacja węzła z całością.
+> - **Samopodobieństwo prawa (L) i logarytm [L][T]:** brak wyróżnionej skali ma jedyną niezmienniczą miarę du/u, więc tam, gdzie prawo nie wyróżnia skali, wielkości biegną logarytmicznie — logarytmy typu S (146; tabela niżej): ln n (§F2, ∫du/u), T/V ∝ ln W (etap18), ln(n₀/n) biegnących sprzężeń (R1d), 1/α ∝ ln(N_Λ/N) (A2). **To jest (L), nie hipoteza [104]:** [104] czytana jest jako hierarchia węzłów, a (L) i (S) to dwa inne znaczenia słowa „samopodobny” (pułapka 12). (L) zespołu łamie się na progach mas (225); położenie bieguna `n_Λ` niczego nie łamie.
+> - **Konsekwencja dla planu (poprawiona, 151):** masa nie jest krokiem po czasie/3D/świetle, tylko ustala się razem z nimi. **Celem jest sam zespół funkcji** [94] — funkcje biegu bezwymiarowych stosunków (β dla sprzężeń, γ dla mas) od logarytmu stosunku skal (liczebności), dwóch typów (relacja / relacja relacji), **samopodobny i ustalany naraz** [104]. **Liczby (1/137, y_e, …) to wartości funkcji w jednym stanie** [88] — odczyty, nie cel; „same wyskoczą po drodze”.
+> - **Przekształcenia są już w pliku [H][L]:** użytkownik [86] → A2 (ładunki z N_c i anomalii, hiperładunki, współczynnik beta (−1)^{2s}(4s² − ⅓), 1/α jako ln(N_Λ/N) z nachyleniem ΣN_cQ² = 8); R1d (biegnące sprzężenia w liczebności obiegu, transmutacja); R1e/145 (pochodzenie ⅓, liczba polaryzacji). **Jawnie brak tylko biegu mas** [L][O]: m(μ₁)/m(μ₂) = [α_s(μ₁)/α_s(μ₂)]^{γ₀/(2b₀)}, wykładnik 12/(33 − 2n_f) (γ₀ = 8 z koloru, b₀ = 11 − ⅔n_f) — **stosunek mas = stosunek sprzężeń do potęgi stosunku współczynników** = dosłownie „stosunek dwóch stosunków do stosunku” [94]; wszystkie wejścia z listy 147. Dla elektronu (QED) wykładnik innego znaku i typu (relacja zamiast relacji relacji) — „kwarki i elektrony nie pozwolą na jedną funkcję”. Kwark odczytywalny tylko jako m_b(m_b) — „stosunek odniesiony do stosunku” [95].
+> - **Zdanie do upadku (poprawka 139; pierwsza wersja była pusta — każdą liczbę da się zapisać jako exp(ln x)):** wykładniki muszą pochodzić **wyłącznie z policzonych współczynników** (b₀, 2π, ΣN_cQ², (−1)^{2s}[(2s)² − ⅓], liczebności porządku) — **lista dozwolonych wejść zapisana przed rachunkiem, bez żadnej stałej dopasowywanej**. Upada, gdy dla którejś skali takiego zapisu nie ma.
+> - **Precedens i ostrzeżenie [L][H]:** bootstrap konforemny (wykładniki z samej spójności, bez kroków). Ostrzeżenie: numerologia Diraca i Eddingtona — przykład pułapki: **ln(R_H/l_P) = 140,3** (H₀ = 67,4) wobec 1/α ≈ 137. Literatura do §F1: **Meissner–Nicolai, Phys. Lett. B 648, 312 (2007)** — klasycznie konforemny Model Standardowy, skale z łamania radiacyjnego (logarytmy).
+> - **Masa, środek, kula — jeden warunek [L][T] (Wigner 1939):** cząstka masywna ma układ spoczynkowy i grupę SO(3) wokół środka; bezmasowa ma E(2) i nie ma układu spoczynkowego. W ramie: masa ⇔ środek μ i własna oś czasu ⇔ kula 3D wokół środka (R1b) ⇔ wnętrze stożka (R1c); bez masy tylko brzeg (światło). „Kula = suma wszystkich odczytów w relacji do środka” [H].
+> - **Sfera fotonowa = samoodczyt przez pętlę światła [H][O]:** na r = 1,5 r_s światło krąży po okręgu — patrząc poziomo widzi się tył własnej głowy: przeszłość jako zapis czytany teraz, tym razem zapis siebie. Jedno okrążenie 3π r_s/c = wartości z A5b (9,3·10⁻⁵ s Słońce, 399 s Sgr A*, 7,0 d M87*) — **na zegarze dalekiego czytającego; na własnym zegarze stojącego na sferze × √(1/3): 5,4·10⁻⁵ s, 231 s, 4,0 d.** „Ile temu” należy do relacji z czytającym (R1d: energia = częstość odczytu względem czytającego).
+> - **TABELA LOGARYTMÓW (poprawka 146) [A][O].** Dwa typy (oba = „koszt wskazania” z §F2, ale tylko S należy do §F1):
+  - **typ S (skala, ∫du/u)** — wskazanie jednej skali spośród rozłożonych samopodobnie = ślad samopodobieństwa;
+  - **typ K (kombinatoryka, ln liczby możliwości)** — wskazanie jednej spośród równoprawnych (ln n!); **samopodobieństwa tu nie ma**.
 
-**γ** = wykładnik położenia kolana krzywej nieodróżnialności: $m^*\sim n^\gamma$, gdzie $m^*$ to rozmiar fragmentu, przy którym $|klasa|$ siada na 1.
-
-| d | β | γ | suma | −1/d, +1/d |
+| logarytm | typ | po czym biegnie | współczynnik | status |
 |---|---|---|---|---|
-| 2 | −0,506 | +0,509 | +0,003 | ∓0,500 |
-| 3 | −0,374 | +0,359 | −0,015 | ∓0,333 |
-| 4 | −0,313 | +0,345 | +0,032 | ∓0,250 |
+| koszt wskazania ramy ln n (etap10–11, §F2) | S | tyknięcie / odstęp rozsiewu, n ∝ ρ/m⁴ | 1, policzony [T][P] (także na rozsiewie 3+1) | **pojemnik** (rozsiew, 178, 186): n niesie gęstość, a „masa pod logarytmem” to m·ℓ — piksel (194) |
+| ln N z §F2 (linki, ściany, D) | S | zakres pchnięć, ln N = 2 ln(ℓ/t_P) | 1 i ⟨α²⟩ = 0,834 policzone; 0,57 zmierzone | tylko 1+1; w 3+1 potęga (przegląd wymiarowy, część V); **pojemnik** (rozsiew, 178) |
+| biegnące sprzężenia ln(n₀/n) (R1d) | S | obieg odczytu | b/2π z listy wejść [L] | przełożone |
+| 1/α ∝ ln(N_Λ/N) (A2) | S | jw. | ΣN_cQ² = 8 policzone | [P]; N ~ L^d wkłada pojemnik — czytać jako stosunek obiegów, jak ln(n₀/n) (178) |
+| transmutacja n_Λ = n·e^{2π/(b₀α_s)} (R1d) | S | jw. | 2π, b₀ | [L]; **wymaga wartości brzegowej α_s** |
+| Λ ~ N^{−1/2} („everpresent Λ”, Sorkin) | S/K | liczebność całości | **½ z Poissona, policzone** [L] | postać dokładnie taka, jakiej żąda poprawka 139; CMB ogranicza amplitudę fluktuacji (Dalej otwarte) |
+| log e(C), D = log n! − log e(C) (A4, A11) | K | uporządkowania | f(d) zmierzone | nie samopodobieństwo |
+| nadwyżka sprzężenia log C(n, n_A), koszt relacji −log Pr (A11) | K | przeploty | policzone | jw. |
+| entropia SJ (1/6)·ln N (C4a.16) | — | liczba modów po cięciu | — | **artefakt procedury cięcia** (poprawka 51); pojemnik (178) |
+| entropia względna stanu koherentnego wobec SJ, a + b·log₂N (etap26b) | ? | liczebność N | b(πR/σ) = 0,06–0,64 na podwojenie, zmierzone | **nie od obcięcia modów** (poprawka 170); **pojemnik** — czytający O = wszystko (174, 178) |
+| T/V ∝ ln W (etap18) | ? | — | zmierzone | **z migawki sztywnej wykluczonej filtrem** (zero absolutne); tylko z tą adnotacją; pojemnik (178) |
+| ln(R_H/l_P) = 140,3 | — | — | — | pułapka numerologii |
 
-$\beta+\gamma\approx0$. Dwie obserwable, dwie różne metody, osobne przebiegi — obie mierzą skalę dyskretności $n^{-1/d}$ i obie odchylają się od $1/d$ tak samo przy rosnącym d. **Artefakt jednego estymatora nie powtórzyłby się w drugim.** To wzmacnia diagnozę skończonego rozmiaru, a nie wynik.
+- **LISTA DOZWOLONYCH WEJŚĆ (poprawka 147; zapisana przed jakimkolwiek rachunkiem):**
+  - **wolno:** d = 3 (R1b); 2π (obieg fazy); (−1)^{2s}, (2s_z)², ⅓ na stan, liczba polaryzacji d − 1 (R1e); N_c, n_f, ΣN_cQ², liczba pokoleń 3; współczynniki strukturalne policzone w dokumencie: 1 (koszt wskazania ramy), ½ (Poisson), ∫f(w)dw konfiguracji;
+  - **nie wolno:** wartości zmierzone (α(m_Z), y_e, v); współczynniki tylko zmierzone (f(d), 0,57), dopóki nie zostaną policzone.
+  - **Zdanie do upadku (doprecyzowane):** dla każdej skali **jedna** kombinacja wejść, zapisana przed rachunkiem; przeszukiwanie kombinacji = numerologia (Eddington). Upada, gdy któraś skala wymaga wejścia spoza listy.
+  - **Wartości brzegowe [O]:** biegnące sprzężenia potrzebują wartości w jednym (dowolnym) punkcie odniesienia (153); celem jest zespół funkcji, nie te wartości [88] (151). Skąd miałyby pochodzić: Ø-miejsca nie dają warunków (224), całość ich nie ustala (150), a skala Plancka ≡ 2D ≡ Ø nie jest punktem na osi biegu, w którym można by je postawić.
 
-**Co by obaliło.** β zależne od k. Albo $\beta+\gamma$ istotnie różne od zera.
+- **STAN ZESPOŁU — zestawienie po 166 (poprawka 167) [O].** Tabela z końca sesji 3 (zapis sesji 3, [91]; wtedy niewpisana), sprawdzona wobec pliku i uzupełniona o 166, 168, 169 i 170. Mapa, nie treść — treść w poprawkach podanych w nawiasach.
 
-**Status prawa $\beta=-1/d$:** trafia w d=2 (−0,506 wobec −0,500), chybia o 12% przy d=3 i 25% przy d=4. Diagnoza: przy n=1600 w d=4 przez diament mieści się $n^{1/4}=6{,}3$ długości dyskretności, a przy d=2 mieści się 40.
-
-> **POPRAWKA nr 18 (asystent, v3.2) — d=2 nie nadaje się na przypadek walidujący.**
->
-> Przez dwie sesje d=2 było traktowane jako wzorcowe, bo tam prawa trafiały. Tłumaczono to statystyką. To było prawdziwe, ale niepełne: **d=2 jest zdegenerowane strukturalnie w co najmniej trzech opublikowanych sensach naraz.**
->
-> 1. Wymiar porządkowy równa się wymiarowi Minkowskiego **tylko** przy d=2 (Meyer 1993).
-> 2. Automorfizmy przyczynowe są tam odwzorowaniami konforemnymi; dla $n\ge3$ twierdzenie Zeemana czyni je sztywnymi.
-> 3. U Glasera–Suryi $S^2_m=1$ niezależnie od m — ich odcisk degeneruje się akurat w d=2.
->
-> **Każde prawo postaci $a+b/d$ albo $a+bd$ przechodzące przez d=2 i chybiające przy d=4 trzeba czytać ostrożniej**: może trafiać w d=2 z powodu degeneracji, a nie z powodu prawa. Dotyczy to $\beta=-1/d$ i $\gamma=+1/d$ wprost.
-
-### A9f. Obserwatorzy wybrani z samego porządku [P][A] — bez współrzędnych
-
-Pierwszy rachunek w projekcie, w którym **nie ma ani jednej współrzędnej**: łańcuchy wybrane z porządku (najdłuższe ścieżki), sygnatura z porządku, klasy z porządku.
-
-Ilorazy kolejnych k — o ile każdy następny obserwator poprawia rozdzielczość, n=4000:
-
-| struktura | 1→2 | 2→3 | 3→4 | 4→5 | 5→6 |
-|---|---|---|---|---|---|
-| sprinkling d=2 | 1,76 | 1,26 | 1,08 | 1,02 | **1,01** |
-| sprinkling d=3 | 6,34 | 2,41 | 1,48 | 1,27 | **1,12** |
-| sprinkling d=4 | 3,82 | 2,93 | 2,05 | 1,52 | **1,35** |
-| **Kleitman–Rothschild** | 2,12 | 1,94 | 1,83 | 1,77 | **1,72** |
-
-Sprinklingi **nasycają się**. KR **nie nasyca się nigdy** — każdy następny obserwator płaci tyle samo.
-
-**Znaczenie [O].** Struktura, która się nasyca, ma coś, co można wyczerpać — i to „coś" nazywa się potem wymiarem. Struktura, która się nie nasyca, tego nie ma. **Zakres:** na rozsiewie tym „czymś” jest liczba osi pojemnika, w który wsypano punkty — czyli założenie, nie wynik (178, 185).
-
-**Czego to NIE pokazuje.** Rozstawienie obserwatorów z porządku wyszło **gorsze** niż ręczne: przy d=4 i k=4 zostaje $|klasa|\approx23$, podczas gdy sympleks we współrzędnych daje ~3. Dwa kryteria wyboru („najdłuższy łańcuch", „zasiew z antyłańcucha") są obie gorsze od ręcznego. **Pytanie, czy trzy dobrze wybrane tory dorównują czterem ustawionym ręcznie, pozostaje otwarte** — i jest to brak metody wyboru, nie wynik.
-
----
-
-## A10. Entropia kieszeni — stan SJ [P][L] — NOWA SEKCJA
-
-**Stan Sorkina–Johnstona jest próżnią wyprowadzoną z samego porządku.** Nie wkłada się go: bierze się retardowaną funkcję Greena (w d=2 dla pola bezmasowego $K_R=\tfrac12 C$, gdzie C to macierz przyczynowa), stąd $i\Delta=i(K_R-K_R^{\mathsf T})$, hermitowską, i stan jako **dodatnią część jej widma**. Jest kowariantnie i jednoznacznie określony w każdej czasoprzestrzeni globalnie hiperbolicznej.
-
-To jest **punkt 5 z tabeli R3 — próżnia jako porządek referencyjny — policzony.**
-
-**Kontrole, które przeszły.** $i\Delta$ hermitowska dokładnie. Widmo symetryczne względem zera (197/197 przy n=400). Warunek SJ $W-\bar W=i\Delta$ do $10^{-14}$. W dodatnio półokreślona. **Niezmienniczość względem odwrócenia czasu: różnica dokładnie zero.**
-
-**Kontrola nieplanowana, która przeszła.** Widmo uogólnionego zagadnienia $Wv=i\lambda\Delta v$ chodzi **parami $\lambda$ i $1-\lambda$** (−15,2507 z +16,2507; −7,3948 z +8,3948; …), żadna nie wpada do (0,1). Dzięki temu $\sum\lambda\ln|\lambda|$ zwija się do standardowej entropii gaussowskiej $\sum_{\lambda>1}[\lambda\ln\lambda-(\lambda-1)\ln(\lambda-1)]$. Parowanie **przeżywa obcięcie dokładnie** (błąd $10^{-15}$), więc wzór jest poprawny także w wersji obciętej.
-
-**Te $\lambda$ są widmem modularnym** — czyli „hierarchią korelacji" z punktu 4 listy otoczeń.
-
-**Wartość.** Skalowanie z N dla poddiamentu: wykładnik **+1,057**. **Prawo objętościowe.**
-
-> **To jest znany wynik, nie usterka implementacji [L].** Entropia na zbiorze przyczynowym daje prawo objętościowe zamiast powierzchniowego; do odzyskania powierzchniowego potrzebne jest obcięcie widma.
->
-> **I ma opublikowaną diagnozę, znalezioną w v3.2:** stan SJ **nie jest hadamardowski na brzegu kieszeni** (praca z 2024 o własności hadamardowskiej w czterowymiarowym diamencie), a osobliwe cechy entropii splątania w teorii zbiorów przyczynowych są tam badane **jako możliwy skutek niehadamardowości**. Poprawką jest **zmiękczony stan SJ**.
-
-**Trzy próby obcięcia, wszystkie nieudane [P]:**
-
-| schemat | wynik |
+| co | stan |
 |---|---|
-| ułamek modów globalnych | wykładnik 1,057 → 0,948 → 1,078, potem entropia zapada do zera |
-| ułamek modów podobszaru | 1,07 → 0,65, nigdy 0 |
-| stała liczba modów | S maleje z N **i z rozmiarem obszaru** (−1,08 względem $\log a$) — niefizyczne |
+| **funkcje** (policzone, bez dopasowania) | 3 sprzężenia: b = 41/6, −19/6, −7 (152); 9 Yukaw fermionów naładowanych **tylko jako stosunki** — odczyt B (166), wykładniki wymierne; wewnątrz typu biegnie tylko 3. pokolenie przez y_t, e : μ : τ stoją (153); λ: 24λ² + część bez λ = supertrace (155 D); CKM i θ_QCD jednopętlowo praktycznie nie biegną (153) |
+| **wyprowadzenie współczynników** | z elementów ramy: (−1)^{2s} = znak 2π, (2s_z)² (R1e); −⅓ = obiegi dyskretne wobec miary („sztuki czy miara”); d = 3 (logarytm, 3 polaryzacje; [?] 3 w γ_m); c (εμ = 1); ładunki z anomalii i N_c (155). **Niewyprowadzone:** grupa cechowania i liczba pokoleń (warunkowo 156–158); człon 3/2(Y_u†Y_u − Y_d†Y_d) (cytowany, 155 C) |
+| **pojęcia** | wszystkie pojęcia zespołu mają definicje w ramie (R1f-4); kolor i Casimiry warunkowo (156–157) |
+| **odczyty** | 19 = 3 sprzężenia + 9 mas (w zespole: Yukawy — odczyt B, 166) + 4 CKM + 2 Higgs (λ, μ²) + θ_QCD; N równań → N wartości w jednym (dowolnym) punkcie odniesienia = spójność [88] z matematyką, nie odkrycie (153, 165) |
+| **warunki ramy na λ** | λ = 0 i β_λ = 0 tam, gdzie nic nie jest odróżnialne (Ø z Ø nie jest relacją; sąsiedztwo nierozróżnialne) — 154. **Czy ustalają jakiś odczyt — otwarte:** przeniesienie na m_H, m_t wymaga skali Plancka jako miejsca na osi biegu (`ln(m_P/v)`), a ta położenia nie ma. [L] natura przy granicy stabilności (dokładna krytyczność: m_H = 129,4 ± 1,8 GeV wobec 125). Porządek nie daje temu odpowiednika ani liczby (168) |
+| **ustalone strukturą, nietrafione** | R\* = 2/9 (Pendleton–Ross; w naturze R(m_t) ≈ 0,65) i quasi-punkt Hilla (≈ 203 GeV wobec 173) — wykładnik 1/b₃ = −1/7 mały wobec pustyni (165) |
+| **warunki konieczne, nie wartości** | dwa, różnego rodzaju: **samorelacje** (208 — tylko λ ustalona) i **wspólna realizowalność zapisów** `𝒢 ≥ 0` z `𝒢′(s*) = 0` na granicy (212). Żaden nie wybiera wartości; oba wycinają rodziny. Logarytm jako argument jest **wyprowadzony** (212), stosunki mają rząd `n−1`, a same tożsamości porównań **nie** wymuszają relacji potęgowej z 152 (kontrprzykład w 212) |
+| **przejście A ↔ B** | **rodzaj policzony, wartość nie (214):** `ln R_A = ln R_B − (3α/2π)ln R_B − Δ^W`; wkład EM = `α` razy logarytm stosunku, stała i `ln q` skracają się, `Δ^W` jest jawną całką z tego samego działania (nie nowym sprzężeniem), a jej zależność od `Q` znosi się z różnicą beta-funkcji Yukaw. Po 208: **relacja, nie wielkość — wolne od cięcia.** Zakaz: `R_B` sam nie wystarcza za argument (`y → a·y` zachowuje `R_B`, zmienia progi) |
+| **nieustalone — rama nie daje warunku** | e : μ : τ — 0 warunków na 2 stosunki (166); empirycznie Q = 2/3 i δ = 2/9, tylko na odczycie A, niewyprowadzone; hierarchia pokoleń — zespół ślepy, niosą ją wyłącznie odczyty jednostronnej relacji z tłem (154 pkt 2); stałe z całości: Ĥ\|Ψ⟩ = 0 ich nie ustala (150); warunek Veltmana nie jest warunkiem ramy (168) |
+| **otwarte** | czy unormowanie Yukaw (`v/m_P`, skala całości) jest odczytem (208); czy warunki na λ ustalają odczyt (154); CKM; θ_QCD; y_e (skala relacji z tłem); grupa i 3 pokolenia warunkowo (156–158); bieg λ na porządku — niepoliczony, nie podjęty (168) |
+| **zastrzeżenia** | jedna pętla; progi mas zmieniają n_f; brak neutrin; G i Λ poza zespołem (152) |
 
-**Diagnoza [P].** Przy n=262144 entropia w funkcji liczby zachowanych modów jest **liniowa w k**: 0,089 na mod przy k=8 i 0,081 przy k=48. Każdy zachowany mod wnosi tyle samo. Stąd **żadne obcięcie liczące mody nie może dać prawa powierzchniowego**: przy liczbie modów skalującej się z obszarem wychodzi objętość, a przy stałej — entropia nie rośnie z obszarem. Opublikowana recepta musi wybierać mody przez porównanie z widmem kontinuum, a nie przez ich liczbę.
+- **ZESPÓŁ FUNKCJI [94] — wypisany (poprawka 152) [L][P][O].** Jedna pętla, zakres bez skal pośrednich (pustynia [545]); współczynniki sprawdzone rachunkiem na ułamkach z ładunków A2 (N_c = 3, 3 pokolenia). Zmienna: **t = ln(n₀/n)** — logarytm stosunku liczebności obiegu (R1d); znak t = konwencja (który czytający jest odniesieniem), bez kierunku.
+  - **Poziom 1 — sprzężenia (relacje), 3 funkcje:** 1/α_i(t) = 1/α_i(0) − (b_i/2π)·t, wszystkie b z jednego wzoru A2: **b = −Σ (−1)^{2s}(4s² − ⅓)·T(R)** (**znak: to `b` jest przeciwne do `b` z R1d-F — poprawka 216**; tu `b₃ = −7`, a standardowe QCD `b₀ = −b₃ = +7`) (wektor × C_A, każdy fermion Weyla, każdy skalar zespolony).
 
-**Twarde zatrzymanie, nie brak cierpliwości.** Bez analitycznego widma Pauliego–Jordana nie ma tu dalszej drogi.
+| relacja | b_i | skład | typ |
+|---|---|---|---|
+| U(1)_Y | **41/6** | fermiony 20/3 + Higgs 1/6 (ΣY² z hiperładunków A2) | **relacja** (b > 0, tylko ekranowanie) |
+| SU(2) | **−19/6** | wektor −22/3 + fermiony 4 + Higgs 1/6 | **relacja relacji** |
+| SU(3) | **−7** | wektor −11 + kwarki 4 | **relacja relacji** |
 
----
+    Każda funkcja to prosta w t: przesunięcie punktu odniesienia zmienia tylko punkt odczytu — **samopodobieństwo prawa (L) dosłownie** (pułapka 12). Łamie się na progach, gdzie zmienia się zawartość pól — w `m_i = y_i·v/√2` (225); w `1/α₃ = 0` (transmutacja, R1d) przesunięcie odniesienia tylko przesuwa zero.
+  - **Poziom 2 — masy (stosunek stosunków), 9 funkcji fermionów naładowanych:** do biegu **każdego** y_f wchodzi wspólny człon śladowy **T = Tr(3Y_u†Y_u + 3Y_d†Y_d + Y_e†Y_e) ≈ 3y_t²** (renormalizacja pola Higgsa, 153). Nie jest mały: przy m_t T ≈ 2,65 wobec części cechowania leptonów 9/4·g² + 15/4·g′² ≈ 1,43; dla kwarków ~24% części QCD (8g₃² ≈ 10,9). Ponadto m_f = y_f·v/√2, a bieg v powyżej skali elektrosłabej zależy od cechowania → **pojedyncza „masa biegnąca” nie jest tam czystym obiektem; stosunek jest.** **Dlatego od razu dla stosunków:** T i v skracają się w każdym stosunku, więc dla dwóch typów f, f′: **(m_f/m_f′)(t) / (m_f/m_f′)(0) = Π_i [α_i(t)/α_i(0)]^{p_i(f) − p_i(f′)} × (czynnik różnic Yukaw, poziom 3)**, p_i = −c_i/(2b_i) — stosunek mas = iloczyn stosunków sprzężeń do potęg będących różnicami stosunków policzonych współczynników = „stosunek stosunków” [94] w pełnej postaci. c_i = 3·[C_i(L) + C_i(R)] (Casimiry i hiperładunki).
 
-## A11. Koszt, sztywność, masa [P][T][A] — NOWA SEKCJA
+| typ | c₁ | c₂ | c₃ | p₁ | p₂ | p₃ |
+|---|---|---|---|---|---|---|
+| u, c, t | 17/12 | 9/4 | 8 | −17/164 | 27/76 | **4/7** |
+| d, s, b | 5/12 | 9/4 | 8 | −5/164 | 27/76 | **4/7** |
+| e, μ, τ | 15/4 | 9/4 | **0** | −45/164 | 27/76 | **—** |
+
+    Kontrola: p₃ = 4/7 = znane 12/(33 − 2n_f) przy n_f = 6; poniżej progów 12/23, 12/25, 4/9. **Kwark: 3 czynniki, elektron: 2 (bez relacji relacji koloru) — dwa kształty funkcji, nie jedna [94].**
+  - **Poziom 3 — czego zespół nie przenosi (poprawione, 153):** stosunki mas wewnątrz typu mają identyczne wykładniki cechowania i wspólne T → te czynniki się skracają. **Zostaje człon Yukaw (poprawka 153):** równanie dla Y_d zawiera 3/2(Y_d†Y_d − Y_u†Y_u); w bazie kwarków dolnych Y_u†Y_u przechodzi przez CKM → wkład top −3/2·y_t²·|V_ti|²: b (|V_tb|² ≈ 1) ≈ −1,3, s (|V_ts|² ≈ 1,6·10⁻³) i d (|V_td|² ≈ 8·10⁻⁵) pomijalne. **Poprawnie: wewnątrz typu biegnie tylko trzecie pokolenie, przez y_t, w obu typach kwarków (t: +3/2·y_t², b: −3/2·y_t²).** W równaniu leptonów nie ma Y_u (tylko 3/2·Y_e†Y_e) → **e : μ : τ biegną jedynie przez y_τ², praktycznie stoją.** Stosunki między typami biegną: m_b/m_τ — p(d) − p(e): 4/7 od koloru, +40/164 od U(1) **oraz −3/2·y_t² od top** (znany czynnik w unifikacji b–τ). CKM (4 liczby): jednopętlowo tylko przez Yukawy, prawie stoi.
+  - **Poziom 4 — relacja tła z samym sobą, 1 funkcja:** 16π²·dλ/dt = 24λ² + 12λy_t² − 6y_t⁴ − 3λ(3g₂² + g′²) + ⅜[2g₂⁴ + (g₂² + g′²)²]. W ramie: nierozróżnialne tło (Higgs ≡ Ø, R1d) w relacji z sobą i z nośnikami; warunki na λ — 154.
+  - **Stosunek ustalony przez sam zespół [L][T][P] (przepisane bez kierunku — poprawka 165):** R = y_t²/g₃², jedna pętla, QCD + top: 16π²·d ln R/dt = 2g₃²(9/2·R − (8 + b₃)), 16π²·d ln g₃²/dt = 2b₃g₃² ⇒ dla u = 1/R: **(1/R − 9/2) ∝ α₃^{1/b₃} = α₃^{−1/7}**, czyli **(1/R₁ − 9/2)/(1/R₂ − 9/2) = (α₃₁/α₃₂)^{1/b₃}** dla **dowolnych dwóch** punktów odniesienia — stosunek stosunków z policzonym wykładnikiem 1/b₃, bez wyróżnionego „początku”. **R\* = 2/9** (u = 9/2; Pendleton–Ross 1981) = jedyny stosunek, dla którego odchylenie znika — ustalony z samych współczynników, bez żadnego odczytu; **w naturze niezrealizowany:** R(m_t) ≈ 0,65. **„Ustala, ale za wolno” (użytkownik, 153) — w ramie:** wykładnik 1/b₃ = −1/7 jest mały wobec zakresu pustyni: α₃ zmienia się w całej pustyni ~5,7× (0,108 ↔ 0,019), więc odchylenie (1/R − 9/2) tylko **~1,28×**. **Quasi-punkt Hilla** (Phys. Rev. D 24, 691 (1981)) w tej samej postaci: gdy R ≫ 1 w jednym punkcie, w drugim R = 1/[9/2·(1 − (α₃₁/α₃₂)^{1/b₃})] ≈ 0,995 → y_t ≈ 1,17, m_t ≈ 203 GeV (tylko QCD + top, jedna pętla; zmierzone 173) — drugi stosunek ustalony strukturą, też nietrafiony. **Sprawdzenie** `etap22_pendleton_ross.py`: relacja zachodzi do 4·10⁻¹⁴ dla R = 0,1 / 2 / 50 w jednym punkcie; kontrola: wykładnik 1/b₃ ± 20% — różnica ~5% (nie zachodzi).
+  - **Wnioski [O]:** (1) **kształt zespołu jest w całości policzony** — wykładniki i nachylenia to liczby wymierne z listy 147 (spin, N_c, hiperładunki, 3 pokolenia); dopasowania nie ma nigdzie. (2) **(153)** N równań pierwszego rzędu wymaga dokładnie N wartości w jednym (dowolnym) punkcie odniesienia t — *nie „początkowych”: początek nie jest wyróżniony (165)*, więc „jeden odczyt na funkcję” to **spójność [88] z matematyką, nie odkrycie**. Liczba: 3 sprzężenia + 9 mas + 4 CKM + 2 Higgs (λ, μ²) + **θ_QCD** (brakowało; jednopętlowo nie biegnie) = **19**. **Treść jest tam, gdzie struktura sama ustala któryś z odczytów** (jak Pendleton–Ross, Hill). (3) **Pokolenia = trzy kopie tych samych funkcji;** zespół ich nie odróżnia — hierarchię między pokoleniami niosą wyłącznie odczyty; jedyne, co zespół mówi o pokoleniach: faza nieusuwalna wymaga ≥ 3 kopii (R1d, Kobayashi–Maskawa).
+  - **Zastrzeżenia:** jedna pętla; progi mas zmieniają n_f; brak neutrin; G i Λ poza zespołem (G ustala jednostkę).
+
+- **Grupa renormalizacji po filtrze [L][O]:** Kadanoff (1966, bloki spinów), Wilson–Kogut (1974); „przepływ UV → IR” przemyca kierunek — w ramie **relacja między rozdzielczościami odczytu**; zgrubienie = odczyt przy mniejszej rozdzielczości = więcej nierozróżnialnych = zapis rozproszony. [?] monotoniczność c/a (Zamolodchikov 1986; Komargodski–Schwimmer 2011) ↔ A4d/138 — A4d dotyczy dokładania elementów, nie zgrubienia.
+
+- **WYPROWADZENIE FUNKCJI ZESPOŁU (poprawka 155) [T][L][P][O].**
+  - *(R1f, poprawka 162: „energia próżni” niżej = wyłącznie różnica ΔE(B) − E(0), relacja próżni z otoczeniem — polem B; energia Ø sama w sobie nie istnieje.)*
+  - **A. Sprzężenia: b = −Σ(−1)^{2s}[(2s_z)² − ⅓]·T(R)** (Nielsen, Am. J. Phys. 49, 1171 (1981); Hughes, Phys. Lett. B 97, 246 (1980)). Naładowany nośnik w stałym polu B: poziomy Landaua (skwantowane obiegi w płaszczyźnie ⟂ B) + swobodne k_z wzdłuż B; E² = k_z² + eB(2n+1) − 2s_z·eB. Energia próżni: Σ½ω z gęstością eB/2π na poziom, znak (−1)^{2s}. Suma po dyskretnych obiegach minus całka (Euler–Maclaurin, suma po środkach, krok h = 2eB): **+h²/24·g′(0)**; przesunięcie spinowe a = 2s_z·eB: **−a²/2·g′(0)**; człon liniowy znosi się między ±s_z → razem −(e²B²/2)·g′(0)·**[(2s_z)² − ⅓]**. **Sprawdzenie [P]:** suma − całka wprost, eB = 0,02/0,01/0,005: na stan −0,33333 (s_z = 0), +0,66667 (±½), +3,66668 (±1) wobec −⅓, ⅔, 11/3 — zgodność 10⁻⁵, zbieżna z eB → 0. Dalej: g′(0) ∝ ∫dk_z/|k_z| = ln(Λ/μ); εμ = 1 zamienia przenikalność magnetyczną próżni na bieg ładunku; zliczenie stanów (pole zespolone ×2, wektor rzeczywisty tylko s_z = ±1) daje A2: −11/3·C_A (wektor), +⅔T (Weyl), +⅓T (skalar zespolony).
+
+| składnik | w rachunku | w ramie | status |
+|---|---|---|---|
+| (−1)^{2s} | znak energii próżni fermionów | znak obrotu o 2π (R1e) | [T] |
+| (2s_z)² | przesunięcie spinowe do kwadratu | relacja kierunku nośnika z kierunkiem pola (R1e) | [T] |
+| **−⅓** | **suma po dyskretnych obiegach − całka** (h²/24, h = 2eB) | **„sztuki czy miara” [288–290]:** wkład orbitalny (ekranowanie) = różnica między liczeniem obiegów a miarą | [T] rachunek, [O] odczyt |
+| ln(Λ/μ) | ∫dk_z/\|k_z\|: **dokładnie jeden** swobodny kierunek poza płaszczyzną obiegu | przy d wymiarach przestrzennych d − 2 kierunki → potęga Λ^{d−3}; **logarytm tylko przy d = 3 — „dynamika wymusza logarytm” [94] ⇔ d = 3 (R1b)** | [T] (wymiar sprzężenia M^{4−D}) |
+| εμ = 1 | niezmienniczość Lorentza | c (R1c) | [T] |
+| T(R), C_A, ładunki | teoria grup | N_c, anomalie (A2, [86]) | [L] |
+
+  - **B. Masy: c = 3·[C(L) + C(R)].** Masa = zygzak L ↔ R (R1d); każda połówka niesie swoje relacje cechowania; wymiar anomalny zygzaka = suma wag obu połówek. Kwark ma trzeci czynnik (C₃ = 4/3 na połówkę, relacja relacji koloru), elektron nie. **Czynnik 3 [?]:** w cechowaniu Landaua z rzutnika poprzecznego, γ^μ P_μν γ^ν = D − 1 = 3; podział zależy od cechowania (niezmiennicza tylko suma), przy jednej pętli w regularyzacji wymiarowej „3 = D − 1” nieodróżnialne od innej postaci — odczyt, nie dowód.
+  - **C. Człony Yukawy.** T = Tr(N_c·Y_u†Y_u + N_c·Y_d†Y_d + Y_e†Y_e): renormalizacja pola Higgsa = tło czytane przez wszystkie nośniki (waga N_c za kolor); wspólne → skraca się w stosunkach (153) [L]. 3/2(Y_u†Y_u − Y_d†Y_d): cytowane (Machacek–Vaughn 1984; Arason i in. 1992), niewyprowadzone; różnica znaku: u, d = dwie połówki dubletu SU(2), czytają tło z przeciwnym hiperładunkiem (u przez H̃, d przez H) [O].
+  - **D. λ.** *(R1f: supertrace = różnica energii próżni względem wartości pola, nie energia Ø.)* 24λ² = 2(N + 8)λ², N = 4 rzeczywiste składowe dubletu [T]. Część niezależna od λ = supertrace: ⅜[2g₂⁴ + (g₂² + g′²)²] − 6y_t⁴ = (2/v⁴)[**6**·m_W⁴ + **3**·m_Z⁴ − **12**·m_t⁴] (sprawdzone algebraicznie [T]); wagi = liczby stanów: W± 2 × **3 polaryzacje**, Z **3** (masywny wektor: SO(3), kula 3D — Wigner, §F1), top 12 = 2 spin × 2 (cząstka/antycząstka) × N_c; bozony +, fermiony − = (−1)^{2s}. **Warunek 154 w tej postaci:** β_λ = 0 przy λ = 0 ⇔ **Σ(−1)^{2s}·n_i·m_i⁴ = 0** [T] — relacje tła z nośnikami zważone znakiem statystyki bilansują się; odczyt [O]: tło ≡ Ø nie niesie netto znaku statystyki.
+  - **Wynik:** każdy współczynnik zespołu wywodzi się z elementów ramy — spin i znak 2π (R1e), dyskretność obiegów wobec miary (⅓), **d = 3** (logarytm, 3 polaryzacje, [?] 3 w γ_m), c (εμ = 1), ładunki z anomalii i N_c (A2). **Niewyprowadzone: grupa cechowania i liczba pokoleń** (wejścia listy 147; „Dalej otwarte”, 154). **Najmocniejsze zdanie:** −⅓ (ekranowanie) = różnica między liczeniem dyskretnych obiegów a miarą ciągłą — kryterium „sztuki czy miara” siedzi dosłownie we współczynniku, który rozstrzyga o swobodzie asymptotycznej.
+
+- **WYKŁADNIK BIEGU JEST RODZINĄ ZALEŻNĄ OD ZAWARTOŚCI PÓL, NIE LICZBĄ Z RAMY (poprawka 219) [T][P][L][O].** Z `masa/wspolzaleznosci-funkcji` K5. Dla izolowanego wkładu sektora wektorowego, przy ustalonej zawartości pól i bez progów: `dα/ds = −(b₀/2π)α²`, `d ln r/ds = −(γ₀/4π)α`, więc eliminacja `s` daje `d ln r/d lnα = γ₀/(2b₀)` i
+  **`r(s₂)/r(s₁) = [α(s₂)/α(s₁)]^{γ₀/(2b₀)}`.**
+  **Wartości odczytów nie były potrzebne do wyprowadzenia postaci — potrzebne były równania określonego sektora i jego współczynniki.** Dla fundamentalnej SU(`N_c`), z `γ₀ = 6C_R` i `b₀ = (11/3)C_A − (4/3)T_Rn_f`:
+  **`γ₀/(2b₀) = 9(N_c² − 1)/(2N_c(11N_c − 2n_f))`.**
+  Kontrole na ułamkach: SU(3) przy `n_f = 6, 5, 4` → `4/7, 12/23, 12/25`; SU(2) przy `n_f = 6` → `27/40`. **To jest sektorowa postać `p_a(f) = −c_a(f)/(2b_a)` z 152 — a więc `p_a` jest rodziną w `(N_c, n_f)`, nie liczbą, którą rama podaje.** **Zabrania:** czytać pierwszą z tych liczb jako wniosek — **SU(3) z sześcioma aktywnymi smakami jest jawnym warunkiem, nie konsekwencją 3D**; a stała potęga jest zakresem **jednej pętli** (wyższe dają dalsze czynniki; konwencje sprawdzone wobec Vermaseren–Larin–van Ritbergen, `α_s/π` i pochodna po `ln μ²`). Przy progach trzeba zmienić zawartość sektora i uwzględnić dopasowanie teorii efektywnych. **Dla 212:** same tożsamości porównań tej relacji potęgowej **nie wymuszają** — kontrprzykład stoi tam.
+
+- **CO WYMUSZA SAMA STRUKTURA PORÓWNAŃ, A CO WYMAGA MODELU — WARUNEK NA ZESPÓŁ, KTÓRY NIE JEST WARTOŚCIĄ (poprawka 212) [T][P][O].** Z pracy użytkownika `masa/wspolzaleznosci-funkcji` (4.10). 208 dało jeden warunek konieczny (ustalone są tylko samorelacje); tu jest **drugi, innego rodzaju**: nie o wartościach, tylko o wspólnej realizowalności rodziny funkcji. Bez cięcia, bez jednostek, bez pojemnika.
+  - **Logarytm jest wyprowadzony, nie wybrany [T].** Jeśli opis składanych stosunków ma być ciągłą addytywną współrzędną zależną **tylko** od stosunku, to `F(xy) = F(x) + F(y)` i stąd `F(x) = k·ln x`. Więc `t = ln(n₀/n)` z R1d **nie jest konwencją** — każda inna ciągła reprezentacja tego składania jest jej wielokrotnością. **Pozwala:** przestać pytać „dlaczego logarytm”. **Zabrania:** czytać z niego więcej — liniowość `1/α` w `t`, stałość wymiaru anomalnego i jednologarytmiczna postać funkcji masy **z tego nie wynikają** i wymagają dynamiki. Domyka 184a od strony reprezentacji (multiplikatywność), nie od strony wkładów.
+  - **Stosunki mają wymuszone zamknięcie, i nie da się ich wszystkich zmieniać niezależnie [T][P].** `r_{aa} = 1`, `r_{ba} = r_{ab}^{−1}`, `r_{ab}r_{bc} = r_{ac}`, `r_{ab}r_{bc}r_{ca} = 1`; `L_{ab} = η_a − η_b`, `L_{ab}+L_{bc}+L_{ca} = 0`. Rząd mapy `(ln q_a) ↦ (ln r_{ab})` wynosi **`n−1`** (rachunek na ułamkach dla `n = 2…6`: 1,2,3,4,5). **Wspólny składnik jest dla tej rodziny niewidoczny** — określa to, co skróci się, jeśli jest wspólny, i nic więcej. **Test na przyszły zespół:** przedstawiony jako takie stosunki nie może przypisywać niezależnych zmian wszystkim parom ani naruszać zamknięcia.
+  - **Ale tego zamknięcia nie wolno przenosić na obiegi faz [T][P].** Dla wspólnie dopuszczalnych stanów `R_1 = (1,0)`, `R_2 = (1,1)/√2`, `R_3 = (1,i)/√2` jest `κ₁₂κ₂₃κ₃₁ = (1+i)/4`: faza `π/4`, **niezmiennicza przy niezależnej zmianie faz reprezentantów**, przy dodatniej półokreślonej macierzy Grama (wyznacznik 0, mimo trzech różnych stanów). **Zabrania:** używać tożsamości ilorazów wspólnego odniesienia do zerowania rzeczywistych obiegów z 177 i R1d.
+  - **Wspólna realizowalność zapisów — warunek, który wycina rodziny [T][P].** Dla jednej koherentnej rodziny znormalizowanych zapisów macierz Grama `Γ_zap` musi być dodatnia półokreślona, więc oprócz `‖κ_{ij}‖ ≤ 1`:
+    **`𝒢 = det Γ_zap = 1 − Σ_cykl‖κ_{ij}‖² + 2Re(κ₁₂κ₂₃κ₃₁) ≥ 0`.**
+    Kontrola wybrana przed rachunkiem: trójka `9/10, 9/10, −9/10` — każda para dopuszczalna, rodzina **nie** (`𝒢 = −361/125`); kontrola dodatnia `3/5, 9/25, 3/5` → `𝒢 = 256/625`. **I warunek na zmiany [T]:** jeśli `𝒢 ≥ 0` jest różniczkowalne po obu stronach punktu wewnętrznego `s*` i `𝒢(s*) = 0`, to **`𝒢′(s*) = 0`** — rozwinięcie daje jawną współzależność pochodnych `κ′`. Rodzina kontrolna `R_3(s) = (e_1+e_2+se_3)/√(2+s²)` daje `𝒢 = s²/(2+s²)`, `𝒢′ = 4s/(2+s²)²`, oba zero w `s = 0`. **Zabrania:** podać zespół jako kilka funkcji o właściwych wartościach bez sprawdzenia ich wspólnej dopuszczalności i jej granicy.
+    **Zakres, bez którego byłoby to za mocne:** dotyczy **nakładań zapisów w jednym koherentnym protokole**. `𝒢 = 0` znaczy liniową zależność zapisów — **nie** jest automatycznie Ø, nierozróżnialnością, skalą Plancka ani `λ = 0`; żadnego utożsamienia z 154, 183 ani 208 tu nie wykonano. Przeniesienie warunku na `α_i` albo `y_f` wymaga najpierw wyprowadzenia ich związku z tymi nakładaniami, a tego **nie ma**. Oznaczenie `𝒢` wybrane po to, żeby nie mylić z `D` z 173/198.
+  - **Co pokazuje niewystarczalność, żeby wniosek nie był za mocny [T][P].** Dodatnie `q_1 = e^{s²}`, `q_2 = 1`, `q_3 = e^s` spełniają wszystkie tożsamości powyżej, a przy `α(s) = 1/(1+s)` dają `d ln(q_1/q_2)/d lnα = −2s(1+s)`: `−3/2, −4, −12` w `s = ½,1,2`. **Same tożsamości porównań nie wymuszają relacji potęgowej z 152** — i to jest powód, dla którego warunki z tej poprawki są konieczne, a nie wystarczające. **Upadła przy tym część oczekiwania o regule Borna** (zapisana i zachowana): nierówne wagi `½` i `3/2` dają część diagonalną równą liczbie dwóch dróg, więc **równy wynik sumaryczny nie wymusza równych modułów wag**; kwadratowość, parowość i `I₃ = 0` (Sorkin) zachowują swój zakres, a zapis 177 z jednakowymi współczynnikami par wymaga jednostkowych modułów jako osobnego warunku.
+
+- **MAPA SKŁADNIKÓW FUNKCJI MASY NA OPERACJE PORÓWNANIA — TRZY OPERACJE, DWIE KONTRAKCJE JEDNEJ TABELI (poprawka 217) [T][P][L][O].** Z pracy użytkownika `masa/1` + skrypt `masa/2` (27/27 kontroli na dokładnych ułamkach i wymiernych liczbach zespolonych). **To jest „relacja relacji, stosunek stosunków” [94] rozpisane na operacje, a nie na wartości.** Jedna pętla, bez neutrinowych Yukaw, bez przekraczania progów. Rozdzielone jawnie: **(1)** algebraiczne konsekwencje porównań i QM, **(2)** przyporządkowanie operatorom użytym w rachunku SM, **(3)** otwarte wyprowadzenie tego przyporządkowania z podstawy relacyjnej — **poprawność (2) nie zastępuje (3)**, i macierze wewnętrznych kanałów nie są wymiarami przestrzennymi.
+
+  **Rdzeń: trzy różne operacje na amplitudach [T].** Dla `R_a = Y_f e_a` i `X_f = Y_f†Y_f = ⟨R_a|R_b⟩`:
+  1. **powrót własnym kanałem** L↔R → wkład własny `y_f²` (w biegu z wagą `+3/2`);
+  2. **rzut na kanały drugiego odczytu** → wkład partnerów `Σ_j y_j²‖V_{ij}‖²` (w biegu `−3/2`);
+  3. **domknięcie sumy po wszystkich kanałach** → wspólny ślad `T = 3Tr X_u + 3Tr X_d + Tr X_e`.
+  Wkłady cechowania są analogicznymi kontrakcjami amplitud generatorów. `(X_f)_{aa}` sumuje kwadraty modułów odpowiedzi do wspólnych kanałów końcowych, `(X_f)_{ab}` **porównuje je koherentnie** przez te same kanały. **Przy pozostawionej metryce odczytu jest `Y†WY`, a przy propagatorze pośrednim `Y†PY`** — i `W = P = 𝟙` **nie wynika** z samego użycia jednego O; to jest **to miejsce, w którym najłatwiej przemycić wspólność czynnika** (dokładny warunek: 213).
+
+  **Siła odpowiedzi wobec znormalizowanego nakładania [T].** `I_a = ‖R_a‖²`, `κ_{ab} = ⟨R_a|R_b⟩/√(I_aI_b)`, `(X_f)_{ab} = √(I_aI_b)·κ_{ab}`, a dla trzech kolumn `det X = I₁I₂I₃·det κ`. **Dodatniość Grama dotyczy `κ`** (to jest obiekt z 212), a `X` niesie **ponadto** siły `I_a`; dodatniość zachowuje się przy niezależnym dodatnim przeskalowaniu kolumn i **norm nie ustala**. Kontrola wybrana przed rachunkiem: `Y₁ = diag(1,2,3)` i `Y₂ = diag(1,3,5)` mają **ten sam** znormalizowany Gram `𝟙`, a różne stosunki wartości singularnych. **Zabrania: zamieniać znormalizowane nakładanie w siłę odpowiedzi ani w stosunek mas.** Pierwiastki wartości własnych `y_{fi}` dają odczyt B: `r^B = y_{fi}/y_{fj}`, wspólny czynnik Higgsa wypada.
+
+  **Dlaczego waga partnera jest kwadratem modułu [T].** Na wspólnej lewej przestrzeni `X_u = Σ_i y_{ui}²|u_i⟩⟨u_i|`, `X_d = Σ_j y_{dj}²|d_j⟩⟨d_j|`, a porównanie obu baz to **amplituda** `V_{ij} = ⟨u_i|d_j⟩`. Rzut odpowiedzi partnera na kanał `u_i`:
+  `⟨u_i|X_d|u_i⟩ = Σ_j y_{dj}²‖V_{ij}‖²`, i symetrycznie `⟨d_j|X_u|d_j⟩ = Σ_i y_{ui}²‖V_{ij}‖²`.
+  **`V` jest amplitudą zmiany odniesienia, `‖V‖²` jej wagą w rzucie, `y²` siłą odpowiedzi partnera — sama waga mieszania nie jest jego masą.** Unitarność pełnej zmiany bazy daje `Σ_j‖V_{ij}‖² = 1` i `Σ_i‖V_{ij}‖² = 1`. W działaniu SM ta niezgodność baz pojawia się w naładowanym prądzie słabym jako CKM — czyli **208 („CKM = relacja relacji”) dostaje wyprowadzony rodzaj wagi, nie tylko nazwę**. **Fazy nie zostały usunięte:** iloczyny `V_{ij}V_{kj}*V_{kl}V_{il}*` mogą mieć niezerową część urojoną (syntetyczna macierz wybrana przed rachunkiem taki iloczyn ma). **Zakres:** istnienie dwóch wskazanych baz, ich wspólnej przestrzeni i przyporządkowanie prądowi W pochodzą z działania SM; wyprowadzono **rodzaj** wagi, nie wartości CKM. Częstości surowych zdarzeń nie są automatycznie tymi wagami.
+
+  **Zmiana bazy nie jest dodatkową siłą [T].** Z `X = Y†Y` i hermitowskiego `B`: `16π²X′ = BX + XB`, więc dla prostej wartości własnej `x_i = y_i² > 0`:
+  **`16π²(ln y_i)′ = ⟨i|B|i⟩`.**
+  Różniczkowanie unormowania wektora własnego **usuwa jego pochodną** z pochodnej wartości własnej. Przy degeneracji porównuje się projektory podprzestrzeni; logarytm nie jest określony przy `y_i = 0`. Po podstawieniu wag mieszania:
+  `16π²(ln y_{ui})′ = T − G_u + (3/2)[y_{ui}² − Σ_j‖V_{ij}‖²y_{dj}²]`, i analogicznie dla `d` oraz `16π²(ln y_{eℓ})′ = T − G_e + (3/2)y_{eℓ}²`.
+  **Bez przybliżenia dominacji topu:** człon topu w kanale dolnym `j` to **jeden składnik** pełnej sumy, `−(3/2)y_t²‖V_{tj}‖²`, a `‖V_{tb}‖² = 1` **nie zostało przyjęte**. **Zabrania:** usuwać pozostałe składniki przed uzasadnieniem przybliżenia.
+
+  **Z czego składa się `3/2` [T][L] — rozkład, z jawnym statusem każdego kawałka.** Zwykłe jednopętlowe wkłady Yukaw do anomalnych wymiarów pól SM: `γ_Q = ½(X_u + X_d)`, `γ_{u_R} = Y_uY_u†`, `γ_{d_R} = Y_dY_d†`, `γ_H = T`, `γ_L = ½X_e`, `γ_{e_R} = Y_eY_e†`. Wkłady propagatorów do zmiany wierzchołka `u`: `Y_u[(3/2)X_u + ½X_d + T]`, więc porównanie z pełnym wynikiem zostawia w poprawce wierzchołkowej `Y_u(−2X_d)`:
+
+  | kanał odczytu `u` | wkład na wspólnej lewej przestrzeni |
+  |---|---|
+  | prawy propagator | `+X_u` |
+  | wspólny lewy propagator | `+½X_u + ½X_d` |
+  | propagator Higgsa | `+T` |
+  | poprawka wierzchołkowa, **jako reszta** | `−2X_d` |
+  | suma zależna od Yukaw | `+T + (3/2)X_u − (3/2)X_d` |
+
+  Dla `d` role `u` i `d` zamieniają się; dla leptonu bez Yukawy neutrinowej ta reszta wierzchołkowa jest **zerowa**, a dwie nogi dają `X_e + X_e/2 = (3/2)X_e`. **`3/2` nie jest prawdopodobieństwem ani wagą CKM** — jest współczynnikiem zmiany amplitudy złożonym z poprawek do propagatorów i wierzchołka; ujemny wkład nie oznacza ujemnego prawdopodobieństwa, a nazwanie go „przeciwnym hiperładunkiem” rachunku nie odtwarza. **Status, trzymany jawnie: `½` i `1` pochodzą z obliczeń pól, a `−2` otrzymano przez odjęcie znanych wkładów od znanego pełnego wyniku — to kontrola i lokalizacja brakującego przejścia, nie niezależne wyprowadzenie `3/2` z podstawy.**
+
+  **Dwie różne kontrakcje tej samej tabeli amplitud [T].** Dla zredukowanej amplitudy cechowania `A^A_{βα} = g_a(t^A)_{βα}`:
+  - **przy ustalonym kanale nośnika, suma po wyjściach i generatorach:** `Σ_{β,A}‖A^A_{βα}‖² = g_a²C_a(R)` — Casimir, i **tę** kontrakcję niosą wagi cechowania lewego i prawego kanału Yukawy, `c_a(f) = 3[C_a(L_f) + C_a(R_f)]`;
+  - **przy ustalonych kanałach cechowania, suma po całej reprezentacji:** `Σ_{α,β}(A^A_{βα})*A^B_{βα} = g_a²T_a(R)δ^{AB}` — indeks, który wchodzi w `b_a`.
+
+  **Różnica `C(R)` i `T(R)` jest różnicą tego, co ustalono jako odniesienie i po czym sumowano — to nie są dwie niezależnie dobrane wagi.** Czyli: waga cechowania w funkcji masy i waga w biegu samego sprzężenia to **te same amplitudy czytane dwa razy**. Treścią jest zakaz: tych wag nie wolno dobierać niezależnie. Tabela `c_Y, c_2, c_3` dla `u` (`17/12, 9/4, 8`), `d` (`5/12, 9/4, 8`), `e` (`15/4, 9/4, 0`) odtwarza 152 — **jako kontrola, nie nowa predykcja**. **Granica trzymana twardo: to, że Casimir jest sumą kwadratów odpowiedzi, NIE wyprowadza czynnika 3**, a znaku ekranowania/antyekranowania **nie można uzyskać przez policzenie dodatnich norm** — na to są wagi spinowe, statystyka i samooddziaływanie nośników (155 A).
+
+  **Co wraca do λ [T]: suma kwadratów porównań, nie kwadrat sumy.** `Tr X_f² = Σ_{a,b}‖⟨R_a|R_b⟩‖² = Σ_i y_{fi}⁴`, więc kontrakcja czwartego rzędu to `H₄ = 3Tr X_u² + 3Tr X_d² + Tr X_e²`. **Zamiana `Tr X²` na `(Tr X)²` dołożyłaby inne relacje.** Pełne równanie po uzgodnieniu konwencji: `16π²λ′ = 24λ² + 4λT − 2H₄ − 3λ(3g₂² + g_Y²) + (3/8)[2g₂⁴ + (g₂² + g_Y²)²]`; przeliczenie z `λ_źródła = 2λ` i `g₁² = (5/3)g_Y²` **przeszło dokładnie**. Dopiero przy pozostawieniu samego topu `−2H₄ → −6y_t⁴` jak w 155 D — **i tego uproszczenia nie przyjęto**. Czynnik 3 jest krotnością koloru (`d_col = 3` dla kwarków, 1 dla leptonów — **nie liczbą kierunków ani pokoleń**), a znak minus pochodzi z pętli fermionowej. **W jednej pętli λ nie pojawia się w biegu Yukaw:** czyta je i cechowanie, ale jej bezpośredni wkład zaczyna się wyżej.
+
+  **Pełna postać stosunku stosunków [T] — i poprawka do użycia postaci potęgowej.** Z `S_f` = nawias Yukaw wraz z `3/2`: `16π²(ln y_f)′ = T − G_f + S_f`, więc dla dwóch odczytów B wspólne `T` się skraca (a w stosunku współczynników masowych skraca się także wspólne `v`):
+  `16π²(ln r^B_{fg})′ = −Σ_a[c_a(f) − c_a(g)]g_a² + S_f − S_g`,
+  i dalej, z `p_a(f) = −c_a(f)/(2b_a)`:
+  **`r^B_{fg}(s₂)/r^B_{fg}(s₁) = Π_a[α_a(s₂)/α_a(s₁)]^{p_a(f)−p_a(g)} · exp[(1/16π²)∫_{s₁}^{s₂}(S_f − S_g)ds]`.**
+  **Całka zawiera te same `y` i `V`, których zmiany rozpatrujemy — to jest zespół współzależny, więc bez uzasadnionego uproszczenia nie wolno zamienić tej części w stały wykładnik ani usunąć mieszania.** To **poprawia użycie czystej postaci potęgowej** w 152 i 165: tam wykładnik stał sam, a tu stoi obok członu, który musi być albo policzony, albo wykazany jako równy 1. Przykłady jawne: dla dwóch kanałów dolnych `16π²(ln y_{dj}/y_{dk})′ = (3/2)[y_{dj}² − y_{dk}² − Σ_i y_{ui}²(‖V_{ij}‖² − ‖V_{ik}‖²)]`, a dla dwóch leptonów `(3/2)(y_{ea}² − y_{eb}²)` — **to pokazuje zakres słowa „stoją” z 153: praktyczna małość zmian nie jest tożsamościowym zerem**, i nie trzeba wstawiać danych, żeby ten podział zobaczyć.
+
+  **Czego ta mapa nie daje i co pozostaje otwarte [O].** Nie utożsamia dowolnego zliczenia z Yukawą; wskazuje, **jakiego rodzaju porównania musi odtworzyć przekład odczytu**, aby zgadzał się z użytym formalizmem. Otwarte: wyprowadzenie z 179–207 konkretnego zredukowanego wierzchołka, jego wspólnej metryki odczytu i propagacji pośredniej, tak żeby te kontrakcje **i współczynniki pętlowe** wyszły bez przyjęcia ich jako przesłanek — szczególnie czy odczyt odtwarza wkłady lewego propagatora, prawego i wierzchołka **oddzielnie**. Rzut i dodatniość same tego nie ustalają. **Nie otrzymano z tego uniwersalnej równości `a·b = −y_f²`:** skalarna suma po drogach z 180–181, operator Diraca i operator Yukawy muszą być połączone przy zachowaniu propagacji, indeksów i wspólnego odczytu, a wspólna postać dwóch zmian nie ustala normalizacji ani wag pośrednich.
+
+- **PRZENIESIENIE `𝒢` Z 212 NA ZESPÓŁ TĄ DROGĄ NIE DZIAŁA — PRZESZKODĄ JEST 205 (poprawka 223) [T][O].** Pytanie: co jest w `κ_{ij}`, jeśli `κ` zespołu wziąć jako znormalizowany Gram kolumn macierzy Yukawy (217: `I_a = ‖R_a‖²`, `κ_{ab} = ⟨R_a‖R_b⟩/√(I_aI_b)`, **`(X_f)_{ab} = √(I_aI_b)·κ_{ab}`**). **Zastrzeżenie [O]:** utożsamienie tego `κ` z `κ` z 212 (zapisy nazwane w jednym protokole) jest utożsamieniem po formie, niewykazanym — cały blok na nim stoi.
+  - **Z1 [T] — `𝒢` jest ściśle niewrażliwe na to, czego zespołowi brakuje.** Przy `Y → YD`, `D = diag(d_a) > 0`: `I_a → d_a²I_a`, a `κ_{ab} → (d_aX_{ab}d_b)/√(d_a²X_{aa}·d_b²X_{bb}) = κ_{ab}` — **dokładnie bez zmiany**, więc `𝒢 = det κ` jest **niezmiennikiem** tej operacji. Wartości singularne `YD` się przy niej zmieniają, a ich stosunki przebiegają swobodnie: kontrola 217, wybrana tam przed rachunkiem, `Y₁ = diag(1,2,3)` i `Y₂ = diag(1,3,5)` — **ten sam `κ = 𝟙`**, stosunki `2,3` wobec `3,5`. **Wniosek: `𝒢 ≥ 0` i `𝒢′(s*) = 0` dają ZERO warunków na 8 stosunków Yukaw i na unormowanie.** Nie „jeszcze nie wyprowadzono" — nie mogą, bo są stałe wzdłuż drogi, która te stosunki przestawia.
+  - **Z2 [T] — w sektorze cechowania granicy wewnętrznej nie ma wcale.** Zapisy to amplitudy generatorów `R^A = g_a t^A` (ta sama tabela amplitud co w 217). `⟨R^A‖R^B⟩ = g_a²Tr(t^{A†}t^B) = g_a²T_a(R)δ^{AB}` — **dokładnie druga kontrakcja z 217**, ta, która wchodzi w `b_a`. Po unormowaniu `κ^{AB} = δ^{AB}`, więc **`𝒢 ≡ 1` dla każdej wartości `g_a`**, a `𝒢 ≥ 0` nigdy nie jest ciasne. Czynniki grupy SM są przy tym wzajemnie prostopadłe (`Tr(Y t^a) = Y·Tr t^a = 0`). **Zero warunków na trzy przesunięcia `1/α_i`, i powód jest inny niż w Z1: nie niezmienniczość, a prostopadłość zapisów z konstrukcji.**
+  - **Z3 [T] — na CKM `𝒢` jest przepisaną unitarnością i jest głuche na fazę.** Zapisy `u_i` i `d_j` to **dwie bazy ortonormalne tej samej przestrzeni**, `V_{ij} = ⟨u_i‖d_j⟩` (217). Gram całej szóstki `[[𝟙, V],[V†, 𝟙]]` ma `det = det(𝟙 − V†V) = 0` **tożsamościowo** dla unitarnego `V` — rodzina leży na granicy zawsze, więc warunek na pochodną jest tam pusty. Trójki: każda trójka wybrana z dwóch baz ortonormalnych ma **co najmniej dwa elementy z jednej bazy**, więc jedno `κ` w obiegu jest zerem i **obiegowa faza `Re(κ₁₂κ₂₃κ₃₁)` jest tożsamościowo zerowa**; wyznacznik trójki `{u_i, d_j, d_k}` to `1 − ‖V_{ij}‖² − ‖V_{ik}‖² = ‖V_{il}‖²`, którego zero jest z konieczności podwójne. **Zero warunków na 4 dane CKM.**
+  - **Z4 [T] — rozstrzygające: `𝒢` zależy od tego, które zapisy się nazwie.** `𝒢 = det κ = det X / ∏_a X_{aa}`. `det X` jest niezmiennikiem unitarnej zmiany bazy zapisów, `∏_a X_{aa}` **nie jest**. Kontrola na dokładnych ułamkach, na kartce: `X = [[1, ½],[½, 1]]` → `det X = 3/4`, `∏X_{aa} = 1`, `det κ = 3/4`; po obrocie o 45° `X′ = diag(3/2, ½)` → `det X′ = 3/4` (niezmiennik), `∏X′_{aa} = 3/4`, **`det κ′ = 1`**. Ogólnie: **dla każdego dodatnio określonego `X` baza własna daje `κ = 𝟙`, czyli `𝒢 = 1`** — więc **z granicy `𝒢 = 0` można zawsze zejść, przenazywając zapisy**. „Granica wewnętrzna `s*`" jest zatem **własnością nazwania, nie obiektu**, a nazwanie bazy zapisów jest dokładnie tym, czego 205 zabrania jako zdania o obiekcie, dopóki nie dostarczy jej struktura.
+  - **Werdykt, stanowczo [T].** Dwie strony składają się w jedno zdanie: **`𝒢` jest dokładnie stałe przy zmianie obiektu (przeskalowanie kolumn) i zmienne przy zmianie opisu (obrót unitarny).** Wielkość o tych dwóch własnościach nie może ograniczać obiektu w kierunkach, w których jest stała — to jest cała treść przeszkody i jest to tożsamość, nie zastrzeżenie metodyczne. **Przeniesienia nie ma tą drogą; przeszkodą jest 205, nie brakujące wyprowadzenie.** Z 17 wolnych danych: 12 sił (3 przesunięcia, 8 stosunków, unormowanie) wypada przez Z1, trzy z nich dodatkowo przez Z2, 4 dane CKM przez Z3.
+  - **Co zostaje dla `θ_QCD` i fazy — jedyne miejsce, w którym `𝒢` nie jest głuche z konstrukcji [O].** Jedyny człon `𝒢` wrażliwy na fazę to obiegowy `2Re(κ₁₂κ₂₃κ₃₁)`, a 212 pokazała, że ta faza jest **niezmiennicza przy niezależnej zmianie faz reprezentantów** (`κ₁₂κ₂₃κ₃₁ = (1+i)/4`, faza `π/4`). Zespół ma dokładnie dwie dane tego rodzaju: fazę CKM i `θ̄ = θ + arg det M` (208 [?]). Ale obieg wymaga **trzech zapisów parami nieprostopadłych** — na CKM takich trójek nie ma (Z3), a na kolumnach Yukawy obiegowa faza `arg(X₁₂X₂₃X₃₁)` **zależy od wybranej bazy zapachowej** i w bazie własnej `X` znika. **Więc i tu wchodzi 205, nie nowy warunek.** To nie jest otwarty krok, tylko to samo rozstrzygnięcie o poziom niżej.
+  - **Czego to NIE rusza [O].** **212 stoi nietknięta w swoim zakresie** — tam zapisy są **nazwane przez protokół**, więc `𝒢 ≥ 0` jest rzeczywistym warunkiem na wspólną realizowalność tej nazwanej rodziny (kontrole 212: `9/10, 9/10, −9/10` → `𝒢 = −361/125`; `R_3(s)` → `𝒢 = s²/(2+s²)`). Zmienia się status jej własnej adnotacji o zakresie: było zastrzeżenie („wymaga wyprowadzenia, a tego nie ma"), jest **mechanizm**. Pierwszą połowę kroku 2 — zliczenie Ø-miejsc na relację (183, 208) — zamyka 224.
+  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* przenosić `𝒢 ≥ 0` ani `𝒢′(s*) = 0` na `α_i`, `y_f`, CKM i `θ_QCD` — **z powodu**, nie jako „jeszcze nie zrobione", **dopóki struktura nie dostarczy bazy zapisów** (Z4). *Zabrania:* czytać „granicę wewnętrzną `s*`" jako własność obiektu — dla każdego dodatnio określonego `X` istnieje baza z `𝒢 = 1`. *Pozwala:* trzymać 212 w pełni w jej zakresie, z mechanizmem zamiast zastrzeżenia. *Pozwala:* odrzucić **bez rachunku** każdy przyszły warunek, który jest stały przy zmianie obiektu i zmienny przy zmianie opisu — dwustronny test, ostrzejszy niż samo „baza to pojemnik", bo nie wymaga rozpoznania bazy: wystarczy sprawdzić obie pochodne.
+
+- **ZASADA WIELU PUNKTÓW, POKOLENIA, LEPTONY (poprawka 154) [L][O][P]:**
+  - *(R1f, poprawka 162: „energie próżni” w 148, 150, 154 mają sens wyłącznie jako różnice względem otoczenia; dla całości — brak.)*
+  - **1. Zasada wielu punktów — co z niej zostaje w ramie [O][L].** **Wersja ogólna („dowolne dwie próżnie mają równą energię”, 150) odpada:** różnica energii dwóch próżni jest odczytywalna wewnątrz struktury (grawitacja, Λ, ściana między obszarami) — to różnica relacji otoczenia, którą wolno opisywać pośrednio [414]; nic w ramie jej nie wyklucza. **Zostają dwa warunki, i tylko dla λ:**
+
+| warunek | uzasadnienie w ramie |
+|---|---|
+| **λ = 0 tam, gdzie nic nie jest odróżnialne** | λ = relacja **tła z tłem** (Higgs ≡ Ø, R1d) = Ø z Ø; relacja wymaga różnicy [242, 258], relacja z Ø jest jednostronna [122–124], więc Ø z Ø nie jest relacją. **g** (relacje faz między nośnikami) i **y** (jednostronna relacja nośnika z tłem) tego warunku nie dostają: zniknięcie wszystkich relacji byłoby fałszywe, a znikać musi tylko samorelacja (208). μ² też jest tłem z tłem — pkt 1a |
+| **β_λ = 0 tamże** | punkt nieodróżnialny od sąsiedztwa [76] — znika wartość **i** pochodna |
+
+    **Czy te warunki ustalają jakiś odczyt — otwarte [?].** W literaturze te same dwa warunki (Froggatt–Nielsen; Shaposhnikov–Wetterich — 148) stawia się w punkcie skali Plancka na osi biegu i przenosi na m_H i m_t biegiem po zakresie ln(m_P/v), przy zmierzonych sprzężeniach cechowania. To czyta Planck jako miejsce na osi, a skala Plancka ≡ 2D ≡ Ø położenia nie ma; czy unormowanie `v/m_P` jest w ogóle odczytem — [?] (208). **Dopóki to otwarte, warunki nie ustalają żadnego odczytu.** Przy λ = 0 warunek β_λ = 0 ⇔ 6y_t⁴ = ⅜[2g₂⁴ + (g₂² + g′²)²] (bilans znaków statystyki, 155 D).
+    **[L] Obserwacja literatury, z którą warunki są zgodne — nie wyprowadzenie:** zmierzone m_H ≈ 125 GeV i m_t ≈ 173 GeV stawiają MS przy granicy stabilności, λ i β_λ bliskie zera przy skali Plancka (Buttazzo i in., JHEP 12 (2013) 089); dokładna krytyczność przy m_t = 173,1 daje m_H = 129,4 ± 1,8 GeV (Holthausen–Lim–Lindner, arXiv:1112.2415).
+  - **1a. KRYTYCZNOŚĆ λ NA PORZĄDKU — temat (b) po 167 (poprawka 168) [L][T][O].** Pytanie: czy warunki z pkt 1 mają postać w samym porządku i czy bieg λ da się policzyć wprost na nim. Czytane przez R1a–R1c: literaturowe ℝ^{1,3} = 3D ramy (triada + punkt odczytu; R1c pkt 1, 8), literaturowe 1+1 = narzędzie bez triady, nie struktura (pułapka 5), skala Plancka ≡ 2D ≡ Ø [76].
+    - **Formalizm [L] (ze źródła):** Johnston, Class. Quantum Grav. 25, 202001 (2008), arXiv:0806.3083. Propagator = suma po trajektoriach w zbiorze przyczynowym; trajektoria o n skokach ma amplitudę aⁿbⁿ⁻¹: a — skok do następnego elementu, b — zatrzymanie w elemencie pośrednim („the initial and final elements are not regarded as stops”). **ℝ^{1,3}:** suma po drogach (ciągach linków); bezmasowy propagator (1/2π)·δ(τ²) leży na stożku → skoki po linkach; a = √ρ/(2π√6), b = −m²/ρ = −m²V₀. **Literaturowe 1+1:** suma po łańcuchach; bezmasowy propagator ½ wypełnia stożek → skoki po wszystkich relacjach; a = ½, b = −m²/ρ. Wartość oczekiwana po sprinklingach = retardowany propagator Kleina–Gordona (w ℝ^{1,3} w granicy gęstości).
+    - **Pojedynczy element = miejsce relacji jednostronnych [O].** Element x = zbiór relacji [134], nie obiekt. Skoki po linkach = odcinki t = 0 (słownik: link = światło). **Zatrzymanie w x = relacja dwóch relacji x** — linku wchodzącego i wychodzącego — = relacja dwóch części t = 0 = masa (R1f-3, M2; zygzak R1d); zgodność postaci, nie tożsamość (b nie zależy od kąta linków). Zatrzymanie to zarazem **jednostronna relacja nośnika z tłem** (R1d, punkt otwarty 1): strona jawna — linki nośnika; tło ≡ Ø — strona, o której nic nie można powiedzieć [122–124]. **Końce drogi = przejścia Ø → A i A → Ø** (wzbudzenie pola [242, 258]; tabela granic Ø w R1a). Test z pułapki 3: zdanie wyróżnia (wagi w elemencie ≠ wagi skoków) i nie jest „jednostronnością” z antysymetrii ≺, prawdziwą o każdej parze (A5, poprawka 6). Z dwóch przypadków Johnstona skoki po świetle są tylko w ℝ^{1,3} — zgodnie z R1c pkt 8 („jedyny stożek, w którym nośniki światła mogą się wiązać”).
+    - **Porządek nie wybiera λ.** W elemencie porządek odróżnia końce drogi, zatrzymania i wierzchołki (kilka linków w x); nie niesie tego, które pole jest tłem — to treść pól, poza dwoma pierwotnymi (R5; por. 157). Warunki z pkt 1 stoją na własnym uzasadnieniu: λ = relacja tła z tłem (w potencjale efektywnym: różnica dwóch jednorodnych konfiguracji pola, 155 D, R1f-2), tam, gdzie nic nie jest odróżnialne [76]; „Ø z Ø” nie ma strony jawnej po żadnej stronie, więc nie jest nawet relacją jednostronną. **Porządek nie dokłada ani uzasadnienia, ani liczby.**
+    - **μ² i warunek Veltmana [T][O] (`etap24_cisza_tla.py`).** Kryterium z pkt 1 obejmuje także μ²|H|² (też tło z tłem). Czy daje warunek na μ²:
+      - **goła masa przy obcięciu** [L] (Hamada–Kawai–Oda, PRD 87, 053009 (2013), arXiv:1210.2538): m_B² = Δ_sub + m₀², Δ_sub ∝ Λ²·C/16π², C = 6λ + ¾g_Y² + 9⁄4·g₂² − 6y_t² (Veltman); „w regularyzacji wymiarowej Δ_sub formalnie znika” (HKO §2.1). Zależy od samej skali cięcia, nie od stosunku dwóch rozdzielczości; różne opisy cięcia dają różne wartości.
+      - **Zdanie przed rachunkiem [T]:** przy λ = 0 warunki β_λ = 0 i C = 0 wykluczają się dla wszystkich dodatnich m_W², m_Z²: z C = 0 m_t² = (2m_W² + m_Z²)/4, wtedy 6m_W⁴ + 3m_Z⁴ − 12m_t⁴ = 3[(m_W² − m_Z²/2)² + m_Z⁴/2] > 0 (siatka 801 × 801 i 10⁶ losowych punktów; tożsamość do 3·10⁻¹³). Kontrola: bez λ = 0 oba warunki do spełnienia ((λ, y_t) = (+0,017; 0,379) i (+0,085; 0,461) przy sprzężeniach z 10¹⁶ GeV) → wykluczenie pochodzi z λ = 0. **PRZESZŁO.** Na danych [L] (Antusch–Hinze–Saad, arXiv:2510.01312v2, tab. 2): przy 10¹² / 10¹⁶ GeV y_t(β_λ = 0) = 0,400 / 0,391, y_t(C = 0) = 0,368 / 0,357 (różnica 9%), zmierzone 0,514 / 0,445. HKO: goła masa znika przy M_Pl dla m_t = 169,8 GeV, λ(M_Pl) — dla 171,2 GeV; „no low energy parameter set within two sigma” nie daje obu naraz.
+      - **Test wierności [O] (po fakcie — po twierdzeniu):** P = „warunek Veltmana nie jest warunkiem ramy”; ¬P = rama wymaga, by człon zależny od opisu samego cięcia znikał — wyklucza się z R1a („liczyć wyłącznie w relacji do znanego otoczenia”), z [543] („nic o skali Plancka nie można powiedzieć”), z pułapką 1 (różne opisy cięcia = „rodzaje Ø”) i z twierdzeniem wyżej [T]. Relacje osiągalne z naszej strony są logarytmiczne (155: logarytm tylko przy d = 3).
+      - **Problem hierarchii** w postaci „dostrojenie wobec Λ²” = pytanie o opis cięcia, nie pytanie ramy. Czy unormowanie `v/m_P` jest w ogóle odczytem — [?] (208).
+    - **Bieg λ wprost na porządku — niepoliczony [L].** Jubb, arXiv:2306.12484 (2023): φ⁴ na zbiorach przyczynowych, policzona tylko funkcja 2-punktowa; renormalizacja „not considered here”; proponowane zgrubienie przez usuwanie punktów = ln(n₀/n) z R1d. Taki rachunek liczy na rozsiewie (pojemnik — STOP), a poza samym odstępem rozsiewu odtworzyłby te same współczynniki uniwersalne (β_λ z pkt 1). Nie podjęte.
+    - **Werdykt:** warunki z pkt 1 stoją na własnym uzasadnieniu; porządek nie daje im odpowiednika ani liczby. Warunek Veltmana nie jest warunkiem ramy ([T]; człon Λ² = opis samego cięcia).
+  - **2. Pokolenia w ramie.** Filtr: „pokolenie nr 2” jako etykieta = cecha; „czym różnią się pokolenia same w sobie” — źle postawione. We wszystkich relacjach z nośnikami (cechowanie) pokolenia są ≡ (zespół: identyczne funkcje, 153); różnią się wyłącznie **jednostronną relacją z tłem ≡ Ø** (y_f, R1d) — tło działa, nośnik go nie odczyta → **hierarchii nie niesie struktura nośnika**, siedzi po stronie Ø, którą wolno opisywać tylko pośrednio [414]; stąd zespół jest na nią ślepy [O]. **CKM [O]:** stan masowy = relacja z tłem, stan słaby = relacja z W; CKM = niezgodność dwóch relacji = **relacja relacji**; faza nieusuwalna wymaga ≥ 3 kopii (R1d). **Co ustala 3 [L]:** anomalie — nie (znoszą się w każdym pokoleniu); swoboda asymptotyczna QCD — ≤ 8 pokoleń (n_f ≤ 16); szerokość Z — N_ν = 3 (pomiar); CP — ≥ 3 (Kobayashi–Maskawa). Wyprowadzenia 3 brak; symetrie zapachowe S₃/A₄ (permutacje trzech) ↔ triada — [?] zbieżność. **Werdykt:** rama przestawia pytanie z etykiety na „trzy odczyty jednostronnej relacji z Ø”; liczb nie daje.
+  - **3. Leptony.** Stosunki e : μ : τ: „nie biegną” (153) dotyczy stosunku Yukaw przy wspólnej rozdzielczości (odczyt B), a Koide niżej jest liczony z mas biegunowych (odczyt A) — dwie różne liczby (poprawka 166; rozpisane w bloku 166 niżej). **Koide [L][P]:** Q = Σm/(Σ√m)² = **0,6666645 z mas biegunowych PDG 2024 (2/3 − 2,2·10⁻⁶, −0,43σ); przewidywane m_τ = 1776,969 MeV wobec 1776,93 ± 0,09** (166; wcześniej dane PDG 2022). **W ramie [O]:** Q = 1/(3cos²θ), θ = kąt między (√m_e, √m_μ, √m_τ) a (1, 1, 1): **θ = 44,9999°**. (1, 1, 1) = to, co pokoleń nie odróżnia (≡); część prostopadła = to, co różnicuje. **Q = 2/3 ⇔ część nierozróżniająca waży tyle co różnicująca.** Status: przepisanie obserwacji, bez wyprowadzenia; **ostrzeżenie numerologiczne** — wolno jako kontrolę dopiero po wyprowadzeniu z wejść z listy 147, **i tylko na odczycie A (166)**.
+  - **STOSUNKI e : μ : τ — DWA ODCZYTY; CZY RAMA JE USTALA (poprawka 166) [L][P][T][O].** Temat (a) po 165; zdania przed rachunkiem; dane [L] ze źródeł.
+    - **Dwa odczyty pod jedną nazwą.** **A** = masa w sensie R1f-3: faza na własne tyknięcie nośnika = **masa biegunowa** (każdy lepton czyta siebie). **B** = stosunek Yukaw — współczynników działania (R1f-1) — przy **wspólnej** rozdzielczości: „masy biegnące” z poziomu 2 i „siła jednostronnej relacji z tłem” z R1d (punkt otwarty 1). Bez pętli A = B; różni je relacja każdego nośnika z polem EM między jego własnym tyknięciem a wspólną rozdzielczością. Oba bez skali — ale to różne liczby (pułapka nazewnicza nr 6).
+    - **Rachunek** `etap23_leptony_dwa_odczyty.py`. Dane: A — PDG 2024 (m_e = 0,51099895000(15), m_μ = 105,6583755(23), m_τ = 1776,93(9) MeV); B — Antusch, Hinze, Saad, arXiv:2510.01312v2, wzór (2.4) i tab. 2: Yukawy MS-bar na 9 skalach M_Z … 10¹⁶ GeV (dane PDG 2024; SMDR, dwupętlowe RGE).
+
+| zdanie (przed rachunkiem) | wynik |
+|---|---|
+| **Z1** (153): stosunki B nie zależą od rozdzielczości (< 10⁻³ na całym zakresie); kontrola: pojedyncze Yukawy zmieniają się o > 1% | y_μ/y_e = 210,66, y_τ/y_e = 3578,4, y_τ/y_μ = 16,986; zmiana ≤ 1,1·10⁻⁴ na 14 dekadach (poziom zaokrągleń tabeli); każda Yukawa osobno: 6,5% — PRZESZŁO |
+| **Z2**: A ≠ B (> 0,5% dla każdej pary), znak i kolejność τ/e > μ/e > τ/μ, wielkość do 20% jak w jednej pętli QED: B/A − 1 ≈ (3α/2π)·ln(m_i/m_j) | A: 206,768 / 3477,37 / 16,8177; B/A − 1 = 1,88% (μ/e), 2,91% (τ/e), 1,00% (τ/μ); wzór: 1,86 / 2,84 / 0,98% (stosunki 1,01–1,02) — PRZESZŁO |
+| **Z3** (Koide wyłącznie jako kontrola rozróżniająca odczyty): \|Q_A − 2/3\| < 2σ, \|Q_B − 2/3\| > 10σ przy M_Z | Q_A = 2/3 − 2,2·10⁻⁶ (−0,43σ); Q_B = 2/3 + 1,16·10⁻³ **na każdej z 9 skal** (63σ przy M_Z; błędy bez korelacji — zawyżone); zgodne z Xing–Zhang (hep-ph/0602134: „około 0,2% przy M_Z”) — PRZESZŁO |
+
+    **Wynik [P]:** **jedyna znana relacja między masami leptonów dotyczy odczytu A — masy w sensie ramy (R1f-3) — nie Yukaw.** [L] Koide przewidział w 1982 r. m_τ = 1776,97 MeV przy zmierzonych wtedy 1784,2 ± 3,2; w 1992 r. zmierzono 1776,99 ± 0,28 (za J. Baezem, *Azimuth*, 4.04.2021) — liczba, która mogła wyjść inaczej (A0); wzór nadal niewyprowadzony. **Dopisek po rachunku (raport, bez zdania):** kąt δ w parametryzacji √m_n/μ − 1 = √2·cos(δ + 2πn/3) (μ = średnia √m): **δ_A = 2/9 + 2,5·10⁻⁶ (0,41σ)**, δ_B = 2/9 − 1,1·10⁻³ [L] (Żenczykowski, PRD 86, 117303 (2012): δ_L „nieodróżnialne od 2/9”). **Dwa empiryczne warunki (Q = 2/3, δ = 2/9) odtwarzają oba stosunki do obecnej precyzji; żaden niewyprowadzony; oba zachodzą tylko na A.**
+    - **Czy rama ustala e : μ : τ — zdanie po zdaniu [T][O]:**
+
+| zdanie ramy | co daje dla e : μ : τ |
+|---|---|
+| pokolenia ≡ we wszystkich relacjach z nośnikami (153; pkt 2 wyżej) | nic — zespół ślepy na pokolenia |
+| „relacja z tłem nie odróżnia kopii” | ≡ pełne (każda baza kopii równoważna, jak w cechowaniu: Y ↦ U_L·Y·U_e†, U(3)_L × U(3)_e) ⇒ **Y = 0, brak mas** [T]; ≡ z zachowaną parą L_i–e_i (wspólne U(3)) ⇒ Y ∝ 𝟙, masy równe, Q = 1/3 — ale parę L–e ustala właśnie relacja z tłem; ≡ tylko permutacyjne, lewe i prawe niezależnie (S₃L × S₃R; Harari, Haut, Weyers, PLB 78, 459 (1978)) ⇒ Y ∝ macierz jedynek, masy **(0, 0, 3k)**, Q = 1 — wymaga wyróżnionej bazy kopii = etykiet (pkt 2: etykieta = cecha). Natura przeczy wszystkim trzem → **e, μ, τ są odróżnialne wyłącznie przez samą relację z tłem** [O] (zgodne z pkt 2); wartości to nie ustala |
+| masa = faza na własne tyknięcie (R1f-3) | ustala, **który** odczyt jest masą (A), nie jego wartość |
+| warunki 154 (Ø z Ø) | dotyczą tylko λ (tło z tłem); y ich nie dostaje |
+| całość, Ĥ\|Ψ⟩ = 0 (150) | stałe nieustalone |
+| lista 147 | przed rachunkiem nie zapisano żadnej kombinacji wejść; szukanie jej po fakcie = numerologia [376–378] |
+| Froggatt–Nielsen (150, „Następne”) | ε i ładunki dopasowane; ε policzalne tylko ze strunami, anomalnym U(1) i mechanizmem Greena–Schwarza (Ramond, hep-ph/9808488) — nowe byty („Cel”) |
+
+    **Werdykt (stanowczo): 0 warunków ramy na 2 stosunki — rama nie ustala e : μ : τ.** Nie „wyskoczą po drodze” [88]: zespół ich nie zawiera, a same nie zależą od rozdzielczości, więc żadna funkcja zespołu ich nie ustala. **„Sito” nie rozstrzyga:** pokazano, że stosunki są niewyprowadzone, nie — że niesprowadzalne.
+    - **Co zostaje [O]:** (1) **pułapka nazewnicza nr 6** („masa” = A albo B). (2) **Kontrola zaostrzona:** relacja między leptonami wyprowadzona kiedykolwiek musi dotyczyć samoodczytów (A); ta sama relacja dla B jest wykluczona (63σ). (3) **Pytanie Sumino** (arXiv:0812.2090, 0812.2103: poprawka QED psuje relację Koidego dla mas biegunowych → nowe bozony rodzinowe U(3), które ją znoszą) **— źle postawione po filtrze:** zakłada wyróżnioną wysoką rozdzielczość, przy której relacje obowiązują, a masy biegunowe z nich wynikają (wyróżniona skala i kierunek „od wysokiej do niskiej”; §F1, „RG po filtrze”). W ramie żadna rozdzielczość nie jest wyróżniona, masa = A → zarzut odpada; **wyprowadzenia to nie daje.** (4) **„Relacja bez skali tylko dla leptonów” — z dwóch różnych powodów:** na B, bo stosunki kwarkowe biegną przez y_t (153); na A, bo tylko leptony mają odczyt na własnym tyknięciu (kwark tylko jako m_b(m_b), „stosunek odniesiony do stosunku”, 151). **Powód strukturalny (180):** odczyt A należy do pary (M, O), a pojedynczy kwark nie stoi jako całość wobec żadnego O; [L] masa biegunowa kwarka jest niejednoznaczna o O(Λ_QCD) — renormalon podczerwony.
+    - **Pułapki numerologiczne (zapisane, żeby ich nie łączyć):** (a) **δ = 2/9 ≠ R\* = 2/9** z Pendletona–Rossa (165): kąt parametryzacji pierwiastków mas leptonów wobec stosunku y_t²/g₃² z b₃ — różne obiekty, żadnego wspólnego wejścia; (b) „2/3 = środek między Q = 1/3 (masy ≡) a Q = 1 (S₃L × S₃R)” — środek tylko w zmiennej Q; w kącie θ środek wypada przy 27°; (c) „45° = stożek światła jak w R1c” — dla trzech kopii warunek światła z R1c (część śladowa = bezśladowa ⇔ det = 0) uogólnia się na dwa sposoby: rząd 1 (Q = 1) albo równe normy obu części (Q = 2/3); wybór pasującego po fakcie = Eddington.
+
+- **GRANICE Ø WEWNĄTRZ ZAKRESU — KTÓRA FUNKCJA MOŻE ICH DOTKNĄĆ (poprawka 183) [H][T][O].** Poprawka użytkownika (29.09): „Tabela granic Ø nie dotyczy tylko dwóch końców. Granice Ø są wszędzie w każdym zakresie. To są osobliwości, to byłoby pole EM bez wzbudzeń, to światło, to superpozycje.” (R1a, GRANICE Ø). Konsekwencja dla zespołu, sprawdzona na strukturze równań:
+  - **Dotknięcie Ø przez relację = zniknięcie relacji:** relacja o zerowej sile nie odróżnia niczego, więc ≡ Ø [242, 258]. Pytanie brzmi zatem, które funkcje zespołu mogą przejść przez zero **wewnątrz** zakresu, a nie tylko na jego krańcach.
+  - **[T] W zespole jednopętlowym tylko λ.** Sprzężenia cechowania: d(1/α_i)/dt = −b_i/2π, więc 1/α_i jest liniowe w t, a α_i = 0 tylko asymptotycznie (rozbieżność α_i — Landau albo transmutacja, R1d — to drugi koniec tej samej relacji, pułapka 11). Yukawy: 16π²·dy_f/dt = y_f·(…) — równanie multiplikatywne, więc y_f = 0 jest punktem stałym i y_f ≠ 0 nie zeruje się nigdzie. **Tylko β_λ ma człon niezależny od λ** (−6y_t⁴ + ⅜[2g₂⁴ + (g₂² + g′²)²]; 155 D), więc tylko λ przechodzi przez zero z niezerową pochodną.
+  - **Odczyt [O]:** λ jest zarazem jedynym sprzężeniem zespołu będącym **relacją tła z tłem** (154 pkt 1), a tło ≡ Ø (R1d). Dwie rzeczy spotykają się w jednym miejscu: jedyna funkcja, która może dotknąć Ø wewnątrz zakresu, jest tą, która opisuje relację Ø z samym sobą. [L] Natura leży przy granicy stabilności (154).
+  - **Czy granice Ø wewnątrz zakresu dają nowe warunki na zespół — policzone w 224 (niżej): nie, zero.**
+  - **Kontrola (czy zdanie coś wyróżnia — pułapka 3):** wyróżnia λ spośród 19 odczytów; gdyby każda funkcja mogła przejść przez zero, zdanie nie wyróżniałoby niczego. Przy dwóch pętlach struktura w tym punkcie się nie zmienia (Yukawy pozostają multiplikatywne, λ zachowuje człon bez λ) — [O], rachunkiem niesprawdzone.
+  - **ZLICZENIE Ø-MIEJSC — ZERO NOWYCH WARUNKÓW (poprawka 224) [T][O].** Czy zera i bieguny relacji zespołu (183) dają warunki na wolne dane.
+    - **Pułapka nazewnicza nr 11: „Ø-miejsce" pokrywa DWA PRZECIWNE końce tej samej relacji [O].** 183 definiuje je jako **zniknięcie relacji** (`α → 0`, „relacja o zerowej sile nie odróżnia niczego"). 208 nazywa „Ø-miejscem tej relacji" **rozbieżność** (`α → ∞`: Landau przy `b > 0`, transmutacja `n_Λ = n·e^{2π/(b₀α_s)}` dla `α₃`). Po kryterium `R1a` („w granicy ginie **zdolność struktury do czytania samej siebie**") **oba są Ø-miejscami, ale dwiema różnymi drogami**: pierwsze — bo relacja przestaje odróżniać; drugie — bo nośnik przestaje być czytelny jako para (M, O) (180: kwark bez odczytu A, niejednoznaczność `O(Λ_QCD)`). **W pliku nic tego nie rozdzielało**, a bez rozdzielenia zliczanie liczy albo dwa razy, albo nie ten koniec.
+    - **Drugie rozdzielenie, też konieczne przed zliczaniem [T].** Granice Ø z `R1a` — światło, superpozycja, pole bez wzbudzeń, osobliwość — **nie są punktami zmiennej zespołu `t`**. Zdanie użytkownika („granice Ø są wszędzie w każdym zakresie") stoi nietknięte; **nie wynika z niego „wiele warunków na zespół"**, bo warunek na funkcję zmiennej `t` wymaga **miejsca w `t`**. To jest zdanie o zliczaniu, nie zawężenie poprawki 183.
+    - **MECHANIZM [T]: zero albo biegun relacji, którego podanie jest bijekcją wolnej danej, nie daje warunku — jest zamianą współrzędnej. Warunek daje tylko samorelacja (B).**
+      - **Dla `1/α_i` — i to jest rozstrzygnięcie całego kroku.** Z `1/α_i(t) = 1/α_i(0) − (b_i/2π)t` zero jest w **`t_* = (2π/b_i)·(1/α_i(0))`** — a to jest **dokładna bijekcja liniowa** wolnej danej (`b_i ≠ 0` dla wszystkich trzech: `41/6`, `−19/6`, `−7`; gdyby któreś `b_i` było zerem, Ø-miejsca nie byłoby wcale). Podanie Ø-miejsca jest więc **zamianą współrzędnej**, nie warunkiem: `n_Λ/n = e^{t_*}` niesie dokładnie tę samą jedną liczbę co `1/α_i(0)`. **Stąd zdanie 208 („wolna dana = stosunek liczności do Ø-miejsca tej relacji") jest reparametryzacją, nie ograniczeniem** — i to jest powód, dla którego bilans wolnych danych nigdy się nie ruszył.
+      - **Tak samo dla wewnętrznego zera λ:** jego miejsce w `t` zależy od `λ(0)`, `y_t` i sprzężeń, czyli od wolnych danych. **Więc λ liczy się RAZ, nie dwa.** Jedyne warunki na λ to dwa z 154 — stoją na własnym uzasadnieniu (Ø z Ø nie jest relacją; sąsiedztwo nierozróżnialne), a ten wpis nie dokłada im powodu.
+      - **(B): warunek tylko dla samorelacji.** Ø-ność **miejsca** nie wymusza zniknięcia relacji **dwóch różnych** rzeczy — nośniki pozostają odróżnialne od siebie, choćby miejsce było Ø. Powód jest w 208: **Ø z Ø nie jest relacją**, więc znikać musi tylko samorelacja.
+      - **Wniosek [T]:** granice Ø wewnątrz zakresu (183) nie są osobnym źródłem warunków, a zdanie 208 (ustalone są tylko samorelacje) zostaje bez nowego warunku obok siebie; że jedyna funkcja, która może dotknąć zera wewnątrz zakresu, jest samorelacją, stoi już w 183 („Odczyt [O]”).
+    - **ZLICZENIE, stanowczo:** z zer i biegunów relacji zespołu **nowych warunków: zero**. Jedyne warunki pozostają dwa z 154, na λ — tę samą, którą 208 wskazało jako jedyną ustaloną. Zdanie postawione przed krokiem („każde Ø-miejsce daje jeden warunek, więc warunków jest tyle, ile Ø-miejsc") **upadło**.
+    - **Co to robi ze 183.** 183 [T] stoi bez zmian (w zespole jednopętlowym tylko λ przechodzi przez zero wewnątrz zakresu). Upada **wniosek z niego wyciągnięty**: „granice Ø leżące wewnątrz zakresu są osobnym źródłem warunków" — nie z braku wewnętrznych Ø-miejsc, a dlatego, że **Ø-miejsce sparametryzowane wolną daną jest zamianą współrzędnej**. **Bilans (17 wolnych danych, 208; warunki tylko na λ) stoi — z powodem, nie z zestawienia.**
+    - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* liczyć zero albo biegun relacji jako warunek, jeśli jego podanie jest bijekcją wolnej danej — **bez rachunku**; czytać 208 („wolna dana = stosunek do Ø-miejsca") jako ograniczenie, bo to zamiana współrzędnej; pisać „Ø-miejsce" bez powiedzenia, który to koniec (pułapka 11); wracać do wewnętrznych granic Ø jako do źródła warunków dla zespołu. *Pozwala:* zamknąć krok 2 w całości (drugą połowę zamknęła 223).
+
+- **WARTOŚCI Z „KOŃCÓW” — WĄTEK POBOCZNY, ZAMKNIĘTY (poprawki 148–151; status po 224 i 227) [L][O].** 148–150 szukały warunków ustalających **wartości** stałych na dwóch „końcach”: przy skali Plancka i przy całości. To był skutek błędu z [105] — jedna relacja zamiast zespołu (151); użytkownik (25.09): *„Dlatego szukamy zespołu funkcji.”* Celem jest zespół funkcji [94], a liczby to wartości funkcji w jednym stanie [88]. Do tego skala Plancka ≡ 2D ≡ Ø nie jest punktem na osi biegu, w którym można by postawić warunek, a zera i bieguny relacji nie dają nowych warunków (224).
+  - **Precedensy literatury [L]** (w 154 jako porównanie, nie wynik ramy): Shaposhnikov–Wetterich, Phys. Lett. B 683, 196 (2010), arXiv:0912.0208 — λ w punkcie stałym w zerze przy skali Plancka → m_H ≈ 126 GeV, przed odkryciem, przy założeniu braku skal pośrednich (pustynia [545]); Froggatt–Nielsen, Phys. Lett. B 368, 96 (1996), hep-ph/9511371 — dwie próżnie o równej energii → m_t = 173 ± 5, m_H = 135 ± 9 GeV; Buttazzo i in., JHEP 12 (2013) 089 — zmierzone m_H, m_t przy granicy stabilności. Wszystkie biorą zmierzone sprzężenia cechowania i ustalają jedną–dwie wielkości przy danych pozostałych.
+  - **Całość bez otoczenia nie ustala stałych [L][O] (150).** Henneaux–Teitelboim, Phys. Lett. B 222, 195 (1989): w grawitacji unimodularnej Λ jest stałą całkowania, a funkcja falowa spełnia równanie Wheelera–DeWitta przy dowolnym Λ; Magueijo (arXiv:2104.11529): to samo dla każdej stałej. **Więz Ĥ|Ψ⟩ = 0 nie ustala wartości stałych** — czyni je wielkościami zachowanymi; jedyny warunek z całości to rozdzielczość Λ ~ N^{−1/2} (Sorkin). W ramie: stała nieustalona = superpozycja wartości ≡ Ø [110]; wartość istnieje tylko w odczycie.
+  - **Forma, która zostaje [?]:** stała = relacja członu lokalnego z całością — działanie wielolokalne (Coleman 1988; Kawai–Okada, Prog. Theor. Phys. 127, 689 (2012), arXiv:1110.2303; Hamada–Kawai–Kawana, arXiv:1509.05955), ta sama postać co w R1d (masa = jednostronna relacja z nierozróżnialnym tłem). Bez mechanizmu i bez liczby.
+  - **Pułapka nazewnicza:** „płaski potencjał” (λ ≈ 0) ≠ płaskość 2D.
+
+- **„MASA = MIEJSCE ŁAMANIA SAMOPODOBIEŃSTWA (`n_Λ`)” — PUSTE I SPRZECZNE ZE 152; AUTONOMIĘ ZESPOŁU ŁAMIĄ PROGI (poprawka 225) [T][L][O].** Zdanie [A] z [105]: *„Masa pojawia się tam, gdzie samopodobieństwo się łamie, czyli gdzie logarytm dochodzi do jedności (transmutacja, n_Λ = n·e^{2π/(bα)})”*. Hipoteza nadrzędna to [104] [H] (blok hipotezy wyżej); [94] mówi o zespole funkcji i logarytmie, nie o samopodobieństwie ani łamaniu.
+  - **(a) Puste [T].** „Logarytm dochodzi do jedności” znaczy `(b₀α(n)/2π)·ln(n_Λ/n) = 1` (konwencja `b₀` z R1d-F — uwaga 216), czyli `1/α = 0` w `n_Λ` — ten sam punkt co rozbieżność w 224. Przy `b₀ ≠ 0` odwzorowanie `α(n) ↦ n_Λ/n` jest bijekcją: `α(n) = 2π/(b₀·ln(n_Λ/n))`. „Miejsce łamania” niesie dokładnie wolną daną i nic ponadto.
+  - **(b) Sprzeczne ze 152 [T].** (L) w 152 = niezmienniczość układu względem przesunięcia w `t`. W `1/α₃ = 0` ta niezmienniczość nie pęka: przesunięcie odniesienia przeprowadza rozwiązania w rozwiązania i tylko przesuwa zero. Punkt transmutacji to miejsce, gdzie konkretne rozwiązanie wychodzi poza dziedzinę opisu jednopętlowego — własność rozwiązania, nie złamanie symetrii układu. W odczytaniu konwencjonalnym (anomalia łamie klasyczną niezmienniczość skalową działania) samo biegnięcie jest złamaniem; w ramie samo biegnięcie jest (L) — odniesieniem jest prawo biegu, nie klasyczne działanie (205: z literatury formalizm, nie interpretacja).
+  - **Gdzie (L) zespołu się łamie — trzy niezależne podpory [T][L][O].**
+    1. **Autonomia [T][L].** W schemacie niezależnym od mas funkcje beta bezwymiarowych sprzężeń zależą wyłącznie od bezwymiarowych sprzężeń (Weinberg, PRD 8, 3497 (1973); 't Hooft, Nucl. Phys. B61, 455 (1973)), więc przy ustalonej zawartości pól układ `dX/dt = F(X)` jest **autonomiczny w każdym rzędzie**. Autonomię łamie wyłącznie **zmiana zawartości pól — na progach**, gdzie ciężkie pola się odsprzęgają (Appelquist–Carazzone, PRD 11, 2856 (1975)), a `b_i`, `c_i` skaczą (219: „przy progach zmienia się zawartość sektora"). Progi leżą w `m_i = y_i·v/√2`. W schemacie zależnym od mas autonomię łamie gładko to samo — `m/μ`. **W żadnym schemacie nie łamie jej biegun własnego sprzężenia.**
+    2. **218 [T]** (rachunek użytkownika, `masa/4`–`5`): wspólny logarytm `F → ln r`, `G → 2ln r` — czyli ślad samopodobieństwa — zachodzi **wyłącznie w granicy `η = m/Q₀ → 0`**; przy skończonym `η` wagi są różne (`∂F_i/∂η_i² < 0` z samych propagatorów). Czysty logarytm łamią **masy**.
+    3. **180 pkt 5 [O]:** na parze (M, O), dopóki M jest modułem, *„wnętrze nie ma dla O żadnej skali"*, a *„jedyne, czym skala wnętrza przechodzi do otoczenia, jest liczba własnych tyknięć — jeden czynnik g"* — skala wchodzi **przez masę**.
+    - **Więc: autonomię układu — (L) w sensie 152 — łamią progi, czyli masy.** Zdanie jest prawdziwe, ale **tautologiczne** — skala łamie brak skali z definicji — więc nie daje treści o masie, a [105] nie wraca w nowym odczycie.
+  - **Co z [104] [O].** 206 daje, że masa jest warunkiem 3D i czasu, nie krokiem po nich — to jest zgodne z klauzulą *„masa nie może być oddzielnym, ostatnim etapem”*, nie jest jej dowodem w całości. 207 dotyczy trzech warunków R1a, nie ustalania mas naraz; 212 wyprowadza logarytm z addytywności składania stosunków — to dotyczy (L), nie [104]. [104] czytane jest jako hierarchia węzłów [402, 404] i stoi jako hipoteza — ani dowiedziona, ani obalona.
+  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* umieszczać łamanie (L) w `1/α → 0` albo w `n_Λ` (przeczy 152); czytać „anomalia łamie niezmienniczość skalową” jako zdanie ramy; przypisywać [104] treść „masa = miejsce łamania samopodobieństwa”. *Pozwala:* umieścić złamanie autonomii zespołu w progach (masach), z trzema niezależnymi podporami.
+
+- **OSOBLIWOŚĆ NAVIERA–STOKESA (OpenAI) — WĄTEK ZAMKNIĘTY (poprawka 226) [H][L].** Zdanie użytkownika (6.10): *„Niedawno OpenAI wykazali, że w równaniach Naviera-Stokesa dochodzi do matematycznego załamania ciągłości (singularności) — to jest kolejne miejsce nierozróżnialności."* Wynik: twierdzenie jest **z siłą** dobraną jako reszta skonstruowanego przepływu; bez siły pytanie stoi otwarte, a ten typ wybuchu bez siły nie zachodzi (Constantin–Ignatova–Vicol); dokładnie samopodobny wybuch w NS jest pusty (Nečas–Růžička–Šverák, Tsai); samopodobieństwo konstrukcji wyłania się, gdy dyfuzja osiowa staje się nieodróżnialna od zera — **struktura 160**, nie nowy rodzaj. Do ramy weszła pułapka nazewnicza nr 12 (tabela pułapek). Źródła i kartka: `literatura/navier-stokes.md`. *Zabrania:* cytować wynik OpenAI jako zdanie o NS bez siły. *Pozwala:* czytać osobliwość opisu ciągłego strukturą 160 (człon ≡ 0, wyłaniająca się postać samopodobna) bez pytania o nieskończoności.
+
+- **GRUPA CECHOWANIA I LICZBA POKOLEŃ — wyprowadzenie warunkowe (poprawka 156) [T][L][O][?].**
+  - **Algebra odczytów [T][L]:** odczyty bez kolejności → algebra Jordana (A∘B = ½(AB + BA) przemienny = niezależny od kolejności, R1b-F P2b, [394]; „suma kwadratów = 0 ⇒ wszystkie = 0” = dodatniość, R1c). Klasyfikacja kompletna (Jordan–von Neumann–Wigner 1934): J_n(ℝ), J_n(ℂ), J_n(ℍ), czynniki spinowe (kule), **jeden wyjątek J₃(𝕆)**. R1b wybiera z tej listy: J₂(𝕂) = kula B^{1+dim 𝕂} → B², **B³**, B⁵, B⁹ dla ℝ, ℂ, ℍ, 𝕆; d = 3 ⇔ 𝕂 = ℂ. Hurwitz: ℝ, ℂ, ℍ, 𝕆 = jedyne układy liczbowe, w których stosunki składają się z zachowaniem normy (|xy| = |x||y|) — pełna lista algebr „stosunku stosunków”; 𝕆 największa i zawiera pozostałe.
+  - **Grupa [L][O]:**
+
+| krok | treść | status |
+|---|---|---|
+| 1 | R1b wybiera ℂ (jednostka urojona i); w 𝕆: 𝕆 = ℂ ⊕ ℂ³ | [T] |
+| 2 | przekształcenia 𝕆 zachowujące i: Aut(𝕆) = G₂ ⊃ **SU(3)** | [T] Günaydin–Gürsey, J. Math. Phys. 14, 1651 (1973) |
+| 3 | oktonionowy „kubit” J₂(𝕆) = B⁹ → **Spin(9)** (stabilizator idempotentu w F₄ = Aut J₃(𝕆)) | [T] |
+| 4 | **część Spin(9) zachowująca 𝕆 = ℂ ⊕ ℂ³ = G_SM = (SU(3) × SU(2) × U(1))/ℤ₆** | [L] Dubois-Violette–Todorov–Drenska; Todorov–Dubois-Violette, arXiv:1806.09450; Krasnov, arXiv:1912.11282, doi:10.1063/5.0039941 |
+
+    **W ramie [O]:** grupa cechowania = przekształcenia wyjątkowej algebry odczytów, które **nie odróżniają niczego ponad to, co już odróżnia przestrzeń (ℂ z R1b)**; wymiar 36 → 12 (8 + 3 + 1). ℝ daje tylko {±1}, wykluczone przez P0 (niespójna) — brak cechowania z ℝ, zgodnie z naturą. Alternatywa [L]: Chamseddine–Connes („Why the Standard Model”, 2007): algebra łączna ℂ ⊕ ℍ ⊕ M₃(ℂ) z M₂(ℍ) ⊕ M₄(ℂ), bez 𝕆; 3 = 4 − 1 (lepton = czwarty kolor), liczba pokoleń = wejście.
+  - **Pokolenia [T][L][?]:** **≤ 3:** J_n(𝕆) jest algebrą Jordana tylko dla n ≤ 3 (niełączność 𝕆) [T]; utożsamienie „pokolenia = 3 z J₃(𝕆)” [?] (Dubois-Violette 2016; Boyle, arXiv:2006.16265 — trójkość Spin(8)). **≥ 3:** asymetria [126] wymaga łamania CP (Sacharow), faza nieusuwalna dopiero przy ≥ 3 (Kobayashi–Maskawa) [T][L]. **= 3** warunkowo na utożsamieniu. **Spójność ze 153–154 [O]:** trzy pozadiagonalne oktoniony J₃(𝕆) = 8_v, 8_s, 8_c grupy Spin(8), permutowane przez S₃ (trójkość) [T] = „pokolenia = trzy kopie, zespół ślepy”: funkcje cechowania szanują S₃, łamią ją tylko odczyty jednostronnej relacji z tłem (Yukawy); S₃ = symetria zapachowa ze 154. Potwierdzenie, nie podpora: N_ν = 3 (szerokość Z), ≤ 8 (swoboda asymptotyczna). 3 z J₃(𝕆) (niełączność) ≠ 3 z R1b (tomografia lokalna) — różne źródła, nie utożsamiać.
+  - **Jedno założenie:** odczyty wewnętrzne są oktonionowe. **Napięcie z ramą:** układy oktonionowe nie tworzą złożeń (brak iloczynu tensorowego → P5, P6 nie zachodzą; ¬P5 = „cecha”, 137). (a) rama wyklucza sektor oktonionowy → wyprowadzenie upada (zostaje Connes, 3 niewyprowadzone); (b) sektor oktonionowy = algebra **jednego punktu**, sama nieodczytywalna (≡ Ø, jak faza w punkcie, R1d), odczytywalne tylko jej relacje między punktami (pole cechowania). Rozstrzyga test wierności (157).
+
+- **TEST WIERNOŚCI DLA (b) — według pliku (poprawka 157) [T][L][O].** Zdania pliku użyte: „Dopuszczalne stany” (całkowity brak otoczenia wypada z układu); R1a („O Ø nie da się nic powiedzieć — liczyć wyłącznie w relacji do znanego otoczenia”) + pułapka 1; A1/R5 (dwa pierwotne); „Dalej otwarte” (grupa „w czymś dołożonym → nie wyprowadzona”); „Sito” (stosunek niesprowadzalny ⇒ pierwotnych więcej niż dwa — wynik, nie porażka); „Cel” (nie nowe byty); A0 (liczba, która mogłaby wyjść inaczej).
+
+| zdanie (b) | ¬P | wyklucza się z | wynik |
+|---|---|---|---|
+| **1. w punkcie ≡ Ø** | sektor oktonionowy odczytywalny w punkcie sam z siebie | J₃(𝕆) nie tworzy złożeń z żadnym układem kwantowym (Barnum–Graydon–Wilce, Quantum 4, 359 (2020), arXiv:1606.09331 [T]; wyjątek: składnik czysto klasyczny) → brak możliwego otoczenia → **„całkowity brak otoczenia wypada z układu”** (Dopuszczalne stany); także „cecha” [36, 94] | **PRZESZŁO** |
+| **2. dlaczego 𝕆, a nie ℂ, ℍ, M₃(ℂ)** | — | **źle postawione:** pytanie, jaką algebrą jest Ø w punkcie; plik: „O Ø nie da się nic powiedzieć — liczyć wyłącznie w relacji do znanego otoczenia”. **Pierwsza wersja testu (argument z maksymalności: 𝕆 największe w kierunku Hurwitza, ale J₃(𝕆) nie zawiera J_n(ℂ), n ≥ 4) próbowała rozstrzygnąć od strony Ø — ten sam błąd co poprawka 65.** Postać opisu pośredniego ustala otoczenie = odczytane relacje cechowania (G_SM) | **ŹLE POSTAWIONE** |
+| **3. relacje między punktami odczytywalne** | brak relacji | sektor bez relacji nie ma otoczenia → wypada z układu = (a); istnienie sektora = istnienie jego relacji; rozstrzyga pomiar (kolor odczytywany) | zgodne z plikiem; decyduje obserwacja |
+
+  - **Werdykt (stanowczo):** (1) **grupa cechowania nie wynika z dwóch pierwotnych** (plik, „Dalej otwarte”); 156 wyprowadza ją z elementu spoza porządku i liczności — **wg „Sita” to wynik, nie porażka: pierwotnych jest więcej niż dwa.** (2) **Postać trzeciego elementu jest przez plik ustalona:** nie byt („Cel”), nie odczytywalny w punkcie (wiersz 1) → tylko (b): **milczenie w punkcie, opisywane pośrednio od strony relacji cechowania** (wzór R1d dla fazy). (3) **Którą algebrą opisać to milczenie, ustala otoczenie, nie Ø:** 𝕆 ⊃ ℂ i M₃(ℂ) Connesa opisują to samo otoczenie G_SM. (4) **Różni je kryterium A0** (nie ocena): droga oktonionowa daje liczbę, która mogła wyjść inaczej — pokoleń ≤ 3, z [126] = 3 (obaliłoby ją czwarte pokolenie / N_ν ≠ 3); droga Connesa o pokoleniach milczy (3 = wejście). Wg A0 w sprawie pokoleń komunikacją jest tylko droga oktonionowa; utożsamienie „pokolenia = 3 z J₃(𝕆)” zostaje [?].
+
+- **Uzupełnienie z rozmów (poprawka 158) [H][O]:** (1) **[104] (użytkownik): „[Ø ≡ … ≡ Ø] ≠ R ⊗ R — iloczyn tensorowy relacji przez relację. Czyli świat relacji złożonych z relacji.”** Świat = R ⊗ R (złożenia); J₃(𝕆) nie ma iloczynu tensorowego (Barnum–Graydon–Wilce) → **nie należy do R ⊗ R**, zostaje po stronie nawiasu [Ø ≡ …] = postać (b). Bezpośrednie zdanie użytkownika, mocniejsze niż „Dopuszczalne stany” — wiersz 1 testu (b) przechodzi przez [104]. (2) **Termin „relacja relacji”:** u użytkownika — przestrzeń [78] („przestrzeń to jest relacja relacji”), masa [94], świat R ⊗ R [104]; u asystenta (R1d/133, 152, 154, 156) — węższy odczyt: relacja nieabelowa (pole niosące ładunek), CKM. Niekoniecznie sprzeczne (pole niosące ładunek = relacja wchodząca w relacje), ale **to odczyt asystenta, nie znaczenie nadane przez użytkownika**; do rozstrzygnięcia. (3) **Droga oktonionowa (156–157) nie pochodzi z rozmów** (o 𝕆 i pokoleniach nic poza [94], [126]) — propozycja asystenta + literatura; zasada metody: „nie mnożymy hipotez” → utożsamienie z pokoleniami zostaje [?], jej rozwijanie = dokładanie hipotez.
+
+- **AKCJA SPEKTRALNA CZYTANA KRYTERIUM Z 208 — CO NIESIE CIĘCIE, A CO JEST ODCZYTEM; `Λ` JEST TAM DWOMA OBIEKTAMI (poprawka 209) [L][T][O].** Praca: **zasada akcji spektralnej Chamseddine'a–Connesa** na trójce spektralnej `(A, H, D)` geometrii nieprzemiennej (hep-th/9606001, Commun. Math. Phys. **186**, 731 (1997)); wskazana przez użytkownika, przeczytana w całości. Nitka stoi w pliku od 156–158 (algebra `ℂ ⊕ ℍ ⊕ M₃(ℂ)` jako alternatywa dla drogi oktonionowej) — tam była wymieniona, tu jest czytana.
+  - **Dlaczego ta konstrukcja w ogóle wchodzi do ramy:** nie wymaga rozbicia `g = η + h`, czyli areny z zaburzeniem. Metryka siedzi w `D` (odległość: `d(x,y) = sup{|a(x) − a(y)| : ‖[D,a]‖ ≤ 1}`), **element liniowy jest propagatorem fermionu** (`ds = D⁻¹`), a działanie jest **śladem po widmie**. **Grawitonu tam nie ma:** fluktuacje wewnętrzne `D = D₀ + A + JAJ⁻¹` dają bozony cechowania i Higgsa, a w przypadku przemiennym **znikają tożsamościowo** — grawitacja nie bierze się z falowania `D₀`, tylko z drugiego współczynnika śladu.
+  - **Arena porzucona wewnątrz ich własnej konstrukcji [L].** Zasada (1.8): *„The physical action only depends upon Σ"* — wyłącznie na widmie; autorzy zaznaczają, że jest to **mocniejsze niż niezmienniczość dyfeomorficzna**, bo istnieją rozmaitości izospektralne nieizometryczne. To jest **204 od drugiej strony**: działanie nie zależy od rozmaitości, tylko od zliczenia.
+  - **Sortowanie [T] — kryterium 208 przyłożone do ich wyjścia.** Cięcie wchodzi dokładnie **trzema potęgami**: `Λ⁴` → człon kosmologiczny; `Λ²` → Einstein–Hilbert, a przez relację `μ₀² = 4/(3κ₀²)` **także człon masowy Higgsa, który jest `1/G` co do czynnika**; `Λ⁰` → Yang–Mills, Weyl i `λ`. Czyli: **`1/G`, `μ²` i stała kosmologiczna niosą cięcie i nie są odczytami; sprzężenia cechowania, `λ` oraz współczynniki Weyla i `ξ = 1/6` są od cięcia wolne.** Plik ma ten sam podział własną drogą: **152** wyrzuciło `G` i `Λ` poza zespół („G ustala jednostkę"), **208** wyrzuciło `μ²` („zależy od samej skali cięcia, nie od stosunku dwóch rozdzielczości", 168). Dwie drogi, jeden podział — i to jest cała treść tego wpisu.
+  - **`Λ` jest u nich dwoma obiektami [O].** W sektorze grawitacyjnym jest **cięciem**: tamte wielkości *są* cięciem, usuń je i znikają. W sektorze cechowania jest **punktem odniesienia**: relacje między sprzężeniami i relacja na `λ` są czystymi liczbami, a `Λ` tylko nazywa, gdzie się je nakłada jako warunki brzegowe. A 153 mówi: *„N wartości w jednym (**dowolnym**) punkcie odniesienia — początek nie jest wyróżniony" (165)*. **Żądanie, by punkt odniesienia pokrył się z cięciem, jest żądaniem, by etykieta była skalą** — i to nazywa niezgodność, którą autorzy sami raportują (sektor grawitacyjny chce skali Plancka, sektor cechowania skali o kilka rzędów niższej). Ich propozycja naprawy — zmienić widmo, supersymetria — pracuje w świetle tego na niewłaściwym obiekcie.
+  - **Ziarnistość pada tu przez twierdzenie, nie przez zakaz [L][T].** Obcięcie to `H_Λ = range χ(D/Λ)` — zawężenie przestrzeni Hilberta do podprzestrzeni widma, nie krata. Autorzy: *„superior to the familiar lattice approximation because it does respect the geometric symmetry group. The point is that **finite dimensional noncommutative algebras have continuous Lie groups of automorphisms while the automorphism group of a commutative finite dimensional algebra is necessarily finite**."* Czyli: **obetnij zliczanie i zachowaj przemienność → symetria z konieczności skończona (to jest krata, ziarno, piksel); zdejmij przemienność → obcięcie zachowuje symetrię ciągłą.** **Skończoność zliczania nie wymusza ziarna.** To jest **zewnętrzny mechanizm dla STOP.md pkt 4**, który dotąd był listą zakazanych obiektów („skala dyskretności", „długość Plancka jako jednostka", ℓ, „piksel") bez powodu, skąd się biorą. Biorą się z przemienności przy obcięciu.
+  - **Czego to nie daje [H]:** żadnej liczby, i nie o liczby tu chodzi. Wartości przewidywane przez tę pracę chybiają, autorzy to raportują, i **nie jest to treścią wpisu** — liczby są konsekwencją uczciwej pracy, nie jej miarą (uwaga użytkownika, 2.10). Równania biegu sprzężeń są u nich te same co w zespole §F1, więc po tej stronie nic nowego.
+  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* brać z cudzej pracy wielkość niosącą potęgę cięcia jako odczyt, i traktować `Λ` w takiej pracy jako **jeden** obiekt — cięcie i punkt odniesienia trzeba rozdzielić, zanim się cokolwiek stamtąd weźmie. *Pozwala:* powiedzieć, **dlaczego ziarnistość wraca** — wraca przez przemienność przy obcięciu, a nie z pomiaru; i odrzucić bez rachunku wielkość, która jest potęgą cięcia.
+
+- **Domysł [?]:** definicja masy może powstać razem z warunkiem stabilności węzła (obiekt = stabilna struktura relacji, słownik). **Dopisek (poprawka 169) [O], warunkowo:** „stabilna” po filtrze nie znaczy „stateczna” ([70], [402]) ani „trwająca” (czas = odczyt teraz); zostaje dodatnia forma drugiego rzędu samoodczytu. Wtedy: węzeł w sensie [404] ⇔ m > 0 ⇔ m·E > 0 dla każdego zgięcia (A11d, 169) ⇔ det P > 0 — wnętrze stożka (R1c pkt 3) ⇔ układ spoczynkowy (Wigner, wyżej) ⇔ własna rama (C4a.20, [354]); brzeg (m = 0) = światło, relacja, nie węzeł; poza stożkiem nic (P ≥ 0 — ta sama dodatniość co ρ ≥ 0, R1c pkt 4). **Masa i stabilność węzła w tym sensie to jeden warunek.** To część rzeczywista bieguna √s_R = M_R − iΓ_R/2 (PDG 2024, „Resonances”); trwanie jest osobnym odczytem — część urojona, do której wnosi każdy kanał rozpadu: mion i wolny neutron (Γ > 0) są węzłami (pułapka nr 8, uwaga użytkownika). Strona porządku (poprawki 172–173, A11d): węzeł z m > 0 = para (M, O) z własnymi tyknięciami wewnątrz M; foton = link, relacja bez wnętrza; O czyta tylko całość M, a z masą tyknięcia wnętrza wchodzą do tego, co O czyta.
+
+## A11. Koszt, sztywność, masa [P][T][A]
 
 ### A11a. Koszt pojedynczej relacji [T]
 
@@ -1249,33 +1538,6 @@ Pięciokrotna różnica. Antyłańcuch jest swobodny, więc każda relacja wycin
   - **Z4** odczyt zależy od m i ρ wyłącznie przez ν = m·ℓ: trzy pary (m, ρ) = (0,5; 4), (1; 16), (2; 64) dają identyczny odczyt do 12 cyfr.
 - **Odczyt [O] (poprawiony w 194):** odczytywalna jest **waga zatrzymania na skok** — jako **stosunek dwóch odczytów różniących się głębokością** — „stosunek dwóch stosunków” [94] w najprostszym przypadku. Zgodne z [84]: „żadnych metrów, żadnych sekund, tylko bezwymiarowe stosunki”. **Granica:** stosunek wyznacza ν² tylko wtedy, gdy oba wnętrza są czytane w tym samym miejscu przez tego samego czytającego; porównanie węzłów w różnych miejscach wymaga osobno czynnika czytającego (180, h).
 
-**LOGARYTM NA ROZSIEWIE — RACHUNEK, KTÓRY NIE POWINIEN BYŁ POWSTAĆ (poprawka 182; ranga obniżona poprawką 186) [H][L][P][O].**
-
-> **Wycofanie rangi (186).** Cały ten blok liczy na **rozsiewie do literaturowego 1+1**, czyli na pojemniku. Przegląd 178 wykluczył takie testy wprost („testy na rozsiewie 1+1 przy 170 odpadają”), a użytkownik zapisał to jeszcze przed przeglądem (28.09): „Rozsiewanie punktów zakłada gotową czasoprzestrzeń, która czeka na punkty. […] Logarytm też to pokazuje. Wynik zależy od N, czyli od tego, ile punktów wrzuciliśmy w gotowy obszar. **To odcisk pojemnika, a nie relacji.**” Asystent powtórzył ten rachunek mimo własnego przeglądu (błąd zapisany w 186). **Nic tu nie jest zdaniem o strukturze** — zostają wyłącznie: (a) warunek, że logarytm wymaga multiplikatywności **i** równości wkładów (184a, zdanie o rachunku, nie o rozsiewie), (b) wartość kontinuum S_CHM jako tożsamość [T], (c) to, że przebieg GPU odpada. Blok zostaje w całości, bo własne błędy zapisujemy jawnie.
-
-Propozycja użytkownika (29.09): „liczba miejsc, przez które przechodzi odczyt, rośnie multiplikatywnie z rozdzielczością, nie addytywnie. Jeśli to da się postawić z samej struktury odczytu, logarytm wypadnie sam i nie trzeba go wkładać.” Dotyczy otwartego punktu z 170 (S = a + b·log₂N, b tylko od πR/σ). **Warunek „z samej struktury odczytu” nie został spełniony: rachunek poszedł w rozsiew.**
-- **Postawienie [L][O].** Rozdzielczość w ramie jest zdefiniowana jako logarytm stosunku liczności (R1d: t = ln(n₀/n)), więc „multiplikatywnie z liczbą” znaczy „addytywnie z rozdzielczością” — logarytm nie jest wtedy dokładany, tylko jest samą definicją. Miejscem, przez które przechodzi odczyt, jest **pchnięcie**: hamiltonian modularny diamentu generuje konforemne pchnięcie (Casini–Huerta–Myers, JHEP 1105:036 (2011); dla klina Bisognano–Wichmann), więc energia modularna ε **jest** rapidity. Zdanie do sprawdzenia: S = (gęstość wkładu na jednostkę ε) × (zakres ε), a zakres rośnie jak ln N — to samo źródło co wszystkie logarytmy §F2 (∫du/u = ln N = koszt wskazania ramy; współczynniki 1, ½, 0,834 policzone tą drogą). Zgodne z 178: zakres jest nieograniczony dlatego, że rozsiew ustala relację każdej pary (O = wszystko).
-- **Rachunek [P]** (`etap31_logarytm_zakres.py`, CPU; wersja czynnikowa — jądro iΔ_U odrzucone; N = 512…4096, czyli 0,9 dekady, więc test mechanizmu, nie nowa wartość b; literaturowe 1+1 = narzędzie bez triady, pułapka 5; zdania zapisane przed każdym przebiegiem, historia wersji w nagłówku):
-  - **K (kontrola odtworzenia) PRZESZŁO:** b = 0,160 / 0,417 / 0,528 dla πR/σ = 3,3 / 6,5 / 9,8 wobec 0,19 / 0,45 / 0,60 z 170 (GPU, 1,3 dekady). Uproszczony rachunek odtwarza pomiar, więc mechanizm wolno na nim badać.
-  - **L2 (zakres) PRZESZŁO:** ε_max rośnie o 0,434 na podwojenie N (ln 2 = 0,693; 170: 0,5–0,6) i jest **identyczny dla wszystkich trzech kształtów fali** — rozrzut 0,0%. **Zakres należy do obszaru i gęstości, nie do wzbudzenia.** To jest ta część propozycji, która się potwierdza.
-  - **L1 (płaski rozkład) MIESZANE:** dla fali gładkiej liniowość skumulowanego wkładu rośnie z gęstością (R² 0,90 → 0,97), dla ostrej maleje (0,66 → 0,31).
-  - **L3 i L3′ UPADŁY, z dwóch stron:** ze średnią gęstością iloczyn daje 0,150 / 0,145 / 0,153 — trafia tylko dla najgładszej fali (b = 0,160), dla ostrych chybia trzykrotnie; z gęstością w górnym pasie ε ∈ [ε_max − 1, ε_max] daje 0,743 / 1,629 / 1,744 — przeszacowanie 3,3–4,6×. **L4 UPADŁO w części „gęstość”:** średnia dS/dε jest ta sama dla wszystkich kształtów (0,346 / 0,335 / 0,352), a b różni się trzykrotnie.
-  - **Czego to nie potwierdza:** przy rosnącym N cały rozkład wkładów po ε maleje (średnia gęstość 0,42 → 0,30), zamiast dokładać nowy pas przy ustalonej reszcie. **S nie rozkłada się na (stałą gęstość) × (zakres)** — ani ze średnią, ani z gęstością lokalną przy pułapie.
-  - **L5 (test wprost: czy S zależy od N i obszaru wyłącznie przez ε_max) NIEROZSTRZYGNIĘTE.** Dla dwóch obszarów (V/V_U = 4 i 16, ta sama fala względem obszaru) zakresy ε_max **nie pokrywają się** przy dostępnych N: duży 6,12–7,09, mały 3,48–4,75. Widać za to, że **ε_max jest własnością obszaru, nie samego N**: przy tej samej liczbie elementów w obszarze (N_U = 257 wobec 258) duży ma ε_max = 6,12 i S = 4,79, mały 4,75 i 3,77 — czyli pułap zależy także od tego, jak obszar leży w całości (zgodne z C4a.16 (g): „entropia obszaru zależy od tego, jak obszar leży względem reszty”). Mały obszar ma przy tych N tylko 58–258 elementów, więc jego liczby są zaszumione (przyrosty 1,045 i 0,015). **Błąd asystenta:** test zaprojektowany bez sprawdzenia, czy przedziały ε_max w ogóle się pokryją — przy równych N nie mogły. Rozstrzygnięcie wymaga małego obszaru przy N ≳ 16 000, czyli GPU; wg zasady „duży koszt = sygnał ostrzegawczy” najpierw kartka.
-- **Werdykt (stanowczo; po 186 — wszystko poniżej dotyczy rozsiewu, nie struktury):** (1) na rozsiewie ε_max rośnie logarytmicznie (0,434 na podwojenie) i nie zależy od kształtu wzbudzenia (rozrzut 0,0%) — to jest zdanie o pojemniku, bo „ramy przybywają jak N” znaczy: dorzucamy punkty do gotowego obszaru; (2) **część o stałym wkładzie obalona:** S nie rozkłada się na (stałą gęstość) × (zakres) — ani ze średnią, ani z gęstością przy pułapie; wkład na jednostkę ε maleje z N; (3) zależności b od πR/σ nie niesie ani zakres, ani średnia gęstość — co ją niesie, pozostaje otwarte; (4) logarytm jest zgodny z zakresem pchnięć (§F2, 178), ale **z samego zakresu nie wypada** w postaci, którą tu sprawdzono; (5) **kartka (niżej) daje źródło:** logarytm w N to logarytm stosunku „szerokość wzbudzenia : skala dyskretności” (σ/ℓ), bo przy ustalonym kształcie i obszarze to jedyny parametr, który zmiana N porusza — a to jest propozycja użytkownika w postaci, która się broni.
-- **KARTKA — zrobiona przed dalszym liczeniem (polecenie użytkownika 29.09: „Możesz sprawdzić najpierw na kartce”) [T][P].**
-  1. **Wartość kontinuum jest analityczna.** Dla fali P(u) = z·e^{−z²/2}, z = (u − u₀)/σ, wzór CHM daje S_CHM = π^{3/2}A²(¾·R/σ − ⅞·σ/R), przy całce rozciągniętej do ±∞ (całki Gaussa: ∫e^{−t²}(1−t²)² = ¾√π, ∫t²e^{−t²}(1−t²)² = ⅞√π). Dla R/σ ≳ 2 zgadza się z całką po [−R, R] co do czwartego miejsca. Czyli **S_CHM rośnie liniowo z πR/σ**, ze współczynnikiem ¾√π = 1,329 (rachunek przy πR/σ = 39,3 daje 1,319).
-  2. **Zapis „b = 0,070·S_CHM” z 170 odtworzony niezależnie:** b/S_CHM = 0,0696 i 0,0683 dla πR/σ = 3,3 i 6,5; dla 9,8 spada do 0,0522. **Nasycenie b jest więc odstępstwem od proporcjonalności do kontinuum**, a nie własnością zakresu: S_CHM rośnie liniowo dalej, a b przestaje.
-  3. **Skąd logarytm — analiza wymiarowa.** S jest bezwymiarowe, a na porządku są dokładnie trzy bezwymiarowe parametry: πR/σ (fala wobec obszaru), **σ√ρ = σ/ℓ (szerokość fali liczona w elementach)** i V/V_U (obszar wobec całości). Przy ustalonych pozostałych zmiana N zmienia wyłącznie σ/ℓ, więc **jeśli S rośnie logarytmicznie, to jest to logarytm stosunku „szerokość wzbudzenia : skala dyskretności”** — nie logarytm zakresu pchnięć. *(Analiza wymiarowa ustala zmienną, a nie istnienie logarytmu; drugi warunek — równość wkładów na dekadę — pkt 6, poprawka 184.)* To jest propozycja użytkownika w postaci, która się broni: miejsca, przez które przechodzi odczyt, to elementy, na których wzbudzenie jest rozpisane, a ich liczba rośnie multiplikatywnie z gęstością. Zgodne z T1 z 170: para (U, σ, N) i (U_mały, σ/2, 4N) ma **to samo σ/ℓ** — i zmierzone równe przyrosty.
-  4. **L5 rozstrzygnięte na kartce — bez GPU.** Skoro parametry są trzy, jedna liczba ε_max nie może ich zastąpić: S nie zależy od N i obszaru wyłącznie przez ε_max. Dane to potwierdzają wprost — przy tym samym πR/σ = 6,54 **i** tym samym σ/ℓ = 5,43, ale różnym V/V_U (4 wobec 16), S = 4,785 wobec 3,767 (21%). Przebieg GPU na małym obszarze **odpada jako niepotrzebny**; właściwe pytanie brzmi, co wnosi V/V_U (C4a.16 (g): jak obszar leży wobec reszty).
-  5. **Co z tego zostaje dla 170:** logarytm ma źródło — stosunek dwóch skal samego wzbudzenia (σ : ℓ), czytany przy danym obszarze; zależność b od πR/σ i jej nasycenie to osobne pytanie i pozostaje otwarte. Zakres pchnięć (ε_max) rośnie równolegle, ale nie jest zmienną, przez którą S zależy od N.
-  6. **DWA WARUNKI NA LOGARYTM I WYKŁADNIK PRZY ρ — dwie uwagi użytkownika do tej kartki (poprawka 184) [H][T][O].**
-     - **(a) „Logarytm wypada sam” wymaga dwóch rzeczy, nie jednej** (użytkownik, 29.09): „Multiplikatywny wzrost liczby elementów daje logarytm pod warunkiem, że wkład każdego elementu jest tego samego rzędu — inaczej suma jest zdominowana przez jeden koniec i logarytmu nie ma. W standardowym rachunku ten warunek nazywa się niezależnością od skali wkładu na dekadę i jest osobną własnością. […] logarytm wypada z multiplikatywności plus równości wkładów.” **Punkt 3 tej kartki tego nie rozdzielał.** Poprawnie: analiza wymiarowa ustala **zmienną**, w której logarytm jest liczony (σ/ℓ — jedyny parametr, który zmiana N porusza przy ustalonych πR/σ i V/V_U), ale **nie ustala, że logarytm w ogóle jest**. Istnienie wymaga osobno **równości wkładów na dekadę**, a ta jest w 170 **zmierzona, nie wyprowadzona**: S = a + b·log₂N dla wszystkich 12 wzbudzeń, χ²/st. sw. 0,21–0,66, krzywizna zgodna z zerem (|c| ≤ 1,14σ), na 1,3 dekady bez hamowania. Rachunek CPU z tej kartki (1–2 ziarna) ma na to za małą statystykę. **Bez sprzeczności z etap31:** tam upadła równość wkładów w zmiennej **ε** (energia modularna), a nie w log(σ/ℓ) — to dwie różne zmienne, a wynik etap31 mówi tylko tyle, że ε nie jest tą właściwą.
-     - **(b) Wykładnik przy ρ [T]:** ℓ = ρ^{−1/d}, gdzie d = **wykładnik liczności pojemnika** użytego w rachunku (N ~ L^d; A1 po przeglądzie 178) — nie „liczba wymiarów”, bo 3D ramy nie jest liczbą (pułapka 5, poprawka 185). 170 i ta kartka liczą na rozsiewie do literaturowego 1+1 (d = 2; narzędzie bez triady — pułapka 5): rozsiew do [0,1]² w (u, v) daje ρ = 2N przy mierze dt dx, więc ℓ = ρ^{−1/2} i σ/ℓ = σ√ρ — **świadome i poprawne dla tego narzędzia**. Rozsiew do ℝ^{1,3} ma d = 4, czyli σ/ℓ = σρ^{1/4}; to jest zdanie o pojemniku, a nie o tym, że „wymiarów jest cztery”.
-     - ~~Zdanie do upadku dla rachunku na rozsiewie do ℝ^{1,3}: nachylenie b dwa razy mniejsze (¼ wobec ½).~~ **Wycofane (186):** to była propozycja **kolejnego** rachunku na pojemniku, tyle że z czterema współrzędnymi zamiast dwóch — odpada z tego samego powodu co cały blok (178; użytkownik 28.09: „niezależnie od tego, czy w »1+1«, czy w »3+1«”). Zostaje sama tożsamość ℓ = ρ^{−1/d} jako zdanie o rozsiewie.
-     - **Dwa różne logarytmy, nie jeden [O]:** §F2 pokazało, że logarytm **zakresu pchnięć** jest specyfiką 1+1 (w 3+1 przechodzi w potęgę — przegląd wymiarowy §E). Logarytm **stosunku skal** σ/ℓ jest czym innym i przenosi się na 3+1, tylko z innym wykładnikiem. Te dwa źródła zostały tu rozdzielone dopiero tą poprawką.
-- **Dalej — nie tędy (186):** zależność b od πR/σ i jej nasycenie to stosunek dwóch wielkości pojemnika (tak samo zapisano w przeglądzie 28.09), więc dalsze rachunki tej gałęzi odpadają, w każdej liczbie współrzędnych. Właściwe pytanie stoi gdzie indziej i jest otwarte od 174: **na ile wzbudzenie da się odróżnić od milczenia dla znanego O**, na strukturze z 179 — po wcześniejszym rozstrzygnięciu, czym jest zapis czytającego (172–176).
-
 **STOPNIE WZBUDZENIA DLA ZNANEGO O — STOPIEŃ JEST LICZBĄ, ENTROPIA WZGLĘDNA NIE (poprawka 198) [T][P][O][L].** Krok 1 z „Najbliższych kroków”, otwarty od 174; warunek użytkownika z [137]: „tylko para (M, O), żadnego stanu w środku, żadnego N”. Liczone na strukturze minimalnej (179), dokładnie, na kilku kubitach (`etap32_stopnie_wzbudzenia.py`, CPU, sekundy; cztery zdania zapisane przed przebiegiem, wszystkie przeszły).
 - **Ustawienie.** Nośnik = kubit na linku (179 pkt 6), element = relacja dwóch nośników (179 pkt 7). Nośnik przelotowy A wchodzi do M linkiem brzegowym, spotyka się we wnętrzu z nośnikami, które linku do O nie mają, i wychodzi linkiem brzegowym do O. Sprzężenie: faza na własne tyknięcie (R1f-3). Ø = nośnik wewnętrzny w stanie podstawowym, zawartość = wzbudzony (odczyt (i) z 175). **Stopień: D(M, O) = max po przygotowaniach O z ½‖ρ_O(zawartość) − ρ_O(Ø)‖₁** — kształt D Englerta z 173, tylko między zawartościami, nie drogami (174).
 - **Brzeg pary [T].** Linki między O a M czepiają się wyłącznie min(M) i max(M). Dowód: jeśli o ≺ m, a m nie jest minimalne w M, to istnieje m′ ∈ M, m′ ≺ m; z modułowości o ≺ m′, więc o ≺ m′ ≺ m i (o, m) nie jest linkiem; dualnie dla max(M). □ Stąd liczba nośników przechodzących jest **zliczeniem relacji między M a O**, nie własnością wnętrza.
@@ -1428,7 +1690,7 @@ Propozycja użytkownika (29.09): „liczba miejsc, przez które przechodzi odczy
   **To jest postać „stosunek stosunków” w istniejącym formalizmie:** połączenie masowe wobec dwóch wag kinetycznych. `a_L = a_R` przyjąć nie wolno. **Uwaga na litery:** `a`, `b` jądra (waga kinetyczna, połączenie masowe) to inne obiekty niż `a`, `b` z 181 (skok i zatrzymanie hop-stop): tam iloczyn `a·b` i dwa odczyty o różnej głębokości, tu iloraz `b_Lb_R/(a_La_R)` bez głębokości. Związek z 181 niewykazany.
 - **Przejście A/B: policzony kształt, nie nazwa [T][P][L].** W M8 wcześniejszej mapy czynnik `Z^{AB}` był tylko nazwany ilorazem. Teraz: `C_i^{AB} = 1 + ½Re[Σ^{(A)}_L + Σ^{(A)}_R + χ_L + χ_R]` w jednym rzędzie, a wkład EM policzony z zachowanym licznikiem (`γ^α(k̸+m)γ_α = (2−d)k̸ + d·m`, oba człony `ε`): **`c^{EM} = (α/4π)[4 + 3ln(q²/μ_{B,i}²)]`** — pominięcie skończonego śladu `ε`×biegun zmieniłoby stałą z 4 na 5. W różnicy dwóch leptonów stała 4 i jawne `ln q` **skracają się**:
   `ln R_A = ln R_B − (3α/2π)·ln R_B − Δ^W_{ij} + O(2 pętle)`.
-  **Wkład EM to `α` razy logarytm stosunku dwóch odczytów** — kształt z §E („logarytm stosunku liczebności”), bez cięcia, bez jednostki. **Po kryterium 208 przejście A/B jest więc relacją, nie wielkością.**
+  **Wkład EM to `α` razy logarytm stosunku dwóch odczytów** — kształt „logarytm stosunku liczebności”, bez cięcia, bez jednostki. **Po kryterium 208 przejście A/B jest więc relacją, nie wielkością.**
 - **`Δ^W` jest jawną skończoną całką z istniejącego działania [P][L].** Z `g_Z = √(g₂²+g_Y²)`, `s_W² = g_Y²/g_Z²`, `g_L = g_Z(−½+s_W²)`, `g_R = g_Zs_W²`, `L_{a,i}(x) = ln[(d_{a,i}(x) − i0)/ρ²]` i mianownikami na powłoce `d_{h,i} = 2λx + (y_i²/2)(1−x)²`, `d_{Z,i} = (g_Z²/4)x + (y_i²/2)(1−x)²`, `d_{W,i} = x[g₂²/4 − (y_i²/2)(1−x)]` — **wszystkie wymagane kanały, z wagami z wierzchołków i propagatorów:**
 
   | kanał | zachowany wkład do całki `c_i` (po wyjęciu `1/16π²`) |
@@ -1458,7 +1720,265 @@ Propozycja użytkownika (29.09): „liczba miejsc, przez które przechodzi odczy
 - **[O] Asymetria, której 177 nie niesie:** `Γ` wystarcza **różnica** odpowiedzi obu dróg, ale `Φ` potrzebuje **różnicy i sumy** (`Φ = Im Σ_m ∫_{u>v}[f_1−f_0](u)[f_1+f_0]*(v)`). Więc **droga odniesienia nie jest tożsamością i nie wypada z porównania** — to 200/205 w nowym miejscu: `T_0` nie jest Ø. Promieniowanie **jednej** drogi nie wystarcza do porównania: przy identycznych obiegach oba promieniują (średnia liczność/α = 0,0725), a różnica jest zero.
 - **Zakres:** rachunek gaussowskiego sektora fotonowego przy **zadanych klasycznych prądach**; pełna kwantowa propagacja nośnika, odrzut i pakiet nie są policzone. Skończoność dotyczy `Γ` i fazy krzyżowej, **nie** każdej osobnej punktowej energii własnej — i ta nie jest użyta jako masa. Dokładnego pojedynczego stanu własnego masy w naładowanym sektorze QED nie przyjmujemy (prawo Gaussa, wkłady podczerwone; Buchholz 1986) — biegun perturbacyjny z 166 zostaje użytecznym obiektem rachunku, nie dokładną pojedynczą fazą pary.
 
-### A11e. Równowaga splątania — dlaczego nasz test nie mógł zadziałać [L][A]
+## B1. ħ / masa
+
+Droga istnieje: szachownica Feynmana daje wagę $(im\varepsilon)$ za zwrot; model hop-stop Johnstona robi to na zbiorze przyczynowym (Johnston, Class. Quantum Grav. 25, 202001 (2008), arXiv:0806.3083; przełożone w 168): w literaturowym 1+1 sumy po łańcuchach (skoki po wszystkich relacjach), w ℝ^{1,3} sumy po drogach z linków (skoki po świetle), a = √ρ/(2π√6), b = −m²V₀. **Status [O]:** liczone na rozsiewie, czyli na pojemniku (186) — a i b niosą gęstość ρ i objętość V₀, więc są słownikiem rozsiewu; ramie zostaje forma: jedynym bezwymiarowym parametrem jest a·b, a ten jest odczytem, nie wejściem (181, 206). 3+1 w ℝ^{1,3} to nie 4D, tylko 3D ramy (triada + punkt odczytu; R1c pkt 1, 8), ale liczba osi pojemnika nie jest zdaniem o wymiarze (178, 185); literaturowe 1+1 to narzędzie bez triady (pułapka 5). Odczyt zatrzymań i końców drogi: §F1, 154 pkt 1a.
+
+> **Dopisek v3.3 [L].** Hoyle–Narlikar (1974, streszczone u Johnstona §3.14.3): propagator bezmasowy = ½(opóźniony + przyspieszony), cząstka „przeskakuje” w przyszły albo przeszły stożek — ten sam zygzak. Propagator Feynmana = swobodny + „odpowiedź wszechświata”, pod warunkiem znajomości masy wszędzie.
+>
+> **Kolejność pojęć przed masą [H]:** porządek i liczność → czas, objętość, przestrzenność → relacja t=0 → **pole** (brak) → próżnia → działanie → energia → ładunek, spin → elektron, kwark, gluon → masa. Pole jest najbardziej krytyczne. Energia wg Noether = to, co niezmienione przy przesunięciu wzdłuż porządku — sprinkling nie ma ciągłych symetrii, więc najwyżej zachowanie średnie [A][?].
+
+Rendering liczbowy (elektron: 1 zwrot na 2,39×10²² elementów) **jest przepisaniem $m/m_P$, nie wynikiem.**
+
+Bilans przeliczników: c ✓ (jako przelicznik, nie wielkość mierzona — A2, C4a.13), G ✓, $k_B$ ✓, e ✓, **ħ częściowo**. α nie należy do tej listy (A2).
+
+> **Uzupełnienie v3.2.** Masa nie jest wyprowadzona w tej dziedzinie w ogóle (A11d), więc „ħ częściowo" jest częścią większego braku, nie osobnym punktem.
+
+## Dwa logarytmy z jednego diagramu (poprawka 218)
+
+**DWA LOGARYTMY Z JEDNEGO DIAGRAMU — RÓŻNE WAGI Z JEDNEGO LICZNIKA (poprawka 218) [T][P][L][O].** Z pracy użytkownika `masa/4` + skrypt `masa/5` (24/24). §F2 pytało o **typy** logarytmów (146: S wobec K). Tu jest przypadek, w którym **jeden diagram własnej energii daje dwa różne logarytmy**, i to bez żadnego pojemnika: regulator i jednostka skracają się w różnicy dwóch rozdzielczości.
+
+Po połączeniu mianowników i przesunięciu pędu **nieparzysta część licznika całkuje się do zera**, a zostaje `x·p̸ + m_i` — **to wyznacza dwie wagi: `x` i `1`**. Z `d_i(x;r) = xη_h² + (1−x)η_i² + x(1−x)r²`, `r = Q/Q₀`, `η = m/Q₀`:
+
+**`F_i(r) = ∫₀¹ dx·x·ln[d_i(x;r)/d_i(x;1)]`** (człon kinetyczny, przy `p̸`) · **`G_i(r) = ∫₀¹ dx·ln[d_i(x;r)/d_i(x;1)]`** (człon zmieniający chiralność, przy `m_i`),
+
+a `ΔA_i = (y_i²/32π²)F_i`, `ΔB_i = (y_i²/32π²)G_i`. **Bezwymiarowe, bez regulatora, bez metra** — ale **z zachowanymi mianownikami propagacji**. W zapisie macierzowym `ΔA_L = (1/32π²)Y_e†diag(F_i)Y_e`, a dla R odpowiednio `Y_e diag(F_i)Y_e†`; człon masowy ma elementy `m_i y_i²G_i/32π²` i **nie wolno go zastąpić członem kinetycznym ani pominąć**. `F_i` i `G_i` **nie są** efektami pomiarowymi — własna energia nie jest dodatnim operatorem prawdopodobieństwa.
+
+**[T] Wagi są różne już z samych propagatorów, nie z niedoskonałości aparatu.** Przy ustalonych `r > 1` i `η_h`:
+`∂F_i/∂η_i² = ∫₀¹ dx·x(1−x)[1/d_i(x;r) − 1/d_i(x;1)] < 0`,
+bo dla `0 < x < 1` jest `d_i(x;r) > d_i(x;1) > 0`. **Znak wynika z propagatorów, nie z dopasowania krzywej**; analogicznie dla `G_i` z wagą `1−x`. **Więc przy różnych masach wewnętrznych skończone wagi są różne — i to jest ta sama linia co `β³` z 213: różnica kanałów nie jest artefaktem odczytu.**
+
+**Wspólny logarytm wychodzi dopiero w granicy, i to jest warunek do sprawdzenia.** Dla `η_i, η_h → 0` przy ustalonym `r`: `d_i(x;r)/d_i(x;1) → r²`, więc **`F_i → ln r`, `G_i → 2 ln r`** i `ΔA_L → (ln r/32π²)Y_e†Y_e`. Kontrola numeryczna potwierdziła granice `ln 2` i `2ln 2` (przy `η = 0,001`: 0,693144 i 1,386290). **Zabrania:** brać wspólny logarytm przed kontrolą **obu** rozdzielczości wobec progów — samo duże `Q` nie usuwa wkładu okolicy `Q₀`.
+
+**Krotności kanałów dubletu, z normalizacji wierzchołka i `∫₀¹x dx = ½`** — współczynniki przy wspólnym `ln(Q²/Q₀²)` w członie kinetycznym leptonu, po wyjęciu `y_i²/16π²`:
+
+| kanał wewnętrzny | waga dla `e_L` | waga dla `e_R` |
+|---|---:|---:|
+| `h + e` | 1/4 | 1/4 |
+| `φ⁰ + e` | 1/4 | 1/4 |
+| `φ± + ν_L` (bez Yukawy neutrina) | 0 | 1/2 |
+| **razem** | **1/2** | **1** |
+
+Zgadza się z `γ_L = ½Y_e†Y_e`, `γ_R = Y_eY_e†`. **Krotności odpowiadają istniejącym kanałom dubletu i nie zostały wyprowadzone z przestrzennego 3D ani z liczby parametrów odczytu.** I zakaz nazwany w `masa/6`: **`F_i` i `G_i` są wkładem konkretnego diagramu `h`, a nie zidentyfikowanymi składnikami całej funkcji masy** — nadanie im takiego znaczenia przed zsumowaniem pozostałych kanałów byłoby błędem przekładu.
+
+**Co to wnosi do §F2.** Teza §F2 z v3.4 („wszystkie logarytmy mają jedno źródło”) dotyczyła logarytmów **liczności**. Tu jest logarytm **stosunku dwóch rozdzielczości** o dwóch różnych wagach w jednym obiekcie, i obie wagi pochodzą z licznika propagatora. **Dwa typy z 146 nie wyczerpują więc podziału: wewnątrz jednego typu wagi mogą być różne, a zrównują się dopiero w granicy bez progów.**
+
+---
+
+# IV. OTWARTE
+
+## Dalej otwarte
+
+**Grupa cechowania z porządku.** Nadmiar w samym porządku wymiera jak $n^{2-d}$, więc w d=4 znika. Grupa musiałaby siedzieć w czymś **dołożonym** do elementów — a wtedy nie jest wyprowadzona.
+
+> **Dopisek v3.5 (R1d, punkt otwarty 3; poprawka 142):** fazy na linkach = definicja pola EM jako relacji, więc zarzut „dołożone do elementów” przestaje działać (relacja faz nie jest treścią dołożoną do elementów). **Sama grupa U(1) nadal nie jest wyprowadzona z porządku** — otwarte.
+
+> **Dopisek v3.5 (poprawka 157) [O]:** rama **nie daje** grupy cechowania z dwóch pierwotnych (potwierdzone). Grupa wymaga elementu spoza porządku i liczności — wg „Sita” to wynik, nie porażka (pierwotnych więcej niż dwa). Plik ustala jego postać: nie byt, nieodczytywalny w punkcie (≡ Ø, „Dopuszczalne stany”), opisywany pośrednio od strony relacji cechowania (jak faza w R1d). Warunkowe wyprowadzenie G_SM i 3 pokoleń z tak ujętego elementu: §F1, poprawki 156–157.
+
+> **Dopisek v3.4 [H]:** brakującym składnikiem we wszystkich pięciu miejscach jest **odległość przestrzenna z porządku** (nakładanie przyczynowe, Boguñá–Krioukov 2024/2025), a nie skala nielokalności — patrz C4a.12.
+
+> **Dopisek v3.3 — pole jako faza na zamkniętych drogach [H][L].** W kontinuum fazy na wszystkich pętlach wyznaczają pole (Giles 1981). W porządku nie ma zamkniętych łańcuchów (antysymetria), więc pętla = łańcuchy w przód i wstecz.
+>
+> - **Sverdlov–Bombelli (arXiv:0807.2066) [L]:** lagranżjan Yanga–Millsa przez holonomie między parami + relacje + objętości; natężenie z obiegu po trójce punktów. Holonomie **dołożone do wszystkich par, także przestrzennych**. Przekład z kontinuum, nie wyprowadzenie.
+> - **Pellegrin (Zenodo 10.5281/zenodo.21865788, 2026, bez recenzji) [L]:** pętla zakotwiczona na parze p≺q (dwa łańcuchy) jest **zawsze czysto elektryczna** (biwektor czasopodobny). „Korona” (dwa elementy dolne, dwa górne, pętla zygzakiem, same linki) ma biwektor przestrzennopodobny w 96–99% → treść magnetyczna; w 1+1 waga magnetyczna ≡ 0 (test, który mógł tylko upaść — przeszedł). Liczby koron $N^{2,34}$ wobec elektrycznych $N^{2,51}$, N=250–24000 (×96), dokładne zliczanie; tłumienie znika przy pętlach nie-linkowych i w obszarze wydłużonym; asymptotyka otwarta. Średni zbiór „między linkami” → 3π w d=4 (przypadek graniczny); prawo linków $2-2/d$ potwierdzone w d=3, 4, nie w d=2. **Faza nadal z kontinuum** (zgodność „do precyzji maszynowej” = Stokes dla stałego pola, kontrola kodu, nie fizyka). Żadna suma po pętlach nie jest zbieżna bez reguły wag — brak cięcia.
+> - **Wniosek [A][O]:** treść magnetyczna wymaga **naprzemiennych kierunków relacji**; jednostronne zakotwiczenie daje tylko „czas”.
+> - **Propozycja asystenta WYCOFANA [A]:** faza jako płaszczyzny antysymetrycznej części iΔ (pary ±λ). To są **mody pola skalarnego** (Johnston), bez polaryzacji — pułapka nazewnicza. W d=4 funkcja Greena i tak motywowana kontinuum (przegląd Nomaana 2306.04800).
+> - **Bezpośrednie oddziaływanie [L]:** Johnston §3.14.3 — nielokalność zbioru przyczynowego pasuje do Wheelera–Feynmana lepiej niż opis różniczkowy. Hemion (1988): elektrodynamika Fokkera na lokalnie skończonym porządku, utknął na prędkościach (u nas A2 ma prędkość). **Przeszkoda wg Johnstona: trzeba znać cały zbiór i „odfiltrować” resztę wszechświata = cięcie.** Wheeler–Feynman jest symetryczny w czasie; asymetria z pochłaniacza (kosmologia). Na zbiorze: WF używa części symetrycznej $G_R$, SJ antysymetrycznej. Bauer–Deckert–Dürr–Hinrichs (1306.3756): istotny jest efektywny opis cząstki w otoczeniu.
+> - **Analogia [H]:** jak zachowanie energii — działa lokalnie, nie dla całego wszechświata (brak globalnego wektora Killinga). Całość nie ma otoczenia → nie ma globalnej symetrii ani globalnego cięcia.
+> - **Luka obejmuje całą rodzinę stożka [A]:** superekstensywność z mnożenia się linków (Pellegrin) = ta sama nielokalność co d'Alembertiany; dla skalara załatane zewnętrzną skalą nielokalności.
+
+**Czarne dziury — PYTANIE OTWARTE (użytkownik, v3.4).** „Zbyt wyjątkowe miejsca, żeby je pomijać; na pewno trzeba będzie do tego dojść.” Warunek wstępny (użytkownik): **OTW trzeba najpierw oczyścić z interpretacji** — teoria nie mówi nic o zapadaniu, krzywiznach ani nieskończonych gęstościach; rozpatrywać w ujęciu informacyjnym. Nie rozstrzygać przedwcześnie.
+- > **Po filtrze: A5d (poprawka 159).** Zdanie (1) — przeszło jako bilans (S = molekuły, nie entropia splątania); (2) — przeszło wyłącznie nie wprost, osobliwość ≡ chwila zero; (3) horyzont zdarzeń — **nie przeszedł** (teleologia: „kiedykolwiek” = całość + kierunek), zastąpiony brzegiem lokalnym [460]; zdanie „nie leżą w przeszłości **żadnego** czytającego” niżej — tak samo teleologiczne. Od strony 3D: z zewnątrz obszar bez odczytywalnego zapisu = brzeg 2D ≡ Ø.
+- **OTW bez interpretacji (trzy zdania, do sprawdzenia):** (1) równanie Einsteina jako **równanie stanu** — przepływ energii przez lokalny horyzont = temperatura × przyrost entropii ∝ pole (Jacobson 1995); (2) osobliwość jako **niekompletność** krzywych przyczynowych — łańcuchy urywające się bez elementu końcowego (twierdzenia Penrose'a–Hawkinga), nie gęstość; (3) horyzont jako **brzeg przeszłości** obszaru dalekich obserwatorów — definicja czysto porządkowa. → Czarna dziura = obszar, którego zdarzenia **nie leżą w przeszłości żadnego czytającego z zewnątrz**: zawarte, ale nieodczytywalne.
+- **„Osobliwość informacyjna” [L]:** jednego ustalonego pojęcia nie znaleziono; najbliższe: **Stoica** (osobliwości „łagodne” = metryka zdegenerowana, składowe skończone; opis bez nieskończoności, przedłużenie poza osobliwość, redukcja wymiaru; arXiv:1507.03131); **teoria uczenia osobliwego** (Watanabe, poprawka 169: dosłownie nierozróżnialne są tylko rozkłady z W₀ = {K = 0} — różne parametry, ten sam rozkład; zdegenerowana metryka Fishera = nierozróżnialność tylko do drugiego rzędu, KL rośnie wyższą potęgą, rozkłady rozróżnialne); **fuzzballe** (horyzonty i osobliwości jako skutek za małej liczby stopni swobody w opisie). Wspólne: osobliwość = **miejsce utraty rozróżnialności** — to jest ≡ z łańcucha Ø *(dosłowne ≡ tylko tam, gdzie entropia względna = 0; utrata rozróżnialności do drugiego rzędu to jeszcze nie ≡ — poprawka 169)*.
+- **Trzy możliwe odczyty (bez rozstrzygnięcia):** (a) **agregat informacyjny** — maksymalna entropia przy danym brzegu (Bekenstein–Hawking: entropia ∝ pole horyzontu, nieprzekraczalna); (b) **stabilizacja wzrostu** — lokalne zamknięcie mieszania (ujednolicenie z R2) brzegiem odczytywalności; (c) **coś innego** — np. zdegenerowanie metryki (Stoica).
+
+**Co odróżnia pola: czy relacja wraca do siebie [H].** „Pole = struktura, w której wzbudzenia są możliwe” nie odróżnia pól. Hipoteza (rozmowa 5, niepoliczona): nie wraca do siebie → grupa abelowa U(1) (foton, rozchodzi się swobodnie); wraca → nieabelowa SU(3) (gluon, zamyka się). Kontekst: C4a.13.
+
+> **Dopisek v3.5 (R1d; poprawka 142) [L][O]:** przełożone. Nie wraca: F = dA — relacja nie niesie ładunku, abelowa (elektron = relacja). Wraca: F = dA − ig[A,A] — relacja relacji, nieabelowa (kwark). Rozstrzygnięte przekładem; na porządku niepoliczone (wagi obiegów = „działanie”).
+
+**Czy stosunek otoczenia do Ø jest niezmiennikiem wzrostu.** Warunek wstępny dla przenoszenia między otoczeniami. **Po R2 wiadomo, że to jest to samo pytanie co retrospekcja chwili zero.** Niebadane.
+
+**Czy prawo $n^{k-(k-1)d}$ jest w literaturze.** Nie ma go u Minza 2410.02862. **[L] Johnston, doktorat (arXiv:1010.5514, §4.2.1):** pomysł Rideouta — materia jako klasy elementów o identycznych relacjach („pary niehegelowskie”) = bliźniaki z A3a; pojęcie starsze niż Minz, ale wykładnika nadal nikt nie podał. Do sprawdzenia: Minz, arXiv 2406.14533.
+
+Uwaga: szukamy w tym, co **już jest**. Trzy powody, dla których stosunek mógł nie wyjść: nikt nie zauważył; uznano za mało istotne; **albo z nieporządku nie chciało wyjść**. W v3.2 doszedł czwarty, częstszy od tamtych: **zauważono i opublikowano, a myśmy nie sprawdzili.**
+
+---
+
+# V. GAŁĘZIE ZAMKNIĘTE — ZAPIS RACHUNKÓW (status: `STOP.md`)
+
+> Rachunki na strukturach generowanych (rozsiew, reguły wzrostu) i estymatory wymiaru na nich mierzą pojemnik, nie strukturę (178, 186; `STOP.md`). Zostają jako zapis tego, co sprawdzono i dlaczego odpadło; co z każdej gałęzi przeszło do ramy, mówi jej status.
+
+## A9. Niezmienniki zmierzone na rozsiewie (v3.2) — gałąź zamknięta
+
+Cztery wielkości policzone w rozmowie 4, wszystkie na sprinklingu do diamentu. **Status (`STOP.md`; 178, 185, 186):** rozsiew jest pojemnikiem, a estymatory wymiaru na nim (A9d–A9f) mierzą liczbę osi pojemnika, nie wymiar ramy (3D ramy: R1b). Wyniki zostają jako zapis rachunków i kontroli narzędzia („Trafione przewidywania o narzędziu”); reguła z poprawki 16 (każdy parametr ustawiony ręcznie trzeba przeskanować) stoi w §E.
+
+### A9a. f jest niezmiennikiem tylko porządków rozmaitościowych [P][A]
+
+**Wartość.** Przy wyrównanym obciążeniu (SIS-20000, 3 losowania):
+
+| n | 80 | 160 | 320 |
+|---|---|---|---|
+| f, sprinkling d=4 | 0,642 | 0,659 | 0,654 |
+| f, Kleitman–Rothschild | 0,563 | 0,610 | 0,650 |
+
+Sprinkling jest **płaski w n**. KR **pełznie i nie ma wartości granicznej**.
+
+Ostrzej, bez pośrednictwa $d_{MM}$: sprinkling o ułamku uporządkowania 0,377 (tyle co KR) ma f≈0,455; KR ma 0,645. **Przy identycznej liczbie par uporządkowanych KR zapomina o 43% więcej.** Para (ułamek, f) rozdziela to, czego sam ułamek nie rozdziela.
+
+**Kontrola wypisana przed rachunkiem i NIEPRZESZŁA (ważne):** asystent przewidział, że KR ma „prawie wszystkie pary przestrzenne", więc f > 0,76. To było **złe na kartce**: KR ma ułamek uporządkowania **3/8 = 0,375**, czyli jest bardziej uporządkowany niż sprinkling d=3 i d=4. Poprawiona kontrola przed rachunkiem: jeśli KR leży na krzywej sprinklingowej, $(1-f)d$ ma wyjść 1,24–1,28. **Wyszło 0,841. Nie leży.**
+
+**Co by obaliło.** f(KR) zbieżne do wartości granicznej przy większym n; albo KR lądujący na krzywej sprinklingowej.
+
+**Konsekwencja dla ramy:** transport między otoczeniami wymaga nie wspólnej miary otoczenia, lecz **wspólnej niezależności od n**. KR nie odpada dlatego, że ma inną liczbę — odpada dlatego, że **nie ma liczby**.
+
+> **POPRAWKA nr 15 (asystent, v3.2, po sprawdzeniu literatury) — perkolacja.** dotyczy zdania z **roboczej wersji v3.2**, które do pliku nie weszło: „rozdzielenie jest stopniowalne, nie binarne — perkolacja p=0,02 siedzi blisko krzywej". Zachowane jako ostrzeżenie: **to był znany fałszywy alarm, nie stopniowalność.**
+>
+> Glaser i Surya wzięli dokładnie te parametry perkolacji, dla których Ahmed i Rideout twierdzili rozmaitościowość (Myrheim–Meyer d≈3 albo 4), i stwierdzili, że **nie przechodzą testu liczebności interwałów** dla żadnego d. Wskaźniki makroskopowe mówią „rozmaitościowa", mikroskopowy mówi „nie".
+>
+> $(1-f)\cdot d$ jest wskaźnikiem **makroskopowym** i dzieli tę słabość. Potwierdzone własnym rachunkiem: perkolacja ma maksimum $N_m$ przy **m=2–3**, nie przy m=0. Płasko nierozmaitościowa, bez gradacji.
+
+### A9b. Walidacja generatorów wobec opublikowanych sygnatur [P][L]
+
+| struktura | $N_0$ | $N_{1..6}$ | maksimum |
+|---|---|---|---|
+| sprinkling d=2, d=4 | duże | malejące | **m=0** |
+| Kleitman–Rothschild, n=1000 | 124 821 | **0** | m=0, ale bez interwałów |
+| perkolacja p=0,005…0,03 | — | — | **m=2–3** |
+
+Zgadza się z opisem Glasera i Suryi: KR ma dużo linków, ale prawie żadnych interwałów dwu- i trzyelementowych; perkolacja ma maksimum przy m>0 w przeciwieństwie do płaskiej czasoprzestrzeni. Zmierzone $N_m/N_0$ leżą **poniżej** granicy asymptotycznej i zbliżają się powoli — zgodnie z ich uwagą, że zbieżność jest wielomianowa i granicy nie da się sprawdzić numerycznie.
+
+**Kontrola przeszła: generatory odtwarzają cudze wyniki.**
+
+### A9c. Podział konforemny — zmierzony [P][A]
+
+**Odkształcenie konforemne** = zmiana gęstości sprinklingu przy ustalonym n i niezmienionych stożkach. Parametr λ, waga $1+\lambda h$; $h$ promieniowe (parzyste względem $t\to1-t$) w teście, czasowe (nieparzyste) w kontroli.
+
+**Kontrola.** Dla odkształcenia nieparzystego $\log e(\lambda)=\log e(-\lambda)$ **dokładnie**, bo $e(P^*)=e(P)$. Współczynnik liniowy musi być zerem. Zmierzono **−0,13 ± 2,5**. ✔
+
+**Wynik 1 — rodzina objętości.** Dla odkształcenia parzystego współczynnik liniowy $\log e(C)$ wynosi **+44,20 ± 2,5**, czyli **18σ**. $\log e(C)$ reaguje na czynnik konforemny.
+
+**Wynik 2 — rodzina stożka.** Próg $k^*$ (A9d) pod tym samym odkształceniem:
+
+| d | λ | k=1 | k=2 | k=3 | k=4 |
+|---|---|---|---|---|---|
+| 2 | −0,9 / 0 / +0,9 | +0,291 / +0,292 / +0,143 | **−0,057 / −0,009 / +0,009** | | |
+| 3 | −0,9 / 0 / +0,9 | +0,531 / +0,515 / +0,497 | +0,205 / +0,170 / +0,186 | **−0,072 / −0,114 / +0,033** | |
+| 4 | −0,9 / 0 / +0,9 | +0,641 / +0,676 / +0,661 | +0,399 / +0,389 / +0,462 | +0,059 / +0,063 / +0,118 | **−0,049 / +0,003 / +0,048** |
+
+**Próg stoi na d przy każdym λ.** Wartości $|klasa|$ przy k=1 zmieniają się między skrajnymi λ 2,68× (d=2), 1,70× (d=3), 1,60× (d=4) — **wartości płyną, próg nie**.
+
+**To jest kryterium sortujące z §R4, zmierzone po obu stronach.** Jedna wielkość reaguje 18σ tam, gdzie druga nie drga.
+
+**Czego to NIE pokazuje.** Odkształcenie gęstości jest z konstrukcji konforemnie płaskie. Wynik mówi, że $k^*$ **ignoruje czynnik konforemny** — nie mówi, że widzi cokolwiek poza d.
+
+### A9d. $k^*=d$ — próg zamiast wykładnika [P][A]
+
+**Konstrukcja.** Obserwator = łańcuch („linia świata"). Sygnatura elementu x względem łańcucha = liczba jego elementów w przeszłości x (pozycja cięcia). To jest dyskretna wersja **współrzędnych emisyjnych**: cztery przyszłe stożki świetlne przecinają się generycznie w jednym zdarzeniu, i tak działa relatywistyczny system pozycyjny. Trzy tory wyznaczają zdarzenie z dokładnością do jednoparametrowej rodziny.
+
+**Wartość.** Wykładnik wzrostu $|klasa|\sim n^\beta$ wyłącza się dokładnie przy k=d: dwa tory w d=2, trzy w d=3, cztery w d=4 (tablica w A9c).
+
+**Kontrole.** Antyłańcuch → zero informacji przy każdym rozmiarze fragmentu. Łańcuch (d=1) → γ = 0,980 wobec 1/d = 1. Kleitman–Rothschild → $m^*$ idzie 19→29 przy szesnastokrotnym wzroście n, czyli $\sim\log n$, a nie $n^{1/d}$ — **trzecia niezależna obserwabla dająca ten sam podział rozmaitościowe / nierozmaitościowe**.
+
+**Dlaczego to jedyny estymator trafiający w d=4.** Cztery policzone w tej sesji:
+
+| estymator | odczyt przy d=4 |
+|---|---|
+| Myrheim–Meyer | 4,10 |
+| β (wyostrzanie rankingu, A9e) | −0,313 → d≈3,2 |
+| γ (kolano nieodróżnialności, A9e) | 0,345 → d≈2,9 |
+| **$k^*$ (tory)** | **4, dokładnie** |
+
+Tamte trzy **dopasowują wykładnik**, ten odczytuje **przejście**. Przejście jest liczbą całkowitą i nie da się go przesunąć o kilkanaście procent.
+
+> **POPRAWKA nr 16 (asystent, v3.2) — L nie jest parametrem wolnym, ale związanie samego skalowania nie wystarcza.**
+>
+> Pierwsza wersja rachunku dawała L (liczbę elementów na tor) z ręki. Przy L=60 **dwa tory wystarczały w każdym wymiarze** — ale to było czyste przegródkowanie: 61² komórek na 121 kandydatów. **Linia świata w zbiorze przyczynowym jest zrobiona z elementów tego samego zbioru, więc nie może być próbkowana gęściej niż skala dyskretności:** $L\sim n^{1/d}$.
+>
+> Po związaniu skalowania test zaczął mierzyć geometrię. **Ale stała przy L została na 1 i nie była sprawdzana** — i to ona niosła wynik w rachunku fali pp (§D). Poprawka przeniosła błąd o piętro: skalowanie dobre, przedczynnik wolny.
+>
+> **Reguła: związać skalowanie to za mało. Każdy parametr, który sam sobie ustawiłeś, trzeba przeskanować.**
+
+**Trzy fikołki w tym rachunku, wszystkie własne:** (1) nadajniki na stałym promieniu w losowych kierunkach — w d=2 kierunki są dwa, więc się nakładały i k=1,2,3 dały identyczny wynik; poprawione na wierzchołki sympleksu; (2) tory pokrywały tylko środek obszaru, więc elementy spoza zasięgu miały jednakową zdegenerowaną sygnaturę i dominowały średnią geometryczną; poprawione przez ograniczenie do odbierających z każdego toru; (3) L jako parametr wolny, wyżej.
+
+### A9e. β i γ — ta sama liczba czytana dwa razy [P][A]
+
+**β** = wykładnik wyostrzania rankingu przestrzennego: dla k najbardziej nakładających się nieporównywalnych partnerów selektywność (średnie $|\Delta x|$ w N podzielone przez średnie po wszystkich nieporównywalnych) poprawia się jak $n^\beta$. **Niezależny od k**: rozrzut po k rozciągniętym dziesięciokrotnie (3→30) wynosi 0,002–0,011.
+
+**γ** = wykładnik położenia kolana krzywej nieodróżnialności: $m^*\sim n^\gamma$, gdzie $m^*$ to rozmiar fragmentu, przy którym $|klasa|$ siada na 1.
+
+| d | β | γ | suma | −1/d, +1/d |
+|---|---|---|---|---|
+| 2 | −0,506 | +0,509 | +0,003 | ∓0,500 |
+| 3 | −0,374 | +0,359 | −0,015 | ∓0,333 |
+| 4 | −0,313 | +0,345 | +0,032 | ∓0,250 |
+
+$\beta+\gamma\approx0$. Dwie obserwable, dwie różne metody, osobne przebiegi — obie mierzą skalę dyskretności $n^{-1/d}$ i obie odchylają się od $1/d$ tak samo przy rosnącym d. **Artefakt jednego estymatora nie powtórzyłby się w drugim.** To wzmacnia diagnozę skończonego rozmiaru, a nie wynik.
+
+**Co by obaliło.** β zależne od k. Albo $\beta+\gamma$ istotnie różne od zera.
+
+**Status prawa $\beta=-1/d$:** trafia w d=2 (−0,506 wobec −0,500), chybia o 12% przy d=3 i 25% przy d=4. Diagnoza: przy n=1600 w d=4 przez diament mieści się $n^{1/4}=6{,}3$ długości dyskretności, a przy d=2 mieści się 40.
+
+> **POPRAWKA nr 18 (asystent, v3.2) — d=2 nie nadaje się na przypadek walidujący.**
+>
+> Przez dwie sesje d=2 było traktowane jako wzorcowe, bo tam prawa trafiały. Tłumaczono to statystyką. To było prawdziwe, ale niepełne: **d=2 jest zdegenerowane strukturalnie w co najmniej trzech opublikowanych sensach naraz.**
+>
+> 1. Wymiar porządkowy równa się wymiarowi Minkowskiego **tylko** przy d=2 (Meyer 1993).
+> 2. Automorfizmy przyczynowe są tam odwzorowaniami konforemnymi; dla $n\ge3$ twierdzenie Zeemana czyni je sztywnymi.
+> 3. U Glasera–Suryi $S^2_m=1$ niezależnie od m — ich odcisk degeneruje się akurat w d=2.
+>
+> **Każde prawo postaci $a+b/d$ albo $a+bd$ przechodzące przez d=2 i chybiające przy d=4 trzeba czytać ostrożniej**: może trafiać w d=2 z powodu degeneracji, a nie z powodu prawa. Dotyczy to $\beta=-1/d$ i $\gamma=+1/d$ wprost.
+
+### A9f. Obserwatorzy wybrani z samego porządku [P][A] — bez współrzędnych
+
+Pierwszy rachunek w projekcie, w którym **nie ma ani jednej współrzędnej**: łańcuchy wybrane z porządku (najdłuższe ścieżki), sygnatura z porządku, klasy z porządku.
+
+Ilorazy kolejnych k — o ile każdy następny obserwator poprawia rozdzielczość, n=4000:
+
+| struktura | 1→2 | 2→3 | 3→4 | 4→5 | 5→6 |
+|---|---|---|---|---|---|
+| sprinkling d=2 | 1,76 | 1,26 | 1,08 | 1,02 | **1,01** |
+| sprinkling d=3 | 6,34 | 2,41 | 1,48 | 1,27 | **1,12** |
+| sprinkling d=4 | 3,82 | 2,93 | 2,05 | 1,52 | **1,35** |
+| **Kleitman–Rothschild** | 2,12 | 1,94 | 1,83 | 1,77 | **1,72** |
+
+Sprinklingi **nasycają się**. KR **nie nasyca się nigdy** — każdy następny obserwator płaci tyle samo.
+
+**Znaczenie [O].** Struktura, która się nasyca, ma coś, co można wyczerpać — i to „coś" nazywa się potem wymiarem. Struktura, która się nie nasyca, tego nie ma. **Zakres:** na rozsiewie tym „czymś” jest liczba osi pojemnika, w który wsypano punkty — czyli założenie, nie wynik (178, 185).
+
+**Czego to NIE pokazuje.** Rozstawienie obserwatorów z porządku wyszło **gorsze** niż ręczne: przy d=4 i k=4 zostaje $|klasa|\approx23$, podczas gdy sympleks we współrzędnych daje ~3. Dwa kryteria wyboru („najdłuższy łańcuch", „zasiew z antyłańcucha") są obie gorsze od ręcznego. **Pytanie, czy trzy dobrze wybrane tory dorównują czterem ustawionym ręcznie, pozostaje otwarte** — i jest to brak metody wyboru, nie wynik.
+
+## A10. Entropia kieszeni — stan SJ [P][L]
+
+**Stan Sorkina–Johnstona jest próżnią wyprowadzoną z samego porządku.** Nie wkłada się go: bierze się retardowaną funkcję Greena (w d=2 dla pola bezmasowego $K_R=\tfrac12 C$, gdzie C to macierz przyczynowa), stąd $i\Delta=i(K_R-K_R^{\mathsf T})$, hermitowską, i stan jako **dodatnią część jej widma**. Jest kowariantnie i jednoznacznie określony w każdej czasoprzestrzeni globalnie hiperbolicznej.
+
+To jest **punkt 5 z tabeli R3 — próżnia jako porządek referencyjny — policzony.**
+
+**Kontrole, które przeszły.** $i\Delta$ hermitowska dokładnie. Widmo symetryczne względem zera (197/197 przy n=400). Warunek SJ $W-\bar W=i\Delta$ do $10^{-14}$. W dodatnio półokreślona. **Niezmienniczość względem odwrócenia czasu: różnica dokładnie zero.**
+
+**Kontrola nieplanowana, która przeszła.** Widmo uogólnionego zagadnienia $Wv=i\lambda\Delta v$ chodzi **parami $\lambda$ i $1-\lambda$** (−15,2507 z +16,2507; −7,3948 z +8,3948; …), żadna nie wpada do (0,1). Dzięki temu $\sum\lambda\ln|\lambda|$ zwija się do standardowej entropii gaussowskiej $\sum_{\lambda>1}[\lambda\ln\lambda-(\lambda-1)\ln(\lambda-1)]$. Parowanie **przeżywa obcięcie dokładnie** (błąd $10^{-15}$), więc wzór jest poprawny także w wersji obciętej.
+
+**Te $\lambda$ są widmem modularnym** — czyli „hierarchią korelacji" z punktu 4 listy otoczeń.
+
+**Wartość.** Skalowanie z N dla poddiamentu: wykładnik **+1,057**. **Prawo objętościowe.**
+
+> **To jest znany wynik, nie usterka implementacji [L].** Entropia na zbiorze przyczynowym daje prawo objętościowe zamiast powierzchniowego; do odzyskania powierzchniowego potrzebne jest obcięcie widma.
+>
+> **I ma opublikowaną diagnozę, znalezioną w v3.2:** stan SJ **nie jest hadamardowski na brzegu kieszeni** (praca z 2024 o własności hadamardowskiej w czterowymiarowym diamencie), a osobliwe cechy entropii splątania w teorii zbiorów przyczynowych są tam badane **jako możliwy skutek niehadamardowości**. Poprawką jest **zmiękczony stan SJ**.
+
+**Trzy próby obcięcia, wszystkie nieudane [P]:**
+
+| schemat | wynik |
+|---|---|
+| ułamek modów globalnych | wykładnik 1,057 → 0,948 → 1,078, potem entropia zapada do zera |
+| ułamek modów podobszaru | 1,07 → 0,65, nigdy 0 |
+| stała liczba modów | S maleje z N **i z rozmiarem obszaru** (−1,08 względem $\log a$) — niefizyczne |
+
+**Diagnoza [P].** Przy n=262144 entropia w funkcji liczby zachowanych modów jest **liniowa w k**: 0,089 na mod przy k=8 i 0,081 przy k=48. Każdy zachowany mod wnosi tyle samo. Stąd **żadne obcięcie liczące mody nie może dać prawa powierzchniowego**: przy liczbie modów skalującej się z obszarem wychodzi objętość, a przy stałej — entropia nie rośnie z obszarem. Opublikowana recepta musi wybierać mody przez porównanie z widmem kontinuum, a nie przez ich liczbę.
+
+**Twarde zatrzymanie, nie brak cierpliwości.** Bez analitycznego widma Pauliego–Jordana nie ma tu dalszej drogi.
+
+## A11e. Równowaga splątania — dlaczego nasz test nie mógł zadziałać [L][A]
 
 **Jacobson (PRL 2016):** entropia splątania w małych kieszeniach przyczynowych jest maksymalna **przy ustalonej objętości** w lokalnie maksymalnie symetrycznej próżni; półklasyczne równanie Einsteina zachodzi dla wariacji pierwszego rzędu **wtedy i tylko wtedy**, gdy ta entropia jest stacjonarna. Wzrost entropii materii musi być skompensowany spadkiem entropii geometrii, a żądanie znoszenia się daje równanie Einsteina.
 
@@ -1480,110 +2000,131 @@ Piąte, mniejsze: konforemne pole Killinga kieszeni **znika w obu wierzchołkach
 >
 > **Dopisek (poprawka 169):** „obcięcie dające prawo powierzchniowe” jest po 51 źle postawione — logarytm po obcięciu liczy mody globalne, nie pole (C4a.16e; „entropia jest efektem, nie prawem”). Składnik drugiego rzędu bez cięcia: entropia względna Arakiego / informacja Fishera — A11d, blok 169; na zbiorach przyczynowych policzona w literaturowym 1+1 (poprawka 170) — nie niesie obcięcia, ale rośnie jak ln N; test tutaj przez nią zablokowany, dopóki źródło logarytmu nieustalone.
 
----
+## Logarytm na rozsiewie — gałąź wycofana (poprawki 182, 184, 186)
 
-# §B — CZĘŚCIOWO
+**LOGARYTM NA ROZSIEWIE — RACHUNEK, KTÓRY NIE POWINIEN BYŁ POWSTAĆ (poprawka 182; ranga obniżona poprawką 186) [H][L][P][O].**
 
-## B1. ħ / masa
+> **Wycofanie rangi (186).** Cały ten blok liczy na **rozsiewie do literaturowego 1+1**, czyli na pojemniku. Przegląd 178 wykluczył takie testy wprost („testy na rozsiewie 1+1 przy 170 odpadają”), a użytkownik zapisał to jeszcze przed przeglądem (28.09): „Rozsiewanie punktów zakłada gotową czasoprzestrzeń, która czeka na punkty. […] Logarytm też to pokazuje. Wynik zależy od N, czyli od tego, ile punktów wrzuciliśmy w gotowy obszar. **To odcisk pojemnika, a nie relacji.**” Asystent powtórzył ten rachunek mimo własnego przeglądu (błąd zapisany w 186). **Nic tu nie jest zdaniem o strukturze** — zostają wyłącznie: (a) warunek, że logarytm wymaga multiplikatywności **i** równości wkładów (184a, zdanie o rachunku, nie o rozsiewie), (b) wartość kontinuum S_CHM jako tożsamość [T], (c) to, że przebieg GPU odpada. Blok zostaje w całości, bo własne błędy zapisujemy jawnie.
 
-Droga istnieje: szachownica Feynmana daje wagę $(im\varepsilon)$ za zwrot; model hop-stop Johnstona robi to na zbiorze przyczynowym (Johnston, Class. Quantum Grav. 25, 202001 (2008), arXiv:0806.3083; przełożone w 168): w literaturowym 1+1 sumy po łańcuchach (skoki po wszystkich relacjach), w ℝ^{1,3} sumy po drogach z linków (skoki po świetle), a = √ρ/(2π√6), b = −m²V₀. **Status [O]:** liczone na rozsiewie, czyli na pojemniku (186) — a i b niosą gęstość ρ i objętość V₀, więc są słownikiem rozsiewu; ramie zostaje forma: jedynym bezwymiarowym parametrem jest a·b, a ten jest odczytem, nie wejściem (181, 206). 3+1 w ℝ^{1,3} to nie 4D, tylko 3D ramy (triada + punkt odczytu; R1c pkt 1, 8), ale liczba osi pojemnika nie jest zdaniem o wymiarze (178, 185); literaturowe 1+1 to narzędzie bez triady (pułapka 5). Odczyt zatrzymań i końców drogi: §F1, 154 pkt 1a.
+Propozycja użytkownika (29.09): „liczba miejsc, przez które przechodzi odczyt, rośnie multiplikatywnie z rozdzielczością, nie addytywnie. Jeśli to da się postawić z samej struktury odczytu, logarytm wypadnie sam i nie trzeba go wkładać.” Dotyczy otwartego punktu z 170 (S = a + b·log₂N, b tylko od πR/σ). **Warunek „z samej struktury odczytu” nie został spełniony: rachunek poszedł w rozsiew.**
+- **Postawienie [L][O].** Rozdzielczość w ramie jest zdefiniowana jako logarytm stosunku liczności (R1d: t = ln(n₀/n)), więc „multiplikatywnie z liczbą” znaczy „addytywnie z rozdzielczością” — logarytm nie jest wtedy dokładany, tylko jest samą definicją. Miejscem, przez które przechodzi odczyt, jest **pchnięcie**: hamiltonian modularny diamentu generuje konforemne pchnięcie (Casini–Huerta–Myers, JHEP 1105:036 (2011); dla klina Bisognano–Wichmann), więc energia modularna ε **jest** rapidity. Zdanie do sprawdzenia: S = (gęstość wkładu na jednostkę ε) × (zakres ε), a zakres rośnie jak ln N — to samo źródło co wszystkie logarytmy §F2 (∫du/u = ln N = koszt wskazania ramy; współczynniki 1, ½, 0,834 policzone tą drogą). Zgodne z 178: zakres jest nieograniczony dlatego, że rozsiew ustala relację każdej pary (O = wszystko).
+- **Rachunek [P]** (`etap31_logarytm_zakres.py`, CPU; wersja czynnikowa — jądro iΔ_U odrzucone; N = 512…4096, czyli 0,9 dekady, więc test mechanizmu, nie nowa wartość b; literaturowe 1+1 = narzędzie bez triady, pułapka 5; zdania zapisane przed każdym przebiegiem, historia wersji w nagłówku):
+  - **K (kontrola odtworzenia) PRZESZŁO:** b = 0,160 / 0,417 / 0,528 dla πR/σ = 3,3 / 6,5 / 9,8 wobec 0,19 / 0,45 / 0,60 z 170 (GPU, 1,3 dekady). Uproszczony rachunek odtwarza pomiar, więc mechanizm wolno na nim badać.
+  - **L2 (zakres) PRZESZŁO:** ε_max rośnie o 0,434 na podwojenie N (ln 2 = 0,693; 170: 0,5–0,6) i jest **identyczny dla wszystkich trzech kształtów fali** — rozrzut 0,0%. **Zakres należy do obszaru i gęstości, nie do wzbudzenia.** To jest ta część propozycji, która się potwierdza.
+  - **L1 (płaski rozkład) MIESZANE:** dla fali gładkiej liniowość skumulowanego wkładu rośnie z gęstością (R² 0,90 → 0,97), dla ostrej maleje (0,66 → 0,31).
+  - **L3 i L3′ UPADŁY, z dwóch stron:** ze średnią gęstością iloczyn daje 0,150 / 0,145 / 0,153 — trafia tylko dla najgładszej fali (b = 0,160), dla ostrych chybia trzykrotnie; z gęstością w górnym pasie ε ∈ [ε_max − 1, ε_max] daje 0,743 / 1,629 / 1,744 — przeszacowanie 3,3–4,6×. **L4 UPADŁO w części „gęstość”:** średnia dS/dε jest ta sama dla wszystkich kształtów (0,346 / 0,335 / 0,352), a b różni się trzykrotnie.
+  - **Czego to nie potwierdza:** przy rosnącym N cały rozkład wkładów po ε maleje (średnia gęstość 0,42 → 0,30), zamiast dokładać nowy pas przy ustalonej reszcie. **S nie rozkłada się na (stałą gęstość) × (zakres)** — ani ze średnią, ani z gęstością lokalną przy pułapie.
+  - **L5 (test wprost: czy S zależy od N i obszaru wyłącznie przez ε_max) NIEROZSTRZYGNIĘTE.** Dla dwóch obszarów (V/V_U = 4 i 16, ta sama fala względem obszaru) zakresy ε_max **nie pokrywają się** przy dostępnych N: duży 6,12–7,09, mały 3,48–4,75. Widać za to, że **ε_max jest własnością obszaru, nie samego N**: przy tej samej liczbie elementów w obszarze (N_U = 257 wobec 258) duży ma ε_max = 6,12 i S = 4,79, mały 4,75 i 3,77 — czyli pułap zależy także od tego, jak obszar leży w całości (zgodne z C4a.16 (g): „entropia obszaru zależy od tego, jak obszar leży względem reszty”). Mały obszar ma przy tych N tylko 58–258 elementów, więc jego liczby są zaszumione (przyrosty 1,045 i 0,015). **Błąd asystenta:** test zaprojektowany bez sprawdzenia, czy przedziały ε_max w ogóle się pokryją — przy równych N nie mogły. Rozstrzygnięcie wymaga małego obszaru przy N ≳ 16 000, czyli GPU; wg zasady „duży koszt = sygnał ostrzegawczy” najpierw kartka.
+- **Werdykt (stanowczo; po 186 — wszystko poniżej dotyczy rozsiewu, nie struktury):** (1) na rozsiewie ε_max rośnie logarytmicznie (0,434 na podwojenie) i nie zależy od kształtu wzbudzenia (rozrzut 0,0%) — to jest zdanie o pojemniku, bo „ramy przybywają jak N” znaczy: dorzucamy punkty do gotowego obszaru; (2) **część o stałym wkładzie obalona:** S nie rozkłada się na (stałą gęstość) × (zakres) — ani ze średnią, ani z gęstością przy pułapie; wkład na jednostkę ε maleje z N; (3) zależności b od πR/σ nie niesie ani zakres, ani średnia gęstość — co ją niesie, pozostaje otwarte; (4) logarytm jest zgodny z zakresem pchnięć (§F2, 178), ale **z samego zakresu nie wypada** w postaci, którą tu sprawdzono; (5) **kartka (niżej) daje źródło:** logarytm w N to logarytm stosunku „szerokość wzbudzenia : skala dyskretności” (σ/ℓ), bo przy ustalonym kształcie i obszarze to jedyny parametr, który zmiana N porusza — a to jest propozycja użytkownika w postaci, która się broni.
+- **KARTKA — zrobiona przed dalszym liczeniem (polecenie użytkownika 29.09: „Możesz sprawdzić najpierw na kartce”) [T][P].**
+  1. **Wartość kontinuum jest analityczna.** Dla fali P(u) = z·e^{−z²/2}, z = (u − u₀)/σ, wzór CHM daje S_CHM = π^{3/2}A²(¾·R/σ − ⅞·σ/R), przy całce rozciągniętej do ±∞ (całki Gaussa: ∫e^{−t²}(1−t²)² = ¾√π, ∫t²e^{−t²}(1−t²)² = ⅞√π). Dla R/σ ≳ 2 zgadza się z całką po [−R, R] co do czwartego miejsca. Czyli **S_CHM rośnie liniowo z πR/σ**, ze współczynnikiem ¾√π = 1,329 (rachunek przy πR/σ = 39,3 daje 1,319).
+  2. **Zapis „b = 0,070·S_CHM” z 170 odtworzony niezależnie:** b/S_CHM = 0,0696 i 0,0683 dla πR/σ = 3,3 i 6,5; dla 9,8 spada do 0,0522. **Nasycenie b jest więc odstępstwem od proporcjonalności do kontinuum**, a nie własnością zakresu: S_CHM rośnie liniowo dalej, a b przestaje.
+  3. **Skąd logarytm — analiza wymiarowa.** S jest bezwymiarowe, a na porządku są dokładnie trzy bezwymiarowe parametry: πR/σ (fala wobec obszaru), **σ√ρ = σ/ℓ (szerokość fali liczona w elementach)** i V/V_U (obszar wobec całości). Przy ustalonych pozostałych zmiana N zmienia wyłącznie σ/ℓ, więc **jeśli S rośnie logarytmicznie, to jest to logarytm stosunku „szerokość wzbudzenia : skala dyskretności”** — nie logarytm zakresu pchnięć. *(Analiza wymiarowa ustala zmienną, a nie istnienie logarytmu; drugi warunek — równość wkładów na dekadę — pkt 6, poprawka 184.)* To jest propozycja użytkownika w postaci, która się broni: miejsca, przez które przechodzi odczyt, to elementy, na których wzbudzenie jest rozpisane, a ich liczba rośnie multiplikatywnie z gęstością. Zgodne z T1 z 170: para (U, σ, N) i (U_mały, σ/2, 4N) ma **to samo σ/ℓ** — i zmierzone równe przyrosty.
+  4. **L5 rozstrzygnięte na kartce — bez GPU.** Skoro parametry są trzy, jedna liczba ε_max nie może ich zastąpić: S nie zależy od N i obszaru wyłącznie przez ε_max. Dane to potwierdzają wprost — przy tym samym πR/σ = 6,54 **i** tym samym σ/ℓ = 5,43, ale różnym V/V_U (4 wobec 16), S = 4,785 wobec 3,767 (21%). Przebieg GPU na małym obszarze **odpada jako niepotrzebny**; właściwe pytanie brzmi, co wnosi V/V_U (C4a.16 (g): jak obszar leży wobec reszty).
+  5. **Co z tego zostaje dla 170:** logarytm ma źródło — stosunek dwóch skal samego wzbudzenia (σ : ℓ), czytany przy danym obszarze; zależność b od πR/σ i jej nasycenie to osobne pytanie i pozostaje otwarte. Zakres pchnięć (ε_max) rośnie równolegle, ale nie jest zmienną, przez którą S zależy od N.
+  6. **DWA WARUNKI NA LOGARYTM I WYKŁADNIK PRZY ρ — dwie uwagi użytkownika do tej kartki (poprawka 184) [H][T][O].**
+     - **(a) „Logarytm wypada sam” wymaga dwóch rzeczy, nie jednej** (użytkownik, 29.09): „Multiplikatywny wzrost liczby elementów daje logarytm pod warunkiem, że wkład każdego elementu jest tego samego rzędu — inaczej suma jest zdominowana przez jeden koniec i logarytmu nie ma. W standardowym rachunku ten warunek nazywa się niezależnością od skali wkładu na dekadę i jest osobną własnością. […] logarytm wypada z multiplikatywności plus równości wkładów.” **Punkt 3 tej kartki tego nie rozdzielał.** Poprawnie: analiza wymiarowa ustala **zmienną**, w której logarytm jest liczony (σ/ℓ — jedyny parametr, który zmiana N porusza przy ustalonych πR/σ i V/V_U), ale **nie ustala, że logarytm w ogóle jest**. Istnienie wymaga osobno **równości wkładów na dekadę**, a ta jest w 170 **zmierzona, nie wyprowadzona**: S = a + b·log₂N dla wszystkich 12 wzbudzeń, χ²/st. sw. 0,21–0,66, krzywizna zgodna z zerem (|c| ≤ 1,14σ), na 1,3 dekady bez hamowania. Rachunek CPU z tej kartki (1–2 ziarna) ma na to za małą statystykę. **Bez sprzeczności z etap31:** tam upadła równość wkładów w zmiennej **ε** (energia modularna), a nie w log(σ/ℓ) — to dwie różne zmienne, a wynik etap31 mówi tylko tyle, że ε nie jest tą właściwą.
+     - **(b) Wykładnik przy ρ [T]:** ℓ = ρ^{−1/d}, gdzie d = **wykładnik liczności pojemnika** użytego w rachunku (N ~ L^d; A1 po przeglądzie 178) — nie „liczba wymiarów”, bo 3D ramy nie jest liczbą (pułapka 5, poprawka 185). 170 i ta kartka liczą na rozsiewie do literaturowego 1+1 (d = 2; narzędzie bez triady — pułapka 5): rozsiew do [0,1]² w (u, v) daje ρ = 2N przy mierze dt dx, więc ℓ = ρ^{−1/2} i σ/ℓ = σ√ρ — **świadome i poprawne dla tego narzędzia**. Rozsiew do ℝ^{1,3} ma d = 4, czyli σ/ℓ = σρ^{1/4}; to jest zdanie o pojemniku, a nie o tym, że „wymiarów jest cztery”.
+     - ~~Zdanie do upadku dla rachunku na rozsiewie do ℝ^{1,3}: nachylenie b dwa razy mniejsze (¼ wobec ½).~~ **Wycofane (186):** to była propozycja **kolejnego** rachunku na pojemniku, tyle że z czterema współrzędnymi zamiast dwóch — odpada z tego samego powodu co cały blok (178; użytkownik 28.09: „niezależnie od tego, czy w »1+1«, czy w »3+1«”). Zostaje sama tożsamość ℓ = ρ^{−1/d} jako zdanie o rozsiewie.
+     - **Dwa różne logarytmy, nie jeden [O]:** §F2 pokazało, że logarytm **zakresu pchnięć** jest specyfiką 1+1 (w 3+1 przechodzi w potęgę — przegląd wymiarowy, część V). Logarytm **stosunku skal** σ/ℓ jest czym innym i przenosi się na 3+1, tylko z innym wykładnikiem. Te dwa źródła zostały tu rozdzielone dopiero tą poprawką.
+- **Dalej — nie tędy (186):** zależność b od πR/σ i jej nasycenie to stosunek dwóch wielkości pojemnika (tak samo zapisano w przeglądzie 28.09), więc dalsze rachunki tej gałęzi odpadają, w każdej liczbie współrzędnych. Właściwe pytanie stoi gdzie indziej i jest otwarte od 174: **na ile wzbudzenie da się odróżnić od milczenia dla znanego O**, na strukturze z 179 — po wcześniejszym rozstrzygnięciu, czym jest zapis czytającego (172–176).
 
-> **Dopisek v3.3 [L].** Hoyle–Narlikar (1974, streszczone u Johnstona §3.14.3): propagator bezmasowy = ½(opóźniony + przyspieszony), cząstka „przeskakuje” w przyszły albo przeszły stożek — ten sam zygzak. Propagator Feynmana = swobodny + „odpowiedź wszechświata”, pod warunkiem znajomości masy wszędzie.
->
-> **Kolejność pojęć przed masą [H]:** porządek i liczność → czas, objętość, przestrzenność → relacja t=0 → **pole** (brak) → próżnia → działanie → energia → ładunek, spin → elektron, kwark, gluon → masa. Pole jest najbardziej krytyczne. Energia wg Noether = to, co niezmienione przy przesunięciu wzdłuż porządku — sprinkling nie ma ciągłych symetrii, więc najwyżej zachowanie średnie [A][?].
+## Gałąź masy v3.4 — częstość samoodczytu na rozsiewie (etap6–9; zamknięta, 103)
 
-Rendering liczbowy (elektron: 1 zwrot na 2,39×10²² elementów) **jest przepisaniem $m/m_P$, nie wynikiem.**
+> **Status gałęzi masy v3.4 (etap6–9) [O]:** liczona na rozsiewie — pojemnik (186); wyniki „tempo niezależne od v do 0,9” i „A/B = 1,507” uzyskane w reżimie, w którym dominuje okno pudła — **nie są własnością porządku** (poprawka 103; §F2, „Konsekwencja dla §F1”). Masa w ramie: faza na własne tyknięcie (R1f-3), stosunek dwóch odczytów o różnej głębokości (180, 181).
 
-Bilans przeliczników: c ✓ (jako przelicznik, nie wielkość mierzona — A2, C4a.13), G ✓, $k_B$ ✓, e ✓, **ħ częściowo**. α nie należy do tej listy (A2).
+**Hipoteza (v3.4):** masa = **częstość, z jaką trajektoria czyta samą siebie**. Zdanie o odczycie, nie o geometrii — **nie wymaga rozstrzygnięcia sprawy przestrzeni**, więc można je testować teraz, na strukturze z zadania A (sprinkling + trajektorie + odczyty).
+- **Co już pasuje:** foton nie czyta siebie (t=0) → brak masy; przy v→c częstość samoodczytu mierzona z zewnątrz spada, od środka bez zmian (dylatacja); masa i prędkość siedzą w tym samym wierszu tabeli granic Ø.
+**DEFINICJA ROBOCZA I PIERWSZY WYNIK (v3.4, `etap6_masa.py`).** Skąd kandydat: w pliku jest już pytanie „czy relacja wraca do siebie” (nie wraca → U(1), foton; wraca → SU(3)). Masa jako częstość samoodczytu to **to samo pytanie zadane o trajektorię**: jak często informacja wysłana przez trajektorię do niej wraca. Foton: nic nie wraca, od jego strony nie ma „potem”.
+**Definicja (wewnętrzna, mierzalna):** dla trajektorii i — liczba **powrotów na odczyt**: ile razy element i czyta trajektorię j, która **wcześniej** czytała i (najkrótsza zamknięta pętla odczytu). Struktura: sprinkling + trajektorie + odczyty jak w zadaniu A (N=1,5 mln, K=1200, L=12).
+**Zdania przed rachunkiem:** (1) częstość stabilna wzdłuż trajektorii (połowa–połowa); (2) różni się między trajektoriami bardziej niż przypadkiem; (3) kontrola losowa niszczy obie własności.
 
-> **Uzupełnienie v3.2.** Masa nie jest wyprowadzona w tej dziedzinie w ogóle (A11d), więc „ħ częściowo" jest częścią większego braku, nie osobnym punktem.
+| | częstość powrotów | rozrzut między trajektoriami | korelacja połowa–połowa |
+|---|---|---|---|
+| odczyt najświeższych | 0,287 ± 0,008 | 0,280 | **+0,750** |
+| odczyt losowy (kontrola) | 0,033 ± 0,001 | 0,040 | −0,180 |
 
-## B2. Retrospekcja
+- **WSZYSTKIE TRZY ZDANIA PRZESZŁY.** **Pierwszy raz w v3.4 pojedyncza trajektoria ma własną, zachowaną cechę liczbową.**
+- **Wykluczone najprostsze wyjaśnienie:** korelacja częstości z lokalną gęstością sąsiadów **−0,044**, z liczbą różnych czytanych trajektorii **−0,267**; po usunięciu wpływu obu korelacja połowa–połowa pozostaje **+0,746**. **To nie jest gęstość ani liczba partnerów.**
+- **Zastrzeżenia:** jedno ziarno, K=1200, L=12; pętle tylko długości 2; brak związku z jakąkolwiek skalą fizyczną (to na razie liczba bez jednostek); nie sprawdzono, czy zachowuje się jak masa (dodawanie, dylatacja, zależność od prędkości względem tła).
+**TEST PRĘDKOŚCIOWY — KANDYDAT ODPADA (v3.4).** Zdania przed rachunkiem: (a) **od środka** (na własny krok) częstość nie zależy od prędkości; (b) **z zewnątrz** (na czas współrzędnościowy) maleje jak √(1−v²); (c) kontrola losowa nie pokazuje żadnej z tych zależności.
+- **Pierwszy przebieg (prędkości 0,01–0,30):** na krok 0,404 wobec 0,404 (korelacja −0,020) — (a) pozornie przeszło; na czas: stosunek 0,980 wobec przewidywania 0,986 — zgodne, ale efekt 2%, nierozstrzygnięty.
+- **Odkryty błąd konstrukcji:** reguła budowy trajektorii („największy czas własny w oknie”) **nie jest niezmiennicza** — daje trajektorie prawie spoczywające w układzie pudła. Zerowy wynik (a) był pozorny.
+- **Drugi przebieg (prędkości 0,02–0,79, trajektorie o zadanej prędkości):**
 
-**Działa na rozkładach, nie na epizodach.** [A] — **pełniejsza wersja w §R2, z rozmowy 3.**
+| | wolne | szybkie | korelacja z v |
+|---|---|---|---|
+| na własny krok | 0,307 | 0,176 | **−0,236** |
+| na czas współrzędnościowy | 0,947 | 0,568 | stosunek 0,599 wobec 0,822 z dylatacji |
 
-**Co się udało.** Reguła wzrostu odczytana wstecz: błąd 1,7–15,7%. Kolejność powstawania: korelacja 0,87–0,96 — **warunki: n=30, graf o wagach niesymetrycznych (ratio 0,3), rozkład Hodge'a, pięć losowań** (rozmowa 2).
+- **ZDANIE (a) UPADŁO:** częstość na własny krok zależy od prędkości. **Przyczyna:** powrót wymaga drogi tam i z powrotem, więc trajektoria szybka **ucieka własnym odbiciom** — ci, którzy ją czytali, zostają z tyłu. Mierzona wielkość zależy od ruchu **względem zespołu**, a zespół wyznacza układ spoczynku (działa jak ośrodek).
+- **Wniosek:** „częstość powrotów” to **tempo oddziaływania z otoczeniem**, wielkość zależna od układu — **nie masa**. Zachowanie wzdłuż trajektorii (korelacja 0,75) zostaje jako fakt, ale opisuje relację z otoczeniem, nie cechę własną.
+**KANDYDAT 2 — częstość zegara własnego (v3.4).** Poprawka do wcześniejszego zapisu: „własny element bez pośredników” to **link**, a łańcuch fotonowy składa się z samych linków — taka wielkość byłaby dla fotonu **maksymalna**, nie zerowa. Poprawnie, z fizyki bez interpretacji: masa = **częstość zegara własnego** (Compton, ω = mc²/ħ); foton nie ma masy, bo między emisją a absorpcją **nie ma zdarzenia pośredniego**. **Definicja:** liczba własnych elementów na jednostkę czasu własnego (obie wielkości niezmiennicze).
+- **Wynik (400 trajektorii, prędkości 0,02–0,78):** korelacja z prędkością **+0,333**; wolne 2,74, szybkie 3,82 (stosunek **1,39**); stabilność połowa–połowa +0,473. **(a) UPADŁO.**
+- **Przyczyna (błąd konstrukcji):** trajektoria o zadanej prędkości wybiera element najbliższy celowi w oknie **czasu współrzędnościowego**, więc przy dużej prędkości trafia bliżej stożka, gdzie czas własny kroku jest mały. Wielkość mierzy **sposób prowadzenia trajektorii**, nie jej własność.
+- **WNIOSEK POJĘCIOWY [A]:** w obu kandydatach wielkość zależała od tego, **jak trajektoria siebie kontynuuje**. **Masa nie jest cechą odczytywaną z gotowej linii świata, lecz własnością reguły, wedle której trajektoria siebie przedłuża.** Trajektoria „leniwa” (kroki o maksymalnym czasie własnym) tyka rzadko; drobiąca kroki tyka często.
 
-**Kontrola negatywna, którą trzeba trzymać razem z wynikiem:** sam wysoki udział gradientu (84%) NIE jest sygnaturą wzrostu — czysto losowa niesymetryczna macierz daje te same 83,6%.
+**KANDYDAT 3 — drobność samokontynuacji (v3.4).** Stosunek liczby własnych kroków do **maksymalnej możliwej** na tej samej drodze (najdłuższy łańcuch między końcami). Obie liczby czysto porządkowe → niezmienniczy z konstrukcji. Foton: między końcami linku nie ma elementów, wielkość znika.
+- **Wynik (118 trajektorii, prędkości 0,05–0,81):** średnia 0,494; korelacja z prędkością **+0,197** (błąd ~0,09, czyli ~2σ); szybkie/wolne **1,16** (wobec 1,39 dla kandydata 2). **Zależność spadła o połowę, ale NIEROZSTRZYGNIĘTE.**
+**KANDYDAT 3 = KANDYDAT 2 W INNEJ NORMALIZACJI [A]:** w sprinklingu najdłuższy łańcuch ∝ czas własny × ρ^(1/4), więc „kroki/najdłuższy łańcuch” to „kroki na czas własny” podzielone przez stałą. Różnica 1,39 vs 1,16 pochodzi z fluktuacji. **Zwiększanie próby tego nie naprawi — naprawić trzeba konstrukcję.**
 
-**Chwila zero nie ma wielokrotnego świadectwa.** Estymata k, q=0,005: k=1 → 1,26±0,63; k=3 → 3,42±1,06; k=10 → 10,47±1,90. Przy q=0,02 systematycznie zawyża. **Rozrzut przekracza odstęp między k=1 a k=3.** Nie z powodu słabego estymatora — więcej świadectwa nie ma.
+**TRZY PUŁAPKI KONSTRUKCJI TRAJEKTORII (v3.4, `etap7_masa_gpu.py`) — najcenniejszy wynik tej rundy:**
+1. **Reguła zewnętrzna** (okno w czasie współrzędnościowym + kierunek zadany w układzie pudła): tempo tyknięć zależy od prędkości (korelacja +0,32; szybkie/wolne 1,46–1,61). Wielkość mierzy regułę, nie strukturę.
+2. **„Maksymalny czas własny do przodu” HAMUJE:** τ² = Δt²−Δx², więc maksymalizacja preferuje małe przesunięcie przestrzenne → wszystkie trajektorie wytracają prędkość (0,01–0,13) i opadają do układu próbkowania. **Geodezyjna maksymalizuje czas własny między ustalonymi końcami, nie krok po kroku.**
+3. **Równe tyknięcia dziedziczą warunek początkowy:** przy wymuszeniu τ_kroku ≈ τ_poprzedniego stabilność rośnie do **+0,930**, ale korelacja z prędkością skacze do +0,63 — bo pierwszy krok budowany regułą zewnętrzną dawał szybkim trajektoriom krok bliski stożkowi (małe τ). **To zachowanie jest jednak MASO-PODOBNE: tempo tyknięć jest warunkiem początkowym niesionym przez trajektorię, a nie narzuconym przez otoczenie.**
+- **Poprawiona konstrukcja:** jednakowe **tyknięcie początkowe** dla wszystkich (wąskie pasmo τ), różne kierunki i prędkości; dalej kontynuacja wewnętrzna (równe tyknięcia + najprostsza kontynuacja od przedostatniego).
+- **Walidacja (800 trajektorii, N=0,8 mln, L=8):** reguła wewnętrzna — korelacja **+0,166**, szybkie/wolne **1,096**, stabilność +0,667; kontrola zewnętrzna — +0,241 i **1,46**. **Kierunek dobry, nierozstrzygnięte:** zakres prędkości tylko 0,01–0,25 (przy ustalonym τ szybkie trajektorie potrzebują większego okna — parametr do poszerzenia).
+**PRZEBIEG DUŻY I CZWARTA PUŁAPKA — ZNAK (v3.4).** Przebieg użytkownika (N=19 mln, K=20 tys., L=20, 2 ziarna) dał: reguła wewnętrzna korelacja +0,065/+0,049, stosunek **1,010/1,008**, stabilność +0,725/+0,727, ale **prędkości tylko 0,00–0,15**; kontrola +0,298/+0,310, stosunek 1,524/1,543, prędkości do 0,81. **Niezmienniczość pokazana tam, gdzie i tak nie ma czego pokazywać** (przy v≤0,15 dylatacja to promil).
+- **Czwarta pułapka — ZNAK (odwrotna nierówność trójkąta):** dla p≺q≺c zachodzi τ(p,c) ≥ τ(p,q)+τ(q,c), **równość tylko gdy q leży na prostej**. **Linia prosta daje NAJMNIEJSZY** τ(p,c) przy ustalonych krokach — więc najprostsza kontynuacja to **minimum**, nie maksimum. Maksymalizacja wybierała kontynuację **najbardziej zakrzywioną** → resztkowe hamowanie.
+- **Po poprawce znaku (v4, walidacja 800 trajektorii):**
 
-**Ślad k w całej strukturze** [P]: w₁ = **1,92**, w₂ = 1,26, w₀ = 0,67, L = 0,48, r = **0,01**. **Wygasa w trzech warstwach.** Obserwable globalne są zerowe — dlatego CMB nie może nieść k.
+| | korelacja z v | szybkie/wolne | stabilność | zakres prędkości |
+|---|---|---|---|---|
+| **reguła wewnętrzna** | **+0,051** | **1,015** | +0,630 | **0,07–0,91** |
+| kontrola zewnętrzna | +0,335 | 1,612 | +0,475 | 0,02–0,82 |
 
-**Droga otwarta.** Późne zdarzenia Ø są tego samego typu, więc dają wielokrotne świadectwo o tym, **jak wygląda chwila zero w ogóle**. Zastrzeżenie: pierwsza może nie należeć do rodziny.
+- **WSZYSTKIE ZDANIA PRZECHODZĄ:** M0 (nie hamuje: prędkości do 0,91, γ do 2,4), M1 (tempo nie zależy od prędkości: 1,015), M2 (stabilne: +0,630), M3 (kontrola pokazuje, że różnica bierze się z reguły: 1,612).
+- **Status kandydata 2 przy niezmienniczej kontynuacji:** tempo tyknięć na czas własny jest **niesione przez trajektorię i niezależne od ruchu** — zachowanie maso-podobne. Do rozstrzygnięcia w pełnym przebiegu: statystyka i stabilność przy L=20.
+**PEŁNY PRZEBIEG v4 (użytkownik, N=19 mln, K=20 tys., L=20, 2 ziarna) — WSZYSTKIE ZDANIA PRZESZŁY:**
 
-> **USUNIĘTE z v2 i nadal usunięte.** Zdanie „w d=4 struktura zapomina 77% własnej historii, stąd korelacja 0,87–0,96" — korelacja pochodzi z **innej struktury** (rozmowa 2, n=30, wagi niesymetryczne, rozkład Hodge'a). Zestawienie było **analogią zapisaną jako wynik**.
+| | korelacja z v | szybkie/wolne | stabilność | prędkości |
+|---|---|---|---|---|
+| **reguła wewnętrzna** | **+0,034 / +0,027** | **1,005 / 1,005** | **+0,770 / +0,771** | 0,02–0,90 |
+| kontrola zewnętrzna | +0,298 / +0,310 | 1,524 / 1,543 | +0,638 / +0,645 | 0,00–0,81 |
 
-## B3. Klasa relacji jednostronnych — KLASA ODRZUCONA; sam kandydat „stacjonarność” otwarty
+- **M0 ✓** (prędkości do 0,90, γ do 2,3); **M1 ✓** (|korelacja| 0,03 < 0,05; stosunek 1,005 w paśmie ±0,05 — uczciwie: przy n=20 tys. korelacja 0,03 jest statystycznie odróżnialna od zera, ale efekt to 0,5% na całym zakresie, ~100× mniej niż w kontroli); **M2 ✓** (stabilność wzrosła 0,63 → **0,77** przy dłuższych trajektoriach); **M3 ✓** (kontrola 1,52–1,54).
+- **WYNIK [A]:** trajektoria kontynuująca się pamięcią (najprostsza droga w sensie czasu własnego = minimum τ(p,c)) niesie **tempo tyknięć niezależne od ruchu i zachowane przez całe życie**. *(Status obniżony w 103: reżim okna pudła, nie własność porządku.)*
+- **Czego jeszcze NIE pokazuje:** wszystkie trajektorie startowały z **tym samym** tyknięciem → sprawdzono „ta sama masa, różne prędkości”. **Zdanie sprawdzone niżej (etap8):** dwie populacje o różnym tyknięciu początkowym (np. 0,4h i 0,6h) mają tempo w stosunku 1,5 i **obie** pozostają niezależne od prędkości.
+**DWIE POPULACJE — ROZRÓŻNIALNE MASY (v3.4, `etap8_masa_populacje.py`).** Tyknięcie początkowe A = 0,4h, B = 0,6h. **Uczciwy test:** pasmo tyknięcia liczone względem **poprzedniego kroku**, więc tempo przenoszone wyłącznie pamięcią (przy paśmie względem początkowego stosunek 1,5 byłby wymuszony). Zdania: P1 A/B = 1,5 ± 0,1; P2 w każdej populacji szybkie/wolne 1,00 ± 0,05; P3 dryf < 10%; P4 nakładanie rozkładów < 10%.
+- **PIĄTA PUŁAPKA — miara prostoty:** samo minimum τ(p,c) preferuje **mniejsze kroki** (mniejszy krok też zmniejsza τ(p,c)) → dryf tempa +22% w B, stosunek 1,38. **Poprawnie: nadwyżka z odwrotnej nierówności trójkąta** τ(p,c) − τ(p,q) − τ(q,c) ≥ 0 — zero dokładnie dla prostej i **niezależna od długości kroku**. Po poprawce (walidacja): A/B = 1,503, dryf 0,973.
+- **PEŁNY PRZEBIEG (użytkownik, N=19 mln, K=20 tys. na populację, L=20, 2 ziarna):**
 
-Trzej członkowie o różnym pochodzeniu: sfera fotonowa (geodezyjne), molekuły horyzontu (zliczanie par), sfera Hubble'a (gęstość krytyczna).
+| | tempo | szybkie/wolne | korelacja z v | stabilność | dryf |
+|---|---|---|---|---|---|
+| A (0,4h) | 6,78 ± 1,07 | **0,988 / 0,988** | −0,03 | 0,75 | 0,95 |
+| B (0,6h) | 4,50 ± 0,67 | **1,055 / 1,052** | +0,13 | 0,74 | 0,94 |
 
-**Klasa nie może stać na jednostronności, bo dwa z trzech członów jej nie mają.** Rachunek, n=4000:
+  - **P1 — PRZESZŁO:** A/B = **1,508 / 1,507** (oczekiwane 1,50). **Niewymuszone** — tempo przeniesione przez 20 kroków wyłącznie pamięcią. **Najmocniejsze zdanie gałęzi masy.**
+  - **P3 — PRZESZŁO:** dryf 5–6%.
+  - **P2 — przeszło dla A, minimalnie upadło dla B:** 1,052–1,055 (poza pasmem o kilka tysięcznych); korelacja +0,13 → **w populacji o dłuższym tyknięciu słaba resztkowa zależność od prędkości**; w A jej brak.
+  - **P4 — NIEROZSTRZYGNIĘTE:** skrypt sprawdzał rozłączność przedziałów 5–95% (ostrzejsze niż zdanie) — zachodzą w pasie 5,16–5,68, bo rozrzut w każdej populacji ~15%; **zapisanego progu „nakładanie < 10%” nie policzono** (błąd asystenta: kryterium w kodzie ≠ zdanie).
+**MOST DO LOGARYTMÓW PRZEZ SZEROKOŚĆ — SPRAWDZONY I ZAMKNIĘTY (v3.4, `etap9_masa_skala.py`).** Uwaga użytkownika: jedna gęstość daje punkt, nie funkcję; logarytmy z C4a pochodziły ze stosunku skal; trzeba skanu ≥ dekady i sprawdzenia, czy szerokość idzie jak 1/ln n (most), 1/√n (Poisson, mostu brak) czy stoi.
+- **Poprawka asystenta do projektu:** skan N przy stałym `KAND` to **tautologia** — sprinkling Poissona jest niezmienniczy względem skali, każdy krok widzi to samo. Właściwy stosunek skal: **liczba elementów na tyknięcie** n = ρ(π/24)τ₀⁴; skanowane tyknięcie przy stałej gęstości (równoważne). Rozstrzygnięcie ln vs stała wymaga ≥ 2 dekad.
+- **Walidacja (K=150):** n = 0,09 / 1,5 / 13,6 (dwie dekady) → szerokość A **0,099 / 0,095 / 0,103**, B 0,101 / 0,106 — **stała**, ani Poisson, ani logarytm.
+- **Test kontrolny pasma — SZEROKOŚĆ = PASMO TOLERANCJI:**
 
-| przekrój | A→B | B→A |
-|---|---|---|
-| rurka czasopodobna, d=2 | 927 990 | 909 994 |
-| rurka czasopodobna, d=4 | 154 912 | 165 113 |
-| zbiór przeszły, d=2 | 1 971 705 | **0** |
-| zbiór przeszły, d=4 | 471 873 | **0** |
+| pasmo | szerokość A | szerokość B | dryf |
+|---|---|---|---|
+| ±5% | 0,044 | 0,048 | 0,99 |
+| ±10% | 0,095 | 0,106 | 0,98 |
+| ±20% | 0,191 | 0,195 | 0,92 |
 
-Kandydat na „coś innego" (stacjonarność kierunku zerowego) jest warunkiem ciągłym. **B3 rozstrzyga się dopiero po C1 i C2.**
+  **„Naturalna szerokość” to parametr konstrukcji** (liniowa w paśmie, niezależna od gęstości). **Przebiegu na A100 NIE wysyłać** — policzyłby pasmo.
+- **Co zostaje nieartefaktem [H]:** pasmo nie może być dowolnie wąskie — musi zawierać choć jednego kandydata, więc minimalne pasmo ∝ 1/n. Przy pasmie ustawianym najwęższym możliwym szerokość stałaby się wielkością strukturalną, **spodziewanie potęgową w n** → w sformułowaniu użytkownika: **szum, mostu tędy nie ma.**
+- **Stosunek A/B odporny:** 1,49–1,51 przy każdym paśmie i każdej gęstości — mocna część gałęzi masy nietknięta.
+- **Most masa ↔ logarytmy przez szerokość: ZAMKNIĘTY (brak).**
 
-> **Status w v3.2.** C1 i C2 mają odpowiedzi z literatury (§C), więc B3 przestaje być zablokowane z tego powodu. Ale nikt go nie podjął ponownie i zostaje otwarte.
->
-> **B3 jest próbą generalną całego programu i wyszła negatywnie.** Trzej członkowie z różnych źródeł, złożeni w klasę na podstawie podobieństwa, policzeni, odpowiedź „nie". Łańcuch Ø (R1a) ma ten sam kształt. To nie przesądza jego losu, ale pokazuje, jak wygląda test i że wynik może być negatywny.
-
-## B4. Liczność jako element struktury [H]
-
-Teza zmienia A6. Jeśli liczność jest **wewnątrz** struktury, to rozdzielenie „stosunki vs skala" jest artefaktem opisu. Malament daje metrykę z dokł. do czynnika konforemnego, bo bierze **sam porządek** — czyli niepełny opis.
-
-**Pierwszy kandydat na test:** prawo $k-(k-1)d$ (A3a) — jedyna zmierzona wielkość, w której kombinatoryka i porządek występują nierozdzielnie.
-
-> **Drugi kandydat WYCOFANY.** v3.1 wskazywało A4c. Po poprawce nr 12 $(1-f)d$ jest funkcją samego d, więc nie wiąże liczności z wymiarem — jest przekodowaniem wymiaru. **Odpada jako test B4.**
->
-> **Kandydat wchodzący w jego miejsce:** para (ułamek uporządkowania, f), która **rozdziela KR od sprinklingów** (A9a) — bo tam f przestaje być funkcją ułamka, więc liczność niesie coś, czego porządek sam nie niesie. To jest bliżej tezy B4 niż A4c kiedykolwiek było.
-
----
-
-# §C — CIĘCIE I OTOCZENIE
-
-> C1, C2 i C3 są **zamknięte** (odpowiedzi w literaturze). **C4/C4a i C5 to gałęzie zamknięte** (`STOP.md`; 178, 186) — rachunki na rozsiewie i reguły wzrostu; status i to, co z nich zostaje w ramie, stoi na początku każdej.
-
-> **ZMIANA STATUSU W v3.2.** C1 i C2 były w v3.1 opisane jako otwarte i blokujące B3. **Obie mają odpowiedzi w literaturze, starsze od tego pliku.** Rachunki asystenta w rozmowie 4 odkryły je ponownie, numerycznie, co dało kontrolę na kod i nic ponadto.
-
-## C1. „obok" / lokalność — ODPOWIEDŹ W LITERATURZE [L]
-
-**Nieskończona walencja jest twierdzeniem, nie artefaktem.** W nieskończonym zbiorze przyczynowym przybliżanym Minkowskim najbliższymi sąsiadami elementu są linki, a każdy element ma ich **nieskończenie wiele** — w przeszłość i w przyszłość. Graf ma nieskończoną walencję, w przeciwieństwie do innych typów dyskretności. **I to jest cecha niosąca treść niezmienniczości Lorentza**, bo z każdym zdarzeniem wiążą się niezwarte hiperbole niezmiennicze względem pchnięć. Nie jest to usterka do naprawienia.
-
-**Rozwiązanie nie jest cięciem, tylko odciskiem** (Glaser, Surya 2013). Bierze się dowolny interwał porządku $I[x,y]$, liczy profil liczebności interwałów $N_m$ i porównuje z analitycznym $\langle N^d_m\rangle$ w granicach $\pm\sqrt N$. Zgadza się → obszar jest lokalny. Istnienie obszarów lokalnych jest **warunkiem koniecznym rozmaitościowości**, a przy okazji daje nowy estymator wymiaru, dający wynik pusty dla zbiorów nierozmaitościowych.
-
-**Dodatkowo w literaturze:** Boguñá, Krioukov, „Measuring spatial distances in causal sets via causal overlaps", PRD 110 (2024); Eichhorn, Surya, Versteegen, „Induced spatial geometry from causal structure" (2019); Rideout, Wallden, „Spacelike distance from discrete causal order" (2009). **C1 ma nie jedną odpowiedź, tylko co najmniej trzy, z różnych lat.**
-
-> **POPRAWKA nr 17a (asystent, v3.2) — diagnoza w v3.1 umieszczała przeszkodę w złym miejscu.**
->
-> v3.1: „okno K=60 to lokalność po etykiecie, a etykieta jest niefizyczna z założenia". **Wersja bezetykietowa ma dokładnie tę samą wadę.** Zmierzono: porządek wyznacza **ranking przestrzenny** (top-k po nakładaniu przeszłości jest selektywny i poprawia się z n we wszystkich d), ale **nie wyznacza otoczenia** — cięcie (k albo próg θ) jest zawsze z zewnątrz.
->
-> **Przeszkodą nie jest etykieta, tylko brak wewnętrznego cięcia.** Usunięcie etykiet nie usuwa parametru.
->
-> **A wewnętrzne cięcie istnieje w innym otoczeniu:** plateau redundancji w kwantowym darwinizmie (R3). Pożyczka idzie w obie strony — literatura zbiorów przyczynowych ma odpowiedź na lokalność, literatura informacji kwantowej ma odpowiedź na cięcie.
->
-> Niesprawdzone: czy w widmie nakładania jest wewnętrzna przerwa dająca cięcie bez parametru.
-
-## C2. Miara otoczenia — ROZSTRZYGNIĘTE [L][P]
-
-**Gotowa odpowiedź, lepsza od naszej:**
-
-$$S^d_m=\lim_{\rho\to\infty}\frac{\langle N^d_m\rangle}{\langle N^d_0\rangle}=\frac{\Gamma(2/d+m)}{\Gamma(2/d)\,\Gamma(m+1)}$$
-
-W wiodącym rzędzie **nie zależy od N**. Bezwymiarowy, w zamkniętej postaci, niosący d, **bez parametru**.
-
-Skalowanie: $\langle N^d_m\rangle\sim N^{2-2/d}$ dla d>2 i $N\log N$ dla d=2.
-
-**Nasza własna próba, słabsza, ale warta zapisania [P]:** przy stałym otoczeniu (k=30 najbliższych po nakładaniu, czyli 31 elementów) relacje **wewnętrzne** są niezależne od n (139→134 dla d=2, 41→50 dla d=3, 20→16 dla d=4 przy n=200→1600), a relacje **przecinające** rosną liniowo z n (2582→24146 dla d=2). Po kryterium n-niezależności: **wewnętrzne są dopuszczalną miarą, przecinające nie.**
-
-**Rozwiązanie poprawki nr 4.** Trzy liczby z A8 nie są trzema miarami jednej rzeczy. **623 elementy to objętość. 10⁷⁷ par to relacje przecinające, czyli brzeg. 0,0102% pola to już bezwymiarowy ułamek.** Zarzut był słuszny, a powód jest strukturalny, nie niechlujstwo. „Elementy czy relacje" jest źle postawione, dopóki nie rozbije się relacji na wewnętrzne i przecinające.
-
-**Ułamek uporządkowania wewnątrz otoczenia** (n=1600): 0,31 / 0,11 / 0,039 dla d=2/3/4, wobec globalnych 0,50 / 0,229 / 0,100. Stabilny w n, słabo zależny od k (dryf 10–20% między k=10 a k=100). **Wolny od n, jeszcze nie wolny od cięcia.**
+- **Stan (w oknie pudła — 103):** dwie masy różniące się o połowę są **rozróżnialne w średniej z dokładnością ~0,5%**, niesione pamięcią i niezależne od ruchu; **pojedyncza trajektoria ma rozrzut ~15%**, więc na ogonach populacje się mieszają.
 
 ## C4. Plateau redundancji z detektorem na zbiorze przyczynowym — PLAN [H][A]
 
@@ -2257,529 +2798,9 @@ Właściwa reguła ma **oba** składniki: swobodę wyboru (produkcja informacji)
 - **Co mamy nowego:** porządek przyczynowy (NGF go nie ma) + trajektorie z pamięcią (klasyczny wzrost sekwencyjny ich nie ma). Czy to zmienia wynik — nieznane. **Szansa porażki wysoka.**
 - **Kompas:** zdania przed rachunkiem; kontrole bez pamięci i bez dynamiki; dwa pomiary (kulki w sieci dekoherencji; lorentzowskość porządku); podłogi z tła; przegląd wymiarowy; reguła językowa dla Ø.
 
-## C3. Jednostronność — ZAMKNIĘTA
+## §F2. LOGARYTMY — rachunki v3.4 na rozsiewie (gałąź zamknięta)
 
-Odpowiedź „sposób mówienia", patrz A5.
-
-## Sito na kształt odpowiedzi — POPRAWIONE
-
-> **POPRAWKA nr 16a (asystent, v3.2).** v3.1: „dopuszczalne są potęgi o wykładniku $a+bd$ z a, b całkowitymi".
->
-> Naturalny wykładnik w tej literaturze to $2-2/d$, czyli **$a+b/d$**. Poprawione dopasowanie A4c daje $1{,}542-0{,}661/d$ — też $a+b/d$. A3a daje $k-(k-1)d$, czyli $a+bd$.
->
-> **Obie postacie występują. Sito jak zapisane wycinało połowę tego, co faktycznie wychodzi.**
-
-Kształt odpowiedzi niekoniecznie jest prostym stosunkiem x/y — może być stosunkiem stosunków albo logarytmem stosunku (α już jest tego typu). Stosunku niesprowadzalnego nie umiem wykluczyć; jeśli istnieje, znaczy że pierwotnych jest więcej niż dwa — i to jest wynik, nie porażka (A1).
-
-## Dalej otwarte
-
-**Grupa cechowania z porządku.** Nadmiar w samym porządku wymiera jak $n^{2-d}$, więc w d=4 znika. Grupa musiałaby siedzieć w czymś **dołożonym** do elementów — a wtedy nie jest wyprowadzona.
-
-> **Dopisek v3.5 (R1d, punkt otwarty 3; poprawka 142):** fazy na linkach = definicja pola EM jako relacji, więc zarzut „dołożone do elementów” przestaje działać (relacja faz nie jest treścią dołożoną do elementów). **Sama grupa U(1) nadal nie jest wyprowadzona z porządku** — otwarte.
-
-> **Dopisek v3.5 (poprawka 157) [O]:** rama **nie daje** grupy cechowania z dwóch pierwotnych (potwierdzone). Grupa wymaga elementu spoza porządku i liczności — wg „Sita” to wynik, nie porażka (pierwotnych więcej niż dwa). Plik ustala jego postać: nie byt, nieodczytywalny w punkcie (≡ Ø, „Dopuszczalne stany”), opisywany pośrednio od strony relacji cechowania (jak faza w R1d). Warunkowe wyprowadzenie G_SM i 3 pokoleń z tak ujętego elementu: §F1, poprawki 156–157.
-
-> **Dopisek v3.4 [H]:** brakującym składnikiem we wszystkich pięciu miejscach jest **odległość przestrzenna z porządku** (nakładanie przyczynowe, Boguñá–Krioukov 2024/2025), a nie skala nielokalności — patrz C4a.12.
-
-> **Dopisek v3.3 — pole jako faza na zamkniętych drogach [H][L].** W kontinuum fazy na wszystkich pętlach wyznaczają pole (Giles 1981). W porządku nie ma zamkniętych łańcuchów (antysymetria), więc pętla = łańcuchy w przód i wstecz.
->
-> - **Sverdlov–Bombelli (arXiv:0807.2066) [L]:** lagranżjan Yanga–Millsa przez holonomie między parami + relacje + objętości; natężenie z obiegu po trójce punktów. Holonomie **dołożone do wszystkich par, także przestrzennych**. Przekład z kontinuum, nie wyprowadzenie.
-> - **Pellegrin (Zenodo 10.5281/zenodo.21865788, 2026, bez recenzji) [L]:** pętla zakotwiczona na parze p≺q (dwa łańcuchy) jest **zawsze czysto elektryczna** (biwektor czasopodobny). „Korona” (dwa elementy dolne, dwa górne, pętla zygzakiem, same linki) ma biwektor przestrzennopodobny w 96–99% → treść magnetyczna; w 1+1 waga magnetyczna ≡ 0 (test, który mógł tylko upaść — przeszedł). Liczby koron $N^{2,34}$ wobec elektrycznych $N^{2,51}$, N=250–24000 (×96), dokładne zliczanie; tłumienie znika przy pętlach nie-linkowych i w obszarze wydłużonym; asymptotyka otwarta. Średni zbiór „między linkami” → 3π w d=4 (przypadek graniczny); prawo linków $2-2/d$ potwierdzone w d=3, 4, nie w d=2. **Faza nadal z kontinuum** (zgodność „do precyzji maszynowej” = Stokes dla stałego pola, kontrola kodu, nie fizyka). Żadna suma po pętlach nie jest zbieżna bez reguły wag — brak cięcia.
-> - **Wniosek [A][O]:** treść magnetyczna wymaga **naprzemiennych kierunków relacji**; jednostronne zakotwiczenie daje tylko „czas”.
-> - **Propozycja asystenta WYCOFANA [A]:** faza jako płaszczyzny antysymetrycznej części iΔ (pary ±λ). To są **mody pola skalarnego** (Johnston), bez polaryzacji — pułapka nazewnicza. W d=4 funkcja Greena i tak motywowana kontinuum (przegląd Nomaana 2306.04800).
-> - **Bezpośrednie oddziaływanie [L]:** Johnston §3.14.3 — nielokalność zbioru przyczynowego pasuje do Wheelera–Feynmana lepiej niż opis różniczkowy. Hemion (1988): elektrodynamika Fokkera na lokalnie skończonym porządku, utknął na prędkościach (u nas A2 ma prędkość). **Przeszkoda wg Johnstona: trzeba znać cały zbiór i „odfiltrować” resztę wszechświata = cięcie.** Wheeler–Feynman jest symetryczny w czasie; asymetria z pochłaniacza (kosmologia). Na zbiorze: WF używa części symetrycznej $G_R$, SJ antysymetrycznej. Bauer–Deckert–Dürr–Hinrichs (1306.3756): istotny jest efektywny opis cząstki w otoczeniu.
-> - **Analogia [H]:** jak zachowanie energii — działa lokalnie, nie dla całego wszechświata (brak globalnego wektora Killinga). Całość nie ma otoczenia → nie ma globalnej symetrii ani globalnego cięcia.
-> - **Luka obejmuje całą rodzinę stożka [A]:** superekstensywność z mnożenia się linków (Pellegrin) = ta sama nielokalność co d'Alembertiany; dla skalara załatane zewnętrzną skalą nielokalności.
-
-**Czarne dziury — PYTANIE OTWARTE (użytkownik, v3.4).** „Zbyt wyjątkowe miejsca, żeby je pomijać; na pewno trzeba będzie do tego dojść.” Warunek wstępny (użytkownik): **OTW trzeba najpierw oczyścić z interpretacji** — teoria nie mówi nic o zapadaniu, krzywiznach ani nieskończonych gęstościach; rozpatrywać w ujęciu informacyjnym. Nie rozstrzygać przedwcześnie.
-- > **Po filtrze: A5d (poprawka 159).** Zdanie (1) — przeszło jako bilans (S = molekuły, nie entropia splątania); (2) — przeszło wyłącznie nie wprost, osobliwość ≡ chwila zero; (3) horyzont zdarzeń — **nie przeszedł** (teleologia: „kiedykolwiek” = całość + kierunek), zastąpiony brzegiem lokalnym [460]; zdanie „nie leżą w przeszłości **żadnego** czytającego” niżej — tak samo teleologiczne. Od strony 3D: z zewnątrz obszar bez odczytywalnego zapisu = brzeg 2D ≡ Ø.
-- **OTW bez interpretacji (trzy zdania, do sprawdzenia):** (1) równanie Einsteina jako **równanie stanu** — przepływ energii przez lokalny horyzont = temperatura × przyrost entropii ∝ pole (Jacobson 1995); (2) osobliwość jako **niekompletność** krzywych przyczynowych — łańcuchy urywające się bez elementu końcowego (twierdzenia Penrose'a–Hawkinga), nie gęstość; (3) horyzont jako **brzeg przeszłości** obszaru dalekich obserwatorów — definicja czysto porządkowa. → Czarna dziura = obszar, którego zdarzenia **nie leżą w przeszłości żadnego czytającego z zewnątrz**: zawarte, ale nieodczytywalne.
-- **„Osobliwość informacyjna” [L]:** jednego ustalonego pojęcia nie znaleziono; najbliższe: **Stoica** (osobliwości „łagodne” = metryka zdegenerowana, składowe skończone; opis bez nieskończoności, przedłużenie poza osobliwość, redukcja wymiaru; arXiv:1507.03131); **teoria uczenia osobliwego** (Watanabe, poprawka 169: dosłownie nierozróżnialne są tylko rozkłady z W₀ = {K = 0} — różne parametry, ten sam rozkład; zdegenerowana metryka Fishera = nierozróżnialność tylko do drugiego rzędu, KL rośnie wyższą potęgą, rozkłady rozróżnialne); **fuzzballe** (horyzonty i osobliwości jako skutek za małej liczby stopni swobody w opisie). Wspólne: osobliwość = **miejsce utraty rozróżnialności** — to jest ≡ z łańcucha Ø *(dosłowne ≡ tylko tam, gdzie entropia względna = 0; utrata rozróżnialności do drugiego rzędu to jeszcze nie ≡ — poprawka 169)*.
-- **Trzy możliwe odczyty (bez rozstrzygnięcia):** (a) **agregat informacyjny** — maksymalna entropia przy danym brzegu (Bekenstein–Hawking: entropia ∝ pole horyzontu, nieprzekraczalna); (b) **stabilizacja wzrostu** — lokalne zamknięcie mieszania (ujednolicenie z R2) brzegiem odczytywalności; (c) **coś innego** — np. zdegenerowanie metryki (Stoica).
-
-**Co odróżnia pola: czy relacja wraca do siebie [H].** „Pole = struktura, w której wzbudzenia są możliwe” nie odróżnia pól. Hipoteza (rozmowa 5, niepoliczona): nie wraca do siebie → grupa abelowa U(1) (foton, rozchodzi się swobodnie); wraca → nieabelowa SU(3) (gluon, zamyka się). Kontekst: C4a.13.
-
-> **Dopisek v3.5 (R1d; poprawka 142) [L][O]:** przełożone. Nie wraca: F = dA — relacja nie niesie ładunku, abelowa (elektron = relacja). Wraca: F = dA − ig[A,A] — relacja relacji, nieabelowa (kwark). Rozstrzygnięte przekładem; na porządku niepoliczone (wagi obiegów = „działanie”).
-
-**Czy stosunek otoczenia do Ø jest niezmiennikiem wzrostu.** Warunek wstępny dla przenoszenia między otoczeniami. **Po §R2 wiadomo, że to jest to samo pytanie co retrospekcja chwili zero.** Niebadane.
-
-**Czy prawo $n^{k-(k-1)d}$ jest w literaturze.** Nie ma go u Minza 2410.02862. **[L] Johnston, doktorat (arXiv:1010.5514, §4.2.1):** pomysł Rideouta — materia jako klasy elementów o identycznych relacjach („pary niehegelowskie”) = bliźniaki z A3a; pojęcie starsze niż Minz, ale wykładnika nadal nikt nie podał. Do sprawdzenia: Minz, arXiv 2406.14533.
-
-Uwaga: szukamy w tym, co **już jest**. Trzy powody, dla których stosunek mógł nie wyjść: nikt nie zauważył; uznano za mało istotne; **albo z nieporządku nie chciało wyjść**. W v3.2 doszedł czwarty, częstszy od tamtych: **zauważono i opublikowano, a myśmy nie sprawdzili.**
-
----
-
-# §D — SPRAWDZONE I NIEUDANE
-
-**Powiększanie: wszystkie pięć reguł wzrostu dają łańcuch.** r ≈ 0,99, d ≈ 1,0–1,2. Przyczyna: **przestrzenność nie jest w tych regułach zdarzeniem, tylko resztą po zdarzeniach.**
-
-> **Sprostowanie v3.2.** Zdanie „nowy element zawsze wybiera przodków, więc zawsze ląduje wyżej, nigdy obok" jest **za mocne**: dołożenie elementu bez przodków jest dopuszczalne. Ale efekt jest ten sam — przy n elementach prawdopodobieństwo, że nowy nie ma żadnego przodka, wynosi $(1-p)^{n-1}$, czyli maleje wykładniczo. **Dokładanie „obok" jest dozwolone i wykładniczo tłumione.** Stąd te struktury wychodzą KR-podobne.
->
-> I jest to znane: klasyczny wzrost sekwencyjny Rideouta–Sorkina, którego szczególnym przypadkiem jest perkolacja przechodnia, **nie produkuje zbiorów rozmaitościowych** — potwierdzone własnym rachunkiem (A9b) i opublikowane (Glaser–Surya).
-
-**Stary pomiar rozszerzania mierzył złą zmienną.** Szerokość co 250–500 **elementów**, a numer elementu rośnie liniowo z definicji.
-
-**Punkty izolowane w sprinklingu to artefakt brzegu diamentu**, nie model osobliwości.
-
-**Myrheim–Meyer po całym diamencie jest obciążony.** Kontrola dała 5,41→4,06 zamiast stałego 4. Formuła jest dla **interwału przyczynowego**, nie dowolnego zbioru. **W v3.2 okazało się, że ta sama diagnoza tłumaczy pomiar f z rozmowy 3** (poprawka nr 13) — plik miał ją i nie zastosował do własnej liczby.
-
-**„CMB to nasze plecy" w wersji dosłownej — sprawdzone i nieznalezione.** Wersja prawdziwa: obserwacja wzajemna, nie zwrotna.
-*Zastrzeżenie metodologiczne: ten rachunek odpowiadał na twierdzenie, którego nie postawiono.*
-
-**Redukcja wymiarowa d→2 nietestowalna w sprinklingu.** Brakujący element jest konkretny: **struktura, w której d biegnie** (CDT, asymptotyczne bezpieczeństwo, grawitacja Hořavy).
-
-**b(d) nie jest zbieżne w d=2 i d=3** (A5a). Stabilne jest tylko uporządkowanie.
-
-**Aczel nie wykonał ani jednej operacji.** Miał uzasadniać, że w porządku nie ma nieskończonego zstępowania (ufundowanie) — ale każdy porządek częściowy lokalnie skończony jest ufundowany z definicji, więc nic nie wyróżnia. Ta część układu jest **odłączona** od rachunków. **Do skreślenia, chyba że znajdzie się teza, którą ma trzymać.**
-
-**Macierze niesymetryczne dały czas, nie dały wymiaru.** Wymiar części symetrycznej dalej wynosi ~n−1. Czeka na mechanizm selekcji.
-
-*Darmowy fakt formalny:* macierze skośnie symetryczne mają zawsze rząd parzysty. Część „rotacyjna" struktury zawsze rozkłada się na dwuwymiarowe płaszczyzny.
-
-## Nieudane w v3.2
-
-**Fala pp — próg nie reaguje na Weyla.** Napisano sypacz do fali płaskiej w postaci Rosena, $ds^2=-2\,du\,dv+a(u)^2dx^2+b(u)^2dy^2$ z $\ddot a=-A(u)a$ i $\ddot b=+A(u)b$ (warunek próżni: Ricci zero, Weyl niezerowy), $\sqrt{-g}=ab$. Warunek przyczynowy wyprowadzony, nie zgadnięty:
-$$2\Delta v\ge\frac{(\Delta x)^2}{\int du/a^2}+\frac{(\Delta y)^2}{\int du/b^2},\qquad \Delta u>0$$
-
-**Kontrole przeszły:** granica płaska zgadza się z Minkowskim liczonym niezależnie w $(t,z,x,y)$ — **0 niezgodnych par na 2 250 000**; przechodniość 0 naruszeń na 200 000 trójek; kaustyka przy $\pi/(2\sqrt{A_0})$.
-
-**Wynik wstępny (wycofany):** przy c=1 (jeden element toru na skalę dyskretności) β przy k=4 rośnie z amplitudą 0,078 → 0,118, dwa poziomy, przejście przy $A_0\approx1{,}2$, **9,0σ**.
-
-**Wynik po sprawdzeniu przedczynnika (obowiązujący):**
-
-| c (gęstość torów) | β przy $A_0$=0 | β przy $A_0$=2,45 | różnica |
-|---|---|---|---|
-| 1,0 | +0,0931 | +0,1616 | 0,068 |
-| 2,0 | +0,0318 | +0,0507 | 0,019 |
-| 4,0 | **+0,0062** | **+0,0078** | **0,0016** |
-
-**Podłoga znika przy zagęszczaniu torów, a efekt amplitudy znika razem z nią.** Przy c=2 skan amplitudy jest monotoniczny (0,0315 → 0,0564), bez dwóch poziomów i bez skoku.
-
-**Prawda:** próg wynosi 4 w obu przypadkach. Kaustyka leży poza obszarem dla każdego badanego $A_0$, więc odwzorowanie pozostaje różnowartościowe. Amplituda zmienia **uwarunkowanie** odwzorowania (rozmycie precyzji przy skończonej rozdzielczości), nie próg. **Zdanie „próg rośnie powyżej 4" jest fałszywe.**
-
-**Przyczyna błędu:** związano skalowanie L, nie sprawdzono stałej przy L (poprawka nr 16).
-
-**Reguła stąd:** **wniosek z zakresu węższego niż dekada nie jest wnioskiem** — pierwsza wersja szła po L od 5 do 8. Ale i to nie wystarczyło: trzeba dekady w n **oraz** skanu po każdym parametrze ustawionym przez siebie.
-
-## Nieudane w v3.3
-
-**Test plateau w wersji „poddiament D + losowe fragmenty reszty” — źle postawiony.** d=2, N=400, |D|=36, SJ z $G_R=C/2$, 2 realizacje, 8 losowań.
-- **Kontrola, która nie przeszła:** czystość. Bez obcięcia S(D)=13,34 wobec S(reszta)=18,96, niezależnie od tolerancji $10^{-6}$…$10^{-12}$ — nie numeryka. Symetria $I(f)+I(1-f)=2S(D)$ też nie.
-- **Przyczyna:** reszta zawiera przeszłość i przyszłość D — dla pola to nie są niezależne podukłady (R5 w liczbach). Otoczenie **nie rozkłada się na niezależne fragmenty bez cięcia**: niezależne są tylko podzbiory antyłańcucha, a antyłańcuchy (nawet pogrubione) nie są dobrymi powierzchniami Cauchy'ego (1712.04227).
-- **Drugi błąd (asystent):** obcięcie SJ globalne niszczy czystość z konstrukcji; przy c≥0,5 krzywa leży równo na 1,00 od f≈0,4 — **FAŁSZYWE PLATEAU**. Liczby do wyrzucenia.
-- Poprawiona wersja: C4.
-
----
-
-# §F — ZMIANA PUNKTU WIDZENIA: JĘZYK INFORMACJI (plan, v3.4)
-
-**Ustalenie (użytkownik):** to **zmiana języka opisu, nie zmiana tematu**. Te same obiekty, te same otwarte pytania, inny sposób pytania. Powód: pojęcia ramy to zapis, odczyt, rozproszenie i dostępność — czyli pojęcia teorii informacji, a nie geometrii siatek.
-
-**Przekład (nic z wyników nie znika, zmienia się etykieta):**
-
-| dotąd (geometria) | od teraz (informacja) |
-|---|---|
-| wymiar sieci odczytów | ile kroków kosztuje dotarcie informacji do odległego miejsca |
-| krzywizna | czy ten koszt rośnie liniowo z odległością, czy wykładniczo |
-| płaskość | liniowy koszt odczytu na dużych skalach |
-| hiperboliczność | struktura, w której skróty są tańsze niż droga wprost |
-| horyzont | brzeg odczytywalności: zapis zawarty, ale niedostępny |
-| pustynia | zakres skal, na których koszt zmienia charakter |
-
-Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwiastek trzeciego stopnia z liczby dostępnych miejsc; „ujemna krzywizna R6” = w tej strukturze istnieją skróty.
-
-**Kandydaci na narzędzia (ocena asystenta):**
-- **odzyskiwalność informacji** (kwantowa korekcja błędów jako formalizm, nie jako model grawitacji): „zawarte, ale nieodczytywalne” jako **wielkość liczbowa**; jeden język dla H.M., 200 klocków i horyzontu. **Najbliżej ramy.**
-- **złożoność / kompresowalność opisu:** „ile kosztuje odtworzenie stanu z zapisu” — dosłownie przykład z klockami (mózg przegrywa, bo opis przekracza pojemność; aparat wygrywa). Zastrzeżenie: w ogólności nieobliczalna, pracuje się na przybliżeniach.
-- **redundancja Zurka jako narzędzie** (nie cytat): plateau = ilu niezależnych świadków ma ten sam zapis. **Najtańsze — kod już mamy (C4a).**
-- **termodynamika informacji** (Landauer, Bennett): kasowanie kosztuje, odczyt nie — jedyne miejsce, gdzie zapis i odczyt mają jednostki; może być potrzebne przy masie.
-- Z czwórki użytkownika: **nawigowalność sieci** (Boguñá–Krioukov) — tania, liczona na gotowych strukturach, mierzy, czy odczyt lokalny wystarcza do dotarcia; **kod HaPPY** — naturalny dom dla „zawarte vs odczytywalne”, ale wymaga stanów kwantowych; **sieci tensorowe (MERA)** — dodatkowy wymiar = skala, struktura hiperboliczna: możliwe rozpoznanie rodziny, w której wylądował R6; **Wolfram** — nasze reguły to przepisywanie hipergrafów, wartość głównie katalogowa.
-
-**Zastrzeżenie (asystent):** te języki mierzą **dostępność zapisu**; żaden sam z siebie nie powie, skąd bierze się przestrzeń. Pytanie „dlaczego przestrzeń jest prawie płaska” brzmi w nich „dlaczego koszt odczytu rośnie liniowo, a nie wykładniczo” — to samo pytanie, nadal otwarte.
-
-## §F1. MASA — następny temat (plan)
-
-> **HIPOTEZA NADRZĘDNA [H] (użytkownik, 25.09; poprawka 136):** „To będzie układ samopodobny, aż do całego wszechświata. Masa nie może być oddzielnym, ostatnim etapem, do którego można dojść krok po kroku. Żaden krok tam nie zaprowadzi. To musi być ustalone wszystko na raz.”
-> - **W ramie już jest [O]:** hierarchia węzłów [402, 404] — całość (Wheeler–DeWitt) zawiera mniejsze węzły, a regres zatrzymuje się w nieoznaczoności skali Plancka (2D ≡ Ø); „mechanizm ogólny na każdej skali” [402, 404]; „wszystko naraz” [392, 402]; R1d: masa = jednostronna relacja nośnika z tłem wszędzie tym samym = relacja węzła z całością.
-> - **Samopodobieństwo prawa (L) i logarytm [L][T]:** brak wyróżnionej skali ma jedyną niezmienniczą miarę du/u, więc tam, gdzie prawo nie wyróżnia skali, wielkości biegną logarytmicznie — logarytmy typu S (146; tabela niżej): ln n (§F2, ∫du/u), T/V ∝ ln W (etap18), ln(n₀/n) biegnących sprzężeń (R1d), 1/α ∝ ln(N_Λ/N) (A2). **To jest (L), nie hipoteza [104]:** [104] czytana jest jako hierarchia węzłów, a (L) i (S) to dwa inne znaczenia słowa „samopodobny” (pułapka 12). (L) zespołu łamie się na progach mas (225); położenie bieguna `n_Λ` niczego nie łamie.
-> - **Konsekwencja dla planu (poprawiona, 151):** masa nie jest krokiem po czasie/3D/świetle, tylko ustala się razem z nimi. **Celem jest sam zespół funkcji** [94] — funkcje biegu bezwymiarowych stosunków (β dla sprzężeń, γ dla mas) od logarytmu stosunku skal (liczebności), dwóch typów (relacja / relacja relacji), **samopodobny i ustalany naraz** [104]. **Liczby (1/137, y_e, …) to wartości funkcji w jednym stanie** [88] — odczyty, nie cel; „same wyskoczą po drodze”.
-> - **Przekształcenia są już w pliku [H][L]:** użytkownik [86] → A2 (ładunki z N_c i anomalii, hiperładunki, współczynnik beta (−1)^{2s}(4s² − ⅓), 1/α jako ln(N_Λ/N) z nachyleniem ΣN_cQ² = 8); R1d (biegnące sprzężenia w liczebności obiegu, transmutacja); R1e/145 (pochodzenie ⅓, liczba polaryzacji). **Jawnie brak tylko biegu mas** [L][O]: m(μ₁)/m(μ₂) = [α_s(μ₁)/α_s(μ₂)]^{γ₀/(2b₀)}, wykładnik 12/(33 − 2n_f) (γ₀ = 8 z koloru, b₀ = 11 − ⅔n_f) — **stosunek mas = stosunek sprzężeń do potęgi stosunku współczynników** = dosłownie „stosunek dwóch stosunków do stosunku” [94]; wszystkie wejścia z listy 147. Dla elektronu (QED) wykładnik innego znaku i typu (relacja zamiast relacji relacji) — „kwarki i elektrony nie pozwolą na jedną funkcję”. Kwark odczytywalny tylko jako m_b(m_b) — „stosunek odniesiony do stosunku” [95].
-> - **Zdanie do upadku (poprawka 139; pierwsza wersja była pusta — każdą liczbę da się zapisać jako exp(ln x)):** wykładniki muszą pochodzić **wyłącznie z policzonych współczynników** (b₀, 2π, ΣN_cQ², (−1)^{2s}[(2s)² − ⅓], liczebności porządku) — **lista dozwolonych wejść zapisana przed rachunkiem, bez żadnej stałej dopasowywanej**. Upada, gdy dla którejś skali takiego zapisu nie ma.
-> - **Precedens i ostrzeżenie [L][H]:** bootstrap konforemny (wykładniki z samej spójności, bez kroków). Ostrzeżenie: numerologia Diraca i Eddingtona — przykład pułapki: **ln(R_H/l_P) = 140,3** (H₀ = 67,4) wobec 1/α ≈ 137. Literatura do §F1: **Meissner–Nicolai, Phys. Lett. B 648, 312 (2007)** — klasycznie konforemny Model Standardowy, skale z łamania radiacyjnego (logarytmy).
-> - **Masa, środek, kula — jeden warunek [L][T] (Wigner 1939):** cząstka masywna ma układ spoczynkowy i grupę SO(3) wokół środka; bezmasowa ma E(2) i nie ma układu spoczynkowego. W ramie: masa ⇔ środek μ i własna oś czasu ⇔ kula 3D wokół środka (R1b) ⇔ wnętrze stożka (R1c); bez masy tylko brzeg (światło). „Kula = suma wszystkich odczytów w relacji do środka” [H].
-> - **Sfera fotonowa = samoodczyt przez pętlę światła [H][O]:** na r = 1,5 r_s światło krąży po okręgu — patrząc poziomo widzi się tył własnej głowy: przeszłość jako zapis czytany teraz, tym razem zapis siebie. Jedno okrążenie 3π r_s/c = wartości z A5b (9,3·10⁻⁵ s Słońce, 399 s Sgr A*, 7,0 d M87*) — **na zegarze dalekiego czytającego; na własnym zegarze stojącego na sferze × √(1/3): 5,4·10⁻⁵ s, 231 s, 4,0 d.** „Ile temu” należy do relacji z czytającym (R1d: energia = częstość odczytu względem czytającego).
-> - **TABELA LOGARYTMÓW (poprawka 146) [A][O].** Dwa typy (oba = „koszt wskazania” z §F2, ale tylko S należy do §F1):
-  - **typ S (skala, ∫du/u)** — wskazanie jednej skali spośród rozłożonych samopodobnie = ślad samopodobieństwa;
-  - **typ K (kombinatoryka, ln liczby możliwości)** — wskazanie jednej spośród równoprawnych (ln n!); **samopodobieństwa tu nie ma**.
-
-| logarytm | typ | po czym biegnie | współczynnik | status |
-|---|---|---|---|---|
-| koszt wskazania ramy ln n (etap10–11, §F2) | S | tyknięcie / odstęp rozsiewu, n ∝ ρ/m⁴ | 1, policzony [T][P] (także na rozsiewie 3+1) | **pojemnik** (rozsiew, 178, 186): n niesie gęstość, a „masa pod logarytmem” to m·ℓ — piksel (194) |
-| ln N z §F2 (linki, ściany, D) | S | zakres pchnięć, ln N = 2 ln(ℓ/t_P) | 1 i ⟨α²⟩ = 0,834 policzone; 0,57 zmierzone | tylko 1+1; w 3+1 potęga (§E); **pojemnik** (rozsiew, 178) |
-| biegnące sprzężenia ln(n₀/n) (R1d) | S | obieg odczytu | b/2π z listy wejść [L] | przełożone |
-| 1/α ∝ ln(N_Λ/N) (A2) | S | jw. | ΣN_cQ² = 8 policzone | [P]; N ~ L^d wkłada pojemnik — czytać jako stosunek obiegów, jak ln(n₀/n) (178) |
-| transmutacja n_Λ = n·e^{2π/(b₀α_s)} (R1d) | S | jw. | 2π, b₀ | [L]; **wymaga wartości brzegowej α_s** |
-| Λ ~ N^{−1/2} („everpresent Λ”, Sorkin) | S/K | liczebność całości | **½ z Poissona, policzone** [L] | postać dokładnie taka, jakiej żąda poprawka 139; CMB ogranicza amplitudę fluktuacji (Dalej otwarte) |
-| log e(C), D = log n! − log e(C) (A4, A11) | K | uporządkowania | f(d) zmierzone | nie samopodobieństwo |
-| nadwyżka sprzężenia log C(n, n_A), koszt relacji −log Pr (A11) | K | przeploty | policzone | jw. |
-| entropia SJ (1/6)·ln N (C4a.16) | — | liczba modów po cięciu | — | **artefakt procedury cięcia** (poprawka 51); pojemnik (178) |
-| entropia względna stanu koherentnego wobec SJ, a + b·log₂N (etap26b) | ? | liczebność N | b(πR/σ) = 0,06–0,64 na podwojenie, zmierzone | **nie od obcięcia modów** (poprawka 170); **pojemnik** — czytający O = wszystko (174, 178) |
-| T/V ∝ ln W (etap18) | ? | — | zmierzone | **z migawki sztywnej wykluczonej filtrem** (zero absolutne); tylko z tą adnotacją; pojemnik (178) |
-| ln(R_H/l_P) = 140,3 | — | — | — | pułapka numerologii |
-
-- **„MASA = MIEJSCE ŁAMANIA SAMOPODOBIEŃSTWA (`n_Λ`)” — PUSTE I SPRZECZNE ZE 152; AUTONOMIĘ ZESPOŁU ŁAMIĄ PROGI (poprawka 225) [T][L][O].** Zdanie [A] z [105]: *„Masa pojawia się tam, gdzie samopodobieństwo się łamie, czyli gdzie logarytm dochodzi do jedności (transmutacja, n_Λ = n·e^{2π/(bα)})”*. Hipoteza nadrzędna to [104] [H] (blok hipotezy wyżej); [94] mówi o zespole funkcji i logarytmie, nie o samopodobieństwie ani łamaniu.
-  - **(a) Puste [T].** „Logarytm dochodzi do jedności” znaczy `(b₀α(n)/2π)·ln(n_Λ/n) = 1` (konwencja `b₀` z R1d-F — uwaga 216), czyli `1/α = 0` w `n_Λ` — ten sam punkt co rozbieżność w 224. Przy `b₀ ≠ 0` odwzorowanie `α(n) ↦ n_Λ/n` jest bijekcją: `α(n) = 2π/(b₀·ln(n_Λ/n))`. „Miejsce łamania” niesie dokładnie wolną daną i nic ponadto.
-  - **(b) Sprzeczne ze 152 [T].** (L) w 152 = niezmienniczość układu względem przesunięcia w `t`. W `1/α₃ = 0` ta niezmienniczość nie pęka: przesunięcie odniesienia przeprowadza rozwiązania w rozwiązania i tylko przesuwa zero. Punkt transmutacji to miejsce, gdzie konkretne rozwiązanie wychodzi poza dziedzinę opisu jednopętlowego — własność rozwiązania, nie złamanie symetrii układu. W odczytaniu konwencjonalnym (anomalia łamie klasyczną niezmienniczość skalową działania) samo biegnięcie jest złamaniem; w ramie samo biegnięcie jest (L) — odniesieniem jest prawo biegu, nie klasyczne działanie (205: z literatury formalizm, nie interpretacja).
-  - **Gdzie (L) zespołu się łamie — trzy niezależne podpory [T][L][O].**
-    1. **Autonomia [T][L].** W schemacie niezależnym od mas funkcje beta bezwymiarowych sprzężeń zależą wyłącznie od bezwymiarowych sprzężeń (Weinberg, PRD 8, 3497 (1973); 't Hooft, Nucl. Phys. B61, 455 (1973)), więc przy ustalonej zawartości pól układ `dX/dt = F(X)` jest **autonomiczny w każdym rzędzie**. Autonomię łamie wyłącznie **zmiana zawartości pól — na progach**, gdzie ciężkie pola się odsprzęgają (Appelquist–Carazzone, PRD 11, 2856 (1975)), a `b_i`, `c_i` skaczą (219: „przy progach zmienia się zawartość sektora"). Progi leżą w `m_i = y_i·v/√2`. W schemacie zależnym od mas autonomię łamie gładko to samo — `m/μ`. **W żadnym schemacie nie łamie jej biegun własnego sprzężenia.**
-    2. **218 [T]** (rachunek użytkownika, `masa/4`–`5`): wspólny logarytm `F → ln r`, `G → 2ln r` — czyli ślad samopodobieństwa — zachodzi **wyłącznie w granicy `η = m/Q₀ → 0`**; przy skończonym `η` wagi są różne (`∂F_i/∂η_i² < 0` z samych propagatorów). Czysty logarytm łamią **masy**.
-    3. **180 pkt 5 [O]:** na parze (M, O), dopóki M jest modułem, *„wnętrze nie ma dla O żadnej skali"*, a *„jedyne, czym skala wnętrza przechodzi do otoczenia, jest liczba własnych tyknięć — jeden czynnik g"* — skala wchodzi **przez masę**.
-    - **Więc: autonomię układu — (L) w sensie 152 — łamią progi, czyli masy.** Zdanie jest prawdziwe, ale **tautologiczne** — skala łamie brak skali z definicji — więc nie daje treści o masie, a [105] nie wraca w nowym odczycie.
-  - **Co z [104] [O].** 206 daje, że masa jest warunkiem 3D i czasu, nie krokiem po nich — to jest zgodne z klauzulą *„masa nie może być oddzielnym, ostatnim etapem”*, nie jest jej dowodem w całości. 207 dotyczy trzech warunków R1a, nie ustalania mas naraz; 212 wyprowadza logarytm z addytywności składania stosunków — to dotyczy (L), nie [104]. [104] czytane jest jako hierarchia węzłów [402, 404] i stoi jako hipoteza — ani dowiedziona, ani obalona.
-  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* umieszczać łamanie (L) w `1/α → 0` albo w `n_Λ` (przeczy 152); czytać „anomalia łamie niezmienniczość skalową” jako zdanie ramy; przypisywać [104] treść „masa = miejsce łamania samopodobieństwa”. *Pozwala:* umieścić złamanie autonomii zespołu w progach (masach), z trzema niezależnymi podporami.
-- **OSOBLIWOŚĆ NAVIERA–STOKESA (OpenAI) — WĄTEK ZAMKNIĘTY (poprawka 226) [H][L].** Zdanie użytkownika (6.10): *„Niedawno OpenAI wykazali, że w równaniach Naviera-Stokesa dochodzi do matematycznego załamania ciągłości (singularności) — to jest kolejne miejsce nierozróżnialności."* Wynik: twierdzenie jest **z siłą** dobraną jako reszta skonstruowanego przepływu; bez siły pytanie stoi otwarte, a ten typ wybuchu bez siły nie zachodzi (Constantin–Ignatova–Vicol); dokładnie samopodobny wybuch w NS jest pusty (Nečas–Růžička–Šverák, Tsai); samopodobieństwo konstrukcji wyłania się, gdy dyfuzja osiowa staje się nieodróżnialna od zera — **struktura 160**, nie nowy rodzaj. Do ramy weszła pułapka nazewnicza nr 12 (tabela pułapek). Źródła i kartka: `literatura/navier-stokes.md`. *Zabrania:* cytować wynik OpenAI jako zdanie o NS bez siły. *Pozwala:* czytać osobliwość opisu ciągłego strukturą 160 (człon ≡ 0, wyłaniająca się postać samopodobna) bez pytania o nieskończoności.
-- **LISTA DOZWOLONYCH WEJŚĆ (poprawka 147; zapisana przed jakimkolwiek rachunkiem):**
-  - **wolno:** d = 3 (R1b); 2π (obieg fazy); (−1)^{2s}, (2s_z)², ⅓ na stan, liczba polaryzacji d − 1 (R1e); N_c, n_f, ΣN_cQ², liczba pokoleń 3; współczynniki strukturalne policzone w dokumencie: 1 (koszt wskazania ramy), ½ (Poisson), ∫f(w)dw konfiguracji;
-  - **nie wolno:** wartości zmierzone (α(m_Z), y_e, v); współczynniki tylko zmierzone (f(d), 0,57), dopóki nie zostaną policzone.
-  - **Zdanie do upadku (doprecyzowane):** dla każdej skali **jedna** kombinacja wejść, zapisana przed rachunkiem; przeszukiwanie kombinacji = numerologia (Eddington). Upada, gdy któraś skala wymaga wejścia spoza listy.
-  - **Wartości brzegowe [O]:** biegnące sprzężenia potrzebują wartości w jednym (dowolnym) punkcie odniesienia (153); celem jest zespół funkcji, nie te wartości [88] (151). Skąd miałyby pochodzić: Ø-miejsca nie dają warunków (224), całość ich nie ustala (150), a skala Plancka ≡ 2D ≡ Ø nie jest punktem na osi biegu, w którym można by je postawić.
-- **Grupa renormalizacji po filtrze [L][O]:** Kadanoff (1966, bloki spinów), Wilson–Kogut (1974); „przepływ UV → IR” przemyca kierunek — w ramie **relacja między rozdzielczościami odczytu**; zgrubienie = odczyt przy mniejszej rozdzielczości = więcej nierozróżnialnych = zapis rozproszony. [?] monotoniczność c/a (Zamolodchikov 1986; Komargodski–Schwimmer 2011) ↔ A4d/138 — A4d dotyczy dokładania elementów, nie zgrubienia.
-- **STAN ZESPOŁU — zestawienie po 166 (poprawka 167) [O].** Tabela z końca sesji 3 (zapis sesji 3, [91]; wtedy niewpisana), sprawdzona wobec pliku i uzupełniona o 166, 168, 169 i 170. Mapa, nie treść — treść w poprawkach podanych w nawiasach.
-
-| co | stan |
-|---|---|
-| **funkcje** (policzone, bez dopasowania) | 3 sprzężenia: b = 41/6, −19/6, −7 (152); 9 Yukaw fermionów naładowanych **tylko jako stosunki** — odczyt B (166), wykładniki wymierne; wewnątrz typu biegnie tylko 3. pokolenie przez y_t, e : μ : τ stoją (153); λ: 24λ² + część bez λ = supertrace (155 D); CKM i θ_QCD jednopętlowo praktycznie nie biegną (153) |
-| **wyprowadzenie współczynników** | z elementów ramy: (−1)^{2s} = znak 2π, (2s_z)² (R1e); −⅓ = obiegi dyskretne wobec miary („sztuki czy miara”); d = 3 (logarytm, 3 polaryzacje; [?] 3 w γ_m); c (εμ = 1); ładunki z anomalii i N_c (155). **Niewyprowadzone:** grupa cechowania i liczba pokoleń (warunkowo 156–158); człon 3/2(Y_u†Y_u − Y_d†Y_d) (cytowany, 155 C) |
-| **pojęcia** | wszystkie pojęcia zespołu mają definicje w ramie (R1f-4); kolor i Casimiry warunkowo (156–157) |
-| **odczyty** | 19 = 3 sprzężenia + 9 mas (w zespole: Yukawy — odczyt B, 166) + 4 CKM + 2 Higgs (λ, μ²) + θ_QCD; N równań → N wartości w jednym (dowolnym) punkcie odniesienia = spójność [88] z matematyką, nie odkrycie (153, 165) |
-| **warunki ramy na λ** | λ = 0 i β_λ = 0 tam, gdzie nic nie jest odróżnialne (Ø z Ø nie jest relacją; sąsiedztwo nierozróżnialne) — 154. **Czy ustalają jakiś odczyt — otwarte:** przeniesienie na m_H, m_t wymaga skali Plancka jako miejsca na osi biegu (`ln(m_P/v)`), a ta położenia nie ma. [L] natura przy granicy stabilności (dokładna krytyczność: m_H = 129,4 ± 1,8 GeV wobec 125). Porządek nie daje temu odpowiednika ani liczby (168) |
-| **ustalone strukturą, nietrafione** | R\* = 2/9 (Pendleton–Ross; w naturze R(m_t) ≈ 0,65) i quasi-punkt Hilla (≈ 203 GeV wobec 173) — wykładnik 1/b₃ = −1/7 mały wobec pustyni (165) |
-| **warunki konieczne, nie wartości** | dwa, różnego rodzaju: **samorelacje** (208 — tylko λ ustalona) i **wspólna realizowalność zapisów** `𝒢 ≥ 0` z `𝒢′(s*) = 0` na granicy (212). Żaden nie wybiera wartości; oba wycinają rodziny. Logarytm jako argument jest **wyprowadzony** (212), stosunki mają rząd `n−1`, a same tożsamości porównań **nie** wymuszają relacji potęgowej z 152 (kontrprzykład w 212) |
-| **przejście A ↔ B** | **rodzaj policzony, wartość nie (214):** `ln R_A = ln R_B − (3α/2π)ln R_B − Δ^W`; wkład EM = `α` razy logarytm stosunku, stała i `ln q` skracają się, `Δ^W` jest jawną całką z tego samego działania (nie nowym sprzężeniem), a jej zależność od `Q` znosi się z różnicą beta-funkcji Yukaw. Po 208: **relacja, nie wielkość — wolne od cięcia.** Zakaz: `R_B` sam nie wystarcza za argument (`y → a·y` zachowuje `R_B`, zmienia progi) |
-| **nieustalone — rama nie daje warunku** | e : μ : τ — 0 warunków na 2 stosunki (166); empirycznie Q = 2/3 i δ = 2/9, tylko na odczycie A, niewyprowadzone; hierarchia pokoleń — zespół ślepy, niosą ją wyłącznie odczyty jednostronnej relacji z tłem (154 pkt 2); stałe z całości: Ĥ\|Ψ⟩ = 0 ich nie ustala (150); warunek Veltmana nie jest warunkiem ramy (168) |
-| **otwarte** | czy unormowanie Yukaw (`v/m_P`, skala całości) jest odczytem (208); czy warunki na λ ustalają odczyt (154); CKM; θ_QCD; y_e (skala relacji z tłem); grupa i 3 pokolenia warunkowo (156–158); bieg λ na porządku — niepoliczony, nie podjęty (168) |
-| **zastrzeżenia** | jedna pętla; progi mas zmieniają n_f; brak neutrin; G i Λ poza zespołem (152) |
-
-- **ZESPÓŁ FUNKCJI [94] — wypisany (poprawka 152) [L][P][O].** Jedna pętla, zakres bez skal pośrednich (pustynia [545]); współczynniki sprawdzone rachunkiem na ułamkach z ładunków A2 (N_c = 3, 3 pokolenia). Zmienna: **t = ln(n₀/n)** — logarytm stosunku liczebności obiegu (R1d); znak t = konwencja (który czytający jest odniesieniem), bez kierunku.
-  - **Poziom 1 — sprzężenia (relacje), 3 funkcje:** 1/α_i(t) = 1/α_i(0) − (b_i/2π)·t, wszystkie b z jednego wzoru A2: **b = −Σ (−1)^{2s}(4s² − ⅓)·T(R)** (**znak: to `b` jest przeciwne do `b` z R1d-F — poprawka 216**; tu `b₃ = −7`, a standardowe QCD `b₀ = −b₃ = +7`) (wektor × C_A, każdy fermion Weyla, każdy skalar zespolony).
-
-| relacja | b_i | skład | typ |
-|---|---|---|---|
-| U(1)_Y | **41/6** | fermiony 20/3 + Higgs 1/6 (ΣY² z hiperładunków A2) | **relacja** (b > 0, tylko ekranowanie) |
-| SU(2) | **−19/6** | wektor −22/3 + fermiony 4 + Higgs 1/6 | **relacja relacji** |
-| SU(3) | **−7** | wektor −11 + kwarki 4 | **relacja relacji** |
-
-    Każda funkcja to prosta w t: przesunięcie punktu odniesienia zmienia tylko punkt odczytu — **samopodobieństwo prawa (L) dosłownie** (pułapka 12). Łamie się na progach, gdzie zmienia się zawartość pól — w `m_i = y_i·v/√2` (225); w `1/α₃ = 0` (transmutacja, R1d) przesunięcie odniesienia tylko przesuwa zero.
-  - **Poziom 2 — masy (stosunek stosunków), 9 funkcji fermionów naładowanych:** do biegu **każdego** y_f wchodzi wspólny człon śladowy **T = Tr(3Y_u†Y_u + 3Y_d†Y_d + Y_e†Y_e) ≈ 3y_t²** (renormalizacja pola Higgsa, 153). Nie jest mały: przy m_t T ≈ 2,65 wobec części cechowania leptonów 9/4·g² + 15/4·g′² ≈ 1,43; dla kwarków ~24% części QCD (8g₃² ≈ 10,9). Ponadto m_f = y_f·v/√2, a bieg v powyżej skali elektrosłabej zależy od cechowania → **pojedyncza „masa biegnąca” nie jest tam czystym obiektem; stosunek jest.** **Dlatego od razu dla stosunków:** T i v skracają się w każdym stosunku, więc dla dwóch typów f, f′: **(m_f/m_f′)(t) / (m_f/m_f′)(0) = Π_i [α_i(t)/α_i(0)]^{p_i(f) − p_i(f′)} × (czynnik różnic Yukaw, poziom 3)**, p_i = −c_i/(2b_i) — stosunek mas = iloczyn stosunków sprzężeń do potęg będących różnicami stosunków policzonych współczynników = „stosunek stosunków” [94] w pełnej postaci. c_i = 3·[C_i(L) + C_i(R)] (Casimiry i hiperładunki).
-
-| typ | c₁ | c₂ | c₃ | p₁ | p₂ | p₃ |
-|---|---|---|---|---|---|---|
-| u, c, t | 17/12 | 9/4 | 8 | −17/164 | 27/76 | **4/7** |
-| d, s, b | 5/12 | 9/4 | 8 | −5/164 | 27/76 | **4/7** |
-| e, μ, τ | 15/4 | 9/4 | **0** | −45/164 | 27/76 | **—** |
-
-    Kontrola: p₃ = 4/7 = znane 12/(33 − 2n_f) przy n_f = 6; poniżej progów 12/23, 12/25, 4/9. **Kwark: 3 czynniki, elektron: 2 (bez relacji relacji koloru) — dwa kształty funkcji, nie jedna [94].**
-  - **Poziom 3 — czego zespół nie przenosi (poprawione, 153):** stosunki mas wewnątrz typu mają identyczne wykładniki cechowania i wspólne T → te czynniki się skracają. **Zostaje człon Yukaw (poprawka 153):** równanie dla Y_d zawiera 3/2(Y_d†Y_d − Y_u†Y_u); w bazie kwarków dolnych Y_u†Y_u przechodzi przez CKM → wkład top −3/2·y_t²·|V_ti|²: b (|V_tb|² ≈ 1) ≈ −1,3, s (|V_ts|² ≈ 1,6·10⁻³) i d (|V_td|² ≈ 8·10⁻⁵) pomijalne. **Poprawnie: wewnątrz typu biegnie tylko trzecie pokolenie, przez y_t, w obu typach kwarków (t: +3/2·y_t², b: −3/2·y_t²).** W równaniu leptonów nie ma Y_u (tylko 3/2·Y_e†Y_e) → **e : μ : τ biegną jedynie przez y_τ², praktycznie stoją.** Stosunki między typami biegną: m_b/m_τ — p(d) − p(e): 4/7 od koloru, +40/164 od U(1) **oraz −3/2·y_t² od top** (znany czynnik w unifikacji b–τ). CKM (4 liczby): jednopętlowo tylko przez Yukawy, prawie stoi.
-  - **Poziom 4 — relacja tła z samym sobą, 1 funkcja:** 16π²·dλ/dt = 24λ² + 12λy_t² − 6y_t⁴ − 3λ(3g₂² + g′²) + ⅜[2g₂⁴ + (g₂² + g′²)²]. W ramie: nierozróżnialne tło (Higgs ≡ Ø, R1d) w relacji z sobą i z nośnikami; warunki na λ — 154.
-  - **Stosunek ustalony przez sam zespół [L][T][P] (przepisane bez kierunku — poprawka 165):** R = y_t²/g₃², jedna pętla, QCD + top: 16π²·d ln R/dt = 2g₃²(9/2·R − (8 + b₃)), 16π²·d ln g₃²/dt = 2b₃g₃² ⇒ dla u = 1/R: **(1/R − 9/2) ∝ α₃^{1/b₃} = α₃^{−1/7}**, czyli **(1/R₁ − 9/2)/(1/R₂ − 9/2) = (α₃₁/α₃₂)^{1/b₃}** dla **dowolnych dwóch** punktów odniesienia — stosunek stosunków z policzonym wykładnikiem 1/b₃, bez wyróżnionego „początku”. **R\* = 2/9** (u = 9/2; Pendleton–Ross 1981) = jedyny stosunek, dla którego odchylenie znika — ustalony z samych współczynników, bez żadnego odczytu; **w naturze niezrealizowany:** R(m_t) ≈ 0,65. **„Ustala, ale za wolno” (użytkownik, 153) — w ramie:** wykładnik 1/b₃ = −1/7 jest mały wobec zakresu pustyni: α₃ zmienia się w całej pustyni ~5,7× (0,108 ↔ 0,019), więc odchylenie (1/R − 9/2) tylko **~1,28×**. **Quasi-punkt Hilla** (Phys. Rev. D 24, 691 (1981)) w tej samej postaci: gdy R ≫ 1 w jednym punkcie, w drugim R = 1/[9/2·(1 − (α₃₁/α₃₂)^{1/b₃})] ≈ 0,995 → y_t ≈ 1,17, m_t ≈ 203 GeV (tylko QCD + top, jedna pętla; zmierzone 173) — drugi stosunek ustalony strukturą, też nietrafiony. **Sprawdzenie** `etap22_pendleton_ross.py`: relacja zachodzi do 4·10⁻¹⁴ dla R = 0,1 / 2 / 50 w jednym punkcie; kontrola: wykładnik 1/b₃ ± 20% — różnica ~5% (nie zachodzi).
-  - **Wnioski [O]:** (1) **kształt zespołu jest w całości policzony** — wykładniki i nachylenia to liczby wymierne z listy 147 (spin, N_c, hiperładunki, 3 pokolenia); dopasowania nie ma nigdzie. (2) **(153)** N równań pierwszego rzędu wymaga dokładnie N wartości w jednym (dowolnym) punkcie odniesienia t — *nie „początkowych”: początek nie jest wyróżniony (165)*, więc „jeden odczyt na funkcję” to **spójność [88] z matematyką, nie odkrycie**. Liczba: 3 sprzężenia + 9 mas + 4 CKM + 2 Higgs (λ, μ²) + **θ_QCD** (brakowało; jednopętlowo nie biegnie) = **19**. **Treść jest tam, gdzie struktura sama ustala któryś z odczytów** (jak Pendleton–Ross, Hill). (3) **Pokolenia = trzy kopie tych samych funkcji;** zespół ich nie odróżnia — hierarchię między pokoleniami niosą wyłącznie odczyty; jedyne, co zespół mówi o pokoleniach: faza nieusuwalna wymaga ≥ 3 kopii (R1d, Kobayashi–Maskawa).
-  - **Zastrzeżenia:** jedna pętla; progi mas zmieniają n_f; brak neutrin; G i Λ poza zespołem (G ustala jednostkę).
-- **TEST WIERNOŚCI DLA (b) — według pliku (poprawka 157) [T][L][O].** Zdania pliku użyte: „Dopuszczalne stany” (całkowity brak otoczenia wypada z układu); R1a („O Ø nie da się nic powiedzieć — liczyć wyłącznie w relacji do znanego otoczenia”) + pułapka 1; A1/R5 (dwa pierwotne); „Dalej otwarte” (grupa „w czymś dołożonym → nie wyprowadzona”); „Sito” (stosunek niesprowadzalny ⇒ pierwotnych więcej niż dwa — wynik, nie porażka); „Cel” (nie nowe byty); A0 (liczba, która mogłaby wyjść inaczej).
-
-| zdanie (b) | ¬P | wyklucza się z | wynik |
-|---|---|---|---|
-| **1. w punkcie ≡ Ø** | sektor oktonionowy odczytywalny w punkcie sam z siebie | J₃(𝕆) nie tworzy złożeń z żadnym układem kwantowym (Barnum–Graydon–Wilce, Quantum 4, 359 (2020), arXiv:1606.09331 [T]; wyjątek: składnik czysto klasyczny) → brak możliwego otoczenia → **„całkowity brak otoczenia wypada z układu”** (Dopuszczalne stany); także „cecha” [36, 94] | **PRZESZŁO** |
-| **2. dlaczego 𝕆, a nie ℂ, ℍ, M₃(ℂ)** | — | **źle postawione:** pytanie, jaką algebrą jest Ø w punkcie; plik: „O Ø nie da się nic powiedzieć — liczyć wyłącznie w relacji do znanego otoczenia”. **Pierwsza wersja testu (argument z maksymalności: 𝕆 największe w kierunku Hurwitza, ale J₃(𝕆) nie zawiera J_n(ℂ), n ≥ 4) próbowała rozstrzygnąć od strony Ø — ten sam błąd co poprawka 65.** Postać opisu pośredniego ustala otoczenie = odczytane relacje cechowania (G_SM) | **ŹLE POSTAWIONE** |
-| **3. relacje między punktami odczytywalne** | brak relacji | sektor bez relacji nie ma otoczenia → wypada z układu = (a); istnienie sektora = istnienie jego relacji; rozstrzyga pomiar (kolor odczytywany) | zgodne z plikiem; decyduje obserwacja |
-
-  - **Werdykt (stanowczo):** (1) **grupa cechowania nie wynika z dwóch pierwotnych** (plik, „Dalej otwarte”); 156 wyprowadza ją z elementu spoza porządku i liczności — **wg „Sita” to wynik, nie porażka: pierwotnych jest więcej niż dwa.** (2) **Postać trzeciego elementu jest przez plik ustalona:** nie byt („Cel”), nie odczytywalny w punkcie (wiersz 1) → tylko (b): **milczenie w punkcie, opisywane pośrednio od strony relacji cechowania** (wzór R1d dla fazy). (3) **Którą algebrą opisać to milczenie, ustala otoczenie, nie Ø:** 𝕆 ⊃ ℂ i M₃(ℂ) Connesa opisują to samo otoczenie G_SM. (4) **Różni je kryterium A0** (nie ocena): droga oktonionowa daje liczbę, która mogła wyjść inaczej — pokoleń ≤ 3, z [126] = 3 (obaliłoby ją czwarte pokolenie / N_ν ≠ 3); droga Connesa o pokoleniach milczy (3 = wejście). Wg A0 w sprawie pokoleń komunikacją jest tylko droga oktonionowa; utożsamienie „pokolenia = 3 z J₃(𝕆)” zostaje [?].
-- **Uzupełnienie z rozmów (poprawka 158) [H][O]:** (1) **[104] (użytkownik): „[Ø ≡ … ≡ Ø] ≠ R ⊗ R — iloczyn tensorowy relacji przez relację. Czyli świat relacji złożonych z relacji.”** Świat = R ⊗ R (złożenia); J₃(𝕆) nie ma iloczynu tensorowego (Barnum–Graydon–Wilce) → **nie należy do R ⊗ R**, zostaje po stronie nawiasu [Ø ≡ …] = postać (b). Bezpośrednie zdanie użytkownika, mocniejsze niż „Dopuszczalne stany” — wiersz 1 testu (b) przechodzi przez [104]. (2) **Termin „relacja relacji”:** u użytkownika — przestrzeń [78] („przestrzeń to jest relacja relacji”), masa [94], świat R ⊗ R [104]; u asystenta (R1d/133, 152, 154, 156) — węższy odczyt: relacja nieabelowa (pole niosące ładunek), CKM. Niekoniecznie sprzeczne (pole niosące ładunek = relacja wchodząca w relacje), ale **to odczyt asystenta, nie znaczenie nadane przez użytkownika**; do rozstrzygnięcia. (3) **Droga oktonionowa (156–157) nie pochodzi z rozmów** (o 𝕆 i pokoleniach nic poza [94], [126]) — propozycja asystenta + literatura; zasada metody: „nie mnożymy hipotez” → utożsamienie z pokoleniami zostaje [?], jej rozwijanie = dokładanie hipotez.
-- **GRUPA CECHOWANIA I LICZBA POKOLEŃ — wyprowadzenie warunkowe (poprawka 156) [T][L][O][?].**
-  - **Algebra odczytów [T][L]:** odczyty bez kolejności → algebra Jordana (A∘B = ½(AB + BA) przemienny = niezależny od kolejności, R1b-F P2b, [394]; „suma kwadratów = 0 ⇒ wszystkie = 0” = dodatniość, R1c). Klasyfikacja kompletna (Jordan–von Neumann–Wigner 1934): J_n(ℝ), J_n(ℂ), J_n(ℍ), czynniki spinowe (kule), **jeden wyjątek J₃(𝕆)**. R1b wybiera z tej listy: J₂(𝕂) = kula B^{1+dim 𝕂} → B², **B³**, B⁵, B⁹ dla ℝ, ℂ, ℍ, 𝕆; d = 3 ⇔ 𝕂 = ℂ. Hurwitz: ℝ, ℂ, ℍ, 𝕆 = jedyne układy liczbowe, w których stosunki składają się z zachowaniem normy (|xy| = |x||y|) — pełna lista algebr „stosunku stosunków”; 𝕆 największa i zawiera pozostałe.
-  - **Grupa [L][O]:**
-
-| krok | treść | status |
-|---|---|---|
-| 1 | R1b wybiera ℂ (jednostka urojona i); w 𝕆: 𝕆 = ℂ ⊕ ℂ³ | [T] |
-| 2 | przekształcenia 𝕆 zachowujące i: Aut(𝕆) = G₂ ⊃ **SU(3)** | [T] Günaydin–Gürsey, J. Math. Phys. 14, 1651 (1973) |
-| 3 | oktonionowy „kubit” J₂(𝕆) = B⁹ → **Spin(9)** (stabilizator idempotentu w F₄ = Aut J₃(𝕆)) | [T] |
-| 4 | **część Spin(9) zachowująca 𝕆 = ℂ ⊕ ℂ³ = G_SM = (SU(3) × SU(2) × U(1))/ℤ₆** | [L] Dubois-Violette–Todorov–Drenska; Todorov–Dubois-Violette, arXiv:1806.09450; Krasnov, arXiv:1912.11282, doi:10.1063/5.0039941 |
-
-    **W ramie [O]:** grupa cechowania = przekształcenia wyjątkowej algebry odczytów, które **nie odróżniają niczego ponad to, co już odróżnia przestrzeń (ℂ z R1b)**; wymiar 36 → 12 (8 + 3 + 1). ℝ daje tylko {±1}, wykluczone przez P0 (niespójna) — brak cechowania z ℝ, zgodnie z naturą. Alternatywa [L]: Chamseddine–Connes („Why the Standard Model”, 2007): algebra łączna ℂ ⊕ ℍ ⊕ M₃(ℂ) z M₂(ℍ) ⊕ M₄(ℂ), bez 𝕆; 3 = 4 − 1 (lepton = czwarty kolor), liczba pokoleń = wejście.
-  - **Pokolenia [T][L][?]:** **≤ 3:** J_n(𝕆) jest algebrą Jordana tylko dla n ≤ 3 (niełączność 𝕆) [T]; utożsamienie „pokolenia = 3 z J₃(𝕆)” [?] (Dubois-Violette 2016; Boyle, arXiv:2006.16265 — trójkość Spin(8)). **≥ 3:** asymetria [126] wymaga łamania CP (Sacharow), faza nieusuwalna dopiero przy ≥ 3 (Kobayashi–Maskawa) [T][L]. **= 3** warunkowo na utożsamieniu. **Spójność ze 153–154 [O]:** trzy pozadiagonalne oktoniony J₃(𝕆) = 8_v, 8_s, 8_c grupy Spin(8), permutowane przez S₃ (trójkość) [T] = „pokolenia = trzy kopie, zespół ślepy”: funkcje cechowania szanują S₃, łamią ją tylko odczyty jednostronnej relacji z tłem (Yukawy); S₃ = symetria zapachowa ze 154. Potwierdzenie, nie podpora: N_ν = 3 (szerokość Z), ≤ 8 (swoboda asymptotyczna). 3 z J₃(𝕆) (niełączność) ≠ 3 z R1b (tomografia lokalna) — różne źródła, nie utożsamiać.
-  - **Jedno założenie:** odczyty wewnętrzne są oktonionowe. **Napięcie z ramą:** układy oktonionowe nie tworzą złożeń (brak iloczynu tensorowego → P5, P6 nie zachodzą; ¬P5 = „cecha”, 137). (a) rama wyklucza sektor oktonionowy → wyprowadzenie upada (zostaje Connes, 3 niewyprowadzone); (b) sektor oktonionowy = algebra **jednego punktu**, sama nieodczytywalna (≡ Ø, jak faza w punkcie, R1d), odczytywalne tylko jej relacje między punktami (pole cechowania). Rozstrzyga test wierności (157).
-- **AKCJA SPEKTRALNA CZYTANA KRYTERIUM Z 208 — CO NIESIE CIĘCIE, A CO JEST ODCZYTEM; `Λ` JEST TAM DWOMA OBIEKTAMI (poprawka 209) [L][T][O].** Praca: **zasada akcji spektralnej Chamseddine'a–Connesa** na trójce spektralnej `(A, H, D)` geometrii nieprzemiennej (hep-th/9606001, Commun. Math. Phys. **186**, 731 (1997)); wskazana przez użytkownika, przeczytana w całości. Nitka stoi w pliku od 156–158 (algebra `ℂ ⊕ ℍ ⊕ M₃(ℂ)` jako alternatywa dla drogi oktonionowej) — tam była wymieniona, tu jest czytana.
-  - **Dlaczego ta konstrukcja w ogóle wchodzi do ramy:** nie wymaga rozbicia `g = η + h`, czyli areny z zaburzeniem. Metryka siedzi w `D` (odległość: `d(x,y) = sup{|a(x) − a(y)| : ‖[D,a]‖ ≤ 1}`), **element liniowy jest propagatorem fermionu** (`ds = D⁻¹`), a działanie jest **śladem po widmie**. **Grawitonu tam nie ma:** fluktuacje wewnętrzne `D = D₀ + A + JAJ⁻¹` dają bozony cechowania i Higgsa, a w przypadku przemiennym **znikają tożsamościowo** — grawitacja nie bierze się z falowania `D₀`, tylko z drugiego współczynnika śladu.
-  - **Arena porzucona wewnątrz ich własnej konstrukcji [L].** Zasada (1.8): *„The physical action only depends upon Σ"* — wyłącznie na widmie; autorzy zaznaczają, że jest to **mocniejsze niż niezmienniczość dyfeomorficzna**, bo istnieją rozmaitości izospektralne nieizometryczne. To jest **204 od drugiej strony**: działanie nie zależy od rozmaitości, tylko od zliczenia.
-  - **Sortowanie [T] — kryterium 208 przyłożone do ich wyjścia.** Cięcie wchodzi dokładnie **trzema potęgami**: `Λ⁴` → człon kosmologiczny; `Λ²` → Einstein–Hilbert, a przez relację `μ₀² = 4/(3κ₀²)` **także człon masowy Higgsa, który jest `1/G` co do czynnika**; `Λ⁰` → Yang–Mills, Weyl i `λ`. Czyli: **`1/G`, `μ²` i stała kosmologiczna niosą cięcie i nie są odczytami; sprzężenia cechowania, `λ` oraz współczynniki Weyla i `ξ = 1/6` są od cięcia wolne.** Plik ma ten sam podział własną drogą: **152** wyrzuciło `G` i `Λ` poza zespół („G ustala jednostkę"), **208** wyrzuciło `μ²` („zależy od samej skali cięcia, nie od stosunku dwóch rozdzielczości", 168). Dwie drogi, jeden podział — i to jest cała treść tego wpisu.
-  - **`Λ` jest u nich dwoma obiektami [O].** W sektorze grawitacyjnym jest **cięciem**: tamte wielkości *są* cięciem, usuń je i znikają. W sektorze cechowania jest **punktem odniesienia**: relacje między sprzężeniami i relacja na `λ` są czystymi liczbami, a `Λ` tylko nazywa, gdzie się je nakłada jako warunki brzegowe. A 153 mówi: *„N wartości w jednym (**dowolnym**) punkcie odniesienia — początek nie jest wyróżniony" (165)*. **Żądanie, by punkt odniesienia pokrył się z cięciem, jest żądaniem, by etykieta była skalą** — i to nazywa niezgodność, którą autorzy sami raportują (sektor grawitacyjny chce skali Plancka, sektor cechowania skali o kilka rzędów niższej). Ich propozycja naprawy — zmienić widmo, supersymetria — pracuje w świetle tego na niewłaściwym obiekcie.
-  - **Ziarnistość pada tu przez twierdzenie, nie przez zakaz [L][T].** Obcięcie to `H_Λ = range χ(D/Λ)` — zawężenie przestrzeni Hilberta do podprzestrzeni widma, nie krata. Autorzy: *„superior to the familiar lattice approximation because it does respect the geometric symmetry group. The point is that **finite dimensional noncommutative algebras have continuous Lie groups of automorphisms while the automorphism group of a commutative finite dimensional algebra is necessarily finite**."* Czyli: **obetnij zliczanie i zachowaj przemienność → symetria z konieczności skończona (to jest krata, ziarno, piksel); zdejmij przemienność → obcięcie zachowuje symetrię ciągłą.** **Skończoność zliczania nie wymusza ziarna.** To jest **zewnętrzny mechanizm dla STOP.md pkt 4**, który dotąd był listą zakazanych obiektów („skala dyskretności", „długość Plancka jako jednostka", ℓ, „piksel") bez powodu, skąd się biorą. Biorą się z przemienności przy obcięciu.
-  - **Czego to nie daje [H]:** żadnej liczby, i nie o liczby tu chodzi. Wartości przewidywane przez tę pracę chybiają, autorzy to raportują, i **nie jest to treścią wpisu** — liczby są konsekwencją uczciwej pracy, nie jej miarą (uwaga użytkownika, 2.10). Równania biegu sprzężeń są u nich te same co w zespole §F1, więc po tej stronie nic nowego.
-  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* brać z cudzej pracy wielkość niosącą potęgę cięcia jako odczyt, i traktować `Λ` w takiej pracy jako **jeden** obiekt — cięcie i punkt odniesienia trzeba rozdzielić, zanim się cokolwiek stamtąd weźmie. *Pozwala:* powiedzieć, **dlaczego ziarnistość wraca** — wraca przez przemienność przy obcięciu, a nie z pomiaru; i odrzucić bez rachunku wielkość, która jest potęgą cięcia.
-
-- **WYPROWADZENIE FUNKCJI ZESPOŁU (poprawka 155) [T][L][P][O].**
-  - *(R1f, poprawka 162: „energia próżni” niżej = wyłącznie różnica ΔE(B) − E(0), relacja próżni z otoczeniem — polem B; energia Ø sama w sobie nie istnieje.)*
-  - **A. Sprzężenia: b = −Σ(−1)^{2s}[(2s_z)² − ⅓]·T(R)** (Nielsen, Am. J. Phys. 49, 1171 (1981); Hughes, Phys. Lett. B 97, 246 (1980)). Naładowany nośnik w stałym polu B: poziomy Landaua (skwantowane obiegi w płaszczyźnie ⟂ B) + swobodne k_z wzdłuż B; E² = k_z² + eB(2n+1) − 2s_z·eB. Energia próżni: Σ½ω z gęstością eB/2π na poziom, znak (−1)^{2s}. Suma po dyskretnych obiegach minus całka (Euler–Maclaurin, suma po środkach, krok h = 2eB): **+h²/24·g′(0)**; przesunięcie spinowe a = 2s_z·eB: **−a²/2·g′(0)**; człon liniowy znosi się między ±s_z → razem −(e²B²/2)·g′(0)·**[(2s_z)² − ⅓]**. **Sprawdzenie [P]:** suma − całka wprost, eB = 0,02/0,01/0,005: na stan −0,33333 (s_z = 0), +0,66667 (±½), +3,66668 (±1) wobec −⅓, ⅔, 11/3 — zgodność 10⁻⁵, zbieżna z eB → 0. Dalej: g′(0) ∝ ∫dk_z/|k_z| = ln(Λ/μ); εμ = 1 zamienia przenikalność magnetyczną próżni na bieg ładunku; zliczenie stanów (pole zespolone ×2, wektor rzeczywisty tylko s_z = ±1) daje A2: −11/3·C_A (wektor), +⅔T (Weyl), +⅓T (skalar zespolony).
-
-| składnik | w rachunku | w ramie | status |
-|---|---|---|---|
-| (−1)^{2s} | znak energii próżni fermionów | znak obrotu o 2π (R1e) | [T] |
-| (2s_z)² | przesunięcie spinowe do kwadratu | relacja kierunku nośnika z kierunkiem pola (R1e) | [T] |
-| **−⅓** | **suma po dyskretnych obiegach − całka** (h²/24, h = 2eB) | **„sztuki czy miara” [288–290]:** wkład orbitalny (ekranowanie) = różnica między liczeniem obiegów a miarą | [T] rachunek, [O] odczyt |
-| ln(Λ/μ) | ∫dk_z/\|k_z\|: **dokładnie jeden** swobodny kierunek poza płaszczyzną obiegu | przy d wymiarach przestrzennych d − 2 kierunki → potęga Λ^{d−3}; **logarytm tylko przy d = 3 — „dynamika wymusza logarytm” [94] ⇔ d = 3 (R1b)** | [T] (wymiar sprzężenia M^{4−D}) |
-| εμ = 1 | niezmienniczość Lorentza | c (R1c) | [T] |
-| T(R), C_A, ładunki | teoria grup | N_c, anomalie (A2, [86]) | [L] |
-
-  - **B. Masy: c = 3·[C(L) + C(R)].** Masa = zygzak L ↔ R (R1d); każda połówka niesie swoje relacje cechowania; wymiar anomalny zygzaka = suma wag obu połówek. Kwark ma trzeci czynnik (C₃ = 4/3 na połówkę, relacja relacji koloru), elektron nie. **Czynnik 3 [?]:** w cechowaniu Landaua z rzutnika poprzecznego, γ^μ P_μν γ^ν = D − 1 = 3; podział zależy od cechowania (niezmiennicza tylko suma), przy jednej pętli w regularyzacji wymiarowej „3 = D − 1” nieodróżnialne od innej postaci — odczyt, nie dowód.
-  - **C. Człony Yukawy.** T = Tr(N_c·Y_u†Y_u + N_c·Y_d†Y_d + Y_e†Y_e): renormalizacja pola Higgsa = tło czytane przez wszystkie nośniki (waga N_c za kolor); wspólne → skraca się w stosunkach (153) [L]. 3/2(Y_u†Y_u − Y_d†Y_d): cytowane (Machacek–Vaughn 1984; Arason i in. 1992), niewyprowadzone; różnica znaku: u, d = dwie połówki dubletu SU(2), czytają tło z przeciwnym hiperładunkiem (u przez H̃, d przez H) [O].
-  - **D. λ.** *(R1f: supertrace = różnica energii próżni względem wartości pola, nie energia Ø.)* 24λ² = 2(N + 8)λ², N = 4 rzeczywiste składowe dubletu [T]. Część niezależna od λ = supertrace: ⅜[2g₂⁴ + (g₂² + g′²)²] − 6y_t⁴ = (2/v⁴)[**6**·m_W⁴ + **3**·m_Z⁴ − **12**·m_t⁴] (sprawdzone algebraicznie [T]); wagi = liczby stanów: W± 2 × **3 polaryzacje**, Z **3** (masywny wektor: SO(3), kula 3D — Wigner, §F1), top 12 = 2 spin × 2 (cząstka/antycząstka) × N_c; bozony +, fermiony − = (−1)^{2s}. **Warunek 154 w tej postaci:** β_λ = 0 przy λ = 0 ⇔ **Σ(−1)^{2s}·n_i·m_i⁴ = 0** [T] — relacje tła z nośnikami zważone znakiem statystyki bilansują się; odczyt [O]: tło ≡ Ø nie niesie netto znaku statystyki.
-  - **Wynik:** każdy współczynnik zespołu wywodzi się z elementów ramy — spin i znak 2π (R1e), dyskretność obiegów wobec miary (⅓), **d = 3** (logarytm, 3 polaryzacje, [?] 3 w γ_m), c (εμ = 1), ładunki z anomalii i N_c (A2). **Niewyprowadzone: grupa cechowania i liczba pokoleń** (wejścia listy 147; „Dalej otwarte”, 154). **Najmocniejsze zdanie:** −⅓ (ekranowanie) = różnica między liczeniem dyskretnych obiegów a miarą ciągłą — kryterium „sztuki czy miara” siedzi dosłownie we współczynniku, który rozstrzyga o swobodzie asymptotycznej.
-- **ZASADA WIELU PUNKTÓW, POKOLENIA, LEPTONY (poprawka 154) [L][O][P]:**
-  - *(R1f, poprawka 162: „energie próżni” w 148, 150, 154 mają sens wyłącznie jako różnice względem otoczenia; dla całości — brak.)*
-  - **1. Zasada wielu punktów — co z niej zostaje w ramie [O][L].** **Wersja ogólna („dowolne dwie próżnie mają równą energię”, 150) odpada:** różnica energii dwóch próżni jest odczytywalna wewnątrz struktury (grawitacja, Λ, ściana między obszarami) — to różnica relacji otoczenia, którą wolno opisywać pośrednio [414]; nic w ramie jej nie wyklucza. **Zostają dwa warunki, i tylko dla λ:**
-
-| warunek | uzasadnienie w ramie |
-|---|---|
-| **λ = 0 tam, gdzie nic nie jest odróżnialne** | λ = relacja **tła z tłem** (Higgs ≡ Ø, R1d) = Ø z Ø; relacja wymaga różnicy [242, 258], relacja z Ø jest jednostronna [122–124], więc Ø z Ø nie jest relacją. **g** (relacje faz między nośnikami) i **y** (jednostronna relacja nośnika z tłem) tego warunku nie dostają: zniknięcie wszystkich relacji byłoby fałszywe, a znikać musi tylko samorelacja (208). μ² też jest tłem z tłem — pkt 1a |
-| **β_λ = 0 tamże** | punkt nieodróżnialny od sąsiedztwa [76] — znika wartość **i** pochodna |
-
-    **Czy te warunki ustalają jakiś odczyt — otwarte [?].** W literaturze te same dwa warunki (Froggatt–Nielsen; Shaposhnikov–Wetterich — 148) stawia się w punkcie skali Plancka na osi biegu i przenosi na m_H i m_t biegiem po zakresie ln(m_P/v), przy zmierzonych sprzężeniach cechowania. To czyta Planck jako miejsce na osi, a skala Plancka ≡ 2D ≡ Ø położenia nie ma; czy unormowanie `v/m_P` jest w ogóle odczytem — [?] (208). **Dopóki to otwarte, warunki nie ustalają żadnego odczytu.** Przy λ = 0 warunek β_λ = 0 ⇔ 6y_t⁴ = ⅜[2g₂⁴ + (g₂² + g′²)²] (bilans znaków statystyki, 155 D).
-    **[L] Obserwacja literatury, z którą warunki są zgodne — nie wyprowadzenie:** zmierzone m_H ≈ 125 GeV i m_t ≈ 173 GeV stawiają MS przy granicy stabilności, λ i β_λ bliskie zera przy skali Plancka (Buttazzo i in., JHEP 12 (2013) 089); dokładna krytyczność przy m_t = 173,1 daje m_H = 129,4 ± 1,8 GeV (Holthausen–Lim–Lindner, arXiv:1112.2415).
-- **GRANICE Ø WEWNĄTRZ ZAKRESU — KTÓRA FUNKCJA MOŻE ICH DOTKNĄĆ (poprawka 183) [H][T][O].** Poprawka użytkownika (29.09): „Tabela granic Ø nie dotyczy tylko dwóch końców. Granice Ø są wszędzie w każdym zakresie. To są osobliwości, to byłoby pole EM bez wzbudzeń, to światło, to superpozycje.” (R1a, GRANICE Ø). Konsekwencja dla zespołu, sprawdzona na strukturze równań:
-  - **Dotknięcie Ø przez relację = zniknięcie relacji:** relacja o zerowej sile nie odróżnia niczego, więc ≡ Ø [242, 258]. Pytanie brzmi zatem, które funkcje zespołu mogą przejść przez zero **wewnątrz** zakresu, a nie tylko na jego krańcach.
-  - **[T] W zespole jednopętlowym tylko λ.** Sprzężenia cechowania: d(1/α_i)/dt = −b_i/2π, więc 1/α_i jest liniowe w t, a α_i = 0 tylko asymptotycznie (rozbieżność α_i — Landau albo transmutacja, R1d — to drugi koniec tej samej relacji, pułapka 11). Yukawy: 16π²·dy_f/dt = y_f·(…) — równanie multiplikatywne, więc y_f = 0 jest punktem stałym i y_f ≠ 0 nie zeruje się nigdzie. **Tylko β_λ ma człon niezależny od λ** (−6y_t⁴ + ⅜[2g₂⁴ + (g₂² + g′²)²]; 155 D), więc tylko λ przechodzi przez zero z niezerową pochodną.
-  - **Odczyt [O]:** λ jest zarazem jedynym sprzężeniem zespołu będącym **relacją tła z tłem** (154 pkt 1), a tło ≡ Ø (R1d). Dwie rzeczy spotykają się w jednym miejscu: jedyna funkcja, która może dotknąć Ø wewnątrz zakresu, jest tą, która opisuje relację Ø z samym sobą. [L] Natura leży przy granicy stabilności (154).
-  - **Czy granice Ø wewnątrz zakresu dają nowe warunki na zespół — policzone w 224 (niżej): nie, zero.**
-  - **Kontrola (czy zdanie coś wyróżnia — pułapka 3):** wyróżnia λ spośród 19 odczytów; gdyby każda funkcja mogła przejść przez zero, zdanie nie wyróżniałoby niczego. Przy dwóch pętlach struktura w tym punkcie się nie zmienia (Yukawy pozostają multiplikatywne, λ zachowuje człon bez λ) — [O], rachunkiem niesprawdzone.
-  - **ZLICZENIE Ø-MIEJSC — ZERO NOWYCH WARUNKÓW (poprawka 224) [T][O].** Czy zera i bieguny relacji zespołu (183) dają warunki na wolne dane.
-    - **Pułapka nazewnicza nr 11: „Ø-miejsce" pokrywa DWA PRZECIWNE końce tej samej relacji [O].** 183 definiuje je jako **zniknięcie relacji** (`α → 0`, „relacja o zerowej sile nie odróżnia niczego"). 208 nazywa „Ø-miejscem tej relacji" **rozbieżność** (`α → ∞`: Landau przy `b > 0`, transmutacja `n_Λ = n·e^{2π/(b₀α_s)}` dla `α₃`). Po kryterium `R1a` („w granicy ginie **zdolność struktury do czytania samej siebie**") **oba są Ø-miejscami, ale dwiema różnymi drogami**: pierwsze — bo relacja przestaje odróżniać; drugie — bo nośnik przestaje być czytelny jako para (M, O) (180: kwark bez odczytu A, niejednoznaczność `O(Λ_QCD)`). **W pliku nic tego nie rozdzielało**, a bez rozdzielenia zliczanie liczy albo dwa razy, albo nie ten koniec.
-    - **Drugie rozdzielenie, też konieczne przed zliczaniem [T].** Granice Ø z `R1a` — światło, superpozycja, pole bez wzbudzeń, osobliwość — **nie są punktami zmiennej zespołu `t`**. Zdanie użytkownika („granice Ø są wszędzie w każdym zakresie") stoi nietknięte; **nie wynika z niego „wiele warunków na zespół"**, bo warunek na funkcję zmiennej `t` wymaga **miejsca w `t`**. To jest zdanie o zliczaniu, nie zawężenie poprawki 183.
-    - **MECHANIZM [T]: zero albo biegun relacji, którego podanie jest bijekcją wolnej danej, nie daje warunku — jest zamianą współrzędnej. Warunek daje tylko samorelacja (B).**
-      - **Dla `1/α_i` — i to jest rozstrzygnięcie całego kroku.** Z `1/α_i(t) = 1/α_i(0) − (b_i/2π)t` zero jest w **`t_* = (2π/b_i)·(1/α_i(0))`** — a to jest **dokładna bijekcja liniowa** wolnej danej (`b_i ≠ 0` dla wszystkich trzech: `41/6`, `−19/6`, `−7`; gdyby któreś `b_i` było zerem, Ø-miejsca nie byłoby wcale). Podanie Ø-miejsca jest więc **zamianą współrzędnej**, nie warunkiem: `n_Λ/n = e^{t_*}` niesie dokładnie tę samą jedną liczbę co `1/α_i(0)`. **Stąd zdanie 208 („wolna dana = stosunek liczności do Ø-miejsca tej relacji") jest reparametryzacją, nie ograniczeniem** — i to jest powód, dla którego bilans wolnych danych nigdy się nie ruszył.
-      - **Tak samo dla wewnętrznego zera λ:** jego miejsce w `t` zależy od `λ(0)`, `y_t` i sprzężeń, czyli od wolnych danych. **Więc λ liczy się RAZ, nie dwa.** Jedyne warunki na λ to dwa z 154 — stoją na własnym uzasadnieniu (Ø z Ø nie jest relacją; sąsiedztwo nierozróżnialne), a ten wpis nie dokłada im powodu.
-      - **(B): warunek tylko dla samorelacji.** Ø-ność **miejsca** nie wymusza zniknięcia relacji **dwóch różnych** rzeczy — nośniki pozostają odróżnialne od siebie, choćby miejsce było Ø. Powód jest w 208: **Ø z Ø nie jest relacją**, więc znikać musi tylko samorelacja.
-      - **Wniosek [T]:** granice Ø wewnątrz zakresu (183) nie są osobnym źródłem warunków, a zdanie 208 (ustalone są tylko samorelacje) zostaje bez nowego warunku obok siebie; że jedyna funkcja, która może dotknąć zera wewnątrz zakresu, jest samorelacją, stoi już w 183 („Odczyt [O]”).
-    - **ZLICZENIE, stanowczo:** z zer i biegunów relacji zespołu **nowych warunków: zero**. Jedyne warunki pozostają dwa z 154, na λ — tę samą, którą 208 wskazało jako jedyną ustaloną. Zdanie postawione przed krokiem („każde Ø-miejsce daje jeden warunek, więc warunków jest tyle, ile Ø-miejsc") **upadło**.
-    - **Co to robi ze 183.** 183 [T] stoi bez zmian (w zespole jednopętlowym tylko λ przechodzi przez zero wewnątrz zakresu). Upada **wniosek z niego wyciągnięty**: „granice Ø leżące wewnątrz zakresu są osobnym źródłem warunków" — nie z braku wewnętrznych Ø-miejsc, a dlatego, że **Ø-miejsce sparametryzowane wolną daną jest zamianą współrzędnej**. **Bilans (17 wolnych danych, 208; warunki tylko na λ) stoi — z powodem, nie z zestawienia.**
-    - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* liczyć zero albo biegun relacji jako warunek, jeśli jego podanie jest bijekcją wolnej danej — **bez rachunku**; czytać 208 („wolna dana = stosunek do Ø-miejsca") jako ograniczenie, bo to zamiana współrzędnej; pisać „Ø-miejsce" bez powiedzenia, który to koniec (pułapka 11); wracać do wewnętrznych granic Ø jako do źródła warunków dla zespołu. *Pozwala:* zamknąć krok 2 w całości (drugą połowę zamknęła 223).
-  - **1a. KRYTYCZNOŚĆ λ NA PORZĄDKU — temat (b) po 167 (poprawka 168) [L][T][O].** Pytanie: czy warunki z pkt 1 mają postać w samym porządku i czy bieg λ da się policzyć wprost na nim. Czytane przez R1a–R1c: literaturowe ℝ^{1,3} = 3D ramy (triada + punkt odczytu; R1c pkt 1, 8), literaturowe 1+1 = narzędzie bez triady, nie struktura (pułapka 5), skala Plancka ≡ 2D ≡ Ø [76].
-    - **Formalizm [L] (ze źródła):** Johnston, Class. Quantum Grav. 25, 202001 (2008), arXiv:0806.3083. Propagator = suma po trajektoriach w zbiorze przyczynowym; trajektoria o n skokach ma amplitudę aⁿbⁿ⁻¹: a — skok do następnego elementu, b — zatrzymanie w elemencie pośrednim („the initial and final elements are not regarded as stops”). **ℝ^{1,3}:** suma po drogach (ciągach linków); bezmasowy propagator (1/2π)·δ(τ²) leży na stożku → skoki po linkach; a = √ρ/(2π√6), b = −m²/ρ = −m²V₀. **Literaturowe 1+1:** suma po łańcuchach; bezmasowy propagator ½ wypełnia stożek → skoki po wszystkich relacjach; a = ½, b = −m²/ρ. Wartość oczekiwana po sprinklingach = retardowany propagator Kleina–Gordona (w ℝ^{1,3} w granicy gęstości).
-    - **Pojedynczy element = miejsce relacji jednostronnych [O].** Element x = zbiór relacji [134], nie obiekt. Skoki po linkach = odcinki t = 0 (słownik: link = światło). **Zatrzymanie w x = relacja dwóch relacji x** — linku wchodzącego i wychodzącego — = relacja dwóch części t = 0 = masa (R1f-3, M2; zygzak R1d); zgodność postaci, nie tożsamość (b nie zależy od kąta linków). Zatrzymanie to zarazem **jednostronna relacja nośnika z tłem** (R1d, punkt otwarty 1): strona jawna — linki nośnika; tło ≡ Ø — strona, o której nic nie można powiedzieć [122–124]. **Końce drogi = przejścia Ø → A i A → Ø** (wzbudzenie pola [242, 258]; tabela granic Ø w R1a). Test z pułapki 3: zdanie wyróżnia (wagi w elemencie ≠ wagi skoków) i nie jest „jednostronnością” z antysymetrii ≺, prawdziwą o każdej parze (A5, poprawka 6). Z dwóch przypadków Johnstona skoki po świetle są tylko w ℝ^{1,3} — zgodnie z R1c pkt 8 („jedyny stożek, w którym nośniki światła mogą się wiązać”).
-    - **Porządek nie wybiera λ.** W elemencie porządek odróżnia końce drogi, zatrzymania i wierzchołki (kilka linków w x); nie niesie tego, które pole jest tłem — to treść pól, poza dwoma pierwotnymi (R5; por. 157). Warunki z pkt 1 stoją na własnym uzasadnieniu: λ = relacja tła z tłem (w potencjale efektywnym: różnica dwóch jednorodnych konfiguracji pola, 155 D, R1f-2), tam, gdzie nic nie jest odróżnialne [76]; „Ø z Ø” nie ma strony jawnej po żadnej stronie, więc nie jest nawet relacją jednostronną. **Porządek nie dokłada ani uzasadnienia, ani liczby.**
-    - **μ² i warunek Veltmana [T][O] (`etap24_cisza_tla.py`).** Kryterium z pkt 1 obejmuje także μ²|H|² (też tło z tłem). Czy daje warunek na μ²:
-      - **goła masa przy obcięciu** [L] (Hamada–Kawai–Oda, PRD 87, 053009 (2013), arXiv:1210.2538): m_B² = Δ_sub + m₀², Δ_sub ∝ Λ²·C/16π², C = 6λ + ¾g_Y² + 9⁄4·g₂² − 6y_t² (Veltman); „w regularyzacji wymiarowej Δ_sub formalnie znika” (HKO §2.1). Zależy od samej skali cięcia, nie od stosunku dwóch rozdzielczości; różne opisy cięcia dają różne wartości.
-      - **Zdanie przed rachunkiem [T]:** przy λ = 0 warunki β_λ = 0 i C = 0 wykluczają się dla wszystkich dodatnich m_W², m_Z²: z C = 0 m_t² = (2m_W² + m_Z²)/4, wtedy 6m_W⁴ + 3m_Z⁴ − 12m_t⁴ = 3[(m_W² − m_Z²/2)² + m_Z⁴/2] > 0 (siatka 801 × 801 i 10⁶ losowych punktów; tożsamość do 3·10⁻¹³). Kontrola: bez λ = 0 oba warunki do spełnienia ((λ, y_t) = (+0,017; 0,379) i (+0,085; 0,461) przy sprzężeniach z 10¹⁶ GeV) → wykluczenie pochodzi z λ = 0. **PRZESZŁO.** Na danych [L] (Antusch–Hinze–Saad, arXiv:2510.01312v2, tab. 2): przy 10¹² / 10¹⁶ GeV y_t(β_λ = 0) = 0,400 / 0,391, y_t(C = 0) = 0,368 / 0,357 (różnica 9%), zmierzone 0,514 / 0,445. HKO: goła masa znika przy M_Pl dla m_t = 169,8 GeV, λ(M_Pl) — dla 171,2 GeV; „no low energy parameter set within two sigma” nie daje obu naraz.
-      - **Test wierności [O] (po fakcie — po twierdzeniu):** P = „warunek Veltmana nie jest warunkiem ramy”; ¬P = rama wymaga, by człon zależny od opisu samego cięcia znikał — wyklucza się z R1a („liczyć wyłącznie w relacji do znanego otoczenia”), z [543] („nic o skali Plancka nie można powiedzieć”), z pułapką 1 (różne opisy cięcia = „rodzaje Ø”) i z twierdzeniem wyżej [T]. Relacje osiągalne z naszej strony są logarytmiczne (155: logarytm tylko przy d = 3).
-      - **Problem hierarchii** w postaci „dostrojenie wobec Λ²” = pytanie o opis cięcia, nie pytanie ramy. Czy unormowanie `v/m_P` jest w ogóle odczytem — [?] (208).
-    - **Bieg λ wprost na porządku — niepoliczony [L].** Jubb, arXiv:2306.12484 (2023): φ⁴ na zbiorach przyczynowych, policzona tylko funkcja 2-punktowa; renormalizacja „not considered here”; proponowane zgrubienie przez usuwanie punktów = ln(n₀/n) z R1d. Taki rachunek liczy na rozsiewie (pojemnik — STOP), a poza samym odstępem rozsiewu odtworzyłby te same współczynniki uniwersalne (β_λ z pkt 1). Nie podjęte.
-    - **Werdykt:** warunki z pkt 1 stoją na własnym uzasadnieniu; porządek nie daje im odpowiednika ani liczby. Warunek Veltmana nie jest warunkiem ramy ([T]; człon Λ² = opis samego cięcia).
-  - **2. Pokolenia w ramie.** Filtr: „pokolenie nr 2” jako etykieta = cecha; „czym różnią się pokolenia same w sobie” — źle postawione. We wszystkich relacjach z nośnikami (cechowanie) pokolenia są ≡ (zespół: identyczne funkcje, 153); różnią się wyłącznie **jednostronną relacją z tłem ≡ Ø** (y_f, R1d) — tło działa, nośnik go nie odczyta → **hierarchii nie niesie struktura nośnika**, siedzi po stronie Ø, którą wolno opisywać tylko pośrednio [414]; stąd zespół jest na nią ślepy [O]. **CKM [O]:** stan masowy = relacja z tłem, stan słaby = relacja z W; CKM = niezgodność dwóch relacji = **relacja relacji**; faza nieusuwalna wymaga ≥ 3 kopii (R1d). **Co ustala 3 [L]:** anomalie — nie (znoszą się w każdym pokoleniu); swoboda asymptotyczna QCD — ≤ 8 pokoleń (n_f ≤ 16); szerokość Z — N_ν = 3 (pomiar); CP — ≥ 3 (Kobayashi–Maskawa). Wyprowadzenia 3 brak; symetrie zapachowe S₃/A₄ (permutacje trzech) ↔ triada — [?] zbieżność. **Werdykt:** rama przestawia pytanie z etykiety na „trzy odczyty jednostronnej relacji z Ø”; liczb nie daje.
-  - **3. Leptony.** Stosunki e : μ : τ: „nie biegną” (153) dotyczy stosunku Yukaw przy wspólnej rozdzielczości (odczyt B), a Koide niżej jest liczony z mas biegunowych (odczyt A) — dwie różne liczby (poprawka 166; rozpisane w bloku 166 niżej). **Koide [L][P]:** Q = Σm/(Σ√m)² = **0,6666645 z mas biegunowych PDG 2024 (2/3 − 2,2·10⁻⁶, −0,43σ); przewidywane m_τ = 1776,969 MeV wobec 1776,93 ± 0,09** (166; wcześniej dane PDG 2022). **W ramie [O]:** Q = 1/(3cos²θ), θ = kąt między (√m_e, √m_μ, √m_τ) a (1, 1, 1): **θ = 44,9999°**. (1, 1, 1) = to, co pokoleń nie odróżnia (≡); część prostopadła = to, co różnicuje. **Q = 2/3 ⇔ część nierozróżniająca waży tyle co różnicująca.** Status: przepisanie obserwacji, bez wyprowadzenia; **ostrzeżenie numerologiczne** — wolno jako kontrolę dopiero po wyprowadzeniu z wejść z listy 147, **i tylko na odczycie A (166)**.
-  - **STOSUNKI e : μ : τ — DWA ODCZYTY; CZY RAMA JE USTALA (poprawka 166) [L][P][T][O].** Temat (a) po 165; zdania przed rachunkiem; dane [L] ze źródeł.
-    - **Dwa odczyty pod jedną nazwą.** **A** = masa w sensie R1f-3: faza na własne tyknięcie nośnika = **masa biegunowa** (każdy lepton czyta siebie). **B** = stosunek Yukaw — współczynników działania (R1f-1) — przy **wspólnej** rozdzielczości: „masy biegnące” z poziomu 2 i „siła jednostronnej relacji z tłem” z R1d (punkt otwarty 1). Bez pętli A = B; różni je relacja każdego nośnika z polem EM między jego własnym tyknięciem a wspólną rozdzielczością. Oba bez skali — ale to różne liczby (pułapka nazewnicza nr 6).
-    - **Rachunek** `etap23_leptony_dwa_odczyty.py`. Dane: A — PDG 2024 (m_e = 0,51099895000(15), m_μ = 105,6583755(23), m_τ = 1776,93(9) MeV); B — Antusch, Hinze, Saad, arXiv:2510.01312v2, wzór (2.4) i tab. 2: Yukawy MS-bar na 9 skalach M_Z … 10¹⁶ GeV (dane PDG 2024; SMDR, dwupętlowe RGE).
-
-| zdanie (przed rachunkiem) | wynik |
-|---|---|
-| **Z1** (153): stosunki B nie zależą od rozdzielczości (< 10⁻³ na całym zakresie); kontrola: pojedyncze Yukawy zmieniają się o > 1% | y_μ/y_e = 210,66, y_τ/y_e = 3578,4, y_τ/y_μ = 16,986; zmiana ≤ 1,1·10⁻⁴ na 14 dekadach (poziom zaokrągleń tabeli); każda Yukawa osobno: 6,5% — PRZESZŁO |
-| **Z2**: A ≠ B (> 0,5% dla każdej pary), znak i kolejność τ/e > μ/e > τ/μ, wielkość do 20% jak w jednej pętli QED: B/A − 1 ≈ (3α/2π)·ln(m_i/m_j) | A: 206,768 / 3477,37 / 16,8177; B/A − 1 = 1,88% (μ/e), 2,91% (τ/e), 1,00% (τ/μ); wzór: 1,86 / 2,84 / 0,98% (stosunki 1,01–1,02) — PRZESZŁO |
-| **Z3** (Koide wyłącznie jako kontrola rozróżniająca odczyty): \|Q_A − 2/3\| < 2σ, \|Q_B − 2/3\| > 10σ przy M_Z | Q_A = 2/3 − 2,2·10⁻⁶ (−0,43σ); Q_B = 2/3 + 1,16·10⁻³ **na każdej z 9 skal** (63σ przy M_Z; błędy bez korelacji — zawyżone); zgodne z Xing–Zhang (hep-ph/0602134: „około 0,2% przy M_Z”) — PRZESZŁO |
-
-    **Wynik [P]:** **jedyna znana relacja między masami leptonów dotyczy odczytu A — masy w sensie ramy (R1f-3) — nie Yukaw.** [L] Koide przewidział w 1982 r. m_τ = 1776,97 MeV przy zmierzonych wtedy 1784,2 ± 3,2; w 1992 r. zmierzono 1776,99 ± 0,28 (za J. Baezem, *Azimuth*, 4.04.2021) — liczba, która mogła wyjść inaczej (A0); wzór nadal niewyprowadzony. **Dopisek po rachunku (raport, bez zdania):** kąt δ w parametryzacji √m_n/μ − 1 = √2·cos(δ + 2πn/3) (μ = średnia √m): **δ_A = 2/9 + 2,5·10⁻⁶ (0,41σ)**, δ_B = 2/9 − 1,1·10⁻³ [L] (Żenczykowski, PRD 86, 117303 (2012): δ_L „nieodróżnialne od 2/9”). **Dwa empiryczne warunki (Q = 2/3, δ = 2/9) odtwarzają oba stosunki do obecnej precyzji; żaden niewyprowadzony; oba zachodzą tylko na A.**
-    - **Czy rama ustala e : μ : τ — zdanie po zdaniu [T][O]:**
-
-| zdanie ramy | co daje dla e : μ : τ |
-|---|---|
-| pokolenia ≡ we wszystkich relacjach z nośnikami (153; pkt 2 wyżej) | nic — zespół ślepy na pokolenia |
-| „relacja z tłem nie odróżnia kopii” | ≡ pełne (każda baza kopii równoważna, jak w cechowaniu: Y ↦ U_L·Y·U_e†, U(3)_L × U(3)_e) ⇒ **Y = 0, brak mas** [T]; ≡ z zachowaną parą L_i–e_i (wspólne U(3)) ⇒ Y ∝ 𝟙, masy równe, Q = 1/3 — ale parę L–e ustala właśnie relacja z tłem; ≡ tylko permutacyjne, lewe i prawe niezależnie (S₃L × S₃R; Harari, Haut, Weyers, PLB 78, 459 (1978)) ⇒ Y ∝ macierz jedynek, masy **(0, 0, 3k)**, Q = 1 — wymaga wyróżnionej bazy kopii = etykiet (pkt 2: etykieta = cecha). Natura przeczy wszystkim trzem → **e, μ, τ są odróżnialne wyłącznie przez samą relację z tłem** [O] (zgodne z pkt 2); wartości to nie ustala |
-| masa = faza na własne tyknięcie (R1f-3) | ustala, **który** odczyt jest masą (A), nie jego wartość |
-| warunki 154 (Ø z Ø) | dotyczą tylko λ (tło z tłem); y ich nie dostaje |
-| całość, Ĥ\|Ψ⟩ = 0 (150) | stałe nieustalone |
-| lista 147 | przed rachunkiem nie zapisano żadnej kombinacji wejść; szukanie jej po fakcie = numerologia [376–378] |
-| Froggatt–Nielsen (150, „Następne”) | ε i ładunki dopasowane; ε policzalne tylko ze strunami, anomalnym U(1) i mechanizmem Greena–Schwarza (Ramond, hep-ph/9808488) — nowe byty („Cel”) |
-
-    **Werdykt (stanowczo): 0 warunków ramy na 2 stosunki — rama nie ustala e : μ : τ.** Nie „wyskoczą po drodze” [88]: zespół ich nie zawiera, a same nie zależą od rozdzielczości, więc żadna funkcja zespołu ich nie ustala. **„Sito” nie rozstrzyga:** pokazano, że stosunki są niewyprowadzone, nie — że niesprowadzalne.
-    - **Co zostaje [O]:** (1) **pułapka nazewnicza nr 6** („masa” = A albo B). (2) **Kontrola zaostrzona:** relacja między leptonami wyprowadzona kiedykolwiek musi dotyczyć samoodczytów (A); ta sama relacja dla B jest wykluczona (63σ). (3) **Pytanie Sumino** (arXiv:0812.2090, 0812.2103: poprawka QED psuje relację Koidego dla mas biegunowych → nowe bozony rodzinowe U(3), które ją znoszą) **— źle postawione po filtrze:** zakłada wyróżnioną wysoką rozdzielczość, przy której relacje obowiązują, a masy biegunowe z nich wynikają (wyróżniona skala i kierunek „od wysokiej do niskiej”; §F1, „RG po filtrze”). W ramie żadna rozdzielczość nie jest wyróżniona, masa = A → zarzut odpada; **wyprowadzenia to nie daje.** (4) **„Relacja bez skali tylko dla leptonów” — z dwóch różnych powodów:** na B, bo stosunki kwarkowe biegną przez y_t (153); na A, bo tylko leptony mają odczyt na własnym tyknięciu (kwark tylko jako m_b(m_b), „stosunek odniesiony do stosunku”, 151). **Powód strukturalny (180):** odczyt A należy do pary (M, O), a pojedynczy kwark nie stoi jako całość wobec żadnego O; [L] masa biegunowa kwarka jest niejednoznaczna o O(Λ_QCD) — renormalon podczerwony.
-    - **Pułapki numerologiczne (zapisane, żeby ich nie łączyć):** (a) **δ = 2/9 ≠ R\* = 2/9** z Pendletona–Rossa (165): kąt parametryzacji pierwiastków mas leptonów wobec stosunku y_t²/g₃² z b₃ — różne obiekty, żadnego wspólnego wejścia; (b) „2/3 = środek między Q = 1/3 (masy ≡) a Q = 1 (S₃L × S₃R)” — środek tylko w zmiennej Q; w kącie θ środek wypada przy 27°; (c) „45° = stożek światła jak w R1c” — dla trzech kopii warunek światła z R1c (część śladowa = bezśladowa ⇔ det = 0) uogólnia się na dwa sposoby: rząd 1 (Q = 1) albo równe normy obu części (Q = 2/3); wybór pasującego po fakcie = Eddington.
-- **WARTOŚCI Z „KOŃCÓW” — WĄTEK POBOCZNY, ZAMKNIĘTY (poprawki 148–151; status po 224 i 227) [L][O].** 148–150 szukały warunków ustalających **wartości** stałych na dwóch „końcach”: przy skali Plancka i przy całości. To był skutek błędu z [105] — jedna relacja zamiast zespołu (151); użytkownik (25.09): *„Dlatego szukamy zespołu funkcji.”* Celem jest zespół funkcji [94], a liczby to wartości funkcji w jednym stanie [88]. Do tego skala Plancka ≡ 2D ≡ Ø nie jest punktem na osi biegu, w którym można by postawić warunek, a zera i bieguny relacji nie dają nowych warunków (224).
-  - **Precedensy literatury [L]** (w 154 jako porównanie, nie wynik ramy): Shaposhnikov–Wetterich, Phys. Lett. B 683, 196 (2010), arXiv:0912.0208 — λ w punkcie stałym w zerze przy skali Plancka → m_H ≈ 126 GeV, przed odkryciem, przy założeniu braku skal pośrednich (pustynia [545]); Froggatt–Nielsen, Phys. Lett. B 368, 96 (1996), hep-ph/9511371 — dwie próżnie o równej energii → m_t = 173 ± 5, m_H = 135 ± 9 GeV; Buttazzo i in., JHEP 12 (2013) 089 — zmierzone m_H, m_t przy granicy stabilności. Wszystkie biorą zmierzone sprzężenia cechowania i ustalają jedną–dwie wielkości przy danych pozostałych.
-  - **Całość bez otoczenia nie ustala stałych [L][O] (150).** Henneaux–Teitelboim, Phys. Lett. B 222, 195 (1989): w grawitacji unimodularnej Λ jest stałą całkowania, a funkcja falowa spełnia równanie Wheelera–DeWitta przy dowolnym Λ; Magueijo (arXiv:2104.11529): to samo dla każdej stałej. **Więz Ĥ|Ψ⟩ = 0 nie ustala wartości stałych** — czyni je wielkościami zachowanymi; jedyny warunek z całości to rozdzielczość Λ ~ N^{−1/2} (Sorkin). W ramie: stała nieustalona = superpozycja wartości ≡ Ø [110]; wartość istnieje tylko w odczycie.
-  - **Forma, która zostaje [?]:** stała = relacja członu lokalnego z całością — działanie wielolokalne (Coleman 1988; Kawai–Okada, Prog. Theor. Phys. 127, 689 (2012), arXiv:1110.2303; Hamada–Kawai–Kawana, arXiv:1509.05955), ta sama postać co w R1d (masa = jednostronna relacja z nierozróżnialnym tłem). Bez mechanizmu i bez liczby.
-  - **Pułapka nazewnicza:** „płaski potencjał” (λ ≈ 0) ≠ płaskość 2D.
-- **Domysł [?]:** definicja masy może powstać razem z warunkiem stabilności węzła (obiekt = stabilna struktura relacji, słownik). **Dopisek (poprawka 169) [O], warunkowo:** „stabilna” po filtrze nie znaczy „stateczna” ([70], [402]) ani „trwająca” (czas = odczyt teraz); zostaje dodatnia forma drugiego rzędu samoodczytu. Wtedy: węzeł w sensie [404] ⇔ m > 0 ⇔ m·E > 0 dla każdego zgięcia (A11d, 169) ⇔ det P > 0 — wnętrze stożka (R1c pkt 3) ⇔ układ spoczynkowy (Wigner, wyżej) ⇔ własna rama (C4a.20, [354]); brzeg (m = 0) = światło, relacja, nie węzeł; poza stożkiem nic (P ≥ 0 — ta sama dodatniość co ρ ≥ 0, R1c pkt 4). **Masa i stabilność węzła w tym sensie to jeden warunek.** To część rzeczywista bieguna √s_R = M_R − iΓ_R/2 (PDG 2024, „Resonances”); trwanie jest osobnym odczytem — część urojona, do której wnosi każdy kanał rozpadu: mion i wolny neutron (Γ > 0) są węzłami (pułapka nr 8, uwaga użytkownika). Strona porządku (poprawki 172–173, A11d): węzeł z m > 0 = para (M, O) z własnymi tyknięciami wewnątrz M; foton = link, relacja bez wnętrza; O czyta tylko całość M, a z masą tyknięcia wnętrza wchodzą do tego, co O czyta.
-
-> **Status gałęzi masy v3.4 (etap6–9) [O]:** liczona na rozsiewie — pojemnik (186); wyniki „tempo niezależne od v do 0,9” i „A/B = 1,507” uzyskane w reżimie, w którym dominuje okno pudła — **nie są własnością porządku** (poprawka 103; §F2, „Konsekwencja dla §F1”). Masa w ramie: faza na własne tyknięcie (R1f-3), stosunek dwóch odczytów o różnej głębokości (180, 181).
-
-**Hipoteza (v3.4):** masa = **częstość, z jaką trajektoria czyta samą siebie**. Zdanie o odczycie, nie o geometrii — **nie wymaga rozstrzygnięcia sprawy przestrzeni**, więc można je testować teraz, na strukturze z zadania A (sprinkling + trajektorie + odczyty).
-- **Co już pasuje:** foton nie czyta siebie (t=0) → brak masy; przy v→c częstość samoodczytu mierzona z zewnątrz spada, od środka bez zmian (dylatacja); masa i prędkość siedzą w tym samym wierszu tabeli granic Ø.
-**DEFINICJA ROBOCZA I PIERWSZY WYNIK (v3.4, `etap6_masa.py`).** Skąd kandydat: w pliku jest już pytanie „czy relacja wraca do siebie” (nie wraca → U(1), foton; wraca → SU(3)). Masa jako częstość samoodczytu to **to samo pytanie zadane o trajektorię**: jak często informacja wysłana przez trajektorię do niej wraca. Foton: nic nie wraca, od jego strony nie ma „potem”.
-**Definicja (wewnętrzna, mierzalna):** dla trajektorii i — liczba **powrotów na odczyt**: ile razy element i czyta trajektorię j, która **wcześniej** czytała i (najkrótsza zamknięta pętla odczytu). Struktura: sprinkling + trajektorie + odczyty jak w zadaniu A (N=1,5 mln, K=1200, L=12).
-**Zdania przed rachunkiem:** (1) częstość stabilna wzdłuż trajektorii (połowa–połowa); (2) różni się między trajektoriami bardziej niż przypadkiem; (3) kontrola losowa niszczy obie własności.
-
-| | częstość powrotów | rozrzut między trajektoriami | korelacja połowa–połowa |
-|---|---|---|---|
-| odczyt najświeższych | 0,287 ± 0,008 | 0,280 | **+0,750** |
-| odczyt losowy (kontrola) | 0,033 ± 0,001 | 0,040 | −0,180 |
-
-- **WSZYSTKIE TRZY ZDANIA PRZESZŁY.** **Pierwszy raz w v3.4 pojedyncza trajektoria ma własną, zachowaną cechę liczbową.**
-- **Wykluczone najprostsze wyjaśnienie:** korelacja częstości z lokalną gęstością sąsiadów **−0,044**, z liczbą różnych czytanych trajektorii **−0,267**; po usunięciu wpływu obu korelacja połowa–połowa pozostaje **+0,746**. **To nie jest gęstość ani liczba partnerów.**
-- **Zastrzeżenia:** jedno ziarno, K=1200, L=12; pętle tylko długości 2; brak związku z jakąkolwiek skalą fizyczną (to na razie liczba bez jednostek); nie sprawdzono, czy zachowuje się jak masa (dodawanie, dylatacja, zależność od prędkości względem tła).
-**TEST PRĘDKOŚCIOWY — KANDYDAT ODPADA (v3.4).** Zdania przed rachunkiem: (a) **od środka** (na własny krok) częstość nie zależy od prędkości; (b) **z zewnątrz** (na czas współrzędnościowy) maleje jak √(1−v²); (c) kontrola losowa nie pokazuje żadnej z tych zależności.
-- **Pierwszy przebieg (prędkości 0,01–0,30):** na krok 0,404 wobec 0,404 (korelacja −0,020) — (a) pozornie przeszło; na czas: stosunek 0,980 wobec przewidywania 0,986 — zgodne, ale efekt 2%, nierozstrzygnięty.
-- **Odkryty błąd konstrukcji:** reguła budowy trajektorii („największy czas własny w oknie”) **nie jest niezmiennicza** — daje trajektorie prawie spoczywające w układzie pudła. Zerowy wynik (a) był pozorny.
-- **Drugi przebieg (prędkości 0,02–0,79, trajektorie o zadanej prędkości):**
-
-| | wolne | szybkie | korelacja z v |
-|---|---|---|---|
-| na własny krok | 0,307 | 0,176 | **−0,236** |
-| na czas współrzędnościowy | 0,947 | 0,568 | stosunek 0,599 wobec 0,822 z dylatacji |
-
-- **ZDANIE (a) UPADŁO:** częstość na własny krok zależy od prędkości. **Przyczyna:** powrót wymaga drogi tam i z powrotem, więc trajektoria szybka **ucieka własnym odbiciom** — ci, którzy ją czytali, zostają z tyłu. Mierzona wielkość zależy od ruchu **względem zespołu**, a zespół wyznacza układ spoczynku (działa jak ośrodek).
-- **Wniosek:** „częstość powrotów” to **tempo oddziaływania z otoczeniem**, wielkość zależna od układu — **nie masa**. Zachowanie wzdłuż trajektorii (korelacja 0,75) zostaje jako fakt, ale opisuje relację z otoczeniem, nie cechę własną.
-**KANDYDAT 2 — częstość zegara własnego (v3.4).** Poprawka do wcześniejszego zapisu: „własny element bez pośredników” to **link**, a łańcuch fotonowy składa się z samych linków — taka wielkość byłaby dla fotonu **maksymalna**, nie zerowa. Poprawnie, z fizyki bez interpretacji: masa = **częstość zegara własnego** (Compton, ω = mc²/ħ); foton nie ma masy, bo między emisją a absorpcją **nie ma zdarzenia pośredniego**. **Definicja:** liczba własnych elementów na jednostkę czasu własnego (obie wielkości niezmiennicze).
-- **Wynik (400 trajektorii, prędkości 0,02–0,78):** korelacja z prędkością **+0,333**; wolne 2,74, szybkie 3,82 (stosunek **1,39**); stabilność połowa–połowa +0,473. **(a) UPADŁO.**
-- **Przyczyna (błąd konstrukcji):** trajektoria o zadanej prędkości wybiera element najbliższy celowi w oknie **czasu współrzędnościowego**, więc przy dużej prędkości trafia bliżej stożka, gdzie czas własny kroku jest mały. Wielkość mierzy **sposób prowadzenia trajektorii**, nie jej własność.
-- **WNIOSEK POJĘCIOWY [A]:** w obu kandydatach wielkość zależała od tego, **jak trajektoria siebie kontynuuje**. **Masa nie jest cechą odczytywaną z gotowej linii świata, lecz własnością reguły, wedle której trajektoria siebie przedłuża.** Trajektoria „leniwa” (kroki o maksymalnym czasie własnym) tyka rzadko; drobiąca kroki tyka często.
-
-**KANDYDAT 3 — drobność samokontynuacji (v3.4).** Stosunek liczby własnych kroków do **maksymalnej możliwej** na tej samej drodze (najdłuższy łańcuch między końcami). Obie liczby czysto porządkowe → niezmienniczy z konstrukcji. Foton: między końcami linku nie ma elementów, wielkość znika.
-- **Wynik (118 trajektorii, prędkości 0,05–0,81):** średnia 0,494; korelacja z prędkością **+0,197** (błąd ~0,09, czyli ~2σ); szybkie/wolne **1,16** (wobec 1,39 dla kandydata 2). **Zależność spadła o połowę, ale NIEROZSTRZYGNIĘTE.**
-**KANDYDAT 3 = KANDYDAT 2 W INNEJ NORMALIZACJI [A]:** w sprinklingu najdłuższy łańcuch ∝ czas własny × ρ^(1/4), więc „kroki/najdłuższy łańcuch” to „kroki na czas własny” podzielone przez stałą. Różnica 1,39 vs 1,16 pochodzi z fluktuacji. **Zwiększanie próby tego nie naprawi — naprawić trzeba konstrukcję.**
-
-**TRZY PUŁAPKI KONSTRUKCJI TRAJEKTORII (v3.4, `etap7_masa_gpu.py`) — najcenniejszy wynik tej rundy:**
-1. **Reguła zewnętrzna** (okno w czasie współrzędnościowym + kierunek zadany w układzie pudła): tempo tyknięć zależy od prędkości (korelacja +0,32; szybkie/wolne 1,46–1,61). Wielkość mierzy regułę, nie strukturę.
-2. **„Maksymalny czas własny do przodu” HAMUJE:** τ² = Δt²−Δx², więc maksymalizacja preferuje małe przesunięcie przestrzenne → wszystkie trajektorie wytracają prędkość (0,01–0,13) i opadają do układu próbkowania. **Geodezyjna maksymalizuje czas własny między ustalonymi końcami, nie krok po kroku.**
-3. **Równe tyknięcia dziedziczą warunek początkowy:** przy wymuszeniu τ_kroku ≈ τ_poprzedniego stabilność rośnie do **+0,930**, ale korelacja z prędkością skacze do +0,63 — bo pierwszy krok budowany regułą zewnętrzną dawał szybkim trajektoriom krok bliski stożkowi (małe τ). **To zachowanie jest jednak MASO-PODOBNE: tempo tyknięć jest warunkiem początkowym niesionym przez trajektorię, a nie narzuconym przez otoczenie.**
-- **Poprawiona konstrukcja:** jednakowe **tyknięcie początkowe** dla wszystkich (wąskie pasmo τ), różne kierunki i prędkości; dalej kontynuacja wewnętrzna (równe tyknięcia + najprostsza kontynuacja od przedostatniego).
-- **Walidacja (800 trajektorii, N=0,8 mln, L=8):** reguła wewnętrzna — korelacja **+0,166**, szybkie/wolne **1,096**, stabilność +0,667; kontrola zewnętrzna — +0,241 i **1,46**. **Kierunek dobry, nierozstrzygnięte:** zakres prędkości tylko 0,01–0,25 (przy ustalonym τ szybkie trajektorie potrzebują większego okna — parametr do poszerzenia).
-**PRZEBIEG DUŻY I CZWARTA PUŁAPKA — ZNAK (v3.4).** Przebieg użytkownika (N=19 mln, K=20 tys., L=20, 2 ziarna) dał: reguła wewnętrzna korelacja +0,065/+0,049, stosunek **1,010/1,008**, stabilność +0,725/+0,727, ale **prędkości tylko 0,00–0,15**; kontrola +0,298/+0,310, stosunek 1,524/1,543, prędkości do 0,81. **Niezmienniczość pokazana tam, gdzie i tak nie ma czego pokazywać** (przy v≤0,15 dylatacja to promil).
-- **Czwarta pułapka — ZNAK (odwrotna nierówność trójkąta):** dla p≺q≺c zachodzi τ(p,c) ≥ τ(p,q)+τ(q,c), **równość tylko gdy q leży na prostej**. **Linia prosta daje NAJMNIEJSZY** τ(p,c) przy ustalonych krokach — więc najprostsza kontynuacja to **minimum**, nie maksimum. Maksymalizacja wybierała kontynuację **najbardziej zakrzywioną** → resztkowe hamowanie.
-- **Po poprawce znaku (v4, walidacja 800 trajektorii):**
-
-| | korelacja z v | szybkie/wolne | stabilność | zakres prędkości |
-|---|---|---|---|---|
-| **reguła wewnętrzna** | **+0,051** | **1,015** | +0,630 | **0,07–0,91** |
-| kontrola zewnętrzna | +0,335 | 1,612 | +0,475 | 0,02–0,82 |
-
-- **WSZYSTKIE ZDANIA PRZECHODZĄ:** M0 (nie hamuje: prędkości do 0,91, γ do 2,4), M1 (tempo nie zależy od prędkości: 1,015), M2 (stabilne: +0,630), M3 (kontrola pokazuje, że różnica bierze się z reguły: 1,612).
-- **Status kandydata 2 przy niezmienniczej kontynuacji:** tempo tyknięć na czas własny jest **niesione przez trajektorię i niezależne od ruchu** — zachowanie maso-podobne. Do rozstrzygnięcia w pełnym przebiegu: statystyka i stabilność przy L=20.
-**PEŁNY PRZEBIEG v4 (użytkownik, N=19 mln, K=20 tys., L=20, 2 ziarna) — WSZYSTKIE ZDANIA PRZESZŁY:**
-
-| | korelacja z v | szybkie/wolne | stabilność | prędkości |
-|---|---|---|---|---|
-| **reguła wewnętrzna** | **+0,034 / +0,027** | **1,005 / 1,005** | **+0,770 / +0,771** | 0,02–0,90 |
-| kontrola zewnętrzna | +0,298 / +0,310 | 1,524 / 1,543 | +0,638 / +0,645 | 0,00–0,81 |
-
-- **M0 ✓** (prędkości do 0,90, γ do 2,3); **M1 ✓** (|korelacja| 0,03 < 0,05; stosunek 1,005 w paśmie ±0,05 — uczciwie: przy n=20 tys. korelacja 0,03 jest statystycznie odróżnialna od zera, ale efekt to 0,5% na całym zakresie, ~100× mniej niż w kontroli); **M2 ✓** (stabilność wzrosła 0,63 → **0,77** przy dłuższych trajektoriach); **M3 ✓** (kontrola 1,52–1,54).
-- **WYNIK [A]:** trajektoria kontynuująca się pamięcią (najprostsza droga w sensie czasu własnego = minimum τ(p,c)) niesie **tempo tyknięć niezależne od ruchu i zachowane przez całe życie**. *(Status obniżony w 103: reżim okna pudła, nie własność porządku.)*
-- **Czego jeszcze NIE pokazuje:** wszystkie trajektorie startowały z **tym samym** tyknięciem → sprawdzono „ta sama masa, różne prędkości”. **Zdanie sprawdzone niżej (etap8):** dwie populacje o różnym tyknięciu początkowym (np. 0,4h i 0,6h) mają tempo w stosunku 1,5 i **obie** pozostają niezależne od prędkości.
-**DWIE POPULACJE — ROZRÓŻNIALNE MASY (v3.4, `etap8_masa_populacje.py`).** Tyknięcie początkowe A = 0,4h, B = 0,6h. **Uczciwy test:** pasmo tyknięcia liczone względem **poprzedniego kroku**, więc tempo przenoszone wyłącznie pamięcią (przy paśmie względem początkowego stosunek 1,5 byłby wymuszony). Zdania: P1 A/B = 1,5 ± 0,1; P2 w każdej populacji szybkie/wolne 1,00 ± 0,05; P3 dryf < 10%; P4 nakładanie rozkładów < 10%.
-- **PIĄTA PUŁAPKA — miara prostoty:** samo minimum τ(p,c) preferuje **mniejsze kroki** (mniejszy krok też zmniejsza τ(p,c)) → dryf tempa +22% w B, stosunek 1,38. **Poprawnie: nadwyżka z odwrotnej nierówności trójkąta** τ(p,c) − τ(p,q) − τ(q,c) ≥ 0 — zero dokładnie dla prostej i **niezależna od długości kroku**. Po poprawce (walidacja): A/B = 1,503, dryf 0,973.
-- **PEŁNY PRZEBIEG (użytkownik, N=19 mln, K=20 tys. na populację, L=20, 2 ziarna):**
-
-| | tempo | szybkie/wolne | korelacja z v | stabilność | dryf |
-|---|---|---|---|---|---|
-| A (0,4h) | 6,78 ± 1,07 | **0,988 / 0,988** | −0,03 | 0,75 | 0,95 |
-| B (0,6h) | 4,50 ± 0,67 | **1,055 / 1,052** | +0,13 | 0,74 | 0,94 |
-
-  - **P1 — PRZESZŁO:** A/B = **1,508 / 1,507** (oczekiwane 1,50). **Niewymuszone** — tempo przeniesione przez 20 kroków wyłącznie pamięcią. **Najmocniejsze zdanie gałęzi masy.**
-  - **P3 — PRZESZŁO:** dryf 5–6%.
-  - **P2 — przeszło dla A, minimalnie upadło dla B:** 1,052–1,055 (poza pasmem o kilka tysięcznych); korelacja +0,13 → **w populacji o dłuższym tyknięciu słaba resztkowa zależność od prędkości**; w A jej brak.
-  - **P4 — NIEROZSTRZYGNIĘTE:** skrypt sprawdzał rozłączność przedziałów 5–95% (ostrzejsze niż zdanie) — zachodzą w pasie 5,16–5,68, bo rozrzut w każdej populacji ~15%; **zapisanego progu „nakładanie < 10%” nie policzono** (błąd asystenta: kryterium w kodzie ≠ zdanie).
-**MOST DO LOGARYTMÓW PRZEZ SZEROKOŚĆ — SPRAWDZONY I ZAMKNIĘTY (v3.4, `etap9_masa_skala.py`).** Uwaga użytkownika: jedna gęstość daje punkt, nie funkcję; logarytmy z C4a pochodziły ze stosunku skal; trzeba skanu ≥ dekady i sprawdzenia, czy szerokość idzie jak 1/ln n (most), 1/√n (Poisson, mostu brak) czy stoi.
-- **Poprawka asystenta do projektu:** skan N przy stałym `KAND` to **tautologia** — sprinkling Poissona jest niezmienniczy względem skali, każdy krok widzi to samo. Właściwy stosunek skal: **liczba elementów na tyknięcie** n = ρ(π/24)τ₀⁴; skanowane tyknięcie przy stałej gęstości (równoważne). Rozstrzygnięcie ln vs stała wymaga ≥ 2 dekad.
-- **Walidacja (K=150):** n = 0,09 / 1,5 / 13,6 (dwie dekady) → szerokość A **0,099 / 0,095 / 0,103**, B 0,101 / 0,106 — **stała**, ani Poisson, ani logarytm.
-- **Test kontrolny pasma — SZEROKOŚĆ = PASMO TOLERANCJI:**
-
-| pasmo | szerokość A | szerokość B | dryf |
-|---|---|---|---|
-| ±5% | 0,044 | 0,048 | 0,99 |
-| ±10% | 0,095 | 0,106 | 0,98 |
-| ±20% | 0,191 | 0,195 | 0,92 |
-
-  **„Naturalna szerokość” to parametr konstrukcji** (liniowa w paśmie, niezależna od gęstości). **Przebiegu na A100 NIE wysyłać** — policzyłby pasmo.
-- **Co zostaje nieartefaktem [H]:** pasmo nie może być dowolnie wąskie — musi zawierać choć jednego kandydata, więc minimalne pasmo ∝ 1/n. Przy pasmie ustawianym najwęższym możliwym szerokość stałaby się wielkością strukturalną, **spodziewanie potęgową w n** → w sformułowaniu użytkownika: **szum, mostu tędy nie ma.**
-- **Stosunek A/B odporny:** 1,49–1,51 przy każdym paśmie i każdej gęstości — mocna część gałęzi masy nietknięta.
-- **Most masa ↔ logarytmy przez szerokość: ZAMKNIĘTY (brak).**
-
-- **Stan (w oknie pudła — 103):** dwie masy różniące się o połowę są **rozróżnialne w średniej z dokładnością ~0,5%**, niesione pamięcią i niezależne od ruchu; **pojedyncza trajektoria ma rozrzut ~15%**, więc na ogonach populacje się mieszają.
-
-- **CO WYMUSZA SAMA STRUKTURA PORÓWNAŃ, A CO WYMAGA MODELU — WARUNEK NA ZESPÓŁ, KTÓRY NIE JEST WARTOŚCIĄ (poprawka 212) [T][P][O].** Z pracy użytkownika `masa/wspolzaleznosci-funkcji` (4.10). 208 dało jeden warunek konieczny (ustalone są tylko samorelacje); tu jest **drugi, innego rodzaju**: nie o wartościach, tylko o wspólnej realizowalności rodziny funkcji. Bez cięcia, bez jednostek, bez pojemnika.
-  - **Logarytm jest wyprowadzony, nie wybrany [T].** Jeśli opis składanych stosunków ma być ciągłą addytywną współrzędną zależną **tylko** od stosunku, to `F(xy) = F(x) + F(y)` i stąd `F(x) = k·ln x`. Więc `t = ln(n₀/n)` z R1d **nie jest konwencją** — każda inna ciągła reprezentacja tego składania jest jej wielokrotnością. **Pozwala:** przestać pytać „dlaczego logarytm”. **Zabrania:** czytać z niego więcej — liniowość `1/α` w `t`, stałość wymiaru anomalnego i jednologarytmiczna postać funkcji masy **z tego nie wynikają** i wymagają dynamiki. Domyka 184a od strony reprezentacji (multiplikatywność), nie od strony wkładów.
-  - **Stosunki mają wymuszone zamknięcie, i nie da się ich wszystkich zmieniać niezależnie [T][P].** `r_{aa} = 1`, `r_{ba} = r_{ab}^{−1}`, `r_{ab}r_{bc} = r_{ac}`, `r_{ab}r_{bc}r_{ca} = 1`; `L_{ab} = η_a − η_b`, `L_{ab}+L_{bc}+L_{ca} = 0`. Rząd mapy `(ln q_a) ↦ (ln r_{ab})` wynosi **`n−1`** (rachunek na ułamkach dla `n = 2…6`: 1,2,3,4,5). **Wspólny składnik jest dla tej rodziny niewidoczny** — określa to, co skróci się, jeśli jest wspólny, i nic więcej. **Test na przyszły zespół:** przedstawiony jako takie stosunki nie może przypisywać niezależnych zmian wszystkim parom ani naruszać zamknięcia.
-  - **Ale tego zamknięcia nie wolno przenosić na obiegi faz [T][P].** Dla wspólnie dopuszczalnych stanów `R_1 = (1,0)`, `R_2 = (1,1)/√2`, `R_3 = (1,i)/√2` jest `κ₁₂κ₂₃κ₃₁ = (1+i)/4`: faza `π/4`, **niezmiennicza przy niezależnej zmianie faz reprezentantów**, przy dodatniej półokreślonej macierzy Grama (wyznacznik 0, mimo trzech różnych stanów). **Zabrania:** używać tożsamości ilorazów wspólnego odniesienia do zerowania rzeczywistych obiegów z 177 i R1d.
-  - **Wspólna realizowalność zapisów — warunek, który wycina rodziny [T][P].** Dla jednej koherentnej rodziny znormalizowanych zapisów macierz Grama `Γ_zap` musi być dodatnia półokreślona, więc oprócz `‖κ_{ij}‖ ≤ 1`:
-    **`𝒢 = det Γ_zap = 1 − Σ_cykl‖κ_{ij}‖² + 2Re(κ₁₂κ₂₃κ₃₁) ≥ 0`.**
-    Kontrola wybrana przed rachunkiem: trójka `9/10, 9/10, −9/10` — każda para dopuszczalna, rodzina **nie** (`𝒢 = −361/125`); kontrola dodatnia `3/5, 9/25, 3/5` → `𝒢 = 256/625`. **I warunek na zmiany [T]:** jeśli `𝒢 ≥ 0` jest różniczkowalne po obu stronach punktu wewnętrznego `s*` i `𝒢(s*) = 0`, to **`𝒢′(s*) = 0`** — rozwinięcie daje jawną współzależność pochodnych `κ′`. Rodzina kontrolna `R_3(s) = (e_1+e_2+se_3)/√(2+s²)` daje `𝒢 = s²/(2+s²)`, `𝒢′ = 4s/(2+s²)²`, oba zero w `s = 0`. **Zabrania:** podać zespół jako kilka funkcji o właściwych wartościach bez sprawdzenia ich wspólnej dopuszczalności i jej granicy.
-    **Zakres, bez którego byłoby to za mocne:** dotyczy **nakładań zapisów w jednym koherentnym protokole**. `𝒢 = 0` znaczy liniową zależność zapisów — **nie** jest automatycznie Ø, nierozróżnialnością, skalą Plancka ani `λ = 0`; żadnego utożsamienia z 154, 183 ani 208 tu nie wykonano. Przeniesienie warunku na `α_i` albo `y_f` wymaga najpierw wyprowadzenia ich związku z tymi nakładaniami, a tego **nie ma**. Oznaczenie `𝒢` wybrane po to, żeby nie mylić z `D` z 173/198.
-  - **Co pokazuje niewystarczalność, żeby wniosek nie był za mocny [T][P].** Dodatnie `q_1 = e^{s²}`, `q_2 = 1`, `q_3 = e^s` spełniają wszystkie tożsamości powyżej, a przy `α(s) = 1/(1+s)` dają `d ln(q_1/q_2)/d lnα = −2s(1+s)`: `−3/2, −4, −12` w `s = ½,1,2`. **Same tożsamości porównań nie wymuszają relacji potęgowej z 152** — i to jest powód, dla którego warunki z tej poprawki są konieczne, a nie wystarczające. **Upadła przy tym część oczekiwania o regule Borna** (zapisana i zachowana): nierówne wagi `½` i `3/2` dają część diagonalną równą liczbie dwóch dróg, więc **równy wynik sumaryczny nie wymusza równych modułów wag**; kwadratowość, parowość i `I₃ = 0` (Sorkin) zachowują swój zakres, a zapis 177 z jednakowymi współczynnikami par wymaga jednostkowych modułów jako osobnego warunku.
-
-- **PRZENIESIENIE `𝒢` Z 212 NA ZESPÓŁ TĄ DROGĄ NIE DZIAŁA — PRZESZKODĄ JEST 205 (poprawka 223) [T][O].** Pytanie: co jest w `κ_{ij}`, jeśli `κ` zespołu wziąć jako znormalizowany Gram kolumn macierzy Yukawy (217: `I_a = ‖R_a‖²`, `κ_{ab} = ⟨R_a‖R_b⟩/√(I_aI_b)`, **`(X_f)_{ab} = √(I_aI_b)·κ_{ab}`**). **Zastrzeżenie [O]:** utożsamienie tego `κ` z `κ` z 212 (zapisy nazwane w jednym protokole) jest utożsamieniem po formie, niewykazanym — cały blok na nim stoi.
-  - **Z1 [T] — `𝒢` jest ściśle niewrażliwe na to, czego zespołowi brakuje.** Przy `Y → YD`, `D = diag(d_a) > 0`: `I_a → d_a²I_a`, a `κ_{ab} → (d_aX_{ab}d_b)/√(d_a²X_{aa}·d_b²X_{bb}) = κ_{ab}` — **dokładnie bez zmiany**, więc `𝒢 = det κ` jest **niezmiennikiem** tej operacji. Wartości singularne `YD` się przy niej zmieniają, a ich stosunki przebiegają swobodnie: kontrola 217, wybrana tam przed rachunkiem, `Y₁ = diag(1,2,3)` i `Y₂ = diag(1,3,5)` — **ten sam `κ = 𝟙`**, stosunki `2,3` wobec `3,5`. **Wniosek: `𝒢 ≥ 0` i `𝒢′(s*) = 0` dają ZERO warunków na 8 stosunków Yukaw i na unormowanie.** Nie „jeszcze nie wyprowadzono" — nie mogą, bo są stałe wzdłuż drogi, która te stosunki przestawia.
-  - **Z2 [T] — w sektorze cechowania granicy wewnętrznej nie ma wcale.** Zapisy to amplitudy generatorów `R^A = g_a t^A` (ta sama tabela amplitud co w 217). `⟨R^A‖R^B⟩ = g_a²Tr(t^{A†}t^B) = g_a²T_a(R)δ^{AB}` — **dokładnie druga kontrakcja z 217**, ta, która wchodzi w `b_a`. Po unormowaniu `κ^{AB} = δ^{AB}`, więc **`𝒢 ≡ 1` dla każdej wartości `g_a`**, a `𝒢 ≥ 0` nigdy nie jest ciasne. Czynniki grupy SM są przy tym wzajemnie prostopadłe (`Tr(Y t^a) = Y·Tr t^a = 0`). **Zero warunków na trzy przesunięcia `1/α_i`, i powód jest inny niż w Z1: nie niezmienniczość, a prostopadłość zapisów z konstrukcji.**
-  - **Z3 [T] — na CKM `𝒢` jest przepisaną unitarnością i jest głuche na fazę.** Zapisy `u_i` i `d_j` to **dwie bazy ortonormalne tej samej przestrzeni**, `V_{ij} = ⟨u_i‖d_j⟩` (217). Gram całej szóstki `[[𝟙, V],[V†, 𝟙]]` ma `det = det(𝟙 − V†V) = 0` **tożsamościowo** dla unitarnego `V` — rodzina leży na granicy zawsze, więc warunek na pochodną jest tam pusty. Trójki: każda trójka wybrana z dwóch baz ortonormalnych ma **co najmniej dwa elementy z jednej bazy**, więc jedno `κ` w obiegu jest zerem i **obiegowa faza `Re(κ₁₂κ₂₃κ₃₁)` jest tożsamościowo zerowa**; wyznacznik trójki `{u_i, d_j, d_k}` to `1 − ‖V_{ij}‖² − ‖V_{ik}‖² = ‖V_{il}‖²`, którego zero jest z konieczności podwójne. **Zero warunków na 4 dane CKM.**
-  - **Z4 [T] — rozstrzygające: `𝒢` zależy od tego, które zapisy się nazwie.** `𝒢 = det κ = det X / ∏_a X_{aa}`. `det X` jest niezmiennikiem unitarnej zmiany bazy zapisów, `∏_a X_{aa}` **nie jest**. Kontrola na dokładnych ułamkach, na kartce: `X = [[1, ½],[½, 1]]` → `det X = 3/4`, `∏X_{aa} = 1`, `det κ = 3/4`; po obrocie o 45° `X′ = diag(3/2, ½)` → `det X′ = 3/4` (niezmiennik), `∏X′_{aa} = 3/4`, **`det κ′ = 1`**. Ogólnie: **dla każdego dodatnio określonego `X` baza własna daje `κ = 𝟙`, czyli `𝒢 = 1`** — więc **z granicy `𝒢 = 0` można zawsze zejść, przenazywając zapisy**. „Granica wewnętrzna `s*`" jest zatem **własnością nazwania, nie obiektu**, a nazwanie bazy zapisów jest dokładnie tym, czego 205 zabrania jako zdania o obiekcie, dopóki nie dostarczy jej struktura.
-  - **Werdykt, stanowczo [T].** Dwie strony składają się w jedno zdanie: **`𝒢` jest dokładnie stałe przy zmianie obiektu (przeskalowanie kolumn) i zmienne przy zmianie opisu (obrót unitarny).** Wielkość o tych dwóch własnościach nie może ograniczać obiektu w kierunkach, w których jest stała — to jest cała treść przeszkody i jest to tożsamość, nie zastrzeżenie metodyczne. **Przeniesienia nie ma tą drogą; przeszkodą jest 205, nie brakujące wyprowadzenie.** Z 17 wolnych danych: 12 sił (3 przesunięcia, 8 stosunków, unormowanie) wypada przez Z1, trzy z nich dodatkowo przez Z2, 4 dane CKM przez Z3.
-  - **Co zostaje dla `θ_QCD` i fazy — jedyne miejsce, w którym `𝒢` nie jest głuche z konstrukcji [O].** Jedyny człon `𝒢` wrażliwy na fazę to obiegowy `2Re(κ₁₂κ₂₃κ₃₁)`, a 212 pokazała, że ta faza jest **niezmiennicza przy niezależnej zmianie faz reprezentantów** (`κ₁₂κ₂₃κ₃₁ = (1+i)/4`, faza `π/4`). Zespół ma dokładnie dwie dane tego rodzaju: fazę CKM i `θ̄ = θ + arg det M` (208 [?]). Ale obieg wymaga **trzech zapisów parami nieprostopadłych** — na CKM takich trójek nie ma (Z3), a na kolumnach Yukawy obiegowa faza `arg(X₁₂X₂₃X₃₁)` **zależy od wybranej bazy zapachowej** i w bazie własnej `X` znika. **Więc i tu wchodzi 205, nie nowy warunek.** To nie jest otwarty krok, tylko to samo rozstrzygnięcie o poziom niżej.
-  - **Czego to NIE rusza [O].** **212 stoi nietknięta w swoim zakresie** — tam zapisy są **nazwane przez protokół**, więc `𝒢 ≥ 0` jest rzeczywistym warunkiem na wspólną realizowalność tej nazwanej rodziny (kontrole 212: `9/10, 9/10, −9/10` → `𝒢 = −361/125`; `R_3(s)` → `𝒢 = s²/(2+s²)`). Zmienia się status jej własnej adnotacji o zakresie: było zastrzeżenie („wymaga wyprowadzenia, a tego nie ma"), jest **mechanizm**. Pierwszą połowę kroku 2 — zliczenie Ø-miejsc na relację (183, 208) — zamyka 224.
-  - **Co ten wpis zmienia (test `STOP.md`).** *Zabrania:* przenosić `𝒢 ≥ 0` ani `𝒢′(s*) = 0` na `α_i`, `y_f`, CKM i `θ_QCD` — **z powodu**, nie jako „jeszcze nie zrobione", **dopóki struktura nie dostarczy bazy zapisów** (Z4). *Zabrania:* czytać „granicę wewnętrzną `s*`" jako własność obiektu — dla każdego dodatnio określonego `X` istnieje baza z `𝒢 = 1`. *Pozwala:* trzymać 212 w pełni w jej zakresie, z mechanizmem zamiast zastrzeżenia. *Pozwala:* odrzucić **bez rachunku** każdy przyszły warunek, który jest stały przy zmianie obiektu i zmienny przy zmianie opisu — dwustronny test, ostrzejszy niż samo „baza to pojemnik", bo nie wymaga rozpoznania bazy: wystarczy sprawdzić obie pochodne.
-
-- **MAPA SKŁADNIKÓW FUNKCJI MASY NA OPERACJE PORÓWNANIA — TRZY OPERACJE, DWIE KONTRAKCJE JEDNEJ TABELI (poprawka 217) [T][P][L][O].** Z pracy użytkownika `masa/1` + skrypt `masa/2` (27/27 kontroli na dokładnych ułamkach i wymiernych liczbach zespolonych). **To jest „relacja relacji, stosunek stosunków” [94] rozpisane na operacje, a nie na wartości.** Jedna pętla, bez neutrinowych Yukaw, bez przekraczania progów. Rozdzielone jawnie: **(1)** algebraiczne konsekwencje porównań i QM, **(2)** przyporządkowanie operatorom użytym w rachunku SM, **(3)** otwarte wyprowadzenie tego przyporządkowania z podstawy relacyjnej — **poprawność (2) nie zastępuje (3)**, i macierze wewnętrznych kanałów nie są wymiarami przestrzennymi.
-
-  **Rdzeń: trzy różne operacje na amplitudach [T].** Dla `R_a = Y_f e_a` i `X_f = Y_f†Y_f = ⟨R_a|R_b⟩`:
-  1. **powrót własnym kanałem** L↔R → wkład własny `y_f²` (w biegu z wagą `+3/2`);
-  2. **rzut na kanały drugiego odczytu** → wkład partnerów `Σ_j y_j²‖V_{ij}‖²` (w biegu `−3/2`);
-  3. **domknięcie sumy po wszystkich kanałach** → wspólny ślad `T = 3Tr X_u + 3Tr X_d + Tr X_e`.
-  Wkłady cechowania są analogicznymi kontrakcjami amplitud generatorów. `(X_f)_{aa}` sumuje kwadraty modułów odpowiedzi do wspólnych kanałów końcowych, `(X_f)_{ab}` **porównuje je koherentnie** przez te same kanały. **Przy pozostawionej metryce odczytu jest `Y†WY`, a przy propagatorze pośrednim `Y†PY`** — i `W = P = 𝟙` **nie wynika** z samego użycia jednego O; to jest **to miejsce, w którym najłatwiej przemycić wspólność czynnika** (dokładny warunek: 213).
-
-  **Siła odpowiedzi wobec znormalizowanego nakładania [T].** `I_a = ‖R_a‖²`, `κ_{ab} = ⟨R_a|R_b⟩/√(I_aI_b)`, `(X_f)_{ab} = √(I_aI_b)·κ_{ab}`, a dla trzech kolumn `det X = I₁I₂I₃·det κ`. **Dodatniość Grama dotyczy `κ`** (to jest obiekt z 212), a `X` niesie **ponadto** siły `I_a`; dodatniość zachowuje się przy niezależnym dodatnim przeskalowaniu kolumn i **norm nie ustala**. Kontrola wybrana przed rachunkiem: `Y₁ = diag(1,2,3)` i `Y₂ = diag(1,3,5)` mają **ten sam** znormalizowany Gram `𝟙`, a różne stosunki wartości singularnych. **Zabrania: zamieniać znormalizowane nakładanie w siłę odpowiedzi ani w stosunek mas.** Pierwiastki wartości własnych `y_{fi}` dają odczyt B: `r^B = y_{fi}/y_{fj}`, wspólny czynnik Higgsa wypada.
-
-  **Dlaczego waga partnera jest kwadratem modułu [T].** Na wspólnej lewej przestrzeni `X_u = Σ_i y_{ui}²|u_i⟩⟨u_i|`, `X_d = Σ_j y_{dj}²|d_j⟩⟨d_j|`, a porównanie obu baz to **amplituda** `V_{ij} = ⟨u_i|d_j⟩`. Rzut odpowiedzi partnera na kanał `u_i`:
-  `⟨u_i|X_d|u_i⟩ = Σ_j y_{dj}²‖V_{ij}‖²`, i symetrycznie `⟨d_j|X_u|d_j⟩ = Σ_i y_{ui}²‖V_{ij}‖²`.
-  **`V` jest amplitudą zmiany odniesienia, `‖V‖²` jej wagą w rzucie, `y²` siłą odpowiedzi partnera — sama waga mieszania nie jest jego masą.** Unitarność pełnej zmiany bazy daje `Σ_j‖V_{ij}‖² = 1` i `Σ_i‖V_{ij}‖² = 1`. W działaniu SM ta niezgodność baz pojawia się w naładowanym prądzie słabym jako CKM — czyli **208 („CKM = relacja relacji”) dostaje wyprowadzony rodzaj wagi, nie tylko nazwę**. **Fazy nie zostały usunięte:** iloczyny `V_{ij}V_{kj}*V_{kl}V_{il}*` mogą mieć niezerową część urojoną (syntetyczna macierz wybrana przed rachunkiem taki iloczyn ma). **Zakres:** istnienie dwóch wskazanych baz, ich wspólnej przestrzeni i przyporządkowanie prądowi W pochodzą z działania SM; wyprowadzono **rodzaj** wagi, nie wartości CKM. Częstości surowych zdarzeń nie są automatycznie tymi wagami.
-
-  **Zmiana bazy nie jest dodatkową siłą [T].** Z `X = Y†Y` i hermitowskiego `B`: `16π²X′ = BX + XB`, więc dla prostej wartości własnej `x_i = y_i² > 0`:
-  **`16π²(ln y_i)′ = ⟨i|B|i⟩`.**
-  Różniczkowanie unormowania wektora własnego **usuwa jego pochodną** z pochodnej wartości własnej. Przy degeneracji porównuje się projektory podprzestrzeni; logarytm nie jest określony przy `y_i = 0`. Po podstawieniu wag mieszania:
-  `16π²(ln y_{ui})′ = T − G_u + (3/2)[y_{ui}² − Σ_j‖V_{ij}‖²y_{dj}²]`, i analogicznie dla `d` oraz `16π²(ln y_{eℓ})′ = T − G_e + (3/2)y_{eℓ}²`.
-  **Bez przybliżenia dominacji topu:** człon topu w kanale dolnym `j` to **jeden składnik** pełnej sumy, `−(3/2)y_t²‖V_{tj}‖²`, a `‖V_{tb}‖² = 1` **nie zostało przyjęte**. **Zabrania:** usuwać pozostałe składniki przed uzasadnieniem przybliżenia.
-
-  **Z czego składa się `3/2` [T][L] — rozkład, z jawnym statusem każdego kawałka.** Zwykłe jednopętlowe wkłady Yukaw do anomalnych wymiarów pól SM: `γ_Q = ½(X_u + X_d)`, `γ_{u_R} = Y_uY_u†`, `γ_{d_R} = Y_dY_d†`, `γ_H = T`, `γ_L = ½X_e`, `γ_{e_R} = Y_eY_e†`. Wkłady propagatorów do zmiany wierzchołka `u`: `Y_u[(3/2)X_u + ½X_d + T]`, więc porównanie z pełnym wynikiem zostawia w poprawce wierzchołkowej `Y_u(−2X_d)`:
-
-  | kanał odczytu `u` | wkład na wspólnej lewej przestrzeni |
-  |---|---|
-  | prawy propagator | `+X_u` |
-  | wspólny lewy propagator | `+½X_u + ½X_d` |
-  | propagator Higgsa | `+T` |
-  | poprawka wierzchołkowa, **jako reszta** | `−2X_d` |
-  | suma zależna od Yukaw | `+T + (3/2)X_u − (3/2)X_d` |
-
-  Dla `d` role `u` i `d` zamieniają się; dla leptonu bez Yukawy neutrinowej ta reszta wierzchołkowa jest **zerowa**, a dwie nogi dają `X_e + X_e/2 = (3/2)X_e`. **`3/2` nie jest prawdopodobieństwem ani wagą CKM** — jest współczynnikiem zmiany amplitudy złożonym z poprawek do propagatorów i wierzchołka; ujemny wkład nie oznacza ujemnego prawdopodobieństwa, a nazwanie go „przeciwnym hiperładunkiem” rachunku nie odtwarza. **Status, trzymany jawnie: `½` i `1` pochodzą z obliczeń pól, a `−2` otrzymano przez odjęcie znanych wkładów od znanego pełnego wyniku — to kontrola i lokalizacja brakującego przejścia, nie niezależne wyprowadzenie `3/2` z podstawy.**
-
-  **Dwie różne kontrakcje tej samej tabeli amplitud [T].** Dla zredukowanej amplitudy cechowania `A^A_{βα} = g_a(t^A)_{βα}`:
-  - **przy ustalonym kanale nośnika, suma po wyjściach i generatorach:** `Σ_{β,A}‖A^A_{βα}‖² = g_a²C_a(R)` — Casimir, i **tę** kontrakcję niosą wagi cechowania lewego i prawego kanału Yukawy, `c_a(f) = 3[C_a(L_f) + C_a(R_f)]`;
-  - **przy ustalonych kanałach cechowania, suma po całej reprezentacji:** `Σ_{α,β}(A^A_{βα})*A^B_{βα} = g_a²T_a(R)δ^{AB}` — indeks, który wchodzi w `b_a`.
-
-  **Różnica `C(R)` i `T(R)` jest różnicą tego, co ustalono jako odniesienie i po czym sumowano — to nie są dwie niezależnie dobrane wagi.** Czyli: waga cechowania w funkcji masy i waga w biegu samego sprzężenia to **te same amplitudy czytane dwa razy**. Treścią jest zakaz: tych wag nie wolno dobierać niezależnie. Tabela `c_Y, c_2, c_3` dla `u` (`17/12, 9/4, 8`), `d` (`5/12, 9/4, 8`), `e` (`15/4, 9/4, 0`) odtwarza 152 — **jako kontrola, nie nowa predykcja**. **Granica trzymana twardo: to, że Casimir jest sumą kwadratów odpowiedzi, NIE wyprowadza czynnika 3**, a znaku ekranowania/antyekranowania **nie można uzyskać przez policzenie dodatnich norm** — na to są wagi spinowe, statystyka i samooddziaływanie nośników (155 A).
-
-  **Co wraca do λ [T]: suma kwadratów porównań, nie kwadrat sumy.** `Tr X_f² = Σ_{a,b}‖⟨R_a|R_b⟩‖² = Σ_i y_{fi}⁴`, więc kontrakcja czwartego rzędu to `H₄ = 3Tr X_u² + 3Tr X_d² + Tr X_e²`. **Zamiana `Tr X²` na `(Tr X)²` dołożyłaby inne relacje.** Pełne równanie po uzgodnieniu konwencji: `16π²λ′ = 24λ² + 4λT − 2H₄ − 3λ(3g₂² + g_Y²) + (3/8)[2g₂⁴ + (g₂² + g_Y²)²]`; przeliczenie z `λ_źródła = 2λ` i `g₁² = (5/3)g_Y²` **przeszło dokładnie**. Dopiero przy pozostawieniu samego topu `−2H₄ → −6y_t⁴` jak w 155 D — **i tego uproszczenia nie przyjęto**. Czynnik 3 jest krotnością koloru (`d_col = 3` dla kwarków, 1 dla leptonów — **nie liczbą kierunków ani pokoleń**), a znak minus pochodzi z pętli fermionowej. **W jednej pętli λ nie pojawia się w biegu Yukaw:** czyta je i cechowanie, ale jej bezpośredni wkład zaczyna się wyżej.
-
-  **Pełna postać stosunku stosunków [T] — i poprawka do użycia postaci potęgowej.** Z `S_f` = nawias Yukaw wraz z `3/2`: `16π²(ln y_f)′ = T − G_f + S_f`, więc dla dwóch odczytów B wspólne `T` się skraca (a w stosunku współczynników masowych skraca się także wspólne `v`):
-  `16π²(ln r^B_{fg})′ = −Σ_a[c_a(f) − c_a(g)]g_a² + S_f − S_g`,
-  i dalej, z `p_a(f) = −c_a(f)/(2b_a)`:
-  **`r^B_{fg}(s₂)/r^B_{fg}(s₁) = Π_a[α_a(s₂)/α_a(s₁)]^{p_a(f)−p_a(g)} · exp[(1/16π²)∫_{s₁}^{s₂}(S_f − S_g)ds]`.**
-  **Całka zawiera te same `y` i `V`, których zmiany rozpatrujemy — to jest zespół współzależny, więc bez uzasadnionego uproszczenia nie wolno zamienić tej części w stały wykładnik ani usunąć mieszania.** To **poprawia użycie czystej postaci potęgowej** w 152 i 165: tam wykładnik stał sam, a tu stoi obok członu, który musi być albo policzony, albo wykazany jako równy 1. Przykłady jawne: dla dwóch kanałów dolnych `16π²(ln y_{dj}/y_{dk})′ = (3/2)[y_{dj}² − y_{dk}² − Σ_i y_{ui}²(‖V_{ij}‖² − ‖V_{ik}‖²)]`, a dla dwóch leptonów `(3/2)(y_{ea}² − y_{eb}²)` — **to pokazuje zakres słowa „stoją” z 153: praktyczna małość zmian nie jest tożsamościowym zerem**, i nie trzeba wstawiać danych, żeby ten podział zobaczyć.
-
-  **Czego ta mapa nie daje i co pozostaje otwarte [O].** Nie utożsamia dowolnego zliczenia z Yukawą; wskazuje, **jakiego rodzaju porównania musi odtworzyć przekład odczytu**, aby zgadzał się z użytym formalizmem. Otwarte: wyprowadzenie z 179–207 konkretnego zredukowanego wierzchołka, jego wspólnej metryki odczytu i propagacji pośredniej, tak żeby te kontrakcje **i współczynniki pętlowe** wyszły bez przyjęcia ich jako przesłanek — szczególnie czy odczyt odtwarza wkłady lewego propagatora, prawego i wierzchołka **oddzielnie**. Rzut i dodatniość same tego nie ustalają. **Nie otrzymano z tego uniwersalnej równości `a·b = −y_f²`:** skalarna suma po drogach z 180–181, operator Diraca i operator Yukawy muszą być połączone przy zachowaniu propagacji, indeksów i wspólnego odczytu, a wspólna postać dwóch zmian nie ustala normalizacji ani wag pośrednich.
-
-- **WYKŁADNIK BIEGU JEST RODZINĄ ZALEŻNĄ OD ZAWARTOŚCI PÓL, NIE LICZBĄ Z RAMY (poprawka 219) [T][P][L][O].** Z `masa/wspolzaleznosci-funkcji` K5. Dla izolowanego wkładu sektora wektorowego, przy ustalonej zawartości pól i bez progów: `dα/ds = −(b₀/2π)α²`, `d ln r/ds = −(γ₀/4π)α`, więc eliminacja `s` daje `d ln r/d lnα = γ₀/(2b₀)` i
-  **`r(s₂)/r(s₁) = [α(s₂)/α(s₁)]^{γ₀/(2b₀)}`.**
-  **Wartości odczytów nie były potrzebne do wyprowadzenia postaci — potrzebne były równania określonego sektora i jego współczynniki.** Dla fundamentalnej SU(`N_c`), z `γ₀ = 6C_R` i `b₀ = (11/3)C_A − (4/3)T_Rn_f`:
-  **`γ₀/(2b₀) = 9(N_c² − 1)/(2N_c(11N_c − 2n_f))`.**
-  Kontrole na ułamkach: SU(3) przy `n_f = 6, 5, 4` → `4/7, 12/23, 12/25`; SU(2) przy `n_f = 6` → `27/40`. **To jest sektorowa postać `p_a(f) = −c_a(f)/(2b_a)` z 152 — a więc `p_a` jest rodziną w `(N_c, n_f)`, nie liczbą, którą rama podaje.** **Zabrania:** czytać pierwszą z tych liczb jako wniosek — **SU(3) z sześcioma aktywnymi smakami jest jawnym warunkiem, nie konsekwencją 3D**; a stała potęga jest zakresem **jednej pętli** (wyższe dają dalsze czynniki; konwencje sprawdzone wobec Vermaseren–Larin–van Ritbergen, `α_s/π` i pochodna po `ln μ²`). Przy progach trzeba zmienić zawartość sektora i uwzględnić dopasowanie teorii efektywnych. **Dla 212:** same tożsamości porównań tej relacji potęgowej **nie wymuszają** — kontrprzykład stoi tam.
-
-## §F2. LOGARYTMY — rachunki v3.4 na rozsiewie (gałąź zamknięta) i poprawka 218
-
-> **Status (`STOP.md`; 178, 186):** logarytmy z v3.4 (C4a, etap10–17) są liczone na rozsiewie: ln N to całka po pchnięciach w pojemniku, a n ∝ ρτ^d niesie gęstość — gałąź zamknięta; „koszt wskazania ramy” jest zdaniem o rozsiewie, a „testy” niżej nie są programem. Logarytmy ramy: typy S i K (146), logarytm wyprowadzony z addytywności składania stosunków (212), dwa logarytmy z jednego diagramu (218, na końcu tej sekcji).
+> **Status (`STOP.md`; 178, 186):** logarytmy z v3.4 (C4a, etap10–17) są liczone na rozsiewie: ln N to całka po pchnięciach w pojemniku, a n ∝ ρτ^d niesie gęstość — gałąź zamknięta; „koszt wskazania ramy” jest zdaniem o rozsiewie, a „testy” niżej nie są programem. Logarytmy ramy: typy S i K (146), logarytm wyprowadzony z addytywności składania stosunków (212), dwa logarytmy z jednego diagramu (218, w części o masie).
 
 Logarytmy pojawiły się w v3.4 **wszędzie**: entropia po obcięciu (C4a.16), linki na element (C4a.19, 22), gęstość niewypełnialnych cykli (C4a.22), suma po pętlach (C4a.19), zakres pchnięć. Za każdym razem to **stosunek dwóch skal**: od najmniejszej do rozmiaru układu.
 - **Hipoteza robocza [A]:** w języku informacji logarytm znaczy jedno — **liczbę bitów potrzebnych, żeby wskazać jedno miejsce spośród wielu**. Przewidywanie: wszystkie nasze logarytmy okażą się jednym zdaniem o **koszcie wskazania**, a różnić się będą tylko współczynnikiem = liczbą niezależnych kierunków wskazywania.
@@ -2908,36 +2929,6 @@ Logarytmy pojawiły się w v3.4 **wszędzie**: entropia po obcięciu (C4a.16), l
 - **Kawałek wyprowadzony [A]:** typ II w najprostszej postaci (przedział z dokładnie 4 elementami w układzie motyla) ma współczynnik przy ln N = ∫(w⁴/4!)e^(−w)dw × P(4 punkty tworzą motyl) = **1 × 1/24** (P z permutacji: jedna z 24). Zmierzone przyrosty #II/N na podwojenie: 0,033 i 0,031, czyli ≈ 0,046 na jednostkę ln N (przewidywane 0,0417; zakres N 1000–8000, poniżej dwóch dekad).
 - **Co blokuje pełne wyprowadzenie:** zamkniętych powierzchni jest więcej niż wymiarów. Przy N = 3000 jest 1782 czterościennych, rang 1028, czyli 754 zależności. Rangi: typ I 544 (z 874), typ II 524 (z 565), I+II razem 908. Pozostałe 120 wymiarów dają powierzchnie typu II, w których przedział x≺y zawiera dodatkowe elementy. Wyprowadzenie to **liczenie lokalnych konfiguracji z włączeniami–wyłączeniami**: każda liczba to czysta całka typu ∫du/u × waga, ale trzeba policzyć też konfiguracje zależności. Program jest wykonalny, ale długi.
 
-
-**DWA LOGARYTMY Z JEDNEGO DIAGRAMU — RÓŻNE WAGI Z JEDNEGO LICZNIKA (poprawka 218) [T][P][L][O].** Z pracy użytkownika `masa/4` + skrypt `masa/5` (24/24). §F2 pytało o **typy** logarytmów (146: S wobec K). Tu jest przypadek, w którym **jeden diagram własnej energii daje dwa różne logarytmy**, i to bez żadnego pojemnika: regulator i jednostka skracają się w różnicy dwóch rozdzielczości.
-
-Po połączeniu mianowników i przesunięciu pędu **nieparzysta część licznika całkuje się do zera**, a zostaje `x·p̸ + m_i` — **to wyznacza dwie wagi: `x` i `1`**. Z `d_i(x;r) = xη_h² + (1−x)η_i² + x(1−x)r²`, `r = Q/Q₀`, `η = m/Q₀`:
-
-**`F_i(r) = ∫₀¹ dx·x·ln[d_i(x;r)/d_i(x;1)]`** (człon kinetyczny, przy `p̸`) · **`G_i(r) = ∫₀¹ dx·ln[d_i(x;r)/d_i(x;1)]`** (człon zmieniający chiralność, przy `m_i`),
-
-a `ΔA_i = (y_i²/32π²)F_i`, `ΔB_i = (y_i²/32π²)G_i`. **Bezwymiarowe, bez regulatora, bez metra** — ale **z zachowanymi mianownikami propagacji**. W zapisie macierzowym `ΔA_L = (1/32π²)Y_e†diag(F_i)Y_e`, a dla R odpowiednio `Y_e diag(F_i)Y_e†`; człon masowy ma elementy `m_i y_i²G_i/32π²` i **nie wolno go zastąpić członem kinetycznym ani pominąć**. `F_i` i `G_i` **nie są** efektami pomiarowymi — własna energia nie jest dodatnim operatorem prawdopodobieństwa.
-
-**[T] Wagi są różne już z samych propagatorów, nie z niedoskonałości aparatu.** Przy ustalonych `r > 1` i `η_h`:
-`∂F_i/∂η_i² = ∫₀¹ dx·x(1−x)[1/d_i(x;r) − 1/d_i(x;1)] < 0`,
-bo dla `0 < x < 1` jest `d_i(x;r) > d_i(x;1) > 0`. **Znak wynika z propagatorów, nie z dopasowania krzywej**; analogicznie dla `G_i` z wagą `1−x`. **Więc przy różnych masach wewnętrznych skończone wagi są różne — i to jest ta sama linia co `β³` z 213: różnica kanałów nie jest artefaktem odczytu.**
-
-**Wspólny logarytm wychodzi dopiero w granicy, i to jest warunek do sprawdzenia.** Dla `η_i, η_h → 0` przy ustalonym `r`: `d_i(x;r)/d_i(x;1) → r²`, więc **`F_i → ln r`, `G_i → 2 ln r`** i `ΔA_L → (ln r/32π²)Y_e†Y_e`. Kontrola numeryczna potwierdziła granice `ln 2` i `2ln 2` (przy `η = 0,001`: 0,693144 i 1,386290). **Zabrania:** brać wspólny logarytm przed kontrolą **obu** rozdzielczości wobec progów — samo duże `Q` nie usuwa wkładu okolicy `Q₀`.
-
-**Krotności kanałów dubletu, z normalizacji wierzchołka i `∫₀¹x dx = ½`** — współczynniki przy wspólnym `ln(Q²/Q₀²)` w członie kinetycznym leptonu, po wyjęciu `y_i²/16π²`:
-
-| kanał wewnętrzny | waga dla `e_L` | waga dla `e_R` |
-|---|---:|---:|
-| `h + e` | 1/4 | 1/4 |
-| `φ⁰ + e` | 1/4 | 1/4 |
-| `φ± + ν_L` (bez Yukawy neutrina) | 0 | 1/2 |
-| **razem** | **1/2** | **1** |
-
-Zgadza się z `γ_L = ½Y_e†Y_e`, `γ_R = Y_eY_e†`. **Krotności odpowiadają istniejącym kanałom dubletu i nie zostały wyprowadzone z przestrzennego 3D ani z liczby parametrów odczytu.** I zakaz nazwany w `masa/6`: **`F_i` i `G_i` są wkładem konkretnego diagramu `h`, a nie zidentyfikowanymi składnikami całej funkcji masy** — nadanie im takiego znaczenia przed zsumowaniem pozostałych kanałów byłoby błędem przekładu.
-
-**Co to wnosi do §F2.** Teza §F2 z v3.4 („wszystkie logarytmy mają jedno źródło”) dotyczyła logarytmów **liczności**. Tu jest logarytm **stosunku dwóch rozdzielczości** o dwóch różnych wagach w jednym obiekcie, i obie wagi pochodzą z licznika propagatora. **Dwa typy z 146 nie wyczerpują więc podziału: wewnątrz jednego typu wagi mogą być różne, a zrównują się dopiero w granicy bez progów.**
-
-# §E — DYSCYPLINA
-
 ## Przegląd wymiarowy — co z 2D przenosi się na 3+1 [A] (v3.4)
 
 **Po przeglądzie (przegląd 28.09, poprawka 178):** samo pytanie „co z 2D przenosi się na 3+1” jest źle postawione — 1D nie istnieje, 2D ≡ Ø, literaturowe 1+1 to narzędzie, nie struktura. Wiersze „tak” są prawdziwe, bo wyprowadzono je bez 2D; tabela zostaje jako mapa narzędzia.
@@ -2958,61 +2949,65 @@ Zgadza się z `γ_L = ½Y_e†Y_e`, `γ_R = Y_eY_e†`. **Krotności odpowiadaj�
 
 **Zarzut z ramy (użytkownik + asystent) — najmocniejszy:** w 2D jest **jeden** kierunek przestrzenny, więc **nie ma miejsca na triadę**. 2D nie jest uproszczoną wersją badanej struktury, tylko strukturą pozbawioną składnika, od którego zaczyna się reszta. **Dodatkowo:** w 2D działanie Einsteina–Hilberta jest topologiczne, więc przejście krystaliczne w 2D rzędach (Surya 2012; Glaser–O'Connor–Surya 2018) nie odpowiada niczemu w 3+1.
 
-## Reguła językowa dla Ø [H] (użytkownik, v3.4)
+## §D. Sprawdzone i nieudane (v3.2–v3.3)
 
-**Ø nie może być podmiotem zdania z orzeczeniem o cesze.** Zamiast „Ø ma cechę Y” wolno tylko: „**od strony otoczenia X** Ø wygląda w naszym opisie jako Y”. Opis pośredni jest dozwolony, bo niesie informację, skąd patrzymy; opis bezpośredni zawsze jest projekcją — tym samym mechanizmem co opinia (stan aparatu przypisany obiektowi). Lekarstwo to samo co przy opinii: **cofnąć przypisanie i oddać cechę relacji.** Sprawdzenie mechaniczne: każde zdanie z Ø jako podmiotem i orzeczeniem o cesze przepisać tak, by podmiotem było otoczenie lub relacja.
-Naruszenia dotąd: poprawka 65 (podział Ø na „punkty kontaktu” i „brzegi hierarchii”), wcześniej rozmowa 5 („superpozycja to miejsce, gdzie relacja jest, ale nic nie odróżnione”).
+**Powiększanie: wszystkie pięć reguł wzrostu dają łańcuch.** r ≈ 0,99, d ≈ 1,0–1,2. Przyczyna: **przestrzenność nie jest w tych regułach zdarzeniem, tylko resztą po zdarzeniach.**
 
-## Sztuki czy miara [H] — reguła z v3.4
+> **Sprostowanie v3.2.** Zdanie „nowy element zawsze wybiera przodków, więc zawsze ląduje wyżej, nigdy obok" jest **za mocne**: dołożenie elementu bez przodków jest dopuszczalne. Ale efekt jest ten sam — przy n elementach prawdopodobieństwo, że nowy nie ma żadnego przodka, wynosi $(1-p)^{n-1}$, czyli maleje wykładniczo. **Dokładanie „obok" jest dozwolone i wykładniczo tłumione.** Stąd te struktury wychodzą KR-podobne.
+>
+> I jest to znane: klasyczny wzrost sekwencyjny Rideouta–Sorkina, którego szczególnym przypadkiem jest perkolacja przechodnia, **nie produkuje zbiorów rozmaitościowych** — potwierdzone własnym rachunkiem (A9b) i opublikowane (Glaser–Surya).
 
-1. **Test [H] ([288], [290]).** Liczba jest dopuszczalna tylko wtedy, gdy nie rośnie z gęstością. Jeśli rośnie, jest **gęstością**, nie liczbą, i wymaga miary. **Zakres procedury [O]:** w rachunkach, przy których reguła powstała (Fokker, `R = S·d/τ` — rozsiew), sprawdzało się to mnożeniem przez potęgę $t_P$ wynikającą z wymiaru; $t_P$ jest tam odstępem rozsiewu $\rho^{-1/d}$, czyli ℓ — pojemnik (186, 194) i piksel (`STOP.md` pkt 4). Ta procedura dotyczy więc wyłącznie zamkniętej gałęzi rozsiewu; rdzeń reguły jej nie potrzebuje.
-2. **Warunek falsyfikowalności.** Normalizacja musi być **przewidziana przed rachunkiem**, nie dopasowana po. Inaczej każdy szereg potęgowy da się „unormować” i reguła niczego nie zabrania.
-3. **Wyjątek (w literaturowym 1+1; w 3+1 zagrożony — przegląd wymiarowy).** Logarytmu nie unormuje żadna potęga gęstości. **Logarytm jest znakiem, że cięcie już zostało zrobione** (entropia: bez obcięcia gęstość, wykładnik +1,10; po podwójnym obcięciu $0{,}188\pm0{,}065$ razy $\ln N$ — C4a.16). *Entropia względna stanu koherentnego na nieobciętym rozsiewie też rośnie jak ln N, a obcięcie modów jej nie zmienia (170); to zdanie o pojemniku, gałąź zamknięta (186), więc skąd ten logarytm — nie jest pytaniem ramy.*
+**Stary pomiar rozszerzania mierzył złą zmienną.** Szerokość co 250–500 **elementów**, a numer elementu rośnie liniowo z definicji.
 
-Dotąd: pętle (Pellegrin), pary między liniami świata (C4a.11/14/15), fragmenty otoczenia (C4a.8) — wszystkie rozbieżne jako sztuki. Bliźniaki (A3a) **nie są** kontrprzykładem: prawo $n^{k-(k-1)d}$ samo jest normalizacją. Mody w podzbiorze **nie należą** do tej serii — tam problemem było niezerowe centrum algebry, a lekarstwem redukcja symplektyczna (C4a.2).
+**Punkty izolowane w sprinklingu to artefakt brzegu diamentu**, nie model osobliwości.
 
-## Reguły
+**Myrheim–Meyer po całym diamencie jest obciążony.** Kontrola dała 5,41→4,06 zamiast stałego 4. Formuła jest dla **interwału przyczynowego**, nie dowolnego zbioru. **W v3.2 okazało się, że ta sama diagnoza tłumaczy pomiar f z rozmowy 3** (poprawka nr 13) — plik miał ją i nie zastosował do własnej liczby.
 
-**Nowe w v3.2 (na górze, bo najczęściej łamane):**
+**„CMB to nasze plecy" w wersji dosłownej — sprawdzone i nieznalezione.** Wersja prawdziwa: obserwacja wzajemna, nie zwrotna.
+*Zastrzeżenie metodologiczne: ten rachunek odpowiadał na twierdzenie, którego nie postawiono.*
 
-- **Filtr podstawowy: definicja czasu razem z wyprowadzeniem 3D [H] (użytkownik, 26.09; poprawka 168).** „Filtr podstawowy to definicja czasu i powstawanie wymiarów. To trzeba zawsze mieć z tyłu głowy, bo potrafi fundamentalnie zmienić rachunek, nic nie zmieniając.” To samo w sesji CC 2 [22]: „Mamy definicję czasu ze wszystkimi tego konsekwencjami. Oraz strukturę, w jaki sposób to powoduje 3D. Reszta to właściwie logiczna konsekwencja. Więc przez taki filtr musimy patrzeć na rachunki”; w sesji CC [82]: „Nie można posługiwać się samą definicją czasu… bez połączenia z tym, w jaki sposób czas tworzy 3D i dlaczego nie może być 4D ani 154D”. R1a–R1c zawsze razem. Matematyka zostaje ta sama, zmienia się odczyt. **Złamane:** 168 — „3+1” wzięte za cztery wymiary; ta sama algebra (etap24), inny werdykt.
-- **Nie przejmować interpretacji [H] (użytkownik, v3.4).** Formalizmy i wyniki są gotowe; nowy jest tylko sposób patrzenia, którego w literaturze nie ma. Dlatego przed każdym rachunkiem i przed każdym pytaniem wziętym z literatury: **co właściwie chcemy policzyć** i co ta wielkość albo to pytanie **zakłada w swojej interpretacji** (kierunek, cechę obiektu, zewnętrzny parametr, gotową czasoprzestrzeń, podział układ/otoczenie). Jeśli zakłada — przełożyć na relacje albo odrzucić. Z literatury bierzemy formalizm i wynik, nie pytanie. **Złamane:** porządek w R6 z kolejności budowania (poprawka 106); „zgodność kierunku bez hipotezy przeszłości” (110); estymator Myrheima–Meyera użyty na sieci, choć zakłada sprinkling w Minkowskim (kalibracja C5); krzywizna Olliviera na skali ogniwa, gdzie z twierdzenia nie zbiega (105).
-- **Zanim cokolwiek policzysz: sprawdź, czy przedmiot nie jest już zaklasyfikowany jako pojemnik (poprawka 186).** Przegląd 178 przeszedł cały plik i rozdzielił rachunki na „algebra i dane, bez pojemnika” oraz „pojemnik w części liczbowej”; wraz z nim zapisano wprost, które gałęzie odpadają (m.in. „testy na rozsiewie 1+1 przy 170 odpadają”). **Rachunek na rozsiewie nie jest zdaniem o strukturze w żadnej liczbie współrzędnych** — wynik z rozsiewania mówi o odczytach wyłącznie w tej części, która od rozsiewu nie zależy (użytkownik, 28.09). Przed napisaniem nowego skryptu: przeczytać wiersz przeglądu dla tej gałęzi i wypowiedzi użytkownika na jej temat; jeśli gałąź jest oznaczona jako pojemnik, kolejny przebieg jej nie odblokuje. **Złamane:** 182 i 184b (ta sama gałąź co 170, mimo 178).
-- **Czytając literaturę, szczególnie uważać na „1+1”, „2+1” i podobne [H] (użytkownik, 29.09; poprawka 185).** „Wszystkie prace opierają się na interpretacji, a nie teorii. Nie wszystko się przekłada do 3 wymiarów. Plik dostarcza definicję czasu — której nie ma w żadnej literaturze. Definicja czasu nie mogła powstać niezależnie od przestrzeni trójwymiarowej. **3D nie ma nic wspólnego z liczbą 3. To nie jest 1+1+1, ani 2+1 ani nic podobnego.**” Praktycznie: liczba wymiarów w cudzej pracy jest parametrem **jej** konstrukcji (pojemnika, rozsiewu, siatki), więc wynik z 1+1 albo 2+1 wolno brać wyłącznie jako narzędzie — nigdy jako zdanie o strukturze; przeniesienie na 3D wymaga osobnego uzasadnienia, a nie zamiany liczby w wykładniku. Co się przenosi, a co nie — przegląd wymiarowy w tym paragrafie; nazwy — pułapka 5. **Złamane:** 168 („3+1” wzięte za cztery wymiary); 184 (d nazwane „liczbą wymiarów czasoprzestrzeni” zamiast wykładnikiem liczności pojemnika).
-- **Sprawdzić literaturę przed rachunkiem, nie po.** Sprawdzenie kosztuje zapytanie, rachunek kosztuje sesję. W rozmowie 4 odkryto koło cztery razy: Glaser–Surya (lokalność, 2013), Minz (bliźniaki, 2024), Boguñá–Krioukov (odległość przez nakładanie, 2024), Sorkin–Yazdi (prawo objętościowe). Wszystkie jednym zapytaniem.
-- **Rachunek bez zdania, które mogłoby przez niego upaść, nie jest rachunkiem.** Kryterium z A0 stosuje się do własnych przebiegów, nie tylko do cudzych publikacji. Znaczna część rozmowy 4 to były pomiary bez tezy.
-- **Wniosek z zakresu węższego niż dekada nie jest wnioskiem.** Trzykrotnie w v3.2 wniosek odwrócił się po poszerzeniu zakresu: siatka Fibonacciego, zdegenerowane d=2, przedczynnik przy L.
-- **Związać skalowanie parametru to za mało — trzeba przeskanować każdy parametr, który ustawiłeś sam.** L związano jako $n^{1/d}$, stałą zostawiono na 1, i to ona niosła wynik.
-- **Wymiar wkładany na górze skryptu nie jest wymiarem zmierzonym.** `sprinkle(n, d, ...)` sprawia, że „wszystko wychodzi funkcją d" jest w całości tautologią (przegląd 28.09, poprawka 178).
-- **Celem jest klasa nieodróżnialności, nie „jeden element".** Mierzenie, kiedy element daje się wskazać jednoznacznie, to kryterium z zewnątrz. Ø jest w pliku od A3 i nie było używane jako cel.
-- **Tam, gdzie skończony rozmiar psuje dopasowania, szukać wielkości progowych zamiast ciągłych.** Próg jest liczbą całkowitą i nie da się go przesunąć o kilkanaście procent (A9d). **Zastrzeżenie: obowiązuje w przestrzeni konforemnie płaskiej; pod krzywizną próg się rozmywa zamiast przeskakiwać** (§D, fala pp).
-- **Obciążenie estymatora zależy od struktury**, więc porównania między strukturami przy stałej liczbie prób są obciążone (poprawka nr 11).
-- **Zagnieżdżone obcięcia jednego losowania nie są niezależnymi pomiarami.** Pięć punktów `P[:n]` z jednego sprinklingu wyglądało na stabilność, a było jedną realizacją czytaną pięć razy.
-- **Duży koszt obliczeń to sygnał ostrzegawczy [H] (użytkownik, v3.4).** Zanim coś pójdzie na godziny GPU, zapytać: czy to nie jest twierdzenie, które da się udowodnić, albo czy koszt nie wynika z zewnętrznego układu, który sami wkładamy (pudło, okno, siatka)? Wykryte w §F2: etap11 potwierdzał twierdzenie; etap16 był zdominowany przez okno pudła.
-- **Nie traktować ramy sztywno.** Rama jest propozycją. Czytanie ilustracji (przypowieść o kropkach) jako specyfikacji dało kandydata wybranego ze złego powodu.
+**Redukcja wymiarowa d→2 nietestowalna w sprinklingu.** Brakujący element jest konkretny: **struktura, w której d biegnie** (CDT, asymptotyczne bezpieczeństwo, grawitacja Hořavy).
 
-**Z wcześniejszych wersji:**
+**b(d) nie jest zbieżne w d=2 i d=3** (A5a). Stabilne jest tylko uporządkowanie.
 
-- **Kontrole graniczne przed rachunkiem, nie po.** Jeśli nie da się takiej wypisać, rachunek jest niesprawdzalny.
-- **Kontrole łapią błędy rachunku. Nie łapią błędów pojęciowych.**
-- **Liczba bez warunków nie jest wynikiem.** n, d, estymator, liczba prób.
-- **Zgodność dwóch wielkości związanych tożsamością nie jest potwierdzeniem.** To sprawdzenie dzielenia.
-- **Dwa błędy potrafią się znieść i wyprodukować zgodność.**
-- **Poprawka może przenieść błąd o piętro, zamiast go usunąć.** Po każdej poprawce pytać: czy nowe zdanie coś wyróżnia, czy jest prawdziwe o wszystkim.
-- **Zepsuty kod potrafi dawać wynik bliższy teorii niż poprawny.** Z₂: 0,42–0,44 (zepsuty) wobec 0,4407 (teoria) i 0,450 (poprawny).
-- **Rachunek nie chroni przed złym odczytaniem własnego rachunku.**
-- **Nazwa jest miejscem, gdzie najczęściej wchodzi błąd.**
-- **Nie zamieniać obserwacji strukturalnej w falsyfikowalną hipotezę, żeby ją obalić.**
-- **Rozdzielać policzone od zinterpretowanego.**
-- **Wyniki negatywne najcenniejsze do audytu.**
-- **Aksjomaty ustalone niezależnie od pytania**, do którego są stosowane.
-- **„Prostota" jako kryterium akceptacji jest ryzykowna.** Aktualne zastosowanie odpadło razem z plateau (poprawka nr 12).
-- **Struktura vs treść.** Logika relacyjna działa na poziomie warunków możliwości orzekania. Konkretny rozkład (np. Poisson) to już treść i podlega falsyfikacji.
-- **Porządkowanie idzie przed liczeniem.**
+**Aczel nie wykonał ani jednej operacji.** Miał uzasadniać, że w porządku nie ma nieskończonego zstępowania (ufundowanie) — ale każdy porządek częściowy lokalnie skończony jest ufundowany z definicji, więc nic nie wyróżnia. Ta część układu jest **odłączona** od rachunków. **Do skreślenia, chyba że znajdzie się teza, którą ma trzymać.**
 
-## Rejestr poprawek
+**Macierze niesymetryczne dały czas, nie dały wymiaru.** Wymiar części symetrycznej dalej wynosi ~n−1. Czeka na mechanizm selekcji.
 
-W osobnym pliku: **`poprawki.md`** (numery poprawek w tym pliku odsyłają tam).
+*Darmowy fakt formalny:* macierze skośnie symetryczne mają zawsze rząd parzysty. Część „rotacyjna" struktury zawsze rozkłada się na dwuwymiarowe płaszczyzny.
+
+## Nieudane w v3.2
+
+**Fala pp — próg nie reaguje na Weyla.** Napisano sypacz do fali płaskiej w postaci Rosena, $ds^2=-2\,du\,dv+a(u)^2dx^2+b(u)^2dy^2$ z $\ddot a=-A(u)a$ i $\ddot b=+A(u)b$ (warunek próżni: Ricci zero, Weyl niezerowy), $\sqrt{-g}=ab$. Warunek przyczynowy wyprowadzony, nie zgadnięty:
+$$2\Delta v\ge\frac{(\Delta x)^2}{\int du/a^2}+\frac{(\Delta y)^2}{\int du/b^2},\qquad \Delta u>0$$
+
+**Kontrole przeszły:** granica płaska zgadza się z Minkowskim liczonym niezależnie w $(t,z,x,y)$ — **0 niezgodnych par na 2 250 000**; przechodniość 0 naruszeń na 200 000 trójek; kaustyka przy $\pi/(2\sqrt{A_0})$.
+
+**Wynik wstępny (wycofany):** przy c=1 (jeden element toru na skalę dyskretności) β przy k=4 rośnie z amplitudą 0,078 → 0,118, dwa poziomy, przejście przy $A_0\approx1{,}2$, **9,0σ**.
+
+**Wynik po sprawdzeniu przedczynnika (obowiązujący):**
+
+| c (gęstość torów) | β przy $A_0$=0 | β przy $A_0$=2,45 | różnica |
+|---|---|---|---|
+| 1,0 | +0,0931 | +0,1616 | 0,068 |
+| 2,0 | +0,0318 | +0,0507 | 0,019 |
+| 4,0 | **+0,0062** | **+0,0078** | **0,0016** |
+
+**Podłoga znika przy zagęszczaniu torów, a efekt amplitudy znika razem z nią.** Przy c=2 skan amplitudy jest monotoniczny (0,0315 → 0,0564), bez dwóch poziomów i bez skoku.
+
+**Prawda:** próg wynosi 4 w obu przypadkach. Kaustyka leży poza obszarem dla każdego badanego $A_0$, więc odwzorowanie pozostaje różnowartościowe. Amplituda zmienia **uwarunkowanie** odwzorowania (rozmycie precyzji przy skończonej rozdzielczości), nie próg. **Zdanie „próg rośnie powyżej 4" jest fałszywe.**
+
+**Przyczyna błędu:** związano skalowanie L, nie sprawdzono stałej przy L (poprawka nr 16).
+
+**Reguła stąd:** **wniosek z zakresu węższego niż dekada nie jest wnioskiem** — pierwsza wersja szła po L od 5 do 8. Ale i to nie wystarczyło: trzeba dekady w n **oraz** skanu po każdym parametrze ustawionym przez siebie.
+
+## Nieudane w v3.3
+
+**Test plateau w wersji „poddiament D + losowe fragmenty reszty” — źle postawiony.** d=2, N=400, |D|=36, SJ z $G_R=C/2$, 2 realizacje, 8 losowań.
+- **Kontrola, która nie przeszła:** czystość. Bez obcięcia S(D)=13,34 wobec S(reszta)=18,96, niezależnie od tolerancji $10^{-6}$…$10^{-12}$ — nie numeryka. Symetria $I(f)+I(1-f)=2S(D)$ też nie.
+- **Przyczyna:** reszta zawiera przeszłość i przyszłość D — dla pola to nie są niezależne podukłady (R5 w liczbach). Otoczenie **nie rozkłada się na niezależne fragmenty bez cięcia**: niezależne są tylko podzbiory antyłańcucha, a antyłańcuchy (nawet pogrubione) nie są dobrymi powierzchniami Cauchy'ego (1712.04227).
+- **Drugi błąd (asystent):** obcięcie SJ globalne niszczy czystość z konstrukcji; przy c≥0,5 krzywa leży równo na 1,00 od f≈0,4 — **FAŁSZYWE PLATEAU**. Liczby do wyrzucenia.
+- Poprawiona wersja: C4.
 
 ## Trafione przewidywania o narzędziu (pełna lista)
 
@@ -3038,9 +3033,7 @@ W osobnym pliku: **`poprawki.md`** (numery poprawek w tym pliku odsyłają tam).
 
 Wszystko inne w tym pliku jest albo dowodem, albo pomiarem z kontrolą, albo obserwacją strukturalną — nie przewidywaniem.
 
----
-
-# Dodatek: stan narzędzi
+## Dodatek: stan narzędzi (generatory rozsiewu)
 
 Odtworzenie to pisanie generatorów od zera. Co było zbudowane i miało przechodzące kontrole:
 
