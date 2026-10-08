@@ -58,6 +58,7 @@ Do tego: **duży koszt obliczeń = sygnał ostrzegawczy**. GPU dla rachunku fund
 - brać wyniku z „1+1”, „2+1”, „d = 2” jako zdania o strukturze — to narzędzia;
 - nazywać wykładnika liczności pojemnika (N ~ L^d) wymiarem;
 - pisać „3D” jako 1+1+1 albo 2+1 — **3D nie ma nic wspólnego z liczbą 3**;
+- liczyć czasu jak zwykłego wymiaru (`D` z czasem jako jedną z osi, „oś czasu”); trzy osie przestrzenne to wtórny opis 3D i same błędem nie są — sprawdzić, co zapis niesie i jak był liczony (246);
 - używać definicji czasu bez wyprowadzenia 3D (i odwrotnie) — to jedno wyprowadzenie, nie dwa;
 - mówić cokolwiek wprost o Ø — tylko od strony znanego otoczenia;
 - pisać „kierunek czasu”, „strzałka”, „upływ”, „przepływ” — **czas nie ma kierunku, bo nie jest osią**; odczyt jest
