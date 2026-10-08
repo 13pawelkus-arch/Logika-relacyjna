@@ -62,7 +62,7 @@ Przyłożyć do tego, co policzone albo ustalone, ruchy z przypadków. Na każde
 1. **Na czym stoi liczba** — czy na `x⁰` policzonym jak czwarta oś? (1–3)
 2. **Czy zależy od N, gęstości, ℓ, pudła, siatki?** (4)
 3. **Co rama po wpisie pozwala albo czego zabrania, czego przedtem nie?** (5)
-4. **Czy zdanie jest mocniejsze od źródła; czy przesłanka domysłu przeżyła dowód?** (6)
+4. **Czy zdanie jest mocniejsze od źródła; czy przesłanka domysłu przeżyła dowód; czy przesłanka twierdzenia zachodzi tam, gdzie je przykładam?** (6; 250: wynik o macierzach dodatnio określonych przyłożony na brzegu, gdzie nimi nie są — wartość zależy od bazy, istnienie degeneracji nie)
 5. **Czy coś z łańcucha Ø dostało położenie, wartość albo cechę?** (7)
 6. **Kto co powiedział** — sprawdzone ścieżką w źródle, a nie z etykiety ani streszczenia? (8)
 7. **Czyje jest pytanie** — z ramy czy z literatury? (9)
