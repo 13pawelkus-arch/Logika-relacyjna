@@ -1,4 +1,4 @@
-> **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa) — wybiera użytkownik.
+> **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa — kroki 10, 11 w `CLAUDE.md`; po 243 doszedł krok 12: α z progami, opisany w §F0 pliku głównego) — wybiera użytkownik.
 
 # Następny krok: twierdzenie o separatorach dla wag Johnstona — skoki po linkach i zatrzymania (krok 4, 171)
 
