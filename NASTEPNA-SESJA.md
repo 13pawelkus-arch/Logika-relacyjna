@@ -1,3 +1,5 @@
+> **Przed każdym zdaniem o `D`, `d`, osiach albo czasie jako wymiarze — w każdym kroku, a w kroku 12 (α z progami: pętle, całki po obrocie Wicka, `D`) na pewno — przeczytać w całości R1b-F (z D0 i Lematem 1) i R1c-F, potem §E pod regułą 185.** Powód (245–247, 8.10): wszystko, co potrzebne, stało w pliku, a i tak dwa razy poprawiałem zapis według litery (`d = 3`, `D`, „oś czasu”), bo czytałem R1b od Wniosku 1, bez D0, a zdanie użytkownika wziąłem jako regułę zamiast z niej wyprowadzić. Rozstrzyga rachunek: czy odczyt stoi na `x⁰` (składowa przy 𝟙 w `X = x⁰·𝟙 + x·σ`) policzonym jak czwarta oś.
+
 > **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa — kroki 10, 11 w `CLAUDE.md`; po 243 doszedł krok 12: α z progami, opisany w §F0 pliku głównego) — wybiera użytkownik.
 
 # Następny krok: twierdzenie o separatorach dla wag Johnstona — skoki po linkach i zatrzymania (krok 4, 171)
