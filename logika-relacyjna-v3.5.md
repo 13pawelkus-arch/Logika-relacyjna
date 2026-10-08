@@ -22,7 +22,7 @@
 Układ pliku — pięć części:
 1. **Zasady i dyscyplina (§E):** cel, ramy, reguły, „sztuki czy miara”, reguła językowa dla Ø, pułapki nazewnicze.
 2. **Czas, 3D, światło — wyprowadzenia i pojęcia:** R1a–R1f (czas, 3D, światło, elektron i kwark, spin, działanie i energia — domknięte strukturalnie), potem pojęcia z porządku i liczności, horyzont i czarne dziury, otoczenie, chwila zero (A1–A8, B2–B4, C1–C3, R2–R5).
-3. **Masa i zespół funkcji:** §F0 (α — stała biegnąca, 243), §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224), B1, dwa logarytmy z jednego diagramu (218).
+3. **Masa i zespół funkcji:** §F0 (α — stała biegnąca, 243–244), §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224), B1, dwa logarytmy z jednego diagramu (218).
 4. **Otwarte:** „Dalej otwarte”.
 5. **Gałęzie zamknięte — zapis rachunków:** rozsiew, reguły wzrostu, estymatory wymiaru, gałąź masy i logarytm na rozsiewie, f(d) z A4, nieudane rachunki (`STOP.md`); przy każdej status: co z niej zostaje w ramie i gdzie.
 
@@ -481,8 +481,8 @@ Podział pracy: **porządek daje liczbę ($d_{MM}$, wolną od n), założenie ro
 | ładunek | $Q=\tfrac12\pm\tfrac{1}{2N_c}$ | [P] |
 | hiperładunki | $Y_L=-N_cY_Q$, $Y_e=2N_cY_Q$, $Y_u=-(N_c{+}1)Y_Q$, $Y_d=(N_c{-}1)Y_Q$ | [P] |
 | współczynniki beta | $(-1)^{2s}(4s^2-\tfrac13)$ | [P] |
-| $\alpha$ | **funkcja biegnąca, nie liczba** (§F0): $1/\alpha(t_1)-1/\alpha(t_2)=-\frac{2}{3\pi}\,S\,(t_1-t_2)$, $t=\ln(n_0/n)$, $S=\Sigma N_cQ^2$ po **aktywnych** nośnikach naładowanych (z W). $\Sigma N_cQ^2=8{,}000$ to wkład fermionów trzech pokoleń — nie nachylenie α w żadnym zakresie. Postać $\frac{2}{3\pi d}\ln(N_\Lambda/N)$ z $N\sim L^d$ niesie pojemnik (178) — czytać $\ln(n_0/n)$ | [P] arytmetyka; postać — §F0 |
-| $\alpha$ geometrycznie | promień Bohra / **zredukowana** długość Comptona = 137,036 — wartość funkcji w jednym punkcie (rozdzielczość → 0), stosunek dwóch obiegów; tożsamość z definicji promienia Bohra, nie wynik | [P] |
+| $\alpha$ | **funkcja biegnąca, nie liczba** (§F0): w zakresie stałego $S_Q$ jest $1/\alpha(t_1)-1/\alpha(t_2)=-\frac{2}{3\pi}\,S_Q\,(t_1-t_2)$, $t=\ln(n_0/n)$; $S_Q=\Sigma N_cQ^2$ po **aktywnych** fermionach naładowanych, plus $-21/4$ od W powyżej jego masy. $\Sigma N_cQ^2=8{,}000$ to wkład fermionów trzech pokoleń — nie nachylenie α w żadnym zakresie. Postać $\frac{2}{3\pi d}\ln(N_\Lambda/N)$ z $N\sim L^d$ niesie pojemnik (178) — czytać $\ln(n_0/n)$ | [P] arytmetyka; postać — §F0 |
+| $\alpha$ geometrycznie | promień Bohra / **zredukowana** długość Comptona = 137,036 — wartość funkcji w jednym punkcie (rozdzielczość dużo mniejsza od masy elektronu, granica Thomsona), stosunek dwóch obiegów; tożsamość z definicji promienia Bohra, nie wynik | [P] |
 
 α **nie jest przelicznikiem** — jest bezwymiarowa od początku.
 
@@ -746,7 +746,7 @@ Odpowiedź „sposób mówienia", patrz A5.
 | | stosunki | skala |
 |---|---|---|
 | Malament | metryka z dokł. do czynnika konforemnego | objętość |
-| α | nachylenie ($\Sigma N_cQ^2$ aktywnych nośników; §F0) | punkt zaczepienia (wolna dana, 224) |
+| α | nachylenie ($S_Q$ aktywnych nośników; §F0) | punkt zaczepienia (niewyznaczony przez strukturę; 208, 224) |
 | ładunki | wymuszone przez $N_c$ | normalizacja U(1) |
 | $(t_n)$ | określone z dokł. do wspólnego czynnika | $t_0=1$ konwencjonalnie |
 | reguła Borna | $P(i)/P(j)$ nie wymaga normalizacji | $\Sigma\,\lvert i\rangle\langle i\rvert=1$ |
@@ -916,19 +916,19 @@ Przykłady przekładu: „3,01 z zadania A” = koszt odczytu rośnie jak pierwi
 
 **Zastrzeżenie:** te języki mierzą **dostępność zapisu**; żaden sam z siebie nie powie, skąd bierze się przestrzeń. Pytanie „dlaczego przestrzeń jest prawie płaska” brzmi w nich „dlaczego koszt odczytu rośnie liniowo, a nie wykładniczo” — to samo pytanie, nadal otwarte.
 
-## §F0. α — STAŁA BIEGNĄCA: FUNKCJA, NIE LICZBA (poprawka 243) [L][T][P][O]
+## §F0. α — STAŁA BIEGNĄCA: FUNKCJA, NIE LICZBA (poprawki 243, 244) [L][T][P][O]
 
-Jedno miejsce na wszystko o α. Treść poszczególnych zdań stoi w sekcjach podanych w nawiasach; tu jest zebrana i ustawiona po statusie. Konwencja znaku `b` — §F1 (216).
+Jedno miejsce na wszystko o α. Treść poszczególnych zdań stoi w sekcjach podanych w nawiasach; tu jest zebrana i ustawiona po statusie. Konwencja znaku `b` — §F1 (216). Oznaczenia `S_Q` i `F_γ` są tu osobne: nie mylić z `S_f` z 217 ani z `F_i` z 218.
 
-**Funkcja.** α nie jest stałą, tylko wartością funkcji w jednym stanie [88]. Argumentem jest rozdzielczość odczytu `t = ln(n₀/n)` — logarytm stosunku liczby tyknięć obiegu czytającego (R1d). **Odczytem nie jest α w jednym punkcie, tylko różnica dwóch odczytów `1/α(t₁) − 1/α(t₂)`**: tę ustala struktura, a wartość w jednym punkcie jest wolną daną (153, 208).
+**Funkcja.** α nie jest stałą, tylko wartością funkcji w jednym stanie [88]. Argumentem jest rozdzielczość odczytu `t = ln(n₀/n)` — logarytm stosunku liczby tyknięć obiegu czytającego (R1d). **Struktura ustala nachylenie, nie wartość.** Wartość w jednym punkcie też jest odczytem — np. promień Bohra wobec zredukowanej długości Comptona, czyli stosunek dwóch obiegów (A2) — ale struktura jej nie wyznacza (153, 208). Różnica dwóch odczytów `1/α(t₁) − 1/α(t₂)` zależy od nachylenia i od stosunku rozdzielczości; przy progach także od stosunków rozdzielczości do mas nośników, a poza jedną pętlą także od samej wartości.
 
 | zakres (jedna pętla) | postać | nachylenie `d(1/α)/dt` | status |
 |---|---|---|---|
-| powyżej skali elektrosłabej | **`1/α = 1/α₂ + 1/α_Y`** — α nie jest osobną funkcją zespołu, tylko relacją dwóch jego funkcji (152) | `−(b₂ + b_Y)/2π = −(11/3)/2π` | [L] relacja drzewowa `1/e² = 1/g₂² + 1/g_Y²`; [T] arytmetyka |
-| progi schodkowo | `1/α(t₁) − 1/α(t₂) = −(2/3π)·∫_{t₂}^{t₁} S dt`, `S` = suma `N_cQ²` po aktywnych nośnikach naładowanych, bozon W wnosi `−21/4` | `−(2/3π)·S`: `S = 20/3` (od `m_b` do `m_W`), `17/12` (od `m_W` do `m_t`), `11/4` (powyżej `m_t`; `= 3b/4` z wiersza wyżej) | [L][T] (ułamki sprawdzone) |
-| próg pełny | `1/α(Q₁) − 1/α(Q₂) = −(1/π)·Σ_f N_cQ_f²·[F(r_{f,1}) − F(r_{f,2})]`, `r_f = (Q/m_f)²` — stosunek rozdzielczości do odczytu masy nośnika, `F(r) = 2∫₀¹x(1−x)·ln(1 + x(1−x)r)dx` | `F → (ln r − 5/3)/3` przy `r ≫ 1` (logarytm), `F → r/15` przy `r ≪ 1` (nośnik nie wchodzi) | [L]; obie granice sprawdzone liczbowo [P] |
+| aktywne W i top (rozdzielczość ponad ich masy) | **`1/α = 1/α₂ + 1/α_Y`** — α nie jest osobną funkcją zespołu, tylko relacją dwóch jego funkcji (152) | `−(b₂ + b_Y)/2π = −(11/3)/2π` | [L] relacja drzewowa `1/e² = 1/g₂² + 1/g_Y²`; [T] arytmetyka |
+| progi schodkowo (nośnik wchodzi powyżej swojej masy) | `1/α(t₁) − 1/α(t₂) = −(2/3π)·∫_{t₂}^{t₁} S_Q dt`; `S_Q` = suma `N_cQ²` po aktywnych fermionach naładowanych, plus `−21/4` od W (razem z jego składową podłużną) | `−(2/3π)·S_Q`: `S_Q = 20/3` (od `m_b` do `m_W`), `17/12` (od `m_W` do `m_t`), `11/4` (powyżej `m_t`; `= 3b/4` z wiersza wyżej) | [L][T] (ułamki sprawdzone) |
+| próg pełny | `1/α(q₁) − 1/α(q₂) = −(1/π)·Σ_f N_cQ_f²·[F_γ(r_{f,1}) − F_γ(r_{f,2})]`, `r_f = (q/m_f)²` — stosunek rozdzielczości `q` (`q ~ 1/n`, R1d) do odczytu masy nośnika; `F_γ(r) = 2∫₀¹x(1−x)·ln(1 + x(1−x)r)dx` | `F_γ → (ln r − 5/3)/3` przy `r ≫ 1` (logarytm), `F_γ → r/15` przy `r ≪ 1` (nośnik nie wchodzi) | [L]; obie granice sprawdzone liczbowo [P] |
 
-**`ΣN_cQ² = 8` (A2) to wkład fermionów trzech pełnych pokoleń, a nie nachylenie α — w żadnym zakresie:** tam, gdzie aktywny jest top, aktywny jest też W (`m_t > m_W`). Masa w `F` to odczyt A (schemat na powłoce), a w schemacie MS-bar inny odczyt — pułapka 6.
+**`ΣN_cQ² = 8` (A2) to wkład fermionów trzech pełnych pokoleń, a nie nachylenie α — w żadnym zakresie (jedna pętla):** tam, gdzie aktywny jest top, aktywny jest też W (`m_t > m_W`). Masa w `F_γ` to w schemacie na powłoce odczyt A, w schemacie MS-bar odczyt B (pułapka 6); różnica wchodzi dopiero od drugiego rzędu.
 
 **Co wiemy**
 
@@ -937,41 +937,44 @@ Jedno miejsce na wszystko o α. Treść poszczególnych zdań stoi w sekcjach po
 | `α = e²/4π`; `e` = siła, z jaką faza jest związana relacją; pole EM = relacja faz między punktami, natężenie = obieg fazy | [L][O] | R1d-F |
 | `1/α` = biegnąca sztywność relacji faz (druga wariacja wagi Wilsona) | [L][O] | 169 |
 | α jest bezwymiarowa od początku, nie jest przelicznikiem | [O] | A2, B1 |
-| logarytm jako argument jest wyprowadzony (składanie stosunków), i to tylko przy d = 3 (jeden swobodny kierunek poza płaszczyzną obiegu) | [T] | 212, 155 |
-| każdy składnik `b`: `(−1)^{2s}` = znak obrotu o 2π, `(2s_z)²`, `−⅓` = „sztuki czy miara”, `εμ = 1` = c; ładunki z anomalii i `N_c` | [T][P] | 155, A2 |
-| wartość w jednym punkcie = wolna dana (1 z 17); zero albo biegun `1/α` to jej bijekcja — nie warunek i nie skala Plancka (Planck ≡ 2D ≡ Ø) | [T] | 153, 208, 224, 227 |
-| wewnątrz zakresu `1/α` przez zero nie przechodzi | [T] | 183 |
+| argument `t = ln(n₀/n)` jest wyprowadzony ze składania stosunków, nie wybrany | [T] | 212 |
+| to, że `1/α` zależy od `t` liniowo (logarytm, nie potęga), daje rachunek z dokładnie jednym swobodnym kierunkiem poza płaszczyzną obiegu — w jednej pętli | [T] | 155 (zastrzeżenie wobec 185 — niżej) |
+| składniki `b` z elementów ramy: `(−1)^{2s}` = znak obrotu o 2π, `(2s_z)²`, `−⅓` = „sztuki czy miara”, `εμ = 1` = c | [T][P] | 155 |
+| ładunki z anomalii przy danym `N_c`, danej grupie i normalizacji U(1) (A6); **grupa cechowania i liczba pokoleń są niewyprowadzone**, a `S_Q` zależy od obu | [P] ładunki; [L] grupa, pokolenia | A2, 155, 156–158 |
+| wartość nie jest wyznaczona przez strukturę: gdy aktywne są W i top, jest kombinacją dwóch wolnych danych z bilansu 208 (przesunięć `1/α₂` i `1/α_Y`); zero albo biegun `1/α` to ich reparametryzacja — nie warunek i nie skala Plancka (Planck ≡ 2D ≡ Ø) | [T] | 153, 208, 224, 227 |
+| α nie przechodzi przez zero wewnątrz zakresu (`α = 0` tylko asymptotycznie); zero `1/α`, czyli biegun α, to drugi koniec tej samej relacji — pułapka 11 | [T] | 183, 224 |
 | warunek `𝒢 ≥ 0` z 212 nic na α nie nakłada: w sektorze cechowania `𝒢 ≡ 1` | [T] | 223 Z2 |
-| powyżej skali elektrosłabej sztywność relacji faz EM jest sumą sztywności dwóch relacji zespołu | [O] | 169, 152, tu |
+| gdy aktywne są W i top, sztywność relacji faz EM jest sumą sztywności dwóch relacji zespołu | [O] | 169, 152, tu |
 | wagę cechowania w funkcji masy (`C(R)`) i w `b` (`T(R)`) dają te same amplitudy — nie wolno ich dobierać niezależnie | [T] | 217 |
 | czysty logarytm to granica bez progów, a progi to masy — dla α tak samo jak w 218 | [L][T] | 218, 225, tu |
 
 **Czego nie wiemy**
 - **Postaci poza jedną pętlą.** Liniowość `1/α` w `t` nie wynika ze struktury porównań (212). W następnym rzędzie [L] dochodzi człon z `ΣN_cQ⁴` i, dla kwarków, człon z α₃ (gluony w pętli kwarkowej). Wyprowadzenia współczynników tego rzędu z ramy nie ma: 155 jest jednopętlowe.
-- **Części kwarkowej przy małej rozdzielczości.** Poniżej transmutacji α₃ (R1d) pętla kwarkowa nie ma postaci `F(r_q)`. Literatura bierze tę część z pomiaru produkcji hadronów (relacja dyspersyjna) [L]; w zespole jej nie ma.
-- **Grupy U(1) i wag obiegów z samego porządku** — część magnetyczna („Dalej otwarte”, R1d pkt 3).
+- **Części kwarkowej przy rozdzielczości porównywalnej z transmutacją α₃ i mniejszej** (R1d). Tam pętla kwarkowa nie ma postaci `F_γ(r_q)`; literatura bierze tę część z pomiaru produkcji hadronów przez relację dyspersyjną [L], czyli ze stosunku dwóch odczytów (`σ(hadrony)/σ(μμ)`). W zespole tej części nie ma.
+- **Grupy cechowania (w tym U(1)), liczby pokoleń i wag obiegów z samego porządku** — część magnetyczna („Dalej otwarte”, R1d pkt 3; 156–158).
 - **Wartości w żadnym punkcie** — i nie jest to cel ([88], 224).
+- **Czy zdanie 155 „logarytm tylko przy d = 3” stoi wobec 185** („3D nie ma nic wspólnego z liczbą 3”; przeniesienie na 3D „nie przez zamianę liczby w wykładniku”). Treścią strukturalną 155 jest „jeden swobodny kierunek poza płaszczyzną obiegu”, a `Λ^{d−3}` to parametr konstrukcji literatury — rozdzielenie do zrobienia w samym 155.
 
 **Do czego α jest potrzebna przy masie**
 
 | gdzie | jak wchodzi |
 |---|---|
-| 214 — przejście A/B | `ln R_A = ln R_B − (3α/2π)·ln R_B − Δ^W`: α razy logarytm stosunku dwóch odczytów. W następnym rzędzie wchodzą wstawki polaryzacji próżni innych nośników naładowanych, czyli bieg α między masami, których stosunek się liczy [L] |
+| 214 — przejście A/B | `ln R_A = ln R_B − (3α/2π)·ln R_B − Δ^W`: α razy logarytm stosunku dwóch odczytów. W drugim rzędzie wchodzą wstawki polaryzacji próżni innych nośników naładowanych, czyli bieg α między masami, których stosunek się liczy [L; tu niesprawdzone rachunkiem] |
 | 166 | `B/A − 1 ≈ (3α/2π)·ln(m_i/m_j)` — 1–3% dla par leptonów |
 | 215 | faza EM pary (`Γ/α`, `Φ/α`): α jako funkcja przy wspólnej rozdzielczości |
-| 152–153 | stosunki mas typów o różnym ładunku biegną przez `α_Y` (powyżej skali elektrosłabej) i przez α (poniżej), z wykładnikiem zależnym od `b`, czyli od progów |
+| 152–153 | stosunki mas typów o różnym ładunku biegną przez `α_Y` (gdy aktywne są W i top) i przez α (gdy nie są) [L], z wykładnikiem zależnym od `b`, czyli od progów |
 
-**[O] Wniosek:** funkcja α, której potrzebuje masa, ma w argumencie masy (progi), a masy w przejściu A/B mają w sobie α, przy małej rozdzielczości także α₃. **To jeden układ, nie dwa kroki po kolei.** Jest to miejsce, w którym „wszystko naraz” [104] dostaje treść rachunkową; jako wynik do użycia — dopiero po teście ze `STOP.md` w kroku niżej.
+**Co z tego wynika [O] — i czego to nie dodaje.** Funkcja α, której potrzebuje masa, ma w argumencie masy (progi), a masy w przejściu A/B mają w sobie α; przy małej rozdzielczości dochodzi α₃. To jest 225 (autonomię zespołu łamią progi, czyli masy) i 151 (zespół ustalany naraz) zastosowane do α — **nie nowy wynik i nie podparcie hipotezy [104]**.
 
-**Czego nie wolno:** pisać α jako stałej-liczby; czytać `ΣN_cQ² = 8` jako nachylenia α; brać postaci `ln(N_Λ/N)/d` z `N ~ L^d` (pojemnik, 178) — czytać `ln(n₀/n)`; stawiać zera `1/α` „na granicy oznaczoności” (224, 227); „masa = miejsce łamania samopodobieństwa `n_Λ`” (225); „α i masa to ten sam typ: bity ramy `ln n`” (rozsiew, 186); `ln(R_H/l_P) ≈ 140` wobec 137 (numerologia).
+**Czego nie wolno:** pisać α jako stałej-liczby; czytać `ΣN_cQ² = 8` jako nachylenia α; brać postaci `ln(N_Λ/N)/d` z `N ~ L^d` (pojemnik, 178) — czytać `ln(n₀/n)`; stawiać zera `1/α` „na granicy oznaczoności” (224, 227); „masa = miejsce łamania samopodobieństwa `n_Λ`” (225); „α i masa to ten sam typ: bity ramy `ln n`” (rozsiew, 186); `ln(R_H/l_P) ≈ 140` wobec 137 (numerologia); czytać sprzężenie α z masami jako treść [104] (225, 232).
 
 **Proponowane kroki**
-1. **α z progami (zalecany).** Zapisać różnicę dwóch odczytów `1/α` jako sumę `F(r_f)` po nośnikach naładowanych i przyłożyć kryterium 208. **Zdanie do upadku:** „różnica dwóch odczytów `1/α` zależy wyłącznie od stosunków rozdzielczości do mas i od ładunków”. Dla kwarków poniżej transmutacji α₃ upada — wtedy nazwać, co wchodzi zamiast. **Czytać w całości:** §F0, 214, 218, R1d.
-2. **α jako relacja dwóch funkcji zespołu:** jaki to rodzaj obiektu w sensie 208 i co daje przejście przez skalę elektrosłabą (dopasowanie dwóch opisów).
+1. **α z progami (zalecany).** Część rachunkowa stoi w literaturze (wiersz „próg pełny”, relacja dyspersyjna). Zdanie „różnica zależy tylko od stosunków rozdzielczości do mas i od ładunków” ma znany wynik, więc **testem nie jest**. Pytaniem ramy jest rodzaj obiektu każdej części (kryterium 208). **Zdanie do upadku:** „każda część funkcji α — także kwarkowa przy małej rozdzielczości — jest relacją (ma drugi odczyt), żadna nie jest wielkością zależną od samego cięcia albo samej skali”. Upada, jeśli któraś część wymaga wartości bez drugiego odczytu. **Czytać w całości:** §F0, 208, 214, 218, R1d.
+2. **α jako relacja dwóch funkcji zespołu:** jaki to rodzaj obiektu w sensie 208 i co daje przejście między opisem z W i bez W (dopasowanie dwóch opisów).
 3. **Drugi rząd:** czy `ΣN_cQ⁴` i człon z α₃ mają odczyt w ramie, tak jak `−⅓` w 155.
-4. **U(1) i wagi obiegów z porządku** („Dalej otwarte”) — droga dłuższa, nie na kartkę.
+4. **Grupa (z U(1)) i wagi obiegów z porządku** („Dalej otwarte”) — droga dłuższa, nie na kartkę.
 
-*Zabrania:* α jako liczby, 8 jako nachylenia, α jako funkcji zespołu niezależnej od `α₂` i `α_Y` powyżej skali elektrosłabej, czystego logarytmu tam, gdzie są progi. *Pozwala:* czytać α jako różnicę dwóch odczytów ustaloną przez strukturę i postawić krok 1 bez pojemnika.
+*Zabrania:* α jako liczby, 8 jako nachylenia, α jako funkcji zespołu niezależnej od `α₂` i `α_Y` (gdy aktywne są W i top), czystego logarytmu tam, gdzie są progi. *Pozwala:* czytać nachylenie α jako ustalone przez strukturę (przy danej zawartości nośników, w jednej pętli), a wartość w punkcie jako odczyt, którego struktura nie wyznacza; postawić krok 1 bez pojemnika.
 
 ## §F1. MASA — zespół funkcji [94]
 
