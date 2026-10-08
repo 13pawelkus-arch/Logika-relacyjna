@@ -1,13 +1,9 @@
-# Następny krok: do decyzji użytkownika — krok 9 wycofany (240)
+# Następny krok: krok 4 ciąg dalszy — do napisania na końcu sesji
 
-Krok 9 („czy położenie `v` wobec Ø-miejsc sprzężeń jest odczytem — bilans 17 czy 16”) **odpadł** (240). Dawał
-położenie tłu: R1d pkt 1 — *„v wszędzie ta sama. Wszędzie to samo = nierozróżnialne ≡ Ø […] nośnik tła nie odczyta”*.
-To ten sam błąd co Planck z położeniem (227–229). Użytkownik: *„jak dzik w kukurydzę”*.
-
-Bilans 208: **17 wolnych danych, jeśli warunki 154 ustalają λ.** Unormowanie Yukaw już nie jest warunkiem (237).
-
-Do wyboru: krok 4 (rura ilościowo, 171) albo inny wskazany przez użytkownika. **Ta wiadomość ma zostać napisana od
-nowa, gdy krok będzie wybrany** — według zasad niżej.
+Krok 9 odpadł (240). Krok 4: [?] z 171 („czy struktura bez zatrzymania zawsze daje separatory”) rozstrzygnięte w 241 —
+nie musi; dołożony element nakłada jeden warunek, `Σ f` po widzianej części S = 0. Zostały w 171: inne wagi K_R i wersja
+ilościowa; obie trzeba najpierw postawić bez gęstości i bez progu. **Ta wiadomość ma zostać napisana od nowa na końcu
+sesji** — według zasad niżej.
 
 ---
 
