@@ -33,6 +33,11 @@ regularyzacji wymiarowej Δ_sub formalnie znika”*.
   asystenta z jednej sesji;
 - **w `## §F1`, blok 154 pkt 1a, podpunkt „μ² i warunek Veltmana”** (168, ok. 2 tys.) — skąd jest powód 208;
 - **w `## §F1`, blok 225** (ok. 3,7 tys.), pkt 1 „Autonomia” — progi `m_i = y_i·v/√2` łamią autonomię biegu;
+- **`masa/8` §1–2 i §5** (ok. 6 tys.) — rozdziela trzy rzeczy, które w tym kroku łatwo zlepić: `v` (bez
+  drugiego odczytu), `ν = v/E_O` (`v` wobec zegara czytającego — *„Ustawienie ν=1 przez wybór jednostki nie
+  wyznacza relacji do wcześniej ustalonego zegara O”*) i `ρ = Q/v` (*„wybór miejsca zapisu funkcji, ale nie
+  dodatkowy warunek fizyczny”*); w §5 zależność `R_A` od `ρ` znosi się w jednym rzędzie. Do tego `masa/4` §3, §5
+  i `masa/7` §3: `v` wchodzi przez progi `y_i·v/Q`. O `Λ_QCD` folder nie mówi;
 - **w `## §F1`, blok 224** („ZLICZENIE Ø-MIEJSC”) z **pułapką nr 11** — `Λ_QCD` jest Ø-miejscem typu rozbieżności
   („nośnik przestaje być czytelny jako para (M, O)”, 180 pkt 3), a podanie Ø-miejsca jest bijekcją wolnej danej.
 
@@ -69,6 +74,13 @@ się na nim oprze.
 **`Λ_QCD` jako drugi odczyt.** To Ø-miejsce (224), a przy Ø-miejscach w CC 12–13 dwa razy pojawił się „Planck
 z położeniem” (227–229). `m_p` jest odczytem A (proton stoi jako całość wobec O — 180 pkt 3 mówi to o kwarku,
 nie o hadronie, więc sprawdzić); `Λ_QCD` sam odczytem nie jest. Nie zamieniać jednego na drugie.
+
+**„Unormowanie” w `masa/` to cztery obiekty** (238): `y → a·y`, `ζ_f` (waga czytającego), `K ∝ 1/v`, `ν`. Przy
+każdym wystąpieniu ustalić, który — zlepienie dwóch z nich dało błąd 208.
+
+**Czytający jest zbudowany z tego, co czyta (206).** Zegar materialnego O stoi na atomach i jądrach, więc `ν = v/E_O`
+może się sprowadzać do stosunków skal zespołu, z `Λ_QCD` wśród nich. To jest **moja myśl przy przeglądzie, niesprawdzona**
+— nie brać jej jako przesłanki.
 
 **`v² = −μ²/λ`.** Nie używać — relacja drzewowa, a λ jest „ustalona” przez 154 warunkowo.
 
