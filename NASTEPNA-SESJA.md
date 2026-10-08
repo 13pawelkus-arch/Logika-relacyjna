@@ -75,6 +75,16 @@ się na nim oprze.
 z położeniem” (227–229). `m_p` jest odczytem A (proton stoi jako całość wobec O — 180 pkt 3 mówi to o kwarku,
 nie o hadronie, więc sprawdzić); `Λ_QCD` sam odczytem nie jest. Nie zamieniać jednego na drugie.
 
+**Wartość oczekiwana próżni — rama już o niej mówi (239), i to może rozstrzygać krok.** R1d pkt 1 (z [102] sesji CC 2):
+*„v wszędzie ta sama. Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie
+odczyta → jednostronna relacja z Ø. Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.”* Jeśli `v` jest
+tłem ≡ Ø, to „położenie `v` wobec Ø-miejsc” może być zdaniem o Ø — **rozstrzygnięcie (c′), do sprawdzenia, nie wynik**:
+wtedy trzeba powiedzieć, czym jest `m_W/m_p` (stosunek dwóch odczytów A?), bo ten się z `v/Λ_QCD` zmienia. Do tego
+[70]–[73] sesji CC 12 — użytkownik: *„O samych polach się nawet nie da mówić”*, a zaraz potem, gdy z tego zrobiłem
+„vev odpada w całości”: *„To nie jest takie proste. […] mówią, że opisują jakieś pole. Ale tak naprawdę używają
+zjawisk — relacji, które są w otoczeniu.”* Czyli: nie „v nic nie znaczy”, tylko sprawdzić, jaką relację w otoczeniu
+niesie każde użycie `v`. I [34]–[35] sesji CC 3: bieg `v` zależy od cechowania, stosunek jest czysty.
+
 **„Unormowanie” w `masa/` to cztery obiekty** (238): `y → a·y`, `ζ_f` (waga czytającego), `K ∝ 1/v`, `ν`. Przy
 każdym wystąpieniu ustalić, który — zlepienie dwóch z nich dało błąd 208.
 
