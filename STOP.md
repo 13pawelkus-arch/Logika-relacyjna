@@ -58,7 +58,7 @@ Do tego: **duży koszt obliczeń = sygnał ostrzegawczy**. GPU dla rachunku fund
 - brać wyniku z „1+1”, „2+1”, „d = 2” jako zdania o strukturze — to narzędzia;
 - nazywać wykładnika liczności pojemnika (N ~ L^d) wymiarem;
 - pisać „3D” jako 1+1+1 albo 2+1 — **3D nie ma nic wspólnego z liczbą 3**;
-- liczyć czasu jak zwykłego wymiaru (`D` z czasem jako jedną z osi, „oś czasu”); trzy osie przestrzenne to wtórny opis 3D i same błędem nie są — sprawdzić, co zapis niesie i jak był liczony (246);
+- liczyć czasu jak zwykłego wymiaru — w zapisie formalnym czas to `x⁰` przy 𝟙 (`X = x⁰·𝟙 + x·σ`, R1c-F): 𝟙 nie rozróżnia żadnych dwóch stanów i wchodzi do `det X` z przeciwnym znakiem, więc nie jest czwartą σ (czwartego odczytu komplementarnego nie ma, `K_A = 1 + 3`). Trzy osie przestrzenne to trzy odczyty komplementarne (R1b Wniosek 1) — ich liczenie jest opisem 3D, nie błędem. Rozstrzyga rachunek, nie litera: czy odczyt stoi na `x⁰` policzonym jak czwarta oś (§E pod 185; 246, 247);
 - używać definicji czasu bez wyprowadzenia 3D (i odwrotnie) — to jedno wyprowadzenie, nie dwa;
 - mówić cokolwiek wprost o Ø — tylko od strony znanego otoczenia;
 - pisać „kierunek czasu”, „strzałka”, „upływ”, „przepływ” — **czas nie ma kierunku, bo nie jest osią**; odczyt jest
