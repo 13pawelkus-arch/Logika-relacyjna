@@ -261,6 +261,9 @@ Tu tylko mapa. Treść każdej pozycji jest w wierszu rejestru (`poprawki.md`) o
 8. ~~**Czy unormowanie Yukaw (skala całości) jest w ogóle odczytem — [?] z 229.**~~ **ZROBIONE — poprawka 237** (8.10). Dwa obiekty pod jedną nazwą: unormowanie Yukaw (`y_t`, liczba) jest odczytem — relacją relacji wobec sprzężenia cechowania (165, 214); „skala całości” to etykieta punktu odniesienia — pytanie źle postawione.
 9. ~~**Czy położenie `v` wobec Ø-miejsc sprzężeń jest odczytem.**~~ **WYCOFANY (240).** Stał na moim niesprawdzonym liczeniu „etykiety” i dawał położenie `v`, a `v` jest tłem ≡ Ø (R1d pkt 1) — błąd z 227–229, tylko w miejscu Plancka tło. Bilans 208: 17, jeśli 154 ustala λ.
 
+10. **Wagi exp(L) (Hinrichsen–Kastrati, arXiv:2604.24812) — twierdzenie o separatorach (171).** Odłożone 8.10 (użytkownik: „zapisz obydwa”). 242 tej konstrukcji nie obejmuje: `exp(L) − I = Σ_k L^k/k!` nie ma postaci `Φ(I − bΦ)⁻¹`, więc kongruencja `Bᵀ Δ_η B = Φ − Φᵀ` nie przechodzi wprost. **Czytać najpierw w całości: blok 171 w `### A11d`, z 241 i 242.** Przed użyciem pracy — abstrakt (`narzedzia/arxiv_abs.py`): co autorzy mówią, że robią, i czego wynik używa.
+11. **Wersja ilościowa rury (171).** Odłożone 8.10. Czytelność przy skończonej dokładności (małe wartości własne zamiast dokładnego jądra) — **najpierw postawić próg bez gęstości i bez pojemnika**; bez tego nie ma pytania. 242 dodaje: przy masie rząd całości stały, ale `A niesie B` zależy od `a·b`. **Czytać najpierw w całości: blok 171 w `### A11d`.**
+
 **Zamknięte na stałe — nie wracać:** źródło logarytmu przez rozsiew i entropia względna na rozsiewie (170, 182, 184b, 186); pozostałe gałęzie w `STOP.md`.
 
 **Otwarte liczby i pytania (bez zmian):** y_e; asymetria 10⁻⁹; H₂; α jako transmutacja; „+1” za Page'em [?]; kierunek przyspieszenia [?]; przyspieszenie w porządku 3+1. **Czarne dziury:** pytania P-K w C5 po filtrze.
