@@ -1,3 +1,5 @@
+> **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa) — wybiera użytkownik.
+
 # Następny krok: twierdzenie o separatorach dla wag Johnstona — skoki po linkach i zatrzymania (krok 4, 171)
 
 **Jedyny otwarty krok z listy** (krok 9 odpadł w 240). Z dwóch rzeczy, które zostały w 171 — „inne wagi K_R” i „wersja
