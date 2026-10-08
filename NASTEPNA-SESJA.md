@@ -1,101 +1,88 @@
-# Następny krok: czy unormowanie Yukaw — skala całości — jest w ogóle odczytem ([?] z 229)
+# Następny krok: czy położenie `v` wobec Ø-miejsc sprzężeń (`v/Λ_QCD`) jest odczytem — bilans 17 czy 16 (237)
 
-**Do decyzji użytkownika, czy to ten krok.** Alternatywą jest krok 4 (rura ilościowo, 171). Krok 6
-(„czy warunki 154 dotykają `v/m_P`") **odpadł w tej postaci** (228) — nie wracać do niego.
+**Do decyzji użytkownika, czy to ten krok.** Alternatywą jest krok 4 (rura ilościowo, 171).
 
-## Co się stało w CC 13 (7.10) — tylko tyle, ile potrzeba do kroku
+## Skąd ten krok — tylko tyle, ile potrzeba
 
-Użytkownik: *„w ostatniej sesji rozpędziłeś się za bardzo"* i *„Plancka bez jednostek wymiarowych zupełnie
-inaczej się czyta. Nie ma tam żadnego położenia..."* Przegląd 211–229 (poprawki 227–229) pokazał, że krok 6
-stał na `m_P` jako krańcu z położeniem (`ln(m_P/v)` jako „odległość do końca Plancka") i na `v/m_P` jako
-„legalnej postaci" danej — a korzeń był w **208**, przed 210:
+Krok 8 zamknięty w **237**: „unormowanie Yukaw” i „skala całości” to były **dwa obiekty pod jedną nazwą**.
+Unormowanie Yukaw to liczba (`y_t = √2·m_t/v`) i jest odczytem — relacją relacji wobec sprzężenia cechowania
+(165: `(1/R − 9/2)·α₃^{−1/b₃}`, `R = y_t²/g₃²`; 214: `y → a·y` zmienia `Δ^W`, więc `R_A`). „Skala całości”
+— wartość `v` bez drugiego odczytu — jest jednostką, czyli etykietą punktu odniesienia, i pytanie o nią jest
+źle postawione. Zlepienie zaczęło się w [40] sesji CC 10, zdaniem asystenta: *„9 → 8 stosunków + 1 unormowanie
+legalne wyłącznie jako `v/m_P`”*.
 
-> 208, wiersz „1 × unormowanie Yukaw": *„relacja, ale do krańca — legalne wyłącznie jako `v/m_P`, czyli
-> stosunek do drugiego końca hierarchii"*.
+Przy tym wyszło coś, czego 208 nie widziało — zdanie z bloku 237, **moje, nie sprawdzone przez nikogo drugiego**:
 
-To stoi wbrew dwóm miejscom w pliku, które były wcześniej:
+> 208 liczy wartości w jednym punkcie odniesienia, a jego położenie jest etykietą — przesunięcie punktu wzdłuż
+> biegu zmienia wartości, nie relacje — więc z 17 wartości od etykiety niezależnych jest 16. Siedemnastą byłoby
+> **położenie `v` wobec Ø-miejsc sprzężeń** (`v/Λ_QCD`), które wiersz μ² niesie poza gołą masą przy cięciu: jest
+> wolne od cięcia, więc powód z 168 go nie dotyczy, a przez progi `m_i = y_i·v/√2` wchodzi do samego biegu
+> (225 pkt 1).
 
-> B1: *„Rendering liczbowy (elektron: 1 zwrot na 2,39×10²² elementów) **jest przepisaniem `m/m_P`, nie
-> wynikiem.**"*
->
-> 181 po 194: *„Przepisanie a·b = −(m·ℓ)²/… to **słownik rozsiewu** […] **nie wolno nim nazywać wyniku**:
-> „ν = m·ℓ” wprowadza jednostkę długości i wraca pojemnikiem tylnymi drzwiami."* — a `m/m_P` to dokładnie
-> `m·ℓ` z `ℓ = l_P`.
-
-I słowa użytkownika z 181, które to rozstrzygają od strony zasady:
-
-> *„Żeby zrównać, trzeba czegoś do przeliczenia jednostek, a każde takie coś przychodzi z pojemnikiem, bo
-> jednostka jest odniesieniem zewnętrznym. […] po prawej stronie w ogóle stoi wielkość wymiarowa."*
-
-oraz z CC 10 ([62]): *„Skala Plancka jako jedno z pierwszych zostało przekształcone żeby nie było jednostek
-relacyjnych"* — `m_P` to złożenie przeliczników `ħ`, `G`, `c`, w zliczaniu ≡ 1.
-
-Wiersz 208 jest teraz **[?] otwarte**. Bilans 17 wolnych danych — **nieruszony**, dopóki to otwarte.
+Powód, który 208 dało dla μ² (168, z Hamady–Kawaia–Ody): *„goła masa przy obcięciu […] zależy od samej skali
+cięcia, nie od stosunku dwóch rozdzielczości; różne opisy cięcia dają różne wartości”* — i tamże: *„w
+regularyzacji wymiarowej Δ_sub formalnie znika”*.
 
 ---
 
 ## Czytać w całości, zanim cokolwiek
 
-- **blok 181 w `### A11d`** („MASA JAKO STOSUNEK — PRZELICZNIK ODPADA", ok. 4 tys. znaków) — masa
-  odczytywalna wyłącznie jako stosunek dwóch odczytów o różnej głębokości; jedynym bezwymiarowym parametrem
-  jest `a·b`;
-- **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW", ok. 5 tys. znaków) — wiersz
-  `μ²` („nie jest odczytem") i wiersz „unormowanie Yukaw";
-- **`## B1`** (ok. 2 tys. znaków; przepisany w 233: hop-stop liczony na rozsiewie, czyli na pojemniku — ramie zostaje forma, `a·b` jest odczytem);
-- **blok 154 w `## §F1`** (pkt 1 z tabelą; przepisany w 231) — dwa warunki na λ i to, że czy ustalają jakiś
-  odczyt, jest otwarte, bo przeniesienie na `m_H`, `m_t` idzie przez `ln(m_P/v)`;
-- **lista dozwolonych wejść (147) w `## §F1`** — w 231 usunięta z niej „liczebność: stosunek końców hierarchii
-  (Planck ≡ Ø ↔ całość ≡ Ø)”, czyli korzeń zakresu `ln(m_P/v)`.
+- **blok 208 w `### A11d`** („PRZEGLĄD 19 ODCZYTÓW”, ok. 4 tys. znaków) — wiersz μ², werdykt, bilans;
+- **blok 237 w `### A11d`** (zaraz po 208, ok. 4 tys.) — zwłaszcza punkt „Bilans”, i **sprawdzić go od zera**,
+  nie przyjmować: liczenie „wartości w punkcie odniesienia wobec danych niezależnych od etykiety” to rachunek
+  asystenta z jednej sesji;
+- **w `## §F1`, blok 154 pkt 1a, podpunkt „μ² i warunek Veltmana”** (168, ok. 2 tys.) — skąd jest powód 208;
+- **w `## §F1`, blok 225** (ok. 3,7 tys.), pkt 1 „Autonomia” — progi `m_i = y_i·v/√2` łamią autonomię biegu;
+- **w `## §F1`, blok 224** („ZLICZENIE Ø-MIEJSC”) z **pułapką nr 11** — `Λ_QCD` jest Ø-miejscem typu rozbieżności
+  („nośnik przestaje być czytelny jako para (M, O)”, 180 pkt 3), a podanie Ø-miejsca jest bijekcją wolnej danej.
 
 ---
 
 ## Zdanie, które ma upaść
 
-> **Unormowanie Yukaw nie jest odczytem: po zdjęciu `m_P` jako punktu odniesienia skala całości jest tylko
-> wyborem jednostki, a do odczytania zostają wyłącznie stosunki — 8 stosunków Yukaw oraz `m_H/v` i `m_t/v`
-> (czyli `λ` i `y_t`).**
+> **Położenie `v` wobec Ø-miejsc sprzężeń jest odczytem: przy ustalonych pozostałych danych zmiana `v/Λ_QCD`
+> zmienia stosunek dwóch odczytów A (np. `m_W/m_p`), więc z formy (i)/(ii) w R1b-A niesie je układ relacji;
+> wiersz μ² w 208 rozdziela się na gołą masę przy cięciu (nie odczyt) i to położenie (odczyt), a danych
+> niezależnych od etykiety jest 17.**
 
 Rozstrzygnięcia wypisane **z góry**:
 
-- **(a) Przechodzi.** Wtedy wolnych danych jest o jedną mniej, a bilans (208) zmienia się z powodu, nie
-  z zestawienia. **Ale** trzeba od razu powiedzieć, czym w 154 jest zakres biegu między odczytami a końcem
-  Plancka, skoro nie odległością do miejsca (154 po 231 mówi tylko, że to otwarte).
-- **(b) Upada:** unormowanie jest odczytem, bo istnieje **drugi odczyt**, z którym `v` (albo `m_i`) tworzy
-  stosunek, i nie jest nim Planck jako kraniec. Wtedy trzeba ten drugi odczyt **nazwać** i pokazać, że jest
-  odczytem (181), a nie przelicznikiem.
-- **(c) Źle postawione:** „skala całości" to zdanie o całości, a całość nie ma otoczenia — tak samo jak „masa
-  całości" (180) i „skończona struktura" (207). Wtedy wynikiem jest samo zniknięcie pytania.
+- **(a) Przechodzi.** Wtedy werdykt 208 „μ² nie jest odczytem” trzeba zawęzić do gołej masy przy cięciu, a w
+  tabeli 208 dopisać wiersz z tym położeniem i jego rodzajem. **I od razu powiedzieć**, czym to położenie różni
+  się od „położenia Plancka”, które odpadło w 227 — skoro `Λ_QCD` też jest Ø-miejscem.
+- **(b) Upada:** położenie nie jest odczytem. Wtedy trzeba wskazać, **który warunek 181 zawodzi** dla `m_W/m_p`
+  (ten sam czytający? to samo miejsce? różna głębokość?), a bilans to 16.
+- **(c) Źle postawione:** „położenie `v` na osi biegu” to położenie w `t`, a `t = 0` jest etykietą — wtedy
+  pytanie znika, ale **musi zniknąć razem z 3 przesunięciami `1/α_i`** (one też są wartościami przy etykiecie,
+  224: `t_* = (2π/b_i)·(1/α_i(0))`) — sprawdzić, czy (c) nie zabiera za dużo.
 
 ---
 
 ## Co niepewne — i tu jest najwięcej
 
-**154 i zakres `ln(m_P/v)`.** Po 231 blok 154 mówi tylko tyle: dwa warunki na λ są treścią ramy („tam, gdzie
-nic nie jest odróżnialne”), a czy ustalają jakiś odczyt — otwarte, bo literatura przenosi je na `m_H`, `m_t`
-biegiem po zakresie `ln(m_P/v)`, a Planck nie ma położenia. Czym ten zakres jest — nie wiem i **nie wolno
-tego rozstrzygać zgadywaniem** (próbowałem w CC 13 dwa razy, użytkownik: *„nawet nie komentuję"*). Bilans
-„17 wolnych danych” w 208 jest od 231 warunkowy: zależy od tego punktu i od unormowania Yukaw.
+**Samo liczenie etykiety (237).** Opiera się na tym, że bieg bezwymiarowych sprzężeń jest autonomiczny
+(225 pkt 1: w schemacie niezależnym od mas), więc przesunięcie punktu odniesienia przenosi wartości wzdłuż jednej
+krzywej. **Ale progi łamią autonomię** — i właśnie przez progi wchodzi `v`. Czy liczenie „17 wartości → 16
+niezależnych” w ogóle zachodzi, gdy bieg nie jest autonomiczny, trzeba sprawdzić na kartce, zanim cokolwiek
+się na nim oprze.
 
-**`v² = −μ²/λ` (drzewowo).** 208 wyrzuciło `μ²` jako nie-odczyt. Kusi wniosek „więc `v` też" — ale to
-relacja drzewowa, a `λ` jest ustalona przez 154 tylko w jednym miejscu. Sprawdzić, nie przyjąć.
+**`Λ_QCD` jako drugi odczyt.** To Ø-miejsce (224), a przy Ø-miejscach w CC 12–13 dwa razy pojawił się „Planck
+z położeniem” (227–229). `m_p` jest odczytem A (proton stoi jako całość wobec O — 180 pkt 3 mówi to o kwarku,
+nie o hadronie, więc sprawdzić); `Λ_QCD` sam odczytem nie jest. Nie zamieniać jednego na drugie.
 
-**`r_s/ƛ_C = 2(m/m_P)²`** — „dwa promienie wokół jednego środka" usunięte z §F1 w 231 (Planck jako miejsce
-na osi masy). Kusi jako kandydat na (b) (dwa samoodczyty jednego nośnika), ale to przepisanie `m/m_P` (B1)
-i ruch z 214 (utożsamienie przez formę). **Nie brać tego jako odpowiedzi.**
+**`v² = −μ²/λ`.** Nie używać — relacja drzewowa, a λ jest „ustalona” przez 154 warunkowo.
 
-**Reguła „sztuki czy miara"** w `§E` — od 233 rdzeń (użytkownik, [288]: liczba nie rośnie z gęstością, inaczej
-miara) oddzielony od procedury „pomnóż przez potęgę `t_P`" ([289]–[290], rachunki na rozsiewie; `t_P` = odstęp
-rozsiewu = ℓ). Procedura dotyczy tylko zamkniętej gałęzi; jeśli w kroku pojawi się `t_P` albo ℓ, rachunek jest
-o pojemniku.
+**`m_P`, `ln(m_P/v)`** — w tym kroku w ogóle się nie pojawiają (237: przepisanie). Jeśli się pojawią, krok
+skręcił.
 
 ---
 
 ## Jak NIE robić — z zapisanych błędów
 
-- **Kto co powiedział** — sprawdzić w zapisie rozmowy i w kolumnie „kto” rejestru, zanim się coś zmieni albo
-  zostawi „bo to użytkownika”. W CC 12–13 trzy razy wyszło inaczej, niż stało w pliku (225, 227, 230).
-- **Z czego coś wynika** — sprawdzić w pliku i w zapisach, zanim się to zmieni (użytkownik, 7.10). W CC 13
-  usunąłem z R1b-A akapit, którego zastrzeżenie było brzmieniem użytkownika (230).
+- **Kto co powiedział i z czego coś wynika** — sprawdzić w zapisie rozmowy i w rejestrze, zanim się to zmieni
+  (225, 227, 230). Zdanie o etykiecie z 237 jest asystenta.
+- **Nazwa innego obiektu** — wspólny rodzaj błędu z 228 i 237: coś, co stało, dostawało nazwę, położenie albo
+  dowód, których nie miało. „Położenie `v`” jest takim słowem — najpierw ustalić, czego jest położeniem.
 - **Planck** — bez położenia i bez jednostek (227); nic o nim wprost.
 
 ---
