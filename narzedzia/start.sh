@@ -19,6 +19,11 @@ cd "$CLAUDE_PROJECT_DIR" || exit 0
 
 cat STOP.md
 echo
+# 249 (8.10): SESJA-WZORCOWA.md — dziewięć przypadków przeprowadzonych tak, jak ma wyglądać praca, z ruchem i powodem.
+# Nie wypisywana tu w całości: razem ze STOP.md przekroczyłaby próg ~10 tys. znaków (192).
+echo "Następnie przeczytać SESJA-WZORCOWA.md (8 tys. znaków): jak wygląda praca — przypadki z ruchem i powodem;"
+echo "jej część „Sprawdzenie własnego wyniku” — jeszcze raz przed każdym wpisem do ramy."
+echo
 # Kontrola spojnosci mapy (30.09): dwa razy pod rzad zdarzylo sie, ze rejestr szedl do przodu,
 # a "Gdzie skonczylismy" w CLAUDE.md zostawalo w tyle i wygladalo na aktualne. To jeden grep, nie regula.
 ost=$(grep -o '^| [0-9]\{1,4\} ' poprawki.md | tail -1 | tr -d '| ')

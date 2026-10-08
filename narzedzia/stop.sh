@@ -23,6 +23,8 @@ case "$sciezka" in
   */logika-relacyjna-v3.5.md|*/poprawki.md)
     echo "STOP (wpis do ramy). Sprawdź przed wpisaniem:"
     sed -n '/^## Czego nigdy/,$p' "$CLAUDE_PROJECT_DIR/STOP.md"
+    echo
+    sed -n '/^## Sprawdzenie własnego wyniku/,/^\*Nowy przypadek/p' "$CLAUDE_PROJECT_DIR/SESJA-WZORCOWA.md" | sed '$d'
     ;;
 esac
 exit 0
