@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "exact_scalar_checks": 851,
+  "full_vs_reduced_hessians": 48,
+  "seagull_00_trace_samples": [
+    "104/133",
+    "74/135",
+    "2/5"
+  ],
+  "Xi_for_full_phase_hopping_unitary": "Q^2 sin(theta) cos(theta) tau_x",
+  "Xi_for_global_phase_unitary": "0",
+  "link_profile_square_series": "omega**4/360 - omega**2/12 + 1",
+  "closed_channel_slope_at_zero": "-g^2/M^2",
+  "scope": "bare link jets, full contact identity, canonical LR reduction; no proof of a frame-selected scalar EM polynomial or perturbative-order identification"
+}
