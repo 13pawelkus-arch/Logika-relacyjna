@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian rationals; no tolerance",
+  "scope": "synthetic operator identities, not selection of QED from the frame",
+  "isotropic_operator_classification": {
+    "operator_coefficients": 16,
+    "commutation_equations": 48,
+    "constraint_rank": 14,
+    "solution_basis": [
+      "P_s",
+      "P_t"
+    ],
+    "sharp_singlet_constraint_rank": 15,
+    "sharp_solution_basis": [
+      "P_t"
+    ],
+    "scope": "common-rotation invariant operators on exactly two carriers"
+  },
+  "sharp_singlet_constraints": 3,
+  "singlet_relations": [
+    {
+      "gram_pairs": 25,
+      "pick_size": 10,
+      "reachable_rank": 1,
+      "impulse_coefficients": 6,
+      "norm_telescoping_steps": 4,
+      "hidden_basis_response_checks": 5,
+      "q": {
+        "re": "0",
+        "im": "1"
+      },
+      "boundary_probability_plus": "1/2",
+      "boundary_unitarity_checks": 3
+    },
+    {
+      "gram_pairs": 25,
+      "pick_size": 10,
+      "reachable_rank": 1,
+      "impulse_coefficients": 6,
+      "norm_telescoping_steps": 4,
+      "hidden_basis_response_checks": 5,
+      "q": {
+        "re": "3/5",
+        "im": "4/5"
+      },
+      "boundary_probability_plus": "4/5",
+      "boundary_unitarity_checks": 3
+    }
+  ],
+  "full_reachability_control": {
+    "gram_pairs": 25,
+    "pick_size": 10,
+    "reachable_rank": 2,
+    "impulse_coefficients": 6,
+    "norm_telescoping_steps": 4,
+    "hidden_basis_response_checks": 5
+  },
+  "reweighting_rejected": {
+    "boundary_probability": "5/2",
+    "disk_norm_deficit": "-143/338"
+  },
+  "joint_readings_rejected": {
+    "individual_norms_ok": true,
+    "three_point_determinant": "-4/17"
+  },
+  "singlet_generator_schur": {
+    "projected_inverse_checks": 5,
+    "upper_half_plane_checks": 3,
+    "hankel_size": 8,
+    "hankel_rank": 1
+  },
+  "two_pole_decomposition": {
+    "checks": 4,
+    "residues": [
+      "1/2",
+      "1/2"
+    ],
+    "full_resolvent_at_half": "0"
+  },
+  "full_rank_generator_schur": {
+    "projected_inverse_checks": 5,
+    "upper_half_plane_checks": 3,
+    "hankel_size": 8,
+    "hankel_rank": 2
+  },
+  "spectral_residue_gram_checks": 2,
+  "spectral_sum_checks": 3
+}

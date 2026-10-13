@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact Gaussian rationals",
+  "synthetic": true,
+  "checks": {
+    "propagators": 16,
+    "ward_pairs": 64,
+    "one_insertion_components": 256,
+    "ordered_two_insertion_components": 256,
+    "determinant_factorizations": 16,
+    "closed_two_insertion_integrands": 256,
+    "closed_response_example": {
+      "full": "5/8",
+      "eliminated_determinant": "2/9",
+      "reduced_vertices": "25/72",
+      "induced_contact": "1/18",
+      "without_eliminated_determinant": "29/72"
+    },
+    "full_endpoint_amplitudes": 16,
+    "arbitrary_block_vertices": 16,
+    "finite_endpoint_covariance": 2,
+    "on_shell_norm_and_charge": 8,
+    "bare_vertex_ward_violation": "1/12 * I2",
+    "rest_correct_charge": "Q",
+    "rest_bare_charge_with_full_norm": "Q/2",
+    "singular_elimination_regular_full_response": 1,
+    "zero_mass_vertex_limits": 64
+  },
+  "scope": "Fixed canonical L/R kernel and EM insertion; no loop integral, no mass inference, no derivation of the full relation from the frame."
+}

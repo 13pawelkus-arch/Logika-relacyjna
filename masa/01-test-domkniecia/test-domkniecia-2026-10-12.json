@@ -1,0 +1,983 @@
+{
+  "date": "2026-10-12",
+  "status": "PASS",
+  "scope": "Wybrany sektor relacyjnego procesu kwantowego; nie pełna rama R1a–R1c ani wybór prawa faz.",
+  "exact_family": "q on unit circle, no phase sampling used for symbolic claims",
+  "probability": "p(O=0|C=6,R=0) = (5+3 cos(theta))/8",
+  "tagged_probability": "p = (5+3 mu cos(theta))/8; mu is overlap of actual channel records",
+  "conditional_bloch": [
+    "sqrt(3)(1-cos(theta))/4",
+    "sqrt(3)sin(theta)/2",
+    "(1+3cos(theta))/4"
+  ],
+  "phase_reconstruction": "q=(4 r_z-1)/3 + 2i r_y/sqrt(3)",
+  "history_probabilities": {
+    "z": "(q + 3)*(3*q + 1)/(16*q)",
+    "x": "(q*(-sqrt(3)*q + 2*sqrt(3) + 8) - sqrt(3))/(16*q)",
+    "y": "(-sqrt(3)*I*q**2 + 4*q + sqrt(3)*I)/(8*q)"
+  },
+  "full_clock_results": [
+    {
+      "q": "I",
+      "dimension": 224,
+      "p": 0.6249999999999999,
+      "probability_clock_and_record": 0.0714285714285714,
+      "smallest_G_eigenvalue": -2.8656213856041956e-15
+    },
+    {
+      "q": "-1",
+      "dimension": 224,
+      "p": 0.2500000000000001,
+      "probability_clock_and_record": 0.07142857142857141,
+      "smallest_G_eigenvalue": -3.608747225020594e-15
+    }
+  ],
+  "counts": {
+    "exact": 166,
+    "numeric": 16
+  },
+  "checks": [
+    {
+      "name": "code_isometry",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "total_spin_x_annihilates_entire_code",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_0_x_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_1_x_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_2_x_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_3_x_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "total_spin_y_annihilates_entire_code",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_0_y_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_1_y_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_2_y_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_3_y_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "total_spin_z_annihilates_entire_code",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_0_z_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_1_z_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_2_z_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "single_spin_3_z_has_zero_code_expectation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_12_relation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_23_relation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "X_from_pair_relations",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Y_from_noncommuting_relations",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_0_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_0_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_0_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_1_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_1_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_2_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_2_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Pauli_closure_2_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "U_derived_from_physical_pair",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_pair_unitary_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "no_leakage_from_global_singlet",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "logical_U_unitary_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Bloch_x_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Bloch_y_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "Bloch_z_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_Bloch_purity",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complementary_variance_sum",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "phase_reconstructed_from_y_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "probability_formula",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "q_i_probability",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "q_minus_1_probability",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "initial_S_is_maximally_mixed",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_analyzer_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_0_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_1_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_2_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_3_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_4_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_z_operation_5_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_z_norm_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_record_weight_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_reader_probability_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "old_record_and_partner_remain_correlated_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reader_carries_comparison_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "discard_preparation_record_erases_phase_signal_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_z_stage_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_analyzer_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_0_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_1_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_2_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_3_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_4_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_x_operation_5_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_x_norm_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_record_weight_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_reader_probability_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "old_record_and_partner_remain_correlated_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reader_carries_comparison_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "discard_preparation_record_erases_phase_signal_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_x_stage_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_analyzer_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_0_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_1_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_2_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_3_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_4_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "apparatus_y_operation_5_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_process_y_norm_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_record_weight_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_reader_probability_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "old_record_and_partner_remain_correlated_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reader_carries_comparison_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "discard_preparation_record_erases_phase_signal_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_carried_y_stage_6",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_conditional_state_independent_of_input",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_of_plus",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_of_plus_i",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_records_keep_distinct_phase",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_normalization_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_z_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_clock_weight_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_clock_and_preparation_weight_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "clock_conditioned_readout_z",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_normalization_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_x_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_clock_weight_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_clock_and_preparation_weight_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "clock_conditioned_readout_x",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_normalization_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "history_constraint_y_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "internal_clock_weight_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_clock_and_preparation_weight_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "clock_conditioned_readout_y",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_G_annihilates_history_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 1.2570368965139847e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_G_Hermitian_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_G_positive_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 2.8656213856041956e-15,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "G_annihilates_all_allowed_inputs_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 2.902486770025846e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "physical_projector_idempotent_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 1.1592416195691336e-15,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_matrix_readout_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "stationary_event_commutes_with_constraint_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 4.7010492513731236e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "stationary_event_same_readout_q_I",
+      "method": "numeric",
+      "pass": true,
+      "residual": 7.152448122690996e-18,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_G_annihilates_history_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 8.94984727685461e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_G_Hermitian_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 0.0,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_G_positive_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 3.608747225020594e-15,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "G_annihilates_all_allowed_inputs_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 7.323526869951462e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "physical_projector_idempotent_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 9.300346831742944e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "full_matrix_readout_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "stationary_event_commutes_with_constraint_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 3.3157433320199304e-17,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "stationary_event_same_readout_q_-1",
+      "method": "numeric",
+      "pass": true,
+      "residual": 6.938893903907228e-18,
+      "tolerance": 1e-11
+    },
+    {
+      "name": "channel_tag_unitary",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "tagged_global_norm",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_controls_interference_weight",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "coherent_record_limit",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "distinguishable_channel_record_erases_local_phase",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_overlap_controls_Bloch_length",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "record_overlap_controls_complementary_uncertainty",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "double_transition_weight_breaks_norm_q_i",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "missing_new_record_gives_false_constant_answer",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_history_normalized",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "weighted_clock_constraint_5",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_probability_independent_of_clock_weight",
+      "method": "exact",
+      "pass": true
+    }
+  ]
+}

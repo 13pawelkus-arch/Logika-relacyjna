@@ -1,0 +1,71 @@
+{
+  "scope": "Kontrole algebry i zakresu przeslanek; nie wybor dzialania z calej ramy; dane syntetyczne",
+  "status": "PASS",
+  "exact": {
+    "link_gauge_covariance": {
+      "exact": true,
+      "unequal_weights": [
+        "1",
+        "2"
+      ],
+      "probability": "35037/81250"
+    },
+    "chiral_kernel_inverse": {
+      "exact": true,
+      "cases": 3
+    },
+    "photon_transversality_and_inverse": {
+      "exact": true,
+      "cases": 3
+    },
+    "ward_full_functions": {
+      "exact": true,
+      "cases": 16,
+      "diagonal_limits": 4,
+      "transverse_checks": 16
+    },
+    "field_normalization": {
+      "exact": true,
+      "eta": "3/50",
+      "e": "1/5",
+      "four_pi_alpha": "1/25"
+    },
+    "same_hessian_different_loop_weights": {
+      "exact": true,
+      "beta": "1",
+      "cases": [
+        {
+          "lambda": "0",
+          "hessian": "1",
+          "fourth_derivative": "-1",
+          "value_at_pi_over_two": "1"
+        },
+        {
+          "lambda": "1/2",
+          "hessian": "1",
+          "fourth_derivative": "2",
+          "value_at_pi_over_two": "3/2"
+        },
+        {
+          "lambda": "1",
+          "hessian": "1",
+          "fourth_derivative": "5",
+          "value_at_pi_over_two": "2"
+        }
+      ]
+    },
+    "same_mode_commutator_different_correlators": {
+      "exact": true,
+      "greater": [
+        {
+          "re": "3/5",
+          "im": "-4/5"
+        },
+        {
+          "re": "9/5",
+          "im": "-4/5"
+        }
+      ]
+    }
+  }
+}

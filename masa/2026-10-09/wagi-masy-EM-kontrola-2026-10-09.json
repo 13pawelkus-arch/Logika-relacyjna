@@ -1,0 +1,238 @@
+{
+  "scope": "QED jednej petli, jawne wejscia dzialania; dane syntetyczne; kontrole nie wyprowadzaja dzialania z R1a-R1c",
+  "exact": {
+    "pauli_basis_and_clifford": true,
+    "triad_covariance": true,
+    "ward_identity": true,
+    "feynman_weights": {
+      "kinetic": "-1",
+      "mass": "4",
+      "normalized_mass": "3"
+    },
+    "gauge_polynomials": {
+      "a_xi": [
+        "0",
+        "-1"
+      ],
+      "b_xi": [
+        "3",
+        "1"
+      ],
+      "sum": [
+        "3",
+        "0"
+      ]
+    },
+    "finite_matching": {
+      "log_integral": "-5/2",
+      "log_contribution": "5",
+      "epsilon_times_pole": "-1",
+      "total": "4"
+    },
+    "coulomb_pole_parts": {
+      "Coulomb": {
+        "gamma0_frequency": "0",
+        "gamma_spatial": "4/3",
+        "mass": "2",
+        "rest_mass_combination": "2"
+      },
+      "Gaunt": {
+        "gamma0_frequency": "-3/2",
+        "gamma_spatial": "1/2",
+        "mass": "3",
+        "rest_mass_combination": "3/2"
+      },
+      "spatial_projection": {
+        "gamma0_frequency": "1/2",
+        "gamma_spatial": "-5/6",
+        "mass": "-1",
+        "rest_mass_combination": "-1/2"
+      }
+    },
+    "coulomb_total": [
+      "-1",
+      "1",
+      "4"
+    ],
+    "wrong_omissions": {
+      "mass_without_kinetic": "4",
+      "without_spatial_projection_at_rest": "7/2",
+      "without_epsilon_finite_term": "5"
+    }
+  },
+  "numerical": {
+    "frequency_radial_master": [
+      {
+        "d1": 1.0,
+        "d2": 4.0,
+        "direct": 0.00877881159658536,
+        "expected": 0.00877881159658536,
+        "error": 0.0
+      },
+      {
+        "d1": 0.25,
+        "d2": 9.0,
+        "direct": 0.02269289877806918,
+        "expected": 0.022692898778069178,
+        "error": 3.469446951953614e-18
+      },
+      {
+        "d1": 2.0,
+        "d2": 0.5,
+        "direct": -0.008778811596585367,
+        "expected": -0.00877881159658536,
+        "error": 6.938893903907228e-18
+      },
+      {
+        "d1": 1.0,
+        "d2": 1.0,
+        "direct": 0.0,
+        "expected": 0.0,
+        "error": 0.0
+      },
+      {
+        "d1": 0.09,
+        "d2": 0.7,
+        "direct": 0.012989823232471265,
+        "expected": 0.01298982323247127,
+        "error": 5.204170427930421e-18
+      },
+      {
+        "d1": 3.0,
+        "d2": 5.0,
+        "direct": 0.0032348410521753548,
+        "expected": 0.0032348410521753556,
+        "error": 8.673617379884035e-19
+      }
+    ],
+    "full_feynman_kernel": [
+      {
+        "p2_over_eta2": -3.0,
+        "a": {
+          "re": -0.8206993734577666,
+          "im": 0.0
+        },
+        "b": {
+          "re": 4.151607518506813,
+          "im": 0.0
+        },
+        "error": 4.440892098500626e-16
+      },
+      {
+        "p2_over_eta2": 0.0,
+        "a": {
+          "re": -1.8862943611198904,
+          "im": 0.0
+        },
+        "b": {
+          "re": 7.54517744447957,
+          "im": 0.0
+        },
+        "error": 1.7763568394002505e-15
+      },
+      {
+        "p2_over_eta2": 0.4,
+        "a": {
+          "re": -2.204459836348439,
+          "im": 0.0
+        },
+        "b": {
+          "re": 8.480223701883617,
+          "im": 0.0
+        },
+        "error": 8.881784197001252e-16
+      },
+      {
+        "p2_over_eta2": 0.9,
+        "a": {
+          "re": -2.9572929195534,
+          "im": 0.0
+        },
+        "b": {
+          "re": 10.521806292037756,
+          "im": 0.0
+        },
+        "error": 6.8833827526759706e-15
+      },
+      {
+        "p2_over_eta2": 1.0,
+        "a": {
+          "re": -3.3862943611198926,
+          "im": 0.0
+        },
+        "b": {
+          "re": 11.545177444479577,
+          "im": 0.0
+        },
+        "error": 3.552713678800501e-15
+      },
+      {
+        "p2_over_eta2": 1.7,
+        "a": {
+          "re": -3.2077876635573404,
+          "im": -2.0545363720708334
+        },
+        "b": {
+          "re": 12.132642058025707,
+          "im": 5.174387900030247
+        },
+        "error": 4.440892098500626e-15
+      },
+      {
+        "p2_over_eta2": 4.0,
+        "a": {
+          "re": -1.6063453404935375,
+          "im": -2.945243112740431
+        },
+        "b": {
+          "re": 8.249340578475241,
+          "im": 9.42477796076938
+        },
+        "error": 1.7763568394002505e-15
+      }
+    ],
+    "full_coulomb_on_shell_projection": [
+      {
+        "spatial_p2_over_eta2": 0.0,
+        "I0": 0.0,
+        "I1": 0.0,
+        "mass_residual": 0.0
+      },
+      {
+        "spatial_p2_over_eta2": 0.01,
+        "I0": 0.013280302744822333,
+        "I1": 0.0026590812979064115,
+        "mass_residual": -2.981555974335137e-17
+      },
+      {
+        "spatial_p2_over_eta2": 0.25,
+        "I0": 0.30408940964004033,
+        "I1": 0.06237123828895619,
+        "mass_residual": 2.7755575615628914e-17
+      },
+      {
+        "spatial_p2_over_eta2": 1.0,
+        "I0": 0.9858019211218441,
+        "I1": 0.21275683630345163,
+        "mass_residual": 0.0
+      },
+      {
+        "spatial_p2_over_eta2": 9.0,
+        "I0": 3.667243485655806,
+        "I1": 0.9137938835762244,
+        "mass_residual": 3.552713678800501e-15
+      },
+      {
+        "spatial_p2_over_eta2": 100.0,
+        "I0": 8.052707093953886,
+        "I1": 2.2666336105200307,
+        "mass_residual": 0.0
+      }
+    ]
+  },
+  "max_errors": {
+    "radial_master": 6.938893903907228e-18,
+    "full_feynman_integrals": 6.8833827526759706e-15,
+    "coulomb_finite_mass_projection": 3.552713678800501e-15
+  }
+}

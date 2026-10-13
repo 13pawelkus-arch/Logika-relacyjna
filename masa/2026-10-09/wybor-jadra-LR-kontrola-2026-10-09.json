@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact rational complex, no tolerances",
+  "checks": {
+    "clifford_exact": 16,
+    "pauli_term_noncommuting_8_by_8": true,
+    "second_order_equivalence": {
+      "full_inverse": 3,
+      "determinant": 3,
+      "first_source_response": 12,
+      "second_source_response": 48,
+      "first_logdet": 12,
+      "second_logdet": 48,
+      "missing_seagull_detected": 12
+    },
+    "missing_two_insertion_contact_witness": {
+      "full": {
+        "re": "-133440984/253223569",
+        "im": "0"
+      },
+      "without_contact": {
+        "re": "-239612520/253223569",
+        "im": "0"
+      }
+    },
+    "higher_derivative_signed_spectrum": {
+      "A": "1",
+      "B": "s+3/16",
+      "masses": [
+        "1/4",
+        "3/4"
+      ],
+      "vector_weights": [
+        "2",
+        "-2"
+      ]
+    },
+    "positive_nonpolynomial_inverse": {
+      "vector_weights": [
+        "1/2",
+        "1/2"
+      ],
+      "mass_squared": [
+        "1",
+        "4"
+      ],
+      "A": "(s-5/2)/(s-9/4)",
+      "B": "(3*s/2-3)/(s-9/4)",
+      "limit_x_times_h": "1"
+    },
+    "degree_sanity_check_not_a_proof": {
+      "cases": 90,
+      "surviving": [
+        [
+          0,
+          -1
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    "scope": "Exact algebra and synthetic witnesses; not selection of polynomiality, vacuum, source map, EM transverse coupling or masses from R1a."
+  }
+}

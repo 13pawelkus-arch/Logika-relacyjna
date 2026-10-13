@@ -1,0 +1,357 @@
+{
+  "step": 261,
+  "parameters": "synthetic only",
+  "scope": "canonical vector QED; full one-loop polarization; one renormalized fermion vacuum-polarization insertion in a same-charge mass difference",
+  "algebra": {
+    "exact_trace_cases": 128,
+    "exact_closed_LR_reduction_cases": 128,
+    "nonzero_omissions_detected": 64,
+    "regulator_identity_cases": 4,
+    "mass_log_weight": 3,
+    "mass_finite_constant": 4
+  },
+  "numerics": {
+    "spacelike_polarization": [
+      {
+        "r": 0.001,
+        "parameter": 6.665952486754453e-05,
+        "closed": 6.665952486754453e-05,
+        "spectral": 6.665952486754451e-05,
+        "error": 1.3552527156068805e-20
+      },
+      {
+        "r": 0.1,
+        "parameter": 0.006596278585431523,
+        "closed": 0.006596278585431524,
+        "spectral": 0.006596278585431525,
+        "error": 1.734723475976807e-18
+      },
+      {
+        "r": 0.2,
+        "parameter": 0.013055806313456918,
+        "closed": 0.013055806313456856,
+        "spectral": 0.013055806313456916,
+        "error": 6.245004513516506e-17
+      },
+      {
+        "r": 1.0,
+        "parameter": 0.06042954283777104,
+        "closed": 0.06042954283777102,
+        "spectral": 0.06042954283777105,
+        "error": 2.0816681711721685e-17
+      },
+      {
+        "r": 2.0,
+        "parameter": 0.1111111111111111,
+        "closed": 0.11111111111111109,
+        "spectral": 0.11111111111111112,
+        "error": 1.3877787807814457e-17
+      },
+      {
+        "r": 20.0,
+        "parameter": 0.5262502089138965,
+        "closed": 0.5262502089138964,
+        "spectral": 0.5262502089138965,
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "r": 1000.0,
+        "parameter": 1.7490147385349897,
+        "closed": 1.7490147385349817,
+        "spectral": 1.7490147385349832,
+        "error": 7.993605777301127e-15
+      }
+    ],
+    "continued_polarization": [
+      {
+        "z": [
+          0.0,
+          0.0
+        ],
+        "parameter": [
+          -0.0,
+          0.0
+        ],
+        "spectral": [
+          0.0,
+          0.0
+        ],
+        "error": 0.0
+      },
+      {
+        "z": [
+          1.0,
+          0.0
+        ],
+        "parameter": [
+          0.07508952465467103,
+          0.0
+        ],
+        "spectral": [
+          0.07508952465467103,
+          0.0
+        ],
+        "error": 0.0
+      },
+      {
+        "z": [
+          3.9,
+          0.0
+        ],
+        "parameter": [
+          0.6693998554238085,
+          0.0
+        ],
+        "spectral": [
+          0.6693998554238086,
+          0.0
+        ],
+        "error": 1.1102230246251565e-16
+      },
+      {
+        "z": [
+          4.0,
+          0.0
+        ],
+        "parameter": [
+          0.8888888888880262,
+          0.0
+        ],
+        "spectral": [
+          0.8888888888888888,
+          0.0
+        ],
+        "error": 8.626432901337466e-13
+      },
+      {
+        "z": [
+          4.01,
+          0.0
+        ],
+        "parameter": [
+          0.8855638667259804,
+          0.0783766200895724
+        ],
+        "spectral": [
+          0.8855638667260323,
+          0.07837662008957247
+        ],
+        "error": 5.184746168261524e-14
+      },
+      {
+        "z": [
+          5.0,
+          0.0
+        ],
+        "parameter": [
+          0.6213647164390208,
+          0.6556493748971343
+        ],
+        "spectral": [
+          0.6213647164390205,
+          0.6556493748971343
+        ],
+        "error": 3.3306690738754696e-16
+      },
+      {
+        "z": [
+          9.0,
+          0.0
+        ],
+        "parameter": [
+          0.11919773449332752,
+          0.9539871856968886
+        ],
+        "spectral": [
+          0.11919773449332803,
+          0.9539871856968888
+        ],
+        "error": 5.594315114139762e-16
+      },
+      {
+        "z": [
+          100.0,
+          0.0
+        ],
+        "parameter": [
+          -0.958469409200139,
+          1.046560661412081
+        ],
+        "spectral": [
+          -0.9584694092001366,
+          1.046560661412081
+        ],
+        "error": 2.4424906541753444e-15
+      },
+      {
+        "z": [
+          1.0,
+          0.7
+        ],
+        "parameter": [
+          0.06939545179574301,
+          0.0587744028902149
+        ],
+        "spectral": [
+          0.06939545179574301,
+          0.05877440289021492
+        ],
+        "error": 2.0816681711721685e-17
+      },
+      {
+        "z": [
+          5.0,
+          0.3
+        ],
+        "parameter": [
+          0.5518049724445848,
+          0.6010571613556068
+        ],
+        "spectral": [
+          0.5518049724445849,
+          0.6010571613556067
+        ],
+        "error": 1.5700924586837752e-16
+      },
+      {
+        "z": [
+          10.0,
+          0.2
+        ],
+        "parameter": [
+          0.04611062393089452,
+          0.9607010758432609
+        ],
+        "spectral": [
+          0.046110623930894434,
+          0.9607010758432606
+        ],
+        "error": 3.433175098891678e-16
+      }
+    ],
+    "mass_spectral_vs_response": [
+      {
+        "r": 0.5,
+        "internal_mass_over_reference": 0.2,
+        "spectral": 6.0110834701660965,
+        "response": 6.0110834701660565,
+        "error": 3.9968028886505635e-14
+      },
+      {
+        "r": 2.0,
+        "internal_mass_over_reference": 0.2,
+        "spectral": -9.801286997603151,
+        "response": -9.801286997603645,
+        "error": 4.938272013532696e-13
+      },
+      {
+        "r": 2.0,
+        "internal_mass_over_reference": 1.0,
+        "spectral": -2.5786332130675045,
+        "response": -2.5786332130675746,
+        "error": 7.016609515630989e-14
+      },
+      {
+        "r": 2.0,
+        "internal_mass_over_reference": 4.0,
+        "spectral": -0.4535757942620494,
+        "response": -0.45357579426215705,
+        "error": 1.0763612223740893e-13
+      },
+      {
+        "r": 3.0,
+        "internal_mass_over_reference": 0.7,
+        "spectral": -7.161540715064143,
+        "response": -7.16154071506443,
+        "error": 2.877698079828406e-13
+      },
+      {
+        "r": 3.0,
+        "internal_mass_over_reference": 3.0,
+        "spectral": -1.4717409179884648,
+        "response": -1.4717409179885523,
+        "error": 8.748557434046234e-14
+      }
+    ],
+    "difference_composition_error": 8.881784197001252e-16,
+    "difference_reversal_error": 4.440892098500626e-16,
+    "equal_mass_difference": 0,
+    "common_scale_invariance": true,
+    "small_internal_mass": [
+      {
+        "z": 0.01,
+        "full": -32.32325154165798,
+        "asymptotic": -32.1765335012263,
+        "difference": -0.14671804043167924
+      },
+      {
+        "z": 0.001,
+        "full": -51.343688815863096,
+        "asymptotic": -51.32889788372448,
+        "difference": -0.014790932138616597
+      },
+      {
+        "z": 0.0001,
+        "full": -70.48274257190863,
+        "asymptotic": -70.48126226622267,
+        "difference": -0.001480305685959138
+      }
+    ],
+    "heavy_channel_decoupling": [
+      {
+        "z": 1.0,
+        "value": -2.5786332130675746
+      },
+      {
+        "z": 4.0,
+        "value": -0.45357579426215705
+      },
+      {
+        "z": 16.0,
+        "value": -0.05269944034457709
+      }
+    ],
+    "averaged_response_low_argument": [
+      {
+        "a": 0.001,
+        "mean": 0.0006943447416344391,
+        "normalized": 0.10051669661012534,
+        "asymptotic_coefficient": 0.08888888888888889,
+        "fixed_scale_value": 4.043274983997364e-05
+      },
+      {
+        "a": 1e-05,
+        "mean": 1.1033763447457363e-05,
+        "normalized": 0.09583805159713066,
+        "asymptotic_coefficient": 0.08888888888888889,
+        "fixed_scale_value": 4.0435351037096233e-07
+      },
+      {
+        "a": 1e-07,
+        "mean": 1.512719685102667e-07,
+        "normalized": 0.09385225884378758,
+        "asymptotic_coefficient": 0.08888888888888889,
+        "fixed_scale_value": 4.043537705140453e-09
+      }
+    ],
+    "averaged_response_high_argument": [
+      {
+        "a": 100.0,
+        "remainder": 0.14778452213461468
+      },
+      {
+        "a": 10000.0,
+        "remainder": 0.0162538476952796
+      },
+      {
+        "a": 1000000.0,
+        "remainder": 0.0016429389173917563
+      }
+    ],
+    "exact_free_determinant_cancellation": true,
+    "exact_charge_scheme_matching": true,
+    "exact_common_mu_cancellation_in_fermion_loop_sector": true,
+    "exact_massless_two_loop_log_match": true
+  },
+  "status": "PASS"
+}

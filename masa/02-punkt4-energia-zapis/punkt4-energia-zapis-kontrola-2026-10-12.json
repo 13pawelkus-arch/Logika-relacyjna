@@ -1,0 +1,606 @@
+{
+  "date": "2026-10-12",
+  "status": "PASS",
+  "checks_count": 107,
+  "scope": "Sektor z addytywną zachowaną energią i jawnie określonymi odniesieniami fazowymi.",
+  "ideal_pointer_constraint_solution": "{(0, ax, 0, 0)}",
+  "general_response": "3*gamma_m*gamma_p*q*zp/(16*zm) + 3*gamma_m*gamma_p*zm/(16*q*zp) + 5/8",
+  "single_reference_results": [
+    {
+      "L": 1,
+      "gamma": "0",
+      "correct_binary_record": "5/8",
+      "energy_variance_in_gap_units": "0",
+      "conditional_state_purity": "5/8"
+    },
+    {
+      "L": 2,
+      "gamma": "1/2",
+      "correct_binary_record": "13/16",
+      "energy_variance_in_gap_units": "1/4",
+      "conditional_state_purity": "23/32"
+    },
+    {
+      "L": 3,
+      "gamma": "2/3",
+      "correct_binary_record": "7/8",
+      "energy_variance_in_gap_units": "2/3",
+      "conditional_state_purity": "19/24"
+    },
+    {
+      "L": 4,
+      "gamma": "3/4",
+      "correct_binary_record": "29/32",
+      "energy_variance_in_gap_units": "5/4",
+      "conditional_state_purity": "107/128"
+    },
+    {
+      "L": 8,
+      "gamma": "7/8",
+      "correct_binary_record": "61/64",
+      "energy_variance_in_gap_units": "21/4",
+      "conditional_state_purity": "467/512"
+    }
+  ],
+  "full_process_results": [
+    {
+      "L_preparation": 1,
+      "L_readout": 1,
+      "p_q_i": "5/8",
+      "p_q_minus1": "5/8",
+      "p_formula": "5/8"
+    },
+    {
+      "L_preparation": 2,
+      "L_readout": 3,
+      "p_q_i": "5/8",
+      "p_q_minus1": "1/2",
+      "p_formula": "(q**2 + 10*q + 1)/(16*q)"
+    },
+    {
+      "L_preparation": 4,
+      "L_readout": 4,
+      "p_q_i": "5/8",
+      "p_q_minus1": "53/128",
+      "p_formula": "(27*q**2 + 160*q + 27)/(256*q)"
+    }
+  ],
+  "checks": [
+    {
+      "name": "energy_basis_orthonormal",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_eigenprojector",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "parallel_readout_component",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "all_pointer_hamiltonians_solved",
+      "method": "exact",
+      "pass": true,
+      "solution": "{(0, ax, 0, 0)}"
+    },
+    {
+      "name": "noncommuting_measured_observable",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "offdiagonal_energy_witness",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "finite_unitary_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "exact_energy_conservation_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_unitary_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_conserves_energy_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pointer_copy_conserves_energy_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_module_decomposition_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_completeness_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L1_r0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L1_r1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "finite_unitary_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "exact_energy_conservation_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_unitary_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_conserves_energy_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pointer_copy_conserves_energy_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_module_decomposition_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_completeness_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L2_r0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L2_r1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "finite_unitary_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "exact_energy_conservation_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_unitary_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_conserves_energy_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pointer_copy_conserves_energy_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_module_decomposition_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_completeness_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L3_r0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L3_r1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "finite_unitary_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "exact_energy_conservation_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_unitary_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_conserves_energy_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pointer_copy_conserves_energy_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_module_decomposition_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_completeness_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L4_r0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L4_r1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "finite_unitary_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "exact_energy_conservation_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_unitary_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "reference_rotation_conserves_energy_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pointer_copy_conserves_energy_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "pair_module_decomposition_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_completeness_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L8_r0",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_energy_conservation_L8_r1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "effect_from_full_unitary_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_outcome_weight_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "actual_conditional_preparation_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correct_binary_record_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_complementarity_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_of_named_reference_L1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "effect_from_full_unitary_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_outcome_weight_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "actual_conditional_preparation_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correct_binary_record_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_complementarity_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_of_named_reference_L2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "effect_from_full_unitary_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_outcome_weight_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "actual_conditional_preparation_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correct_binary_record_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_complementarity_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_of_named_reference_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "effect_from_full_unitary_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_outcome_weight_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "actual_conditional_preparation_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correct_binary_record_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_complementarity_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_of_named_reference_L4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "effect_from_full_unitary_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_outcome_weight_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "actual_conditional_preparation_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correct_binary_record_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "conditional_complementarity_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_of_named_reference_L8",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "general_relational_readout_all_phases",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "common_phase_cancels",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "common_free_advance_of_system_and_readout_reference_cancels",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "only_additional_relative_phase_survives_common_free_advance",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "ideal_reference_limit",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "no_reference_coherence_no_phase_signal",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "phase_dependent_instrument_effect",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "phase_dependent_actual_preparation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_process_conserves_energy_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_preparation_weight_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_joint_response_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "absolute_phase_removed_same_response_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "local_preparation_without_absolute_phase_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_alone_not_enough_L1_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_process_conserves_energy_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_preparation_weight_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_joint_response_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "absolute_phase_removed_same_response_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "local_preparation_without_absolute_phase_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_alone_not_enough_L2_3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_process_conserves_energy_L4_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_preparation_weight_L4_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_joint_response_L4_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "absolute_phase_removed_same_response_L4_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "local_preparation_without_absolute_phase_L4_4",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_variance_alone_not_enough_L4_4",
+      "method": "exact",
+      "pass": true
+    }
+  ]
+}
