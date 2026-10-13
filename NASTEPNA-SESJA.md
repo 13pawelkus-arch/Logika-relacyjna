@@ -1,106 +1,47 @@
-> **Najpierw `SESJA-WZORCOWA.md`** (po `STOP.md`): jak wygląda praca — przypadki z ruchem i powodem; jej część „Sprawdzenie własnego wyniku” jeszcze raz przed każdym wpisem.
+> **Najpierw `SESJA-WZORCOWA.md`** (po `STOP.md`): jak wygląda praca — dziesięć przypadków z ruchem i powodem; jej część „Sprawdzenie własnego wyniku” jeszcze raz przed każdym wpisem. Przypadek 10 jest nowy i dotyczy dokładnie tego kroku.
 
 > **Przed każdym zdaniem o `D`, `d`, osiach albo czasie jako wymiarze — w każdym kroku, a w kroku 12 (α z progami: pętle, całki po obrocie Wicka, `D`) na pewno — przeczytać w całości R1b-F (z D0 i Lematem 1) i R1c-F, potem §E pod regułą 185.** Powód (245–247, 8.10): wszystko, co potrzebne, stało w pliku, a i tak dwa razy poprawiałem zapis według litery (`d = 3`, `D`, „oś czasu”), bo czytałem R1b od Wniosku 1, bez D0, a zdanie użytkownika wziąłem jako regułę zamiast z niej wyprowadzić. Rozstrzyga rachunek: czy odczyt stoi na `x⁰` (składowa przy 𝟙 w `X = x⁰·𝟙 + x·σ`) policzonym jak czwarta oś.
 
-> **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa — kroki 10, 11 w `CLAUDE.md`; po 243 doszedł krok 12: α z progami, opisany w §F0 pliku głównego) — wybiera użytkownik.
+# Następny krok (zalecany; wybiera użytkownik): skąd w relacjach 179 biorą się neutralne amplitudy kontaktów — czyli czy `F_γ` wychodzi z ramy (krok 13 w `CLAUDE.md`, luka 269)
 
-# Następny krok: twierdzenie o separatorach dla wag Johnstona — skoki po linkach i zatrzymania (krok 4, 171)
-
-**Jedyny otwarty krok z listy** (krok 9 odpadł w 240). Z dwóch rzeczy, które zostały w 171 — „inne wagi K_R” i „wersja
-ilościowa” — ta wiadomość niesie **pierwszą**: ilościowa wymaga progu („skończona dokładność”), którego jeszcze nie umiemy
-postawić bez pojemnika, a wagi da się postawić bez gęstości (niżej).
+**Stan na 13.10.** Użytkownik prowadził 9–12.10 pracę z innym asystentem; 13.10 scalona jako 251–269 (rejestr; materiał w `masa/2026-10-09/`, `masa/01-…`, `masa/02-…`, `masa/2026-10-12/`, `masa/przyporzadkowanie realizacji dynamicznej.md`). Rozmów z tego okresu nie ma — ścieżką dla zdań użytkownika jest `masa/21-punkt-wznowienia-2026-10-05.md` i raporty. Alternatywy, jeśli użytkownik wybierze inaczej: krok 12 (α z progami — dane `R`, W), kroki 10–11 (171), obserwacja 14 (do decyzji użytkownika, nie do liczenia).
 
 ## Skąd ten krok — tylko tyle, ile potrzeba
 
-171 (A11d), dla równych wag (`K = ½C`, sam porządek), komutator `Δ = K − Kᵀ`:
+Próba z 12.10 doszła do miejsca, które sama nazwała dokładnie (`przyporzadkowanie…` §19.7):
 
-> **Jądro wprost z porządku [T]:** f ∈ ker Δ ⇔ dla każdego elementu z: Σ_{y≻z} f_y = Σ_{y≺z} f_y — każdy element widzi
-> nad sobą tyle wagi, co pod sobą.
->
-> **Twierdzenie o separatorach [T]:** jeśli dla każdego x maksymalnego w nośniku f istnieje z ≻ x, które spośród nośnika
-> ma pod sobą tylko x (z bliźniakami) i przeszłość x, a nad sobą nic, to f jest sumą różnic bliźniaków. […] **Dokładne
-> relacje między odczytami istnieją tylko między elementami ≡ albo tam, gdzie brak separatora.**
->
-> **Granice, otwarte:** dowód dla równych wag (K ∝ C, sam porządek); inne konstrukcje (sumy po linkach w 3+1, Johnston;
-> exp(L), Hinrichsen–Kastrati) dają warunek tego samego kształtu z wagami K_R, ale dowód potrzebuje innego separatora.
+> „R1d określa masowy zygzak, wspólny ładunek L/R i koneksję. Neutralny transport całej rodziny oraz przygotowanie jej modów nie są w tym zapisie ilościowo określone. […] Nie ma więc wyznaczonej ν_kontakty, którą dałoby się porównać z (19.12). […] To jest dokładne miejsce zatrzymania obecnego rachunku, a nie obietnica, że następne samo różniczkowanie je usunie.”
 
-I 241 (w tym samym bloku), dla równych wag: *element z dołożony nad S nakłada na zależności S dokładnie jeden warunek:
-`Σ f` po `S ∩ przeszłość(z)` = 0* — więc rozróżnialność wraca o tyle, ile przybywa różnych widzianych zbiorów, nie
-relacji; struktura bez zatrzymania nie musi dawać separatorów.
+Co już stoi (nie liczyć od nowa): reguła wag wszystkich kanałów dla gaussowskich końców (`C_ℓk = Σ η_a(1−η_b)…`), przyczynowa odpowiedź z wagami `λ_a − λ_b`, krok `1/α(n−1) − 1/α(n) = −κ_n ln[n/(n−1)]`, χ = 0 z dwuliniowego zygzaka, moduł dwudrogowy `p(Φ) = ½[1 + c₁₂cos QΦ]` z `c₁₂ = cos[(n₁−n₂)ϑ]` — zliczenia przejść masowych wchodzą jako waga obiegu. Cel jest wyznaczony: `F_γ(r) = ∫₀^{1/4} ln(1+rt) dν_γ(t)`, `dν_γ = 4t/√(1−4t)dt`, momenty `μ_k = 2[(k+1)!]²/(2k+3)!` = 1/3, 1/15, 1/70, 1/315, … — zgodność `F_kontakty = F_γ` ⇔ zgodność wszystkich momentów `k ≥ 1` (§19.7).
 
-**Dlaczego wagi Johnstona da się postawić bez gęstości (sprawdzone w tej sesji, na wzorach z pliku):** 168 pkt 1a i 169 —
-*„trajektoria o n skokach ma amplitudę aⁿbⁿ⁻¹; a — skok do następnego elementu, b — zatrzymanie w elemencie pośrednim”*,
-w ℝ^{1,3} skoki po linkach, `Φ = a·L` (L — macierz linków), *„K = I + Φ(I − bΦ)⁻¹”*. Stąd:
-- **bez masy** `K − I = a·L`: stałe `a` (to ono niesie `√ρ`) nie zmienia jądra — zostaje macierz linków;
-- **z masą** `K − I = a·L(I − ab·L)⁻¹ = a·Σ_k (ab)^{k−1}·L^k`: L jest nilpotentna, więc to skończona suma; waga relacji
-  x ≺ y = **liczba dróg po linkach z x do y, ważona `(ab)^{liczba zatrzymań}`**. Jądro zależy tylko od porządku i od
-  liczby `a·b` — a ta jest odczytem, nie wejściem (206: *„`a·b` nie jest wejściem, jest odczytem”*; 181: jedyny
-  bezwymiarowy parametr hop-stop).
-
-Więc pytanie jest o **dowolny porządek** z dwiema konstrukcjami wag ze zliczeń — twierdzenie o strukturze spełniającej
-warunek, nie rachunek na pojemniku.
-
----
+**Korekty użytkownika z 12.10, które mają obowiązywać od pierwszej wiadomości** (cytaty z notatki punktu wznowienia — omówienie tamtego asystenta, nie słowa użytkownika): *„Asystent kilkakrotnie wracał do ustalania podstaw, zamiast je zastosować; użytkownik przerwał tę pętlę. Nie dziedziczyć tego błędu jako nowego planu.”* oraz *„Nie uruchamiamy dynamiki. Nie ma rozróżnialności bez dynamiki.”*, *„Zegar nie jest dodatkowym »czymś«. Badany proces i jego relacje pełnią rolę zegara.”*
 
 ## Czytać w całości, zanim cokolwiek
 
-- **blok 171 w `### A11d`** („RURA CZASOPODOBNA NA PORZĄDKU”, z punktem 241 na końcu; ok. 5 tys. znaków);
-- **w `## §F1`, blok 154 pkt 1a, podpunkt „Formalizm [L] (ze źródła)”** (Johnston; ok. 0,7 tys.) i **w 169 punkt „na
-  porządku”** (`K = I + Φ(I − bΦ)⁻¹`);
-- **blok 206 w `### A11d`** (ok. 6 tys.) — dlaczego `a·b` jest odczytem;
-- **blok 172–173** (moduł względem O) — 241 łączy brak separatora z modułem; dla linków trzeba sprawdzić, czy to samo.
-
----
+1. `masa/21-punkt-wznowienia-2026-10-05.md` — blok aktualny (do „Archiwum”), ~7,5 tys. znaków.
+2. Plik główny: R1f-1 (~11 tys.; punkty 257–263 i 269), §F0 blok 269 (~2 tys.), A11d bloki 177 + 179 (~17 tys.), 268 (~2,5 tys.), 267 (~3,6 tys.).
+3. `masa/przyporzadkowanie realizacji dynamicznej.md` §14 (~13 tys. bez kodu), §18 (~13 tys.), §19 (~15 tys.). Kod kontroli w tekście; nie uruchamiać ponownie bez nowego problemu (zrobione 13.10, PASS).
 
 ## Zdanie, które ma upaść
 
-> **Dla skoków po linkach (`K − I = a·L`) twierdzenie o separatorach zachodzi w tej samej postaci: dokładne relacje
-> między odczytami istnieją tylko między elementami ≡ albo tam, gdzie brak separatora — z separatorem zdefiniowanym
-> przez linki (element, który ma link do x i do żadnego innego maksymalnego elementu nośnika). Przy `a·b ≠ 0` jądro jest
-> zawarte w jądrze bezmasowym.**
-
-Warunek jądra dla linków, do wypisania przed czymkolwiek: f ∈ ker(L − Lᵀ) ⇔ dla każdego z: Σ_{y: z⋖y} f_y =
-Σ_{y: y⋖z} f_y (⋖ — link).
-
-Rozstrzygnięcia wypisane **z góry**:
-
-- **(a) Przechodzi.** Wtedy 171 obejmuje światło (skoki po linkach) i masę; trzeba powiedzieć, co zmienia `a·b` — czy
-  jądro z masą jest mniejsze (masa przywraca rozróżnialność), równe, czy zależy od wartości `a·b` (wtedy: czy są
-  wyróżnione wartości, i czy to nie jest zbiór miary zero — 201: *„warunek rozstrzyga się na równaniach, nie na
-  próbkach”*).
-- **(b) Upada:** dla linków istnieje dokładna relacja między elementami nie-≡ mimo separatora linkowego. Wtedy trzeba ją
-  **nazwać** — co linki niosą dokładnie, czego porządek nie niesie — i powiedzieć, czy to zdanie o świetle.
-- **(c) Źle postawione:** „≡” dla linków nie jest tym samym co bliźniaki porządku (te same link-sąsiedztwa ⇐ bliźniaki,
-  ale nie odwrotnie). Wtedy najpierw zdefiniować, co jest ≡ przy skokach po linkach, i dopiero potem pytać.
-
----
+„W rodzinie, w której n liczy przejścia masowe zygzaka (R1d, 269), a transport EM idzie po tych samych kontaktach, z przygotowaniem i efektem jednego O, redukcja z §13.3 daje miarę `ν_kontakty` o momentach `μ₀ = 1/3`, `μ₁/μ₀ = 1/5`, `μ₂/μ₁ = 3/14`.” Rozstrzygnięcia wypisane z góry:
+- **(a)** miara wyznaczona i zgodna we wszystkich momentach → `F_γ` wychodzi z kontaktów w tej rodzinie (wtedy osobno: co z tego jest wyborem rodziny);
+- **(b)** wyznaczona i niezgodna → wynik negatywny **dla tego przyporządkowania**, nie dla ramy (przypadek 10);
+- **(c)** niewyznaczona, bo potrzebny jest dodatkowy wybór (amplitud `h_ℓ`, stanu, profili) → nazwać ten wybór i zrobić dla niego test 128: które zdanie ramy łamie jego zanegowanie. „Najprostszy”, „lokalny”, „kanoniczny” bez definicji nie są odpowiedzią.
 
 ## Co niepewne — i tu jest najwięcej
 
-**241 może się nie przenosić.** Dla linków element z dołożony nad S widzi linkami tylko **maksymalne** elementy
-`S ∩ przeszłość(z)` bez pośredników, więc jego warunek to suma po tych elementach, nie po całym widzianym zbiorze. Czy
-„rozróżnialność wraca o tyle, ile przybywa różnych widzianych zbiorów” ma odpowiednik — nie wiem. Nie zakładać.
+- **Czy n z §F0 (obieg radarowy, `q ∝ 1/n`) to to samo n co liczba przejść zygzaka w module §18.** Raport wprost tego nie utożsamia (§18.5: „nie utożsamia się ich automatycznie z n ukończonego odczytu radarowego”). Jeśli to dwa różne zliczenia, zdanie wyżej trzeba najpierw postawić z właściwym n.
+- **Wagi Johnstona `a·b` (206, 242) jako kandydat na neutralne amplitudy.** Kuszą, bo dają propagator z hop-stop bez gęstości (B = I − a·b·Φ). Ale odtworzenie propagatora Feynmana u Johnstona idzie przez rozsiew (pojemnik, B1, `STOP.md`) — samo podobieństwo kształtu nie jest przyporządkowaniem. Sprawdzić, co zostaje bez rozsiewu, zanim cokolwiek się policzy.
+- **Stan.** §19.5: N = 0 nie wynika z „pole bez wzbudzenia ≡ Ø”; zmiana opisu modów zamienia zygzak w tworzenie pary. Przygotowanie trzeba wskazać z relacji O, nie z nazwy „próżnia”.
+- **Pomiar mierzy wynik, nie trafność kroku:** jeśli wyjdzie (a), sprawdzić, czy zgodność nie została włożona przez wybór kanonicznej klasy (257) — to byłby przypadek 5 (potwierdzanie).
 
-**Kierunek z `a·b`.** Kusi „masa przywraca rozróżnialność, bo dokłada wagi dalszym relacjom”. To jest hipoteza, nie
-wynik; szereg w `(ab)` jest skończony, ale jego wkład do jądra może się znosić.
+## Jak NIE robić
 
-**Hinrichsen–Kastrati (`exp(L)`, arXiv:2604.24812)** — cytowane w 171, nie sprawdzane w tej sesji. Przed użyciem
-przeczytać abstrakt (`narzedzia/arxiv_abs.py`).
-
-**Świadkowie, nie dowód.** Losowe małe porządki (jak w `etap27`, `etap33`) wolno użyć do znalezienia kontrprzykładu albo
-do kontroli, nigdy jako argumentu „w N% prób”. Twierdzenie ma być na kartce.
-
----
-
-## Jak NIE robić — z zapisanych błędów tej sesji
-
-- **Położenie dla tła albo Ø** (240, 227–229): `v` jest tłem ≡ Ø (R1d pkt 1), Planck ≡ 2D ≡ Ø — żadne z nich nie ma
-  miejsca na osi. Oś biegu to nie arena.
-- **Wskazówka użytkownika podcina krok, a nie dokłada materiału** (240): gdy użytkownik mówi „gdzieś już o tym
-  mówiliśmy”, najpierw sprawdzić, czy to nie unieważnia tego, co robię.
-- **Źródło przed wynikiem** (238): rozstrzygnięcie 237 stało w `masa/8` §5, a ja je wyprowadzałem od nowa. Przed
-  wpisem sprawdzić, czy to już nie stoi w pliku, w `masa/` albo w rozmowach.
-- **Niesprawdzone nie idzie do pliku głównego** (240): [?] własnego rachunku nie rozsiewać po pięciu sekcjach.
+- Nie ustalać od nowa czasu, 3D, dynamiki ani osobnego zegara (przypadek 10; korekta użytkownika z 12.10).
+- Nie wstawiać kanonicznego propagatora Diraca i nie ogłaszać wyniku §14.4 wyprowadzeniem — to rachunek warunkowy, już zrobiony.
+- Nie porównywać `(18.11)` (krzywizna prawdopodobieństwa skończonego fragmentu) wprost z `F_γ` — to nie jest jądro EM z §13.3.
+- Nie liczyć na rozsiewie (`STOP.md`), nawet jeśli wagi Johnstona tam „działają”.
 
 ---
 

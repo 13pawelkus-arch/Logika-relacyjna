@@ -2,7 +2,7 @@
 
 **Czytać na początku sesji, po `STOP.md`. Jeszcze raz — część „Sprawdzenie własnego wyniku” — zanim cokolwiek wejdzie do pliku głównego albo rejestru.**
 
-To nie jest rama (rama to `logika-relacyjna-v3.5.md`) i nie jest lista zakazów. To dziewięć przypadków z tego projektu, przeprowadzonych tak, jak ma wyglądać robota: zdanie, ruch, wynik, sekcja, z której to wynika. Werdyktów nie trzeba pamiętać, bo następny przypadek będzie inny; trzeba widzieć **ruch** i **skąd on się bierze**. Większość z nich najpierw rozwiązałem źle — numery poprawek prowadzą do rejestru i do drogi w zapisach sesji.
+To nie jest rama (rama to `logika-relacyjna-v3.5.md`) i nie jest lista zakazów. To dziesięć przypadków z tego projektu, przeprowadzonych tak, jak ma wyglądać robota: zdanie, ruch, wynik, sekcja, z której to wynika. Werdyktów nie trzeba pamiętać, bo następny przypadek będzie inny; trzeba widzieć **ruch** i **skąd on się bierze**. Większość z nich najpierw rozwiązałem źle — numery poprawek prowadzą do rejestru i do drogi w zapisach sesji.
 
 ## Skąd się biorą ruchy
 
@@ -55,9 +55,14 @@ To nie jest rama (rama to `logika-relacyjna-v3.5.md`) i nie jest lista zakazów.
 - **Wynik:** to nie jest warunek ramy (168, [T]: przy λ = 0 wyklucza się z β_λ = 0). Z literatury bierze się formalizm i wynik, nigdy pytanie.
 - **Przy każdej cudzej pracy:** co autor mówi, że robi, i czego wynik faktycznie używa. Przy świetle: wolno brać relację odczytów (różnicę czasów przybycia, stosunek linii widma), nie historię światła przed odczytem (ds² = 0).
 
+### 10. „Zmiana q daje inny odczyt — więc rama nie wystarcza” (267; praca 12.10)
+- **Ruch:** czy porównuję dwie **reguły** na tych samych relacyjnie określonych danych, czy dwa **procesy**? Zmiana q, L, kalibracji albo instrumentu to zmiana danych procesu: dwa poprawne procesy mogą mieć różne odpowiedzi w tej samej regule.
+- **Wynik:** różne q to różne relacje w tej samej QM, nie kontrmodel ramy. Pytanie o wystarczalność ramy stawia się jako porównanie reguł kompozycji przy tych samych przygotowaniach, zapisach i efektach (268).
+- **Odruch, z którego to wychodzi:** wracanie do ustalania podstaw (czy odczyt jest możliwy, czy dynamika jest dołożona, osobny zegar) zamiast ich stosowania. Czas, 3D i dynamika są ustalone (R1a–R1c, 258, 265) — przykład, który ich „nie wybiera”, niczego w nich nie podważa.
+
 ## Sprawdzenie własnego wyniku
 
-Przyłożyć do tego, co policzone albo ustalone, ruchy z przypadków. Na każde pytanie trzeba umieć odpowiedzieć, wskazując sekcję pliku głównego:
+Przyłożyć do tego, co policzone albo ustalone, ruchy z przypadków. Na każde z dziewięciu pytań trzeba umieć odpowiedzieć, wskazując sekcję pliku głównego:
 
 1. **Na czym stoi liczba** — czy na `x⁰` policzonym jak czwarta oś? (1–3)
 2. **Czy zależy od N, gęstości, ℓ, pudła, siatki?** (4)
@@ -67,6 +72,7 @@ Przyłożyć do tego, co policzone albo ustalone, ruchy z przypadków. Na każde
 6. **Kto co powiedział** — sprawdzone ścieżką w źródle, a nie z etykiety ani streszczenia? (8)
 7. **Czyje jest pytanie** — z ramy czy z literatury? (9)
 8. **Czy nie poprawiam w drugą stronę** — odrzucam za literę, słowo albo podobieństwo do dawnego błędu, zamiast za to, na czym rzecz stoi? (3)
+9. **Czy porównuję reguły, czy procesy** — i czy nie ustalam od nowa podstaw, które mam stosować? (10)
 
 Jeśli na któreś nie umiem odpowiedzieć sekcją, wpisu nie ma. Zostaje sekcja do przeczytania w całości.
 

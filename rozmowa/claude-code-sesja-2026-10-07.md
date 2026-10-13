@@ -1,6 +1,6 @@
-# Rozmowa w Claude Code — sesja 13 (7–8.10.2026) — zapis
+# Rozmowa w Claude Code — sesja 13 (7–13.10.2026) — zapis
 
-Przegląd poprawek po 210 na polecenie użytkownika („w ostatniej sesji rozpędziłeś się za bardzo”): Planck ≡ 2D ≡ Ø (227), przegląd 211–227 (228), korzeń v/m_P w 208 (229), po przeczytaniu zapisu CC 12 (230). Porządki pliku głównego (231–236). Krok 8 (237). Przegląd masa/ ponownie (238–239). Krok 9 wycofany (240): „jak dzik w kukurydzę”. Krok 4 (241). Rozwiązanie użytkownika (masa/linki-separatory-jadro.md) sprawdzone i wpisane (242). α jako funkcja — §F0 (243), przegląd (244). 155 i wymiary: 245 wycofało każde „d = 3” jako liczenie osi; 246 to cofnęło; 247 — kryterium wymiarowe wyprowadzone z definicji czasu i 3D oraz jej zapisu (X = x⁰·𝟙 + x·σ: czas to 𝟙, nie czwarta σ); 248 — obrót Wicka w §E zawężony do odczytu, NASTEPNA-SESJA z R1b-F/R1c-F, test na agencie bez kontekstu (5/5, z nazwanymi granicami). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Przegląd poprawek po 210 na polecenie użytkownika („w ostatniej sesji rozpędziłeś się za bardzo”): Planck ≡ 2D ≡ Ø (227), przegląd 211–227 (228), korzeń v/m_P w 208 (229), po przeczytaniu zapisu CC 12 (230). Porządki pliku głównego (231–236). Krok 8 (237). Przegląd masa/ ponownie (238–239). Krok 9 wycofany (240): „jak dzik w kukurydzę”. Krok 4 (241). Rozwiązanie użytkownika (masa/linki-separatory-jadro.md) sprawdzone i wpisane (242). α jako funkcja — §F0 (243), przegląd (244). 155 i wymiary: 245 wycofało każde „d = 3” jako liczenie osi; 246 to cofnęło; 247 — kryterium wymiarowe wyprowadzone z definicji czasu i 3D oraz jej zapisu (X = x⁰·𝟙 + x·σ: czas to 𝟙, nie czwarta σ); 248 — obrót Wicka w §E zawężony do odczytu, NASTEPNA-SESJA z R1b-F/R1c-F, test na agencie bez kontekstu (5/5, z nazwanymi granicami). 249 — SESJA-WZORCOWA.md (krótka sesja o tym, jak ma wyglądać praca). 250 — 223 Z4: wartość 𝒢 zależy od bazy, istnienie granicy nie (zarzut użytkownika). Pytanie użytkownika o P5 (tomografia lokalna: różnica pary niesiona przez nic poza nią = cecha). 12–13.10: kontynuacja użytkownika z innym asystentem (9–12.10, folder masa/) przeczytana w całości, wszystkie skrypty uruchomione ponownie (wyniki identyczne), nieoznaczoność Heisenberga odnaleziona w 258 i w raporcie globalnego więzu; scalenie jako 251–269: 264 scalenie i format, 265 dynamika z braku zera absolutnego i nieoznaczoności Heisenberga + pułapka 14, 266 obiekt wymaga domknięcia, 267 odczyt w procesie (WAY, faza w korelacji, L > k), 268 reguła kompozycji (jeden Gram, przekątna = wagi), 269 próba wyprowadzenia F_γ z kontaktów — wynik otwarty; SESJA-WZORCOWA przypadek 10 (reguły a procesy). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -3786,7 +3786,7 @@ Summary:
    - „Narazie je zostaw. Dawno nie czytales calego pliku głównego. I trzeba to zrobic, bo tam jest mnostwo rzeczy które potem albo dublujesz, albo gubisz. Ale najpierw chyba trzeba kompresje zrobic bo nie zostalo wiele miejsca”
    - Stałe ograniczenia, nadal obowiązujące:
      - rozmawiamy po polsku;
-     - nie wpisywać do plików „problem czasu” ani nazwiska Kuchař;
+     - nie wpisywać do plików dwóch określeń wskazanych przez użytkownika [pominięte];
      - w zapisach sesji bez zewnętrznych ocen;
      - propozycje użytkownika sprawdzać jak każde zdanie;
      - nie pytać o ocenę, rozstrzygać strukturą;
@@ -6645,7 +6645,7 @@ Summary:
      - **in the main file: content with its status; history (what stood there, who said it, why it was withdrawn) goes to `poprawki.md` and the session transcripts.**
    - Standing constraints (still in force):
      - speak Polish;
-     - do not write „problem czasu” or the name Kuchař into files;
+     - do not write the two terms named by the user into files [omitted];
      - no external evaluations in session transcripts;
      - check the user's proposals like any other sentence;
      - do not ask for evaluation, decide by structure;
@@ -11514,7 +11514,7 @@ Summary:
      - finally: „Dobra, narazie wystarczy porządków. Robie compact i przechodzimy do nastepna sesja?” — i.e. after compaction, move to the next step from `NASTEPNA-SESJA.md` (krok 8).
    - Standing constraints:
      - speak Polish;
-     - do not write „problem czasu” or the name Kuchař into files;
+     - do not write the two terms named by the user into files [omitted];
      - no external evaluations in session transcripts;
      - check the user's proposals like any other sentence;
      - don't ask for evaluation, decide by structure;
@@ -14484,7 +14484,7 @@ Summary:
      - (g) **Latest:** „W folderze "masa" wrzuciłem propozycje rozwiazania. Zobacz” — the user uploaded new solution proposal(s) into `masa/`, to be read and checked.
    - Standing constraints (keep):
      - speak Polish;
-     - do not write „problem czasu” or the name Kuchař into files;
+     - do not write the two terms named by the user into files [omitted];
      - no external evaluations in session transcripts;
      - never send the user's email address to any service;
      - push only to `ccr-e3080631-0qjsjk`;
@@ -14643,7 +14643,7 @@ masa/linki-separatory-jadro.md | 214 +++++++++++++++++++++++++++++++++++++++++
  1 file changed, 214 insertions(+)
  create mode 100644 masa/linki-separatory-jadro.md
 commit 3d8b2bc90607faef9550cece0703dfc517b6a754
-Author: 13pawelkus-arch <13pawel.kus@gmail.com>
+Author: 13pawelkus-arch <[e-mail]>
 Date:   Thu Oct 8 03:20:01 2026 +0200
 
     Add files via upload
@@ -17331,7 +17331,7 @@ Summary:
      - (g) **Latest, pending:** „To jest wybitnie podchwytliwe. Zwłaszcza w zestawieniu z literaturą. Liczenie Trzy osie nie zawsze są błędem. To jest wtórny opis 3D. Błędem zawsze jest traktowanie czasu jak zwyklego wymiaru. Sam zapis d=3 to tez nie jest automatycznie błąd. Zawsze trzeba sprawdzic, co ten zapis niesie i jak bylo liczone. Sprawdz wszystko raz jeszcze.”
    - Standing constraints (keep):
      - speak Polish;
-     - do not write „problem czasu” or the name Kuchař into files;
+     - do not write the two terms named by the user into files [omitted];
      - no external evaluations in session transcripts;
      - never send the user's email to any service;
      - push only to `ccr-e3080631-0qjsjk`;
@@ -18929,6 +18929,4725 @@ python3 - <<'EOF'
 P='poprawki.md'
 s=open(P,encoding='utf-8').read()
 row="| 248 | **OBRÓT WICKA W §E — BŁĘDEM JEST ODCZYT, NIE LICZBA; `NASTEPNA-SESJA.md` — R1b-F I R1c-F PRZED ZDANIAMI O WYMIARACH; TEST NA SESJI BEZ KONTEKSTU [O].** Pytanie użytkownika: czy zapis 247 sprawi, że nowa sesja tych błędów nie popełni — odpowiedź: zapis tego nie gwarantuje (wszystko potrzebne stało w pliku przed 245, a błąd 222 wrócił w 245 i 246 w sesji, w której był zapisany); polecenie: *„zrób oba i zobaczymy”*. **(1) Błąd w moim tekście z 247, znaleziony przy układaniu testu:** §E pod 185 wymieniało „obrót Wicka” wśród błędów bez zastrzeżenia, a współczynniki biegu z literatury (także `F_γ` w §F0) liczy się po obrocie Wicka — nowa sesja mogłaby odrzucać liczby, które na nim nie stoją (typ 245). Teraz: błędem
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+rozmowa/claude-code-sesja-2026-10-07.md: 181 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe.jsonl)
+25268e7 248: obrót Wicka w §E — błędem odczyt, nie liczba; NASTEPNA-SESJA; test na agencie bez kontekstu (5/5, granice nazwane)
+````
+</details>
+
+## [182] Asystent — 2026-10-08 16:58
+
+Agent ocenił poprawnie wszystkie pięć zdań, zgodnie z kluczem zapisanym przed jego uruchomieniem. To jednak słabszy wynik, niż wygląda, a sama nowa sesja nadal nie oceni, czy zapis zadziałał.
+
+**Wyniki**
+
+| zdanie | klucz | agent |
+|---|---|---|
+| A: u ∝ T⁴, „bo 4 wymiary” | liczba zostaje, powód „4 wymiary” odpada; 4 = 3 + energia modu (składowa przy 𝟙) | tak samo |
+| B: 1/r^{d−2} | przechodzi, `d` przestrzenne to `d` z R1b | tak samo, i ostrzega przed odrzucaniem za samą literę `d` |
+| C: interwał jako długość w 4D | błąd: zgubiony przeciwny znak, zero interwału ≠ zero długości | tak samo |
+| D: S³ jako zbiór kierunków | błąd: kierunki zerowe tworzą S² (R1c-F), S³ to obraz euklidesowy | tak samo |
+| E: fala r^{−(D−2)/2} | przechodzi, bo (D−2)/2 = (d−1)/2 | tak samo |
+
+Zrobił też kontrole, których w §E nie ma. Przy E sprawdził, że gdyby czas był czwartą osią jak przestrzenne, równanie byłoby laplasjanem w ℝ⁴: zanik jak r⁻² i żadnej fali. Przy A pokazał, że warunek na światło (δ(det P)) usuwa składową czasową właśnie dzięki przeciwnemu znakowi. R1a, R1b-F, R1c-F i §E przeczytał w całości, tak jak każe nowy dopisek w `NASTEPNA-SESJA.md`.
+
+**Dlaczego to mniej, niż wygląda**
+- **Każdy przypadek miał zaczepienie w §E, który sam napisałem.** A w „czas jako energia modu”, B w punkcie (a), E w „`D − 2 = d − 1`”, D w „SO(4)” dopisanym tuż przed testem. Test sprawdził więc, czy sesja umie przyłożyć wypisane kryterium do bliskiego przypadku. Nie sprawdził, czy doszłaby do niego sama.
+- **Agent dostał pytanie wprost o wymiary.** Błąd 245 zaszedł przy zadaniu, w którym wymiary były tylko tłem. Tego test nie mierzy, a to jest właściwe ryzyko, np. przy kroku 12 (α z progami).
+- To jedna próba, a agent to nie pełna sesja: nie dostaje hooka startowego.
+- Przypadki i klucz są teraz w zapisie tej rozmowy w `rozmowa/`, więc do kolejnego testu się nie nadają.
+
+**Czy nowa sesja powie, czy zadziałało?** Sama nie, bo nie widzi, co zrobiłaby bez zapisu. Coś powiedzieć mogą tylko dwie rzeczy:
+- Test z kluczem, którego sesja nie widzi. Przypadki musiałbyś jednak ułożyć sam i trzymać poza repo, bo wszystko, co ja napiszę, trafia do zapisu sesji w repozytorium.
+- Twoja obserwacja: czy przy kroku, w którym wymiary są tłem, błąd typu 245/246 wraca.
+
+**Zapisane** jako poprawka 248, commit `25268e7`, wypchnięty. Obejmuje zawężenie „obrotu Wicka” w §E, dopisek w `NASTEPNA-SESJA.md` i wynik testu razem z jego granicami.
+
+## [183] Użytkownik — 2026-10-08 17:43
+
+To może inaczej.  Zróbmy jedną krótką sesje, która bedzie sie składac wylącznie z tego jak ma wyglądac praca. Coś podobnego jak ten agent robil. 
+Ta mini sesja bedzie dostępna, zeby każda nowa mogła ją przeczytac na poczatku. A kolejny raz moglaby ja czytac, zeby sprawdzic czy to co policzyla/ustalila jest caly czas zgodne i niczego nie przemyca.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read start hook and check a few file claims
+cat narzedzia/start.sh; echo ----; grep -n -o '.\{60\}odległość.\{80\}' logika-relacyjna-v3.5.md | sed -n 1,5p; grep -n 'n_ob' logika-relacyjna-v3.5.md | head -3 | cut -c1-200
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+#!/bin/bash
+# start.sh — hook SessionStart.
+#
+# POWÓD (29.09.2026, poprawka 192 — poprawia 188).
+# Obserwacja użytkownika: „Jak wezmę ten plik i wkleję go po prostu do osobnego czatu, to działa zupełnie
+# inaczej, niż jak go czytasz z repo.” To są dane z zewnątrz. Moje wyjaśnienie („wyjście hooka ma ten sam
+# status co wiadomość użytkownika”) było niesprawdzalną dorobioną historią — WYCOFANE.
+# Sprawdzalny powód, który zostaje, nie wymaga żadnej tezy o statusie: treść obecna ZANIM postawię pytanie
+# może to pytanie ukształtować; treść pobrana PO jest już przefiltrowana przez pytanie — idę po to, co pasuje.
+# MIARA (29.09): poprzednia wersja wypisywała 49 599 znaków, a do kontekstu weszło 2 KB podglądu i ścieżka
+# do pliku. Czyli 44 KB ramy nie dochodziło wcale. Dlatego hook wypisuje teraz tylko STOP.md (~5,7 tys.
+# znaków) — to, co faktycznie dochodzi. Reszta ramy: fragmentami, przy konkretnym kroku.
+# Jeśli STOP.md urośnie na tyle, że wyjście zacznie być obcinane, hook przestanie działać — to jest jedyny
+# sprawdzalny powód, żeby go trzymać krótko.
+wejscie=$(cat)
+zrodlo=$(printf '%s' "$wejscie" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("source",""))' 2>/dev/null)
+python3 -c 'import numpy' 2>/dev/null || pip install -q numpy >/dev/null 2>&1
+cd "$CLAUDE_PROJECT_DIR" || exit 0
+
+cat STOP.md
+echo
+# Kontrola spojnosci mapy (30.09): dwa razy pod rzad zdarzylo sie, ze rejestr szedl do przodu,
+# a "Gdzie skonczylismy" w CLAUDE.md zostawalo w tyle i wygladalo na ak
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read stop hook and Veltman verdict text
+cat narzedzia/stop.sh | head -60; grep -n -o 'Test wierności \[O\].\{0,400\}' logika-relacyjna-v3.5.md | head -2
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+#!/bin/bash
+# stop.sh — hook PreToolUse: ściana przed odruchem „jest pytanie → jest rachunek”.
+# Przy każdej próbie zapisu w skrypty/ (nowy rachunek) i przy zapisie do pliku głównego
+# wypisuje z STOP.md to, co ma zatrzymać: trzy pytania i listę zamkniętych gałęzi.
+# Powód: opis ramy działa na wiedzę, a błąd jest odruchem — trzeba go zatrzymać tam, gdzie odpala.
+wejscie=$(cat)
+sciezka=$(printf '%s' "$wejscie" | python3 -c '
+import json, sys
+try:
+    d = json.load(sys.stdin).get("tool_input", {})
+    print(d.get("file_path") or d.get("notebook_path") or "")
+except Exception:
+    print("")
+' 2>/dev/null)
+
+case "$sciezka" in
+  */skrypty/*)
+    echo "STOP (skrypty/ — nowy rachunek). Zanim napiszesz:"
+    sed -n '/^## Trzy pytania/,/^---$/p' "$CLAUDE_PROJECT_DIR/STOP.md" | sed '$d'
+    sed -n '/^## Zamknięte/,/^## Czego nigdy/p' "$CLAUDE_PROJECT_DIR/STOP.md" | sed '$d'
+    echo "Pełny STOP.md: 5 tys. znaków, przeczytaj, jeśli nie czytałeś w tej sesji."
+    ;;
+  */logika-relacyjna-v3.5.md|*/poprawki.md)
+    echo "STOP (wpis do ramy). Sprawdź przed wpisaniem:"
+    sed -n '/^## Czego nigdy/,$p' "$CLAUDE_PROJECT_DIR/STOP.md"
+    ;;
+esac
+exit 0
+1168:Test wierności [O] (po fakcie — po twierdzeniu):** P = „warunek Veltmana nie jest warunkiem ramy”; ¬P = rama wymaga, by człon zależny od opisu samego cięcia znikał — wyklucza się z R1a („liczyć wyłącznie w relacji do znanego otoczenia”), z [543] („nic o skali Plancka nie można powiedzieć”), z pułapką 1 (różne opisy cięcia = „rodzaje Ø”) i z
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Write: /home/user/Logika-relacyjna/SESJA-WZORCOWA.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+File created successfully at: /home/user/Logika-relacyjna/SESJA-WZORCOWA.md (file state is current in your context — no need to Read it back)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check file size and R1d point 1
+wc -c SESJA-WZORCOWA.md && awk '/^### Odczyt w ramie \[O\]/{c++} c==2' logika-relacyjna-v3.5.md | sed -n 1,3p | cut -c1-300
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+8449 SESJA-WZORCOWA.md
+### Odczyt w ramie [O]
+
+1. **Pole elektronowe bez wzbudzenia ≡ Ø**, jak pole EM [242, 258]. Elektron = wzbudzenie = odczyt, nie „cząstka z polem wokół”.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate the background statement about v in R1d
+awk '/^## R1d\./,/^## R1e\./' logika-relacyjna-v3.5.md | grep -n 'wartość oczekiwana\|tło\b\|v/m_P\|≡ Ø, tło' | cut -c1-400 | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+7:- **Nośnik i światło (R1c):** ξ ∈ ℂ² (spinor, spin ½) = nośnik minimalny z R1b; kierunek zerowy = ξξ† (wektor, spin 1). Obrót o 2π: ξ ↦ −ξ, ξξ† ↦ ξξ†.
+21:3. **Przeciwne funkcje sprzężenia od obiegu:** znak z (−1)^{2s} = **nośnik (spinor, zygzak) vs jego złożenie (wektor, światło)** + to, czy relacja niesie ładunek. W języku [94]: **elektron — relacja (abelowa); kwark — relacja relacji (kolor wiąże się sam ze sobą)** — węższy odczyt niż „relacja relacji” w [78] (przestrzeń), [94] (masa) i [104] (świat R ⊗ R) (popra
+28:**1. Co ustala częstość zygzaka elektronu.** [L] L i R łączy relacja z polem Higgsa: m = y·v/√2, v wszędzie ta sama. [O] Wszędzie to samo = nierozróżnialne ≡ Ø; tło działa na nośnik (umożliwia zygzak), nośnik tła nie odczyta → **jednostronna relacja z Ø** [122–124]. **Masa = siła jednostronnej relacji nośnika z nierozróżnialnym tłem.** „Co ustala y_e” otwarte
+````
+</details>
+
+## [184] Asystent — 2026-10-08 17:46
+
+Plik `SESJA-WZORCOWA.md` jest napisany (8,4 tys. znaków, dziewięć przypadków i część „Sprawdzenie”). Sprawdzam jeszcze odsyłacze w nim, podpinam go do hooków i do `CLAUDE.md`.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix reference, hook pointers, and test both hooks
+python3 - <<'EOF'
+P='SESJA-WZORCOWA.md'
+s=open(P,encoding='utf-8').read()
+o="a `v` jest tłem, ≡ Ø (R1d pkt 1)."
+n="a `v` jest tłem, „wszędzie ta sama”, więc ≡ Ø (R1d, „Trzy punkty otwarte”, pkt 1)."
+assert s.count(o)==1; s=s.replace(o,n); open(P,'w',encoding='utf-8').write(s)
+# start.sh: wskazanie po STOP.md
+P='narzedzia/start.sh'
+s=open(P,encoding='utf-8').read()
+o='cat STOP.md\necho\n'
+n=('cat STOP.md\necho\n'
+   '# 249 (8.10): SESJA-WZORCOWA.md — dziewięć przypadków przeprowadzonych tak, jak ma wyglądać praca, z ruchem i powodem.\n'
+   '# Nie wypisywana tu w całości: razem ze STOP.md przekroczyłaby próg ~10 tys. znaków (192).\n'
+   'echo "Następnie przeczytać SESJA-WZORCOWA.md (8 tys. znaków): jak wygląda praca — przypadki z ruchem i powodem;"\n'
+   'echo "jej część „Sprawdzenie własneg
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+
+## Sprawdzenie własnego wyniku
+
+Przyłożyć do tego, co policzone albo ustalone, ruchy z przypadków. Na każde pytanie trzeba umieć odpowiedzieć, wskazując sekcję pliku głównego:
+
+1. **Na czym stoi liczba** — czy na `x⁰` policzonym jak czwarta oś? (1–3)
+2. **Czy zależy od N, gęstości, ℓ, pudła, siatki?** (4)
+3. **Co rama po wpisie pozwala albo czego zabrania, czego przedtem nie?** (5)
+4. **Czy zdanie jest mocniejsze od źródła; czy przesłanka domysłu przeżyła dowód?** (6)
+5. **Czy coś z łańcucha Ø dostało położenie, wartość albo cechę?** (7)
+6. **Kto co powiedział** — sprawdzone ścieżką w źródle, a nie z etykiety ani streszczenia? (8)
+7. **Czyje jest pytanie** — z ramy czy z literatury? (9)
+8. **Czy nie poprawiam w drugą stronę** — odrzucam za literę, słowo albo podobieństwo do dawnego błędu, zamiast za to, na czym rzecz stoi? (3)
+
+Jeśli na któreś nie umiem odpowiedzieć sekcją, wpisu nie ma. Zostaje sekcja do przeczytania w całości.
+
+====
+7930
+70:Następnie przeczytać SESJA-WZORCOWA.md (8 tys. znaków): jak wygląda praca — przypadki z ruchem i powodem;
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update CLAUDE.md, next-session file, register; commit and push
+python3 - <<'EOF'
+P='CLAUDE.md'
+s=open(P,encoding='utf-8').read()
+E=[]
+o="- **Hook startowy wypisuje samo `STOP.md` (192).**"
+n=("- **`SESJA-WZORCOWA.md` — czytać na początku, zaraz po `STOP.md` (249).** Dziewięć przypadków z projektu przeprowadzonych tak, jak ma wyglądać praca: zdanie, ruch, wynik, sekcja, z której wynika, i skąd ruch się bierze (milczenie i relacja, R1b-A, `X = x⁰·𝟙 + x·σ`, łańcuch Ø). Jej część „Sprawdzenie własnego wyniku” — jeszcze raz przed każdym wpisem do ramy (hook `stop.sh` ją wypisuje). Powód: zapis zasad nie wystarczał — przed 245 wszystko potrzebne stało w pliku, a błąd 222 wrócił dwa razy w sesji, w której był zapisany; test w 248 pokazał, że sesja bez kontekstu przykłada wyprowadzone kryterium do bliskiego przypadku.\n"+o)
+E.append((o,n))
+o="| `STOP.md` | **
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+d688b4f 249: SESJA-WZORCOWA.md — krótka sesja o tym, jak ma wyglądać praca
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+SendUserFile: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1 file delivered to user.
+  /home/user/Logika-relacyjna/SESJA-WZORCOWA.md → file_uuid: b0d91105-23af-4e09-9bb8-4abe44412ce2
+````
+</details>
+
+## [185] Asystent — 2026-10-08 17:47
+
+Mini-sesja jest gotowa: plik `SESJA-WZORCOWA.md` w głównym katalogu repo, 8,5 tys. znaków. Zapisana jako poprawka 249, commit `d688b4f`, wypchnięty.
+
+**Co jest w środku:**
+- **Skąd się biorą ruchy.** Najpierw podstawa:
+  - milczenie i relacja [10];
+  - jeden kształt dowodu z R1b-A: (i) żaden odczyt się nie różni albo (ii) któryś się różni i wtedy niesie to układ relacji;
+  - `X = x⁰·𝟙 + x·σ` jako zapis definicji czasu i 3D;
+  - łańcuch Ø bez położenia ani wartości.
+- **Dziewięć przypadków z tego projektu**, każdy rozpisany na zdanie, ruch, wynik i sekcję pliku, z której to wynika. Większość z nich najpierw rozwiązałem źle, dlatego tam są:
+
+  | przypadki | czego uczą |
+  |---|---|
+  | 1–2: T⁴, interwał | czas liczony jak oś |
+  | 3: „d = 3” (245–247) | litera wygląda źle, a treść jest dobra |
+  | 4: entropia względna na rozsiewie | pojemnik |
+  | 5: parametr afiniczny | potwierdzanie |
+  | 6: milczenie a przezroczystość (211) | domysł opróżniony dowodem |
+  | 7: położenie Plancka i `v` | położenie dla Ø |
+  | 8: „[94] pkt 4” | ścieżka w źródle zamiast etykiety |
+  | 9: warunek Veltmana | pytanie przejęte z literatury |
+
+- **„Sprawdzenie własnego wyniku”.** Osiem pytań, każde odsyła do przypadku. Odpowiedź musi wskazywać sekcję pliku głównego; bez tego nie ma wpisu.
+
+**Jak jest podpięta:**
+- **Na starcie:** hook startowy po `STOP.md` jednym zdaniem każe przeczytać ten plik. Całego nie wypisuje, bo razem ze `STOP.md` przekroczyłby próg ~10 tys. znaków; zmierzone wyjście startowe ma teraz 7,9 tys.
+- **Przy wpisie:** przy każdym zapisie do pliku głównego albo do rejestru hook `stop.sh` wypisuje część „Sprawdzenie”. To jest Twoje „kolejny raz przeczytać, żeby sprawdzić, czy niczego nie przemyca”. Sprawdziłem, że oba hooki działają.
+- **W dokumentach:** `CLAUDE.md` („Jak pracujemy”, tabela plików) i `NASTEPNA-SESJA.md` wskazują plik na początku.
+
+**Czego to nie załatwia:** sesja może przyłożyć ruch jak hasło, bez rozumienia. Pomiar z 248 dotyczył bliskich przypadków i pytania zadanego wprost o wymiary, więc nie mierzył, czy ruch zadziała, gdy problem pojawi się w tle innego zadania. Plik ma też regułę dopisywania: nowy przypadek wchodzi tylko wtedy, gdy pokazuje ruch, którego tam jeszcze nie ma, a nie kolejny werdykt.
+
+## [186] Użytkownik — 2026-10-08 19:11
+
+Sprawdz jeszcze jedną rzecz:
+
+\[
+\mathcal G=\det\kappa=\frac{\det X}{\prod_a X_{aa}}.
+\]
+ \(\mathcal G\) zależy od bazy. Przykład zmiany \(3/4\) na \(1\) Nie wynika z niego jednak zdanie, że „z granicy \(\mathcal G=0\) można zawsze zejść, przenazywając zapisy”.
+Dopóki normalizacja jest określona, czyli wszystkie \(X_{aa}>0\),
+\[
+\mathcal G=0\quad\Longleftrightarrow\quad\det X=0.
+\]
+Zmiana bazy nie usuwa zerowego wyznacznika. Dla przykładu
+\[
+X=\begin{pmatrix}1&1\\1&1\end{pmatrix}
+\]
+ma rząd jeden. W bazie własnej otrzymasz \(\operatorname{diag}(2,0)\), ale wtedy normalizacja drugiej kolumny jest niezdefiniowana — nie otrzymasz \(\kappa=\mathbf1\).
+Wniosek dotyczący macierzy dodatnio określonych został więc przeniesiony na granicę, na której macierz przestaje być dodatnio określona. Zależność wartości miary od bazy nie oznacza zależności samego istnienia degeneracji od bazy.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find all places carrying the 223 naming claim
+grep -n 'nazwania\|granica wewnętrzna\|granicy wewnętrznej\|s\*\|det X/∏\|det X / ∏' logika-relacyjna-v3.5.md CLAUDE.md NASTEPNA-SESJA.md SESJA-WZORCOWA.md STOP.md | cut -c1-220
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+logika-relacyjna-v3.5.md:9:| „czas własny τ = L” | długość najdłuższego łańcucha między dwoma elementami = **miara jednego odczytu** wzdłuż trajektorii, **nie czas** | A2, R1a |
+logika-relacyjna-v3.5.md:131:| **10** | **„Nie zapisuje” a „nie zmienia” (poprawka 202).** To są dwie różne rzeczy — ta sama pułapka co nr 9, o poziom niżej. Wnętrze w stanie własnym operacji zapisu **ni
+logika-relacyjna-v3.5.md:594:| **treść** | **który** zbiór przeszły, **plus** link, **plus** warunek max/min. To liczy definicja z 2019. |
+logika-relacyjna-v3.5.md:663:  **Skąd te liczby — to jest OTW zastosowana [L]:** „system GPS działa dzięki OTW, bo jest tam zastosowana. Cała reszta o jakimś czasie który płynie tu inaczej tam inaczej, to nie 
+logika-relacyjna-v3.5.md:985:> - **Przekształcenia są już w pliku [L]:** [86] → A2 (ładunki z N_c i anomalii, hiperładunki, współczynnik beta (−1)^{2s}(4s² − ⅓), 1/α jako ln(N_Λ/N) z ΣN_cQ² = 8 — fu
+logika-relacyjna-v3.5.md:1000:| transmutacja n_Λ = n·e^{2π/(b₀α_s)} (R1d) | S | jw. | 2π, b₀ | [L]; **wymaga wartości brzegowej α_s** |
+logika-relacyjna-v3.5.md:1025:| **warunki konieczne, nie wartości** | dwa, różnego rodzaju: **samorelacje** (208 — tylko λ ustalona) i **wspólna realizowalność zapisów** `𝒢 ≥ 0` z `𝒢′(s*) = 0` na gran
+logika-relacyjna-v3.5.md:1088:    Kontrola wybrana przed rachunkiem: trójka `9/10, 9/10, −9/10` — każda para dopuszczalna, rodzina **nie** (`𝒢 = −361/125`); kontrola dodatnia `3/5, 9/25, 3/5` → `𝒢 = 256/6
+logika-relacyjna-v3.5.md:114
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read block 223 and the 212 condition in full
+sed -n 1136,1150p logika-relacyjna-v3.5.md; echo ======; sed -n 1080,1095p logika-relacyjna-v3.5.md | cut -c1-2500; echo =====; sed -n 1025p logika-relacyjna-v3.5.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+**Całka zawiera te same `y` i `V`, których zmiany rozpatrujemy — to jest zespół współzależny, więc bez uzasadnionego uproszczenia nie wolno zamienić tej części w stały wykładnik ani usunąć mieszania.** To **poprawia użycie czystej postaci potęgowej** w 152 i 165: tam wykładnik stał sam, a tu stoi obok członu, który musi być albo policzony, albo wykazany jako równy 1. Przykłady jawne: dla dwóch kanałów dolnych `16π²(ln y_{dj}/y_{dk})′ = (3/2)[y_{dj}² − y_{dk}² − Σ_i y_{ui}²(‖V_{ij}‖² − ‖V_{ik}‖²)]`, a dla dwóch leptonów `(3/2)(y_{ea}² − y_{eb}²)` — **to pokazuje zakres słowa „stoją” z 153: praktyczna małość zmian nie jest tożsamościowym zerem**, i nie trzeba wstawiać danych, żeby ten podział zobaczyć.
+
+  **Czego ta mapa nie daje i co pozostaje otwarte [O].** Nie utożsamia dowolnego zliczenia z Yukawą; wskazuje, **jakiego rodzaju porównania musi odtworzyć przekład odczytu**, aby zgadzał się z użytym formalizmem. Otwarte: wyprowadzenie z 179–207 konkretnego zredukowanego wierzchołka, jego wspólnej metryki odczytu i propagacji pośredniej, tak żeby te kontrakcje **i współczynniki pętlowe** wyszły bez przyjęcia ich jako przesłanek — szczególnie czy odczyt odtwarza wkłady lewego propagatora, prawego i wierzchołka **oddzielnie**. Rzut i dodatniość same tego nie ustalają. **Nie otrzymano z tego uniwersalnej równości `a·b = −y_f²`:** skalarna suma po drogach z 180–181, operator Diraca i operator Yukawy muszą być połączone przy zachowaniu propagacji, indeksów i wspólnego odczytu, a wspó
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check the user's example and the basis-invariance of the zero set
+cd /tmp && python3 - <<'EOF'
+import sympy as sp
+# 1. przyklad uzytkownika
+X=sp.Matrix([[1,1],[1,1]])
+P,Dg=X.diagonalize(normalize=True); Xp=P.T*X*P
+print('X rzad', X.rank(), ' baza wlasna:', list(Xp), ' -> X\'_22 =', Xp[1,1])
+# 2. dowolna odwracalna zmiana nazw: det -> det(M)^2 det X
+a,b,c,d=sp.symbols('a b c d')
+M=sp.Matrix([[a,b],[c,d]])
+print('det(M^T X M) =', sp.factor((M.T*X*M).det()))
+# 3. rodzina kontrolna z 212: R3(s)
+s=sp.symbols('s',real=True)
+R=[sp.Matrix([1,0,0]),sp.Matrix([0,1,0]),sp.Matrix([1,1,s])/sp.sqrt(2+s**2)]
+G=sp.Matrix(3,3,lambda i,j:(R[i].T*R[j])[0])
+print('G(s)=det =', sp.simplify(G.det()))
+ev=[sp.simplify(e) for e in G.eigenvals()]
+print('wartosci wlasne G(s):', ev, ' przy s=0:', [sp.simplify(e.subs(s,0)) for e in ev])
+# w bazie wlasnej (zaleznej od s) G' = diag(ev
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+X rzad 1  baza wlasna: [0, 0, 0, 2]  -> X'_22 = 2
+det(M^T X M) = 0
+G(s)=det = s**2/(s**2 + 2)
+wartosci wlasne G(s): [1, 1 - sqrt(2)/sqrt(s**2 + 2), 1 + sqrt(2)/sqrt(s**2 + 2)]  przy s=0: [1, 0, 2]
+Shell cwd was reset to /home/user/Logika-relacyjna
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Correct block 223 in the main file (correction 250)
+python3 - <<'EOF'
+P='logika-relacyjna-v3.5.md'
+s=open(P,encoding='utf-8').read()
+E=[]
+E.append(("- **PRZENIESIENIE `𝒢` Z 212 NA ZESPÓŁ TĄ DROGĄ NIE DZIAŁA — PRZESZKODĄ JEST 205 (poprawka 223) [T][O].**",
+"- **PRZENIESIENIE `𝒢` Z 212 NA ZESPÓŁ TĄ DROGĄ NIE DZIAŁA — PRZESZKODĄ JEST STAŁOŚĆ WZDŁUŻ ZMIANY OBIEKTU (Z1–Z3); 205 DOTYCZY TYLKO WARTOŚCI `𝒢`, NIE GRANICY (poprawki 223, 250) [T][O].**"))
+E.append(("**Wniosek: `𝒢 ≥ 0` i `𝒢′(s*) = 0` dają ZERO warunków na 8 stosunków Yukaw i na unormowanie.** Nie „jeszcze nie wyprowadzono\" — nie mogą, bo są stałe wzdłuż drogi, która te stosunki przestawia.",
+"**Wniosek: `𝒢 ≥ 0` i `𝒢′(s*) = 0` dają ZERO warunków na 8 stosunków Yukaw i na unormowanie.** Nie „jeszcze nie wyprowadzono\" — nie mogą, bo są stałe wzdłuż drogi, która te stosunki przestawia. *
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok 6
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate 223 statements in CLAUDE.md and register
+grep -n -o '.\{0,40\}\(własnością nazwania\|przeszkodą jest 205\|przeszkodą jest 205, nie brakujące\|Przeniesienia `𝒢` na zespół nie ma\|zmienne przy zmianie opisu\|test dwustronny\).\{0,200\}' CLAUDE.md NASTEPNA-SESJA.md poprawki.md | cut -c1-330
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+CLAUDE.md:46:���` jest stałe przy zmianie obiektu i zmienne przy zmianie opisu. **Trzy zera z trzech różnych powodów** (niezmienniczość, prostopadłość generatorów, unitarność) i rozstrzygające `det κ = det X/∏X_aa`. **I zaraz potem zarzut użytkownika, który tę
+CLAUDE.md:125:𝒢` z 212 na `α_i` i `y_f` nie ma, a przeszkodą jest 205.** Związek, o którym 212 pisała „tego nie ma", **stał w pliku o jeden wpis dalej** (217: `(X_f)_{ab} = √(I_aI_b)·κ_{ab}`) — i właśnie przez niego przeniesienie pada: `𝒢 = det κ` jes
+CLAUDE.md:125:więc „granica wewnętrzna `s*`" jest własnością nazwania, nie obiektu. **Jedno zdanie: `𝒢` jest stałe przy zmianie obiektu i zmienne przy zmianie opisu**, a wielkość o tych dwóch własnościach nie może ograniczać obiektu tam, gdzie jest stała. *
+CLAUDE.md:125:ź na stałe, jak rozsiew w 186, i daje test dwustronny na przyszłe warunki.** 212 nietknięta w swoim zakresie. **I na koniec sesji (224) zamknięta pierwsza połowa kroku 2, czyli zliczenie Ø-miejsc:** wychodzi **zero nowych warunków**, bo Ø-miejsce
+CLAUDE.md:225:- **Przeniesienia `𝒢` na zespół nie ma — przeszkodą jest 205 (223, §F1).** 217 daje `(X_f)_{ab} = √(I_aI_b)·κ_{ab}`, a `𝒢 = det κ` jest niezmiennicze wobec przeskalowania kolumn Yukawy i zależne od nazwania zapisów (`𝒢 = 
+CLAUDE.md:225:daje 1). **Stałe przy zmianie obiektu, zmienne przy zmianie opisu** — test dwustronny na przyszłe warunki. *(228: nie „na stałe" — dopóki struktura nie dostarczy bazy zapisów.)*
+CLAUDE.md:259:���` jest stałe przy zmian
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update CLAUDE.md, register, wzorcowa; commit and push 250
+python3 - <<'EOF'
+P='CLAUDE.md'
+s=open(P,encoding='utf-8').read()
+note250=" *(250: dotyczy tylko wartości `𝒢`; granica `𝒢 = 0 ⇔ det X = 0` nie zależy od nazwania — przeszkodą są Z1–Z3, nie 205, a test dwustronny stosuje się tylko do warunków na wartość.)*"
+E=[]
+o="więc „granica wewnętrzna `s*`\" jest własnością nazwania, nie obiektu."
+E.append((o, o+note250))
+o="- **Przeniesienia `𝒢` na zespół nie ma — przeszkodą jest 205 (223, §F1).**"
+E.append((o,"- **Przeniesienia `𝒢` na zespół nie ma — przeszkodą są Z1–Z3 (223, §F1; poprawione w 250).**"))
+o="*(228: nie „na stałe\" — dopóki struktura nie dostarczy bazy zapisów.)*"
+E.append((o, o+" *(250: zależność od nazwania dotyczy tylko wartości `𝒢`; granica `𝒢 = 0 ⇔ det X = 0` przy `X_aa > 0` jest niezmiennicza względem każdej odwracalnej zmiany na
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+cde60d3 250: 223 Z4 — wartość 𝒢 zależy od bazy, istnienie granicy nie; przeszkodą są Z1–Z3, nie 205
+````
+</details>
+
+## [187] Asystent — 2026-10-08 19:14
+
+Zarzut jest trafny i dotyczy więcej niż samego zdania z Z4: przez niego padał nagłówek bloku 223 i test dwustronny. Poprawiłem to jako 250, commit `cde60d3`, wypchnięty.
+
+**Rachunek potwierdza Twoją uwagę:**
+- Przy każdej odwracalnej zmianie nazw `det(MᵀXM) = |det M|²·det X`. Dla `[[1,1],[1,1]]` wyznacznik wychodzi 0 przy dowolnym `M`.
+- To samo widać na rodzinie kontrolnej z 212, gdzie `𝒢 = s²/(2+s²)`. Baza własna zależna od `s` daje `𝒢 = 1` dla `s ≠ 0`, ale jedna wartość własna, `1 − √2/√(2+s²)`, dąży do 0. Degeneracja nie znika, tylko przechodzi w znikanie normy jednego zapisu.
+
+**Co to zmienia w 223:**
+1. **Z4.** Zdanie o wartości `𝒢` wewnątrz obszaru dodatniej określoności zostaje (3/4 zmienia się na 1). Wycofane są dwa zdania: „z granicy można zejść, przenazywając zapisy” i „`s*` jest własnością nazwania, nie obiektu”. Granica jest własnością rodziny zapisów.
+2. **Nagłówek i werdykt „przeszkodą jest 205” były złe.** Wynik, że przeniesienia na `α_i`, `y_f`, CKM i `θ_QCD` nie ma, stoi, ale z innego powodu: na Z1–Z3.
+   - Z1: przy przeskalowaniu kolumn `det X` mnoży się przez dodatni czynnik, więc `𝒢` stoi w miejscu razem z granicą, w każdej bazie.
+   - Z2: zapisy cechowania są prostopadłe z konstrukcji, więc `𝒢 ≡ 1`.
+   - Z3: CKM leży na granicy zawsze.
+   
+   205 dotyczy tylko wartości `𝒢`, nie samej granicy.
+3. **Test dwustronny był regułą szerszą niż dowód**, tym samym rodzajem błędu co 222. Brzmiał: „odrzucić bez rachunku warunek stały przy zmianie obiektu i zmienny przy zmianie opisu”. Teraz dotyczy tylko warunków na wartość. Warunek na zbiór zer wyznacznika nie zmienia się przy zmianie opisu, więc zostaje dla niego tylko pierwsza połowa testu: stały przy zmianie obiektu, czyli niczego nie ogranicza.
+4. **Faza obiegowa:** zdanie „w bazie własnej znika” zawęziłem do dodatnio określonego `X`.
+
+**Mój błąd, z mechanizmem:** twierdzenie udowodnione dla wnętrza zastosowałem na brzegu, gdzie jego przesłanka nie zachodzi. Przegląd 228 obejrzał wtedy 223, przyciął tylko „na stałe” i tego nie złapał.
+
+Ten ruch dopisałem do pytania 4 w `SESJA-WZORCOWA.md`: „czy przesłanka twierdzenia zachodzi tam, gdzie je przykładam”. Hook przy wpisie do ramy będzie go teraz pokazywał. `CLAUDE.md` i rejestr mają oznaczenia (250) we wszystkich miejscach, które powtarzały stary wniosek.
+
+## [188] Użytkownik — 2026-10-08 20:19
+
+jak bys wytłumaczył komuś przesłankę P5 w definicji czasu
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Trace P5 in register, main file and user statements
+grep -n '^| 137 \|^| 128 ' poprawki.md | cut -c1-1500; echo ----; grep -n -o '.\{100\}\(σ_y ⊗ σ_y\|σ_y⊗σ_y\|σ_yσ_y\|rebit\|tomografi\).\{120\}' logika-relacyjna-v3.5.md | head; echo ----; python3 narzedzia/wypowiedzi.py 'tomografi|P5' 2>&1 | head -40
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+184:| 128 | **test wierności przekładu:** dla P0–P6 i dwóch założeń tła ¬P wyklucza się ze zdaniem ramy ([354], [270], [258], [36, 94], [394], sesja 25.09, [10], [80], [110]) → rama ⇒ P0–P6 ⇒ d = 3; zastrzeżenie „o ile przekład jest wierny” zastąpione (użytkownik wskazał, asystent wykonał) | R1b-F | **użytkownik** + asystent (v3.4) |
+193:| 137 | **numeracja 1–5 (R1a) i P0–P6 = kolejność czytania; d = 3 wybierają P1, P5, P6, pamięć = dostęp; ¬P5 = „cecha”; P5 wyklucza QM rzeczywistą (d=2) i kwaternionową (d=5); eksperymenty 2021–22 = potwierdzenie, nie podpora** | R1a, R1b-F | **użytkownik** (v3.5) |
+----
+247: rzeczywistą (d = 2) i kwaternionową (d = 5): obie **mają** splątanie, odpadają wyłącznie na tomografii lokalnej. Eksperymenty Renou i in., Nature 600, 625 (2021); Chen i in., PRL 128, 040403 (2022); Li i in., PRL 128, 040
+----
+=== claude-code-sesja-2026-09-24-2.md ## [113] Użytkownik — 2026-09-25 00:38
+Jeszcze kilka - narazie luźnych przemyśleń. Najpierw analiza zanim coś wpiszesz
+__________________________________________________________________________ 
+# Czas
+1. Orientacja nie jest wbudowana. W regułach wzrostu jedyną asymetrią jest ta między czytającym a czytanym, czyli samo czytanie. Odwrócenie ≺ tylko zamienia nazwy. 
+2. log e(C) nie ma orientacji. Liczba rozszerzeń liniowych porządku i porządku odwróconego jest taka sama. Miara „zapomnianego” z A4 zgadza się więc z definicją czasu. Do sprawdzenia: czy „rozproszone” z R1a to właśnie log e(C), co połączyłoby definic
+…[ucięto]
+````
+</details>
+
+## [189] Użytkownik — 2026-10-08 20:21
+
+This session is being continued from a previous conversation that ran out of context. The summary below covers the earlier portion of the conversation.
+
+Summary:
+1. Primary Request and Intent
+   - Project „Logika relacyjna” (Polish), session CC 13 (7–8.10.2026), branch `ccr-e3080631-0qjsjk`. The user holds absolutely to the frame in `logika-relacyjna-v3.5.md`; work follows `CLAUDE.md`, `STOP.md` and now `SESJA-WZORCOWA.md`.
+   - Requests in this segment, in order:
+     - Re-check 245 under the corrected criterion. Counting three spatial axes is a secondary description of 3D; treating time as an ordinary dimension is always an error; check what a notation carries and how it was computed. Done as 246.
+     - „Usuń »moje kryterium«…”. Replace the user's quoted criterion with its derivation from the definition of time and 3D and its formal record (R1a, R1b-F, R1c-F), then check everything again. Done as 247.
+     - Asked whether this will stop a new session repeating the errors. User: „zrób oba i zobaczymy”, meaning the `NASTEPNA-SESJA.md` note plus an agent test. Done as 248, together with the Wick fix.
+     - Create a short "model session" made only of how work should look. Every new session reads it at the start, and re-reads it to check its own results. Done as `SESJA-WZORCOWA.md`, 249.
+     - Check the user's objection to 223 Z4 (𝒢 zależy od bazy, ale istnienie granicy nie). Done as 250.
+     - **Latest, pending:** „jak byś wytłumaczył komuś przesłankę P5 w definicji czasu”.
+   - Standing constraints (keep):
+     - speak Polish;
+     - do not write the two terms named by the user into files [omitted];
+     - no external evaluations in session transcripts;
+     - never send the user's email to any service;
+     - push only to `ccr-e3080631-0qjsjk`;
+     - do NOT create a PR unless asked;
+     - check the user's proposals like any sentence;
+     - don't ask for evaluation — decide by structure;
+     - STOP test before every entry;
+     - don't swing from one extreme to the other;
+     - check what something follows from;
+     - main file holds content with status; history goes to `poprawki.md` and transcripts;
+     - „kto co napisał” is not marked in the main file;
+     - never give a position to Ø, tło (v) or Planck;
+     - `masa/` is the user's work — do not edit it.
+   - Commit attribution (exactly):
+     ```
+     Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+     Claude-Session: https://claude.ai/code/session_01SGBPskcycFyGFcLRaaeiDP
+     ```
+
+2. Key Technical Concepts
+   - **Derivation of the dimension criterion (R1a, R1b-F, R1c-F).**
+     - Formal record: `X = x⁰·𝟙 + x·σ`.
+     - The three components `x` are three complementary readings: Lemat 1 (`d` = number of mutually complementary readings needed to fix a state) and Wniosek 1 (`rᵢ = 2E_{eᵢ}(ω) − 1`).
+     - `x⁰` stands at 𝟙. It distinguishes no two states (`tr ρ = 1` for every state), it is the normalization, i.e. the section of the cone and the reader's own frame (R1c pkt 1). It enters `det X = (x⁰)² − |x|²` with the opposite sign, and `K_A = 4 = 1 + 3`.
+     - Hence an axis is a choice of a triad of complementary readings. The number of axes is fixed by closure (`d − 2 = 1`), so counting spatial axes describes 3D. Counting time as an ordinary dimension makes 𝟙 a fourth σ, which kills the cone. The computation decides, not the letter.
+     - R1b-F D0 defines „Przestrzeń := Bᵈ”. R1c pkt 8 writes the cone in ℝ^{1,d}.
+     - R1c-F uses „μ (r = 0) ⇔ oś czasu czytającego” as a formal label; its frame reading is the section, not a fourth axis.
+   - **Notations checked against the criterion.**
+     - Nielsen's Hamiltonian derivation (Landau plane plus one free direction, time entering as mode energy) is legitimate. Logarithm ⇔ `d − 2 = 1` is R1b Wniosek 1.
+     - `M^{4−D} = M^{3−d}`: `x⁰` enters as a constant 1, so the content is the same.
+     - „3 = D − 1” in γ_m counts `x⁰`: γ⁰ is the 𝟙 block in the Weyl representation, and the spatial transverse projector has trace 2.
+     - Wick rotation: a number computed with it is fine; a reading that takes structure from it (SO(4), imaginary time) is not.
+     - Myrheim–Meyer interval-scaling „dimension” is a container exponent.
+   - **250.** `𝒢 = det κ = det X/∏X_aa`.
+     - The value of 𝒢 depends on basis: 3/4 → 1 in the eigenbasis of a positive-definite `X`.
+     - Existence of the boundary does not: with `X_aa > 0`, `𝒢 = 0 ⇔ det X = 0`, and `det(MᵀXM) = |det M|²·det X`.
+     - `[[1,1],[1,1]]` in its eigenbasis is `diag(2,0)`, so the normalization is undefined.
+     - On the 212 control family, an s-dependent eigenbasis turns the degeneracy into a vanishing record norm (`1 − √2/√(2+s²) → 0`).
+     - The obstacle to transferring 𝒢 to the ensemble is Z1–Z3 (constancy along object change, together with the boundary; orthogonality; unitarity), not 205. The two-sided test applies only to value conditions.
+   - **P5** (the pending question), as it stands in R1b-F:
+     - P5 — span{ω_A ⊗ ω_B} = ℝ^{K_A} ⊗ ℝ^{K_B}, tj. K_AB = K_A·K_B (tomografia lokalna).
+     - *Rama:* „wzbudzenia i relacje są lokalne” [270].
+     - *¬P5:* różnica stanów pary niesiona przez nic poza nią samą = **cecha** [36, 94] (137).
+     - Role (137): P0, P2, P3 give a ball of any dimension; **d = 3 is selected by P1, P5 and P6**. P5 excludes real (d = 2) and quaternionic (d = 5) quantum theory; both have entanglement and fail only on local tomography.
+     - Experiments Renou et al., Nature 600, 625 (2021); Chen et al., PRL 128, 040403 (2022); Li et al., PRL 128, 040402 (2022) are „potwierdzeniem, nie podporą”.
+     - The user's [113] note in CC 2 said the same: „P5 dźwiga wykluczenie rzeczywistej (d = 2) i kwaternionowej (d = 5)… ¬P5 oznacza różnicę pary niesioną przez nic poza nią samą, czyli »cechę«”.
+     - Standard counting (for the explanation): K = d + 1. Complex qubit K = 4, and 4·4 = 16 = dim of 4×4 Hermitian matrices. Real rebit K = 3, 3·3 = 9 < 10 = dim of real symmetric 4×4; the extra parameter is σ_y⊗σ_y, invisible to local readings.
+
+3. Files and Code Sections
+   - **`logika-relacyjna-v3.5.md`**
+     - **246:**
+       - 155 A row restored: logarithm only at d = 3 (R1b), as R1b Wniosek 1.
+       - 155 B: „3 = D − 1” withdrawn with the time-as-axis reason.
+       - 155 D: 3 polarizations restored.
+       - 155 Wynik: restored.
+       - R1e: d − 1 polarizations; (26 − D)/3 restated via `d = D − 1`; [O] „tylko przy d = 3 spinowe”; s(s+1) „trzech osi czytającego”.
+       - R1f-1: „d = 4 — R4; 3+1 punkty, słownik”.
+       - §F0: rows restored; header (243–246).
+       - Lists 147, STAN ZESPOŁU, Veltman, R4 rodziny: restored.
+       - Pułapka 5 and a §E sub-bullet under rule 185 added.
+     - **247:**
+       - §E sub-bullet rewritten as the derivation „Osie przestrzenne a czas liczony jak oś — skąd to (poprawki 246, 247)”, with no user quote.
+       - Pułapka 5 shortened.
+       - Glossary row rewritten: „trzy odczyty komplementarne i 𝟙 … skalowanie liczebności przedziałów (Myrheim–Meyer) mierzy wykładnik pojemnika”.
+       - 155 A: `M^{4−D} = M^{3−d}`.
+       - 155 B: precise reason (γ⁰ blok 𝟙, ślad 2).
+       - R1e: D includes and then removes the time component.
+       - §F1 Wigner restored: „własna oś czasu (R1c-F: μ ⇔ oś czasu czytającego, czyli kierunek 𝟙 — w ramie własny przekrój stożka, nie czwarta oś, R1c pkt 1; P = m·𝟙 we własnej ramie, m = faza na własne tyknięcie, R1f-3)”.
+     - **248:** the §E Wick example narrowed to the reading (numbers computed after Wick stay, 155 A).
+     - **250:** block 223 in §F1:
+       - heading → „PRZESZKODĄ JEST STAŁOŚĆ WZDŁUŻ ZMIANY OBIEKTU (Z1–Z3); 205 DOTYCZY TYLKO WARTOŚCI `𝒢`, NIE GRANICY (poprawki 223, 250)”;
+       - Z1 now holds together with the boundary in every basis;
+       - Z4 rewritten (value vs. boundary, the two checks);
+       - werdykt rewritten;
+       - phase paragraph limited to positive-definite `X`;
+       - STOP test rewritten (two-sided test only for value conditions).
+   - **`STOP.md`:** in „Czego nigdy”, the bullet now carries the derivation (x⁰ at 𝟙, `K_A = 1 + 3`, three axes = three complementary readings; the computation decides, not the letter; §E pod 185; 246, 247). About 6.9k chars.
+   - **`SESJA-WZORCOWA.md`** (new, 249, ≈8.5k chars):
+     - „Skąd się biorą ruchy”: [10], R1b-A (i)/(ii), `X = x⁰·𝟙 + x·σ`, łańcuch Ø.
+     - Nine cases:
+       1. T⁴;
+       2. interwał;
+       3. „d = 3” (245–247);
+       4. entropy on sprinkling (170, 186);
+       5. affine parameter (191);
+       6. silence vs. transparency (211);
+       7. position of Planck and v (227–229, 240; R1d „Trzy punkty otwarte” pkt 1);
+       8. „[94] pkt 4” (225);
+       9. Veltman (168).
+     - „Sprawdzenie własnego wyniku”: eight questions. Question 4 was extended in 250 with „czy przesłanka twierdzenia zachodzi tam, gdzie je przykładam”.
+     - Footer: „*Nowy przypadek dopisać tylko wtedy, gdy pokazuje ruch, którego tu nie ma. Przypadki 1–2 były testem w 248…*”
+   - **`narzedzia/start.sh`:** after `cat STOP.md`, two echo lines pointing to SESJA-WZORCOWA.md (startup output measured at 7.9k chars).
+   - **`narzedzia/stop.sh`:** for main-file and register writes, after the „Czego nigdy” sed, it now also runs:
+     ```
+     sed -n '/^## Sprawdzenie własnego wyniku/,/^\*Nowy przypadek/p' "$CLAUDE_PROJECT_DIR/SESJA-WZORCOWA.md" | sed '$d'
+     ```
+     Tested; works.
+   - **`CLAUDE.md`:**
+     - „Jak pracujemy” bullet for SESJA-WZORCOWA;
+     - „Pliki” row for SESJA-WZORCOWA;
+     - 3D index bullet with the derivation (no user quote);
+     - map bullets for 245 (marked partly reversed), 246, 247;
+     - CC 13 paragraph extended through 250;
+     - 223 notes „(250: …)” in the CC 12 paragraph and the 223 map bullet (heading „przeszkodą są Z1–Z3”);
+     - step 2 text updated;
+     - „Wyprowadzony (155)” line restored.
+   - **`poprawki.md`:** rows 246, 247, 248, 249, 250 appended. Pointers added at the ends of rows 223, 245 and 246.
+   - **`NASTEPNA-SESJA.md`:** two notes at the top.
+     - „Najpierw `SESJA-WZORCOWA.md`…”.
+     - Read R1b-F (D0, Lemat 1), R1c-F and §E pod 185 before any sentence about D, d, axes or time as a dimension (step 12 especially).
+     - The old step-4 body remains, marked stale.
+   - **`rozmowa/claude-code-sesja-2026-10-07.md`:** regenerated with `narzedzia/transkrypt.py`. Last regeneration was at 248 (181 messages), so it does not yet include 249–250 or the P5 question.
+   - **Scratchpad** (`/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/`): `p246.py`, `p247.py`, `test-klucz.md` (pre-registered test key).
+   - **Commits:** 6803308 (246), ccb7bad (247), 0c1e4fb (Wick + NASTEPNA), 25268e7 (248), d688b4f (249), cde60d3 (250). All pushed.
+
+4. Errors and fixes
+   - **245 over-corrected:** it withdrew every „d = 3” as „counting axes”, contradicting D0. It also wrote „przy D = 4 osiach” itself, and called a reading that removes time „error 168”. Fixed in 246 after the user's correction.
+   - **246 corrected by the letter:** `M^{4−D}` and „własna oś czasu” (an R1c-F label) were changed for their wording. Fixed in 247 after the user demanded the derivation instead of the quoted dictum.
+   - **Glossary contradiction:** it read „d = 4 mierzone skalowaniem liczebności przedziałów” (Myrheim–Meyer), contradicting STOP.md. Fixed in 247.
+   - **§E listed „obrót Wicka” unqualified as an error:** that risked rejecting β coefficients (a 245-type error). Fixed in 248.
+   - **223 Z4 (my CC 12 entry):** it transferred the positive-definite theorem onto the boundary („z granicy można zejść przenazwaniem”, „s* własnością nazwania”, „przeszkodą jest 205”, an over-broad two-sided test). Found by the user; fixed in 250. The 228 review had missed it.
+   - **Email check:** the transcript contained the user's email only in a git-log author line, already present in the repo's history. No action taken.
+   - **Mechanisms named:** criterion hung on the form of notation (genus 222); swinging between extremes; a rule broader than its proof; a theorem applied where its premise fails.
+
+5. Problem Solving
+   - The dimension criterion is now derived, not dictated.
+   - The agent test gave 5/5, with limits recorded: each case was anchored in §E, the question was explicitly about dimensions, there was one sample, an agent is not a session, and the cases are now spent.
+   - SESJA-WZORCOWA is hooked into the start and stop hooks.
+   - The 223 boundary error is fixed; the result of 223 (no transfer of 𝒢) stands on Z1–Z3.
+   - Told the user that a new session cannot self-assess whether this worked. Only a test with a hidden key (the user would need to hold it outside the repo) or the user's observation of whether errors recur in background tasks can tell.
+
+6. All user messages
+   - „To jest wybitnie podchwytliwe. Zwłaszcza w zestawieniu z literaturą. Liczenie Trzy osie nie zawsze są błędem. To jest wtórny opis 3D. Błędem zawsze jest traktowanie czasu jak zwyklego wymiaru. Sam zapis d=3 to tez nie jest automatycznie błąd. Zawsze trzeba sprawdzic, co ten zapis niesie i jak bylo liczone. Sprawdz wszystko raz jeszcze.”
+   - „Usuń "moje kryterium" bo one jest jak nakaz, bez uzasadnienia. To kryterium wynika z definicji czasu i 3D. Oraz z formalizmu zapisu tej definicji w pliku. Przeczytaj to i sprawdz jeszcze raz wszystko. Bo musisz wiedziec dlaczego takie podejscie do wymiarów i czasu. Bez rozumienia skąd to i dlaczego błędy beda sie tylko mnożyć”
+   - „Czy taki zapis spowoduje, że nowa sesja bez calego kontekstu nie popełni juz tych błędów?”
+   - „A skąd mam wiedzieć. Skoro ty sam nie wiesz. Ja moge tylko powiedziec, zrób oba i zobaczymy. Ale czy nowa sesja bedzie w stanie powiedziec czy to zadziałało...”
+   - (Stop hook feedback: uncommitted changes — committed and pushed.)
+   - „To może inaczej. Zróbmy jedną krótką sesje, która bedzie sie składac wylącznie z tego jak ma wyglądac praca. Coś podobnego jak ten agent robil. Ta mini sesja bedzie dostępna, zeby każda nowa mogła ją przeczytac na poczatku. A kolejny raz moglaby ja czytac, zeby sprawdzic czy to co policzyla/ustalila jest caly czas zgodne i niczego nie przemyca.”
+   - „Sprawdz jeszcze jedną rzecz: 𝒢 = det κ = det X/∏_a X_aa. 𝒢 zależy od bazy. Przykład zmiany 3/4 na 1 Nie wynika z niego jednak zdanie, że „z granicy 𝒢=0 można zawsze zejść, przenazywając zapisy”. Dopóki normalizacja jest określona, czyli wszystkie X_aa>0, 𝒢=0 ⇔ det X=0. Zmiana bazy nie usuwa zerowego wyznacznika. Dla przykładu X=[[1,1],[1,1]] ma rząd jeden. W bazie własnej otrzymasz diag(2,0), ale wtedy normalizacja drugiej kolumny jest niezdefiniowana — nie otrzymasz κ=1. Wniosek dotyczący macierzy dodatnio określonych został więc przeniesiony na granicę, na której macierz przestaje być dodatnio określona. Zależność wartości miary od bazy nie oznacza zależności samego istnienia degeneracji od bazy.”
+   - „jak bys wytłumaczył komuś przesłankę P5 w definicji czasu”
+
+7. Pending Tasks
+   - **Answer the P5 question** in Polish. Ground it in R1b-F: P5 text, its „Rama” line [270], ¬P5 = cecha [36, 94] (137), and the role of P5 among the premises. Before answering, follow SESJA-WZORCOWA: read R1b-F P5 and its surroundings, and use `wypowiedzi.py --nr 137 --wymiana` / [270] for the path.
+   - **End-of-session tasks (when the session ends):**
+     - re-save the transcript (`python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-07.md --tytul … --opis …`, extended to 249–250);
+     - rewrite `NASTEPNA-SESJA.md` for the chosen next step (step 12, „α z progami”, recommended; 10 and 11 deferred — the user hasn't chosen), keeping the two top notes;
+     - update `CLAUDE.md`;
+     - commit and push.
+
+8. Current Work
+   - 250 was just completed (commit cde60d3). Block 223 Z4 is corrected per the user's objection, and SESJA-WZORCOWA question 4 is extended.
+   - Then the user asked: „jak bys wytłumaczył komuś przesłankę P5 w definicji czasu”. No answer has been given yet; the compaction request came immediately after.
+
+9. Optional Next Step
+   - Answer the user's question „jak bys wytłumaczył komuś przesłankę P5 w definicji czasu” in Polish, as an explanation and not a frame entry. Build it from R1b-F:
+     - P5 (span{ω_A⊗ω_B} = ℝ^{K_A}⊗ℝ^{K_B}, K_AB = K_A·K_B) means the state of a pair is fully fixed by joint statistics of local readings of each carrier.
+     - The frame reason: „wzbudzenia i relacje są lokalne” [270]. ¬P5 would mean a difference of pair states carried by nothing but the pair itself, visible in no relation of readings — a „cecha” [36, 94]. This is the same (i)/(ii) shape as R1b-A applied to the pair.
+     - Counting example: complex qubit K = 4 and 4·4 = 16 matches; real rebit K = 3 and 3·3 = 9 < 10, so σ_y⊗σ_y is invisible locally; the quaternionic case is likewise.
+     - Role: together with P1 and P6, P5 selects d = 3. It alone excludes real (d = 2) and quaternionic (d = 5) theory, which both have entanglement.
+     - The experiments (Renou et al. 2021; Chen et al. 2022; Li et al. 2022) are confirmation, not support.
+     - Explain how P5 ties into the definition of time only as far as the file supports it: R1b-F is the formal record of the R1a definition, and pamięć/zapis is a record about another system, Wniosek 2. Avoid overreach.
+     - Before writing, check the exact P5 text and [137] via `wypowiedzi.py --nr 137 --wymiana` per SESJA-WZORCOWA case 8.
+
+If you need specific details from before compaction (like exact code snippets, error messages, or content you generated), read the full transcript at: /root/.claude/projects/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe.jsonl
+Continue the conversation from where it left off without asking the user any further questions. Resume directly — do not acknowledge the summary, do not recap what was happening, do not preface with "I'll continue" or similar. Pick up the last task as if the break never happened.
+
+The messages after this summary are the most recent messages from before compaction, kept verbatim. The summary was written without seeing them, so something it says has not happened yet may already have happened in them.
+
+## [190] Asystent — 2026-10-08 20:21
+
+You've hit your weekly limit · resets Oct 12, 4am (UTC)
+
+## [191] Użytkownik — 2026-10-08 20:22
+
+Try again
+
+## [192] Asystent — 2026-10-08 20:22
+
+You've hit your weekly limit · resets Oct 12, 4am (UTC)
+
+## [193] Użytkownik — 2026-10-12 22:40
+
+W folderze "masa" jest plik główny i poprawki z kilkoma nowymi wpisami.
+Oraz kilka nowych plików, To moja kontynuacja od ostatniej sesji
+Zapoznaj się z tym dokładnie
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check git state, fetch remote, list masa folder
+git status --short | head; git log --oneline -3; git fetch origin 2>&1 | tail -3; git branch -a; git log --oneline -5 origin/ccr-e3080631-0qjsjk 2>/dev/null; ls -la masa/
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+cde60d3 250: 223 Z4 — wartość 𝒢 zależy od bazy, istnienie granicy nie; przeszkodą są Z1–Z3, nie 205
+d688b4f 249: SESJA-WZORCOWA.md — krótka sesja o tym, jak ma wyglądać praca
+25268e7 248: obrót Wicka w §E — błędem odczyt, nie liczba; NASTEPNA-SESJA; test na agencie bez kontekstu (5/5, granice nazwane)
+From https://github.com/13pawelkus-arch/Logika-relacyjna
+   cde60d3..edffa12  ccr-e3080631-0qjsjk -> origin/ccr-e3080631-0qjsjk
+   008b24b..7942604  claude/quirky-hawking-os26y5 -> origin/claude/quirky-hawking-os26y5
+  ccr-66a8cb7a-vj7583
+* ccr-e3080631-0qjsjk
+  remotes/origin/ccr-66a8cb7a-vj7583
+  remotes/origin/ccr-e3080631-0qjsjk
+  remotes/origin/claude/blissful-tesla-lsqepi
+  remotes/origin/claude/new-session-7q12xr
+  remotes/origin/claude/quirky-hawking-os26y5
+edffa12 Add files via upload
+9bf2ff1 Add files via upload
+e5373c0 Add files via upload
+cde60d3 250: 223 Z4 — wartość 𝒢 zależy od bazy, istnienie granicy nie; przeszkodą są Z1–Z3, nie 205
+d688b4f 249: SESJA-WZORCOWA.md — krótka sesja o tym, jak ma wyglądać praca
+total 252
+drwxr-xr-x  2 root root  4096 Oct  8 03:53 .
+drwxr-xr-x 10 root root  4096 Oct  8 17:46 ..
+-rw-r--r--  1 root root 27662 Oct  7 05:45 1 mapa-odczytu-skladnikow-masy-2026-10-04 (1).md
+-rw-r--r--  1 root root 11983 Oct  7 05:45 2 sprawdzenie-mapy-masy-2026-10-04 (1).py
+-rw-r--r--  1 root root 22291 Oct  7 05:45 3 pary-M-O-amplituda-2026-10-04 (1).md
+-rw-r--r--  1 root root 20699 Oct  7 05:45 4 higgs-LR-propagacja-wagi-2026-10-04 (1).md
+-rw-r--r--  1 roo
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show files changed in the user's upload commits
+git diff --stat cde60d3 origin/ccr-e3080631-0qjsjk; git log --format='%h %an %ad %s' --date=iso -5 origin/ccr-e3080631-0qjsjk
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+masa/logika-relacyjna-v3.5.md                      | 3258 ++++++++++++++++++
+ masa/poprawki.md                                   |  340 ++
+ masa/przyporzadkowanie realizacji dynamicznej.md   | 3472 ++++++++++++++++++++
+ ...unkt4-przygotowanie-energia-zapis-2026-10-12.md |  278 ++
+ masa/test-domkniecia-2026-10-12.md                 |  263 ++
+ 5 files changed, 7611 insertions(+)
+edffa12 13pawelkus-arch 2026-10-13 00:37:13 +0200 Add files via upload
+9bf2ff1 13pawelkus-arch 2026-10-13 00:33:49 +0200 Add files via upload
+e5373c0 13pawelkus-arch 2026-10-13 00:31:35 +0200 Add files via upload
+cde60d3 Claude 2026-10-08 19:14:28 +0000 250: 223 Z4 — wartość 𝒢 zależy od bazy, istnienie granicy nie; przeszkodą są Z1–Z3, nie 205
+d688b4f Claude 2026-10-08 17:46:56 +0000 249: SESJA-WZORCOWA.md — krótka sesja o tym, jak ma wyglądać praca
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fast-forward to remote and list file sizes
+git pull --ff-only origin ccr-e3080631-0qjsjk 2>&1 | tail -3; ls -la masa/; wc -c masa/logika-relacyjna-v3.5.md logika-relacyjna-v3.5.md masa/poprawki.md poprawki.md "masa/przyporzadkowanie realizacji dynamicznej.md" masa/*2026-10-12.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+create mode 100644 masa/przyporzadkowanie realizacji dynamicznej.md
+ create mode 100644 masa/punkt4-przygotowanie-energia-zapis-2026-10-12.md
+ create mode 100644 masa/test-domkniecia-2026-10-12.md
+total 1428
+drwxr-xr-x  2 root root   4096 Oct 12 22:40 .
+drwxr-xr-x 10 root root   4096 Oct  8 17:46 ..
+-rw-r--r--  1 root root  27662 Oct  7 05:45 1 mapa-odczytu-skladnikow-masy-2026-10-04 (1).md
+-rw-r--r--  1 root root  11983 Oct  7 05:45 2 sprawdzenie-mapy-masy-2026-10-04 (1).py
+-rw-r--r--  1 root root  22291 Oct  7 05:45 3 pary-M-O-amplituda-2026-10-04 (1).md
+-rw-r--r--  1 root root  20699 Oct  7 05:45 4 higgs-LR-propagacja-wagi-2026-10-04 (1).md
+-rw-r--r--  1 root root   9011 Oct  7 05:45 5 higgs-LR-kontrola-2026-10-04.py
+-rw-r--r--  1 root root  17512 Oct  7 05:45 6 higgs-tlo-nierozroznialnosc-2026-10-04 (1).md
+-rw-r--r--  1 root root  24336 Oct  7 05:45 7 LR-odczyt-A-dopasowanie-2026-10-04 (1).md
+-rw-r--r--  1 root root  25260 Oct  7 05:45 8 yukawy-nu-roznica-slaba-odczyt-2026-10-04 (1).md
+-rw-r--r--  1 root root  25996 Oct  7 05:45 9 pary-M-O-EM-2026-10-05 (1).md
+-rw-r--r--  1 root root   9296 Oct  8 03:53 linki-separatory-jadro.md
+-rw-r--r--  1 root root 651865 Oct 12 22:40 logika-relacyjna-v3.5.md
+-rw-r--r--  1 root root 302134 Oct 12 22:40 poprawki.md
+-rw-r--r--  1 root root 202058 Oct 12 22:40 przyporzadkowanie realizacji dynamicznej.md
+-rw-r--r--  1 root root  16480 Oct 12 22:40 punkt4-przygotowanie-energia-zapis-2026-10-12.md
+-rw-r--r--  1 root root  17232 Oct 12 22:40
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Diff root poprawki.md against masa copy
+diff <(sed 's/\r$//' poprawki.md) <(sed 's/\r$//' masa/poprawki.md) | head -5; echo; diff <(sed 's/\r$//' poprawki.md) <(sed 's/\r$//' masa/poprawki.md) | grep -c '^[<>]'; diff <(sed 's/\r$//' poprawki.md) <(sed 's/\r$//' masa/poprawki.md) | grep '^<' | cut -c1-200 | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+300c300
+< | 223 | **PRZENIESIENIE `𝒢` NA ZESPÓŁ NIE ISTNIEJE, A PRZESZKODĄ JEST 205 — NIE BRAKUJĄCE WYPROWADZENIE [T][O].** Krok 2 w części, jaką mu dała 212 („przeniesienie warunku na `α_i` albo `y_f` wymaga najpierw wyprowadzenia ich związku z tymi nakładaniami, a tego **nie ma**"). Pytanie postawione wedle 222 — **nie** „czy `s*` jest nastawiane, bo warunek jest niejawny", tylko **co jest w `κ_{ij}`**. Na kartce; skryptu nie było (STOP pkt 1). **Rozstrzygnięcie (b): związek ISTNIEJE, stoi w 217 o jeden wpis dalej, i właśnie przez niego przeniesienie jest niemożliwe.** **[O] Gdzie stał:** 217 ma `(X_f)_{ab} = √(I_aI_b)·κ_{ab}` z adnotacją „dodatniość Grama dotyczy `κ` (to jest obiekt z 212), a `X` niesie ponadto siły `I_a`" — czyli `κ` zespołu to znormalizowany Gram kolumn Yukawy. **[T] Z1 — `𝒢` jest ściśle niewrażliwe na to, czego zespołowi brakuje:** przy `Y → YD`, `D = diag(d_a) > 0`, jest `I_a → d_a²I_a`, a `κ_{ab}` **bez zmiany** (`d` skraca się z dwoma pierwiastkami), więc `𝒢 = det κ` jest niezmiennikiem tej operacji, podczas gdy stosunki wartości singularnych przebiegają swobodnie — kontrola 217 wybrana tam przed rachunkiem: `diag(1,2,3)` i `diag(1,3,5)` mają **ten sam `κ = 𝟙`**, a stosunki `2,3` wobec `3,5`. **ZERO warunków na 8 stosunków Yukaw i unormowanie**, i nie „jeszcze nie wyprowadzono", a nie mogą. **[T] Z2 — w sektorze cechowania granicy wewnętrznej nie ma wcale:** dla `R^A = g_a t^A` jest `⟨R^A‖R^B⟩ = g_a²T_a(R)δ^{AB}` (dokładnie druga kontrakcja z 217, ta
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract new register rows from masa copy
+diff <(sed 's/\r$//' poprawki.md) <(sed 's/\r$//' masa/poprawki.md) | sed -n '/^327a328/,$p' | sed 's/^> //' > /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/nowe-poprawki.md; wc -c /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/nowe-poprawki.md; cut -c1-120 /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/nowe-poprawki.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+28995 /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/nowe-poprawki.md
+327a328,340
+| 251 | **α A ODWROTNY ILORAZ DWÓCH OBIEGÓW [L][T].** Korekta 09.10.2026: w R1d-F stało `α = promień Bohra / zredu
+| 252 | **PEŁNY PRÓG α: CIĄGŁA WAGA ODCZYTU MAS [A][T], NIE WYPROWADZENIE WARTOŚCI.** Konsekwencja jednopętlowej 
+| 253 | **α Z POMIARÓW DOPUSZCZONA TERAZ; POCHODZENIE STOSUNKÓW PRZY MASIE POZOSTAJE CELEM [H].** Doprecyzowanie uży
+| 254 | **PEŁNY PRÓG α DAJE ODCZYT WAŻONEGO ZBIORU MAS, NIE WYBÓR HIERARCHII [A][T][P].** Rachunek 09.10.2026, z oc
+| 255 | **CZĘŚĆ HADRONOWA α BEZ JEDNOSTEK, Z PEŁNĄ WAGĄ ODNIESIENIA [L][T][P][O].** Przy `χ=(q₁/q₂)²`, `v=(
+| 256 | **POCHODZENIE WAGI MASOWEJ EM: KONTRAKCJE, PROPAGATORY I NORMALIZACJA; DZIAŁANIE POZOSTAJE WEJŚCIEM [A][T][P][
+| 257 | **JĄDRA, WIERZCHOŁEK I WAGI JEDNEGO DZIAŁANIA: WYMUSZONE POWIĄZANIA, WYBÓR KLASY NADAL OTWARTY [A][T][P][L]
+| 258 | **GLOBALNY WIĘZ I LOKALNE FLUKTUACJE; AUTONOMIA DYNAMIKI BEZ TRZECIEJ ZASADY [H][A][T][L][O].** Doprecyzowanie 
+| 259 | **JĄDRO I WAGI Z JEDNEJ PEŁNEJ RELACJI; REGUŁA PRZYPORZĄDKOWANIA I TEST WIERNOŚCI [A][T][P][L].** Krok 09.1
+| 260 | **WSPÓLNA REDUKCJA JĄDRA, SPRZĘŻENIA I NORMALIZACJI ODCZYTU; KONSTRUKTYWNY KROK DLA L/R I EM [T][P][L].** Do
+| 261 | **α I MASA Z TEGO SAMEGO WIDMA EM; PEŁNA POLARYZACJA L/R I SEKTOR JEDNEJ VP W PRZEJŚCIU A/B [T][P][L].** Krok
+| 262 | **PEŁNE MASOWE DOPASOWANIE O(α²) WEKTOROWEGO QED, Z ITERACJĄ A/B I PEŁNYMI PROGAMI [L][T][P
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/nowe-poprawki.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	327a328,340
+2	| 251 | **α A ODWROTNY ILORAZ DWÓCH OBIEGÓW [L][T].** Korekta 09.10.2026: w R1d-F stało `α = promień Bohra / zredukowana długość Comptona`; to iloraz odwrotny. Z tożsamości `λ̄_C = α·a₀` wynika `α = λ̄_C/a₀`, a `a₀/λ̄_C = α⁻¹`. W A2 liczba 137,036 była poprawna dla podanego ilorazu, błędne było oznaczenie wiersza jako α zamiast α⁻¹. Źródło kontroli definicji: [NIST, tablica CODATA](https://pml.nist.gov/cuu/pdf/wall_2018.pdf). Wyniki o biegu α pozostają bez zmiany. | R1d-F (QED); A2 („Ładunek, sprzężenia, α”); §F0 (przykład odczytu w punkcie) | asystent (kontrola i korekta, wpis autoryzowany przez użytkownika) |
+3	| 252 | **PEŁNY PRÓG α: CIĄGŁA WAGA ODCZYTU MAS [A][T], NIE WYPROWADZENIE WARTOŚCI.** Konsekwencja jednopętlowej fermionowej `F_γ` z §F0: `w_γ(r) = 3rF_γ′(r) = 6∫₀¹[r·x²(1−x)²/(1+r·x(1−x))]dx`; `w_γ(0)=0`, `w_γ(∞)=1`, pochodna dodatnia. Dla samego wkładu fermionowego `d(1/α)/dt = −(2/3π)Σ_f N_cQ_f²w_γ((q/m_f)²)`, `t=ln(q/q₀)=ln(n₀/n)`. Pełny próg rozróżnia ilorazy rozdzielczości do mas, podczas gdy z dala od progów nachylenie zlicza wagi aktywnych kanałów. Wpis zawiera „Spodziewam się”, zdanie o upadku, jawne wejścia i rachunek granic. Zakres: znana jednopętlowa odpowiedź fermionowa; W i część hadronowa mają osobne odpowiedzi. Nie jest to nowa predykcja ramy ani wybór wartości mas. Kierunek dalszy: ta sama odpowiedź polaryzacji próżni w biegu α i we wkładzie do własnej energii przy przejściu A/B (214, 218); pełnego drugiego rzędu nie zastępuje podstaw
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Diff root main file against masa copy
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad; diff <(sed 's/\r$//' logika-relacyjna-v3.5.md) <(sed 's/\r$//' masa/logika-relacyjna-v3.5.md) > $S/diff-rama.txt; wc -c $S/diff-rama.txt; grep -c '^[0-9]' $S/diff-rama.txt; grep '^[0-9]' $S/diff-rama.txt | head -80
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+61839 /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/diff-rama.txt
+24
+38a39,40
+160a163,176
+185c201
+195c211
+199c215
+320c336
+373a390,395
+486c508
+920c942
+924c946
+930c952,960
+950a981,985
+954c989,990
+956c992
+969c1005,1104
+972,974c1107,1112
+977c1115
+1011c1149
+1020c1158
+1026a1165,1166
+1029c1169
+1071c1211
+1074c1214
+1128c1268
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Rejestr — nowe wiersze
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #13 created successfully: Przeczytać nowe wpisy 251–263 w masa/poprawki.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Wszystkie 24 hunki
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #14 created successfully: Przeczytać diff masa/logika-relacyjna-v3.5.md wobec pliku głównego (62 tys. znaków)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Kawałkami
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #15 created successfully: Przeczytać 'przyporzadkowanie realizacji dynamicznej.md' (202 tys.) w całości
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Dwa pliki po ~17 tys.
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #16 created successfully: Przeczytać punkt4-przygotowanie-energia-zapis i test-domkniecia (12.10)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Bez wpisów do ramy; tylko zapoznanie
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #17 created successfully: Raport dla użytkownika: co jest, co wynika, co niesprawdzone, czego brakuje
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #13 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #14 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/diff-rama.txt
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	38a39,40
+2	> **Doprecyzowanie celu, 09.10.2026 (260):** definicje czasu i 3D mają obecnie przede wszystkim charakter porządkujący: usuwają źle postawione pytania i upraszczają opis. Idziemy dalej do miejsca, w którym ten sposób patrzenia zmienia organizację formalizmu istniejącej fizyki. Sam nowy opis lub odtworzenie znanego wyniku nie jest jeszcze taką zmianą; trzeba wskazać, jaki rachunek został związany, uproszczony albo jaki niezależny wybór został usunięty.
+3	> 
+4	160a163,176
+5	> **CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawka 258) [H][A][T][L][O].** Doprecyzowanie użytkownika (09.10): argument o autonomii dynamiki nie opiera się na trzeciej zasadzie termodynamiki. „Symetria całości nie oznacza braku struktury wewnętrznej.” Nierozróżnialność od Ø nie uprawnia do stwierdzenia wprost ani obecności, ani nieobecności czegoś w Ø. Poniższy rachunek dotyczy nazwanych relacji części, nie zawartości Ø.
+6	> 
+7	> **Dokładny zapis analogii WDW / Page–Wootters [T][L].** Dla znormalizowanego stanu i generatora o określonych drugich momentach `G|Ψ⟩=0` daje `⟨G⟩=0` oraz `Var(G)=0`; zeruje się działanie generatora na ten stan, nie cały operator na wszystkich stanach. Przy `G=G_C+G_S`, gdzie części komutują, mamy
+8	> 
+9	> $$
+10	> 0=\operatorname{Var}(G)=\operatorname{Var}(G_C)+\operatorname{Var}(G_S)+2\operatorname{Cov}(G_C,G_S).
+11	> $$
+12	> 
+13	> Więz daje `Var(G_C)=Var(G_S)=v`, `Cov(G_C,G_S)=−v`, bez wymogu `v=0`. Przykład w algebrze R1b: singlet `( |01⟩−|1
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/diff-rama.txt
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+60	> 
+61	> `w_γ(r) := 3rF_γ′(r) = 6∫₀¹ [r·x²(1−x)² / (1 + r·x(1−x))]dx`.
+62	> 
+63	> `w_γ(0) = 0`, `w_γ(∞) = 6∫₀¹x(1−x)dx = 1`; `w_γ′(r) = 6∫₀¹ [x²(1−x)² / (1 + r·x(1−x))²]dx > 0`. Dla samej części fermionowej, przy `t = ln(q/q₀) = ln(n₀/n)`, z tabeli wynika `d(1/α)/dt = −(2/3π)·Σ_f N_cQ_f²·w_γ((q/m_f)²)`.
+64	> 
+65	> Z dala od progów nachylenie zlicza wagi aktywnych kanałów; w pobliżu progu jego kształt zależy od ilorazu rozdzielczości do masy. Funkcja α daje więc ważoną informację o stosunkach mas, którą pomija samo asymptotyczne nachylenie. To algebra znanej funkcji progowej, nie wyprowadzenie wartości mas ani dowód, że można je wszystkie jednoznacznie odzyskać z α. Zakres: podana część fermionowa; wkład W i część hadronowa wymagają swoich odpowiedzi.
+66	950a981,985
+67	> | z podanej pełnej odpowiedzi fermionowej otrzymujemy momenty `p_k = Σ c_f(q_*/m_f)^{2k}`; `p₀p₂ − p₁² = Σ_{f<j}c_fc_j(u_f−u_j)² ≥ 0` i zero dokładnie przy równych masach | [T] przy podanym jądrze, niepustym skończonym zbiorze i dodatnich wagach | 254 |
+68	> | dokładna funkcja fermionowego odczytu na przedziale wyznacza ważony zbiór progów; przy trzech jednostkowych wagach trzy momenty dają wielomian, czwarty osobny test | [T] warunkowo; nie wyprowadzenie wartości z ramy | 254 |
+69	> | odejmowana odpowiedź hadronowa ma postać całki po stosunkach z pełną wagą `R`; fizyczny kanał μμ wymaga swojej wagi progowej w normalizacji | [L][T] postać; [O] rodzaj po 208 | 255 |
+70	> | w przyjętym wektorowym QED waga maso
+…[ucięto]
+````
+</details>
+
+## [194] Asystent — 2026-10-12 22:41
+
+Czytam dalej różnice w kopii pliku głównego (§F0, bloki 251–263); potem `przyporzadkowanie…` i dwa pliki z 12.10.
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/diff-rama.txt
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+139	> 
+140	> **Jawne wspólne przyporządkowanie [T].** Z tym samym widmem i \(\delta\alpha_f(q)=\alpha_0^2\sum_fc_fF_\gamma(q^2/m_f^2)/\pi\):
+141	> 
+142	> \[
+143	> \Delta_{ij}^{\mathrm{VP},0}
+144	> =-\frac{Q^2}{4\pi}\int_{m_j^2}^{m_i^2}\frac{du}{u}
+145	> \int_0^1dx\,(4-2x)\,
+146	> \delta\alpha_f\!\left(\sqrt u\,\frac{1-x}{\sqrt x}\right).
+147	> \]
+148	> 
+149	> Po unormowaniu wagi do całki 1, \(\bar\alpha_f(M)=\tfrac13\int_0^1dx(4-2x)[\alpha_0+\delta\alpha_f(M(1-x)/\sqrt x)]\), jednopętlowy EM wraz z sektorem VP daje \([\ln(R_A/R_B)]_{\mathrm{EM1+VP}}=-3Q^2/(2\pi)\int_{m_j}^{m_i}(dM/M)\bar\alpha_f(M)\). M jest pomocniczym argumentem porównania mas, nie μ ani zewnętrznym czasem. Dla α rozwijanej do tego rzędu waga i argument są wymuszone przez wspólne mianowniki. Pełna średnia nie sprowadza się do jednej uniwersalnej rozdzielczości α: przy małym \(a=M^2/m_f^2\) ma \(4a\ln(1/a)/45+O(a)\), przy dużym \(a\) ma \(\ln a/3-13/18+o(1)\). Korzystanie z danych α tylko w ograniczonym zakresie wymaga także ustalenia brakujących części odpowiedzi.
+150	> 
+151	> **Schematy i granica [T][L].** \(\alpha_0\) oznacza warunek przy zerowym transferze, nie Ø. Przejście \(\alpha_B(\mu)=\alpha_0+\alpha_0^2\sum_fc_f\ln(\mu^2/m_f^2)/(3\pi)\) musi wejść również do masowej części jednopętlowej. W sektorze VP daje ustalone przesunięcie \(+\alpha_B^2Q^2\ln r\sum_fc_f\ln(\mu^2/m_f^2)/(2\pi^2)\); wspólny μ się znosi do badanego rzędu. Zachowana stała 4 z 214 i pełne progi. **Co zostało związane:** masowa wsta
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #14 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #15 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show heading structure of the large new file
+cd /home/user/Logika-relacyjna/masa && F="przyporzadkowanie realizacji dynamicznej.md"; wc -l "$F"; file "$F"; grep -n '^#' "$F" | head -150
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+3472 przyporzadkowanie realizacji dynamicznej.md
+przyporzadkowanie realizacji dynamicznej.md: Unicode text, UTF-8 text, with very long lines (885)
+1:# Przyporządkowanie pełnej realizacji dynamicznej — obiekt i warunki
+25:## 1. Odczyt, wejścia, oczekiwanie
+35:## 2. Funkcjonał pełnego porównania
+84:## 3. Pierwsze więzy na zmiany realizacji
+124:## 4. Gdzie przyporządkować K[a]
+157:## 5. Wynik i dokładna pozostała praca
+165:## 6. Reprezentacja odczytu z tej samej rodziny porównań
+200:## 7. Co z tego wynika dla widma i stanu
+224:## 8. Kryterium pamięci dla dokładnej wielomianowości
+291:## 9. Dlaczego poprawny pierwszy rząd nie wystarcza
+329:## 10. Bilans przyporządkowania 263
+350:### Odtworzenie kontroli
+472:## 11. Hierarchia domknięć i nierozróżnialność na całym przebiegu
+474:### 11.1. Co jest obiektem, a co jego opisem
+500:### 11.2. Zakres dynamiki wyznaczony przez dalsze odczyty
+544:### 11.3. Dlaczego warunek działa także pomiędzy końcami
+564:### 11.4. Konsekwencja dla P, pamięci i L/R
+574:## 12. Przekład na kroki: co można udowodnić
+576:### 12.1. Tezy i znaczenie symboli
+595:### 12.2. Wierny zapis krokowy
+630:### 12.3. Twierdzenie o pamięci w zapisie krokowym
+673:### 12.4. Twierdzenie wymuszające logarytm
+705:### 12.5. Logarytmiczna współrzędna a odpowiedź α
+749:### 12.6. Wynik i miejsce dalszego przyporządkowania
+764:## 13. Operator kontaktu i przyrost odpowiedzi α
+772:### 13.1. Co znaczy kontakt elektromagnetyczny
+799:### 13.2. Jedna rodzina wyznacza wszystkie wstawki i pami
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Przyporządkowanie pełnej realizacji dynamicznej — obiekt i warunki
+2	
+3	12.10.2026. Kontynuacja po regule kompozycji pełnego odczytu,   Korzysta z R1a–R1c, R1f, 179, 206–207 i 257–263 oraz pełnych wag porównania par (M,O).
+4	
+5	**Wykonany krok — stan po kontynuacji 12.10:** z zadanej koherentnej rodziny porównań skonstruowano wspólną reprezentację przygotowania, normy, adjointu operatorów i efektów. W nazwanym sektorze samosprzężonym uzyskano dodatnią macierzową miarę źródeł oraz kryterium dokładnej wielomianowości jądra po eliminacji kanałów: w ustalonym zapisie kanonicznym wymaga ona zerowego sprzężenia do eliminowanego sektora. Kryterium dotyczy całej rodziny dynamicznej, nie jednego punktu. Szczegóły i granice wobec 263: §§6–10.
+6	
+7	**Aktualna korekta  [H], 12.10:** domknięcie dające obiekt jest wspólną konstrukcją czasu, 3D i podstawowej dynamiki z R1a–R1c. Sama para (M,O) takiego domknięcia nie ustanawia. Obie strony relacji są już domkniętymi strukturami, każda ze swoimi granicami nierozróżnialności. „Ø jest wszędzie” (183) oznacza te granice na każdej stronie każdej relacji wewnątrz świata, także na całym przebiegu. Podstawowa dynamika nie jest dołożona: w doprecyzowaniu  wynika z braku zera absolutnego i nieoznaczoności Heisenberga. Dlatego „pełny” znaczy tutaj wierny całej nazwanej relacji i jej niesionym zapisom. Nie oznacza dostępu do całej zawartości obu stron. §11 stosuje tę podstawę do reprezentacji dalszych odczytów; nie zastępuje nią definicji struktural
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Start reading notes in scratchpad
+mkdir -p /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad && cat > /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+# Notatki z czytania kontynuacji użytkownika (9–12.10), sesja 12.10
+
+## Pliki (commity e5373c0, 9bf2ff1, edffa12 — upload użytkownika 13.10 00:31–00:37 CEST)
+- masa/logika-relacyjna-v3.5.md — kopia ramy +44 tys.: 24 hunki (cel 260 na górze; R1a nowy blok 258; 189/207/GRANICE Ø zakres 258; A2 korekta 251 α⁻¹; R1f-1 bloki 257/259/260; §F0 252–263; lista 147 (253); 155 B (256); STAN ZESPOŁU (261–263); 217 (256))
+- masa/poprawki.md — 251–263 (+ w 223 skreślone „zarzut użytkownika —”)
+- masa/przyporzadkowanie realizacji dynamicznej.md (3472 wierszy, §1–20, 12.10)
+- masa/
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+230	\begin{pmatrix}
+231	A[a]&B[a]\\
+232	B[a]^\dagger&C[a]
+233	\end{pmatrix},
+234	\qquad K(z,a)=zI-H[a].
+235	\]
+236	
+237	P jest stałym rzutnikiem na proponowane zachowane kanały, Q=I−P na pozostałe. Jest to podział podprzestrzeni amplitud, **nie ślad częściowy po innym układzie**. Przyjmujemy samosprzężone bloki A,C na zgodnych dziedzinach oraz ograniczone B. Zakres obejmuje skończone macierze i odpowiednie realizacje z nieskończonym widmem C. Nie zakładamy skończonej pojemności świata. W teorii pola z nieograniczonym sprzężeniem nie wolno pominąć sprawdzenia tych warunków.
+238	
+239	Dokładna eliminacja daje, jak w 259–260 [5],
+240	
+241	\[
+242	S(z,a)=zI-A[a]-\Sigma_P(z,a),
+243	\qquad
+244	\Sigma_P(z,a)=B[a](z-C[a])^{-1}B[a]^\dagger.
+245	\]
+246	
+247	**Twierdzenie w tym zapisie:**
+248	
+249	\[
+250	\boxed{
+251	S(z,a)\text{ jest dokładnie wielomianowe w }z
+252	\quad\Longleftrightarrow\quad
+253	B[a]=0.}
+254	\]
+255	
+256	Wielomianowość dotyczy tych samych, niezależnych od z źródeł i tej samej normy. Nie dotyczy skończonego obcięcia szeregu EFT lub dowolnie przedefiniowanych zmiennych.
+257	
+258	**Dowód.** Dla y>0 samosprzężoność C daje
+259	
+260	\[
+261	\|\Sigma_P(iy,a)\|\leq\frac{\|B[a]\|^2}{y}
+262	\longrightarrow0.
+263	\]
+264	
+265	Jeżeli S jest wielomianem, to \(\Sigma_P=zI-A-S\) również. Każdy jej element między stałymi źródłami jest wielomianem zanikającym przy z=iy→i∞, więc jest tożsamościowo zerowy. Argument działa także na wspólnej gęstej dziedzinie, gdy A jest nieograniczone. Nastę
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+479	
+480	| Poziom opisu | Co zachowujemy |
+481	|---|---|
+482	| Relacje składające się na M | Strukturę i dynamikę utrzymujące M jako rozpoznawalną całość |
+483	| Relacja M z O | Odpowiedź obu całości, przygotowanie, niesiony zapis i granice rozróżniania każdej strony |
+484	| Relacja kolejnej struktury, o ile zachodzi domknięcie z R1a–R1c | To, co powstały obiekt jako całość niesie do innej struktury |
+485	
+486	**Skończoność obu stron i Ø wszędzie [H].** Każda strona jest domknięciem, a domknięcie ma granice. Na każdej z tych granic jest nierozróżnialność. To znaczenie strukturalne punktu 183: granice Ø są na każdej stronie każdej relacji wewnątrz świata. Każdy kontakt w przebiegu relacji ma tę budowę; dotyczy ona także struktur niosących zapis. Nie wystarcza postawić jedną granicę dla całości lub tylko na początku i końcu badanego fragmentu.
+487	
+488	**Zgodność z 207 [A].** Ta skończoność dotyczy granic domknięcia; nie jest argumentem o pojemności na kopię stanu. Zapis nadal jest nieidentyczny z tym, o czym jest. Jego częściowość wynika z tej nieidentyczności.
+489	
+490	**Podstawowa dynamika [H].** W aktualnym doprecyzowaniu  wynika z braku zera absolutnego i nieoznaczoności Heisenberga. Stosujemy ją jako część już ustalonej konstrukcji rozróżnialności wraz z czasem i 3D. Nie dokładamy napędu do gotowej, nieruchomej struktury. Zachowuje to rozróżnienie z 258: globalny więz całości nie zeruje automatycznie dynamiki i fluktuacji jej części. Przyporządkowanie konkretnego H jest z
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §8 [T] S(z)=zI−A−B(z−C)⁻¹B† wielomianowe ⇔ B=0 (H samosprzężone) — standard; L/R: B=ηI, pamięć η²(ω−p·σ)⁻¹ nie znika
+- §9: pierwszy rząd może wyglądać na domknięty, drugi ma pamięć Q
+- §11 [H] użytkownik: domknięcie dające obiekt = wspólna konstrukcja czasu, 3D, dynamiki; para (M,O) nie jest obiektem; „domknięta para” usunięte jako nieuprawnione; Ø na granicach każdej strony każdej relacji (183 strukturalnie); próżnia/pole bez wzbudzeń = miejsca nierozróżnialności bez geometrii i własności; N_b iloraz opisów (operacyjna nierozróżnialność wobec wszystkich dalszych odczytów) — T_ℓ(N_b)⊆N_b′
+- §12 [H] propozycja użytkownika: z z §8 = licznik kroków; logarytm α ze sk
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+778	\]
+779	
+780	Dla przeciwnej orientacji zmienia się znak fazy. Jest to element transportu w pełnym operatorze kontaktu, nie przepis na dowolną całą macierz unitarną. Pozostałe bloki, normowanie, przygotowanie i końce pozostają wspólne. W kanonicznym sektorze EM obie chiralności tego samego nośnika mają ten sam ładunek; miejscowe masowe połączenie L/R pozostaje w jądrze.
+781	
+782	W szczególności
+783	
+784	\[
+785	\partial_{a_\ell}t_{\ell,f}=iQ_ft_{\ell,f},\qquad
+786	\partial^2_{a_\ell}t_{\ell,f}=-Q_f^2t_{\ell,f}.
+787	\]
+788	
+789	To bezpośrednie przyporządkowanie: jedna wstawka odczytu fazy niesie Q_f, dwie niosą Q_f². Ślad po N_c jednakowo sprzężonych kanałach daje N_cQ_f² w części fermionowej. Sama ta kontrakcja nie ustala współczynnika 2/(3π): ten wymaga również propagacji spinorowej i pełnej normalizacji użytej w §F0.
+790	
+791	Zapis fazy w punkcie pozostaje umowny. Operator kontaktu zmienia się kowariantnie,
+792	
+793	\[
+794	T_\ell[a]\longmapsto G_{\ell+1}T_\ell[a]G_\ell^\dagger,
+795	\]
+796	
+797	a fazy wewnętrznych końców skracają się przy składaniu. Odczyt dotyczy obiegu lub porównania z zachowanymi końcami. Żadnemu Ø nie przypisujemy przez ten zapis wartości pola, geometrii ani sztywności.
+798	
+799	### 13.2. Jedna rodzina wyznacza wszystkie wstawki i pamięć
+800	
+801	Dla rzeczywistej kolejności kontaktów
+802	
+803	\[
+804	U_j[a]=T_j[a]\cdots T_1[a]
+805	\]
+806	
+807	oznaczmy pochodne w badanym miejscu rodziny przez
+808	
+809	\[
+810	V_\ell^\mu=\partial_\mu T_\ell,\qquad
+811	W_\el
+…[ucięto]
+````
+</details>
+
+## [195] Asystent — 2026-10-12 22:41
+
+Jestem w `przyporzadkowanie…` na §13 (z 20); czytam dalej po kolei.
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1077	
+1078	Przyrost nie jest uniwersalną liczbą przypisaną izolowanemu kontaktowi. Zależy również od niesionej propagacji, zapisów i sposobu powrotu. Dokładnie tę zależność zachowują wyrazy mieszane z §13.2 oraz M_jK_j⁻¹L_j z §13.4. Redukcja do funkcji samego n jest przyporządkowaniem rodziny pełnych obiegów z §F0.
+1079	
+1080	Skończony zakres n≥1 pozostaje skończony także w ln(n_0/n). Położenia granicy czytelności nie wyznaczamy przez samą postać logarytmu. Wyznaczenie wartości odniesienia α, mas progowych lub całego operatora kontaktu z podstawy jest odrębnym wynikiem od udowodnionego tu związku ich odpowiedzi.
+1081	
+1082	### 13.7. Kontrola algebraiczna i całkowa
+1083	
+1084	**Sprawdzone ryzyka:** pominięcie wyrazów mieszanych, błędny znak drugiej wariacji wyznacznika, zgubienie odpowiedzi starego bloku, niezerowa odpowiedź na zmianę bazy oraz zastąpienie pełnego progu asymptotycznym logarytmem.
+1085	
+1086	- Pięć kontroli na dokładnych ułamkach: obie rekurencje kontaktu dla nieprzemiennych macierzy; zgodność krzywizny dopełnienia Schura z różnicą krzywizn pełnego i starego jądra; zanik pełnej odpowiedzi na zmianę bazy; wykrycie fałszywego wyniku po pominięciu drugiej wariacji.
+1087	- W kontroli Schura użyto K(a)=[[2+a+a²,1+a/2],[1−a/3,3−a+a²/2]]. Przyrost drugiej pochodnej −ln det wyniósł dokładnie −22/45.
+1088	- W kontroli zmiany bazy K_0=[[3,1],[1,2]], G(a)=exp(aR), R=[[0,1],[−1,0]]. Pełna krzywizna wyniosła 0; sam składnik z dwiema pierwszymi pochodnymi dał 2. Macierze są 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §13: kontakt t_ℓ(a)=e^{iQa}h_ℓ; 1/α = 4π·P_n[Γ⁽²⁾] (169: 1/α = współczynnik drugiej wariacji relacji faz); przyrost przez dopełnienie Schura bloku kontaktu; krok n→n−1: 1/α(n−1)−1/α(n) = −κ_n ln[n/(n−1)], κ_n ze średniej wagi w_γ; F_γ jest WEJŚCIEM z §F0
+- §14 audyt: z samej reguły fazowej F_γ NIE wynika (h_ℓ neutralne amplitudy nieustalone = 257 h_xy); F_γ powstaje z kanonicznego propagatora Diraca + ślad + parametr Feynmana + miara d⁴ℓ EUKLIDESOWA „w reprezentacji 3+1” — liczba po Wicku (wolno wg 248, odczyt nie); cel: współczynniki r/15 − r²/140 + r³/945 …, stosunek −3/28
+- §14.6: α_R(n) — α jako funkcjonał całej relacji R (uwaga użytkownika „α jest funkcją, b
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1406	
+1407	Źródła projektu: R1b–R1c, §F0, 214, 257–261; w tym raporcie §§6, 12–13. Zewnętrzna kontrola oddzielenia tożsamości Wardowskiej od obliczenia konkretnej pętli: [8]. Wzory §14.4 wyprowadzono powyżej przy jawnych wejściach, a nie przypisano ich samej regule kontaktów.
+1408	
+1409	Kod kontroli (Python 3, NumPy, SciPy):
+1410	
+1411	```python
+1412	from fractions import Fraction as F
+1413	from math import factorial, log, pi
+1414	import numpy as np
+1415	from scipy.integrate import quad
+1416	import json
+1417	I=np.eye(2,dtype=complex)
+1418	pauli=[np.array([[0,1],[1,0]],complex),np.array([[0,-1j],[1j,0]],complex),np.array([[1,0],[0,-1]],complex)]
+1419	gam=[np.kron(pauli[0],s) for s in pauli]+[np.kron(pauli[1],I)]
+1420	k=[1,2,-1,3]; l=[-2,1,4,2]; m=2
+1421	slash=lambda v:sum((a*g for a,g in zip(v,gam)),np.zeros((4,4),complex))
+1422	A=-1j*slash(k)+m*np.eye(4)
+1423	B=-1j*slash(l)+m*np.eye(4)
+1424	dot=sum(a*b for a,b in zip(k,l))
+1425	for mu in range(4):
+1426	 for nu in range(4):
+1427	  actual=-np.trace(gam[mu]@A@gam[nu]@B)
+1428	  expected=4*(k[mu]*l[nu]+k[nu]*l[mu]-(dot+m*m)*(mu==nu))
+1429	  assert actual==expected
+1430	# All entries above are Gaussian integers, exactly representable here.
+1431	errs=[]
+1432	for a,b in [(2.,5.),(7.,3.),(1.,1.)]:
+1433	 value=quad(lambda y:y*(b-a)*(2*y+a+b)/((y+a)**2*(y+b)**2),0,float('inf'),
+1434	            epsabs=1e-12,epsrel=1e-12)[0]
+1435	 errs.append(abs(value-log(b/a)))
+1436	 assert errs[-1]<2e-12
+1437	moment=lambda j:F(factorial(j)**2,factoria
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; read end of §15 and start of §16
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §15: prąd J_ℓ = pochodna tego samego kontaktu; połączone jądro C_ℓk = (1/p)tr(Ã†Ã) ⪰ 0 (wycentrowany Gram z pełnym E=U†FU, ρ); C ≠ 1/α (dla F=𝟙 Hessian ln p = 0 choć C≠0); C = C^Wick + C^(4) (reszta czteropunktowa dokładnie); gaussowskość ⇔ liniowy transport CAR (15.13); dla 2 modów: T=A⊕B gaussowski ⇔ det A = det B (matchgate), χ = arg(detA/detB) nieustalone przez 179/Ad SU(4) — rodzina T_χ = e^{iχP/4}
+EOF
+sed -n '1775,1800p;1925,2010p' "/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- Trzy fizyczne drugie pochodne sprawdzono z niezerowym ∂j/∂a, a więc z zachowaniem członu (15.5): maksymalny błąd 7,42·10⁻⁸. Sprawdzono także zerową odpowiedź połączoną wspólnej fazy.
+- W gaussowskim przykładzie kontrolnym z pełnymi wagami sprawdzono wszystkie 256 składowych (15.10): maksymalna reszta 3,39·10⁻¹⁶. Kontrakcja prądów (15.12) zgadza się z bezpośrednim śladem do 2,78·10⁻¹⁷.
+- Sprawdzono stosunek wyznaczników oraz 12 norm reszty poza liniową rozpiętością γ w (15.16): błędy poniżej 3,52·10⁻¹⁶.
+
+**PASS oznacza zgodność tożsamości i warunkowej redukcji, nie wyprowadzenie F_γ z ramy.** Dowody i granice wynikania są podane w §§15.1–15.7. Kontrola literaturowa: [9] dla fermionowego transportu gaussowskiego i reguły Wicka, [10] dla warunku bloków parzystości. Rachunek ważonego odczytu zastosowano tu do tych samych ρ, F i kontaktów projektu.
+
+Kod odtwarzający kontrole (Python 3, NumPy, SciPy):
+
+```python
+"""Algebra checks for section 15; these are not alternative physical models."""
+import json
+from itertools import product
+import numpy as np
+from scipy.linalg import expm
+
+I2 = np.eye(2, dtype=complex)
+X = np.array([[0, 1], [1, 0]], complex)
+Y = np.array([[0, -1j], [1j, 0]], complex)
+Z = np.diag([1, -1]).astype(complex)
+I4 = np.eye(4, dtype=complex)
+dag = lambda a: a.conj().T
+tr = np.trace
+err = lambda a, b: float(np.max(np.abs(a - b)))
+checks = {}
+
+# Noncommuting preparation and effect, three independently tagged contacts.
+
+checks['status'] = 'PASS'
+checks['scope'] = 'al
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read §16.4–16.8 of the large file
+sed -n '2010,2240p' "/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+\[
+\boxed{[\widehat h_1,\widehat h_2]
+=\widehat{[h_1,h_2]}.}
+\tag{16.4}
+\]
+
+Wyrazy czwartego stopnia znoszą się w komutatorze. Złożenie nieprzemiennych przejść masowych, transportowych i fazowych nie wytwarza więc niezależnego generatora n_Ln_R.
+
+Pełny dowód globalny, niewymagający zbieżności rozwinięcia komutatorowego, daje algebra zewnętrzna. Dla d przyporządkowanych modów zdefiniujmy
+
+\[
+\Lambda(u)=\bigoplus_{r=0}^d\wedge^r u.
+\]
+
+Wtedy
+
+\[
+e^{-i\widehat h}=\Lambda(e^{-ih}),\qquad
+\Lambda(u_2)\Lambda(u_1)=\Lambda(u_2u_1).
+\]
+
+Zatem dla dowolnej skończonej sekwencji tej klasy
+
+\[
+\boxed{
+T_\ell=e^{i\phi_\ell}\Lambda(u_\ell)
+\quad\Longrightarrow\quad
+U=T_j\cdots T_1=e^{i\Phi}\Lambda(u_j\cdots u_1),
+\qquad \Phi=\sum_\ell\phi_\ell.
+}
+\tag{16.5}
+\]
+
+Dla (16.2) mamy φ_ℓ=−c_ℓ i u_ℓ=e⁻ⁱʰℓ. Nie wymaga się równych kontaktów ani ich przemienności. Na operatorach anihilacji
+
+\[
+U^\dagger a_p U=\sum_q u_{pq}a_q,
+\qquad u=u_j\cdots u_1.
+\tag{16.6}
+\]
+
+Warunek liniowego transportu z §15.5 jest więc spełniony dla całej tej rodziny. Liczba modów d określa zakres zastosowanej reprezentacji; nie wprowadza nowego wymiaru przestrzeni ani postulatu pojemności pamięci.
+
+Jeżeli cały fragment dotyczy dwóch modów, jego bloki są szczególnie proste:
+
+\[
+A=e^{i\Phi}\operatorname{diag}(1,\det u),
+\qquad B=e^{i\Phi}u,
+\]
+
+\[
+\boxed{\det A=\det B=e^{2i\Phi}\det u.}
+\tag{16.7}
+\]
+
+To dowód χ=0 także po kompozycji. Dla sieci większej liczby modów właściwym wynikiem jest (16.6); pojedynczego dwumodowego kry
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; read §17
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §16 (użytkownik: „wykorzystać zygzak z R1d”, „domknij to”): bilinearny zygzak ϑ(a_L†a_R + h.c.) daje χ=0; bilinearne transporty zamknięte pod kompozycją ([ĥ1,ĥ2] = [h1,h2]^, Λ(u)) ⇒ liniowy transport CAR dla całego sektora; przy gaussowskich ρ, F: Z_F = f e^{i(Φ+−Φ−)} det(1+S u+ R u−†)/det(1+R); jawne jądro blokowe 𝕂 z det𝕂 = det D; druga wariacja −ln det𝕂 = tr(GK_νGK_μ − GK_μν) (struktura GVGV−GW z §13). Nie wyprowadzono wyłączności klasy bilinearnej ani F_γ; eliminacja EM daje człon 4-fermionowy (zakres jednej pętli fermionowej)
+EOF
+sed -n '2344,2545p' "/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## 17. Kontrola przypisania faz: hermitowskość, dwie gałęzie i argument odpowiedzi
+
+12.10.2026. Kontrola propozycji  dotyczącej przejścia z (16.11) do F_γ. **Wynik [A][T]: nie ma przedstawionego wyboru między dwiema dopuszczalnymi realizacjami unitarnego kontaktu.** Wspólny zespolony mnożnik całego hermitowskiego generatora na ogół niszczy hermitowskość. Przeciwne fazy elementów sprzężonych zachowują ją, ale nie zerują przez to odpowiedzi dwóch gałęzi. Wyprowadzono dokładny wyznacznik tej drugiej rodziny i rozdzielono go od fizycznej odpowiedzi EM. Doprecyzowano także indeksy w §16.3: orientacja kontaktu i chiralność są różnymi indeksami. Nie wyprowadzono jeszcze konkretnej F_γ ani nie uzyskano wyniku negatywnego dla całej ramy.
+
+**Podstawa po doprecyzowaniu :** zachodzenie relacji jest zarazem tym, co nazywa się areną. Czas, 3D i dynamika należą do struktury tego zachodzenia z R1a–R1c. Indeksy końców poniżej oznaczają elementy istniejącej kompozycji, nie punkty dodatkowego pojemnika. Zapis euklidesowy lub Minkowskiego nie jest nowym wejściem do dowodu; kanoniczny rachunek §14 pozostaje porównaniem warunkowym. Sam wybór nazwy reprezentacji nie uzasadnia propagatora, miary ani warunków brzegowych.
+
+### 17.1. Jedna koneksja nie oznacza jednej fazy mnożącej cały generator
+
+Rozdzielmy operator bilinearny i jego macierz na przestrzeni jednego obsadzenia:
+
+\[
+\widehat h_m=\vartheta(a_L^\dagger a_R+a_R^\dagger a_L),
+\qquad h_m=\vartheta\sigma_x.
+\]
+
+ϑ jest bezwymiarową fazą danego p
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; read §18
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §17 kontrola propozycji użytkownika (nazwa wycięta w tekście: „propozycji  ”): wspólny mnożnik e^{iQa}h niszczy hermitowskość (det(1+uu†)/4 = cosh²(ϑ sin Qa) ≠ 1); hermitowskie fazowanie: stałe widmo NIE zeruje odpowiedzi dwóch gałęzi (Z = 1 − sin²ϑ sin²(Qε/2)); koneksja EM nie fazuje lokalnego członu masowego (L i R ten sam ładunek); orientacja ≠ chiralność; użytkownik: „zachodzenie relacji jest zarazem areną” (zgodne z 204?)
+EOF
+sed -n '2664,2910p' "/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## 18. Odpowiedź obiegu z pełnej kompozycji: więzy fazowe i jawny moduł L/R
+
+12.10.2026. Wykonanie następnego kroku po kontroli §17. **Wynik [A][T]: wyprowadzono więzy fazowe pełnej kompozycji przy zachowanych końcach, a następnie zapisano jawne u[a] dla kompletnego dwudrogowego fragmentu bilinearnego.** Obliczono jego pełny funkcjonał (16.11), odpowiedź obiegu, obie składowe drugiego rzędu oraz zależność wag od zygzaka. Nie założono reprezentacji euklidesowej ani przestrzeni Minkowskiego. Indeksy odnoszą się do istniejących kontaktów i ich odczytów z 179; zachodzenie tych relacji jest strukturą czasu, 3D i dynamiki z R1a–R1c.
+
+**Zakres:** więzy poniżej są ogólne dla nazwanej kowariantnej rodziny. Konkretny dwudrogowy moduł jest jawną realizacją algebraiczną, służącą sprawdzeniu, jak pełne wagi wchodzą do odpowiedzi. Jego neutralny podział amplitud został nazwany; nie twierdzimy, że R1d wybrał taki podział dla elektronu. Fragment nie jest całą rodziną odczytów elektronowych i jego krzywizny prawdopodobieństwa nie utożsamiamy z α. To nie kontrmodel całej ramy ani wyprowadzenie F_γ.
+
+### 18.1. Wewnętrzna zmiana odniesienia znosi się w tej samej kompozycji
+
+Niech a=(a_ℓ) będą fazami zorientowanych kontaktów. Zmiana opisów faz końców χ_v daje przyrost a_ℓ→a_ℓ+χ_out(ℓ)−χ_in(ℓ). Oznaczmy tę liniową regułę przez a→a+Dχ. D jest macierzą zorientowanej incydencji kontaktów; opisuje, które końce należą do tego samego niesienia. Nie jest metryką ani nowym sąsiedztwem.
+
+Kowariancja §13.1 
+…[ucięto]
+````
+</details>
+
+## [196] Asystent — 2026-10-12 22:42
+
+Jestem przy §19 (ostatnia część `przyporzadkowanie…`); potem dwa pliki z 12.10 i raport.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; read §19
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §18: więzy fazowe U[a+Dχ] = G_out U G_in† (D = incydencja zorientowanych kontaktów; „nie metryka”); wnętrze: D₀ᵀH = 0; iloraz a/im D₀ (fazy obiegów + porównania z brzegiem). Moduł dwudrogowy z zygzakiem: p(Φ) = ½[1 + c₁₂ cos QΦ], c₁₂ = cos(ϑ₁−ϑ₂) = cos[(n₁−n₂)ϑ] — zliczenia zygzaka wchodzą jako waga obiegu (177 + 181 w jednym wzorze?); B (podział 50/50) jawnie WYBRANY; krzywizna ≠ 1/α
+EOF
+sed -n '3055,3290p' "/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## 19. Wszystkie wagi gaussowskich kanałów i pełna odpowiedź prądu: próba domknięcia F_γ
+
+12.10.2026. Wykonanie polecenia wyznaczenia wag całej rodziny oraz odpowiedzi EM. **Wynik [A][T]: wyprowadzono jawne wagi wszystkich kanałów pełnego odczytu z (16.11), przy zachowanych, także nieprzemiennych przygotowaniu i efekcie; następnie wyprowadzono przyczynową odpowiedź prądów kontaktowych, z drugą wariacją tego samego kontaktu.** Obliczono także pełną dodatnią miarę progową, którą musiałaby odtworzyć redukcja do F_γ. Próba uzyskania tej konkretnej miary z samych wskazanych relacji R1d/179 nie zamknęła się: źródła nie określają ilościowo całej neutralnej rodziny kontaktów, stanu i profili odczytu. Nie przedstawiamy tej luki jako kolejnego obliczenia, które wykona się samo.
+
+**Zakres i odczyt.** Pozostajemy w nazwanym sektorze §16: bilinearny, zachowujący liczbę transport fermionów przy zachowanych argumentach EM oraz gaussowskie dane brzegowe. Pozostałe indeksy nośników, spinów i zapisów należy zachować w tych samych macierzach. Dla niegaussowskich końców obowiązuje reszta §15.4. Pełna dynamika kwantowego pola EM nie została zastąpiona macierzą tej klasy; rozróżnienie jednej fermionowej pętli i pełnej teorii pozostaje z §16.7. Nie wybieramy nowej areny ani zewnętrznego zegara.
+
+### 19.1. Pełna rodzina kontaktów wyznacza wszystkie macierze prądów
+
+Dla każdego odczytu n niech j(n) oznacza liczbę kontaktów w jego pełnej kompozycji, a
+
+\[
+u_n[a]=u_{j(n)}[a]\cdots u_1[a],
+\qquad
+X_{\el
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; read sources section
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- §19: wagi wszystkich kanałów C_ℓk = Σ η_a(1−η_b)(Y_ℓ)*_ab(Y_k)_ab (warunkowa korelacja, pełne ρ,F); przyczynowa odpowiedź R_ℓk = iΣ(λ_a−λ_b)(X_ℓ)_ab(X_k)_ba dla k<ℓ, 0 dla k>ℓ — „zerowanie przyszłych wpływów jest wynikiem” (k<ℓ = porządek niesienia); N=0 NIE wynika z „pole bez wzbudzenia ≡ Ø” (opis modów: b_R=a_R† zmienia N i zygzak na tworzenie pary); F_γ = ∫₀^{1/4} ln(1+rt) dν_γ, dν = 4t/√(1−4t) dt, momenty 2[(k+1)!]²/(2k+3)!, ∫ln t dν = −5/9; WYNIK: próba wyprowadzenia F_γ z R1d/179 NIE domknięta — neutralna rodzina u_n, stan, profile nieokreślone; „to nie obietnica, że następne różniczkowanie je usunie”
+EOF
+sed -n '3454,3472p' "/home/user/Logika-relacyjna/mas
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## 20. Źródła
+
+
+1. A. Kamenev, A. Levchenko, *Keldysh technique and non-linear sigma-model: basic principles and applications*, [arXiv:0901.3586](https://arxiv.org/abs/0901.3586), §§1.2, 2.1–2.3, 5.1–5.4. Narzędzie pełnego porównania i normowania; nie przenosimy do projektu zewnętrznego czasu ani modeli materii skondensowanej z dalszych części pracy.
+2. G. Chiribella, G. M. D'Ariano, P. Perinotti, *Theoretical framework for quantum networks*, [arXiv:0904.4483](https://arxiv.org/abs/0904.4483). Sieci z przygotowaniami, pamięcią i instrumentami; pozycja wskazana już w 179.
+3. Źródła projektu: regula-kompozycji-pelnego-odczytu-2026-10-12.md; logika-relacyjna-v3.5.md, 257–263; pary-M-O-EM-2026-10-05.md; LR-odczyt-A-dopasowanie-2026-10-04.md. Wyprowadzenia i kontrola obecnej kontynuacji opisane w §§6–10.
+4. N. Aronszajn, *Theory of Reproducing Kernels*, Trans. Amer. Math. Soc. 68 (1950), 337–404, [wydawca AMS](https://www.ams.org/tran/1950-068-03/S0002-9947-1950-0051437-7/S0002-9947-1950-0051437-7.pdf). Odniesienie dla konstrukcji z dodatniego jądra; zastosowanie do przygotowań i efektów podano jawnie w §6. Nie przypisuje się publikacji tez o podstawie projektu.
+5. M. Griesemer, D. Hasler, *On the Smooth Feshbach-Schur Map*, [arXiv:0704.3244](https://arxiv.org/abs/0704.3244), §1. Znane narzędzie eliminacji bloków. Kryterium wielomianowości w §8 oraz wariant rodzinny w §9 wyprowadzono tutaj; nie zgłasza się ich jako nowości wobec całej literatury.
+6. Wcześniejsze pełne raporty: jad
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #15 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #16 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/punkt4-przygotowanie-energia-zapis-2026-10-12.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Punkt 4: przygotowanie, energia i zapis wewnętrznego czytającego
+2	
+3	12.10.2026. Rozwinięcie punktu 4 raportu `test-domkniecia-2026-10-12.md`. Podstawa projektu: R1a–R1c łącznie, R1f-2, D2, 179, 207, 258–260.
+4	
+5	**Wynik:** idealny CNOT z poprzedniego modelu jest poprawną operacją kwantową, ale sam nie stanowi energetycznego domknięcia aparatu. W nazwanym sektorze z addytywną, zachowaną energią taki dokładny i powtarzalny zapis badanego odczytu jest niedopuszczalny. Zbudowano jego przybliżoną realizację z wewnętrznym odniesieniem fazowym, dokładnie zachowującą energię. Pełny wynik zależy od fazy względnej całego porównania oraz od koherencji odniesień przygotowania i odczytu.
+6	
+7	**Doprecyzowanie poprzedniego wniosku o fazie:** zmiana fazy badanego modułu przy niezmienionych fizycznych odniesieniach może być rozróżnialna. Wspólnego postępu fazy modułu i odniesienia nie wolno traktować tak samo — znosi się w odczycie. Obecny rachunek rozdziela te dwa przypadki.
+8	
+9	## 1. Co w punkcie 4 było już wybrane
+10	
+11	Warunek D2 z pliku głównego wymaga rzeczywistej korelacji z innym układem. Nie ustala konkretnego instrumentu pomiarowego. Wcześniejszy punkt 4 wybrał dodatkowo:
+12	
+13	| Wybór modelu | Co wnosi |
+14	|---|---|
+15	| Moduły S, E, R, B, O i ich połączenia | Nazwany układ wejść, zapisów i porównania |
+16	| Gotowe stany wskaźników R, B, O | Warunki brzegowe aparatu |
+17	| Idealny CNOT | Ostry, powtarzalny zapis jednej obserwabli |
+18	| Analizatory \(W_k\) | Konkretną k
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/test-domkniecia-2026-10-12.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Dynamiczny odczyt, zapis i swoboda fazy — pierwszy test
+2	
+3	12.10.2026. Punkt wyjścia: R1a–R1c, 179, 207, 258–260 i 263 w `logika-relacyjna-v3.5.md`. 
+4	
+5	**Wynik:** w opisanym niżej procesie można objąć jednym rachunkiem przygotowanie, trzy odczyty komplementarne, zegar, niesiony zapis i powstanie odpowiedzi czytającego. Wagi odpowiedzi są wtedy związane z fazą i z faktycznym zapisem powstającym w otoczeniu. Te sprawdzone warunki dopuszczają jednak ciągłą rodzinę faz. Jest to wynik dla jawnej realizacji kwantowej, nie dowód niewystarczalności całej ramy.
+6	
+7	**Korekta kryterium testu:** dwie różne odpowiedzi dwóch poprawnych procesów nie dowodzą istnienia dwóch różnych praw. Oba procesy mogą realizować tę samą regułę, przy różnych relacjach oddziaływania. Obecny rachunek bada swobodę konkretnej relacji `U_q` z 259. Regułę zespolonych amplitud i odczytu kwantowego znajduje się w R1b; 
+8	
+9	## 1. Co dokładnie podlega kontroli
+10	
+11	Oczekiwanie, warunek obalenia i mapowanie na zdania ramy zapisano przed uruchomieniem kontroli w `zalozenia-przed-kontrola.md`.
+12	
+13	| Zdanie lub warunek źródłowy | Realizacja w teście | Zakres wyniku |
+14	|---|---|---|
+15	| R1b: domknięta triada odczytów | Trzy operatory wyrażone przez relacje par; dokładna algebra Pauliego | Nie utożsamiamy liczby nośników z wymiarem przestrzeni |
+16	| R1a, 207: informacja o stanie nie jest stanem | Zapis wyniku jest korelacją; jego lokalny odczyt nie wyznacza faz pełnego stanu | Częściowość wykazana nie
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes; count provenance tags; check Heisenberg mentions and libraries
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- punkt4 (12.10): WAY — idealny powtarzalny zapis (CNOT) niezgodny z zachowaniem addytywnej energii przy [H_S,Z]≠0; aparat z odniesieniem fazowym (L poziomów): ν_L=(L−1)/L, p_poprawny=1−3/(8L); odczyt p=5/8+(3/8)ν_pν_o cos(θ+φ_p−φ_o); wspólny postęp fazy modułu i odniesienia NIEodczytywalny, względna faza δ tak; wariancja energii nie ustala zdolności odczytu fazy (liczą się relacje)
+- test-domkniecia (12.10): 4 nośniki, sektor J=0 (kod DFS Bacon–Kempe–Lidar–Whaley), triada z zamian E_ab (algebra Pauliego z relacji par), U_q z 259 na parze 23, zegar historii (Feynman–Kitaev) G_qΨ=0; p=(5+3cosθ)/8 — faza q odczytywalna wewnętrznie, rodzina q∈U(1) dopuszczona; zapis k
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+14
+1
+2.5.3 1.18.1 1.14.0
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract and run the embedded verification code blocks
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/kontrole; mkdir -p $S; cd $S; python3 - <<'EOF'
+import re
+t=open('/home/user/Logika-relacyjna/masa/przyporzadkowanie realizacji dynamicznej.md',encoding='utf-8').read()
+blocks=re.findall(r'```python\n(.*?)```',t,re.S)
+for i,b in enumerate(blocks):
+    open(f'blok{i}.py','w').write(b)
+    print(i,len(b.splitlines()))
+EOF
+for f in blok*.py; do echo "== $f"; timeout 300 python3 -I $f 2>&1 | tail -c 1500; done
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+0 115
+1 76
+2 33
+3 145
+4 150
+5 109
+6 135
+7 154
+== blok0.py
+{'method': 'exact Gaussian rational matrix algebra (Python standard library)', 'checks': 21, 'pass': True, 'quadratic_survival_coefficient': '-103/27', 'names': ['selfadjoint_full_family', 'zero_order_0', 'first_order_0', 'second_order_with_memory_0', 'second_order_without_memory_fails_0', 'zero_order_1', 'first_order_1', 'second_order_with_memory_1', 'second_order_without_memory_fails_1', 'zero_order_2', 'first_order_2', 'second_order_with_memory_2', 'second_order_without_memory_fails_2', 'imaginary_part_identity_1/2', 'strict_positive_memory_1/2', 'imaginary_part_identity_1', 'strict_positive_memory_1', 'imaginary_part_identity_3', 'strict_positive_memory_3', 'full_probability_quadratic_coefficient', 'retained_probability_changes_at_second_order']}
+== blok1.py
+{"exact_checks": ["contact_first_variation", "contact_second_variation_noncommuting", "Schur_logdet_second_variation", "pure_basis_change_cancels", "omitting_second_contact_detected"], "exact_count": 5, "schur_increment": "-22/45", "false_gauge_response_without_contact": "2", "threshold_pairs": 4, "max_threshold_identity_error": 8.326672684688674e-17, "finite_sum_telescoping": "PASS", "status": "PASS"}
+== blok2.py
+{"conditional_Dirac_trace_components": 16, "finite_radial_differences": 3, "max_radial_error": 1.1102230246251565e-16, "F_gamma_series": ["1/15", "-1/140", "1/945", "-1/5544"], "shape_ratio": "3/28", "status": "PASS", "scope": "conditional input audit
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find P5 mentions in the main file
+grep -n 'P5' logika-relacyjna-v3.5.md | cut -c1-400 | head -30
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+238:- **P5 — span{ω_A ⊗ ω_B} = ℝ^{K_A} ⊗ ℝ^{K_B}, tj. K_AB = K_A·K_B (tomografia lokalna).** *Rama:* „wzbudzenia i relacje są lokalne” [270]. *¬P5:* różnica stanów pary niesiona przez nic poza nią samą = **cecha** [36, 94] (137).
+244:**Twierdzenie** (Masanes i in. 2014, Tw. 1–2; d = 1: P0): P0 ∧ P1 ∧ P2 ∧ P3 ∧ P5 ∧ P6 ⇒ **d = 3**, G_A = SO(3), G_AB = Ad SU(4) (z dokładnością do równoważnej reprezentacji częściowo transponowanej) — relacja dwóch nośników jest dokładnie relacją dwóch kubitów.
+247:- **Rola przesłanek (137):** P0, P2, P3 dają kulę dowolnego wymiaru (P0 wyklucza d = 1); **d = 3 wybierają P1, P5 i P6**; pamięć (D2, Wniosek 2) decyduje o **dostępie** do kuli. P5 wyklucza teorię kwantową rzeczywistą (d = 2) i kwaternionową (d = 5): obie **mają** splątanie, odpadają wyłącznie na tomografii lokalnej. Eksperymenty Renou i in., Nature 600, 625 (2021); Chen i in.,
+1251:  - **Jedno założenie:** odczyty wewnętrzne są oktonionowe. **Napięcie z ramą:** układy oktonionowe nie tworzą złożeń (brak iloczynu tensorowego → P5, P6 nie zachodzą; ¬P5 = „cecha”, 137). (a) rama wyklucza sektor oktonionowy → wyprowadzenie upada (zostaje Connes, 3 niewyprowadzone); (b) sektor oktonionowy = algebra **jednego punktu**, sama nieodczytywalna (≡ Ø, jak fa
+1383:  - **bliźniaki z A3a to dokładne zera iΔ:** identyczne kolumny Δ ⇒ Δ(e_i − e_j) = 0 i W(e_i − e_j) = 0 ⇒ φ_i = φ_j w stanie SJ. **Pole na porządku nie odróżnia bliźniaków** — najmniejszych modułów (R1a: z zewnątrz jeden punkt; między so
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read R1b-F premises and user statement [270]
+sed -n '225,250p' logika-relacyjna-v3.5.md | cut -c1-900; echo ----; python3 narzedzia/wypowiedzi.py --nr 270 --wymiana 2>&1 | head -30
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+**Oznaczenia.** Układ A: Ω_A ⊂ ℝ^{K_A} — zbiór stanów (wypukły, domknięty, dim < ∞); odczyt = efekt E: Ω_A → [0,1] afiniczny, wynik p = E(ω); G_A — domknięta grupa przekształceń odwracalnych Ω_A → Ω_A; ∂ₑΩ_A — stany czyste (ekstremalne). Układ złożony: p(x,y) = (E_x ⊗ E_y)·ω_AB — bez kolejności odczytów.
+
+**Definicje.**
+- **D0** (wymiar): d := dim Ω_A, gdy Ω_A ≅ Bᵈ = {r ∈ ℝᵈ : |r| ≤ 1}. Przestrzeń := Bᵈ (zbiór wszystkich odczytów); innej nie ma. „Kula stanów to zbiór wszystkich możliwych kierunków / odczytów / pozycji — wtedy to faktycznie jest 3D”. Bez D0 twierdzenie mówi o kubitach, nie o przestrzeni; [L] Müller–Masanes (2013, §V, Przykład 39): struktura euklidesowa może być odziedziczona z prawdopodobieństw odczytów, a nie odwrotnie.
+- **D1** (pojemność): N_A := max{n : ∃ ω₁…ωₙ, E₁…Eₙ, Σ Eᵢ = 1, Eᵢ(ωⱼ) = δᵢⱼ}.
+- **D2** (zapis, przeszłość): 𝒫_X := {Y ≠ X : I(M_X : Y) > 0} — Y *inny* układ, nie „wcześniejszy” (brak ≺ w definicji).
+- **D3** (relacja): T ∈ G_AB jest relacją ⇔ T ∉ G_A ⊗ G_B.
+
+**Przesłanki: formalnie · zdanie ramy · test wierności (poprawki 128, 137).** Przekład P jest wierny ⇔ ¬P wyklucza się ze zdaniem ramy (kryterium z łańcucha Ø: wykluczenie, nie ocena); wtedy rama ⇒ P. Numeracja = kolejność czytania.
+- **P0 — G_A spójna.** Ĥ|Ψ⟩ = 0 ⇒ e^{−iĤs}|Ψ⟩ = |Ψ⟩ ∀s ∈ ℝ; brak aktora zewnętrznego ⇒ G_A = ⟨{e^{sX}}_{s∈ℝ}⟩ (s = dowolna etykieta, nie czas; 118). *Rama:* całość nie ma otoczenia, „dla całości t=0; wzbudzenia i relacje są lokalne” [270]; „w rygorze relacyjnym
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check forbidden terms, provenance tags, and dangling report references
+cd /home/user/Logika-relacyjna/masa && grep -l -i '[wzorzec pominięty]' logika-relacyjna-v3.5.md poprawki.md "przyporzadkowanie realizacji dynamicznej.md" punkt4*.md test-domk*.md 2>/dev/null; grep -c '' /dev/null; cd .. && grep -n '\[H\]\|\[A\]' logika-relacyjna-v3.5.md | cut -c1-160; grep -o '[a-z-]*-2026-10-0[0-9]\.\(md\|py\)' masa/logika-relacyjna-v3.5.md | sort -u
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+0
+2426:- **Definicja [L]** (Boguñá–Krioukov, arXiv:2401.17376 / PRD 110, 024008): dla c we wspólnej przeszłości a i b, z $I(x,y)$ = przedział Alexandrowa:
+-2026-10-09.md
+-drugi-rzad-2026-10-09.md
+-drugi-rzad-kontrola-2026-10-09.py
+-kontrola-2026-10-09.py
+alfa-masa-kontrola-2026-10-09.py
+alfa-masa-wspolne-widmo-2026-10-09.md
+alfa-progi-kontrola-2026-10-09.py
+alfa-progi-odczyt-masy-2026-10-09.md
+globalny-wiez-lokalne-fluktuacje-2026-10-09.md
+jadra-wagi-kontrola-2026-10-09.py
+jadra-wagi-rama-2026-10-09.md
+jadro-z-relacji-2026-10-09.md
+sprzezenie-i-normalizacja-odczytu-2026-10-09.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Measure §F0 size in both versions
+for f in logika-relacyjna-v3.5.md masa/logika-relacyjna-v3.5.md; do python3 - "$f" <<'EOF'
+import sys,re
+t=open(sys.argv[1],encoding='utf-8').read()
+i=t.find('## §F0.'); j=t.find('\n## ',i+5)
+print(sys.argv[1], 'całość', len(t), 'znaków; §F0', j-i)
+EOF
+done
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+logika-relacyjna-v3.5.md całość 565795 znaków; §F0 8080
+masa/logika-relacyjna-v3.5.md całość 606842 znaków; §F0 39776
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Save conclusions to notes
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+
+## Sprawdzenia (12.10, ja)
+- 8/8 bloków kodu z przyporządkowania uruchomione: PASS (kontrole/blok0–7.py w scratchpadzie)
+- ręcznie: 251 α=λ̄_C/a₀ ✓; 254 tożsamość Lagrange'a i przykład (1,2,3)/(17/7,19/7,6/7) ✓; 255 normalizacja R: β(3−β²)/2 = β(1+2m²/s) ✓; 262 γ₁ = 3/16 Q⁴ − 5/12 Q²S_Q (z ogólnego wzoru QCD przy C_A=0) ✓, 33/16 zgodne z RG (c₁ = −33/32) ✓; 258 Var ✓; F_γ momenty, ∫ln t dν = −5/9 ✓
+- 256 „4 = 1+3”: kontrakcja masy = blok 𝟙 (x⁰) + trzy σ; czytana jako 1+3 (przypadek 1 SESJI-WZORCOWEJ), nie oś — przechodzi
+- §F0: 8,1 tys. → 39,8 tys. znaków; plik +41 tys.; 14× [H]/[A] w kopii (w ramie 0 po 236)
+- 258 ścieżka: [270] użytkownik 18.09 „dla całości t=0,
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #16 status
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #17 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #17 status
+````
+</details>
+
+## [197] Asystent — 2026-10-12 22:49
+
+Przeczytałem wszystko w całości: rejestr 251–263, wszystkie 24 zmiany w kopii pliku głównego, `przyporzadkowanie realizacji dynamicznej.md` (§1–20), `punkt4-…` i `test-domkniecia-…`. Do ramy niczego jeszcze nie wpisałem.
+
+## Co jest w folderze
+
+Kopia `masa/logika-relacyjna-v3.5.md` to obecny plik główny po 250 plus zmiany 251–263. Numeracja się nie gryzie, więc przejęcie kopii nie wymaga scalania.
+
+- **9.10, α (251–255).**
+  - 251 poprawia błąd w A2 i R1d-F: „promień Bohra / zredukowana długość Comptona” to 1/α; samo α = λ̄_C/a₀.
+  - 252 i 254–255 to ciągła waga progu, momenty progów i część hadronowa bez jednostek.
+  - 253 to Twoja decyzja: zmierzonej α wolno używać w rachunku, ale nie jako wyniku wyprowadzenia.
+- **9.10, wagi, jądra i więz (256–263).**
+  - 256: czynnik 3 w γ_m to kombinacja masy i kinetyki, ta sama w każdym cechowaniu.
+  - 257: transport faz wiąże wierzchołek z jądrem.
+  - 258: globalny więz a lokalne fluktuacje, nowy blok w R1a.
+  - 259–260: reguła od zadanej relacji do wag i wspólna redukcja kanałów.
+  - 261–262: α i masa z tego samego widma; pełne dopasowanie A/B do drugiego rzędu w wektorowym QED.
+  - 263: w nazwanej klasie dodatniość i dokładna wielomianowość dają jądro pierwszego rzędu.
+- **12.10, `przyporzadkowanie…`.** Jedna próba w 19 krokach: od funkcjonału pełnego porównania, przez kryterium pamięci (B = 0) i Twoją propozycję licznika kroków (§12), do próby wyprowadzenia F_γ z kontaktów. Wynik jest otwarty (§19.7). Wagi wszystkich kanałów są policzone ogólnie, ale R1d i 179 nie ustalają neutralnych amplitud, stanu ani profili, więc F_γ z ramy nie wychodzi.
+- **12.10, dwa testy.**
+  - `test-domkniecia`: cztery nośniki w sektorze o zerowym spinie całkowitym; fazę q da się odczytać od środka, ale rama jej nie wybiera.
+  - `punkt4`: idealny zapis CNOT nie zachowuje energii (twierdzenie Wignera–Arakiego–Yanasego). Wspólnego postępu fazy modułu i odniesienia nie da się odczytać, odczytywalna jest tylko faza względna.
+
+## Co sprawdziłem
+- **Kod w `przyporzadkowanie…`:** wszystkie 8 bloków uruchomiłem u siebie i wszystkie przechodzą.
+- **Ręcznie, zgadza się:**
+  - 251;
+  - tożsamość p₀p₂ − p₁² w 254 i jej przykład (1,2,3) wobec (17/7, 19/7, 6/7);
+  - waga kanału μμ w 255;
+  - 262: dwupętlowe γ = 3Q⁴/16 − 5Q²S_Q/12 zgadza się z ogólnym wzorem dla QED, a 33/16 wynika z tego, że masa biegunowa nie zależy od μ;
+  - wariancje w 258;
+  - momenty F_γ i stała −5/9.
+- **256 wobec kryterium 247:** „4” w kontrakcji masy to blok 𝟙 plus trzy σ (1 + 3). Jest czytane jak w przypadku 1 `SESJI-WZORCOWEJ`, nie jako czwarta oś, a tekst sam odrzuca „3 = D − 1”. Przechodzi.
+- **Zakresy są zapisane uczciwie:** „warunkowo”, „nie wyprowadzenie z ramy”, bilans 208 i [104] bez zmian. Twoja propozycja z §12 (logarytm α ze skończoności kanału) upadła w tej części i jest to zapisane wprost: logarytm wymuszają przesłanki 212, nie skończoność.
+
+## Co rama z tego faktycznie dostaje
+Miarą jest pytanie ze `STOP.md` oraz Twoje kryterium z 260: co zostało związane albo jaki wybór usunięty.
+- 251: poprawiony błąd.
+- 253: zmiana reguły w liście 147.
+- 258: rozdzielenie trzech zer — więzu GΨ = 0, „zera absolutnego” z R1a i p = 0 w granicach Ø.
+- 263: w nazwanej klasie znika postulat „jednej pochodnej”.
+- §16: χ = 0 wynika z dwuliniowego zygzaka R1d, nie trzeba go zakładać.
+- §19.5: „pole bez wzbudzenia ≡ Ø” nie pozwala ustawić obsadzeń na zero. To zakaz w duchu przypadku 7 (Ø nie dostaje wartości).
+- §12 i §19: dwa dokładnie zlokalizowane „nie wynika”.
+- `punkt4`: wspólna faza i absolutne zero fazy nie są parametrami.
+
+Pozostałe wpisy (252, 255–257, 259–262) są poprawnym odtworzeniem znanego QED w słowniku ramy. Każdy sam to przyznaje, a przy kryterium 260 wiąże niewiele ponad 217. To nie zarzut do rachunków, tylko pytanie, gdzie mają stać.
+
+## Uwagi
+1. **Format wobec 235–236.** W kopii jest 14 znaczników [H]/[A] (w ramie zero), są daty, „Doprecyzowanie użytkownika (09.10)” i „Spodziewam się…”. §F0 urósł z 8 do 40 tys. znaków.
+2. **Brakujące pliki.** Wpisy 252–263 odsyłają do 9 raportów z 9.10 i ich skryptów. Z 12.10 brakuje `regula-kompozycji-pelnego-odczytu`, obu plików `zalozenia-…` i skryptów. Przez to PASS w 252–263 nie da się powtórzyć z repo. W `przyporzadkowanie…` się da, bo kod stoi w tekście.
+3. **Atrybucja.** Nie ma zapisu rozmowy z 9–12.10. Twoje zdania (253, 256, 258, 260, §11, §12, §17, „nieoznaczoność Heisenberga”, „zachodzenie relacji jest areną”) znam tylko w omówieniu tamtego asystenta. Przypadek 8 każe sprawdzać je ścieżką, więc jeśli da się tę rozmowę wyeksportować, warto ją dodać do `rozmowa/`.
+4. **258 ma ścieżkę w [270]–[271] (18.09).** Twoje: „dla całości t=0; wzbudzenia i relacje są lokalne”. Odpowiedź asystenta: „globalnie nic nie płynie, lokalnie wszystko płynie” oraz że zero w Ĥ|Ψ⟩ = 0 to inne zero niż τ = 0. Nowe w 258 jest odcięcie od trzeciej zasady termodynamiki i rachunek wariancji; blok powinien powoływać [270].
+5. **„Nieoznaczoność” w dwóch znaczeniach.** W `przyporzadkowanie…` dynamika „wynika z braku zera absolutnego i nieoznaczoności Heisenberga”; w pliku głównym tego nie ma. W ramie „nieoznaczoność” to 2D ≡ Ø [76], a Heisenberg to komplementarność odczytów (R1b). Przed wpisem do R1a trzeba je rozdzielić. Moja obserwacja, oznaczona [?]: w zapisie R1b suma wariancji trzech odczytów wynosi 3 − |r|² ≥ 2, więc żaden stan nie jest ostry we wszystkich trzech naraz. Dokładnie to liczy wzór (8) w `test-domkniecia`.
+6. **260 stoi na samej górze pliku:** „definicje czasu i 3D mają obecnie przede wszystkim charakter porządkujący”. Nowa sesja przeczyta to przed „Wagą”. Czy to Twoje brzmienie, czy omówienie tamtego asystenta?
+
+## Do decyzji
+- **Moja propozycja:** przejąć kopię z `masa/` jako plik główny i rejestr i oczyścić format według 235–236. Długie rachunki zostawić w §F0 tylko jako wynik ze statusem i odsyłaczem — pod warunkiem, że raporty z 9.10 też trafią do repo.
+- **Otwarte:** czy wyniki z 12.10 (§§8, 12, 16, 19, `punkt4`, `test-domkniecia`) dostają wpisy od 264, czy zostają materiałem w `masa/`?
+
+Nic nie zmieniam, dopóki nie zdecydujesz.
+
+## P5 — Twoje poprzednie pytanie
+Tłumaczyłbym tak. Weźmy dwa nośniki, A i B. Pytanie brzmi: czy wszystko, czym ta para różni się od innej pary, da się odczytać z odczytów na A, odczytów na B i tego, jak ich wyniki występują razem?
+
+- **Co mówi P5:** tak. Liczba parametrów pary jest iloczynem liczb parametrów części (K_AB = K_A·K_B).
+- **Kubit:** 4·4 = 16, czyli tyle, ile para naprawdę ma.
+- **Teoria rzeczywista (d = 2):** części dają 3·3 = 9 parametrów, a para ma 10. Jeden kierunek (σ_y⊗σ_y) jest niewidoczny dla każdego zestawu odczytów na częściach, a mimo to zmienia dalszy przebieg. Taką różnicę niesie para jako całość, przez nic poza sobą, a to w ramie jest **cecha** [36, 94].
+- **Zdanie ramy, na którym P5 stoi:** Twoje „wzbudzenia i relacje są lokalne” [270]. Każda różnica jest relacją odczytów części.
+
+**Miejsce w definicji czasu.** R1b-F jest zapisem formalnym R1a. P0, P2 i P3 dają kulę dowolnego wymiaru, a d = 3 wybierają razem P1, P5 i P6. Tylko P5 odcina teorię rzeczywistą (d = 2) i kwaternionową (d = 5), które mają splątanie i przechodzą resztę przesłanek. Eksperymenty 2021–22 są potwierdzeniem, nie podporą, bo przesłanka stoi na wykluczeniu cechy, nie na danych.
+
+Mój odczyt, którego nie ma w pliku: zapis (D2) jest korelacją z innym układem. Przy P5 każda korelacja daje się odczytać przez części, więc zapis nie może się schować w całości.
+
+**Czego P5 nie mówi** (tamta praca złapała to w 257 i 263):
+- „lokalne” nie znaczy „w miejscu przestrzeni”, tylko „na częściach pary”;
+- to nie jest lokalność dynamiki. Z P5 nie wynika rząd działania ani jądro pierwszego rzędu.
+
+## [198] Użytkownik — 2026-10-12 22:59
+
+Zaraz reszte. A póki co - z tego co pamiętam nieoznaczoność haisenberga trafiła w pliku głównym jako rozszerzenie uzasadnienia dynamiki (wczesniej było tylko samo zero absolutne) w formalnej definicji czasu i 3d
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search for Heisenberg in both main-file versions and check other branches
+for f in logika-relacyjna-v3.5.md masa/logika-relacyjna-v3.5.md poprawki.md masa/poprawki.md; do echo "== $f"; grep -n -i -o '.\{80\}\(heisenb\|haisenb\|nieoznaczono[śs]ci\? H\|relacj[aię] nieoznaczono\|Robertson\).\{80\}' "$f" | head; done; echo; git log --oneline -8 origin/claude/quirky-hawking-os26y5; git log --oneline -3 origin/claude/blissful-tesla-lsqepi origin/claude/new-session-7q12xr origin/ccr-66a8cb7a-vj7583 2>/dev/null | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+== logika-relacyjna-v3.5.md
+2945: iloczyn stały przy wymianie ostrości masy na ostrość ramy **wygląda** jak relacja nieoznaczoności. Ta nazwa jest pułapką (nr 5 z listy: etykieta zamiast rachunku). To zdan
+== masa/logika-relacyjna-v3.5.md
+3085: iloczyn stały przy wymianie ostrości masy na ostrość ramy **wygląda** jak relacja nieoznaczoności. Ta nazwa jest pułapką (nr 5 z listy: etykieta zamiast rachunku). To zdan
+== poprawki.md
+== masa/poprawki.md
+
+7942604 Delete przyporzadkowanie realizacji dynamicznej.md
+5cfe085 Add files via upload
+008b24b Delete kurwo jebana nowy folder
+85c8a82 Create kurwo jebana nowy folder
+30bde5a CLAUDE.md: wypowiedz uzytkownika o wadze definicji czasu i o kompresji (doslownie, na gorze); zapis sesji 3 uzupelniony
+d488a38 CLAUDE.md: protokol na gorze + diagnoza sesji 3; narzedzia/ (rama, wypowiedzi, filtr, transkrypt) i hooki w .claude/settings.json; zapis sesji 3 do 165
+d45af9f SF1: zespol po kolei - Pendleton-Ross i Hill jako stosunek stosunkow bez kierunku (etap22), 'wartosci poczatkowe' -> w punkcie odniesienia (poprawka 165)
+a2124bd R1f-5: przyspieszenie jako nadwyzka z odwrotnej nierownosci trojkata (etap21), Unruh, bledy konstrukcji jawnie (poprawka 164)
+47ae9fc Literatura: ds² = 0 zlewane z odczytem detektora — czwarte pytanie przy każdej pracy
+f7b849e „Masa” też przemyca założenie: który odczyt v i co znaczy m_P
+d352067 Literatura: co autor mówi wobec czego wynik używa; relatony
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check other branch uploads and search all history for Heisenberg
+git show --stat 5cfe085 | head; git show --stat 7942604 | head -8; for c in $(git rev-list origin/claude/quirky-hawking-os26y5 -5); do git grep -l -i 'heisenb' $c -- . 2>/dev/null; done | sort -u; echo ---; git grep -n -i 'heisenb' $(git rev-list --all) -- '*.md' 2>/dev/null | cut -d: -f1,2,3 | awk -F: '{print $2}' | sort | uniq -c | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+commit 5cfe085f06b62f29dcb1fca21b6a49c534ed825e
+Author: 13pawelkus-arch <[e-mail]>
+Date:   Tue Oct 13 00:22:18 2026 +0200
+
+    Add files via upload
+
+ przyporzadkowanie realizacji dynamicznej.md | 3472 +++++++++++++++++++++++++++
+ 1 file changed, 3472 insertions(+)
+commit 7942604a60ef8b557f2e57f729aa1b6bd84021b8
+Author: 13pawelkus-arch <[e-mail]>
+Date:   Tue Oct 13 00:36:46 2026 +0200
+
+    Delete przyporzadkowanie realizacji dynamicznej.md
+
+ przyporzadkowanie realizacji dynamicznej.md | 3472 ---------------------------
+ 1 file changed, 3472 deletions(-)
+008b24b90aefdf59f395679531e4118966048764:rozmowa/logika-relacyjna-rozmowa.md
+008b24b90aefdf59f395679531e4118966048764:skrypty/etap0_integrator_wariacyjny.py
+30bde5a268294d6f93eb5f8c68881e187c6e59ab:rozmowa/logika-relacyjna-rozmowa.md
+30bde5a268294d6f93eb5f8c68881e187c6e59ab:skrypty/etap0_integrator_wariacyjny.py
+5cfe085f06b62f29dcb1fca21b6a49c534ed825e:przyporzadkowanie realizacji dynamicznej.md
+5cfe085f06b62f29dcb1fca21b6a49c534ed825e:rozmowa/logika-relacyjna-rozmowa.md
+5cfe085f06b62f29dcb1fca21b6a49c534ed825e:skrypty/etap0_integrator_wariacyjny.py
+7942604a60ef8b557f2e57f729aa1b6bd84021b8:rozmowa/logika-relacyjna-rozmowa.md
+7942604a60ef8b557f2e57f729aa1b6bd84021b8:skrypty/etap0_integrator_wariacyjny.py
+85c8a82e78e0b2cd0313e64a367af72e57c07d44:rozmowa/logika-relacyjna-rozmowa.md
+85c8a82e78e0b2cd0313e64a367af72e57c07d44:skrypty/etap0_integrator_wariacyjny.py
+---
+      3 masa/przyporzadkowanie realizacji
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Search user statements about Heisenberg/uncertainty
+python3 narzedzia/wypowiedzi.py 'heisenb|haisenb|nieoznaczono' 2>&1 | grep -v '^$' | cut -c1-400 | head -60
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+=== logika-relacyjna-rozmowa.md ## [72] Użytkownik — 2026-09-16 16:26
+Dokładnie tak, zero absolutne to jest powrót do nieoznaczoności, powrót do 2D, brak informacji, nic nie można powiedzieć.
+Z kolei sama dynamika 3 węzłów relacji, też nie daje 3d. Jak polaczysz 3 kropki odcinkami. To moga sie rozciagac, skracac, jest ruch i zmiana długości boków. Ale jest nadal płasko. Potrzebna jest trajektoria, pamięć. Wtedy każdy punkt przestrzeni może być określony. Dodanie czwartego węzła, albo n węzłów nie powoduje "nowego" kierunku który wcześniej był nie możliwy. Jedyne 
+Można to sobie wyobrazić jak 3 samoloty na niebie, które wypuszczają kolorowy dym = widac ich trajektorie lotu.
+=== logika-relacyjna-rozmowa.md ## [104] Użytkownik — 2026-09-16 17:26
+≡  nierozróżnialność
+γ0 - foton
+t0 - chwila zero
+(r = 0) - osobliwość
+|ψ⟩ - superpozycja
+Δ - nieoznaczoność
+R to relacja, drugie R to rzeczywistość
+R ⊗ R — iloczyn tensorowy relacji przez relację. Czyli świat relacji złożonych z relacji.
+=== claude-code-sesja-2026-09-24-2.md ## [25] Użytkownik — 2026-09-24 17:47
+Jeżeli krzywizne byśmy doprowadzili do zera, to wpadamy do skali Planka, nieoznaczoności, albo w osobliwość
+Czyli "miejsca" o których nic nie można powiedzieć. Możemy opisywać je wyłącznie nie wprost. Czyli w kontekście bezpośredniego otoczenia
+=== claude-code-sesja-2026-09-24.md ## [82] Użytkownik — 2026-09-24 17:00
+Mogłem też tak to narysować. To nie znaczy, że płaskość w ogóle istnieje.
+Wymiary:
+1D - nie ma czegoś takiego.
+2D 
+…[ucięto]
+````
+</details>
+
+## [199] Asystent — 2026-10-12 22:59
+
+Sprawdziłem i w pliku głównym tego nie ma — w żadnej wersji.
+
+- **Obecny plik i kopia w `masa/`:** w R1a „Dynamika nie jest dołożona (poprawki 189, 258)” powołuje się tylko na brak zera absolutnego. Dopisek 258 odcina to od trzeciej zasady termodynamiki, ale Heisenberga nie wymienia. W R1b-F i R1c-F też go nie ma.
+- **`masa/poprawki.md`:** we wpisach 251–263 też nie.
+- **Cała historia gita, na wszystkich gałęziach:** w plikach `.md` „Heisenberg” pada tylko w `przyporzadkowanie realizacji dynamicznej.md` (12.10) i w rozmowie źródłowej. W żadnej wersji pliku głównego nie wystąpił.
+- **W `przyporzadkowanie…`** stoi trzy razy: we wstępie, w §11.1 („Podstawowa dynamika [H]. W aktualnym doprecyzowaniu wynika z braku zera absolutnego i nieoznaczoności Heisenberga”) i w źródłach §11.
+
+**Najbardziej prawdopodobne wyjaśnienie.** Wgrana kopia pliku głównego jest ze stanu po 263, czyli z 9.10. Prace z 12.10 (`przyporzadkowanie…`, `punkt4`, `test-domkniecia`) nie mają w niej ani w rejestrze żadnych wpisów. Jeśli Heisenberg trafił do pliku głównego, to w nowszej wersji niż ta, którą wgrałeś. Sprawdź, czy nie masz u siebie późniejszego pliku głównego i rejestru z wpisami po 263.
+
+**Ścieżka w rozmowach, którą warto mieć przy wpisie.** Ty sam nie łączyłeś wcześniej Heisenberga z dynamiką. Najbliżej jest [149] z 26.09 (powtórzone w [13] sesji CC 5), o balansie oznaczoności i nieoznaczoności:
+- świat wyłania się z nieoznaczoności, a gwarantuje to brak zera absolutnego;
+- zero absolutne to „przejście do całkowitej oznaczoności”, które też jest ≡ Ø.
+
+Z tego wynika pułapka nazewnicza. W Twoich wypowiedziach ([72], [82], [149]) „nieoznaczoność” to biegun 2D ≡ Ø. Heisenberg zakazuje czegoś odwrotnego: całkowitej oznaczoności, czyli zera absolutnego w sensie z [149]. W zapisie R1b wygląda to tak: suma wariancji trzech odczytów komplementarnych wynosi 3 − |r|² ≥ 2, więc żaden stan nie jest ostry we wszystkich trzech naraz.
+
+To mój odczyt [?], nie wynik. Jeśli tak to rozumiesz, przy wpisie do R1a trzeba nazwać to jawnie, żeby „nieoznaczoność Heisenberga” nie zlała się z „nieoznaczonością” = 2D ≡ Ø.
+
+Czekam na resztę.
+
+## [200] Użytkownik — 2026-10-12 23:34
+
+dodałem jeszcze kilka plikow, sprawdz teraz
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fetch remote and list new commits on the branch
+git fetch origin 2>&1 | tail -3; git log --oneline -10 origin/ccr-e3080631-0qjsjk; git status --short | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+From https://github.com/13pawelkus-arch/Logika-relacyjna
+   edffa12..ab96afc  ccr-e3080631-0qjsjk -> origin/ccr-e3080631-0qjsjk
+ab96afc Add files via upload
+be23cd4 Delete masa/poprawki.md
+25c191b Delete masa/logika-relacyjna-v3.5.md
+edffa12 Add files via upload
+9bf2ff1 Add files via upload
+e5373c0 Add files via upload
+cde60d3 250: 223 Z4 — wartość 𝒢 zależy od bazy, istnienie granicy nie; przeszkodą są Z1–Z3, nie 205
+d688b4f 249: SESJA-WZORCOWA.md — krótka sesja o tym, jak ma wyglądać praca
+25268e7 248: obrót Wicka w §E — błędem odczyt, nie liczba; NASTEPNA-SESJA; test na agencie bez kontekstu (5/5, granice nazwane)
+0c1e4fb 247 (uzupełnienie): obrót Wicka — błędem jest odczyt, nie liczba; NASTEPNA-SESJA: R1b-F i R1c-F przed zdaniami o wymiarach
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show what changed in the new upload and pull it
+git diff --stat edffa12 origin/ccr-e3080631-0qjsjk; git pull --ff-only origin ccr-e3080631-0qjsjk 2>&1 | tail -2; ls -la masa/
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+masa/21-punkt-wznowienia-2026-10-05.md             | 183 ++++++++++++
+ masa/{poprawki.md => 22-poprawki.md}               |   0
+ ...lacyjna-v3.5.md => 23-logika-relacyjna-v3.5.md} |   0
+ masa/24-sprawdzenie-mapy-masy-2026-10-04-1-.py     | 308 +++++++++++++++++++++
+ masa/check_step15.py                               | 145 ++++++++++
+ masa/check_step16.py                               | 150 ++++++++++
+ masa/check_step17.py                               | 109 ++++++++
+ masa/check_step18.py                               | 135 +++++++++
+ masa/check_step19.py                               | 154 +++++++++++
+ ...regula-kompozycji-pelnego-odczytu-2026-10-12.md | 209 ++++++++++++++
+ 10 files changed, 1393 insertions(+)
+ create mode 100644 masa/check_step19.py
+ create mode 100644 masa/regula-kompozycji-pelnego-odczytu-2026-10-12.md
+total 1552
+drwxr-xr-x  2 root root   4096 Oct 12 23:34 .
+drwxr-xr-x 10 root root   4096 Oct  8 17:46 ..
+-rw-r--r--  1 root root  27662 Oct  7 05:45 1 mapa-odczytu-skladnikow-masy-2026-10-04 (1).md
+-rw-r--r--  1 root root  11983 Oct  7 05:45 2 sprawdzenie-mapy-masy-2026-10-04 (1).py
+-rw-r--r--  1 root root  49628 Oct 12 23:34 21-punkt-wznowienia-2026-10-05.md
+-rw-r--r--  1 root root 302134 Oct 12 23:34 22-poprawki.md
+-rw-r--r--  1 root root 651865 Oct 12 23:34 23-logika-relacyjna-v3.5.md
+-rw-r--r--  1 root root  11983 Oct 12 23:34 24-sprawdzenie-mapy-masy-2026-10-04-1-.py
+-rw-r--r--  1 root root  22291 Oct  7 05:45 3 pary-M-O-amplituda-2026-10-04 (1).md
+-rw-r
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Compare duplicate script, search Heisenberg, show headings of resume file
+cd /home/user/Logika-relacyjna/masa && cmp "2 sprawdzenie-mapy-masy-2026-10-04 (1).py" 24-sprawdzenie-mapy-masy-2026-10-04-1-.py && echo identyczne; grep -n -i 'heisenb' 21-punkt-wznowienia-2026-10-05.md regula-kompozycji-pelnego-odczytu-2026-10-12.md check_step*.py | cut -c1-300; grep -n '^#' 21-punkt-wznowienia-2026-10-05.md | head -40
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+identyczne
+1:# Punkt wznowienia: logika relacyjna
+5:## Aktualny krok — od tego zacząć nową sesję
+15:### Ustalenia obowiązujące po korektach z 12.10
+24:### Co faktycznie zrobiono w tej sesji
+36:### Wiadomość startowa do nowej sesji
+42:## Archiwum ustaleń do 09.10.2026
+95:## Wiadomość startowa
+99:## Podstawa — tekst źródłowy użytkownika
+117:## Znaczenia, których trzeba pilnować
+129:## Rygor pracy
+145:## Status ustaleń
+164:## Materiały do czytania w projekcie
+173:## Dopisek po próbie dokończenia odczytu A, rozpoczętej 05.10.2026
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/21-punkt-wznowienia-2026-10-05.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Punkt wznowienia: logika relacyjna
+2	
+3	Nota rozpoczęta 5 października 2026; stan aktualny: **12 października 2026, po zakończeniu bieżącej sesji**. Plik główny pozostaje na poprawce 263. Poniższy aktualny punkt wznowienia uwzględnia późniejsze rachunki i korekty użytkownika; nie zostały one jeszcze scalone z plikiem głównym. Nota porządkuje zakres i status ustaleń; nie zastępuje wyprowadzeń.
+4	
+5	## Aktualny krok — od tego zacząć nową sesję
+6	
+7	**Ostatni sensowny kierunek:** wrócić do pierwotnego testu pełnej konstrukcji odczytu, rozpoczętego po pytaniu, dlaczego relacja stan–zapis wiąże regułę faz i jej wagi. Użytkownik zaakceptował test, następnie zlecił punkt 4 — przygotowanie i czytający jako część procesu. Ten punkt wykonano. Kontynuacją jest **zastosowanie już ustalonego domknięcia do pełnej reguły składania odczytów**. Późniejsze szukanie osobnego zegara, uruchomienia dynamiki i wyróżnionego L odsunęło rozmowę od tego zadania.
+8	
+9	Punkt wyjścia: „Rama musi więc ograniczać pełną konstrukcję odczytu, a nie sam wygląd równania”. Celem jest maksymalny poziom ogólności opisu oraz powiązanie jego elementów; nie wybór jednej wartości fazy lub jednakowego wyniku wszystkich procesów.
+10	
+11	**Pierwsza konkretna czynność:** dla reguły kompozycji użytej w dotychczasowym pełnym odczycie wypisać ciąg wynikania z R1a–R1c: które relacje wiążą przygotowanie, niesiony zapis, fazę, wagi i odpowiedź czytającego. Korzystać z już uzyskanych 259–260 o wspólnym pochodzeniu wag, sprzęż
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find 'nieoznaczoność' mentions in the uploaded main-file copy
+grep -n -o '.\{200\}nieoznaczono.\{200\}' 23-logika-relacyjna-v3.5.md | head -20
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/regula-kompozycji-pelnego-odczytu-2026-10-12.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Reguła kompozycji pełnego odczytu — zastosowanie domknięcia
+2	
+3	12.10.2026. Wykonanie pierwszej konkretnej czynności z aktualnego punktu wznowienia. Analiza asystenta; zakres poniżej. Podstawa: R1a–R1c razem, R1f, 177, 179, 206–207, 258–260 i 263. Uwzględniono §§8–9 pierwszego testu domknięcia oraz wykonany punkt 4.
+4	
+5	**Wynik:** w sektorze skończonych sieci minimalnych nośników z R1b i 179 reguła kompozycji pełnego odczytu nie jest dodatkową listą swobodnych faz, wag i norm. Jest jednym złożeniem relacji. Afiniczność przygotowań i efektów, tomografia lokalna oraz ustalona reguła relacji par wiążą jego zapis kwantowy. Przygotowanie, niesiony zapis, odpowiedź czytającego i normalizacja pozostają wewnątrz tego samego złożenia.
+6	
+7	Skończoność dotyczy opisywanego fragmentu i dotychczasowych modeli, nie pojemności świata ani przyczyny częściowości odczytu. Wynik nie wybiera konkretnego procesu, działania polowego QED ani wartości mas i sprzężeń.
+8	
+9	## 1. Odczyt, wejścia i warunek kontroli
+10	
+11	**Odczyt:** prawdopodobieństwo wskazanego rozróżnienia własnych zapisów O, warunkowane aktualnie dostępnym zapisem przygotowania r i wskazaniem c badanego procesu. c nie wprowadza osobnego zegara. Oznacza relacyjnie nazwane miejsce porównania.
+12	
+13	**Wejścia:** pełne relacje przygotowania na wejściach opisywanego fragmentu; operacje par i ich połączenia; wszystkie uczestniczące zapisy i odniesienia; efekty definiujące wskazania. Matematyczny opis tych danych nie oznacza, że we
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+2962:u (fakt): przy tej rozdzielczości odczytu krzywizny nie da się odróżnić, a nieodróżnialność to znaczenie ≡ w łańcuchu Ø. **Krzywizna doprowadzona do zera = wpadnięcie w skalę Plancka, nieoznaczoność albo osobliwość** — „miejsca”, o których nic nie można powiedzieć (2D, $l_P t_P$ i osobliwość są w łańcuchu Ø). Szukanie reguły, która sprowadza krzywiznę do zera, było żąd
+2983:iadą. „Mogłem też tak to narysować. To nie znaczy, że płaskość w ogóle istnieje.” Kształt triady nie ma znaczenia; trójwymiarowość dają zapisy. **1D nie istnieje. 2D = płaskość = nieoznaczoność = skala Plancka, relacja przestrzeni = 0, nic nie można powiedzieć. 3D = warunek konieczny i wystarczający do ustalenia każdej pozycji. 3 wymiary przestrzenne = 4 punkty odniesienia** (3 węz
+````
+</details>
+
+## [201] Asystent — 2026-10-12 23:34
+
+Przeczytałem `21-punkt-wznowienia` i `regula-kompozycji…`; teraz porównuję i uruchamiam `check_step15–19.py`.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Compare check scripts with embedded blocks and run them
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/kontrole; cd /home/user/Logika-relacyjna/masa; i=3; for n in 15 16 17 18 19; do if diff -q <(sed 's/[[:space:]]*$//' check_step$n.py) <(sed 's/[[:space:]]*$//' $S/blok$i.py) >/dev/null; then echo "check_step$n = blok$i (identyczne)"; else echo "check_step$n różni się od blok$i:"; diff <(sed 's/[[:space:]]*$//' check_step$n.py) <(sed 's/[[:space:]]*$//' $S/blok$i.py) | head -5; fi; i=$((i+1)); done; cd $S && for n in 15 16 17 18 19; do echo "== check_step$n"; timeout 300 python3 -I /home/user/Logika-relacyjna/masa/check_step$n.py 2>&1 | grep -E '"status"|Error|Traceback' ; done
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+check_step15 = blok3 (identyczne)
+check_step16 = blok4 (identyczne)
+check_step17 = blok5 (identyczne)
+check_step18 = blok6 (identyczne)
+check_step19 = blok7 (identyczne)
+== check_step15
+  "status": "PASS",
+== check_step16
+  "status": "PASS",
+== check_step17
+  "status": "PASS",
+== check_step18
+  "status": "PASS",
+== check_step19
+  "status": "PASS",
+Shell cwd was reset to /home/user/Logika-relacyjna
+````
+</details>
+
+## [202] Asystent — 2026-10-12 23:35
+
+Pobrałem nową paczkę i przeczytałem ją w całości.
+
+## Co doszło
+- **Nowe treści:** `21-punkt-wznowienia-2026-10-05.md` (stan na koniec 12.10) i `regula-kompozycji-pelnego-odczytu-2026-10-12.md`.
+- **Skrypty `check_step15–19.py`:** to te same programy co bloki kodu w §15–19 `przyporzadkowanie…`, znak w znak. Uruchomione — wszystkie przechodzą.
+- **Bez nowej treści:** `22-poprawki.md` i `23-logika-relacyjna-v3.5.md` to te same pliki co wcześniej, tylko pod nowymi nazwami. `24-sprawdzenie-mapy…py` jest identyczny z `2 sprawdzenie-mapy…py`.
+
+## Heisenberg — poprawiam swoją poprzednią odpowiedź
+Masz rację co do treści; ja szukałem tylko po nazwisku.
+- **Punkt wznowienia (wiersz 18):** „Powiązanie z nieoznaczonością oraz analogią Page–Wootters/WdW jest już zapisane w 258.”
+- **Blok 258 w R1a:** jest tam zdanie „Dokładna symetria i globalny więz nie są bezruchem każdej części ani zerowaniem jej nieoznaczoności”. Wariancje części wynoszą po 1/4.
+- **Punkt „Dynamika nie jest dołożona”:** ma dopisek 258, że części zachowują fluktuacje przy globalnym zerze.
+
+Treść weszła więc do pliku przez 258, ale bez nazwiska i jako zgodność, nie jako drugie uzasadnienie dynamiki. Uzasadnieniem zostaje tam sam brak zera absolutnego. Wprost jako źródło dynamiki („z braku zera absolutnego i nieoznaczoności Heisenberga”) stoi to tylko w `przyporzadkowanie…` §11.1.
+
+Pułapka z poprzedniej odpowiedzi jest teraz wewnątrz samego pliku głównego. W 258 „nieoznaczoność” to wariancja części, czyli sens Heisenberga. W 2962 i 2983 to 2D ≡ Ø. To samo słowo ma tam dwa znaczenia.
+
+## Punkt wznowienia
+- **Potwierdza mój domysł:** „Plik główny pozostaje na poprawce 263”, a prac z 12.10 jeszcze nie scalono. Wgrana kopia jest więc aktualna, a 12.10 czeka na scalenie.
+- **Kolejność dnia 12.10:** `test-domkniecia`, potem `punkt4`, potem `faza-L` (brak w repo). Następnie Twoja korekta: asystent wracał do ustalania podstaw zamiast je stosować i przerwałeś tę pętlę. Dalej `regula-kompozycji` jako „pierwsza konkretna czynność”, a na końcu `przyporzadkowanie…` §1–19.
+- **„Ustalenia obowiązujące po korektach z 12.10”:**
+  - nie uruchamiamy dynamiki;
+  - zegar nie jest dodatkowym „czymś”;
+  - zerowy sygnał nie jest brakiem informacji;
+  - masa i energia należą do tej samej konstrukcji.
+- **Twoje zdanie:** „dynamika może być bez rozróżnienia, ale nie możemy powiedzieć, że ona jest bez tego rozróżnienia”.
+
+Te zdania przy scalaniu powinny trafić do R1a i do `NASTEPNA-SESJA.md`, a nie zostać w notatce.
+
+## `regula-kompozycji…` — co daje
+- **Przejście z pary na sieć:** tomografia lokalna (P5) i liniowość jednoznacznie rozszerzają operację pary na wejścia skorelowane z resztą, Ad(U_AB ⊗ I_C). Nie da się dopisać osobnej wagi „obecności C”. To dokładnie rola P5 przy składaniu i dobrze dopełnia moją wczorajszą odpowiedź. Tekst sam zaznacza, że P5 mówi o wspólnych statystykach odczytów lokalnych, a nie o tym, że stany zredukowane wyznaczają całość.
+- **Jeden Gram wag i porównań:** w = ‖Σ A_γ‖² = Σ Γ_γγ + 2 Re Σ Γ_γδ. Na przekątnej stoi suma faktycznych wag, nie liczba dróg. To uogólnia 177 (n + 2Σcos) i jest zgodne z 213.
+- **Gdzie zostaje postulat:** tylko w moście z pary na sieć (179) i dalej w przyporządkowaniu realizacji polowej. Na tym opiera się dalsza część `przyporzadkowanie…`.
+
+Przy teście ze `STOP.md` widzę tu jeden nowy element: zakaz osobnej wagi dla nośnika spoza kontaktu i to, że na przekątnej stoją wagi, nie zliczenie dróg. Reszta to złożenie R1b z 179.
+
+## Nadal brakuje w repo
+- `faza-L-wynik-2026-10-12.md`;
+- dziewięciu raportów z 9.10 i ich skryptów;
+- obu plików `zalozenia-…`;
+- skryptów do `test-domkniecia` i `punkt4`;
+- `odczyt-A-EM-uzgodnienie-2026-10-05.md` (powołany w dopisku punktu wznowienia);
+- zapisu samej rozmowy 9–12.10.
+
+Decyzja o scaleniu zostaje tak, jak w poprzedniej wiadomości. Do listy rzeczy przy scalaniu dochodzą teraz: ustalenia z 12.10 z punktu wznowienia i rozdzielenie dwóch znaczeń „nieoznaczoności” w R1a.
+
+## [203] Użytkownik — 2026-10-13 00:08
+
+rozmow nie mam wyeksportowanych, a reszta juz chyba jest
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fetch remote and check for newly uploaded files
+git fetch origin 2>&1 | tail -2; git log --oneline -5 origin/ccr-e3080631-0qjsjk; git diff --stat HEAD origin/ccr-e3080631-0qjsjk | tail -40
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+From https://github.com/13pawelkus-arch/Logika-relacyjna
+   ab96afc..90148e0  ccr-e3080631-0qjsjk -> origin/ccr-e3080631-0qjsjk
+90148e0 Add files via upload
+ab96afc Add files via upload
+be23cd4 Delete masa/poprawki.md
+25c191b Delete masa/logika-relacyjna-v3.5.md
+edffa12 Add files via upload
+ .../test-domkniecia-2026-10-12.json                | 983 +++++++++++++++++++++
+ .../test-domkniecia-2026-10-12.md                  | 265 ++++++
+ .../test-domkniecia-2026-10-12.py                  | 351 ++++++++
+ .../01-test-domkniecia/zalozenia-przed-kontrola.md |  34 +
+ .../punkt4-energia-zapis-kontrola-2026-10-12.json  | 606 +++++++++++++
+ .../punkt4-energia-zapis-kontrola-2026-10-12.py    | 273 ++++++
+ ...unkt4-przygotowanie-energia-zapis-2026-10-12.md | 278 ++++++
+ .../zalozenia-punkt4-przed-kontrola.md             |  15 +
+ .../odczyt-A-EM-uzgodnienie-2026-10-05.md          | 339 +++++++
+ masa/2026-10-09/AB-drugi-rzad-2026-10-09.md        | 279 ++++++
+ .../AB-drugi-rzad-kontrola-2026-10-09.json         | 193 ++++
+ .../AB-drugi-rzad-kontrola-2026-10-09.py           | 332 +++++++
+ masa/2026-10-09/alfa-masa-kontrola-2026-10-09.json | 357 ++++++++
+ masa/2026-10-09/alfa-masa-kontrola-2026-10-09.py   | 465 ++++++++++
+ .../alfa-masa-wspolne-widmo-2026-10-09.md          | 417 +++++++++
+ .../2026-10-09/alfa-progi-kontrola-2026-10-09.json | 271 ++++++
+ masa/2026-10-09/alfa-progi-kontrola-2026-10-09.py  | 106 +++
+ .../alfa-progi-odczyt-masy-2026-10-09.md           | 231 +++++
+ .../globalny-wiez-
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Pull upload and list full paths of new files
+git pull --ff-only origin ccr-e3080631-0qjsjk 2>&1 | tail -1; git diff --stat HEAD@{1} HEAD | head -45 | cut -c1-200; find masa -newer masa/check_step19.py -type f | sort
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+create mode 100644 masa/2026-10-12/test-domkniecia-2026-10-12.py
+ .../test-domkniecia-2026-10-12.json                | 983 +++++++++++++++++++++
+ .../test-domkniecia-2026-10-12.md                  | 265 ++++++
+ .../test-domkniecia-2026-10-12.py                  | 351 ++++++++
+ .../01-test-domkniecia/zalozenia-przed-kontrola.md |  34 +
+ .../punkt4-energia-zapis-kontrola-2026-10-12.json  | 606 +++++++++++++
+ .../punkt4-energia-zapis-kontrola-2026-10-12.py    | 273 ++++++
+ ...unkt4-przygotowanie-energia-zapis-2026-10-12.md | 278 ++++++
+ .../zalozenia-punkt4-przed-kontrola.md             |  15 +
+ .../odczyt-A-EM-uzgodnienie-2026-10-05.md          | 339 +++++++
+ masa/2026-10-09/AB-drugi-rzad-2026-10-09.md        | 279 ++++++
+ .../AB-drugi-rzad-kontrola-2026-10-09.json         | 193 ++++
+ .../AB-drugi-rzad-kontrola-2026-10-09.py           | 332 +++++++
+ masa/2026-10-09/alfa-masa-kontrola-2026-10-09.json | 357 ++++++++
+ masa/2026-10-09/alfa-masa-kontrola-2026-10-09.py   | 465 ++++++++++
+ .../alfa-masa-wspolne-widmo-2026-10-09.md          | 417 +++++++++
+ .../2026-10-09/alfa-progi-kontrola-2026-10-09.json | 271 ++++++
+ masa/2026-10-09/alfa-progi-kontrola-2026-10-09.py  | 106 +++
+ .../alfa-progi-odczyt-masy-2026-10-09.md           | 231 +++++
+ .../globalny-wiez-lokalne-fluktuacje-2026-10-09.md | 208 +++++
+ .../2026-10-09/jadra-wagi-kontrola-2026-10-09.json |  71 ++
+ masa/2026-10-09/jadra-wagi-kontrola-2026-10-09.py  | 313 +++++++
+ masa/2026-10-09/jadra-wagi-rama-2026-10-09.md      | 2
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check duplicate files among new uploads
+cd /home/user/Logika-relacyjna/masa && cmp 01-test-domkniecia/test-domkniecia-2026-10-12.md test-domkniecia-2026-10-12.md; diff 01-test-domkniecia/test-domkniecia-2026-10-12.md test-domkniecia-2026-10-12.md; cmp 02-punkt4-energia-zapis/punkt4-przygotowanie-energia-zapis-2026-10-12.md punkt4-przygotowanie-energia-zapis-2026-10-12.md && echo punkt4 md identyczne; cmp 01-test-domkniecia/test-domkniecia-2026-10-12.py 2026-10-12/test-domkniecia-2026-10-12.py && echo td py identyczne; cmp 02-punkt4-energia-zapis/punkt4-energia-zapis-kontrola-2026-10-12.py 2026-10-12/punkt4-energia-zapis-kontrola-2026-10-12.py && echo p4 py identyczne
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+01-test-domkniecia/test-domkniecia-2026-10-12.md test-domkniecia-2026-10-12.md differ: char 157, line 3
+3c3
+< 12.10.2026. Punkt wyjścia: R1a–R1c, 179, 207, 258–260 i 263 w `logika-relacyjna-v3.5.md`. Rachunek: wyprowadzenie i kontrola symboliczna asystenta. Znane narzędzia matematyczne oznaczono w źródłach na końcu.
+---
+> 12.10.2026. Punkt wyjścia: R1a–R1c, 179, 207, 258–260 i 263 w `logika-relacyjna-v3.5.md`. 
+7c7
+< **Korekta kryterium testu:** dwie różne odpowiedzi dwóch poprawnych procesów nie dowodzą istnienia dwóch różnych praw. Oba procesy mogą realizować tę samą regułę, przy różnych relacjach oddziaływania. Obecny rachunek bada swobodę konkretnej relacji `U_q` z 259. Regułę zespolonych amplitud i odczytu kwantowego przyjmuje z R1b; nie wyprowadza jej na nowo i nie porównuje z odmienną regułą.
+---
+> **Korekta kryterium testu:** dwie różne odpowiedzi dwóch poprawnych procesów nie dowodzą istnienia dwóch różnych praw. Oba procesy mogą realizować tę samą regułę, przy różnych relacjach oddziaływania. Obecny rachunek bada swobodę konkretnej relacji `U_q` z 259. Regułę zespolonych amplitud i odczytu kwantowego znajduje się w R1b; 
+127,128d126
+< 
+< **Uzupełnienie po audycie punktu 4, 12.10.2026:** powyższy CNOT jest idealizacją instrumentu. Jeśli dodatkowo wymagać zachowania addytywnej energii z generatorem \(H_S=\varepsilon P_t^{23}\), dokładny powtarzalny zapis \(Z_L\) jest niedopuszczalny dla \(\varepsilon\ne0\). W raporcie `punkt4-przygotowanie-energia-zapis-2026-10-12.md`
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Run all uploaded control scripts in scratchpad copies
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi; rm -rf $S; mkdir -p $S; cd /home/user/Logika-relacyjna/masa; for f in 2026-10-09/*.py 01-test-domkniecia/*.py 02-punkt4-energia-zapis/*.py; do b=$(basename $f .py); mkdir -p $S/$b; cp $f $S/$b/; done; cd $S; for d in */; do b=${d%/}; cd $S/$b; start=$(date +%s); timeout 900 python3 -I $b.py > out.txt 2>err.txt; rc=$?; end=$(date +%s); st=$(grep -o -i '"status": *"[A-Z]*"\|PASS\|FAIL' out.txt | sort | uniq -c | tr '\n' ' '); echo "$b rc=$rc t=$((end-start))s [$st] $(tail -c 200 err.txt | tr '\n' ' ')"; done
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Command running in background with ID: bj335rj7e. Output is being written to: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/tasks/bj335rj7e.output. You will be notified when it completes. To check interim output, use Read on that file path.
+Session cwd remains /home/user/Logika-relacyjna/masa; directory changes made by the backgrounded command do not apply to subsequent commands.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: W kopii w scratchpadzie; porównać status z JSON
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #18 created successfully: Uruchomić wszystkie skrypty z paczki 13.10 (9.10, 12.10)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Krótsze pliki
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #19 created successfully: Przeczytać zalozenia-*, faza-L, odczyt-A-EM
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: alfa-progi, wagi-masy-EM, jadra-wagi, globalny-wiez, jadro-z-relacji, sprzezenie, alfa-masa, AB-drugi-rzad, wybor-jadra-LR; notatki w scratchpadzie
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #20 created successfully: Przeczytać 9 raportów z 9.10 w całości
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Co doszło, co sprawdzone, co różni raporty od wpisów 251–263, co do decyzji
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #21 created successfully: Raport dla użytkownika po pełnej paczce
+````
+</details>
+
+## [204] Asystent — 2026-10-13 00:09
+
+Skrypty liczą się w tle; w tym czasie czytam pliki z założeniami, `faza-L` i `odczyt-A-EM`.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the two pre-registration files
+cat 01-test-domkniecia/zalozenia-przed-kontrola.md; echo; echo =========; cat 02-punkt4-energia-zapis/zalozenia-punkt4-przed-kontrola.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+# Test dynamicznego odczytu — zapis przed kontrolą
+
+12.10.2026. Kontynuacja pytania użytkownika o nierozdzielność odczytu i domknięcia relacji. Źródło: `project_sources/23-logika-relacyjna-v3.5.md`, R1a–R1c, 179, 207, 258–260, 263.
+
+## Oczekiwanie i możliwość obalenia
+
+Pytanie: czy swoboda `U_q=P_s+qP_t`, `|q|=1`, z 259 utrzymuje się po objęciu rachunkiem przygotowania, relacyjnych odniesień komplementarnych, zegara, powstania zapisów oraz ich porównania przez wewnętrznego czytającego?
+
+Oczekiwanie robocze: globalny singlet większego układu może zawierać różne kanały wewnętrzne. Ich względna faza będzie czytelna dla części tego układu. Włączenie aparatu zwiąże wagi odpowiedzi z tą fazą, lecz sam warunek spójnego niesienia nie musi jej ustalić. To hipoteza do kontroli, nie wniosek o całej ramie.
+
+Hipoteza ta upada w badanej klasie, jeśli domknięcie aparatu usuwa parametr, jeśli jego zmiana jest jedynie zmianą jednostek/bazy, albo jeśli cały zapis czytającego jest od niego niezależny. Model upada jako realizacja wymienionych warunków, jeśli narusza normę, globalne więzy, częściowość zapisu, niesienie bądź zgodność przygotowania i odczytu.
+
+## Kryteria źródłowe i jawne wybory realizacji
+
+| Warunek źródłowy | Co sprawdzamy | Status przejścia |
+|---|---|---|
+| R1b: algebra kubitu i domknięta triada | Trzy nieprzemienne operatory w sektorze wewnętrznych relacji; algebra Pauliego | Przyjęta reprezentacja R1b; nie wyprowadzamy ponownie 3D |
+| R1a, 207: zapis nie jest stanem, odczyt j
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-12/faza-L-wynik-2026-10-12.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Kiedy zegar przenosi fazę: L, odstęp energii i wspólne korelacje
+2	
+3	12.10.2026. Kontynuacja punktu 4 po doprecyzowaniu: badany proces wraz ze swoimi relacjami pełni rolę zegara; jego dynamika już zachodzi. Zadanie: sprawdzić podejrzenie użytkownika, że fazę przenosi tylko zegar o odpowiednim L.
+4	
+5	**Wynik:** w równomiernej rodzinie z punktu 4 faza przechodzi przez dany odczyt, gdy obsadzony odcinek odniesienia obejmuje pary poziomów o wymaganej różnicy energii. Dla różnicy k odstępów drabiny warunek to L>k, a współczynnik wynosi max(L−k,0)/L. Nie wybrano jednego L ani równości L przygotowania i kolejnego odczytu. Samo L nie wystarcza: liczą się korelacje energetyczne, ich profil i dopasowanie do konkretnego instrumentu. W pełnym procesie faza może być odczytywalna wyłącznie we wspólnej korelacji, mimo diagonalnych lokalnych stanów obu odniesień.
+6	
+7	**Kontrola:** PASS — 168 dokładnych kontroli. Sprawdzono pełne unitarne instrumenty, zachowanie energii oraz tożsamość efektu na całej dozwolonej podprzestrzeni wejść. Wzory nie pochodzą z dopasowania do kilku faz. Oczekiwanie i warunki upadku zapisano przed wykonaniem kontroli w `zalozenia-przed-kontrola.md`.
+8	
+9	## 1. Znaczenie L i zakres tego sprawdzenia
+10	
+11	L oznacza parametr odniesienia z punktu 4: długość obsadzonego odcinka drabiny energetycznej. W wyjściowej rodzinie wszystkie te poziomy były równomiernie obsadzone, a ich fazy narastały liniowo. Nie utożsamiamy tego L z najdłuższym łańcuchem z A2 ani z zewnętr
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-05/odczyt-A-EM-uzgodnienie-2026-10-05.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Odczyt A: uzgodnienie masy z pełną odpowiedzią i granica uzyskanego wyniku
+2	
+3	Data rozpoczęcia: 05.10.2026; weryfikacja i zapis: 06.10.2026, Europe/Warsaw. Kontynuacja `pary-M-O-EM-2026-10-05.md`, punkt 2. **Status: wynik częściowy; pełnego kwantowego odczytu konkretnej pary z EM nie obliczono.**
+4	
+5	Użytkownik zlecił dokończenie przejścia do A. Wykonano jawną jednopętlową część pędową energii własnej EM i jej uzgodnienie z parametrem masowym; sprawdzono odczyt pełnego swobodnego pakietu 3D oraz ograniczenie identyfikacji przy nieustalonym przygotowaniu. Te kontrole nie zastępują brakującej odpowiedzi aparatu SM. Żadnego z poniższych rachunków nie przedstawiam jako wyprowadzenia Yukaw ani jako zamknięcia pełnej funkcji masy.
+6	
+7	**Najistotniejsza konsekwencja dla dalszego rachunku:** gdy zachowujemy sumę amplitud, na fazę całego porównania wpływa także nierówne tłumienie poszczególnych wkładów. Rozdział „najpierw odjąć fazę EM, potem odczytać masę” nie działa ogólnie. Masa już uwzględniona w A/B wymaga przy tym odjęcia odpowiadającej jej wstawki od reszty poprawki EM, nie usunięcia całej propagacji EM.
+8	
+9	## 1. Zakres, wejścia i warunek rozstrzygnięcia
+10	
+11	Podstawa czasu i 3D z R1a–R1c oraz poprawki 166, 178, 185–191, 198–208 pozostają punktem wyjścia. Nie rozdzielamy powstawania czasu, przestrzeni i masy na etapy. Współrzędne i pędy poniżej są reprezentacją istniejącego formalizmu w relacji do O. Parametr `n` nazywa różnicę wskazań ustalonego czytającego; nie je
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check script run progress and append notes
+cat /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/tasks/bj335rj7e.output; cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+
+## Paczka 13.10 (90148e0): raporty 9.10 + skrypty, 01-test-domkniecia/, 02-punkt4/, 2026-10-05/odczyt-A, 2026-10-12/faza-L
+- 01-test-domkniecia/*.md = nowsza wersja (dopisek po audycie punktu 4; kopia w masa/ okrojona); punkt4 md identyczne; skrypty w 2026-10-12/ = kopie z 01/02
+- zalozenia: zapisane przed kontrolą; jasne warunki upadku, wybory nazwane
+- faza-L: podejrzenie użytkownika (fazę przenosi tylko zegar o odpowiednim L) — trafne jako warunek dopasowania (L>k, ν=max(L−k,0)/L), silniejsza wersja (samo L wybiera fazę) upadła: profile i korelacje; faza m
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+AB-drugi-rzad-kontrola-2026-10-09 rc=0 t=2s [      1 "status": "PASS" ] 
+alfa-masa-kontrola-2026-10-09 rc=0 t=4s [      1 "status": "PASS" ] 
+alfa-progi-kontrola-2026-10-09 rc=0 t=1s [] 
+jadra-wagi-kontrola-2026-10-09 rc=0 t=1s [      1 "status": "PASS" ] 
+jadro-z-relacji-kontrola-2026-10-09 rc=0 t=1s [      1 "status": "PASS" ] 
+punkt4-energia-zapis-kontrola-2026-10-12 rc=0 t=6s [      1 "status": "PASS" ] 
+sprzezenie-i-normalizacja-kontrola-2026-10-09 rc=0 t=7s [      1 "status": "PASS" ]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/alfa-progi-odczyt-masy-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# α z pełnymi progami: co można odczytać o masach
+2	
+3	09.10.2026. Sprawdzenie §F0 pliku „logika-relacyjna-v3.5.md”, z poprawkami 251–253. Status: [A][T] dla konsekwencji podanego jądra, [L] dla użytych funkcji perturbacyjnych i relacji dyspersyjnej, [P] dla kontroli. Korzystamy z dopuszczenia danych pomiarowych przez użytkownika (253).
+4	
+5	Otrzymano trzy wyniki: warunkowy test rozróżnienia mas z kształtu odpowiedzi α; jednoznaczność ważonego zbioru progów przy dokładnej funkcji w zadanej rodzinie; bezwymiarową postać wkładu hadronowego, z doprecyzowaniem jego normalizacji. Nie przeprowadzono analizy pomiarów α ani pełnego rachunku własnej energii w drugim rzędzie.
+6	
+7	## 1. Co wynika z czterech części F0
+8	
+9	| część F0 | co jest dostępne | co można dostać teraz |
+10	|---|---|---|
+11	| Co wiemy | pełne jednopętlowe jądro fermionowe, wagi ładunków, relacja rozdzielczości i wspólne amplitudy dla biegu sprzężenia oraz mas | dokładne zależności między kształtem odpowiedzi α a stosunkami mas |
+12	| Czego nie wiemy | grupa i liczba pokoleń nie są wyprowadzone; wyższe rzędy i odpowiedź hadronowa nie są wyprowadzone z ramy | określić jawnie, które składniki są danymi rachunku; część hadronową zapisać przez znaną odpowiedź R |
+13	| Do czego α jest potrzebna przy masie | przejście A/B i wagi cechowania są już nazwane i policzone w jednym rzędzie | sprawdzić, gdzie α niesie rozróżnienie mas, a gdzie wspólny wkład znosi się w stosunku |
+14	| Proponowane kroki | najbliższy jest pełny
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/wagi-masy-EM-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Pochodzenie wagi masowej EM: rachunek i granica wyprowadzenia
+2	
+3	09.10.2026. Rozpoczęcie zadania po poleceniu użytkownika: „zacznij od pochodzenia wag”. Punkt wyjścia: §F0, 155 B, 213–214, 217–219, 246–247 i R1b–R1f pliku głównego. Podstawa czasu i 3D jest przyjęta; stosujemy ją do istniejącego rachunku.
+4	
+5	## Zapis przed kontrolami rachunkowymi
+6	
+7	**Spodziewam się:** znany jednopętlowy współczynnik masowy EM można prześledzić do osobnych kontrakcji członu masowego i kinetycznego oraz do wag po połączeniu propagatorów. Algebra `𝟙, σ` pozwoli zapisać kontrakcje z `𝟙` jako normowaniem, bez czytania go jako czwartego odczytu komplementarnego. Zmiana cechowania powinna zmieniać podział między oba człony, zachowując ich masową kombinację.
+8	
+9	**Zdanie o upadku przekładu:** jeśli do uzyskania współczynnika trzeba policzyć normowanie jako czwarty kierunek tego samego rodzaju co odczyty `σ`, pominąć jeden człon propagatora lub dobrać jego wagę do znanej liczby, taki przekład do ramy upada. Zgodność ze znanym wynikiem QED jest kontrolą rachunku, nie nowym testem teorii.
+10	
+11	**Osobne, mocniejsze pytanie:** czy wszystkie składniki potrzebne do tego rachunku wynikają z samej podstawy R1a–R1c? Przyjętego działania i reguły pętlowej nie wolno uznać za wyprowadzone tylko dlatego, że algebra licznika ma zapis w ramie.
+12	
+13	**Wejścia:** nośnik Diraca jako para L/R, algebra Pauliego i forma determinantowa R1b–R1c, minimalny wektorowy wierzchołek QED, kanoniczne jądra Diraca i M
+…[ucięto]
+````
+</details>
+
+## [205] Asystent — 2026-10-13 00:09
+
+Skrypty z 9.10 przechodzą; czytam raporty po kolei (zrobione 2 z 9: `alfa-progi`, `wagi-masy-EM`).
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/jadra-wagi-rama-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Jądra i wagi działania: co wymuszają relacje ramy
+2	
+3	09.10.2026. Kontynuacja poprawki 256 na polecenie użytkownika: uzasadnić przyporządkowanie jawnych jąder i wag działaniu z relacji ramy. Źródła projektu: R1a–R1c, R1d-F, R1f-1, 169, 177–179, 204, 208, 213–214, 217 oraz 256. Podstawa czasu i 3D jest przyjęta i stosowana. Nie dodajemy do fizycznego modelu nowych pól, sprzężeń ani areny.
+4	
+5	## Zapis przed nowymi rachunkami i kontrolami
+6	
+7	**Spodziewam się:** nieodczytywalność fazy przypisanej samemu końcowi wymusi sposób przenoszenia amplitudy między końcami i zgodność wierzchołka z jądrem. Algebra R1b–R1c ustali macierzowe miejsca dla kinetyki i zygzaka L/R. W nazwanej klasie minimalnego działania pozwoli to odtworzyć kanoniczne składniki użyte w 256. Same symetrie mogą pozostawić funkcje odpowiedzi i pełne wagi obiegów nieustalone.
+8	
+9	**Zdanie o upadku mocniejszego wyprowadzenia:** twierdzenie, że te przesłanki wybierają całe działanie oraz wszystkie jego wagi, upada, jeśli różne wagi tego samego obiegu zachowują sprawdzane niezmienniczości i tę samą drugą wariację, albo jeśli tożsamość wiążąca wierzchołek z jądrem zostawia niezerowy składnik. Przykłady testują wymienione przesłanki; nie są kontrmodelami całej podstawy ani propozycją rozszerzenia QED.
+10	
+11	**Przyjęte składniki:** kwantowa algebra i zmiana czytającego z R1b–R1c; para L/R i relacja faz U(1) z R1d; odczyt sumy amplitud oraz faz obiegów z 177, z wagami zachowanymi zgodnie z 213. Dla klasyfikacji ją
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/globalny-wiez-lokalne-fluktuacje-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Globalny więz, lokalne fluktuacje i odczyt warunkowy
+2	
+3	09.10.2026. Doprecyzowanie R1a i dalszej pracy po poprawce 257; poprawka 258.
+4	
+5	## 1. Co doprecyzował użytkownik
+6	
+7	**[H]** Argument o autonomii dynamiki nie ma opierać się na trzeciej zasadzie termodynamiki. Chodzi o możliwość odczytywalnej zmiany w relacjach wewnętrznych bez dodawania zewnętrznego napędu. Nierozróżnialność od Ø nie pozwala wypowiadać wprost ani obecności, ani nieobecności czegoś w Ø.
+8	
+9	> Symetria całości nie oznacza braku struktury wewnętrznej.
+10	> Całość może mieć dokładnie zerowy generator i zerową nieoznaczoność tego generatora, a jej części nadal mogą mieć niezerowe fluktuacje, nieoznaczoność.
+11	
+12	**Dokładny zapis zera w analizowanej analogii:** generator zeruje stan, `G|Ψ⟩=0`. Na tym stanie jego średnia i wariancja są dokładnie zerowe. Nie ustanawia to `G=0` jako operatora na całej przestrzeni stanów ani zerowania generatorów części. WDW jest tu odwołaniem do więzu, a Page–Wootters do odczytu warunkowego. Ani zero więzu, ani zerowa wariancja nie są definicją temperatury.
+13	
+14	## 2. Odczyt, wejścia, oczekiwanie i warunek upadku
+15	
+16	**Odczyt:** prawdopodobieństwo wyniku na S warunkowane wskazaniem C, czyli relacja wyników dwóch nazwanych nośników. C jest częścią układu i pełni rolę zegara. Wszystkie fazy i generatory poniżej są bezwymiarowe; θ jest wskazaniem okresowego zegara, a nie dodatkową osią ani parametrem zewnętrznego ruchu.
+17	
+18	**Wejścia przykładu:** dwa nośniki ku
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show all script results and alfa-progi output
+cat /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/tasks/bj335rj7e.output; S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi; tail -c 600 $S/alfa-progi-kontrola-2026-10-09/out.txt; ls $S/alfa-progi-kontrola-2026-10-09/; for d in $S/*/; do b=$(basename $d); j=/home/user/Logika-relacyjna/masa/*/$b.json; ls $d*.json 2>/dev/null | head -1 >/dev/null; done
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+AB-drugi-rzad-kontrola-2026-10-09 rc=0 t=2s [      1 "status": "PASS" ] 
+alfa-masa-kontrola-2026-10-09 rc=0 t=4s [      1 "status": "PASS" ] 
+alfa-progi-kontrola-2026-10-09 rc=0 t=1s [] 
+jadra-wagi-kontrola-2026-10-09 rc=0 t=1s [      1 "status": "PASS" ] 
+jadro-z-relacji-kontrola-2026-10-09 rc=0 t=1s [      1 "status": "PASS" ] 
+punkt4-energia-zapis-kontrola-2026-10-12 rc=0 t=6s [      1 "status": "PASS" ] 
+sprzezenie-i-normalizacja-kontrola-2026-10-09 rc=0 t=7s [      1 "status": "PASS" ] 
+test-domkniecia-2026-10-12 rc=0 t=6s [      1 "status": "PASS" ] 
+wagi-masy-EM-kontrola-2026-10-09 rc=0 t=1s [] 
+wybor-jadra-LR-kontrola-2026-10-09 rc=0 t=1s [      1 "status": "PASS" ] 
+
+[exited with code 0]
+{"saved": "alfa-progi-kontrola-2026-10-09.json", "exact_controls": ["a_k", "variance_controls", "two_moments_do_not_determine_three_masses", "synthetic_polynomial", "incompatible_curve_moments"], "spectral_cases": 16, "max_spectral_error": 4.718447854656915e-16, "max_reconstruction_error": 4.440892098500626e-16}
+alfa-progi-kontrola-2026-10-09.json
+alfa-progi-kontrola-2026-10-09.py
+err.txt
+out.txt
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Compare regenerated JSON results with the uploaded ones
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi; tail -c 800 $S/wagi-masy-EM-kontrola-2026-10-09/out.txt; echo; cat $S/wagi-masy-EM-kontrola-2026-10-09/err.txt | head; cd $S; python3 - <<'EOF'
+import json,glob,os
+for d in sorted(glob.glob('*/')):
+    b=d.strip('/')
+    mine=glob.glob(d+'*.json')
+    orig=glob.glob('/home/user/Logika-relacyjna/masa/*/'+b+'.json')
+    if not mine or not orig: print(b,'brak json', mine, orig); continue
+    a=json.load(open(mine[0])); o=json.load(open(orig[0]))
+    def flat(x,p=''):
+        if isinstance(x,dict):
+            for k,v in x.items(): yield from flat(v,p+'/'+k)
+        elif isinstance(x,list):
+            for i,v in enumerate(x): yield from flat(v,p+f'[{i}]')
+        else: yield p,x
+    fa=dict(
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+": 0.25,
+        "I0": 0.30408940964004033,
+        "I1": 0.06237123828895619,
+        "mass_residual": 2.7755575615628914e-17
+      },
+      {
+        "spatial_p2_over_eta2": 1.0,
+        "I0": 0.9858019211218441,
+        "I1": 0.21275683630345163,
+        "mass_residual": 0.0
+      },
+      {
+        "spatial_p2_over_eta2": 9.0,
+        "I0": 3.667243485655806,
+        "I1": 0.9137938835762244,
+        "mass_residual": 3.552713678800501e-15
+      },
+      {
+        "spatial_p2_over_eta2": 100.0,
+        "I0": 8.052707093953886,
+        "I1": 2.2666336105200307,
+        "mass_residual": 0.0
+      }
+    ]
+  },
+  "max_errors": {
+    "radial_master": 6.938893903907228e-18,
+    "full_feynman_integrals": 6.8833827526759706e-15,
+    "coulomb_finite_mass_projection": 3.552713678800501e-15
+  }
+}
+
+AB-drugi-rzad-kontrola-2026-10-09 kluczy 123 różnic 0 w tym numeryczne <1e-9: 0 []
+alfa-masa-kontrola-2026-10-09 kluczy 199 różnic 0 w tym numeryczne <1e-9: 0 []
+alfa-progi-kontrola-2026-10-09 kluczy 175 różnic 0 w tym numeryczne <1e-9: 0 []
+jadra-wagi-kontrola-2026-10-09 brak json [] ['/home/user/Logika-relacyjna/masa/2026-10-09/jadra-wagi-kontrola-2026-10-09.json']
+jadro-z-relacji-kontrola-2026-10-09 kluczy 56 różnic 0 w tym numeryczne <1e-9: 0 []
+punkt4-energia-zapis-kontrola-2026-10-12 kluczy 368 różnic 0 w tym numeryczne <1e-9: 0 []
+sprzezenie-i-normalizacja-kontrola-2026-10-09 kluczy 24 różnic 0 w tym numeryczne <1e-9: 0 []
+test-domkniecia-2026-10-12 kluczy 603 różnic 7 w tym numerycz
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Compare stdout JSON for two scripts with uploaded files
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi; cd $S; python3 - <<'EOF'
+import json
+for b in ['jadra-wagi-kontrola-2026-10-09','wagi-masy-EM-kontrola-2026-10-09']:
+    out=open(f'{b}/out.txt').read()
+    a=json.loads(out[out.index('{'):])
+    o=json.load(open(f'/home/user/Logika-relacyjna/masa/2026-10-09/{b}.json'))
+    print(b, 'identyczne' if a==o else 'RÓŻNE', a.get('status'))
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+jadra-wagi-kontrola-2026-10-09 identyczne PASS
+wagi-masy-EM-kontrola-2026-10-09 identyczne None
+Shell cwd was reset to /home/user/Logika-relacyjna
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #18 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #19 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #20 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append notes on scripts and reports
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- SKRYPTY 13.10: 10 skryptów uruchomionych w kopii; JSON identyczny z wgranym (test-domkniecia: 7 różnic float <1e-9); wszystkie PASS (alfa-progi, wagi-masy-EM nie drukują „status”, ale zgodne)
+- BRAK nadal: faza-L-kontrola-2026-10-12.py, odczyt-A-kontrola-2026-10-05.py (+json) — raporty są, skryptów nie ma
+- globalny-wiez raport §1: CYTAT UŻYTKOWNIKA: „Symetria całości nie oznacza braku struktury wewnętrznej. Całość może mieć dokładnie zerowy generator i zerową nieoznaczoność tego generatora, a jej części nadal mogą mieć niezerowe fluktuacje, nieoznaczoność.” — to jest wejście nieoznaczoności (sens Heisenberga) do 258; §7: „Co doprecyzować w R1a: nieosiągalność ze
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/jadro-z-relacji-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Jądro i wagi z jednej pełnej relacji — krok 259
+2	
+3	09.10.2026. Kontynuacja 257 po przyjęciu doprecyzowania 258. Pochodzenie: wyprowadzenie asystenta [A][T]; kontrola dokładna [P]; standardowe narzędzia operatorowe [L]. Definicje czasu i 3D z R1a–R1c pozostają podstawą. Wszystkie argumenty i współczynniki poniżej są bezwymiarowe.
+4	
+5	## Oczekiwanie i warunek upadku — przed kontrolami
+6	
+7	**Spodziewam się:** po zadaniu pełnej relacji nośników i sposobu odczytu jądro odpowiedzi oraz względne wagi przejść wynikają z tej samej relacji. Nie trzeba wybierać ich osobno. Unitarność daje równanie sprawdzające całe przyporządkowanie, silniejsze niż symetria i druga wariacja rozpatrywane oddzielnie. Sam ostry więz globalny z 258 nadal nie wybiera konkretnej relacji.
+8	
+9	**Zdanie o upadku:** konstrukcja upada, jeśli dla tego samego pełnego procesu, tych samych kanałów i tej samej normalizacji można niezależnie zmienić wagi przejść, zachowując całą odpowiedź. Test unitarnej realizacji upada, jeśli wyprowadzona macierz Grama nie jest dodatnia dla dowolnego zestawu argumentów i wejść. Twierdzenie o odtworzeniu wnętrza wymaga osiągalności z wejść; bez niej nie wolno twierdzić, że odczyt wyznacza całe wnętrze.
+10	
+11	**Wejścia:** skończony, nazwany proces odwracalny na nośnikach R1b/179; jego pełny operator unitarny U; ortogonalny wybór kanałów wejścia/wyjścia i pozostałych kanałów; protokół zachowujący koherencję oraz normalizację. Dla szeregu jednego argumentu wybieramy sektor, w kt
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/sprzezenie-i-normalizacja-odczytu-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Sprzężenie i normalizacja tego samego odczytu — krok 260
+2	
+3	09.10.2026. Kontynuacja 257–259 po doprecyzowaniu celu przez użytkownika: rama ma porządkować istniejącą fizykę aż do miejsca, w którym zmienia sposób prowadzenia formalizmu, a nie tylko nazwy. Źródła projektu: R1a–R1c razem; 179, 206–207, 213, 257–259. Definicje czasu i 3D stanowią podstawę. Nie dodajemy osi czasu ani nowych składników fizycznych.
+4	
+5	## Zapis przed rachunkiem i kontrolami
+6	
+7	**Spodziewam się:** gdy pełną relację opisujemy tylko przez wybrane kanały odczytu, eliminacja pozostałych kanałów ustala jednocześnie zredukowany propagator, jego sprzężenie EM oraz normalizację. Sprzężenie musi obejmować również przejścia przez kanały wyeliminowane z zapisu. Zredukowany propagator połączony z pozostawionym bez redukcji wierzchołkiem może naruszyć tę zgodność. Zachowana pełna redukcja powinna odtworzyć odpowiedź pierwotnego jądra bez nowych wag.
+8	
+9	**Zdanie o upadku:** równość tej konstrukcji z pierwotną odpowiedzią upada, jeśli przy tych samych przygotowaniach i efektach rzut pełnej odpowiedzi z jedną lub dwiema wstawkami EM różni się od odpowiedzi wyprowadzonej przez różniczkowanie całego dopełnienia Schura. Silniejsza teza, że po eliminacji zawsze wystarcza dawny wierzchołek, upada już na jednym dokładnym naruszeniu tożsamości Wardowskiej lub normalizacji pełnego stanu. Nie są to testy wyboru całego działania z ramy.
+10	
+11	**Wejścia:** jedna zadana, kowariantna rodzina pełnych jąder \(\mathcal K
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/wybor-jadra-LR-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Wybór jądra L/R: dodatniość, lokalna klasa i równoważność zapisów
+2	
+3	09.10.2026. Krok 263, po ukończeniu masowego dopasowania 262. Polecenie użytkownika: zacząć badanie, czy relacje ramy uzasadniają przyjętą konstrukcję. Źródła projektu: R1a–R1c razem, R1d, 128, 179, 206–208, 213, 217, 222 i 257–262. Czas i 3D pozostają podstawą tej pracy. Nie wprowadzamy nowych fizycznych pól, cząstek ani danych pomiarowych.
+4	
+5	## 1. Pytanie, oczekiwanie i zakres
+6	
+7	Zapowiedziane pytanie dotyczyło konieczności jednogradientowej kinetyki i stałego sprzężenia L/R. Trzeba je najpierw odnieść do pełnego odczytu: rząd pochodnych sam w sobie zależy od sposobu zapisu.
+8	
+9	**Spodziewam się…** tę samą relację Diraca można zapisać przy użyciu jądra drugiego rzędu, jeśli zachowamy źródła, sprzężenia, normę i wyznacznik. Natomiast dla ustalonego pełnego spinora, przy dodatniej reprezentacji spektralnej i dokładnie wielomianowym jądrze, wyższe pochodne mogą być wykluczone. Wówczas rząd i stałość współczynników wynikają z tych warunków, a nie z hasła „najprostsze działanie”.
+10	
+11	**Zdanie o upadku…** konieczność pierwszego rzędu jako jedynej formy zapisu upada, jeśli zapis drugiego rzędu daje te same pełne odpowiedzi. Twierdzenie w klasie wielomianowej upada, jeśli niekonstantne rzeczywiste wielomiany a(s), b(s) dopuszczają niezerową nieujemną wektorową miarę spektralną odwrotności, w podanej niżej reprezentacji bez odejmowań. Wyprowadzenia z całej ramy nie ma, dopóki nie uzasadnimy wyboru te
+…[ucięto]
+````
+</details>
+
+## [206] Asystent — 2026-10-13 00:10
+
+Zostały mi dwa ostatnie raporty z 9.10 (`alfa-masa-wspolne-widmo`, `AB-drugi-rzad`); potem zbiorczy raport.
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/alfa-masa-wspolne-widmo-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# α i masa z tego samego widma EM — krok 261
+2	
+3	09.10.2026. Kontynuacja 254–260 po pytaniu „Wracamy do alfa?” i poleceniu „Ok zaczynaj”. Pracujemy na kanonicznym, wektorowym sektorze L/R określonym w 257 i 260. Definicje czasu i 3D oraz granica mówienia o Ø pozostają przyjętą podstawą.
+4	
+5	## Zapis przed rachunkiem i kontrolami
+6	
+7	**Spodziewam się:** dwie wariacje pełnego wyznacznika L/R odtworzą fermionową polaryzację próżni i pełny próg z 254–255. Eliminacja kanału zachowa tę odpowiedź dopiero wraz z wyznacznikiem R i kontaktem dwóch wstawek. To samo spektralne EM, bez niezależnej nowej wagi, będzie zasilało wkład z jedną wstawką polaryzacji do własnej energii. Porównanie dwóch nośników o jednakowym ładunku powinno usuwać wspólny lokalny wkład UV, zachowując skończoną zależność od stosunków progów.
+8	
+9	**Zdanie o upadku przyporządkowania:** dla tej samej rodziny, stanu, regulatora i odejmowania redukcja L/R daje inną pełną polaryzację niż nieredukowany Dirac; albo ta sama waga spektralna nie odtwarza skończonej różnicy masowych projekcji wstawki. Niezgodność pełnych reprezentacji, części urojonej lub granic odrzuca ten rachunek. Zgodność nie wyprowadza wyboru QED z podstawy.
+10	
+11	**Wejścia:** kanoniczna minimalna rodzina wektorowego QED z 257; znormalizowana próżnia i korelator Feynmanowski; wspólny regulator zachowujący przesunięcia i tożsamości wektorowe; dodatnie masy kanałów; ładunki i ich krotności; α odczytana przy zerowym transferze, używana jako nazwana da
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/masa/2026-10-09/AB-drugi-rzad-2026-10-09.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1	# Wspólny rachunek A/B w drugim rzędzie wektorowego QED — krok 262
+2	
+3	09.10.2026. Kontynuacja 261 na polecenie użytkownika: dokończyć wspólny rachunek, a potem wrócić do uzasadnienia konstrukcji z ramy.
+4	
+5	## Zapis przed kontrolami
+6	
+7	**Oczekiwanie:** pełny dwupętlowy sektor wektorowego QED składa się z grafów bez zamkniętej pętli fermionowej, jednej fermionowej VP z 261, kontrczłonów i iteracji warunku masowego. Po zgodnym przeliczeniu parametrów powinien dawać jedno przejście między masą biegunową A i masą MS-bar B. W różnicy jednakowo naładowanych kanałów wspólne stałe się skracają, lecz pełna zależność od progów zostaje.
+8	
+9	**Warunek upadku rachunku:** po wyrażeniu wszystkich składników w tym samym schemacie różnica indywidualnych pełnych dopasowań nie zgadza się z funkcjonałem VP z 261 plus pozostałym wkładem; albo rozwinięcia przez masy A i B nie są wzajemnie odwrotne do O(α²); albo zależność od wspólnego μ nie znosi się do tego rzędu. Dodatkowa kontrola niezależna: pełna funkcja dwóch mas wobec opublikowanej postaci analitycznej i znanych granic.
+10	
+11	**Wejścia i zakres:** ta sama kanoniczna minimalna wektorowa rodzina QED, stan próżni, korelator i regulator co w 257–261; skończony zbiór dodatnich mas Diraca, ładunki i krotności. α jest dopuszczoną daną (253). Wykorzystujemy znane obliczone współczynniki dwupętlowych całek QED; podamy ich źródła oraz oddzielimy je od wykonanego tutaj złożenia, zmiany zmiennych i kontroli. Wynik obejmuje pełne dopasowanie ma
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append final notes
+cat >> /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/notatki-masa-12-10.md <<'EOF'
+- 9 raportów 9.10 przeczytane w całości: zgodne z wpisami 251–263 (szczegóły, dowody, kontrole); bez sprzeczności z ramą wykrytych; staranne zakresy (Wick: całka po ω, d³ℓ bez obrotu; d w regulatorze nazwane; Π_R(0)=0 ≠ zero absolutne)
+- globalny-wiez §9: „Nie odnaleziono wcześniejszej niezapisanej wersji” analogii (użytkownik mówił o wcześniejszej)
+- Przy scalaniu: ścieżką dla zdań [H] są raporty masa/2026-10-09/*, 21-punkt-wznowienia (bez rozmów)
+EOF
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+(Bash completed with no output)
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #20 status
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #21 status
+````
+</details>
+
+## [207] Asystent — 2026-10-13 00:10
+
+Jest prawie wszystko. Przeczytałem nową paczkę w całości i uruchomiłem jej skrypty.
+
+## Czego jeszcze brakuje
+- **Dwa skrypty:** `faza-L-kontrola-2026-10-12.py` i `odczyt-A-kontrola-2026-10-05.py`, każdy z plikiem `.json`. Raporty do nich są, samych skryptów nie ma.
+- **Zapis rozmów:** wiem, że go nie masz. Ścieżką dla Twoich zdań z 9–12.10 będą więc raporty (`masa/2026-10-09/…`) i `21-punkt-wznowienia`. Przy scalaniu będę się powoływał na nie, a nie na `rozmowa/`.
+
+## Co sprawdziłem
+- **Skrypty:** uruchomiłem wszystkie 10 kopii w scratchpadzie (9.10: 8, 12.10: 2). Wyniki zgadzają się z Twoimi plikami `.json` co do znaku. Jedyny wyjątek to `test-domkniecia`: 7 liczb różni się o mniej niż 10⁻⁹, czyli w zaokrągleniu. Wszystko przechodzi.
+- **Raporty z 9.10 (wszystkie 9):** to pełne wersje wpisów 251–263 z dowodami i warunkami upadku zapisanymi przed kontrolą. Nic nowego wobec wpisów; nie znalazłem też nic sprzecznego z ramą. Zakresy są pilnowane:
+  - całka pętlowa liczona po częstości i trzech składowych, bez obrotu Wicka;
+  - `d` nazwane jako parametr regulatora, nie wymiar;
+  - zero w Π(0) odróżnione od zera absolutnego i od Ø.
+- **Duplikaty:** `01-test-domkniecia/test-domkniecia….md` to wersja pełna, z dopiskiem po audycie punktu 4. Kopia w głównym `masa/` jest okrojona i przy scalaniu trzeba wziąć tę z folderu. Pozostałe podwójne pliki są identyczne.
+
+## Dwie rzeczy ważne dla scalania
+1. **Skąd wzięła się „nieoznaczoność”.** W `globalny-wiez…` §1 jest Twoje zdanie:
+   > „Symetria całości nie oznacza braku struktury wewnętrznej. Całość może mieć dokładnie zerowy generator i zerową nieoznaczoność tego generatora, a jej części nadal mogą mieć niezerowe fluktuacje, nieoznaczoność.”
+
+   To jest źródło wpisu 258 i rozszerzenia uzasadnienia dynamiki, o którym pamiętasz. Do R1a wejdzie to zdanie dosłownie, z rozdzieleniem dwóch znaczeń „nieoznaczoności”. Sam raport w §7 podaje też, co trzeba doprecyzować w R1a: „nieosiągalność zera absolutnego” nie jest zakazem zerowego globalnego generatora.
+2. **`faza-L` sprawdziło Twoje podejrzenie,** że fazę przenosi tylko zegar o odpowiednim L.
+   - Jako warunek dopasowania okazało się trafne: faza przechodzi przy L > k.
+   - Mocniejsza wersja upadła: przy tym samym L różne profile i korelacje dają różny odczyt.
+   - Faza może istnieć wyłącznie we wspólnej korelacji, choć oba lokalne odniesienia są diagonalne. To wprost Twoje „proces wraz z relacjami jest zegarem”.
+
+## Do decyzji (bez zmian od poprzedniej wiadomości)
+Proponuję scalić teraz:
+- kopia z `masa/` staje się plikiem głównym i rejestrem;
+- format oczyszczony według 235–236: bez [H]/[A], dat i „Spodziewam się”;
+- §F0 skrócone do wyników ze statusem, z odsyłaczami do raportów, które już są w repo;
+- wyniki z 12.10 dostają wpisy od 264, w tym ustalenia z punktu wznowienia i Twoje zdanie o nieoznaczoności w R1a.
+
+Mam to zrobić?
+
+## [208] Użytkownik — 2026-10-13 00:15
+
+@"/root/.claude/uploads/a392f41b-7839-5a17-aee4-1e5bbea0eafe/4cca605f-faza-L-kontrola-2026-10-12.py"
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Run the uploaded faza-L control script in a scratchpad copy
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi/faza-L-kontrola-2026-10-12; mkdir -p $S; cp "/root/.claude/uploads/a392f41b-7839-5a17-aee4-1e5bbea0eafe/4cca605f-faza-L-kontrola-2026-10-12.py" $S/faza-L-kontrola-2026-10-12.py; cd $S; start=$(date +%s); timeout 3000 python3 -I faza-L-kontrola-2026-10-12.py > out.txt 2> err.txt; echo "rc=$? t=$(( $(date +%s)-start ))s"; cat out.txt; tail -5 err.txt
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Command running in background with ID: bq5jtbgp4. Output is being written to: /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/tasks/bq5jtbgp4.output. You will be notified when it completes. To check interim output, use Read on that file path.
+Session cwd remains /home/user/Logika-relacyjna; directory changes made by the backgrounded command do not apply to subsequent commands.
+````
+</details>
+
+## [209] Asystent — 2026-10-13 00:15
+
+Mam `faza-L-kontrola-2026-10-12.py`. Uruchomiłem go w kopii w scratchpadzie. To dokładna algebra symboliczna na macierzach do 180×180, więc może chwilę potrwać. Zgłoszę wynik, gdy się skończy.
+
+Przed uruchomieniem porównałem z raportem to, co skrypt sprawdza:
+- **Wzór ogólny:** c_k = ν e^{ikφ}, ν = max(L−k, 0)/L, dla k = 1, 2, 3.
+- **Liczby z raportu, przeliczone ręcznie:**
+  - L_p = 2, L_o = 3, k = 1: (1/2)(2/3) = 1/3, czyli współczynnik 1/8;
+  - równomierne L = 3: (2/3)² = 4/9, czyli 1/6;
+  - profil (1/2, 1/√2, 1/2): ½, czyli 3/16;
+  - profil znoszący (1, 1, −1)/√3: c₁ = 0, a c₂ = −1/3 na każde odniesienie, więc iloczyn wynosi 1/9.
+- **Przykład skorelowany:** C = z/2, oba lokalne stany diagonalne, wynik 5/8 + (3/16) cos.
+- **Kontrole ujemne:** po usunięciu koherencji zostaje stałe 5/8; usunięcie absolutnej fazy nie zmienia wyniku.
+
+Wszystko zgadza się z `faza-L-wynik-2026-10-12.md`.
+
+Po przejściu skryptu proponuję położyć go obok raportu, w `masa/2026-10-12/`, razem z wygenerowanym `.json`. Wtedy z 12.10 brakowałoby już tylko skryptu do `odczyt-A`.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show faza-L script result and key outputs
+cat /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/tasks/bq5jtbgp4.output; S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi/faza-L-kontrola-2026-10-12; python3 -c "
+import json; d=json.load(open('$S/faza-L-kontrola-2026-10-12.json'))
+print(d['status'], d['exact_checks'], all(c['pass'] for c in d['checks']))
+for e in d['full_process_examples']: print(e['case'], e['correlator'], e['p_theta0_phase0'], e['p_thetapi_phase0'])
+print(d['energy_matching'])"
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rc=0 t=8s
+{"status": "PASS", "exact_checks": 168, "output": "/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi/faza-L-kontrola-2026-10-12/faza-L-kontrola-2026-10-12.json"}
+
+[exited with code 0]
+PASS 168 True
+uniform_L1_3_k1 0 5/8 5/8
+uniform_L2_2_k1 1/4 23/32 17/32
+uniform_L2_3_k1 1/3 3/4 1/2
+uniform_L3_3_k1 4/9 19/24 11/24
+uniform_L2_3_k2 0 5/8 5/8
+uniform_L3_3_k2 1/9 2/3 7/12
+uniform_L3_4_k3 0 5/8 5/8
+phase_cancellation_L3_k1 0 5/8 5/8
+phase_cancellation_L3_k2 z**2/9 2/3 7/12
+optimized_same_L3 z/2 13/16 7/16
+dephased_same_L3 0 5/8 5/8
+correlated_refs_local_phase_absent z/2 13/16 7/16
+same_correlated_populations_dephased 0 5/8 5/8
+[{'system_gap_in_ladder_steps': '1/2', 'matched_pairs': 0}, {'system_gap_in_ladder_steps': 'sqrt(2)', 'matched_pairs': 0}, {'system_gap_in_ladder_steps': '1', 'matched_pairs': 5}, {'system_gap_in_ladder_steps': '2', 'matched_pairs': 4}]
+````
+</details>
+
+## [210] Asystent — 2026-10-13 00:16
+
+Skrypt `faza-L-kontrola-2026-10-12.py` przechodzi: **168 kontroli dokładnych, wszystkie PASS**, w 8 sekund. To dokładnie liczba podana w raporcie.
+
+Liczby, które wypluł, zgadzają się z `faza-L-wynik-2026-10-12.md`:
+
+| Przypadek | Korelator C | p przy Θ = 0 | p przy Θ = π |
+|---|---|---|---|
+| równomierne L_p = 2, L_o = 3, k = 1 | 1/3 | 3/4 | 1/2 |
+| równomierne L = 3, k = 1 | 4/9 | 19/24 | 11/24 |
+| profil (1/2, 1/√2, 1/2), L = 3 | z/2 | 13/16 | 7/16 |
+| profil (1, 1, −1)/√3, k = 1 | 0 | 5/8 | 5/8 |
+| ten sam profil, k = 2 | z²/9 | 2/3 | 7/12 |
+| odniesienia skorelowane, lokalnie diagonalne | z/2 | 13/16 | 7/16 |
+| te same populacje bez koherencji | 0 | 5/8 | 5/8 |
+| L ≤ k (np. L = 1, k = 1) | 0 | 5/8 | 5/8 |
+
+Dopasowanie energii też wychodzi jak w raporcie. Na drabinie o sześciu poziomach różnice 1/2 i √2 mają 0 par, różnica 1 ma 5 par, a różnica 2 ma 4 pary.
+
+Plik sprawdziłem tylko w scratchpadzie, w repo go jeszcze nie ma. Jeśli chcesz, położę go razem z wygenerowanym `.json` w `masa/2026-10-12/` obok raportu i wypchnę. Skrypt do `odczyt-A` nadal jest jedynym brakującym plikiem.
+
+## [211] Użytkownik — 2026-10-13 00:20
+
+odczyt - A zaginął w akcji. Nie bedzie go raczej. To juz wszystko co mam
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add faza-L script and its JSON to masa/2026-10-12, commit and push
+git fetch origin ccr-e3080631-0qjsjk 2>&1 | tail -1; git status --short | head -5; git log --oneline -1; git log --oneline -1 origin/ccr-e3080631-0qjsjk; S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/przebiegi/faza-L-kontrola-2026-10-12; cp "/root/.claude/uploads/a392f41b-7839-5a17-aee4-1e5bbea0eafe/4cca605f-faza-L-kontrola-2026-10-12.py" masa/2026-10-12/faza-L-kontrola-2026-10-12.py; cp $S/faza-L-kontrola-2026-10-12.json masa/2026-10-12/; cmp masa/2026-10-12/faza-L-kontrola-2026-10-12.py $S/faza-L-kontrola-2026-10-12.py && echo ok; git add masa/2026-10-12/faza-L-kontrola-2026-10-12.py masa/2026-10-12/faza-L-kontrola-2026-10-12.json && git commit -q -m "masa/2026-10-12: skrypt kontroli faza-L (od użytkownika) i jego wynik JSON — 168 kontroli do
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+* branch            ccr-e3080631-0qjsjk -> FETCH_HEAD
+90148e0 Add files via upload
+90148e0 Add files via upload
+ok
+branch 'ccr-e3080631-0qjsjk' set up to track 'origin/ccr-e3080631-0qjsjk'.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Verify commit is pushed
+git log --oneline -1 && git status -sb | head -1
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+157db0b masa/2026-10-12: skrypt kontroli faza-L (od użytkownika) i jego wynik JSON — 168 kontroli dokładnych, PASS
+## ccr-e3080631-0qjsjk...origin/ccr-e3080631-0qjsjk
+````
+</details>
+
+## [212] Asystent — 2026-10-13 00:20
+
+Dobrze, w takim razie materiał jest zamknięty. Skrypt `faza-L` z wynikiem `.json` położyłem w `masa/2026-10-12/` i wypchnąłem.
+
+`odczyt-A-EM-uzgodnienie` zostaje bez skryptu i przy scalaniu zapiszę to wprost. Ten raport sam ogłasza wynik częściowy: punkt 2 zostaje otwarty. Jego jedyne zamknięte twierdzenie to sposób rozliczenia jednopętlowej części masowej EM. Ono stoi na wzorach (3)–(7), które dają się sprawdzić na kartce, więc brak skryptu nie podcina żadnego wpisu.
+
+Zostaje decyzja o scaleniu. Plan bez zmian:
+1. Kopia z `masa/` staje się plikiem głównym i rejestrem. Bazuje na 250, więc nic się nie gryzie.
+2. Format oczyszczam według 235–236: bez [H]/[A], dat, „Spodziewam się”, z odsyłaczami do raportów, które są już w repo.
+3. Wyniki z 12.10 dostają wpisy od 264. Wchodzą tam:
+   - ustalenia z punktu wznowienia;
+   - Twoje zdanie o nieoznaczoności w R1a, z rozdzieleniem od 2D ≡ Ø;
+   - `faza-L` i reguła kompozycji.
+4. Na koniec `CLAUDE.md`, `NASTEPNA-SESJA.md` i zapis sesji.
+
+Czy mam scalać?
+
+## [213] Użytkownik — 2026-10-13 00:21
+
+działaj
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Potem usunąć masa/22, masa/23 (duplikaty)
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #22 created successfully: Scalenie: kopia masa/23 → plik główny, masa/22 → rejestr (z adnotacją 223 z rootu)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Treść ze statusem; historia w rejestrze
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #23 created successfully: Oczyścić format 251–263 w pliku głównym (235–236): [H]/[A], daty, narracja, odsyłacze do raportów; skrócić §F0 i R1f-1
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Test STOP przy każdym; SESJA-WZORCOWA sprawdzenie
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #24 created successfully: Nowe wpisy 264–269 (scalenie; dynamika/nieoznaczoność + pułapka 14; obiekt/domknięcie/arena; odczyt w procesie; reguła kompozycji; przyporządkowanie F_γ)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskCreate: Koniec scalenia
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Task #25 created successfully: SESJA-WZORCOWA przypadek 10; CLAUDE.md (Pliki, Gdzie skończyliśmy, kroki); NASTEPNA-SESJA; transkrypt; commit+push
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show section structure and top of the integrated copy
+grep -n '^## \|^### ' masa/23-logika-relacyjna-v3.5.md | head -80; sed -n '30,45p' masa/23-logika-relacyjna-v3.5.md | cut -c1-300
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1:## Jak czytać ten plik
+20:## Gdzie zaczynać
+35:## Cel
+41:## A0. Ramy
+55:## Dopuszczalne stany
+59:## Reguły
+99:## Sztuki czy miara
+107:## Sito na kształt odpowiedzi
+113:## Reguła językowa dla Ø
+118:## Pułapki nazewnicze — lista kontrolna
+142:## R1a. Łańcuch Ø
+235:## R1b. Trzy wymiary z definicji czasu — dowód strukturalny [L][T]
+239:### R1b-F. Zapis formalny [T][L] (poprawka 127)
+292:## R1c. Most R1b ↔ światło i porządek przyczynowy [T][L][O] (poprawka 129)
+296:### R1c-F. Zapis formalny
+307:### Odczyt w ramie [O]
+319:### Stan
+324:## R1d. Elektron, pole elektronowe i relacja z polem EM; kwark [L][O] (poprawki 133–135)
+328:### R1d-F. Zapis formalny [L]
+340:### Odczyt w ramie [O]
+349:### Trzy punkty otwarte (poprawka 135)
+357:## R1e. Spin i fala EM [T][L][O] (poprawki 143–145)
+361:### R1e-F. Zapis formalny
+371:### Odczyt w ramie [O]
+378:## R1f. Działanie i energia [L][T][P][O] (poprawki 162–164)
+382:### R1f-1. Działanie
+396:### R1f-2. Energia
+403:### R1f-3. Pęd i masa z tej samej fazy (poprawka 163) [T][P][L]
+411:### R1f-4. Pojęcia użyte w §F1 i A5d — gdzie zdefiniowane (poprawki 162–164)
+425:### R1f-5. Przyspieszenie (poprawka 164) [T][P][O]
+433:## A1. Dwa pierwotne
+448:## B4. Liczność jako element struktury
+458:## A2. Tablica przekładu
+460:### Czas, przestrzeń, ruch
+484:### Grawitacja, horyzont, kosmologia
+500:### Ładunek, sprzężenia, α
+514:## A3. Ø
+524:### A3a. Prawo nieodróżnialności [P][T]
+553:### A3b. Sonda działa na skali jednego elementu [P]
+567:## A4. Pamięć i druga za
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Copy integrated main file and register into place, restore 223 note, remove duplicates
+cp masa/23-logika-relacyjna-v3.5.md logika-relacyjna-v3.5.md && cp masa/22-poprawki.md poprawki.md && python3 - <<'EOF'
+p='poprawki.md'
+t=open(p,encoding='utf-8').read()
+old='**(250: Z4 przeniosło twierdzenie'
+new='**(250: zarzut użytkownika — Z4 przeniosło twierdzenie'
+assert t.count(old)==1
+t=t.replace(old,new)
+open(p,'w',encoding='utf-8').write(t)
+EOF
+git diff --stat; git rm -q masa/22-poprawki.md masa/23-logika-relacyjna-v3.5.md; git status --short | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+logika-relacyjna-v3.5.md | 182 +++++++++++++++++++++++++++++++++++++++++------
+ poprawki.md              |  13 ++++
+ 2 files changed, 174 insertions(+), 21 deletions(-)
+ M logika-relacyjna-v3.5.md
+D  masa/22-poprawki.md
+D  masa/23-logika-relacyjna-v3.5.md
+ M poprawki.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #22 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #23 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+36	
+37	Porządkowanie struktury logicznej: nie nowa fizyka, nie nowe aksjomaty, nie nowe byty. Wolno budować nowe konstrukcje z istniejących składników. **Tylko prawda jest ciekawa:** wynik dopasowany do znanej liczby jest nudny, bo nie dowiadujesz się z niego niczego.
+38	
+39	**Doprecyzowanie celu, 09.10.2026 (260):** definicje czasu i 3D mają obecnie przede wszystkim charakter porządkujący: usuwają źle postawione pytania i upraszczają opis. Idziemy dalej do miejsca, w którym ten sposób patrzenia zmienia organizację formalizmu istniejącej fizyki. Sam nowy opis lub odtworzenie znanego wyniku nie jest jeszcze taką zmianą; trzeba wskazać, jaki rachunek został związany, uproszczony albo jaki niezależny wybór został usunięty.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+118	## Pułapki nazewnicze — lista kontrolna
+119	
+120	Za każdym razem błąd wszedł przez etykietę, nie przez rachunek.
+121	
+122	| | pułapka | gdzie |
+123	|---|---|---|
+124	| **1** | **Ø jest absolutne.** Nie ma „rodzajów Ø”; różni je wyłącznie relacja otoczenia. Przenoszenie różnic otoczeń na Ø jest kuszące jak opinia; **wolno pośrednio, pamiętając, że to pośrednio** — nigdy jako cecha samego Ø (reguła językowa, §E). | A3 |
+125	| **2** | **Ø ≠ zbiór pusty.** „Element o pustej przeszłości” jest doskonale odróżnialny, więc nie jest Ø. | A3 |
+126	| **3** | **Horyzont nie jest końcem relacji — ale „jednostronność” go nie definiuje.** Zdanie prawdziwe o wszystkim nie wyróżnia niczego. Poprawka może przenieść błąd o piętro: po każdej pytać, **czy nowe zdanie coś wyróżnia** (wystąpiło ponownie przy L, A9d). | A5 |
+127	| **4** | **Otoczenie: elementy czy relacje?** Trzy różne wielkości — zamknięte w C2. | A8, C2 |
+128	| **5** | **„4D” i „2D” — dwie konwencje pod jedną nazwą.** W pliku 3+1 liczy **punkty odniesienia** (triada + odczyt), nie osie; 2D w łańcuchu Ø = płaszczyzna bez pamięci. W literaturze d = 2 = 1 przestrzeń + czas. To są różne rzeczy. Żadne z nich nie jest strukturą: 2D w łańcuchu ≡ Ø, a literaturowe 1+1 to narzędzie bez triady (poprawka 178). **3D nie ma nic wspólnego z liczbą 3: to nie jest 1+1+1 ani 2+1** (185) — trójka jest domknięciem operacji, a nie sumą osi; „d” w rachunkach rozsiewu jest wykładnikiem liczności pojemnika, nie wymiarem ramy. **Osie przestrzenne i „
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate R1a bullets touched by 258
+grep -n 'Dynamika nie jest dołożona (poprawki 189, 258)\|jedną nieidentycznością, czytaną trzy razy\|GRANICE Ø — RELACJA JEDNOSTRONNA' logika-relacyjna-v3.5.md | cut -c1-80
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+201:- **Dynamika nie jest dołożona (poprawki 189, 258).** „Dynamika też nie
+211:- **Wniosek stoi i jest mocniejszy, niż był: trzy warunki są jedną nieid
+215:**GRANICE Ø — RELACJA JEDNOSTRONNA.** Niech p ≥ 0 będzie parametrem, d
+````
+</details>
+
+## [214] Asystent — 2026-10-13 00:23
+
+Scaliłem pliki (kopia z `masa/` jest teraz plikiem głównym i rejestrem). Teraz czyszczę format wpisów 251–263 w R1a i dopisuję Twoje zdania o nieoznaczoności.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Rewrite the 258 block in R1a without provenance tags and add user's quotes
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+start=t.index('**CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawka 258) [H][A][T][L][O].**')
+end=t.index('**CZAS I TRZY WYMIARY.**')
+new='''**CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawki 258, 265) [T][L][O].** Zapis formalny zdania wyżej („globalnie nic nie płynie, lokalnie wszystko”, [270]). Argument o autonomii dynamiki nie opiera się na trzeciej zasadzie termodynamiki:
+
+> „Symetria całości nie oznacza braku struktury wewnętrznej. Całość może mieć dokładnie zerowy generator i zerową nieoznaczoność tego generatora, a jej części nadal mogą mieć niezerowe fluktuacje, nieoznaczoność.”
+
+„Nieoznaczoność” znaczy tu nieoznaczoność odczytów komplementarnych (Heisenbe
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- **Dynamika nie jest dołożona (poprawki 189, 258).** „Dynamika też nie jest dołożona, bo wynika z braku możliwości osiągnięcia zera absolutnego. Czyli zapewnia rozróżnialność.” **Zakres po doprecyzowaniu 258:** chodzi o rozróżnialną relację stan–zapis, nie o argument z trzeciej zasady termodynamiki ani zakaz globalnego zera. Całość może spełniać `GΨ=0` i mieć `Var(G)=0`, a jej części zachowywać fluktuacje i różne odczyty warunkowe. Brak rozróżnienia całości nie rozstrzyga obecności ani nieobecności dynamiki wprost; opis dotyczy relacji wewnętrznych. Dynamika **nie jest osobnym założeniem obok triady i zapisu — jest tym samym zdaniem co „jest co odróżniać”**. Trzy warunki nie stoją po kolei i żaden nie jest wcześniejszy: rozróżnienie wymaga odniesienia (triada), trójka wymaga poprzednika (odczyt), a to, że w ogóle jest co odróżniać, wymaga ruchu (dynamika).
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md has been updated successfully. (note: the file had been modified on disk since you last read it — the edit applied cleanly, but the file contains other changes not in your context. Read it before edits that depend on surrounding content.)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Edit: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+The file /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md has been updated successfully.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Reorder pitfall rows 13 and 14 and simplify row 14
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+i=t.index('| **14** | **„Nieoznaczoność”')
+j=t.index('| **13** | **„Unormowanie”')
+row14=t[i:j]
+t=t[:i]+t[j:]
+k=t.index('| **13** | **„Unormowanie”')
+end=t.index('\n',k)+1
+row14_new='''| **14** | **„Nieoznaczoność” — dwa znaczenia (poprawka 265).** (a) **2D ≡ Ø** z łańcucha (Δ; [76], [82]): relacja przestrzeni = 0, nic nie można powiedzieć — to z niej „świat (3d) wyłania się bez dokładania niczego” ([149]); (b) **nieoznaczoność odczytów komplementarnych** (Heisenberg): wariancje części, które zostają przy zerowym generatorze całości (258) i należą do uzasadnienia dynamiki (R1a, 265). (a) dotyczy tego, czego nie da się rozróżnić; (b) — tego, co rozróżnialne. **Pisać, która: nieoznaczoność Ø czy nieoznaczoność o
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+136:| **13** | **„Unormowanie” — cztery obiekty pod jednym słowem (poprawki 237–2
+137:| **14** | **„Nieoznaczoność” — dwa znaczenia (poprawka 265).** (a) **2D ≡ �
+118:## Pułapki nazewnicze — lista kontrolna
+1678:- **Gdzie to należy [O].** Nie do pułapek nazewniczych, tylko **do granic Ø (R1a)**: to jest zdanie o Ø od strony znanego otoczenia, a więc dozwolone, i jest **ilościową postacią uściślenia** — „pole ≡ Ø, ale ≠ Ø, bo Ø nie ma potencjału”. Pusty moduł **ma** potencjał: może wziąć tyknięcie, i widać to jako 1 − |r_Ø|. Wiersz dopisany w GRANICE Ø.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Clarify Δ in the chain legend; locate R1f-1 blocks
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+old='| Δ | nieoznaczoność |'
+assert t.count(old)==1
+t=t.replace(old,'| Δ | nieoznaczoność — w sensie 2D ≡ Ø, nie nieoznaczoności odczytów (pułapka 14) |')
+open(p,'w',encoding='utf-8').write(t)
+EOF
+grep -n 'Uzasadnienie jąder i pełnej wagi (257)' logika-relacyjna-v3.5.md | cut -c1-60
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+395:**Uzasadnienie jąder i pełnej wagi (257) [A][T][P].**
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+386	
+387	### R1f-1. Działanie
+388	
+389	- **Historie [L]:** amplituda historii = e^{iS/ħ} (Feynman); **S/ħ = liczba obrotów fazy wzdłuż relacji** (bezwymiarowa; ħ = przelicznik, A2). Faza w punkcie ≡ Ø, odczytywalne są tylko porównania faz (R1d). **Działanie nie jest cechą, tylko relacją faz między zapisami**; obejmuje oba sektory (także sumę po historiach zbiorów przyczynowych z działaniem BDG).
+390	- **Wspólny nośnik obu sektorów: OBIEGI (holonomie) [T][P]** (`etap19_dzialanie_obiegi.py`; zamknięta siatka trójkątów, podzielony dwudziestościan, zaburzenie promienia ±25%, V = 642 i 2562, χ = 2, 5 ziaren; zdania przed rachunkiem, wszystkie przeszły): **Z1** kąt holonomii wektora przeniesionego wokół wierzchołka = deficyt 2π − Σ kątów (różnica ≤ 3,6·10⁻¹⁵; deficyty lokalnie dowolne, −4,1…+4,2); **Z2** Σ deficytów = 2π·χ (Gauss–Bonnet; ≤ 6·10⁻¹³); **Z3** działanie Wilsona S_W = Σ_f(1 − cos θ_f) bez zmiany przy losowej fazie w wierzchołkach (różnica 0; kontrola: „działanie” z faz krawędzi zmienia się o 0,6–89); **Z4** Σ obiegów fazy po zamkniętej powierzchni = 2π·n, n całkowite (n = −21…+10, ≤ 4·10⁻¹⁵; liczba monopolowa); **K** płaski wachlarz: deficyt = holonomia ≤ 8·10⁻¹⁶. **Przez zamknięty brzeg odczytywalna jest tylko liczba — w obu sektorach** (zdanie o czytającym z zewnątrz, nie o 2D; A5d pkt 1: jedyna odczytywalna wielkość brzegu = liczba relacji przez brzeg). Siatka etap19 to pojemnik (wierzchołki we współrzędnych); Z1–Z4 to twierdzenia, siatka ich nie dodała (poprawka 178
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Rewrite R1f-1 blocks 257/259/260 and add 263 summary
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+start=t.index('**Uzasadnienie jąder i pełnej wagi (257) [A][T][P].**')
+end=t.index('### R1f-2. Energia')
+new='''**Działanie przy zadanej relacji — co wiąże co (257, 259, 260, 263).** Cztery wyniki tej samej linii; wszystkie dotyczą przyporządkowania już zadanej relacji, **żaden nie wybiera działania, modów, stanu ani η z R1a–R1c**. Rachunki i kontrole dokładne: `masa/2026-10-09/` (raporty i skrypty o tych samych nazwach).
+- **Jądra i wierzchołek (257) [T][P].** Nieodczytywalność fazy samego końca (R1d) wymusza kowariancję transportu `U_xy → g_xU_xyg_y⁻¹`; transporty po różnych drogach dają obieg (177), neutralne wagi `h_xy` w `D_xy = h_xyU_xy` zostają (213). Różniczkowanie daje tożsamość Wardowską `q_μV^μ = Q[
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+948:## §F0. α — STAŁA BIEGNĄCA: FUNKCJA, NIE LICZBA (poprawki 243–246, 251–263) [L][T][P][O]
+````
+</details>
+
+## [215] Asystent — 2026-10-13 00:24
+
+R1a i R1f-1 są oczyszczone (dynamika z nieoznaczonością odczytów, pułapka nr 14, bloki 257–263 bez znaczników i dat). Teraz §F0, czyli największa część (40 tys. znaków).
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+948	## §F0. α — STAŁA BIEGNĄCA: FUNKCJA, NIE LICZBA (poprawki 243–246, 251–263) [L][T][P][O]
+949	
+950	Jedno miejsce na wszystko o α. Treść poszczególnych zdań stoi w sekcjach podanych w nawiasach; tu jest zebrana i ustawiona po statusie. Konwencja znaku `b` — §F1 (216). Oznaczenia `S_Q` i `F_γ` są tu osobne: nie mylić z `S_f` z 217 ani z `F_i` z 218.
+951	
+952	**Funkcja.** α jest funkcją rozdzielczości odczytu; w jednym stanie odczytujemy jej wartość [88]. Argumentem jest `t = ln(n₀/n)` — logarytm stosunku liczby tyknięć obiegu czytającego (R1d). **Przy danej zawartości nośników, w jednej pętli i z dala od progów struktura ustala nachylenie, nie wartość.** Wartość w jednym punkcie też jest odczytem — np. zredukowana długość Comptona wobec promienia Bohra, czyli stosunek dwóch obiegów (A2, 251) — ale struktura jej nie wyznacza (153, 208). Różnica dwóch odczytów `1/α(t₁) − 1/α(t₂)` zależy od nachylenia i od stosunku rozdzielczości; przy progach także od stosunków rozdzielczości do mas nośników, a poza jedną pętlą także od samej wartości.
+953	
+954	| zakres (jedna pętla) | postać | nachylenie `d(1/α)/dt` | status |
+955	|---|---|---|---|
+956	| aktywne W i top (rozdzielczość ponad ich masy) | **`1/α = 1/α₂ + 1/α_Y`** — α nie jest osobną funkcją zespołu, tylko relacją dwóch jego funkcji (152) | `−(b₂ + b_Y)/2π = −(11/3)/2π` | [L] relacja drzewowa `1/e² = 1/g₂² + 1/g_Y²`; [T] arytmetyka |
+957	| progi schodkowo (nośnik wchodzi powyżej swojej masy) | `1/α(t₁) − 1/α(t₂) = −(2/3π)·∫_{t₂}^
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Read: /home/user/Logika-relacyjna/logika-relacyjna-v3.5.md
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+1007	| 152–153 | stosunki mas typów o różnym ładunku biegną przez `α_Y` (gdy aktywne są W i top) i przez α (gdy nie są) [L], z wykładnikiem zależnym od `b`, czyli od progów |
+1008	
+1009	**Co z tego wynika [O] — i czego to nie dodaje.** Funkcja α, której potrzebuje masa, ma w argumencie masy (progi), a masy w przejściu A/B mają w sobie α; przy małej rozdzielczości dochodzi α₃. To jest 225 (autonomię zespołu łamią progi, czyli masy) i 151 (zespół ustalany naraz) zastosowane do α — **nie nowy wynik i nie podparcie hipotezy [104]**.
+1010	
+1011	**Wynik sprawdzenia F0 (254–255) [A][T][P][L][O].** Dla podanego fermionowego jądra pełnego progu, przy niepustym skończonym zbiorze dodatnich mas i wag, kształt odpowiedzi daje momenty `p_k = Σ_f c_fu_f^k`, `u_f = (q_*/m_f)²`. Wspólne odniesienie skraca się w `𝒱_α = p₀p₂/p₁² − 1`: `𝒱_α ≥ 0`, a zero dokładnie przy zrównaniu mas. Dokładna funkcja na przedziale wyznacza ważony zbiór progów (dowód na momentach i macierzy Vandermonde’a); nie wyznacza etykiet przy jednakowych wagach ani rozdzielenia zbieżnych progów. Przy trzech jednostkowych wagach trzy momenty wyznaczają wielomian, a `p₄ = (p₁⁴ − 6p₁²p₂ + 3p₂² + 8p₁p₃)/6` jest osobnym testem tej rodziny. To odczyt informacji z funkcji, nie dodatkowy warunek ramy wybierający masy. Sama znana wartość α w punkcie nie dostarcza tych momentów. Zakres: wydzielony wkład fermionowy w jednym rzędzie i schemacie, nie całkowita α z W i hadronami.
+1012	
+1013	Dla części hadronowej, przy `χ = (q₁/q₂)²`, `v 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find object definition and blocks 177/179 in main file
+grep -n -i 'obiekt\*\* *|\|^| obiekt\|hierarchi[aę] węzłów\|definicja obiektu\|obiekt = (stabil\|struktura relacji, która jako całość' logika-relacyjna-v3.5.md | cut -c1-200 | head -20; grep -n '^\*\*1\(7[0-9]\|79\)\b\|^- \*\*177\|(177)\*\*\|^\*\*OBIEG\|^\*\*STRUKTURA MINIMALNA\|179)' logika-relacyjna-v3.5.md | cut -c1-150 | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+135:| **12** | **„Samopodobny" — prawo czy stan (poprawka 226).** **(L)** prawo bez wyróżnionej skali: przesunięcie odniesienia zmienia tylko punkt odczytu, relacje **biegną** (152); jego śla
+160:| obiekt | **(stabilna) struktura relacji, która jako całość jest w relacji z inną strukturą**
+211:- **Hierarchia węzłów.** Wheeler–DeWitt: wszechświat jako całość to jeden statyczny węzeł, zawiera mniejsze; regres węzłów zatrzymuje się w nieoznaczoności skali Plancka (2D ≡ Ø
+1126:> - **W ramie już jest [O]:** hierarchia węzłów [402, 404] — całość (Wheeler–DeWitt) zawiera mniejsze węzły, a regres zatrzymuje się w nieoznaczoności skali Plancka (2D ≡ Ø); �
+1127:> - **Samopodobieństwo prawa (L) i logarytm [L][T]:** brak wyróżnionej skali ma jedyną niezmienniczą miarę du/u, więc tam, gdzie prawo nie wyróżnia skali, wielkości biegną logarytmiczn
+1379:  - **Co z [104] [O].** 206 daje, że masa jest warunkiem 3D i czasu, nie krokiem po nich — to jest zgodne z klauzulą *„masa nie może być oddzielnym, ostatnim etapem”*, nie jest jej dowo
+1578:- **Para, nie obiekt [T]:** ten sam M jest modułem dla jednego O, a dla innego nie (M = {a, b}: z ≺ a, z ≺ b — tak; w ≺ a, w ∥ b — nie). Otoczenia, dla których M jest modułem, sumu
+322:9. **Parametr afiniczny — to samo co pkt 2, 4 i 7, w notacji OTW (191; ranga: przekład, nie wynik).** Parametryzacja afiniczna jest wyznaczona 
+1567:- **Skoki po linkach i zatrzymania — wagi Johnstona bez gęstości (poprawka 242) [T][P].** Konstrukcja z 154 pkt 1a i 169 („na
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show R1a bullets around node hierarchy
+sed -n '205,214p' logika-relacyjna-v3.5.md | cut -c1-700
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+- **Ø i światło.** Rozróżnienie bez odniesienia ≡ Ø; łańcuch poprzedników nie kończy się stanem — Ø jest nieosiągalne, przejście tylko jednostronne (granice niżej). „Nieidentyczność stanu z tym, co o sobie niesie” = punkty wnętrza kuli, istniejące tylko z relacji (R1b Wniosek 3, R1c pkt 3). Niesienie to link = foton: t = 0, od jego strony emisja i absorpcja są jednym; „8 minut” powstaje dopiero w aparacie z zegarem (Reichenbach, C4a.13). **Światło nie ma prędkości c; jest prędkość c w relacji do.**
+- **Dynamika nie jest dołożona (poprawki 189, 258, 265).** „Dynamika też nie jest dołożona, bo wynika z braku możliwości osiągnięcia zera absolutnego. Czyli zapewnia rozróżnialność.” **Uzasadnienie rozszerzone (265): dynamika wynika z braku zera absolutnego i z nieoznaczoności Heisenberga** — nieoznaczoności odczytów komplementarnych części, która zostaje także przy dokładnie zerowym generatorze całości (blok „Całość i części” wyżej). To nie jest „nieoznaczoność” = 2D ≡ Ø z łańcucha (pułapka 14). **Zakres (258):** chodzi o rozróżnialną relację stan–zapis, nie o argument z trzeciej zasady termodynamiki ani zakaz globalnego zera. Całoś
+- **Nie ma odczytu bezstratnego (poprawka 189).** „Informacja nie ginie, może być tylko bardziej rozproszona. Zawsze jest jakaś strata.” Oba zdania zachodzą naraz i nie są sprzeczne: w strukturze nic nie ubywa, ale odczyt jest zawsze z jednego miejsca, a niesiona informacja stoi w tylu miejscach, w ilu stoi relacji. Każdy odczyt jest więc niepełny **z 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: List block headers with correction numbers in main file
+grep -n '^\*\*[A-ZĄĆĘŁŃÓŚŹŻ„].*(poprawk[ai] 2[0-9][0-9]' logika-relacyjna-v3.5.md | cut -c1-120 | sed -n '1,60p'
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+164:**CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawki 258, 265) [T][L][O].** Zapis forma
+213:**CZĘŚCIOWOŚĆ ODCZYTU NIE JEST BRAKIEM MIEJSCA; TRZY WARUNKI SĄ JEDNĄ NIEIDENTYCZNOŚCIĄ (poprawka 207) [T].*
+280:**R1b-A. Arena nie niesie niczego — i dlatego „pojemnik” jest wnioskiem, nie zakazem [T][L] (poprawka 204).**
+1668:**ODCISK I WYMIANA ROZDZIELA PRZEZROCZYSTOŚĆ Ø; PUSTY MODUŁ TO NIE BRAK MODUŁU (poprawka 200) [T][P][O].** Pos
+1683:**KONTRPRZYKŁAD CNOT I DWA ODCZYTY „CO JEST W M” — DOMYSŁ Z 200 ROZSTRZYGNIĘTY W OBIE STRONY (poprawka 201
+1694:**CNOT MA TRZY ZACHOWANIA, NIE DWA; ODCISK I ZAPIS TO WŁASNOŚCI PARY (SPRZĘŻENIE, STAN WNĘTRZA) (poprawka 202)
+1711:**TABELA „MASA I CZAS” SPRAWDZONA — SIEDEM POPRAWEK, DWIE RZECZY NOWE (poprawka 203) [T][P][O].** Zestawienie
+1741:**KROK 3 ZAMKNIĘTY — `a·b` NIE JEST WEJŚCIEM, JEST ODCZYTEM; ARENA BYŁA NIEBEM (poprawka 206) [T][O].** Posta
+1755:**PRZEGLĄD 19 ODCZYTÓW — RODZAJ OBIEKTU, NIE WARTOŚĆ; μ² NIE JEST ODCZYTEM (poprawka 208) [T][O].** To samo
+1772:**UNORMOWANIE YUKAW JEST ODCZYTEM; „SKALA CAŁOŚCI” TO INNY OBIEKT (poprawka 237) [T][O].** Wiersz 208 „1 ×
+1781:**CO SIĘ NIE SKRACA W ODCZYCIE PARY — WARUNEK SKALARNEJ KOMPRESJI, `β³`, I NIEDODATNIOŚĆ `ΔQ` (poprawka 213
+1789:**MASA SIEDZI W MIANOWNIKU, A PRZEJŚCIE A↔B MA POLICZONY KSZTAŁT — WARTOŚCI NIE (poprawka 214) [T][P][L][O].
+1818:**FAZA PARY NIE JEST FAZĄ MASOWĄ; DROGA ODNIESIENIA NIE JEST Ø (poprawka 215) [T][P][O].** Z pracy `masa/9`.
+1843:**DWA LOGARYTM
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Rewrite §F0 tail: condensed 252–263 results and new 269 block
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+a=t.index('**Ciągła waga progu (252) [A][T]')
+b=t.index('## §F1. MASA — zespół funkcji [94]')
+old=t[a:b]
+# fragmenty zachowane dosłownie
+keep_sum=old[old.index('**`ΣN_cQ² = 8` (A2)'):old.index('**Co wiemy**')]
+wiemy=old[old.index('**Co wiemy**'):old.index('| z podanej pełnej odpowiedzi fermionowej otrzymujemy momenty')]
+nie_wiemy_tail=old[old.index('- **Grupy cechowania (w tym U(1))'):old.index('**Do czego α jest potrzebna przy masie**')]
+do_czego=old[old.index('**Do czego α jest potrzebna przy masie**'):old.index('**Wynik sprawdzenia F0 (254–255)')]
+nie_wolno=old[old.index('**Czego nie wolno:**'):old.index('**Proponowane kroki**')]
+do_czego=do_czego.replace('W drugim rzędzie wchodzą wstawki polaryzacji próżni
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+§F0 znaków: 18972
+````
+</details>
+
+## [216] Asystent — 2026-10-13 00:26
+
+§F0 skrócone z 40 do 19 tys. znaków (wyniki zostały, narracja wyszła). Sprawdzam, czy tabela i wzory renderują się poprawnie.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Inspect rewritten §F0 table rows and formula block
+python3 - <<'EOF'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+i=t.index('| gdy aktywne są W i top, sztywność relacji faz EM'); print(t[i:i+1500]); print('....')
+k=t.index('- **α i masa z jednego widma (261).**'); print(t[k+600:k+1300])
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| gdy aktywne są W i top, sztywność relacji faz EM jest sumą sztywności dwóch relacji zespołu | [O] | 169, 152, tu |
+| wagę cechowania w funkcji masy (`C(R)`) i w `b` (`T(R)`) dają te same amplitudy — nie wolno ich dobierać niezależnie | [T] | 217 |
+| czysty logarytm to granica bez progów, a progi to masy — dla α tak samo jak w 218 | [L][T] | 218, 225, tu |
+| z pełnej odpowiedzi fermionowej: momenty `p_k = Σ c_f(q_*/m_f)^{2k}`; `p₀p₂ − p₁² = Σ_{f<j}c_fc_j(u_f−u_j)² ≥ 0`, zero dokładnie przy równych masach; dokładna funkcja na przedziale wyznacza ważony zbiór progów | [T] przy podanym jądrze, skończonym zbiorze i dodatnich wagach; nie wyprowadzenie wartości | 254 |
+| odejmowana odpowiedź hadronowa = całka po stosunkach z pełną wagą `R`; fizyczny kanał μμ wymaga swojej wagi progowej | [L][T] postać; [O] rodzaj po 208 | 255 |
+| w przyjętym wektorowym QED waga masowa 3 = kombinacja członu masowego i kinetycznego tego samego jądra: `(3+ξ)+(−ξ)=3`; kontrakcje z bloków `𝟙, σ` (masowa 4 = 1 + 3, kinetyczna −2) | [T][P] przy jawnych wejściach działania; [L] kontrola | 256, 155 B |
+| fazy końców wiążą wierzchołek z jądrem; w nazwanej klasie jądra i względne wagi jednej pętli nie są niezależnymi danymi | [T][P]; wybór klasy otwarty | 257, R1f-1 |
+| bieg α i masowa wstawka polaryzacji próżni pochodzą z jednego widma EM — wstawka nie ma osobnej wagi względem α | [T][L] w wektorowym QED | 261 |
+| `1/α` = `4π` × współczynnik drugiej wariacji relacji faz po projekcji EM; przyrost przy dołoże
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Find leftover provenance tags, dates and bare report names
+grep -n '\[H\]\|\[A\]\|09\.10\|12\.10\|Spodziewam\|[a-z-]*-2026-10-09\.\(md\|py\)' logika-relacyjna-v3.5.md | cut -c1-220; echo ---; git diff HEAD -- logika-relacyjna-v3.5.md | grep '^+' | grep -n -i 'użytkownik' | cut -c1-200
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+180:**Granica dla wag [T].** W zerowym sektorze `J₃` przygotowania `ρ_ν`, `|ν|≤1`, zachowują globalne zero, lokalne wariancje i kowariancję, a dają `r₁+ir₂=νe^(iθ)`: dla `ν=0` odczyt warunkowy jest stał
+2494:- **Definicja [L]** (Boguñá–Krioukov, arXiv:2401.17376 / PRD 110, 024008): dla c we wspólnej przeszłości a i b, z $I(x,y)$ = przedział Alexandrowa: $A=I(a,c)\setminus I(b,c)$, $B=I(b,c)\setminus I(a,c)$, $C=
+---
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Insert entry 266 bullet in R1a after node hierarchy
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+i=t.index('- **Hierarchia węzłów.** Wheeler–DeWitt')
+end=t.index('\n',i)+1
+new='''- **Obiekt wymaga domknięcia, para go nie ustanawia (266).** Domknięcie, które daje „coś”, jest tą samą wspólną konstrukcją czasu, 3D i dynamiki, co wyżej; obiekt = struktura relacji, która jako całość wchodzi w relację z inną strukturą (słownik). **(M, O) nazywa relację dwóch struktur, z których każda ma własne domknięcie — sama para nie jest nowym obiektem** (172–173: „para, nie obiekt”); żeby układ relacji był obiektem, trzeba przyłożyć to samo domknięcie, a hierarchia węzłów jest ponawianiem tej konstrukcji. O też jest takim obiektem, ze swoją strukturą, zapisami i relacjami do otoczenia. **Każde domknięcie ma granice, a na g
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+212:- **Obiekt wymaga domknięcia, para go nie ustanawia (26
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Insert entries 267, 268 in A11d and 269 bullet in R1f-1
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+# 268 po bloku 179
+anchor='**STOPNIE WZBUDZENIA DLA ZNANEGO O — STOPIEŃ JEST LICZBĄ, ENTROPIA WZGLĘDNA NIE (poprawka 198)'
+i=t.index(anchor)
+b268='''**REGUŁA KOMPOZYCJI PEŁNEGO ODCZYTU — JEDNO ZŁOŻENIE, JEDEN GRAM (poprawka 268) [T][L][O].** W sektorze skończonych sieci minimalnych nośników (R1b, 179) reguła składania pełnego odczytu nie jest listą swobodnych faz, wag i norm, tylko jednym złożeniem relacji. Rachunek: `masa/regula-kompozycji-pelnego-odczytu-2026-10-12.md`.
+- **Most z pary na sieć [T].** Dla operacji na A, B i nośnika C nieuczestniczącego w kontakcie mapa na iloczynowych wejściach to `(ρ_AB ⊗ ρ_C) ↦ (U_ABρ_ABU_AB†) ⊗ ρ_C`. Iloczyny przygotowań rozpinają przestrzeń operacyjną, więc liniowość i P5
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+401:- **Pamięć kanałów, kroki i sektor dwuliniowy (269) [T][P].** Rachunek: 
+1030:**Próba wyprowadzenia `F_γ` z kontaktów — wynik otwarty (269) [T][P].*
+1561:**REGUŁA KOMPOZYCJI PEŁNEGO ODCZYTU — JEDNO ZŁOŻENIE, JEDEN GRAM (pop
+1642:**ODCZYT W PROCESIE — PRZYGOTOWANIE, ZAPIS I FAZA RAZEM (poprawka 267) [T
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update R1f-1 header; show the map section
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+old='**Działanie przy zadanej relacji — co wiąże co (257, 259, 260, 263).** Cztery wyniki tej samej linii;'
+assert t.count(old)==1
+t=t.replace(old,'**Działanie przy zadanej relacji — co wiąże co (257, 259, 260, 263, 269).** Wyniki tej samej linii;')
+t=t.replace('Rachunki i kontrole dokładne: `masa/2026-10-09/` (raporty i skrypty o tych samych nazwach).','Rachunki i kontrole dokładne: `masa/2026-10-09/` (raporty i skrypty o tych samych nazwach) oraz `masa/przyporzadkowanie realizacji dynamicznej.md` (269).',1)
+open(p,'w',encoding='utf-8').write(t)
+EOF
+sed -n '/^## Gdzie zaczynać/,/^## Cel/p' logika-relacyjna-v3.5.md | cut -c1-400
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+## Gdzie zaczynać
+
+Układ pliku — pięć części:
+1. **Zasady i dyscyplina (§E):** cel, ramy, reguły, „sztuki czy miara”, reguła językowa dla Ø, pułapki nazewnicze.
+2. **Czas, 3D, światło — wyprowadzenia i pojęcia:** R1a–R1f (czas, 3D, światło, elektron i kwark, spin, działanie i energia — domknięte strukturalnie), potem pojęcia z porządku i liczności, horyzont i czarne dziury, otoczenie, chwila zero (A1–A8, B2–B4, C1–C3, R2–R5).
+3. **Masa i zespół funkcji:** §F0 (α — stała biegnąca, 243–246), §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224), B1, dwa logarytmy z jednego diagramu (218).
+4. **Otwarte:** „Dalej otwarte”.
+5. **Gałęzie zamknięte — zapis rachunków:** rozsiew, reguły wzrostu, estymatory wymiaru, gałąź masy i logarytm na rozsiewie, f(d) z A4, nieudane rachunki (`STOP.md`); przy każdej status: co z niej zostaje w ramie i gdzie.
+
+Bieżący krok: poprawki o najwyższych numerach (`poprawki.md`) i `NASTEPNA-SESJA.md`.
+
+---
+
+# I. ZASADY I DYSCYPLINA (§E)
+
+## Cel
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update the map in 'Gdzie zaczynać'
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+old='3. **Masa i zespół funkcji:** §F0 (α — stała biegnąca, 243–246), §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224), B1, dwa logarytmy z jednego diagramu (218).'
+new='3. **Masa i zespół funkcji:** §F0 (α — stała biegnąca, 243–246; progi, wagi i O(α²) w wektorowym QED, 251–262; próba wyprowadzenia `F_γ` z kontaktów, 269), §F1 (zespół funkcji [94]; stan w zestawieniu „STAN ZESPOŁU”, 167), A11 (masa na porządku: para (M, O), 169–224; odczyt w procesie i reguła kompozycji, 267–268), B1, dwa logarytmy z jednego diagramu (218). Działanie przy zadanej relacji (257–263, 269): R1f-1.'
+assert t.count(old)==1
+t=t.replace(old,new)
+open(p,'w',encoding='utf-8
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+## [217] Asystent — 2026-10-13 00:28
+
+Treść weszła do pliku głównego: R1a (265–266), R1f-1 (257–263, 269), §F0, A11d (267–268). Teraz piszę wiersze rejestru 264–269.
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #23 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #24 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check the end of the register
+tail -c 600 poprawki.md; echo; grep -c '' poprawki.md; tail -1 poprawki.md | cut -c1-30
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ci i wyznaczniki, po 12 pierwszych i 48 drugich wariacji pełnych źródeł i logdet; pominięcia kontaktów wykryte; dokładne świadki spektralne. **Dalej:** uzasadnić nazwaną dodatnią lokalną realizację wyjściową z par 179/206 i jej pełność wobec pamięci kanałów, z zachowaniem źródeł i stanu. | §F0 (263), stan zespołu; raport `wybor-jadra-LR-2026-10-09.md`, kontrola `.py` i `.json`; punkt wznowienia | **użytkownik** (polecenie rozpoczęcia) + asystent (dowód warunkowy, korekta kryterium, algebra i kontrole); [L] reprezentacja spektralna i równoważność formalizmów |
+
+340
+| 263 | **WYBÓR JĄDRA L/R: D
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Append register rows 264–269
+cat >> poprawki.md <<'EOF'
+| 264 | **SCALENIE PRACY 9–12.10 Z PLIKIEM GŁÓWNYM; FORMAT WEDŁUG 235–236.** Wpisy 251–263 przyszły jako kopia pliku głównego i rejestru w `masa/` (praca użytkownika z innym asystentem, 9–12.10; kopia bazowała na 250, więc bez konfliktu numeracji) — przejęte jako plik główny i rejestr, kopie `masa/22-…`, `masa/23-…` usunięte (są w historii gita). W pliku głównym usunięte: znaczniki [H]/[A] (14), daty, „Doprecyzowanie użytkownika”, „Spodziewam się / Zdanie o upadku” (zostają w raportach), gołe nazwy raportów zamienione na ścieżki `masa/2026-10-09/…`. **§F0 skrócone z 39,8 do 19 tys. znaków** — wyniki 252–262 ze statusem w jednym bloku, długie opisy 257/259/260/263 przeniesione do R1f-1 jako zwięzłe punkty; nic z treści nie wycięte. W rejestrze przy 223 przywrócone
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| 264 | **SCALENIE P
+| 265 | **DYNAMIKA: 
+| 266 | **OBIEKT WYM
+| 267 | **ODCZYT W P
+| 268 | **REGUŁA KO
+| 269 | **PRZYPORZĄ
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix attribution of the [270] quote
+python3 - <<'EOF'
+for p,old,new in [
+ ('logika-relacyjna-v3.5.md','Zapis formalny zdania wyżej („globalnie nic nie płynie, lokalnie wszystko”, [270]).','Zapis formalny zdania wyżej: „dla całości t=0; wzbudzenia i relacje są lokalne” [270].'),
+ ('poprawki.md','blok 258 jest zapisem formalnym zdania, które w R1a już stało („globalnie nic nie płynie, lokalnie wszystko”, [270]);','blok 258 jest zapisem formalnym zdania, które w R1a już stało („dla całości t=0; wzbudzenia i relacje są lokalne”, [270]);'),
+]:
+    t=open(p,encoding='utf-8').read(); assert t.count(old)==1,(p,old); t=t.replace(old,new); open(p,'w',encoding='utf-8').write(t)
+print('ok')
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add case 10 and check question 9 to SESJA-WZORCOWA
+python3 - <<'EOF'
+p='SESJA-WZORCOWA.md'
+t=open(p,encoding='utf-8').read()
+old='## Sprawdzenie własnego wyniku'
+case10='''### 10. „Zmiana q daje inny odczyt — więc rama nie wystarcza” (267; praca 12.10)
+- **Ruch:** czy porównuję dwie **reguły** na tych samych relacyjnie określonych danych, czy dwa **procesy**? Zmiana q, L, kalibracji albo instrumentu to zmiana danych procesu: dwa poprawne procesy mogą mieć różne odpowiedzi w tej samej regule.
+- **Wynik:** różne q to różne relacje w tej samej QM, nie kontrmodel ramy. Pytanie o wystarczalność ramy stawia się jako porównanie reguł kompozycji przy tych samych przygotowaniach, zapisach i efektach (268).
+- **Odruch, z którego to wychodzi:** wracanie do ustalania podstaw (czy odczyt jest możliwy, czy dynamika jest dołożona, osobny zegar) zamiast i
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+9037
+SESJA-WZORCOWA.md:5:To nie jest rama (rama to `logika-relacyjna-v3.5.md`) i nie jest lista zakazów. To dziesięć przyp
+CLAUDE.md:38:| `SESJA-WZORCOWA.md` | **Czytać zaraz po `STOP.md` (249).** 8,5 tys. znaków: dziewięć przypadków z ru
+CLAUDE.md:42:| `masa/` | **Praca użytkownika z 4–5.10.2026 — dziewięć kroków jednego łańcucha na osi 3–4, 21
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Locate CLAUDE.md sections to update
+grep -n 'SESJA-WZORCOWA.md. — czytać\|Dziewięć przypadków\|^## Gdzie skończyliśmy\|^\*\*Co zmieniła sesja CC 13\|^## Najbliższe kroki\|^12\. \*\*α z progami\|Wcześniejsze wyniki, bez zmian\|^| `masa/`' CLAUDE.md | cut -c1-120
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+17:- **`SESJA-WZORCOWA.md` — czytać na początku, zaraz po `STOP.md` (249).** Dziewięć przypadków z projektu przep
+42:| `masa/` | **Praca użytkownika z 4–5.10.2026 — dziewięć kroków jednego łańcucha na osi 3–4, 215 tys. zna
+119:## Gdzie skończyliśmy (po sesji CC 13, 7–8.10.2026; dokument v3.5)
+123:**Co zmieniła sesja CC 13 (7.10), w jednym zdaniu: przegląd poprawek po 210 (na polecenie użytkownika: *„w osta
+250:- **Wcześniejsze wyniki, bez zmian:** H₂; etap18 = zero absolutne.
+252:## Najbliższe kroki
+274:12. **α z progami (§F0, krok 1 tam; zalecany).** Część rachunkowa stoi w literaturze (`F_γ(r_f)`, relacja dysp
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update CLAUDE.md: method bullet, files table, 'Gdzie skończyliśmy'
+python3 - <<'EOF'
+p='CLAUDE.md'
+t=open(p,encoding='utf-8').read()
+def rep(old,new):
+    global t
+    assert t.count(old)==1,old[:60]
+    t=t.replace(old,new)
+# 1. Jak pracujemy
+rep('- **`SESJA-WZORCOWA.md` — czytać na początku, zaraz po `STOP.md` (249).** Dziewięć przypadków z projektu','- **`SESJA-WZORCOWA.md` — czytać na początku, zaraz po `STOP.md` (249).** Dziesięć przypadków z projektu')
+# 2. Pliki: SESJA-WZORCOWA
+i=t.index('| `SESJA-WZORCOWA.md` |'); j=t.index('\n',i)
+row=t[i:j]
+row2=row.replace('dziewięć przypadków','dziesięć przypadków').replace('pytanie z literatury — 9)','pytanie z literatury — 9, reguły a procesy — 10)').replace('(osiem pytań,','(dziewięć pytań,')
+t=t[:i]+row2+t[j:]
+# 2b. masa/ row: dopisek
+i=t.index('| `masa/` |'); j=t.index('\n',i)
+row=t[i:j]
+assert row.endswi
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix wording and verify SESJA-WZORCOWA row
+python3 - <<'EOF'
+p='CLAUDE.md'
+t=open(p,encoding='utf-8').read()
+old='(f) twoja propozycja z 12.10'
+assert t.count(old)==1
+t=t.replace(old,'(f) propozycja użytkownika z 12.10')
+open(p,'w',encoding='utf-8').write(t)
+i=t.index('| `SESJA-WZORCOWA.md` |'); print(t[i:t.index('\n',i)][:700])
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+| `SESJA-WZORCOWA.md` | **Czytać zaraz po `STOP.md` (249).** 8,5 tys. znaków: dziesięć przypadków z ruchem i powodem (wymiary i czas jako oś — 1–3, pojemnik — 4, potwierdzanie — 5, domysł opróżniony dowodem — 6, położenie dla Ø — 7, ścieżka w źródle i atrybucja — 8, pytanie z literatury — 9, reguły a procesy — 10) i „Sprawdzenie własnego wyniku” (dziewięć pytań, każde z odsyłaczem do przypadku). Nie rama i nie werdykty; nowy przypadek tylko, gdy pokazuje ruch, którego tam nie ma. |
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show step 12 in CLAUDE.md next steps
+sed -n '/^12\. \*\*α z progami/,/^\*\*Zamknięte na stałe/p' CLAUDE.md | cut -c1-600
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+12. **α z progami (§F0, krok 1 tam; zalecany).** Część rachunkowa stoi w literaturze (`F_γ(r_f)`, relacja dyspersyjna); pytaniem ramy jest rodzaj obiektu każdej części (kryterium 208). Zdanie do upadku: „każda część funkcji α — także kwarkowa przy małej rozdzielczości — jest relacją (ma drugi odczyt)”. (Zdanie z 243 miało znany wynik — 244.) **Czytać najpierw w całości: §F0, 208, 214, 218, R1d.** Pozostałe kroki α (relacja dwóch funkcji zespołu, drugi rząd, U(1) z porządku) — w §F0.
+
+**Zamknięte na stałe — nie wracać:** źródło logarytmu przez rozsiew i entropia względna na rozsiewie (170, 182, 184b, 186); pozostałe gałęzie w `STOP.md`.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Update CLAUDE.md next steps and map bullets
+python3 - <<'EOF'
+p='CLAUDE.md'
+t=open(p,encoding='utf-8').read()
+def rep(old,new):
+    global t
+    assert t.count(old)==1,old[:60]
+    t=t.replace(old,new)
+rep('**Czytać zaraz po `STOP.md` (249).** 8,5 tys. znaków: dziesięć','**Czytać zaraz po `STOP.md` (249).** 9 tys. znaków: dziesięć')
+old12=t[t.index('12. **α z progami (§F0, krok 1 tam; zalecany).**'):t.index('**Zamknięte na stałe — nie wracać:**')]
+new12='''12. **α z progami (§F0, krok 1 tam).** Część rachunkowa stoi w literaturze (`F_γ(r_f)`, relacja dyspersyjna); pytaniem ramy jest rodzaj obiektu każdej części (kryterium 208). Zdanie do upadku: „każda część funkcji α — także kwarkowa przy małej rozdzielczości — jest relacją (ma drugi odczyt)”. **Częściowo wykonane w 254–255** (pełny próg fermionowy, postać hadronowa); zostają dane 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+ok
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show structure of NASTEPNA-SESJA.md
+wc -c NASTEPNA-SESJA.md && grep -n '^#\|^\*\*\|^---' NASTEPNA-SESJA.md | cut -c1-150
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+8718 NASTEPNA-SESJA.md
+7:# Następny krok: twierdzenie o separatorach dla wag Johnstona — skoki po linkach i zatrzymania (krok 4, 171)
+9:**Jedyny otwarty krok z listy** (krok 9 odpadł w 240). Z dwóch rzeczy, które zostały w 171 — „inne wagi K_R” i „wersja
+13:## Skąd ten krok — tylko tyle, ile potrzeba
+31:**Dlaczego wagi Johnstona da się postawić bez gęstości (sprawdzone w tej sesji, na wzorach z pliku):** 168 pkt 1a i 169 —
+43:---
+45:## Czytać w całości, zanim cokolwiek
+53:---
+55:## Zdanie, które ma upaść
+76:---
+78:## Co niepewne — i tu jest najwięcej
+80:**241 może się nie przenosić.** Dla linków element z dołożony nad S widzi linkami tylko **maksymalne** elementy
+84:**Kierunek z `a·b`.** Kusi „masa przywraca rozróżnialność, bo dokłada wagi dalszym relacjom”. To jest hipoteza, nie
+87:**Hinrichsen–Kastrati (`exp(L)`, arXiv:2604.24812)** — cytowane w 171, nie sprawdzane w tej sesji. Przed użyciem
+90:**Świadkowie, nie dowód.** Losowe małe porządki (jak w `etap27`, `etap33`) wolno użyć do znalezienia kontrprzykładu albo
+93:---
+95:## Jak NIE robić — z zapisanych błędów tej sesji
+105:---
+107:## Na koniec tej sesji: nadpisz ten plik
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show top notes and writing rules of NASTEPNA-SESJA.md
+sed -n '1,6p;105,200p' NASTEPNA-SESJA.md
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #24 status
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+TaskUpdate: 
+
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+Updated task #25 status
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+> **Najpierw `SESJA-WZORCOWA.md`** (po `STOP.md`): jak wygląda praca — przypadki z ruchem i powodem; jej część „Sprawdzenie własnego wyniku” jeszcze raz przed każdym wpisem.
+
+> **Przed każdym zdaniem o `D`, `d`, osiach albo czasie jako wymiarze — w każdym kroku, a w kroku 12 (α z progami: pętle, całki po obrocie Wicka, `D`) na pewno — przeczytać w całości R1b-F (z D0 i Lematem 1) i R1c-F, potem §E pod regułą 185.** Powód (245–247, 8.10): wszystko, co potrzebne, stało w pliku, a i tak dwa razy poprawiałem zapis według litery (`d = 3`, `D`, „oś czasu”), bo czytałem R1b od Wniosku 1, bez D0, a zdanie użytkownika wziąłem jako regułę zamiast z niej wyprowadzić. Rozstrzyga rachunek: czy odczyt stoi na `x⁰` (składowa przy 𝟙 w `X = x⁰·𝟙 + x·σ`) policzonym jak czwarta oś.
+
+> **Stan 8.10: ten krok jest rozstrzygnięty** — rozwiązał go użytkownik poza sesją (`masa/linki-separatory-jadro.md`), sprawdzone i wpisane jako poprawka 242 (A11d, blok 171). Zdanie niżej upadło w obu częściach. **Ta wiadomość jest nieaktualna; następny krok nie jest jeszcze wybrany** (z 171 zostały exp(L) i wersja ilościowa — kroki 10, 11 w `CLAUDE.md`; po 243 doszedł krok 12: α z progami, opisany w §F0 pliku głównego) — wybiera użytkownik.
+
+---
+
+## Na koniec tej sesji: nadpisz ten plik
+
+Napisz tu pierwszą wiadomość do **następnej** sesji, o kroku, który będzie następny. Zasady, które sprawiają,
+że to działa — sprawdzone, nie wymyślone:
+
+- **jeden krok, jedna wiadomość** — nie lista wszystkiego otwartego;
+- **treś
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Measure section sizes for the next-session note
+python3 - <<'EOF'
+t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
+def size(a,b):
+    i=t.index(a); j=t.index(b,i+len(a)); return j-i
+print('R1f-1', size('### R1f-1. Działanie','### R1f-2. Energia'))
+print('F0 blok 269', size('**Próba wyprowadzenia `F_γ` z kontaktów','**Czego nie wolno:**'))
+print('267', size('**ODCZYT W PROCESIE','**TABELA „MASA I CZAS”'))
+print('268', size('**REGUŁA KOMPOZYCJI','**STOPNIE WZBUDZENIA'))
+print('177+179', size('**OBIEG NA PORZĄDKU','**REGUŁA KOMPOZYCJI'))
+p=open('masa/przyporzadkowanie realizacji dynamicznej.md',encoding='utf-8').read()
+print('przyp §13-19', size2:=p.index('## 20. Źródła')-p.index('## 13. Operator kontaktu'))
+w=open('masa/21-punkt-wznowienia-2026-10-05.md',encoding='utf-8').read()
+print('wznowienie aktualny', w.index('## Archiwum 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+R1f-1 10912
+F0 blok 269 1879
+267 3601
+268 2493
+177+179 17271
+przyp §13-19 139330
+wznowienie aktualny 7479
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Measure sizes of key sections of the large file
+python3 - <<'EOF'
+import re
+p=open('masa/przyporzadkowanie realizacji dynamicznej.md',encoding='utf-8').read()
+def sec(a,b):
+    s=p[p.index(a):p.index(b)]
+    return len(s), len(re.sub(r'```.*?```','',s,flags=re.S))
+print('§14', sec('## 14.','## 15.'))
+print('§18', sec('## 18.','## 19.'))
+print('§19', sec('## 19.','## 20.'))
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+§14 (14760, 13294)
+§18 (19637, 13076)
+§19 (22474, 15297)
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Rewrite NASTEPNA-SESJA.md for the next step
+python3 - <<'EOF'
+p='NASTEPNA-SESJA.md'
+t=open(p,encoding='utf-8').read()
+rules=t[t.index('## Na koniec tej sesji: nadpisz ten plik'):]
+note1='> **Najpierw `SESJA-WZORCOWA.md`** (po `STOP.md`): jak wygląda praca — dziesięć przypadków z ruchem i powodem; jej część „Sprawdzenie własnego wyniku” jeszcze raz przed każdym wpisem. Przypadek 10 jest nowy i dotyczy dokładnie tego kroku.\n\n'
+note2=t[t.index('> **Przed każdym zdaniem o `D`, `d`, osiach'):t.index('> **Stan 8.10')]
+new=note1+note2+'''# Następny krok (zalecany; wybiera użytkownik): skąd w relacjach 179 biorą się neutralne amplitudy kontaktów — czyli czy `F_γ` wychodzi z ramy (krok 13 w `CLAUDE.md`, luka 269)
+
+**Stan na 13.10.** Użytkownik prowadził 9–12.10 pracę z innym asystentem; 13.10 scalona jako 251–269 (rejestr; materiał w `masa
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+6641
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Fix quote attribution; verify stop-hook extraction still works
+python3 - <<'EOF'
+p='NASTEPNA-SESJA.md'
+t=open(p,encoding='utf-8').read()
+old='**Korekta użytkownika z 12.10, która ma obowiązywać od pierwszej wiadomości** (punkt wznowienia, dosłownie):'
+assert t.count(old)==1
+t=t.replace(old,'**Korekty użytkownika z 12.10, które mają obowiązywać od pierwszej wiadomości** (cytaty z notatki punktu wznowienia — omówienie tamtego asystenta, nie słowa użytkownika):')
+open(p,'w',encoding='utf-8').write(t)
+EOF
+bash narzedzia/stop.sh </dev/null 2>/dev/null | head -0; CLAUDE_PROJECT_DIR=$PWD; sed -n '/^## Sprawdzenie własnego wyniku/,/^\*Nowy przypadek/p' SESJA-WZORCOWA.md | sed '$d' | tail -4
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+9. **Czy porównuję reguły, czy procesy** — i czy nie ustalam od nowa podstaw, które mam stosować? (10)
+
+Jeśli na któreś nie umiem odpowiedzieć sekcją, wpisu nie ma. Zostaje sekcja do przeczytania w całości.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Check transcript header and tool usage
+head -12 rozmowa/claude-code-sesja-2026-10-07.md | cut -c1-600; python3 narzedzia/transkrypt.py --help 2>&1 | head -20
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+# Rozmowa w Claude Code — sesja 13 (7–8.10.2026) — zapis
+
+Przegląd poprawek po 210 na polecenie użytkownika („w ostatniej sesji rozpędziłeś się za bardzo”): Planck ≡ 2D ≡ Ø (227), przegląd 211–227 (228), korzeń v/m_P w 208 (229), po przeczytaniu zapisu CC 12 (230). Porządki pliku głównego (231–236). Krok 8 (237). Przegląd masa/ ponownie (238–239). Krok 9 wycofany (240): „jak dzik w kukurydzę”. Krok 4 (241). Rozwiązanie użytkownika (masa/linki-separatory-jadro.md) sprawdzone i wpisane (242). α jako funkcja — §F0 (243), przegląd (244). 155 i wymiary: 245 wycofało każde „d = 3” jako liczenie osi; 246 to cofn�
+
+---
+
+ ## [1] Użytkownik — 2026-10-07 05:45
+
+Na czym stanęło i pierwsze kroki
+
+&lt;details&gt;<summary>narzędzie</summary>
+
+usage: transkrypt.py [-h] [--tytul TYTUL] [--opis OPIS] [--jsonl JSONL] out
+
+positional arguments:
+  out
+
+options:
+  -h, --help     show this help message and exit
+  --tytul TYTUL
+  --opis OPIS
+  --jsonl JSONL
+````
+</details>
+
+## [218] Asystent — 2026-10-13 00:32
+
+Rejestr 264–269, `SESJA-WZORCOWA` (przypadek 10), `CLAUDE.md` i `NASTEPNA-SESJA.md` gotowe. Zostaje zapis sesji, kontrola i wypchnięcie.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Extract the previous transcript description
+python3 - <<'EOF'
+t=open('rozmowa/claude-code-sesja-2026-10-07.md',encoding='utf-8').read()
+i=t.index('\n\n')+2; j=t.index('\n',i)
+open('/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/opis_stary.txt','w').write(t[i:j])
+print(t[i:j][-600:])
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+e osi; 246 to cofnęło; 247 — kryterium wymiarowe wyprowadzone z definicji czasu i 3D oraz jej zapisu (X = x⁰·𝟙 + x·σ: czas to 𝟙, nie czwarta σ); 248 — obrót Wicka w §E zawężony do odczytu, NASTEPNA-SESJA z R1b-F/R1c-F, test na agencie bez kontekstu (5/5, z nazwanymi granicami). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Regenerate the session transcript with updated title and description
+OPIS_STARY=$(cat /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/opis_stary.txt | python3 -c "import sys; s=sys.stdin.read(); k=s.index(' Wiadomości użytkownika i odpowiedzi'); print(s[:k])") && python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-07.md --tytul 'Rozmowa w Claude Code — sesja 13 (7–13.10.2026) — zapis' --opis "$OPIS_STARY 249 — SESJA-WZORCOWA.md (krótka sesja o tym, jak ma wyglądać praca). 250 — 223 Z4: wartość 𝒢 zależy od bazy, istnienie granicy nie (zarzut użytkownika). Pytanie użytkownika o P5 (tomografia lokalna: różnica pary niesiona przez nic poza nią = cecha). 12–13.10: kontynuacja użytkownika z innym asystentem (9–12.10, folder masa/) przeczytana w całości, wszystkie skrypty uruchomione ponownie (wyniki identycz
 …[ucięto]
 ````
 </details>
