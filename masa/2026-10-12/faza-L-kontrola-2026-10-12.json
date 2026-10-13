@@ -1,0 +1,1032 @@
+{
+  "status": "PASS",
+  "exact_checks": 168,
+  "scope": "named additive-energy quantum readout",
+  "uniform_references": [
+    {
+      "L": 1,
+      "k": 1,
+      "overlap": "0",
+      "phase_signal": false
+    },
+    {
+      "L": 2,
+      "k": 1,
+      "overlap": "z/2",
+      "phase_signal": true
+    },
+    {
+      "L": 3,
+      "k": 1,
+      "overlap": "2*z/3",
+      "phase_signal": true
+    },
+    {
+      "L": 4,
+      "k": 1,
+      "overlap": "3*z/4",
+      "phase_signal": true
+    },
+    {
+      "L": 8,
+      "k": 1,
+      "overlap": "7*z/8",
+      "phase_signal": true
+    },
+    {
+      "L": 1,
+      "k": 2,
+      "overlap": "0",
+      "phase_signal": false
+    },
+    {
+      "L": 2,
+      "k": 2,
+      "overlap": "0",
+      "phase_signal": false
+    },
+    {
+      "L": 3,
+      "k": 2,
+      "overlap": "z**2/3",
+      "phase_signal": true
+    },
+    {
+      "L": 4,
+      "k": 2,
+      "overlap": "z**2/2",
+      "phase_signal": true
+    },
+    {
+      "L": 2,
+      "k": 3,
+      "overlap": "0",
+      "phase_signal": false
+    },
+    {
+      "L": 3,
+      "k": 3,
+      "overlap": "0",
+      "phase_signal": false
+    },
+    {
+      "L": 4,
+      "k": 3,
+      "overlap": "z**3/4",
+      "phase_signal": true
+    }
+  ],
+  "full_process_examples": [
+    {
+      "case": "uniform_L1_3_k1",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    },
+    {
+      "case": "uniform_L2_2_k1",
+      "correlator": "1/4",
+      "p_formula": "(q*(3*q + 40) + 3)/(64*q)",
+      "p_theta0_phase0": "23/32",
+      "p_thetapi_phase0": "17/32"
+    },
+    {
+      "case": "uniform_L2_3_k1",
+      "correlator": "1/3",
+      "p_formula": "(q*(q + 10) + 1)/(16*q)",
+      "p_theta0_phase0": "3/4",
+      "p_thetapi_phase0": "1/2"
+    },
+    {
+      "case": "uniform_L3_3_k1",
+      "correlator": "4/9",
+      "p_formula": "(q*(2*q + 15) + 2)/(24*q)",
+      "p_theta0_phase0": "19/24",
+      "p_thetapi_phase0": "11/24"
+    },
+    {
+      "case": "uniform_L2_3_k2",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    },
+    {
+      "case": "uniform_L3_3_k2",
+      "correlator": "1/9",
+      "p_formula": "(q*(q + 30) + 1)/(48*q)",
+      "p_theta0_phase0": "2/3",
+      "p_thetapi_phase0": "7/12"
+    },
+    {
+      "case": "uniform_L3_4_k3",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    },
+    {
+      "case": "phase_cancellation_L3_k1",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    },
+    {
+      "case": "phase_cancellation_L3_k2",
+      "correlator": "z**2/9",
+      "p_formula": "q*z**2/48 + 5/8 + 1/(48*q*z**2)",
+      "p_theta0_phase0": "2/3",
+      "p_thetapi_phase0": "7/12"
+    },
+    {
+      "case": "optimized_same_L3",
+      "correlator": "z/2",
+      "p_formula": "(q*z*(3*q*z + 20) + 3)/(32*q*z)",
+      "p_theta0_phase0": "13/16",
+      "p_thetapi_phase0": "7/16"
+    },
+    {
+      "case": "dephased_same_L3",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    },
+    {
+      "case": "correlated_refs_local_phase_absent",
+      "correlator": "z/2",
+      "p_formula": "(q*z*(3*q*z + 20) + 3)/(32*q*z)",
+      "p_theta0_phase0": "13/16",
+      "p_thetapi_phase0": "7/16"
+    },
+    {
+      "case": "same_correlated_populations_dephased",
+      "correlator": "0",
+      "p_formula": "5/8",
+      "p_theta0_phase0": "5/8",
+      "p_thetapi_phase0": "5/8"
+    }
+  ],
+  "energy_matching": [
+    {
+      "system_gap_in_ladder_steps": "1/2",
+      "matched_pairs": 0
+    },
+    {
+      "system_gap_in_ladder_steps": "sqrt(2)",
+      "matched_pairs": 0
+    },
+    {
+      "system_gap_in_ladder_steps": "1",
+      "matched_pairs": 5
+    },
+    {
+      "system_gap_in_ladder_steps": "2",
+      "matched_pairs": 4
+    }
+  ],
+  "checks": [
+    {
+      "name": "unitarity_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "unitarity_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "energy_conservation_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "complete_instrument_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "outcome_projector_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L1_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L4_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L8_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L1_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L2_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L4_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L2_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L3_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "uniform_overlap_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_instrument_phase_effect_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_conditional_preparation_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "preparation_probability_L4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "joint_prep_probability_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "operator_identity_for_all_joint_states_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "transfer_has_zero_total_energy_mode_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L1_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L2_2_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L2_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L3_3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L2_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L3_3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_uniform_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_uniform_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_uniform_L3_4_k3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_phase_cancellation_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_phase_cancellation_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_phase_cancellation_L3_k1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_phase_cancellation_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_phase_cancellation_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_phase_cancellation_L3_k2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_optimized_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_optimized_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_optimized_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_dephased_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_dephased_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_dephased_same_L3",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "same_energy_variance_uniform",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "same_energy_variance_phase_cancellation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "same_energy_distribution_after_phase_cancellation",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correlated_reference_local_p_diagonal",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correlated_reference_local_o_diagonal",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "correlated_reference_sharp_total_energy",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_correlated_refs_local_phase_absent",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_correlated_refs_local_phase_absent",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_correlated_refs_local_phase_absent",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "normalized_same_correlated_populations_dephased",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "relational_correlator_same_correlated_populations_dephased",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "full_readout_same_correlated_populations_dephased",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "global_phase_removed_same_response_correlated",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "global_phase_removed_same_response_product_uniform",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "matched_energy_pairs_gap_1/2",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "matched_energy_pairs_gap_sqrt(2)",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "matched_energy_pairs_gap_1",
+      "method": "exact",
+      "pass": true
+    },
+    {
+      "name": "matched_energy_pairs_gap_2",
+      "method": "exact",
+      "pass": true
+    }
+  ]
+}
