@@ -1052,7 +1052,7 @@ gdzie `ᾱ_f(M) = (1/3)∫₀¹dx(4 − 2x)[α₀ + δα_f(M(1−x)/√x)]`; M j
 
 **Proponowane kroki** (propozycje kierunków, nie kolejność z dowodu)
 
-1. **α z progami.** Zdanie do upadku: „każda część funkcji α — także kwarkowa przy małej rozdzielczości — jest relacją (ma drugi odczyt), żadna nie jest wielkością zależną od samego cięcia albo samej skali”. **Czytać w całości:** §F0, 208, 214, 218, R1d. Wykonane: pełny próg fermionowy (254) i postać hadronowa (255); zostają dane `R`, W, uzgodnienie schematów i wyższe rzędy.
+1. **α z progami.** Zdanie do upadku: „każda część funkcji α — także kwarkowa przy małej rozdzielczości — jest relacją (ma drugi odczyt), żadna nie jest wielkością zależną od samego cięcia albo samej skali”. **Czytać w całości:** §F0, 208, 214, 218, R1d. Wykonane: pełny próg fermionowy (254), postać hadronowa (255), część fermionowa jako przekształcenie przyczynowe stosunku dwóch odczytów przy W1–W3 (271); zostają część W (z podłużną), uzgodnienie schematów i wyższe rzędy.
 2. **α jako relacja dwóch funkcji zespołu:** rodzaj obiektu w sensie 208 i dopasowanie opisu z W i bez W; zestawienie wzorów go nie wykonuje.
 3. **Drugi rząd:** w wektorowym QED wykonane (261–262). Otwarte: pełny SM (słabe, Yukawy, hadrony, mieszane) oraz odczyt `ΣN_cQ⁴` i członu z α₃ w ramie, tak jak `−⅓` w 155.
 4. **Klasa, z której wychodzi `F_γ`** (271; luka 269 zawężona): zamiast rodziny kontaktów, stanu i profili zostały W1–W3 i most `ζ ↔ s`. Następny krok: `NASTEPNA-SESJA.md`.
