@@ -4,7 +4,7 @@
 
 # Następny krok (zalecany; wybiera użytkownik): skąd w relacjach 179 biorą się neutralne amplitudy kontaktów — czyli czy `F_γ` wychodzi z ramy (krok 13 w `CLAUDE.md`, luka 269)
 
-**Stan na 13.10.** Użytkownik prowadził 9–12.10 pracę z innym asystentem; 13.10 scalona jako 251–269 (rejestr; materiał w `masa/2026-10-09/`, `masa/01-…`, `masa/02-…`, `masa/2026-10-12/`, `masa/przyporzadkowanie realizacji dynamicznej.md`). Rozmów z tego okresu nie ma — ścieżką dla zdań użytkownika jest `masa/21-punkt-wznowienia-2026-10-05.md` i raporty. Alternatywy, jeśli użytkownik wybierze inaczej: krok 12 (α z progami — dane `R`, W), kroki 10–11 (171), obserwacja 14 (do decyzji użytkownika, nie do liczenia).
+**Stan na 13.10.** Użytkownik prowadził 9–12.10 pracę z innym asystentem; 13.10 scalona jako 251–269, a po niej, na polecenie użytkownika, wpisany most „zero absolutne i nieoznaczoność → dynamika” (270, R1a; dla tego kroku tylko tło) (rejestr; materiał w `masa/2026-10-09/`, `masa/01-…`, `masa/02-…`, `masa/2026-10-12/`, `masa/przyporzadkowanie realizacji dynamicznej.md`). Rozmów z tego okresu nie ma — ścieżką dla zdań użytkownika jest `masa/21-punkt-wznowienia-2026-10-05.md` i raporty. Alternatywy, jeśli użytkownik wybierze inaczej: krok 12 (α z progami — dane `R`, W), kroki 10–11 (171). Obserwacja 14 zamknięta wpisem 270.
 
 ## Skąd ten krok — tylko tyle, ile potrzeba
 
