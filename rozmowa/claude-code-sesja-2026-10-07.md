@@ -1,6 +1,6 @@
 # Rozmowa w Claude Code — sesja 13 (7–13.10.2026) — zapis
 
-Przegląd poprawek po 210 na polecenie użytkownika („w ostatniej sesji rozpędziłeś się za bardzo”): Planck ≡ 2D ≡ Ø (227), przegląd 211–227 (228), korzeń v/m_P w 208 (229), po przeczytaniu zapisu CC 12 (230). Porządki pliku głównego (231–236). Krok 8 (237). Przegląd masa/ ponownie (238–239). Krok 9 wycofany (240): „jak dzik w kukurydzę”. Krok 4 (241). Rozwiązanie użytkownika (masa/linki-separatory-jadro.md) sprawdzone i wpisane (242). α jako funkcja — §F0 (243), przegląd (244). 155 i wymiary: 245 wycofało każde „d = 3” jako liczenie osi; 246 to cofnęło; 247 — kryterium wymiarowe wyprowadzone z definicji czasu i 3D oraz jej zapisu (X = x⁰·𝟙 + x·σ: czas to 𝟙, nie czwarta σ); 248 — obrót Wicka w §E zawężony do odczytu, NASTEPNA-SESJA z R1b-F/R1c-F, test na agencie bez kontekstu (5/5, z nazwanymi granicami). 249 — SESJA-WZORCOWA.md (krótka sesja o tym, jak ma wyglądać praca). 250 — 223 Z4: wartość 𝒢 zależy od bazy, istnienie granicy nie (zarzut użytkownika). Pytanie użytkownika o P5 (tomografia lokalna: różnica pary niesiona przez nic poza nią = cecha). 12–13.10: kontynuacja użytkownika z innym asystentem (9–12.10, folder masa/) przeczytana w całości, wszystkie skrypty uruchomione ponownie (wyniki identyczne), nieoznaczoność Heisenberga odnaleziona w 258 i w raporcie globalnego więzu; scalenie jako 251–269: 264 scalenie i format, 265 dynamika z braku zera absolutnego i nieoznaczoności Heisenberga + pułapka 14, 266 obiekt wymaga domknięcia, 267 odczyt w procesie (WAY, faza w korelacji, L > k), 268 reguła kompozycji (jeden Gram, przekątna = wagi), 269 próba wyprowadzenia F_γ z kontaktów — wynik otwarty; SESJA-WZORCOWA przypadek 10 (reguły a procesy). 13.10, na końcu: most „zero absolutne i nieoznaczoność → dynamika” (użytkownik: nieoznaczoność ważniejsza i precyzyjniejsza, analogia WDW i Page–Wootters) rozwinięty i na polecenie użytkownika wpisany jako 270 — R1a (Σ Var = 3 − |r|² ≥ 2, całkowita oznaczoność poza B³; d = 1 wykluczone przez P0; Page–Wootters: v = −Cov = tempo, Mandelstam–Tamm), R1b-F, pułapka 14; etap35; odsyłacz [149] poprawiony na sesję CC 4. Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
+Przegląd poprawek po 210 na polecenie użytkownika („w ostatniej sesji rozpędziłeś się za bardzo”): Planck ≡ 2D ≡ Ø (227), przegląd 211–227 (228), korzeń v/m_P w 208 (229), po przeczytaniu zapisu CC 12 (230). Porządki pliku głównego (231–236). Krok 8 (237). Przegląd masa/ ponownie (238–239). Krok 9 wycofany (240): „jak dzik w kukurydzę”. Krok 4 (241). Rozwiązanie użytkownika (masa/linki-separatory-jadro.md) sprawdzone i wpisane (242). α jako funkcja — §F0 (243), przegląd (244). 155 i wymiary: 245 wycofało każde „d = 3” jako liczenie osi; 246 to cofnęło; 247 — kryterium wymiarowe wyprowadzone z definicji czasu i 3D oraz jej zapisu (X = x⁰·𝟙 + x·σ: czas to 𝟙, nie czwarta σ); 248 — obrót Wicka w §E zawężony do odczytu, NASTEPNA-SESJA z R1b-F/R1c-F, test na agencie bez kontekstu (5/5, z nazwanymi granicami). 249 — SESJA-WZORCOWA.md (krótka sesja o tym, jak ma wyglądać praca). 250 — 223 Z4: wartość 𝒢 zależy od bazy, istnienie granicy nie (zarzut użytkownika). Pytanie użytkownika o P5 (tomografia lokalna: różnica pary niesiona przez nic poza nią = cecha). 12–13.10: kontynuacja użytkownika z innym asystentem (9–12.10, folder masa/) przeczytana w całości, wszystkie skrypty uruchomione ponownie (wyniki identyczne), nieoznaczoność Heisenberga odnaleziona w 258 i w raporcie globalnego więzu; scalenie jako 251–269: 264 scalenie i format, 265 dynamika z braku zera absolutnego i nieoznaczoności Heisenberga + pułapka 14, 266 obiekt wymaga domknięcia, 267 odczyt w procesie (WAY, faza w korelacji, L > k), 268 reguła kompozycji (jeden Gram, przekątna = wagi), 269 próba wyprowadzenia F_γ z kontaktów — wynik otwarty; SESJA-WZORCOWA przypadek 10 (reguły a procesy). 13.10, na końcu: most „zero absolutne i nieoznaczoność → dynamika” (użytkownik: nieoznaczoność ważniejsza i precyzyjniejsza, analogia WDW i Page–Wootters) rozwinięty i na polecenie użytkownika wpisany jako 270 — R1a (Σ Var = 3 − |r|² ≥ 2, całkowita oznaczoność poza B³; d = 1 wykluczone przez P0; Page–Wootters: v = −Cov = tempo, Mandelstam–Tamm), R1b-F, pułapka 14; etap35; odsyłacz [149] poprawiony na sesję CC 4. Potem użytkownik wskazał raport masa/2026-10-09/globalny-wiez… §1 jako zapis analogii WDW/Page–Wootters z 9.10 — ścieżka dopisana do 270, pkt 4 zaostrzony (przy trzech więzach część-kubit ma 𝟙/2 i v_i = 1/4 przy dowolnym C), etap35 (7). Wiadomości użytkownika i odpowiedzi asystenta w całości; wywołania narzędzi skrócone; przypomnienia systemowe, wyniki hooków i wewnętrzne rozumowanie pominięte.
 
 ---
 
@@ -23783,7 +23783,7 @@ zostało: 0 0
 
 ````
 Bash: Check transcript for email and show working tree status
-grep -c '13pawel\.kus' rozmowa/claude-code-sesja-2026-10-07.md; git show HEAD:rozmowa/claude-code-sesja-2026-10-07.md | grep -c '13pawel\.kus'; git status --short
+grep -c '[e-mail]' rozmowa/claude-code-sesja-2026-10-07.md; git show HEAD:rozmowa/claude-code-sesja-2026-10-07.md | grep -c '[e-mail]'; git status --short
 ````
 </details>
 
@@ -23807,7 +23807,7 @@ D  masa/23-logika-relacyjna-v3.5.md
 
 ````
 Bash: Redact email in transcript; final checks of main file
-sed -i 's/13pawel\.kus@gmail\.com/[e-mail]/g' rozmowa/claude-code-sesja-2026-10-07.md && grep -c '13pawel\.kus' rozmowa/claude-code-sesja-2026-10-07.md; python3 - <<'EOF'
+sed -i 's/[e-mail]/[e-mail]/g' rozmowa/claude-code-sesja-2026-10-07.md && grep -c '[e-mail]' rozmowa/claude-code-sesja-2026-10-07.md; python3 - <<'EOF'
 # kontrola końcowa pliku głównego: tabele i pozostałości
 t=open('logika-relacyjna-v3.5.md',encoding='utf-8').read()
 import re
@@ -24954,6 +24954,372 @@ opis=opis[:k]+' 13.10, na końcu: most „zero absolutne i nieoznaczoność → 
 open('/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/opis_nowy.txt','w',encoding='utf-8').write(opis)
 EOF
 python3 narzedzia/transkrypt.py rozmowa/claude-code
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+rozmowa/claude-code-sesja-2026-10-07.md: 226 wiadomości (źródło /root/.claude/projects/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe.jsonl)
+[pominięte] 38
+[pominięte] 33
+[pominięte] 2
+[omitted] 2
+@gmail 6
+[e-mail] 3
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show contexts of terms to redact
+python3 - <<'EOF'
+import re
+p='rozmowa/claude-code-sesja-2026-10-07.md'
+t=open(p,encoding='utf-8').read()
+# show contexts briefly to choose replacements
+for pat in [r'[pominięte]', r'problem\w* czasu', r'[omitted]', r'[\w.+-]+@gmail\.com']:
+    ms=list(re.finditer(pat,t,re.I))
+    ctx=set()
+    for m in ms:
+        ctx.add(t[max(0,m.start()-60):m.end()+30].replace('\n',' '))
+    print('==',pat,len(ms))
+    for c in list(ctx)[:8]: print('  ',c)
+EOF
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+== [pominięte] 38
+   eak Polish;      - do not write the two terms named by the user [omitted] into files;      - no extern
+   =t.replace(a,b) low=t.lower(); print('zostało:', low.count('[pominięte]'), low.count('[pominięte]')
+   hař into files;\n     - no external evaluations in session' [pominięte] 1192187 'd dangling report re
+   med by the user into files [omitted]'),       ("grep -l -i '[wzorzec pominięty]'","grep -l -i
+    occurrences of the forbidden terms grep -n -i -o '.\{60\}\([wzorzec pominięty]\).\{60\}' rozm
+    HEAD:rozmowa/claude-code-sesja-2026-10-07.md | grep -c -i '[pominięte]' ```` &lt;/details&gt;  &lt;details&gt;<s
+   hař into files;\n     - no external evaluations in session' [pominięte] 830183 'ts (keep):\n     - sp
+         - nie wpisywać do plików dwóch określeń wskazanych przez użytkownika [pominięte];      - w zapisach sesji bez
+== problem\w* czasu 35
+   mowa/claude-code-sesja-2026-10-07.md; grep -n -i -o '.\{40\}[pominięte].\{40\}' rozmowa/claude-code-s
+   h <[e-mail]>\nDate:   Tue Oct 13 0' [pominięte] 0 [pominięte] 0 [pominięte] 0 [omitted] 0 13pawel 2
+       - rozmawiamy po polsku;\n     - nie wpisywać do plików dwóch określeń wskazanych przez użytkownika [pominięte];\n     -
+   183 'ts (keep):\n     - speak Polish;\n     - do not write the two terms named by the user [omitted] into file
+   (p,encoding='utf-8').read() reps=[('nie wpisywać do plików dwóch określeń wskazanych przez użytkownika [pominięte]','nie wp
+   : 13pawelkus-arch <[e-mail]>\nDate:   Tue Oct 13 0' [pominięte] 0 [pominięte] 0 [pominięte] 0 problem of
+   nstraints (keep):      - sp
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Redact forbidden terms and email from transcript
+cat > /tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/redakcja.py <<'EOF'
+import re, sys
+p=sys.argv[1]
+t=open(p,encoding='utf-8').read()
+specific=[
+ (r'dwóch określeń wskazanych przez użytkownika [pominięte]', 'dwóch określeń wskazanych przez użytkownika [pominięte]'),
+ (r'the two terms named by the user [omitted]', 'the two terms named by the user [omitted]'),
+ (r"[pominięte]\\+\|[pominięte]", '[wzorzec pominięty]'),
+]
+for a,b in specific: t=re.sub(a,b,t)
+t=re.sub(r'[pominięte]\w*','[pominięte]',t,flags=re.I)
+t=re.sub(r'problem\w* czasu','[pominięte]',t,flags=re.I)
+t=re.sub(r'[omitted]','[omitted]',t,flags=re.I)
+t=re.sub(r'[\w.+-]+@gmail\.com','[e-mail]',t)
+open(p,'w',encoding='utf-8').write(t)
+low=t.lower()
+print({w:low.count(w) for w in ['[pominięte]','[pominięte]','problemu czas
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+{'[pominięte]': 0, '[pominięte]': 0, '[pominięte]': 0, '[omitted]': 0, '@gmail': 3}
+ CLAUDE.md                               |    9 +-
+ NASTEPNA-SESJA.md                       |    2 +-
+ SESJA-WZORCOWA.md                       |    2 +-
+ logika-relacyjna-v3.5.md                |   15 +-
+ poprawki.md                             |    1 +
+ rozmowa/claude-code-sesja-2026-10-07.md | 1318 ++++++++++++++++++++++++++++++-
+ 6 files changed, 1332 insertions(+), 15 deletions(-)
+````
+</details>
+
+## [227] Asystent — 2026-10-13 00:53
+
+Zapis sesji jest odtworzony i oczyszczony. Zostały trzy wystąpienia „@gmail” — sprawdzam je.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Show remaining @gmail contexts
+grep -n -o '.\{50\}@gmail.\{20\}' rozmowa/claude-code-sesja-2026-10-07.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+18382:-code-sesja-2026-10-07.md | sed 's/[A-Za-z0-9._-]*@gmail\.com/<EMAIL>/g'; gi
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Confirm email absent; rerun etap35; status
+grep -c '[e-mail]' rozmowa/claude-code-sesja-2026-10-07.md; grep -rl '[e-mail]' --include=*.md . ; cd /home/user/Logika-relacyjna && python3 skrypty/etap35_nieoznaczonosc_dynamika.py && git status -sb | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+0
+./rozmowa/claude-code-sesja-2026-09-28.md
+{'status': 'PASS', 'kontrole': 20, 'v_przyklad': np.float64(0.180244891139)}
+## ccr-e3080631-0qjsjk...origin/ccr-e3080631-0qjsjk
+ M CLAUDE.md
+ M NASTEPNA-SESJA.md
+ M SESJA-WZORCOWA.md
+ M logika-relacyjna-v3.5.md
+ M poprawki.md
+ M rozmowa/claude-code-sesja-2026-10-07.md
+?? skrypty/etap35_nieoznaczonosc_dynamika.py
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Commit entry 270 and push to branch
+git add CLAUDE.md NASTEPNA-SESJA.md SESJA-WZORCOWA.md logika-relacyjna-v3.5.md poprawki.md rozmowa/claude-code-sesja-2026-10-07.md skrypty/etap35_nieoznaczonosc_dynamika.py && git commit -q -F - <<'EOF'
+Poprawka 270: nieoznaczoność, brak zera absolutnego i dynamika (R1a, R1b-F, pułapka 14)
+
+Most „zero absolutne i nieoznaczoność → dynamika” w zapisie R1b i Page'a–Woottersa,
+na polecenie użytkownika (nieoznaczoność ważniejsza i precyzyjniejsza):
+- Σ Var = 3 − |r|² ≥ 2, całkowita oznaczoność poza B³; d = 1 wykluczone przez P0;
+- v = Var(G_S) = −Cov = tempo zmiany odczytów części (Mandelstam–Tamm);
+- [?] [72] i [149] sesji CC 4 jako jeden punkt; odsyłacz w pułapce 14 poprawiony.
+Kontrola: skrypty/etap35 (20 kontroli). Rejestr, CLAUDE.md (krok 14 zamknięty),
+SESJA-WZORCOWA, NASTEPNA-SESJA, zapi
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+6668777..7f1d906  ccr-e3080631-0qjsjk -> ccr-e3080631-0qjsjk
+branch 'ccr-e3080631-0qjsjk' set up to track 'origin/ccr-e3080631-0qjsjk'.
+7f1d906 Poprawka 270: nieoznaczoność, brak zera absolutnego i dynamika (R1a, R1b-F, pułapka 14)
+````
+</details>
+
+## [228] Asystent — 2026-10-13 00:53
+
+Most jest wpisany jako poprawka 270 i wypchnięty na `ccr-e3080631-0qjsjk` (commit 7f1d906).
+
+**Co weszło do ramy.** W R1a, zaraz po bloku „Całość i części”, jest nowy blok. Otwiera go Twoje zdanie: z dwóch uzasadnień ważniejsza i precyzyjniejsza jest nieoznaczoność, w analogii do WDW i Page'a–Woottersa. Punkty:
+1. **Nieoznaczoność to kształt kuli stanów.** Dla trzech odczytów komplementarnych suma wariancji wynosi `3 − |r|²`, czyli co najmniej 2. Wszystkie trzy odczyty ostre naraz byłyby narożnikami sześcianu, a te leżą poza kulą B³. Brak zera absolutnego w sensie „całkowitej oznaczoności” jest więc dolną granicą nieoznaczoności, nie osobnym założeniem.
+2. **d = 1 to jedyny wymiar, w którym całkowita oznaczoność byłaby stanem.** Dokładnie ten przypadek wyklucza P0 (Ĥ|Ψ⟩ = 0, brak aktora z zewnątrz).
+3. **Page–Wootters.** Nieoznaczoność części, jej korelacja z resztą i tempo zmiany jej odczytów to ta sama liczba: `v = Var(G_S) = −Cov`. Tempo ogranicza Mandelstam–Tamm; w singlecie ta granica jest osiągnięta. Przy `v = 0` część stoi (sztywna migawka).
+4. **Dlaczego nieoznaczoność jest precyzyjniejsza.** Mówi, o ile, jak szybko i których odczytów dotyczy zmiana. Sam brak zera mówi tylko, że coś się zmienia.
+5. **[?] Oba końce to jeden punkt.** Zero absolutne to wszystkie `v = 0`, czyli brak korelacji z resztą. Wtedy „powrót do nieoznaczoności, do 2D” ([72]) i „całkowita oznaczoność” ([149] sesji CC 4) to ten sam punkt ≡ Ø. Ten odczyt podała już odpowiedź [152] w CC 4, tu dostaje tylko zapis — stąd [?].
+
+Blok ma też granice: most nie wybiera generatora ani wartości `v`. Dla stanów mieszanych `v > 0` nie wystarcza, potrzebna jest koherencja. θ jest wskazaniem zegara, nie osią.
+
+- **Test STOP.** Wpis zabrania uzasadniać dynamikę samym brakiem zera bez nieoznaczoności. Zabrania też czytać nieoznaczoność części jako szum z zewnątrz i wnioskować o bezruchu z jednego ostrego generatora. Pozwala mierzyć dynamikę części jej nieoznaczonością.
+- **Kontrola:** `skrypty/etap35_nieoznaczonosc_dynamika.py` — wszystkie 20 sprawdzeń przechodzi.
+
+**Pozostałe miejsca.** Punkt „Dynamika nie jest dołożona” odsyła teraz do 270, z nieoznaczonością jako ważniejszą. Przy d = 1 w R1b-F i w pułapce 14 doszedł dopisek. Zaktualizowane są też rejestr 270, `CLAUDE.md` (krok 14 zamknięty, mapa, indeks czasu, etap35), `SESJA-WZORCOWA.md` (jedno zdanie w „Skąd się biorą ruchy”), `NASTEPNA-SESJA.md` i zapis sesji. Z zapisu usunąłem dwa określenia, których nie wpisujemy, oraz adres e-mail.
+
+**Przy sprawdzaniu ścieżki wyszły dwie rzeczy:**
+- Cytat z [149] („przejście wszechświata do całkowitej oznaczoności”) pochodzi z sesji CC 4, nie z rozmowy źródłowej. Odsyłacz w pułapce 14, wpisany w 265, był więc zły — poprawiony.
+- Rozmowy, w której wcześniej padła analogia do WDW i Page'a–Woottersa, nie ma w żadnym zapisie. W rejestrze ścieżką są [72], [149] i [152] z CC 4, [402], [482] oraz 258 i 265.
+
+Twój adres e-mail stoi w starszym zapisie `rozmowa/claude-code-sesja-2026-09-28.md`, który był już w repozytorium. Mogę go tam zastąpić przez [e-mail], jeśli chcesz.
+
+Następny krok w `NASTEPNA-SESJA.md` to wciąż krok 13: wybór rodziny, modów i stanu z relacji 179 w drodze do `F_γ`.
+
+## [229] Użytkownik — 2026-10-13 00:57
+
+@"/root/.claude/uploads/a392f41b-7839-5a17-aee4-1e5bbea0eafe/e4ba099c-globalny-wiez-lokalne-fluktuacje-2026-10-09.md" chyba tutaj było o tej nieoznaczonosci
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Compare upload with repo copy; check main file for its limits
+f=$(ls masa/2026-10-09/ | grep -i globalny); echo "$f"; cmp "masa/2026-10-09/$f" /root/.claude/uploads/a392f41b-7839-5a17-aee4-1e5bbea0eafe/e4ba099c-globalny-wiez-lokalne-fluktuacje-2026-10-09.md && echo IDENTYCZNE; grep -n 'termodynami\|znormalizowan\|temperatur' logika-relacyjna-v3.5.md | cut -c1-220 | head; grep -n 'globalny-wiez' poprawki.md logika-relacyjna-v3.5.md | cut -c1-160 | head
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+globalny-wiez-lokalne-fluktuacje-2026-10-09.md
+IDENTYCZNE
+164:**CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawki 258, 265) [T][L][O].** Zapis formalny zdania wyżej: „dla całości t=0; wzbudzenia i relacje są lokalne” [270]. Argument o auton
+170:**Zero więzu a operator zerowy [T][L].** Dla znormalizowanego stanu i generatora o określonych drugich momentach `G|Ψ⟩=0` daje `⟨G⟩=0` oraz `Var(G)=0`; zeruje się działanie generatora na ten stan, nie cał
+176:Więz daje `Var(G_C)=Var(G_S)=v`, `Cov(G_C,G_S)=−v`, bez wymogu `v=0`. Przykład w algebrze R1b: singlet `( |01⟩−|10⟩ )/√2` jest zerowany przez wszystkie trzy `J_i=(σ_i⊗𝟙+𝟙⊗σ_i)/2` i niezmiennic
+215:- **Dynamika nie jest dołożona (poprawki 189, 258, 265, 270).** „Dynamika też nie jest dołożona, bo wynika z braku możliwości osiągnięcia zera absolutnego. Czyli zapewnia rozróżnialność.” **Uzasadnie
+230:**GRANICE Ø — RELACJA JEDNOSTRONNA.** Niech p ≥ 0 będzie parametrem, dla którego **p = 0 oznacza Ø** (czas własny na krok, okno odczytu, temperatura, 1 − v/c). Jest to granica wskazanej relacji odczytu; ni
+232:2. **Nieosiągalność:** żadna ciągła droga wewnątrz struktury nie kończy się w p = 0 — także dla temperatury: zero absolutne to brak możliwości pomiaru, nie najniższa temperatura ([83] sesji CC 5). **Sk
+242:| temperatura | nigdy 0 (zero absolutne = brak możliwości pomiaru) | [?] | [?] |
+439:| przyspieszenie, temperatura (A5d: Unruh, T_H = κ/2π, κ = lim(V·a)) | R1f-5 |
+681:- **Horyzont = brzeg odczytywalności**
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Read the Całość i części block in R1a
+sed -n '164,181p' logika-relacyjna-v3.5.md
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+**CAŁOŚĆ I CZĘŚCI — GLOBALNE ZERO NIE ZNOSI LOKALNYCH FLUKTUACJI (poprawki 258, 265) [T][L][O].** Zapis formalny zdania wyżej: „dla całości t=0; wzbudzenia i relacje są lokalne” [270]. Argument o autonomii dynamiki nie opiera się na trzeciej zasadzie termodynamiki:
+
+> „Symetria całości nie oznacza braku struktury wewnętrznej. Całość może mieć dokładnie zerowy generator i zerową nieoznaczoność tego generatora, a jej części nadal mogą mieć niezerowe fluktuacje, nieoznaczoność.”
+
+„Nieoznaczoność” znaczy tu nieoznaczoność odczytów komplementarnych (Heisenberg: wariancje części), **nie** 2D ≡ Ø z łańcucha — pułapka nazewnicza nr 14. Nierozróżnialność od Ø nie uprawnia do stwierdzenia wprost ani obecności, ani nieobecności czegoś w Ø; w drugą stronę to samo: „dynamika może być bez rozróżnienia, ale nie możemy powiedzieć, że ona jest bez tego rozróżnienia” — brak odczytu nie jest twierdzeniem o bezruchu. Rachunek niżej dotyczy nazwanych relacji części, nie zawartości Ø.
+
+**Zero więzu a operator zerowy [T][L].** Dla znormalizowanego stanu i generatora o określonych drugich momentach `G|Ψ⟩=0` daje `⟨G⟩=0` oraz `Var(G)=0`; zeruje się działanie generatora na ten stan, nie cały operator. Przy `G=G_C+G_S`, gdzie części komutują,
+
+$$
+0=\operatorname{Var}(G)=\operatorname{Var}(G_C)+\operatorname{Var}(G_S)+2\operatorname{Cov}(G_C,G_S).
+$$
+
+Więz daje `Var(G_C)=Var(G_S)=v`, `Cov(G_C,G_S)=−v`, bez wymogu `v=0`. Przykład w algebrze R1b: singlet `( |01⟩−|10⟩ )/√2` jest zerowany przez wszystkie tr
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Confirm CLAUDE.md contains 270 edits
+grep -c 'WPISANE — poprawka 270\|Potem (270)\|etap35' CLAUDE.md; git log --oneline -2
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+4
+7f1d906 Poprawka 270: nieoznaczoność, brak zera absolutnego i dynamika (R1a, R1b-F, pułapka 14)
+6668777 264–269: scalenie pracy użytkownika z 9–12.10 (251–263) z plikiem głównym; dynamika z braku zera absolutnego i nieoznaczoności Heisenberga (pułapka 14); obiekt wymaga domknięcia; odczyt w procesie; reguła kompozycji; F_γ z kontaktów — wynik otwarty
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Add check (7) to etap35 and rerun
+python3 - <<'EOF'
+p='skrypty/etap35_nieoznaczonosc_dynamika.py'
+t=open(p,encoding='utf-8').read()
+t=t.replace("#  (6) dla kubitu-czesci: sum_i Var(sigma_i/2) = (3 - |r|^2)/4 >= 1/2.\n",
+"#  (6) dla kubitu-czesci: sum_i Var(sigma_i/2) = (3 - |r|^2)/4 >= 1/2;\n#  (7) trzy wiezy J_i Psi = 0 (C dowolne, tu trzy kubity): stan czesci-kubitu = 1/2, v_i = 1/4 dla kazdego i\n#      (niezmienniczosc pod wspolnymi obrotami + Schur; na kartce, tu kontrola).\n")
+old="print({'status'"
+add='''# (7)
+sx = np.array([[0, 1], [1, 0]], complex); sy = np.array([[0, -1j], [1j, 0]]); sz = np.diag([1., -1.]).astype(complex)
+def op(m, k, n=4):
+    out = np.array([[1.]], complex)
+    for j in range(n):
+        out = np.kron(out, m if j == k else np.eye(2))
+    return out
+J = [sum(op(m/2, k) for k in range(4)) for m 
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+{'status': 'PASS', 'kontrole': 36, 'v_przyklad': np.float64(0.180244891139)}
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Sharpen point 4, add cross-refs, update register path
+python3 - <<'EOF'
+p='logika-relacyjna-v3.5.md'
+t=open(p,encoding='utf-8').read()
+reps=[
+('Całość: `Var(G) = 0` — bez nieoznaczoności i bez dynamiki.',
+ 'Całość: `Var(G) = 0` — w generatorze G bez nieoznaczoności i bez dynamiki (co nie jest ani operatorem zerowym, ani zerowaniem części — blok wyżej).'),
+('ale nie we wszystkich trzech naraz — dla części-kubitu `Σ_i Var(σ_i/2) = (3 − |r|²)/4 ≥ 1/2`; w sektorze z trzema więzami `J_iΨ = 0` jest więc zawsze generator z `v_i ≥ 1/6`.',
+ 'ale nie we wszystkich trzech naraz — dla części-kubitu `Σ_i Var(σ_i/2) = (3 − |r|²)/4 ≥ 1/2`. Przy trzech więzach `J_iΨ = 0` ostrość nie jest możliwa w żadnym: stan jest niezmienniczy pod wspólnymi obrotami, więc część-kubit ma stan `𝟙/2` i `v_i = 1/4` dla każdego i, przy dowolnym C (Schur; singlet w bloku wyżej t
+…[ucięto]
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+4. **Dlaczego nieoznaczoność jest precyzyjniejsza [O].** „Brak zera absolutnego” mówi tylko, że nie wszystkie `v` znikają. Nieoznaczoność mówi **ile** (`Σ Var ≥ 2`), **jak szybko** (Δ) i **których odczytów** to dotyczy: część może być ostra w jednym generatorze — wtedy względem tego zegara stoi — ale nie we wszystkich trzech naraz — dla części-kubitu `Σ_i Var(σ_i/
+5. **[?] Zero absolutne z dwóch stron — [72] i [149] sesji CC 4 to jeden punkt.** Odczyt „obie granice ≡ Ø, to samo Ø” podała już odpowiedź [152] sesji CC 4; tu dostaje zapis. W tym zapisie zero absolutne = wszystkie `v = 0`, czyli `Cov = 0`: każda część całkowicie określona (tamże: „przejście wszechświata do całkowitej oznaczoności”) i zarazem bez relacji z resztą w
+````
+</details>
+
+## [230] Asystent — 2026-10-13 00:59
+
+Poprawki w ramie i rejestrze są gotowe. Sprawdzam, czy słabsze „1/6” nie zostało gdzieś jeszcze, potem odświeżam zapis sesji i robię push.
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Retag point 4; search for leftover 1/6 claims
+sed -i 's/^4\. \*\*Dlaczego nieoznaczoność jest precyzyjniejsza \[O\]\.\*\*/4. **Dlaczego nieoznaczoność jest precyzyjniejsza [O][T].**/' logika-relacyjna-v3.5.md && grep -n 'precyzyjniejsza \[O\]\[T\]' logika-relacyjna-v3.5.md | cut -c1-60; grep -rn '1/6' CLAUDE.md SESJA-WZORCOWA.md NASTEPNA-SESJA.md logika-relacyjna-v3.5.md poprawki.md | grep -v 'ξ = 1/6\|xi\|Weyl' | cut -c1-160
+````
+</details>
+
+<details><summary>wynik</summary>
+
+````
+186:4. **Dlaczego nieoznaczoność jest precyzyjniejsza [O][
+CLAUDE.md:165:  - Wypisany (152–153): 3 sprzężenia (b = 41/6, −19/6, −7), Yukawy tylko jako stosunki (odczyt B, 166), λ; 19 odczytów.
+logika-relacyjna-v3.5.md:1081:| entropia SJ (1/6)·ln N (C4a.16) | — | liczba modów po cięciu | — | **artefakt procedury cięcia** (poprawka 51); pojemnik
+logika-relacyjna-v3.5.md:1096:| **funkcje** (policzone, bez dopasowania) | 3 sprzężenia: b = 41/6, −19/6, −7 (152); 9 Yukaw fermionów naładowanych **tyl
+logika-relacyjna-v3.5.md:1115:| U(1)_Y | **41/6** | fermiony 20/3 + Higgs 1/6 (ΣY² z hiperładunków A2) | **relacja** (b > 0, tylko ekranowanie) |
+logika-relacyjna-v3.5.md:1116:| SU(2) | **−19/6** | wektor −22/3 + fermiony 4 + Higgs 1/6 | **relacja relacji** |
+logika-relacyjna-v3.5.md:1290:      - **Dla `1/α_i` — i to jest rozstrzygnięcie całego kroku.** Z `1/α_i(t) = 1/α_i(0) − (b_i/2π)t` zero jest w **`t_*
+logika-relacyjna-v3.5.md:1654:- **Kiedy zegar przenosi fazę [T].** Faza przechodzi, gdy obsadzony odcinek odniesienia obejmuje pary poziomów o wymaganej róż
+logika-relacyjna-v3.5.md:2437:- **(b) Z obcięciem — NIEROZSTRZYGNIĘTE.** Wersja uproszczona (próg c√N/(4π) globalnie, próg względny lokalnie) dała S 
+logika-relacyjna-v3.5.md:2442:  - **Dopasowanie ważone (c=1, N=512…4096): S = (0,188 ± 0,065)·ln N.** Przewidywanie 1/6=0,167 → 0,3σ; 1/3=0,333 → 2,2�
+logika-relacyjna-v3.5.md:2444:  - **Status po małym przebiegu:** zgodny z 1/6, niezgodny z 1/3 na 2,2σ, ale **nie wniosek wg §E** — 
+…[ucięto]
+````
+</details>
+
+<details><summary>narzędzie</summary>
+
+````
+Bash: Regenerate and redact transcript, stage changes
+S=/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad && python3 - <<'EOF'
+S='/tmp/claude-0/-home-user-Logika-relacyjna/a392f41b-7839-5a17-aee4-1e5bbea0eafe/scratchpad/'
+o=open(S+'opis_nowy.txt',encoding='utf-8').read().rstrip()
+o+=' Potem użytkownik wskazał raport masa/2026-10-09/globalny-wiez… §1 jako zapis analogii WDW/Page–Wootters z 9.10 — ścieżka dopisana do 270, pkt 4 zaostrzony (przy trzech więzach część-kubit ma 𝟙/2 i v_i = 1/4 przy dowolnym C), etap35 (7).'
+open(S+'opis_nowy2.txt','w',encoding='utf-8').write(o)
+EOF
+python3 narzedzia/transkrypt.py rozmowa/claude-code-sesja-2026-10-07.md --tytul 'Rozmowa w Claude Code — sesja 13 (7–13.10.2026) — zapis' --opis "$(cat $S/opis_nowy2.txt)" 2>&1 | tail -1 && python3 $S/redakcja.py rozmowa/claude-cod
 …[ucięto]
 ````
 </details>

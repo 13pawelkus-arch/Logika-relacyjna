@@ -10,7 +10,9 @@
 #  (4) v = 0 (stan iloczynowy stanow wlasnych): stan warunkowy stały przy kazdym th;
 #  (5) Mandelstam–Tamm w singlecie (G_S = sigma3/2, Delta = 1/2): |<psi(0)|psi(th)>| = cos(th/2),
 #      ortogonalnosc dokladnie przy th = pi — granica osiagnieta;
-#  (6) dla kubitu-czesci: sum_i Var(sigma_i/2) = (3 - |r|^2)/4 >= 1/2.
+#  (6) dla kubitu-czesci: sum_i Var(sigma_i/2) = (3 - |r|^2)/4 >= 1/2;
+#  (7) trzy wiezy J_i Psi = 0 (C dowolne, tu trzy kubity): stan czesci-kubitu = 1/2, v_i = 1/4 dla kazdego i
+#      (niezmienniczosc pod wspolnymi obrotami + Schur; na kartce, tu kontrola).
 # Wymaga: sympy, numpy, scipy.
 import sympy as s
 import numpy as np
@@ -69,5 +71,24 @@ for th in (np.pi/3, np.pi/2, np.pi):
 # (6)
 half = sum((rho*(P/2)*(P/2)).trace() - ((rho*P/2).trace())**2 for P in (X, Y, Z))
 check('(6) suma Var(sigma_i/2) = (3 - |r|^2)/4', s.simplify(half - (3 - r1**2 - r2**2 - r3**2)/4) == 0)
+
+# (7)
+sx = np.array([[0, 1], [1, 0]], complex); sy = np.array([[0, -1j], [1j, 0]]); sz = np.diag([1., -1.]).astype(complex)
+def op(m, k, n=4):
+    out = np.array([[1.]], complex)
+    for j in range(n):
+        out = np.kron(out, m if j == k else np.eye(2))
+    return out
+J = [sum(op(m/2, k) for k in range(4)) for m in (sx, sy, sz)]
+J2 = sum(Ji @ Ji for Ji in J)
+w, V = np.linalg.eigh(J2)
+N0 = V[:, np.abs(w) < 1e-10]
+check('(7) sektor J = 0 dla 3 + 1 kubitow ma wymiar 2', N0.shape[1] == 2)
+for _ in range(5):
+    a = rng.normal(size=2) + 1j*rng.normal(size=2); P7 = N0 @ (a/np.linalg.norm(a))
+    check('(7) trzy wiezy', all(np.linalg.norm(Ji @ P7) < 1e-12 for Ji in J))
+    M = P7.reshape(8, 2); rS = M.T @ M.conj()
+    check('(7) stan czesci = 1/2', np.linalg.norm(rS - np.eye(2)/2) < 1e-12)
+    check('(7) v_i = 1/4', all(abs(var(op(m/2, 3), P7) - 0.25) < 1e-12 for m in (sx, sy, sz)))
 
 print({'status': 'PASS', 'kontrole': len(ok), 'v_przyklad': round(v, 12)})
